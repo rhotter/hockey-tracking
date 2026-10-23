@@ -6,6 +6,8 @@ The strongest observed candidate combines **SAM2 track fragments**, **OSNet appe
 
 ## Website
 
+[Open the public website](https://hockey-tracking-phi.vercel.app).
+
 The website is a **Next.js 16 / React 19** app deployed on **Vercel**, connected to this repository's `main` branch. Pull requests receive Vercel previews. GitHub Actions verifies the research release and Next.js production build.
 
 ```bash
