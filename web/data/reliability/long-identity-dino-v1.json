@@ -1,0 +1,2986 @@
+{
+  "id": "nbhl-long-identity-embedding-v1",
+  "kind": "embedding",
+  "models": [
+    {
+      "method": "parts",
+      "sampling_sets": {
+        "long-track-audit-v1": {
+          "pairs": 82,
+          "in_scope": 82,
+          "out_of_scope": 0,
+          "confusion": {
+            "same": {
+              "different": 9,
+              "same": 2
+            },
+            "different": {
+              "different": 39
+            },
+            "uncertain": {
+              "different": 31,
+              "same": 1
+            }
+          },
+          "supported_same": 2,
+          "incorrect_same": 0,
+          "unsupported_same": 1,
+          "same_recall_including_missing": 0.18181818181818182,
+          "merge_precision_known_references": 1.0,
+          "sources": {
+            "OLpK8enSjJs": {
+              "pairs": 32,
+              "in_scope": 32,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 1,
+                  "different": 2
+                },
+                "different": {
+                  "different": 14
+                },
+                "uncertain": {
+                  "different": 15
+                }
+              },
+              "supported_same": 1,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.3333333333333333,
+              "merge_precision_known_references": 1.0
+            },
+            "Z-tFHtxODsE": {
+              "pairs": 24,
+              "in_scope": 24,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 5,
+                  "same": 1
+                },
+                "different": {
+                  "different": 12
+                },
+                "uncertain": {
+                  "different": 5,
+                  "same": 1
+                }
+              },
+              "supported_same": 1,
+              "incorrect_same": 0,
+              "unsupported_same": 1,
+              "same_recall_including_missing": 0.16666666666666666,
+              "merge_precision_known_references": 1.0
+            },
+            "plDp2kPtk_g": {
+              "pairs": 26,
+              "in_scope": 26,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 2
+                },
+                "different": {
+                  "different": 13
+                },
+                "uncertain": {
+                  "different": 11
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            }
+          }
+        },
+        "sam2-long-audit-v1": {
+          "pairs": 34,
+          "in_scope": 34,
+          "out_of_scope": 0,
+          "confusion": {
+            "same": {
+              "same": 1,
+              "different": 6
+            },
+            "different": {
+              "different": 8
+            },
+            "uncertain": {
+              "different": 19
+            }
+          },
+          "supported_same": 1,
+          "incorrect_same": 0,
+          "unsupported_same": 0,
+          "same_recall_including_missing": 0.14285714285714285,
+          "merge_precision_known_references": 1.0,
+          "sources": {
+            "OLpK8enSjJs": {
+              "pairs": 9,
+              "in_scope": 9,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 1
+                },
+                "different": {
+                  "different": 1
+                },
+                "uncertain": {
+                  "different": 7
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            },
+            "Z-tFHtxODsE": {
+              "pairs": 12,
+              "in_scope": 12,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 1,
+                  "different": 3
+                },
+                "different": {
+                  "different": 3
+                },
+                "uncertain": {
+                  "different": 5
+                }
+              },
+              "supported_same": 1,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.25,
+              "merge_precision_known_references": 1.0
+            },
+            "plDp2kPtk_g": {
+              "pairs": 13,
+              "in_scope": 13,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 2
+                },
+                "different": {
+                  "different": 4
+                },
+                "uncertain": {
+                  "different": 7
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            }
+          }
+        }
+      },
+      "decisions": [
+        {
+          "id": "Z-tFHtxODsE-000",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-000-a",
+          "b": "Z-tFHtxODsE-000-b",
+          "similarity": 0.5762791633605957,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Matching team, blue helmet and leg protection, but no sufficiently clear complete number in both crops."
+        },
+        {
+          "id": "Z-tFHtxODsE-001",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-001-a",
+          "b": "Z-tFHtxODsE-001-b",
+          "similarity": 0.26497429609298706,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-helmet field player in A; dark-helmet field player by the goal in B, confirmed from raw context."
+        },
+        {
+          "id": "Z-tFHtxODsE-002",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-002-a",
+          "b": "Z-tFHtxODsE-002-b",
+          "similarity": 0.7734311819076538,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 89; matching blue helmet and white uniform."
+        },
+        {
+          "id": "Z-tFHtxODsE-003",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-003-a",
+          "b": "Z-tFHtxODsE-003-b",
+          "similarity": 0.7867635488510132,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 4; matching white helmet and dark uniform."
+        },
+        {
+          "id": "Z-tFHtxODsE-004",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-004-a",
+          "b": "Z-tFHtxODsE-004-b",
+          "similarity": 0.7604170441627502,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B shows 7; A number partly hidden and clothing similarities do not distinguish teammates."
+        },
+        {
+          "id": "Z-tFHtxODsE-005",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-005-a",
+          "b": "Z-tFHtxODsE-005-b",
+          "similarity": 0.7347403168678284,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 21; matching white helmet, red gloves and leg protection."
+        },
+        {
+          "id": "Z-tFHtxODsE-006",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-006-a",
+          "b": "Z-tFHtxODsE-006-b",
+          "similarity": 0.3437412977218628,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and blue helmet in A; opposing dark uniform in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-007",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-007-a",
+          "b": "Z-tFHtxODsE-007-b",
+          "similarity": 0.5076857805252075,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White helmet with dark uniform in A; dark helmet and different leg protection in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-008",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-008-a",
+          "b": "Z-tFHtxODsE-008-b",
+          "similarity": 0.22969411313533783,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A contains the white-uniform goalie with large leg pads; B is a white-uniform field player."
+        },
+        {
+          "id": "Z-tFHtxODsE-009",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-009-a",
+          "b": "Z-tFHtxODsE-009-b",
+          "similarity": 0.7209068536758423,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "White goalie mask, distinctive striped pads and blocker match; same goalie position and equipment."
+        },
+        {
+          "id": "Z-tFHtxODsE-010",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-010-a",
+          "b": "Z-tFHtxODsE-010-b",
+          "similarity": 0.250980943441391,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A is #33 with a black helmet; B has a white helmet and different equipment."
+        },
+        {
+          "id": "Z-tFHtxODsE-011",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-011-a",
+          "b": "Z-tFHtxODsE-011-b",
+          "similarity": 0.602799654006958,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform player in A is replaced by white #77 in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-012",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-012-a",
+          "b": "Z-tFHtxODsE-012-b",
+          "similarity": 0.7238888740539551,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B clearly shows 10; A front/shoulder digits are not sufficiently clear to establish identity from team colors and helmet."
+        },
+        {
+          "id": "Z-tFHtxODsE-013",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-013-a",
+          "b": "Z-tFHtxODsE-013-b",
+          "similarity": 0.5984842777252197,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform player in A; dark-uniform opponent in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-014",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-014-a",
+          "b": "Z-tFHtxODsE-014-b",
+          "similarity": 0.8086021542549133,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs clearly show 27 with white helmet, red gloves and matching leg protection."
+        },
+        {
+          "id": "Z-tFHtxODsE-015",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-015-a",
+          "b": "Z-tFHtxODsE-015-b",
+          "similarity": 0.8778125643730164,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs clearly show 18 with black helmet and matching white shoes/leg guards."
+        },
+        {
+          "id": "Z-tFHtxODsE-016",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-016-a",
+          "b": "Z-tFHtxODsE-016-b",
+          "similarity": 0.5920733213424683,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Same white uniform and dark helmet, but no clear matching number or uniquely distinguishing detail."
+        },
+        {
+          "id": "Z-tFHtxODsE-017",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-017-a",
+          "b": "Z-tFHtxODsE-017-b",
+          "similarity": 0.7411670684814453,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet and full dark leg guards in A; white helmet and exposed lower-leg socks in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-018",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-018-a",
+          "b": "Z-tFHtxODsE-018-b",
+          "similarity": 0.7350536584854126,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform player in A; target box in B is on the white-uniform opponent, confirmed in full-frame context."
+        },
+        {
+          "id": "Z-tFHtxODsE-019",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-019-a",
+          "b": "Z-tFHtxODsE-019-b",
+          "similarity": 0.8385806679725647,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Matching dark uniform and dark helmet; back digits are not sufficiently legible in both views."
+        },
+        {
+          "id": "Z-tFHtxODsE-020",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-020-a",
+          "b": "Z-tFHtxODsE-020-b",
+          "similarity": 0.62510085105896,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White goalie in A is replaced by dark-uniform field player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-021",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-021-a",
+          "b": "Z-tFHtxODsE-021-b",
+          "similarity": 0.6494956612586975,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform blue-helmet player in A; dark-uniform player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-022",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-022-a",
+          "b": "Z-tFHtxODsE-022-b",
+          "similarity": 0.48322415351867676,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White #17 in A; opposing dark-uniform player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-023",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-023-a",
+          "b": "Z-tFHtxODsE-023-b",
+          "similarity": 0.48419100046157837,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Same uniform/helmet colors, but no clear matching number in both crops."
+        },
+        {
+          "id": "plDp2kPtk_g-000",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-000-a",
+          "b": "plDp2kPtk_g-000-b",
+          "similarity": 0.7722729444503784,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and white/blue uniform match; B feet and full digits not visible enough to distinguish teammates."
+        },
+        {
+          "id": "plDp2kPtk_g-001",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-001-a",
+          "b": "plDp2kPtk_g-001-b",
+          "similarity": 0.4591827392578125,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red helmet and white #54 in A; white helmet and a different two-digit back number in B."
+        },
+        {
+          "id": "plDp2kPtk_g-002",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-002-a",
+          "b": "plDp2kPtk_g-002-b",
+          "similarity": 0.5029748678207397,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; white-uniform goalie with large pads in B."
+        },
+        {
+          "id": "plDp2kPtk_g-003",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-003-a",
+          "b": "plDp2kPtk_g-003-b",
+          "similarity": 0.5389209985733032,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform player in A; white #85 in B."
+        },
+        {
+          "id": "plDp2kPtk_g-004",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-004-a",
+          "b": "plDp2kPtk_g-004-b",
+          "similarity": 0.5149694085121155,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform player in A; white-uniform opponent in B."
+        },
+        {
+          "id": "plDp2kPtk_g-005",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-005-a",
+          "b": "plDp2kPtk_g-005-b",
+          "similarity": 0.7011917233467102,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and black leg guards match; number is not clearly readable in both."
+        },
+        {
+          "id": "plDp2kPtk_g-006",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-006-a",
+          "b": "plDp2kPtk_g-006-b",
+          "similarity": 0.4668596088886261,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and dark helmet match; no sufficiently clear number or unique equipment in both crops."
+        },
+        {
+          "id": "plDp2kPtk_g-007",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-007-a",
+          "b": "plDp2kPtk_g-007-b",
+          "similarity": 0.35312628746032715,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform field player with red helmet in A; goalie with large white pads in B."
+        },
+        {
+          "id": "plDp2kPtk_g-008",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-008-a",
+          "b": "plDp2kPtk_g-008-b",
+          "similarity": 0.7292677164077759,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform red-helmet player in A; red-uniform white-helmet #87 in B."
+        },
+        {
+          "id": "plDp2kPtk_g-009",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-009-a",
+          "b": "plDp2kPtk_g-009-b",
+          "similarity": 0.5267053246498108,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Striped-shirt referee in A; red-uniform player in B."
+        },
+        {
+          "id": "plDp2kPtk_g-010",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-010-a",
+          "b": "plDp2kPtk_g-010-b",
+          "similarity": 0.7412340641021729,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark shin guards and dark shoes in A; green shin guards in B."
+        },
+        {
+          "id": "plDp2kPtk_g-011",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-011-a",
+          "b": "plDp2kPtk_g-011-b",
+          "similarity": 0.6697375774383545,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Gray socks with exposed knees in A; large white/black leg guards in B."
+        },
+        {
+          "id": "plDp2kPtk_g-012",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-012-a",
+          "b": "plDp2kPtk_g-012-b",
+          "similarity": 0.796326756477356,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "plDp2kPtk_g-013",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-013-a",
+          "b": "plDp2kPtk_g-013-b",
+          "similarity": 0.61727374792099,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, dark helmet and white socks match, but no readable number or sufficiently distinctive detail in both."
+        },
+        {
+          "id": "plDp2kPtk_g-014",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-014-a",
+          "b": "plDp2kPtk_g-014-b",
+          "similarity": 0.4735356569290161,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and red uniform match; back number only visible in B."
+        },
+        {
+          "id": "plDp2kPtk_g-015",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-015-a",
+          "b": "plDp2kPtk_g-015-b",
+          "similarity": 0.7259106040000916,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Goalie with large tan/red pads in A; white/black leg equipment in B."
+        },
+        {
+          "id": "plDp2kPtk_g-016",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-016-a",
+          "b": "plDp2kPtk_g-016-b",
+          "similarity": 0.6608276963233948,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and red uniform in A, matching leg equipment in B, but B is partly obscured and no number is readable in both."
+        },
+        {
+          "id": "plDp2kPtk_g-017",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-017-a",
+          "b": "plDp2kPtk_g-017-b",
+          "similarity": 0.44056397676467896,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Dark helmet and red uniform match; A bent over hides number, B shows #3."
+        },
+        {
+          "id": "plDp2kPtk_g-018",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-018-a",
+          "b": "plDp2kPtk_g-018-b",
+          "similarity": 0.622002363204956,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and dark helmet in A; red uniform and white helmet in B."
+        },
+        {
+          "id": "plDp2kPtk_g-019",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-019-a",
+          "b": "plDp2kPtk_g-019-b",
+          "similarity": 0.6104260087013245,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and dark helmet match; legs partly obscured and no readable number in both."
+        },
+        {
+          "id": "plDp2kPtk_g-020",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-020-a",
+          "b": "plDp2kPtk_g-020-b",
+          "similarity": 0.8000979423522949,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark green helmet, distinctive vertically striped shorts and white/black leg guards in both; B back number visible."
+        },
+        {
+          "id": "plDp2kPtk_g-021",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-021-a",
+          "b": "plDp2kPtk_g-021-b",
+          "similarity": 0.6749151349067688,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white socks match but number and distinctive identity evidence are insufficient."
+        },
+        {
+          "id": "plDp2kPtk_g-022",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-022-a",
+          "b": "plDp2kPtk_g-022-b",
+          "similarity": 0.37231680750846863,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; no legible number in both and B lower body missing."
+        },
+        {
+          "id": "plDp2kPtk_g-023",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-023-a",
+          "b": "plDp2kPtk_g-023-b",
+          "similarity": 0.6678335666656494,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching white helmet, distinctive purple shoes, exposed knees and black shin guards in both close observations."
+        },
+        {
+          "id": "plDp2kPtk_g-024",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-024-a",
+          "b": "plDp2kPtk_g-024-b",
+          "similarity": 0.7228697538375854,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White shin protection in A; dark shin protection with blue ankle socks in B."
+        },
+        {
+          "id": "plDp2kPtk_g-025",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-025-a",
+          "b": "plDp2kPtk_g-025-b",
+          "similarity": 0.6034545302391052,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; lower body cropped and no number readable in both."
+        },
+        {
+          "id": "OLpK8enSjJs-000",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-000-a",
+          "b": "OLpK8enSjJs-000-b",
+          "similarity": 0.6935352087020874,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet, white uniform and white/black shin guards match; A jersey number is not readable."
+        },
+        {
+          "id": "OLpK8enSjJs-001",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-001-a",
+          "b": "OLpK8enSjJs-001-b",
+          "similarity": 0.4033605456352234,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform dark-helmet player in A; white-uniform white-helmet opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-002",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-002-a",
+          "b": "OLpK8enSjJs-002-b",
+          "similarity": 0.6715864539146423,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White helmet with white shin guards in A; dark helmet and dark shin guards in B."
+        },
+        {
+          "id": "OLpK8enSjJs-003",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-003-a",
+          "b": "OLpK8enSjJs-003-b",
+          "similarity": 0.6657407879829407,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet in A; white helmet in B."
+        },
+        {
+          "id": "OLpK8enSjJs-004",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-004-a",
+          "b": "OLpK8enSjJs-004-b",
+          "similarity": 0.5069848299026489,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform in both; B overlaps a white player and helmet/number evidence is insufficient."
+        },
+        {
+          "id": "OLpK8enSjJs-005",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-005-a",
+          "b": "OLpK8enSjJs-005-b",
+          "similarity": 0.5222314596176147,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-006",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-006-a",
+          "b": "OLpK8enSjJs-006-b",
+          "similarity": 0.6602462530136108,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, dark helmet and dark leg protection match; no readable number in both."
+        },
+        {
+          "id": "OLpK8enSjJs-007",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-007-a",
+          "b": "OLpK8enSjJs-007-b",
+          "similarity": 0.6475287675857544,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and short socks match; B overlaps teammate and both full numbers are not readable."
+        },
+        {
+          "id": "OLpK8enSjJs-008",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-008-a",
+          "b": "OLpK8enSjJs-008-b",
+          "similarity": 0.5254755020141602,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white/black leg guards match, but no readable number in both."
+        },
+        {
+          "id": "OLpK8enSjJs-009",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-009-a",
+          "b": "OLpK8enSjJs-009-b",
+          "similarity": 0.6627779006958008,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and dark shin guards match; only A back number is legible."
+        },
+        {
+          "id": "OLpK8enSjJs-010",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-010-a",
+          "b": "OLpK8enSjJs-010-b",
+          "similarity": 0.657773494720459,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; blur prevents a clear comparison of number and leg equipment."
+        },
+        {
+          "id": "OLpK8enSjJs-011",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-011-a",
+          "b": "OLpK8enSjJs-011-b",
+          "similarity": 0.4588940739631653,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; red-uniform goalie with large pads in B."
+        },
+        {
+          "id": "OLpK8enSjJs-012",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-012-a",
+          "b": "OLpK8enSjJs-012-b",
+          "similarity": 0.3510589599609375,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform goalie with large pads in A; red-uniform field player in B."
+        },
+        {
+          "id": "OLpK8enSjJs-013",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-013-a",
+          "b": "OLpK8enSjJs-013-b",
+          "similarity": 0.6226328611373901,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin protection match; both jersey numbers are not legible."
+        },
+        {
+          "id": "OLpK8enSjJs-014",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-014-a",
+          "b": "OLpK8enSjJs-014-b",
+          "similarity": 0.39003628492355347,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match, but blur obscures identifying digits and equipment detail."
+        },
+        {
+          "id": "OLpK8enSjJs-015",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-015-a",
+          "b": "OLpK8enSjJs-015-b",
+          "similarity": 0.3588064908981323,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform goalie with large pads in A; white-uniform field player in B."
+        },
+        {
+          "id": "OLpK8enSjJs-016",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-016-a",
+          "b": "OLpK8enSjJs-016-b",
+          "similarity": 0.6403288245201111,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform in A; red-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-017",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-017-a",
+          "b": "OLpK8enSjJs-017-b",
+          "similarity": 0.5640417337417603,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B heavily blurred and digits unreadable."
+        },
+        {
+          "id": "OLpK8enSjJs-018",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-018-a",
+          "b": "OLpK8enSjJs-018-b",
+          "similarity": 0.5798195004463196,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-019",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-019-a",
+          "b": "OLpK8enSjJs-019-b",
+          "similarity": 0.6866486072540283,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark shin guards in A; white guards with dark straps in B."
+        },
+        {
+          "id": "OLpK8enSjJs-020",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-020-a",
+          "b": "OLpK8enSjJs-020-b",
+          "similarity": 0.572864294052124,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet and white/black leg guards in A; white helmet and dark leg guards in B."
+        },
+        {
+          "id": "OLpK8enSjJs-021",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-021-a",
+          "b": "OLpK8enSjJs-021-b",
+          "similarity": 0.4531358778476715,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-022",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-022-a",
+          "b": "OLpK8enSjJs-022-b",
+          "similarity": 0.9066647291183472,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching dark helmet, red shorts with dark side panel, white knee protection and three dark shin straps; same clear equipment configuration in both."
+        },
+        {
+          "id": "OLpK8enSjJs-023",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-023-a",
+          "b": "OLpK8enSjJs-023-b",
+          "similarity": 0.6360495090484619,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and dark socks match; back digits in B are too small to confirm the same number."
+        },
+        {
+          "id": "OLpK8enSjJs-024",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-024-a",
+          "b": "OLpK8enSjJs-024-b",
+          "similarity": 0.6177883148193359,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Light-colored shin protection in A; solid dark shin protection in B."
+        },
+        {
+          "id": "OLpK8enSjJs-025",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-025-a",
+          "b": "OLpK8enSjJs-025-b",
+          "similarity": 0.442334920167923,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Multiple overlapping white-uniform players; exact central identity cannot be resolved confidently across the crops."
+        },
+        {
+          "id": "OLpK8enSjJs-026",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-026-a",
+          "b": "OLpK8enSjJs-026-b",
+          "similarity": 0.3738822042942047,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; number and equipment are too blurred to establish identity."
+        },
+        {
+          "id": "OLpK8enSjJs-027",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-027-a",
+          "b": "OLpK8enSjJs-027-b",
+          "similarity": 0.7029733657836914,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both clearly show red #77 with dark helmet and matching dark shin guards."
+        },
+        {
+          "id": "OLpK8enSjJs-028",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-028-a",
+          "b": "OLpK8enSjJs-028-b",
+          "similarity": 0.6732208728790283,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin guards match; no readable number or sufficiently unique feature in both."
+        },
+        {
+          "id": "OLpK8enSjJs-029",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-029-a",
+          "b": "OLpK8enSjJs-029-b",
+          "similarity": 0.5821607112884521,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red goalie with large tan pads in A; red field player wearing a yellow helmet in B."
+        },
+        {
+          "id": "OLpK8enSjJs-030",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-030-a",
+          "b": "OLpK8enSjJs-030-b",
+          "similarity": 0.6796045303344727,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and white/black shin guards match; identifying digits are unclear."
+        },
+        {
+          "id": "OLpK8enSjJs-031",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-031-a",
+          "b": "OLpK8enSjJs-031-b",
+          "similarity": 0.6017881631851196,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching distinctive purple full-length socks, pink shoes and white helmet in both observations."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-000",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-000-a",
+          "b": "sam2-Z-tFHtxODsE-000-b",
+          "similarity": 0.5300593972206116,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Both dark uniforms and light helmets, but no legible matching number or distinct equipment."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-001",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-001-a",
+          "b": "sam2-Z-tFHtxODsE-001-b",
+          "similarity": 0.8338039517402649,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both clearly white #5 with blue helmet, matching shorts and black shin straps."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-002",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-002-a",
+          "b": "sam2-Z-tFHtxODsE-002-b",
+          "similarity": 0.540217936038971,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform goalie with large pads in A; white-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-003",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-003-a",
+          "b": "sam2-Z-tFHtxODsE-003-b",
+          "similarity": 0.7791942358016968,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark back number, white long socks, blue uniform stripes and light shoes in both."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-004",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-004-a",
+          "b": "sam2-Z-tFHtxODsE-004-b",
+          "similarity": 0.41205963492393494,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "A lacks readable digits and much of lower body; white uniform alone is insufficient."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-005",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-005-a",
+          "b": "sam2-Z-tFHtxODsE-005-b",
+          "similarity": 0.6682459712028503,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "A shows #40 on shorts; B shows #40 on back with matching blue helmet and red shoes."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-006",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-006-a",
+          "b": "sam2-Z-tFHtxODsE-006-b",
+          "similarity": 0.47734397649765015,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark goalie with large pads in A; dark-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-007",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-007-a",
+          "b": "sam2-Z-tFHtxODsE-007-b",
+          "similarity": 0.5912914276123047,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Dark uniform in both; B is too motion-blurred to establish identity."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-008",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-008-a",
+          "b": "sam2-Z-tFHtxODsE-008-b",
+          "similarity": 0.48771870136260986,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark goalie with large pads in A; dark-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-009",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-009-a",
+          "b": "sam2-Z-tFHtxODsE-009-b",
+          "similarity": 0.4680269956588745,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform in both; A overlaps another player and identifying number/equipment are insufficiently clear."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-010",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-010-a",
+          "b": "sam2-Z-tFHtxODsE-010-b",
+          "similarity": 0.29923567175865173,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Partial torso in A and overlapping players in B do not establish identity."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-011",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-011-a",
+          "b": "sam2-Z-tFHtxODsE-011-b",
+          "similarity": 0.6120144128799438,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark goalie helmet, jersey, tan leg pads, gloves and blocker in both."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-000",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-000-a",
+          "b": "sam2-plDp2kPtk_g-000-b",
+          "similarity": 0.6019300818443298,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching white-uniform goalie with large plain white pads, blocker and glove; no conflicting equipment."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-001",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-001-a",
+          "b": "sam2-plDp2kPtk_g-001-b",
+          "similarity": 0.5197261571884155,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A has dark lower-leg covering beneath red #26; B has white/black shin protection and bright red shoes."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-002",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-002-a",
+          "b": "sam2-plDp2kPtk_g-002-b",
+          "similarity": 0.5822850465774536,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; A back number and legs are not visible."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-003",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-003-a",
+          "b": "sam2-plDp2kPtk_g-003-b",
+          "similarity": 0.7001088261604309,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; A legs obscured and neither number clearly established in both."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-004",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-004-a",
+          "b": "sam2-plDp2kPtk_g-004-b",
+          "similarity": 0.5862177014350891,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform field player in A; red-uniform #5 in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-005",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-005-a",
+          "b": "sam2-plDp2kPtk_g-005-b",
+          "similarity": 0.2927667498588562,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; digits not visible and equipment partly obscured."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-006",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-006-a",
+          "b": "sam2-plDp2kPtk_g-006-b",
+          "similarity": 0.5288889408111572,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and white helmet in A; red uniform and red helmet in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-007",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-007-a",
+          "b": "sam2-plDp2kPtk_g-007-b",
+          "similarity": 0.5754684805870056,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; only B back number is visible."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-008",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-008-a",
+          "b": "sam2-plDp2kPtk_g-008-b",
+          "similarity": 0.691131591796875,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark shoes and mostly white shin protection in A; bright pink shoes and different banded shin protection in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-009",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-009-a",
+          "b": "sam2-plDp2kPtk_g-009-b",
+          "similarity": 0.5565468072891235,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Matching red uniform and white helmet; A identifying digits hidden and lower legs incomplete."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-010",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-010-a",
+          "b": "sam2-plDp2kPtk_g-010-b",
+          "similarity": 0.7344790101051331,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B back digits too faint to compare reliably."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-011",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-011-a",
+          "b": "sam2-plDp2kPtk_g-011-b",
+          "similarity": 0.6845788359642029,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching distinctive bright pink shoes, white shin protection with dark bands, white helmet and red uniform."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-012",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-012-a",
+          "b": "sam2-plDp2kPtk_g-012-b",
+          "similarity": 0.7141678333282471,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; no number readable in both and lower-leg details insufficient."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-000",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-000-a",
+          "b": "sam2-OLpK8enSjJs-000-b",
+          "similarity": 0.5114644765853882,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; no complete number readable in both."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-001",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-001-a",
+          "b": "sam2-OLpK8enSjJs-001-b",
+          "similarity": 0.47162508964538574,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform player in A; red-uniform opponent in B."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-002",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-002-a",
+          "b": "sam2-OLpK8enSjJs-002-b",
+          "similarity": 0.42826831340789795,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B is mostly outside the image; identity cannot be resolved."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-003",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-003-a",
+          "b": "sam2-OLpK8enSjJs-003-b",
+          "similarity": 0.6373342275619507,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching white-uniform goalie with large light pads and dark outer pad edges; distinctive goalie equipment visible in both."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-004",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-004-a",
+          "b": "sam2-OLpK8enSjJs-004-b",
+          "similarity": 0.7385389804840088,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; strong motion blur hides identifying details."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-005",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-005-a",
+          "b": "sam2-OLpK8enSjJs-005-b",
+          "similarity": 0.3736990988254547,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; only A has a clearly readable back number."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-006",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-006-a",
+          "b": "sam2-OLpK8enSjJs-006-b",
+          "similarity": 0.6286332607269287,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin guards match; no number readable in both and equipment is shared by teammates."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-007",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-007-a",
+          "b": "sam2-OLpK8enSjJs-007-b",
+          "similarity": 0.28808119893074036,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B lower body is obscured and digits are unreadable."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-008",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-008-a",
+          "b": "sam2-OLpK8enSjJs-008-b",
+          "similarity": 0.6770191192626953,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet, white socks and dark knee guards match, but no number readable in both and generic equipment does not establish identity."
+        }
+      ]
+    },
+    {
+      "method": "whole",
+      "sampling_sets": {
+        "long-track-audit-v1": {
+          "pairs": 82,
+          "in_scope": 82,
+          "out_of_scope": 0,
+          "confusion": {
+            "same": {
+              "different": 8,
+              "same": 3
+            },
+            "different": {
+              "different": 39
+            },
+            "uncertain": {
+              "different": 31,
+              "same": 1
+            }
+          },
+          "supported_same": 3,
+          "incorrect_same": 0,
+          "unsupported_same": 1,
+          "same_recall_including_missing": 0.2727272727272727,
+          "merge_precision_known_references": 1.0,
+          "sources": {
+            "OLpK8enSjJs": {
+              "pairs": 32,
+              "in_scope": 32,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 1,
+                  "different": 2
+                },
+                "different": {
+                  "different": 14
+                },
+                "uncertain": {
+                  "different": 15
+                }
+              },
+              "supported_same": 1,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.3333333333333333,
+              "merge_precision_known_references": 1.0
+            },
+            "Z-tFHtxODsE": {
+              "pairs": 24,
+              "in_scope": 24,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 4,
+                  "same": 2
+                },
+                "different": {
+                  "different": 12
+                },
+                "uncertain": {
+                  "different": 5,
+                  "same": 1
+                }
+              },
+              "supported_same": 2,
+              "incorrect_same": 0,
+              "unsupported_same": 1,
+              "same_recall_including_missing": 0.3333333333333333,
+              "merge_precision_known_references": 1.0
+            },
+            "plDp2kPtk_g": {
+              "pairs": 26,
+              "in_scope": 26,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 2
+                },
+                "different": {
+                  "different": 13
+                },
+                "uncertain": {
+                  "different": 11
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            }
+          }
+        },
+        "sam2-long-audit-v1": {
+          "pairs": 34,
+          "in_scope": 34,
+          "out_of_scope": 0,
+          "confusion": {
+            "same": {
+              "different": 7
+            },
+            "different": {
+              "different": 8
+            },
+            "uncertain": {
+              "different": 19
+            }
+          },
+          "supported_same": 0,
+          "incorrect_same": 0,
+          "unsupported_same": 0,
+          "same_recall_including_missing": 0.0,
+          "merge_precision_known_references": null,
+          "sources": {
+            "OLpK8enSjJs": {
+              "pairs": 9,
+              "in_scope": 9,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 1
+                },
+                "different": {
+                  "different": 1
+                },
+                "uncertain": {
+                  "different": 7
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            },
+            "Z-tFHtxODsE": {
+              "pairs": 12,
+              "in_scope": 12,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 4
+                },
+                "different": {
+                  "different": 3
+                },
+                "uncertain": {
+                  "different": 5
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            },
+            "plDp2kPtk_g": {
+              "pairs": 13,
+              "in_scope": 13,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "different": 2
+                },
+                "different": {
+                  "different": 4
+                },
+                "uncertain": {
+                  "different": 7
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            }
+          }
+        }
+      },
+      "decisions": [
+        {
+          "id": "Z-tFHtxODsE-000",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-000-a",
+          "b": "Z-tFHtxODsE-000-b",
+          "similarity": 0.6862562298774719,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Matching team, blue helmet and leg protection, but no sufficiently clear complete number in both crops."
+        },
+        {
+          "id": "Z-tFHtxODsE-001",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-001-a",
+          "b": "Z-tFHtxODsE-001-b",
+          "similarity": 0.2756962180137634,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-helmet field player in A; dark-helmet field player by the goal in B, confirmed from raw context."
+        },
+        {
+          "id": "Z-tFHtxODsE-002",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-002-a",
+          "b": "Z-tFHtxODsE-002-b",
+          "similarity": 0.8277863264083862,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 89; matching blue helmet and white uniform."
+        },
+        {
+          "id": "Z-tFHtxODsE-003",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-003-a",
+          "b": "Z-tFHtxODsE-003-b",
+          "similarity": 0.8654202222824097,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 4; matching white helmet and dark uniform."
+        },
+        {
+          "id": "Z-tFHtxODsE-004",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-004-a",
+          "b": "Z-tFHtxODsE-004-b",
+          "similarity": 0.8217977285385132,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B shows 7; A number partly hidden and clothing similarities do not distinguish teammates."
+        },
+        {
+          "id": "Z-tFHtxODsE-005",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-005-a",
+          "b": "Z-tFHtxODsE-005-b",
+          "similarity": 0.9204221963882446,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 21; matching white helmet, red gloves and leg protection."
+        },
+        {
+          "id": "Z-tFHtxODsE-006",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-006-a",
+          "b": "Z-tFHtxODsE-006-b",
+          "similarity": 0.5478900671005249,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and blue helmet in A; opposing dark uniform in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-007",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-007-a",
+          "b": "Z-tFHtxODsE-007-b",
+          "similarity": 0.6264463663101196,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White helmet with dark uniform in A; dark helmet and different leg protection in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-008",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-008-a",
+          "b": "Z-tFHtxODsE-008-b",
+          "similarity": 0.12916067242622375,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A contains the white-uniform goalie with large leg pads; B is a white-uniform field player."
+        },
+        {
+          "id": "Z-tFHtxODsE-009",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-009-a",
+          "b": "Z-tFHtxODsE-009-b",
+          "similarity": 0.8231644034385681,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "White goalie mask, distinctive striped pads and blocker match; same goalie position and equipment."
+        },
+        {
+          "id": "Z-tFHtxODsE-010",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-010-a",
+          "b": "Z-tFHtxODsE-010-b",
+          "similarity": 0.298015832901001,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A is #33 with a black helmet; B has a white helmet and different equipment."
+        },
+        {
+          "id": "Z-tFHtxODsE-011",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-011-a",
+          "b": "Z-tFHtxODsE-011-b",
+          "similarity": 0.7013162970542908,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform player in A is replaced by white #77 in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-012",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-012-a",
+          "b": "Z-tFHtxODsE-012-b",
+          "similarity": 0.8604515790939331,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B clearly shows 10; A front/shoulder digits are not sufficiently clear to establish identity from team colors and helmet."
+        },
+        {
+          "id": "Z-tFHtxODsE-013",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-013-a",
+          "b": "Z-tFHtxODsE-013-b",
+          "similarity": 0.7342570424079895,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform player in A; dark-uniform opponent in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-014",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-014-a",
+          "b": "Z-tFHtxODsE-014-b",
+          "similarity": 0.831733763217926,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both backs clearly show 27 with white helmet, red gloves and matching leg protection."
+        },
+        {
+          "id": "Z-tFHtxODsE-015",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-015-a",
+          "b": "Z-tFHtxODsE-015-b",
+          "similarity": 0.901648759841919,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs clearly show 18 with black helmet and matching white shoes/leg guards."
+        },
+        {
+          "id": "Z-tFHtxODsE-016",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-016-a",
+          "b": "Z-tFHtxODsE-016-b",
+          "similarity": 0.7306544780731201,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Same white uniform and dark helmet, but no clear matching number or uniquely distinguishing detail."
+        },
+        {
+          "id": "Z-tFHtxODsE-017",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-017-a",
+          "b": "Z-tFHtxODsE-017-b",
+          "similarity": 0.8094587326049805,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet and full dark leg guards in A; white helmet and exposed lower-leg socks in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-018",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-018-a",
+          "b": "Z-tFHtxODsE-018-b",
+          "similarity": 0.8549423217773438,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform player in A; target box in B is on the white-uniform opponent, confirmed in full-frame context."
+        },
+        {
+          "id": "Z-tFHtxODsE-019",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-019-a",
+          "b": "Z-tFHtxODsE-019-b",
+          "similarity": 0.8970927596092224,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Matching dark uniform and dark helmet; back digits are not sufficiently legible in both views."
+        },
+        {
+          "id": "Z-tFHtxODsE-020",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-020-a",
+          "b": "Z-tFHtxODsE-020-b",
+          "similarity": 0.8530033826828003,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White goalie in A is replaced by dark-uniform field player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-021",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-021-a",
+          "b": "Z-tFHtxODsE-021-b",
+          "similarity": 0.7497861385345459,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform blue-helmet player in A; dark-uniform player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-022",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-022-a",
+          "b": "Z-tFHtxODsE-022-b",
+          "similarity": 0.690638542175293,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White #17 in A; opposing dark-uniform player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-023",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "a": "Z-tFHtxODsE-023-a",
+          "b": "Z-tFHtxODsE-023-b",
+          "similarity": 0.5490804314613342,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Same uniform/helmet colors, but no clear matching number in both crops."
+        },
+        {
+          "id": "plDp2kPtk_g-000",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-000-a",
+          "b": "plDp2kPtk_g-000-b",
+          "similarity": 0.7984994649887085,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and white/blue uniform match; B feet and full digits not visible enough to distinguish teammates."
+        },
+        {
+          "id": "plDp2kPtk_g-001",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-001-a",
+          "b": "plDp2kPtk_g-001-b",
+          "similarity": 0.6712601184844971,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red helmet and white #54 in A; white helmet and a different two-digit back number in B."
+        },
+        {
+          "id": "plDp2kPtk_g-002",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-002-a",
+          "b": "plDp2kPtk_g-002-b",
+          "similarity": 0.6506064534187317,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; white-uniform goalie with large pads in B."
+        },
+        {
+          "id": "plDp2kPtk_g-003",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-003-a",
+          "b": "plDp2kPtk_g-003-b",
+          "similarity": 0.6527743935585022,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform player in A; white #85 in B."
+        },
+        {
+          "id": "plDp2kPtk_g-004",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-004-a",
+          "b": "plDp2kPtk_g-004-b",
+          "similarity": 0.6201056241989136,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform player in A; white-uniform opponent in B."
+        },
+        {
+          "id": "plDp2kPtk_g-005",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-005-a",
+          "b": "plDp2kPtk_g-005-b",
+          "similarity": 0.7956027388572693,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and black leg guards match; number is not clearly readable in both."
+        },
+        {
+          "id": "plDp2kPtk_g-006",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-006-a",
+          "b": "plDp2kPtk_g-006-b",
+          "similarity": 0.6215331554412842,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and dark helmet match; no sufficiently clear number or unique equipment in both crops."
+        },
+        {
+          "id": "plDp2kPtk_g-007",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-007-a",
+          "b": "plDp2kPtk_g-007-b",
+          "similarity": 0.3568468689918518,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform field player with red helmet in A; goalie with large white pads in B."
+        },
+        {
+          "id": "plDp2kPtk_g-008",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-008-a",
+          "b": "plDp2kPtk_g-008-b",
+          "similarity": 0.7446132898330688,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform red-helmet player in A; red-uniform white-helmet #87 in B."
+        },
+        {
+          "id": "plDp2kPtk_g-009",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-009-a",
+          "b": "plDp2kPtk_g-009-b",
+          "similarity": 0.7609724998474121,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Striped-shirt referee in A; red-uniform player in B."
+        },
+        {
+          "id": "plDp2kPtk_g-010",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-010-a",
+          "b": "plDp2kPtk_g-010-b",
+          "similarity": 0.7812358140945435,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark shin guards and dark shoes in A; green shin guards in B."
+        },
+        {
+          "id": "plDp2kPtk_g-011",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-011-a",
+          "b": "plDp2kPtk_g-011-b",
+          "similarity": 0.8210163712501526,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Gray socks with exposed knees in A; large white/black leg guards in B."
+        },
+        {
+          "id": "plDp2kPtk_g-012",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-012-a",
+          "b": "plDp2kPtk_g-012-b",
+          "similarity": 0.8602407574653625,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "plDp2kPtk_g-013",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-013-a",
+          "b": "plDp2kPtk_g-013-b",
+          "similarity": 0.580131471157074,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, dark helmet and white socks match, but no readable number or sufficiently distinctive detail in both."
+        },
+        {
+          "id": "plDp2kPtk_g-014",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-014-a",
+          "b": "plDp2kPtk_g-014-b",
+          "similarity": 0.7203558683395386,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and red uniform match; back number only visible in B."
+        },
+        {
+          "id": "plDp2kPtk_g-015",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-015-a",
+          "b": "plDp2kPtk_g-015-b",
+          "similarity": 0.8163002729415894,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Goalie with large tan/red pads in A; white/black leg equipment in B."
+        },
+        {
+          "id": "plDp2kPtk_g-016",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-016-a",
+          "b": "plDp2kPtk_g-016-b",
+          "similarity": 0.6906463503837585,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and red uniform in A, matching leg equipment in B, but B is partly obscured and no number is readable in both."
+        },
+        {
+          "id": "plDp2kPtk_g-017",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-017-a",
+          "b": "plDp2kPtk_g-017-b",
+          "similarity": 0.4937111735343933,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Dark helmet and red uniform match; A bent over hides number, B shows #3."
+        },
+        {
+          "id": "plDp2kPtk_g-018",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-018-a",
+          "b": "plDp2kPtk_g-018-b",
+          "similarity": 0.6809961795806885,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and dark helmet in A; red uniform and white helmet in B."
+        },
+        {
+          "id": "plDp2kPtk_g-019",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-019-a",
+          "b": "plDp2kPtk_g-019-b",
+          "similarity": 0.7202028036117554,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and dark helmet match; legs partly obscured and no readable number in both."
+        },
+        {
+          "id": "plDp2kPtk_g-020",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-020-a",
+          "b": "plDp2kPtk_g-020-b",
+          "similarity": 0.8490236401557922,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark green helmet, distinctive vertically striped shorts and white/black leg guards in both; B back number visible."
+        },
+        {
+          "id": "plDp2kPtk_g-021",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-021-a",
+          "b": "plDp2kPtk_g-021-b",
+          "similarity": 0.7596513032913208,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white socks match but number and distinctive identity evidence are insufficient."
+        },
+        {
+          "id": "plDp2kPtk_g-022",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-022-a",
+          "b": "plDp2kPtk_g-022-b",
+          "similarity": 0.5586027503013611,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; no legible number in both and B lower body missing."
+        },
+        {
+          "id": "plDp2kPtk_g-023",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-023-a",
+          "b": "plDp2kPtk_g-023-b",
+          "similarity": 0.6873366832733154,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching white helmet, distinctive purple shoes, exposed knees and black shin guards in both close observations."
+        },
+        {
+          "id": "plDp2kPtk_g-024",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-024-a",
+          "b": "plDp2kPtk_g-024-b",
+          "similarity": 0.7639883160591125,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White shin protection in A; dark shin protection with blue ankle socks in B."
+        },
+        {
+          "id": "plDp2kPtk_g-025",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "a": "plDp2kPtk_g-025-a",
+          "b": "plDp2kPtk_g-025-b",
+          "similarity": 0.7053224444389343,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; lower body cropped and no number readable in both."
+        },
+        {
+          "id": "OLpK8enSjJs-000",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-000-a",
+          "b": "OLpK8enSjJs-000-b",
+          "similarity": 0.6911759972572327,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet, white uniform and white/black shin guards match; A jersey number is not readable."
+        },
+        {
+          "id": "OLpK8enSjJs-001",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-001-a",
+          "b": "OLpK8enSjJs-001-b",
+          "similarity": 0.46973997354507446,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform dark-helmet player in A; white-uniform white-helmet opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-002",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-002-a",
+          "b": "OLpK8enSjJs-002-b",
+          "similarity": 0.7438006401062012,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White helmet with white shin guards in A; dark helmet and dark shin guards in B."
+        },
+        {
+          "id": "OLpK8enSjJs-003",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-003-a",
+          "b": "OLpK8enSjJs-003-b",
+          "similarity": 0.7033671736717224,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet in A; white helmet in B."
+        },
+        {
+          "id": "OLpK8enSjJs-004",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-004-a",
+          "b": "OLpK8enSjJs-004-b",
+          "similarity": 0.4398217797279358,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform in both; B overlaps a white player and helmet/number evidence is insufficient."
+        },
+        {
+          "id": "OLpK8enSjJs-005",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-005-a",
+          "b": "OLpK8enSjJs-005-b",
+          "similarity": 0.7531468868255615,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-006",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-006-a",
+          "b": "OLpK8enSjJs-006-b",
+          "similarity": 0.6020807027816772,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, dark helmet and dark leg protection match; no readable number in both."
+        },
+        {
+          "id": "OLpK8enSjJs-007",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-007-a",
+          "b": "OLpK8enSjJs-007-b",
+          "similarity": 0.6821117401123047,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and short socks match; B overlaps teammate and both full numbers are not readable."
+        },
+        {
+          "id": "OLpK8enSjJs-008",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-008-a",
+          "b": "OLpK8enSjJs-008-b",
+          "similarity": 0.6578738689422607,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white/black leg guards match, but no readable number in both."
+        },
+        {
+          "id": "OLpK8enSjJs-009",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-009-a",
+          "b": "OLpK8enSjJs-009-b",
+          "similarity": 0.6951198577880859,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and dark shin guards match; only A back number is legible."
+        },
+        {
+          "id": "OLpK8enSjJs-010",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-010-a",
+          "b": "OLpK8enSjJs-010-b",
+          "similarity": 0.6482938528060913,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; blur prevents a clear comparison of number and leg equipment."
+        },
+        {
+          "id": "OLpK8enSjJs-011",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-011-a",
+          "b": "OLpK8enSjJs-011-b",
+          "similarity": 0.499236524105072,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; red-uniform goalie with large pads in B."
+        },
+        {
+          "id": "OLpK8enSjJs-012",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-012-a",
+          "b": "OLpK8enSjJs-012-b",
+          "similarity": 0.3827834725379944,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform goalie with large pads in A; red-uniform field player in B."
+        },
+        {
+          "id": "OLpK8enSjJs-013",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-013-a",
+          "b": "OLpK8enSjJs-013-b",
+          "similarity": 0.6443356275558472,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin protection match; both jersey numbers are not legible."
+        },
+        {
+          "id": "OLpK8enSjJs-014",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-014-a",
+          "b": "OLpK8enSjJs-014-b",
+          "similarity": 0.5498427152633667,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match, but blur obscures identifying digits and equipment detail."
+        },
+        {
+          "id": "OLpK8enSjJs-015",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-015-a",
+          "b": "OLpK8enSjJs-015-b",
+          "similarity": 0.4159688949584961,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform goalie with large pads in A; white-uniform field player in B."
+        },
+        {
+          "id": "OLpK8enSjJs-016",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-016-a",
+          "b": "OLpK8enSjJs-016-b",
+          "similarity": 0.7328891754150391,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform in A; red-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-017",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-017-a",
+          "b": "OLpK8enSjJs-017-b",
+          "similarity": 0.7477502226829529,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B heavily blurred and digits unreadable."
+        },
+        {
+          "id": "OLpK8enSjJs-018",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-018-a",
+          "b": "OLpK8enSjJs-018-b",
+          "similarity": 0.711329460144043,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-019",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-019-a",
+          "b": "OLpK8enSjJs-019-b",
+          "similarity": 0.7712173461914062,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark shin guards in A; white guards with dark straps in B."
+        },
+        {
+          "id": "OLpK8enSjJs-020",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-020-a",
+          "b": "OLpK8enSjJs-020-b",
+          "similarity": 0.636968731880188,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet and white/black leg guards in A; white helmet and dark leg guards in B."
+        },
+        {
+          "id": "OLpK8enSjJs-021",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-021-a",
+          "b": "OLpK8enSjJs-021-b",
+          "similarity": 0.5794229507446289,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-022",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-022-a",
+          "b": "OLpK8enSjJs-022-b",
+          "similarity": 0.9191028475761414,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching dark helmet, red shorts with dark side panel, white knee protection and three dark shin straps; same clear equipment configuration in both."
+        },
+        {
+          "id": "OLpK8enSjJs-023",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-023-a",
+          "b": "OLpK8enSjJs-023-b",
+          "similarity": 0.6596157550811768,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White helmet and dark socks match; back digits in B are too small to confirm the same number."
+        },
+        {
+          "id": "OLpK8enSjJs-024",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-024-a",
+          "b": "OLpK8enSjJs-024-b",
+          "similarity": 0.7717992067337036,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Light-colored shin protection in A; solid dark shin protection in B."
+        },
+        {
+          "id": "OLpK8enSjJs-025",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-025-a",
+          "b": "OLpK8enSjJs-025-b",
+          "similarity": 0.6946091055870056,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Multiple overlapping white-uniform players; exact central identity cannot be resolved confidently across the crops."
+        },
+        {
+          "id": "OLpK8enSjJs-026",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-026-a",
+          "b": "OLpK8enSjJs-026-b",
+          "similarity": 0.31643009185791016,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; number and equipment are too blurred to establish identity."
+        },
+        {
+          "id": "OLpK8enSjJs-027",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-027-a",
+          "b": "OLpK8enSjJs-027-b",
+          "similarity": 0.7514458894729614,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both clearly show red #77 with dark helmet and matching dark shin guards."
+        },
+        {
+          "id": "OLpK8enSjJs-028",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-028-a",
+          "b": "OLpK8enSjJs-028-b",
+          "similarity": 0.7909259796142578,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin guards match; no readable number or sufficiently unique feature in both."
+        },
+        {
+          "id": "OLpK8enSjJs-029",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-029-a",
+          "b": "OLpK8enSjJs-029-b",
+          "similarity": 0.5125629901885986,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red goalie with large tan pads in A; red field player wearing a yellow helmet in B."
+        },
+        {
+          "id": "OLpK8enSjJs-030",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-030-a",
+          "b": "OLpK8enSjJs-030-b",
+          "similarity": 0.8064297437667847,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and white/black shin guards match; identifying digits are unclear."
+        },
+        {
+          "id": "OLpK8enSjJs-031",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "a": "OLpK8enSjJs-031-a",
+          "b": "OLpK8enSjJs-031-b",
+          "similarity": 0.7282642722129822,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching distinctive purple full-length socks, pink shoes and white helmet in both observations."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-000",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-000-a",
+          "b": "sam2-Z-tFHtxODsE-000-b",
+          "similarity": 0.6050442457199097,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Both dark uniforms and light helmets, but no legible matching number or distinct equipment."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-001",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-001-a",
+          "b": "sam2-Z-tFHtxODsE-001-b",
+          "similarity": 0.8783718347549438,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Both clearly white #5 with blue helmet, matching shorts and black shin straps."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-002",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-002-a",
+          "b": "sam2-Z-tFHtxODsE-002-b",
+          "similarity": 0.6364059448242188,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform goalie with large pads in A; white-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-003",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-003-a",
+          "b": "sam2-Z-tFHtxODsE-003-b",
+          "similarity": 0.8382004499435425,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark back number, white long socks, blue uniform stripes and light shoes in both."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-004",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-004-a",
+          "b": "sam2-Z-tFHtxODsE-004-b",
+          "similarity": 0.6681749820709229,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "A lacks readable digits and much of lower body; white uniform alone is insufficient."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-005",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-005-a",
+          "b": "sam2-Z-tFHtxODsE-005-b",
+          "similarity": 0.7470667362213135,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "A shows #40 on shorts; B shows #40 on back with matching blue helmet and red shoes."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-006",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-006-a",
+          "b": "sam2-Z-tFHtxODsE-006-b",
+          "similarity": 0.5872299075126648,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark goalie with large pads in A; dark-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-007",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-007-a",
+          "b": "sam2-Z-tFHtxODsE-007-b",
+          "similarity": 0.663443922996521,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Dark uniform in both; B is too motion-blurred to establish identity."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-008",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-008-a",
+          "b": "sam2-Z-tFHtxODsE-008-b",
+          "similarity": 0.6322735548019409,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark goalie with large pads in A; dark-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-009",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-009-a",
+          "b": "sam2-Z-tFHtxODsE-009-b",
+          "similarity": 0.49845343828201294,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform in both; A overlaps another player and identifying number/equipment are insufficiently clear."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-010",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-010-a",
+          "b": "sam2-Z-tFHtxODsE-010-b",
+          "similarity": 0.273046612739563,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Partial torso in A and overlapping players in B do not establish identity."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-011",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-Z-tFHtxODsE-011-a",
+          "b": "sam2-Z-tFHtxODsE-011-b",
+          "similarity": 0.6566526889801025,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark goalie helmet, jersey, tan leg pads, gloves and blocker in both."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-000",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-000-a",
+          "b": "sam2-plDp2kPtk_g-000-b",
+          "similarity": 0.7943813800811768,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching white-uniform goalie with large plain white pads, blocker and glove; no conflicting equipment."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-001",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-001-a",
+          "b": "sam2-plDp2kPtk_g-001-b",
+          "similarity": 0.6615606546401978,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A has dark lower-leg covering beneath red #26; B has white/black shin protection and bright red shoes."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-002",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-002-a",
+          "b": "sam2-plDp2kPtk_g-002-b",
+          "similarity": 0.669304609298706,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; A back number and legs are not visible."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-003",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-003-a",
+          "b": "sam2-plDp2kPtk_g-003-b",
+          "similarity": 0.7936995029449463,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; A legs obscured and neither number clearly established in both."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-004",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-004-a",
+          "b": "sam2-plDp2kPtk_g-004-b",
+          "similarity": 0.7805320620536804,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform field player in A; red-uniform #5 in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-005",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-005-a",
+          "b": "sam2-plDp2kPtk_g-005-b",
+          "similarity": 0.2769663631916046,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; digits not visible and equipment partly obscured."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-006",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-006-a",
+          "b": "sam2-plDp2kPtk_g-006-b",
+          "similarity": 0.7849882245063782,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and white helmet in A; red uniform and red helmet in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-007",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-007-a",
+          "b": "sam2-plDp2kPtk_g-007-b",
+          "similarity": 0.69278883934021,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; only B back number is visible."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-008",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-008-a",
+          "b": "sam2-plDp2kPtk_g-008-b",
+          "similarity": 0.8250217437744141,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark shoes and mostly white shin protection in A; bright pink shoes and different banded shin protection in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-009",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-009-a",
+          "b": "sam2-plDp2kPtk_g-009-b",
+          "similarity": 0.6865925788879395,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Matching red uniform and white helmet; A identifying digits hidden and lower legs incomplete."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-010",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-010-a",
+          "b": "sam2-plDp2kPtk_g-010-b",
+          "similarity": 0.7938910126686096,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B back digits too faint to compare reliably."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-011",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-011-a",
+          "b": "sam2-plDp2kPtk_g-011-b",
+          "similarity": 0.7523812651634216,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching distinctive bright pink shoes, white shin protection with dark bands, white helmet and red uniform."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-012",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-plDp2kPtk_g-012-a",
+          "b": "sam2-plDp2kPtk_g-012-b",
+          "similarity": 0.7495835423469543,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; no number readable in both and lower-leg details insufficient."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-000",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-000-a",
+          "b": "sam2-OLpK8enSjJs-000-b",
+          "similarity": 0.5729288458824158,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; no complete number readable in both."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-001",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-001-a",
+          "b": "sam2-OLpK8enSjJs-001-b",
+          "similarity": 0.41940194368362427,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform player in A; red-uniform opponent in B."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-002",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-002-a",
+          "b": "sam2-OLpK8enSjJs-002-b",
+          "similarity": 0.5484483242034912,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B is mostly outside the image; identity cannot be resolved."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-003",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-003-a",
+          "b": "sam2-OLpK8enSjJs-003-b",
+          "similarity": 0.7244852781295776,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching white-uniform goalie with large light pads and dark outer pad edges; distinctive goalie equipment visible in both."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-004",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-004-a",
+          "b": "sam2-OLpK8enSjJs-004-b",
+          "similarity": 0.8101413249969482,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; strong motion blur hides identifying details."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-005",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-005-a",
+          "b": "sam2-OLpK8enSjJs-005-b",
+          "similarity": 0.4348260164260864,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; only A has a clearly readable back number."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-006",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-006-a",
+          "b": "sam2-OLpK8enSjJs-006-b",
+          "similarity": 0.7884621024131775,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin guards match; no number readable in both and equipment is shared by teammates."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-007",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-007-a",
+          "b": "sam2-OLpK8enSjJs-007-b",
+          "similarity": 0.2460574507713318,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B lower body is obscured and digits are unreadable."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-008",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "a": "sam2-OLpK8enSjJs-008-a",
+          "b": "sam2-OLpK8enSjJs-008-b",
+          "similarity": 0.7333032488822937,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet, white socks and dark knee guards match, but no number readable in both and generic equipment does not establish identity."
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "parts.json": "8ffd96b4d8970dad1e16727a2a9f4170df00d2ba786361d42755a9ec61e27614",
+    "whole.json": "53b9fcfdc3174105a54fda262b3681795035cbdb784583b8463d43cdcca299fc"
+  },
+  "model_provenance": {
+    "parts": {
+      "model": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "variant": "parts",
+      "primary_variant": "parts",
+      "pretraining": "Generic self-supervised images; no task-specific sports fine-tune.",
+      "benchmark_sha256": "ad23ce1d190e025e7d21375531bb7bc9bcf602c8e70a9ab4f40b9e0460de97d6",
+      "evidence_sha256": {
+        "long-track-audit-v1/Z-tFHtxODsE": "df7e9ae5caf63f198e61137db72e7f178ec2e32ce4e68dd559ebf4313704a1ba",
+        "long-track-audit-v1/plDp2kPtk_g": "21c331041d090c1aba06901c8e864c22703ff6627066cd98aa87163b4e3ff67c",
+        "long-track-audit-v1/OLpK8enSjJs": "f5c298678c8d99a7aea472a847039939810e5e9fb9d38ce51be65e507b5e7b9c",
+        "sam2-long-audit-v1/Z-tFHtxODsE": "cd52b7ddf527ab8b0a6ad6844f666c472cd0afc519d9701372326e8715f4cdb3",
+        "sam2-long-audit-v1/plDp2kPtk_g": "3c7c504772fc9a4c40633dc25d198bff69bd82721a07d32002df3072a19bd1af",
+        "sam2-long-audit-v1/OLpK8enSjJs": "fa8c393eeb9233a19d38276449943ede48e40435f0ad0454cac80c75febde70e"
+      },
+      "confidence_threshold": 0.8282294273376466,
+      "gb_reference_sha256": "c927fe72899f5faa2e3231035ebf33714fdfc0625489da62216fcee5f42b3ab9",
+      "images": 417,
+      "feature_seconds": 14.110764336999992,
+      "preprocessing": "RGB. Whole crop, torso and legs warped to 224 square, normalized CLS. Parts concatenated and divided by sqrt(3); whole uses only the full crop.",
+      "selection": "Threshold strictly above maximum different-player cosine on original California development pairs. No long-pair or GB labels select thresholds or weights.",
+      "scope": "Assisted crop-level development comparison, not automatic tracking. GB uses reviewed boxes, earlier sets use the same crop images as OSNet. References cannot establish identity between endpoints."
+    },
+    "whole": {
+      "model": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "variant": "whole",
+      "primary_variant": "parts",
+      "pretraining": "Generic self-supervised images; no task-specific sports fine-tune.",
+      "benchmark_sha256": "ad23ce1d190e025e7d21375531bb7bc9bcf602c8e70a9ab4f40b9e0460de97d6",
+      "evidence_sha256": {
+        "long-track-audit-v1/Z-tFHtxODsE": "df7e9ae5caf63f198e61137db72e7f178ec2e32ce4e68dd559ebf4313704a1ba",
+        "long-track-audit-v1/plDp2kPtk_g": "21c331041d090c1aba06901c8e864c22703ff6627066cd98aa87163b4e3ff67c",
+        "long-track-audit-v1/OLpK8enSjJs": "f5c298678c8d99a7aea472a847039939810e5e9fb9d38ce51be65e507b5e7b9c",
+        "sam2-long-audit-v1/Z-tFHtxODsE": "cd52b7ddf527ab8b0a6ad6844f666c472cd0afc519d9701372326e8715f4cdb3",
+        "sam2-long-audit-v1/plDp2kPtk_g": "3c7c504772fc9a4c40633dc25d198bff69bd82721a07d32002df3072a19bd1af",
+        "sam2-long-audit-v1/OLpK8enSjJs": "fa8c393eeb9233a19d38276449943ede48e40435f0ad0454cac80c75febde70e"
+      },
+      "confidence_threshold": 0.8914945125579835,
+      "gb_reference_sha256": "c927fe72899f5faa2e3231035ebf33714fdfc0625489da62216fcee5f42b3ab9",
+      "images": 417,
+      "feature_seconds": 14.110764336999992,
+      "preprocessing": "RGB. Whole crop, torso and legs warped to 224 square, normalized CLS. Parts concatenated and divided by sqrt(3); whole uses only the full crop.",
+      "selection": "Threshold strictly above maximum different-player cosine on original California development pairs. No long-pair or GB labels select thresholds or weights.",
+      "scope": "Assisted crop-level development comparison, not automatic tracking. GB uses reviewed boxes, earlier sets use the same crop images as OSNet. References cannot establish identity between endpoints."
+    }
+  },
+  "reference_sha256": {
+    "long-track-audit-v1": "8b7ccb4f8e9f99799c8caeb5a59bd0a8a80a2a3c388e0a0017fb42e49cd2519b",
+    "sam2-long-audit-v1": "b2bb4ca8c694789a7941925b5b0f9f9483318fdb2fd837130d3000ec97f2b553"
+  },
+  "scope": "Post-audit development comparison on the same reviewed endpoints within each sampling set. Sources and sampling sets remain separate.",
+  "limitations": "Assistant review, not independent human ground truth. The 82 BoT-SORT and 34 SAM2 positive hypotheses have different selection distributions; their aggregate precision is not a fair algorithm comparison. Unknown identities do not enter accuracy. Missing observations are separate from rejected matches. The long SAM2 run only covers 600\u2013720 source seconds. Pair decisions do not establish identity throughout the intervening video or full-game statistics."
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NBHL ball-hockey games, player records and video evidence.">
+  <title>Sport Scans</title>
+  <link rel="stylesheet" href="stats.css">
+</head>
+<body>
+<header><a href="./" class="brand">Sport Scans</a><span>NBHL ball hockey</span></header>
+<main>
+  <div class="game-picker"><label for="nbhl-select">Game</label><select id="nbhl-select"><option value="518555">Bay Area / SoCal · May 4, 2024</option><option value="619593">Cleghorn / Southcoast · May 4, 2025</option><option value="752704">Nights Watch / Bellmawr · August 30, 2026</option></select></div>
+  <div id="app-error" role="alert" hidden></div>
+  <section aria-labelledby="nbhl-title" id="games">
+    <div class="game-heading"><div><h1 id="nbhl-title">Loading game…</h1><p id="nbhl-date"></p></div><div id="score-line" class="score-line"></div></div>
+    <div class="source-note"><span>Goals and assists: official NBHL records. Video clips: reviewed estimates.</span><a id="nbhl-official" target="_blank" rel="noopener">Official record</a></div>
+    <div class="section-heading"><h2>Goals</h2><p id="event-count"></p><button id="clear-player" hidden>Show all goals</button></div>
+    <div class="nbhl-layout"><div class="video-column"><video id="nbhl-video" controls playsinline preload="metadata" aria-label="NBHL goal evidence"></video><div id="nbhl-detail"></div></div><div id="nbhl-events" class="nbhl-events" aria-label="Goal list"></div></div>
+    <div class="section-heading"><h2>Players</h2><a id="nbhl-csv" download>Download CSV</a></div>
+    <div class="toolbar"><label>Team<select id="player-team"><option value="">Both teams</option></select></label><label>Player<input id="player-search" type="search" placeholder="Name or number" autocomplete="off"></label></div>
+    <div class="table-wrap"><table><thead><tr><th>Player</th><th>Goals</th><th>Assists</th><th>Points</th></tr></thead><tbody id="nbhl-player-rows"></tbody></table></div>
+    <p class="note">Select a player to see their scoring events. A roster listing does not prove an appearance. Assist times refer to the goal, not the exact pass.</p>
+    <p class="unavailable"><b>Not yet measured:</b> time on floor, distance, shots, shots on goal and possession.</p>
+  </section>
+  <details id="tracking"><summary>Player tracking</summary>
+    <p class="note">Experimental tracking output. Numbers on boxes are temporary track IDs, not jersey numbers. Identities can break during crossings or occlusion.</p>
+    <div class="toolbar"><label>Recording<select id="track-game"><option value="game2">Cleghorn / Southcoast</option><option value="game1">Bay Area / SoCal</option></select></label><label>Clip<select id="track-moment"></select></label><label>Method<select id="track-recipe"></select></label></div>
+    <video id="tracking-video" controls playsinline preload="none" aria-label="Ball-hockey tracking comparison"></video><p id="tracking-note" class="note"></p>
+    <div class="downloads"><a href="rink.html">Rink replay</a><a href="tracking-replay.html?clip=pittsburgh-0600&amp;method=fourhour-sam2-trained">Latest tracking comparison</a><a href="tracking-replay.html">Great Britain comparison</a><a href="tracking.html">Measured results and limitations</a></div>
+  </details>
+  <details id="data-notes"><summary>Data and limitations</summary>
+    <p>Only NBHL ball-hockey footage is used. Scoring records are separate from model predictions. Game clocks show remaining time in ten-minute periods; scores show home – guest.</p>
+    <p>There are 24 reviewed goal clips: seven from California, seven from Massachusetts and ten from New Jersey. Video intervals are estimates from the play and reactions; a visible ball crossing is not established for every goal. The New Jersey recording ends before the clock reaches zero; its final score comes from the official record. Unknown statistics stay empty in the downloads.</p>
+    <p id="reliability-status">The player detector was trained on ball-hockey footage and tested on separate recordings. Persistent identity, ball tracking and jersey recognition remain experimental. The audits use assistant-reviewed observations, not independent human ground truth.</p>
+    <div class="downloads"><a href="data/stats/nbhl-518555.json" download>California game data</a><a href="data/stats/nbhl-619593.json" download>Massachusetts game data</a><a href="data/stats/nbhl-752704.json" download>New Jersey game data</a><a href="data/stats/fine-tuning.md" download>Research notes</a></div>
+  </details>
+</main>
+<footer>Sport Scans · Research prototype</footer>
+<script src="media.js"></script><script src="stats.js"></script>
+</body>
+</html>

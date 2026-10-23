@@ -1,0 +1,241 @@
+{
+  "id": "game2_06m-edge-0032",
+  "phase": "development",
+  "model": "235b",
+  "clip": "game2_06m",
+  "source_id": "plDp2kPtk_g",
+  "candidate": {
+    "a": "15",
+    "b": "32",
+    "gap": 6,
+    "cosine_mean": 0.8210739493370056,
+    "cosine_views": 0.7550228834152222,
+    "distance_heights": 0.30608733752670975,
+    "support_a": 138,
+    "support_b": 61,
+    "id": "game2_06m-edge-0032"
+  },
+  "groups": [
+    {
+      "group": "A",
+      "track_id": "15",
+      "start": 13,
+      "end": 150,
+      "count": 138,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0005-0.jpg",
+          "sha256": "d0e4ae4a9ec20578b854b50fd10f784da672e1815e0d22c78247f5e32a1d03a4",
+          "frame": 60,
+          "quality": 0.9426909685134888,
+          "bbox": [
+            1538,
+            400,
+            1624,
+            574
+          ],
+          "source_frame_sha256": "be1a6b00c67b59807eedd431e00f7dd8380aba8aa7fdfca2af69d9fa10ea042c"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0005-1.jpg",
+          "sha256": "a89852c6681910553c739106adfcde26e6b261922a5b284b8147e8bd42b99cf8",
+          "frame": 119,
+          "quality": 0.9335491061210632,
+          "bbox": [
+            1692,
+            405,
+            1789,
+            573
+          ],
+          "source_frame_sha256": "f1bbe914c6ca71610e14a59ff316e761b7694f8d3d1c936c0f5c66c5b9526bf1"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0005-2.jpg",
+          "sha256": "cb303ce3f601c9c9235d50a795789373dd59cfbb9dd172ac3fd63be42f37a3ea",
+          "frame": 124,
+          "quality": 0.932783842086792,
+          "bbox": [
+            1618,
+            405,
+            1695,
+            557
+          ],
+          "source_frame_sha256": "c99be1abd6866a6c7da175fb8fa0e89943750e0fd8fb9bb7bb3eecf25ebbffe3"
+        }
+      ],
+      "best_image": 0
+    },
+    {
+      "group": "B",
+      "track_id": "32",
+      "start": 156,
+      "end": 223,
+      "count": 61,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0016-0.jpg",
+          "sha256": "7c37eebf44c8cc1b09dde9841f75b7a6aa64a79177bec88ce69f9f5d1ecb1262",
+          "frame": 173,
+          "quality": 0.9409964680671692,
+          "bbox": [
+            1117,
+            392,
+            1165,
+            511
+          ],
+          "source_frame_sha256": "b49ae271481795cb4e6c43b63599edee73e3aecc3c7a1478e5602cbc8ecd6e1b"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0016-1.jpg",
+          "sha256": "d54cc2c390e551914d176e00b385995846ea753ede78898415a9150c277e0176",
+          "frame": 178,
+          "quality": 0.9339545369148254,
+          "bbox": [
+            1160,
+            391,
+            1215,
+            511
+          ],
+          "source_frame_sha256": "0ba1c0bf5195ba9a6d30252fa7971cf821ac3e5a3ff5606b46611cf5aeda449a"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0016-2.jpg",
+          "sha256": "44225b7d4a82d829180f830b46184b929d7d2b92fda55423737496c0f3aa91b3",
+          "frame": 218,
+          "quality": 0.9316277503967285,
+          "bbox": [
+            1752,
+            398,
+            1836,
+            546
+          ],
+          "source_frame_sha256": "661c43826d7f609a8d90ad59d02c0c3568d73449ccc90203ea91206933f84900"
+        }
+      ],
+      "best_image": 0
+    }
+  ],
+  "responses": {
+    "single": {
+      "id": "game2_06m-edge-0032/single",
+      "task": "single",
+      "clip": "game2_06m",
+      "edge_id": "game2_06m-edge-0032",
+      "output": "{\n  \"decision\": \"uncertain\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"insufficient\",\n  \"evidence\": \"Both players wear similar white jerseys and dark pants with pink accents, but jersey digits are not clearly visible in either image to confirm identity; no other distinctive details like unique helmet markings, glove patterns, or sock designs are clearly discernible to differentiate or confirm same identity.\"\n}",
+      "parsed": {
+        "decision": "uncertain",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "insufficient",
+        "evidence": "Both players wear similar white jerseys and dark pants with pink accents, but jersey digits are not clearly visible in either image to confirm identity; no other distinctive details like unique helmet markings, glove patterns, or sock designs are clearly discernible to differentiate or confirm same identity."
+      },
+      "seconds": 1.454955313499994,
+      "input_tokens": 376,
+      "output_tokens": 98,
+      "finish_reason": "stop"
+    },
+    "multi": {
+      "id": "game2_06m-edge-0032/multi",
+      "task": "multi",
+      "clip": "game2_06m",
+      "edge_id": "game2_06m-edge-0032",
+      "output": "{\n  \"decision\": \"same\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"distinctive_details\",\n  \"evidence\": \"Both groups show a player with identical black helmet, white jersey with dark sleeves, black shorts with white stripes, pink/red knee pads with blue accents, and black/white shoes; jersey number 12 is visible in group A and consistent with the back shape in group B.\"\n}",
+      "parsed": {
+        "decision": "same",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "distinctive_details",
+        "evidence": "Both groups show a player with identical black helmet, white jersey with dark sleeves, black shorts with white stripes, pink/red knee pads with blue accents, and black/white shoes; jersey number 12 is visible in group A and consistent with the back shape in group B."
+      },
+      "seconds": 1.5289117919999882,
+      "input_tokens": 682,
+      "output_tokens": 101,
+      "finish_reason": "stop"
+    },
+    "reverse": {
+      "id": "game2_06m-edge-0032/reverse",
+      "task": "reverse",
+      "clip": "game2_06m",
+      "edge_id": "game2_06m-edge-0032",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"distinctive_details\",\n  \"evidence\": \"Group A player has a white jersey with a dark circular logo on the chest and dark pants with red trim; Group B player has a light blue/white gradient jersey with no visible chest logo and black pants with white vertical stripes and pink/red knee pads.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "distinctive_details",
+        "evidence": "Group A player has a white jersey with a dark circular logo on the chest and dark pants with red trim; Group B player has a light blue/white gradient jersey with no visible chest logo and black pants with white vertical stripes and pink/red knee pads."
+      },
+      "seconds": 1.4500801597500015,
+      "input_tokens": 682,
+      "output_tokens": 96,
+      "finish_reason": "stop"
+    }
+  },
+  "number_responses": {
+    "a": {
+      "id": "game2_06m/number/15",
+      "task": "number",
+      "clip": "game2_06m",
+      "track_id": "15",
+      "output": "{\n  \"consistent\": \"uncertain\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 2,\n      \"number\": null,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 3,\n      \"number\": null,\n      \"location\": \"back\"\n    }\n  ],\n  \"evidence\": \"All images show the player's back, but the jersey number is too blurred and indistinct to read any digit reliably.\"\n}",
+      "parsed": {
+        "consistent": "uncertain",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "back"
+          },
+          {
+            "image": 2,
+            "number": null,
+            "location": "back"
+          },
+          {
+            "image": 3,
+            "number": null,
+            "location": "back"
+          }
+        ],
+        "evidence": "All images show the player's back, but the jersey number is too blurred and indistinct to read any digit reliably."
+      },
+      "seconds": 2.025250359249995,
+      "input_tokens": 386,
+      "output_tokens": 122,
+      "finish_reason": "stop"
+    },
+    "b": {
+      "id": "game2_06m/number/32",
+      "task": "number",
+      "clip": "game2_06m",
+      "track_id": "32",
+      "output": "{\n  \"consistent\": \"uncertain\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"unknown\"\n    },\n    {\n      \"image\": 2,\n      \"number\": null,\n      \"location\": \"unknown\"\n    },\n    {\n      \"image\": 3,\n      \"number\": null,\n      \"location\": \"unknown\"\n    }\n  ],\n  \"evidence\": \"All jersey numbers are too blurred or obscured to read any digit; no visible number on back, front, sleeve, or shorts.\"\n}",
+      "parsed": {
+        "consistent": "uncertain",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "unknown"
+          },
+          {
+            "image": 2,
+            "number": null,
+            "location": "unknown"
+          },
+          {
+            "image": 3,
+            "number": null,
+            "location": "unknown"
+          }
+        ],
+        "evidence": "All jersey numbers are too blurred or obscured to read any digit; no visible number on back, front, sleeve, or shorts."
+      },
+      "seconds": 1.8735180436250118,
+      "input_tokens": 392,
+      "output_tokens": 123,
+      "finish_reason": "stop"
+    }
+  },
+  "image_sha256": "5cbc2224a945026010e7689e9ff3af3dd38cc160afd3bf13132dfc193cda790e"
+}

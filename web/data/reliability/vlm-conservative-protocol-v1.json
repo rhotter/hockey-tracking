@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-19T16:30:01.850177+00:00",
+  "model": {
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+    "tensor_parallel": 1
+  },
+  "prompt": "Compare the central ball-hockey player in group A with the central player in group B. These are automatic track fragments, and a group can itself contain a tracking mistake. Work from directly visible evidence only.\nUse these rules in order:\n1. A number hidden by pose, blur or cropping is UNKNOWN, never a conflicting number. A readable number in only one group cannot establish that the players differ. Do not complete partial digits or read another person in the crop.\n2. Front and back views, reversed jersey orientation, lighting, posture and scale can change for the SAME player. None proves different identity. If the same readable number is seen on different sides of a jersey, that is not a contradiction.\n3. Teammates share uniform colors. Matching team colors, generic gloves, a helmet or a similar pose alone cannot establish the same player.\n4. Say different only for directly visible incompatible identity details, such as clearly conflicting complete numbers, clearly different teams, or several unmistakably incompatible personal equipment details. Missing detail is not incompatible detail. If a same-player explanation remains plausible and no distinctive match is visible, say uncertain.\n5. Say same only for a clearly matching complete number with compatible team and equipment, or multiple distinctive matching equipment details. If a group appears to switch people, report that inconsistency instead of inventing a stable identity.\nReturn only JSON: {\"decision\":\"same|different|uncertain\",\"a_consistent\":\"yes|no|uncertain\",\"b_consistent\":\"yes|no|uncertain\",\"evidence_type\":\"jersey_number|distinctive_details|team_difference|uniform_only|insufficient\",\"evidence\":\"one short description of directly visible evidence; explicitly say if a number is unreadable\"}.",
+  "tasks": [
+    "multi",
+    "reverse"
+  ],
+  "policies": [
+    "osnet_full",
+    "multi_veto",
+    "multi_strict",
+    "multi_symmetric",
+    "multi_hybrid"
+  ],
+  "candidate_input": "Identical existing image hashes and candidate edges; no reference labels passed to inference.",
+  "selection": "Same correct minus ten times wrong, fewer unverified joins, unchanged baseline tie preference. Freeze after revised-prompt development scoring and before revised-prompt regression scoring.",
+  "limits": "Exploratory second prompt designed after inspecting first-round development and 8B regression failures. Existing recordings are reused. It cannot establish independent transfer or a fresh validation gain. No model training or reference changes.",
+  "inference": {
+    "engine": "vllm0.11.1",
+    "gpu": "H200",
+    "batch_size": 8,
+    "temperature": 0,
+    "max_tokens": 320,
+    "seed": 17,
+    "max_pixels": 262144
+  }
+}

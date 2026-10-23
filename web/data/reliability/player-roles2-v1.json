@@ -1,0 +1,144 @@
+{
+  "tag": "yolo11m-roles2-s17-f10-e80-6f459b18",
+  "settings": {
+    "data": "/data/ball-hockey/reliability-20261018/datasets/yolo11m-roles2-s17-f10-e80-6f459b18/dataset.yaml",
+    "epochs": 80,
+    "patience": 25,
+    "imgsz": 1280,
+    "batch": 4,
+    "workers": 4,
+    "device": 0,
+    "project": "/data/ball-hockey/reliability-20261018/training",
+    "name": "yolo11m-roles2-s17-f10-e80-6f459b18",
+    "exist_ok": true,
+    "seed": 17,
+    "deterministic": true,
+    "optimizer": "AdamW",
+    "lr0": 0.0003,
+    "lrf": 0.05,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3,
+    "cos_lr": true,
+    "freeze": 10,
+    "mosaic": 0.3,
+    "close_mosaic": 10,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "degrees": 2.0,
+    "translate": 0.05,
+    "scale": 0.25,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "fliplr": 0.5,
+    "flipud": 0.0,
+    "hsv_h": 0.015,
+    "hsv_s": 0.3,
+    "hsv_v": 0.3,
+    "cache": false,
+    "save": true,
+    "save_period": 10,
+    "plots": false,
+    "amp": true,
+    "verbose": false
+  },
+  "counts": {
+    "train": {
+      "player": 1301,
+      "goalie": 133,
+      "frames": 196
+    },
+    "val": {
+      "player": 159,
+      "goalie": 19,
+      "frames": 23
+    }
+  },
+  "manifest_sha256": "6f459b18084c243e14e505c458cb4f40e201a702b505bebdd622681320dac26f",
+  "scope": "NBHL ball hockey only",
+  "base_weights_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+  "gpu": "NVIDIA L4",
+  "role_mapping": {
+    "player": 0,
+    "goalie": 1
+  },
+  "motivation": "Field-player/goalie identity swaps observed in the longer development tracking audit.",
+  "test_data_used_for_training": false,
+  "transfer_status": "Already-reviewed regression sources; not a fresh test.",
+  "seconds": 1001.43273676,
+  "completed_epochs": 80,
+  "best_weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-roles2-s17-f10-e80-6f459b18/weights/best.pt",
+  "best_sha256": "1a1f5ec23498b8b3913dec6c970d98f9e19ea5b31f6c109bcc24015ef771782b",
+  "selection": {
+    "weights_sha256": "1a1f5ec23498b8b3913dec6c970d98f9e19ea5b31f6c109bcc24015ef771782b",
+    "confidence_threshold": 0.75,
+    "validation": {
+      "confidence_threshold": 0.75,
+      "iou_threshold": 0.5,
+      "frames": 23,
+      "targets": 178,
+      "tp": 161,
+      "fp": 7,
+      "fn": 17,
+      "precision": 0.9583333333333334,
+      "recall": 0.9044943820224719,
+      "f1": 0.930635838150289,
+      "false_positives_per_frame": 0.30434782608695654,
+      "goalies": 19,
+      "goalie_hits": 16,
+      "goalie_recall": 0.8421052631578947
+    },
+    "test_threshold_tuning": false
+  },
+  "transfer": [
+    {
+      "source_id": "PWxYa6OZEgo",
+      "metrics": {
+        "confidence_threshold": 0.75,
+        "iou_threshold": 0.5,
+        "frames": 11,
+        "targets": 85,
+        "tp": 65,
+        "fp": 1,
+        "fn": 20,
+        "precision": 0.9848484848484849,
+        "recall": 0.7647058823529411,
+        "f1": 0.8609271523178808,
+        "false_positives_per_frame": 0.09090909090909091,
+        "goalies": 11,
+        "goalie_hits": 3,
+        "goalie_recall": 0.2727272727272727
+      },
+      "role_confusion_on_matched_detections": {
+        "player->player": 61,
+        "goalie->player": 3,
+        "player->goalie": 1
+      }
+    },
+    {
+      "source_id": "vPRRzE3ol2s",
+      "metrics": {
+        "confidence_threshold": 0.75,
+        "iou_threshold": 0.5,
+        "frames": 11,
+        "targets": 91,
+        "tp": 87,
+        "fp": 4,
+        "fn": 4,
+        "precision": 0.9560439560439561,
+        "recall": 0.9560439560439561,
+        "f1": 0.9560439560439561,
+        "false_positives_per_frame": 0.36363636363636365,
+        "goalies": 8,
+        "goalie_hits": 7,
+        "goalie_recall": 0.875
+      },
+      "role_confusion_on_matched_detections": {
+        "player->player": 80,
+        "goalie->goalie": 7
+      }
+    }
+  ],
+  "input_sha256": "e0d8b7c30f4ea7271b8035f723d9b3a08d4b8bd65c623bad40ffc0ac18e62b3c",
+  "id": "nbhl-player-roles2-v1",
+  "decision": "Not adopted as a goalie identity guard. On Buffalo, three matched goalies were all labeled field-player and one field player was labeled goalie. North Shore role classification was correct on matched detections, but this does not establish transfer robustness."
+}

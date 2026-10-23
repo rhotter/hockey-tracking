@@ -1,0 +1,947 @@
+{
+  "id": "nbhl-goal-scan-evaluation",
+  "directory": "/dev/shm/sport-scans-goal-scan-v2/qwen38-27b-highres",
+  "games": [
+    {
+      "source_id": "Z-tFHtxODsE",
+      "model": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "engine": "vllm0.31.0",
+      "complete": true,
+      "duration_s": 2963.656,
+      "windows": 149,
+      "seconds_excluding_model_load": 852.1046747510002,
+      "states": {
+        "no": 133,
+        "yes": 16
+      },
+      "events": [
+        {
+          "interval": [
+            133.0,
+            142.0
+          ],
+          "window": [
+            120,
+            150.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 13.0,
+            "offset_end_s": 22.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": true,
+            "evidence": "A player in a white jersey shoots the ball into the net, followed by a celebration with teammates."
+          }
+        },
+        {
+          "interval": [
+            343.0,
+            349.0
+          ],
+          "window": [
+            320,
+            350.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 23.0,
+            "offset_end_s": 29.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white jersey shoots the ball into the net, followed by a celebration with raised arms and a referee signaling a goal."
+          }
+        },
+        {
+          "interval": [
+            342.0,
+            350.0
+          ],
+          "window": [
+            340,
+            370.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 2.0,
+            "offset_end_s": 10.0,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": false,
+            "evidence": "Players in white and blue jerseys raise their sticks and gather in a celebratory huddle near the center of the rink."
+          }
+        },
+        {
+          "interval": [
+            402.0,
+            405.0
+          ],
+          "window": [
+            380,
+            410.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 22.0,
+            "offset_end_s": 25.0,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": false,
+            "evidence": "Referee raises arm in a goal signal and players from the white/blue team gather to celebrate."
+          }
+        },
+        {
+          "interval": [
+            617.0,
+            625.0
+          ],
+          "window": [
+            600,
+            630.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 17.0,
+            "offset_end_s": 25.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white jersey shoots the ball into the net, followed by a referee raising his arm to signal a goal and the team gathering to celebrate."
+          }
+        },
+        {
+          "interval": [
+            620,
+            626
+          ],
+          "window": [
+            620,
+            650.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 0,
+            "offset_end_s": 6,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": false,
+            "evidence": "The scoreboard changes from 0-1 to 0-2 at the start of the clip, and the white/blue team is seen celebrating with raised arms and huddling."
+          }
+        },
+        {
+          "interval": [
+            778,
+            782
+          ],
+          "window": [
+            760,
+            790.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 18,
+            "offset_end_s": 22,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white uniform shoots the ball into the net, followed by a referee raising his arm to signal a goal."
+          }
+        },
+        {
+          "interval": [
+            980,
+            988
+          ],
+          "window": [
+            960,
+            990.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 20,
+            "offset_end_s": 28,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white uniform shoots the ball into the net, and the referee raises his arm to signal a goal."
+          }
+        },
+        {
+          "interval": [
+            980.0,
+            988.0
+          ],
+          "window": [
+            980,
+            1010.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 0.0,
+            "offset_end_s": 8.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white jersey shoots the ball into the net, followed by the referee raising his arm to signal a goal."
+          }
+        },
+        {
+          "interval": [
+            1330.0,
+            1332.0
+          ],
+          "window": [
+            1320,
+            1350.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 10.0,
+            "offset_end_s": 12.0,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white and blue uniform raises his arm and stick in a clear goal celebration gesture."
+          }
+        },
+        {
+          "interval": [
+            1420,
+            1432
+          ],
+          "window": [
+            1420,
+            1450.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 0,
+            "offset_end_s": 12,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "Players in white jerseys gather and celebrate with raised arms and high-fives, while the opposing team walks away dejected."
+          }
+        },
+        {
+          "interval": [
+            1660.0,
+            1670.0
+          ],
+          "window": [
+            1660,
+            1690.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 0.0,
+            "offset_end_s": 10.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "Players in white jerseys gather in a celebratory huddle near the goal, indicating a goal was just scored."
+          }
+        },
+        {
+          "interval": [
+            2212.0,
+            2220.0
+          ],
+          "window": [
+            2200,
+            2230.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 12.0,
+            "offset_end_s": 20.0,
+            "team_uniform": "black",
+            "ball_crossing_visible": true,
+            "evidence": "A player in a black jersey shoots the ball into the net, followed by a celebration from the white team."
+          }
+        },
+        {
+          "interval": [
+            2590.0,
+            2593.0
+          ],
+          "window": [
+            2580,
+            2610.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 10.0,
+            "offset_end_s": 13.0,
+            "team_uniform": "black",
+            "ball_crossing_visible": true,
+            "evidence": "A player in a black uniform shoots the ball into the net, followed by a celebration with arms raised."
+          }
+        },
+        {
+          "interval": [
+            2655.0,
+            2662.0
+          ],
+          "window": [
+            2640,
+            2670.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 15.0,
+            "offset_end_s": 22.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white jersey sprints down the ice and scores, followed by a referee raising their arm to signal a goal."
+          }
+        },
+        {
+          "interval": [
+            2920.0,
+            2926.0
+          ],
+          "window": [
+            2900,
+            2930.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 20.0,
+            "offset_end_s": 26.0,
+            "team_uniform": "white",
+            "ball_crossing_visible": true,
+            "evidence": "A player in a white uniform shoots the ball past the goalkeeper into the net, and the scoreboard score changes from 5 to 6."
+          }
+        }
+      ],
+      "clusters": [
+        {
+          "interval": [
+            133.0,
+            142.0
+          ],
+          "members": [
+            {
+              "interval": [
+                133.0,
+                142.0
+              ],
+              "window": [
+                120,
+                150.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 13.0,
+                "offset_end_s": 22.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": true,
+                "evidence": "A player in a white jersey shoots the ball into the net, followed by a celebration with teammates."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            342.0,
+            350.0
+          ],
+          "members": [
+            {
+              "interval": [
+                342.0,
+                350.0
+              ],
+              "window": [
+                340,
+                370.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 2.0,
+                "offset_end_s": 10.0,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": false,
+                "evidence": "Players in white and blue jerseys raise their sticks and gather in a celebratory huddle near the center of the rink."
+              }
+            },
+            {
+              "interval": [
+                343.0,
+                349.0
+              ],
+              "window": [
+                320,
+                350.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 23.0,
+                "offset_end_s": 29.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white jersey shoots the ball into the net, followed by a celebration with raised arms and a referee signaling a goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            402.0,
+            405.0
+          ],
+          "members": [
+            {
+              "interval": [
+                402.0,
+                405.0
+              ],
+              "window": [
+                380,
+                410.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 22.0,
+                "offset_end_s": 25.0,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": false,
+                "evidence": "Referee raises arm in a goal signal and players from the white/blue team gather to celebrate."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            617.0,
+            626
+          ],
+          "members": [
+            {
+              "interval": [
+                617.0,
+                625.0
+              ],
+              "window": [
+                600,
+                630.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 17.0,
+                "offset_end_s": 25.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white jersey shoots the ball into the net, followed by a referee raising his arm to signal a goal and the team gathering to celebrate."
+              }
+            },
+            {
+              "interval": [
+                620,
+                626
+              ],
+              "window": [
+                620,
+                650.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 0,
+                "offset_end_s": 6,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": false,
+                "evidence": "The scoreboard changes from 0-1 to 0-2 at the start of the clip, and the white/blue team is seen celebrating with raised arms and huddling."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            778,
+            782
+          ],
+          "members": [
+            {
+              "interval": [
+                778,
+                782
+              ],
+              "window": [
+                760,
+                790.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 18,
+                "offset_end_s": 22,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white uniform shoots the ball into the net, followed by a referee raising his arm to signal a goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            980,
+            988
+          ],
+          "members": [
+            {
+              "interval": [
+                980,
+                988
+              ],
+              "window": [
+                960,
+                990.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 20,
+                "offset_end_s": 28,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white uniform shoots the ball into the net, and the referee raises his arm to signal a goal."
+              }
+            },
+            {
+              "interval": [
+                980.0,
+                988.0
+              ],
+              "window": [
+                980,
+                1010.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 0.0,
+                "offset_end_s": 8.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white jersey shoots the ball into the net, followed by the referee raising his arm to signal a goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            1330.0,
+            1332.0
+          ],
+          "members": [
+            {
+              "interval": [
+                1330.0,
+                1332.0
+              ],
+              "window": [
+                1320,
+                1350.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 10.0,
+                "offset_end_s": 12.0,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white and blue uniform raises his arm and stick in a clear goal celebration gesture."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            1420,
+            1432
+          ],
+          "members": [
+            {
+              "interval": [
+                1420,
+                1432
+              ],
+              "window": [
+                1420,
+                1450.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 0,
+                "offset_end_s": 12,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "Players in white jerseys gather and celebrate with raised arms and high-fives, while the opposing team walks away dejected."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            1660.0,
+            1670.0
+          ],
+          "members": [
+            {
+              "interval": [
+                1660.0,
+                1670.0
+              ],
+              "window": [
+                1660,
+                1690.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 0.0,
+                "offset_end_s": 10.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "Players in white jerseys gather in a celebratory huddle near the goal, indicating a goal was just scored."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2212.0,
+            2220.0
+          ],
+          "members": [
+            {
+              "interval": [
+                2212.0,
+                2220.0
+              ],
+              "window": [
+                2200,
+                2230.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 12.0,
+                "offset_end_s": 20.0,
+                "team_uniform": "black",
+                "ball_crossing_visible": true,
+                "evidence": "A player in a black jersey shoots the ball into the net, followed by a celebration from the white team."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2590.0,
+            2593.0
+          ],
+          "members": [
+            {
+              "interval": [
+                2590.0,
+                2593.0
+              ],
+              "window": [
+                2580,
+                2610.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 10.0,
+                "offset_end_s": 13.0,
+                "team_uniform": "black",
+                "ball_crossing_visible": true,
+                "evidence": "A player in a black uniform shoots the ball into the net, followed by a celebration with arms raised."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2655.0,
+            2662.0
+          ],
+          "members": [
+            {
+              "interval": [
+                2655.0,
+                2662.0
+              ],
+              "window": [
+                2640,
+                2670.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 15.0,
+                "offset_end_s": 22.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white jersey sprints down the ice and scores, followed by a referee raising their arm to signal a goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2920.0,
+            2926.0
+          ],
+          "members": [
+            {
+              "interval": [
+                2920.0,
+                2926.0
+              ],
+              "window": [
+                2900,
+                2930.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 20.0,
+                "offset_end_s": 26.0,
+                "team_uniform": "white",
+                "ball_crossing_visible": true,
+                "evidence": "A player in a white uniform shoots the ball past the goalkeeper into the net, and the scoreboard score changes from 5 to 6."
+              }
+            }
+          ]
+        }
+      ],
+      "invalid_event_offsets": [],
+      "metrics": {
+        "2": {
+          "tolerance_s": 2,
+          "reviewed_goals": 7,
+          "candidates": 13,
+          "matched": 3,
+          "unmatched_candidates": 10,
+          "missed_reviewed_goals": 4,
+          "precision": 0.23076923076923078,
+          "recall": 0.42857142857142855,
+          "matches": [
+            {
+              "candidate": 1,
+              "goal_index": 1,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 3,
+              "goal_index": 2,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 8,
+              "goal_index": 3,
+              "distance_s": 0.0
+            }
+          ]
+        },
+        "10": {
+          "tolerance_s": 10,
+          "reviewed_goals": 7,
+          "candidates": 13,
+          "matched": 3,
+          "unmatched_candidates": 10,
+          "missed_reviewed_goals": 4,
+          "precision": 0.23076923076923078,
+          "recall": 0.42857142857142855,
+          "matches": [
+            {
+              "candidate": 1,
+              "goal_index": 1,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 3,
+              "goal_index": 2,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 8,
+              "goal_index": 3,
+              "distance_s": 0.0
+            }
+          ]
+        }
+      },
+      "reviewed_goals_in_candidate_windows": 3,
+      "completed_sha256": "e79fd9a5d508ceadd4d2d7bb8a3d2fce51138ec36f1183f4d2fbf81e1b3854c8"
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "model": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "engine": "vllm0.31.0",
+      "complete": true,
+      "duration_s": 2739.703633,
+      "windows": 137,
+      "seconds_excluding_model_load": 978.5187248760005,
+      "states": {
+        "no": 134,
+        "yes": 3
+      },
+      "events": [
+        {
+          "interval": [
+            1780,
+            1788
+          ],
+          "window": [
+            1760,
+            1790.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 20,
+            "offset_end_s": 28,
+            "team_uniform": "white",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a white uniform shoots the ball into the net, followed by a referee raising both arms to signal a goal and the team celebrating."
+          }
+        },
+        {
+          "interval": [
+            2078,
+            2082
+          ],
+          "window": [
+            2060,
+            2090.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 18,
+            "offset_end_s": 22,
+            "team_uniform": "red",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a red uniform shoots the ball into the net, followed immediately by the referee raising their arm to signal a goal."
+          }
+        },
+        {
+          "interval": [
+            2218,
+            2224
+          ],
+          "window": [
+            2200,
+            2230.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 18,
+            "offset_end_s": 24,
+            "team_uniform": "red",
+            "ball_crossing_visible": false,
+            "evidence": "A player in a red uniform shoots the ball into the net, followed by a visible celebration from the team and a young spectator in the foreground."
+          }
+        }
+      ],
+      "clusters": [
+        {
+          "interval": [
+            1780,
+            1788
+          ],
+          "members": [
+            {
+              "interval": [
+                1780,
+                1788
+              ],
+              "window": [
+                1760,
+                1790.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 20,
+                "offset_end_s": 28,
+                "team_uniform": "white",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a white uniform shoots the ball into the net, followed by a referee raising both arms to signal a goal and the team celebrating."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2078,
+            2082
+          ],
+          "members": [
+            {
+              "interval": [
+                2078,
+                2082
+              ],
+              "window": [
+                2060,
+                2090.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 18,
+                "offset_end_s": 22,
+                "team_uniform": "red",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a red uniform shoots the ball into the net, followed immediately by the referee raising their arm to signal a goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2218,
+            2224
+          ],
+          "members": [
+            {
+              "interval": [
+                2218,
+                2224
+              ],
+              "window": [
+                2200,
+                2230.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 18,
+                "offset_end_s": 24,
+                "team_uniform": "red",
+                "ball_crossing_visible": false,
+                "evidence": "A player in a red uniform shoots the ball into the net, followed by a visible celebration from the team and a young spectator in the foreground."
+              }
+            }
+          ]
+        }
+      ],
+      "invalid_event_offsets": [],
+      "metrics": {
+        "2": {
+          "tolerance_s": 2,
+          "reviewed_goals": 7,
+          "candidates": 3,
+          "matched": 0,
+          "unmatched_candidates": 3,
+          "missed_reviewed_goals": 7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "matches": []
+        },
+        "10": {
+          "tolerance_s": 10,
+          "reviewed_goals": 7,
+          "candidates": 3,
+          "matched": 0,
+          "unmatched_candidates": 3,
+          "missed_reviewed_goals": 7,
+          "precision": 0.0,
+          "recall": 0.0,
+          "matches": []
+        }
+      },
+      "reviewed_goals_in_candidate_windows": 0,
+      "completed_sha256": "059425df504246935081ca18de416bf71ecd07577871cf547cbd67975059436b"
+    }
+  ],
+  "reference_sha256": {
+    "data/stats/nbhl-goal-review.json": "3929931dd7270222e14ba6a309cf23bb8f4f2bc056dc5cd39efa4094914fb408",
+    "data/ball-hockey/goal-review-nj-v1.json": "0c00174039d71d0def34046c422467ad2295319786611dcc61da6cf0c80b7914",
+    "data/ball-hockey/goal-review-ma-v1.json": "c190263142d2b1e24bd9e7a7bce6b3a9007c8f00f9baa27323efc97ab2ca6b65"
+  },
+  "policy": "Candidate statuses yes or possible; overlapping proposals within five seconds clustered, then one-to-one interval matching with two- and ten-second tolerance. No threshold selected on goals. Complete recordings only. Window retrieval is a separate coarse measure, not precise goal localization.",
+  "limitations": "Assistant-reviewed goal windows, not independent human ground truth. California and Massachusetts reviews were reconciled with known official records; New Jersey was sealed before official comparison. Massachusetts has no exact clock validation for these intervals. Claimed ball crossings and scoring colors are model statements, not validated facts. Runtime excludes model download/load."
+}

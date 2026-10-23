@@ -1,3 +1,5 @@
 * text=auto
 # Keep byte-preserved experiment source, including its original EOF whitespace.
 experiments/reference/** whitespace=-blank-at-eof
+
+web/data/stats/*.csv -text whitespace=cr-at-eol

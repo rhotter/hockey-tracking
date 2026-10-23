@@ -1,0 +1,191 @@
+{
+  "id": "nbhl-reid-finetune-training-v1",
+  "experiments": [
+    {
+      "variant": "reviewed_head",
+      "training_steps": 1200,
+      "selected_step": 100,
+      "train_pairs": 130,
+      "validation_pairs": 81,
+      "trainable_parameters": 262144,
+      "weights_sha256": "98a578f6f7202c9c61bb1388ea81347df97aeacac6782a4cc67236adad3c208c",
+      "dataset_sha256": "c74986411229e4c8b1f2fe944f0a6a69dac29cfea89d2c1bb0e2529079c5d918",
+      "seconds": 309.92907352400005,
+      "validation_before": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6759803954857988
+      },
+      "validation_after": {
+        "threshold": 0.8536007404327393,
+        "tp": 1,
+        "fp": 0,
+        "tn": 58,
+        "fn": 22,
+        "precision": 1.0,
+        "recall": 0.043478260869565216,
+        "average_precision": 0.6924867625953458
+      }
+    },
+    {
+      "variant": "reviewed_last",
+      "training_steps": 1200,
+      "selected_step": 900,
+      "train_pairs": 130,
+      "validation_pairs": 81,
+      "trainable_parameters": 1595152,
+      "weights_sha256": "51560bbea364366ddfb9bdb9574d223a104df6bd1f9fa9c3e29f53a188db7d94",
+      "dataset_sha256": "c74986411229e4c8b1f2fe944f0a6a69dac29cfea89d2c1bb0e2529079c5d918",
+      "seconds": 496.09006705,
+      "validation_before": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6759803954857988
+      },
+      "validation_after": {
+        "threshold": 0.8727806806564331,
+        "tp": 5,
+        "fp": 0,
+        "tn": 58,
+        "fn": 18,
+        "precision": 1.0,
+        "recall": 0.21739130434782608,
+        "average_precision": 0.7366955421299224
+      }
+    },
+    {
+      "variant": "mixed_last",
+      "training_steps": 1200,
+      "selected_step": 1200,
+      "train_pairs": 532,
+      "validation_pairs": 81,
+      "trainable_parameters": 1595152,
+      "weights_sha256": "19d4e0cc05aded2d598a54f65ae812a960c31056b132dbff896a59fa7b46f637",
+      "dataset_sha256": "c74986411229e4c8b1f2fe944f0a6a69dac29cfea89d2c1bb0e2529079c5d918",
+      "seconds": 493.58866941099996,
+      "validation_before": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6759803954857988
+      },
+      "validation_after": {
+        "threshold": 0.884925365447998,
+        "tp": 3,
+        "fp": 0,
+        "tn": 58,
+        "fn": 20,
+        "precision": 1.0,
+        "recall": 0.13043478260869565,
+        "average_precision": 0.7240231337160397
+      }
+    },
+    {
+      "variant": "extended_last",
+      "training_steps": 1200,
+      "selected_step": 500,
+      "train_pairs": 5887,
+      "validation_pairs": 81,
+      "trainable_parameters": 1595152,
+      "weights_sha256": "33e107590070f2aee92d019ee3d226a6ef520371418676deb862dc2c19e6cb24",
+      "dataset_sha256": "b354476a9a8acaddf6e51de16b66de2de55ac8ef4ac7a4e070f9978056718f58",
+      "seconds": 501.843520626,
+      "validation_before": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6759803954857988
+      },
+      "validation_after": {
+        "threshold": 0.869478702545166,
+        "tp": 2,
+        "fp": 0,
+        "tn": 58,
+        "fn": 21,
+        "precision": 1.0,
+        "recall": 0.08695652173913043,
+        "average_precision": 0.7206357485991334
+      }
+    },
+    {
+      "variant": "extended_full",
+      "training_steps": 1200,
+      "selected_step": 100,
+      "train_pairs": 5887,
+      "validation_pairs": 81,
+      "trainable_parameters": 2431652,
+      "weights_sha256": "c66d9b22844e4929ddc371943bbe3f0f164b53b9592839b60c7c88ff9c90382d",
+      "dataset_sha256": "b354476a9a8acaddf6e51de16b66de2de55ac8ef4ac7a4e070f9978056718f58",
+      "seconds": 536.367801465,
+      "validation_before": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6759803954857988
+      },
+      "validation_after": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6967064595098901
+      }
+    },
+    {
+      "variant": "diagonal",
+      "training_steps": 1200,
+      "selected_step": 100,
+      "train_pairs": 130,
+      "validation_pairs": 81,
+      "trainable_parameters": 512,
+      "weights_sha256": "11eb0a08ddfdac206fb99aaf262573b5222a5892603054ea4ab0029cd3559a1e",
+      "dataset_sha256": "c74986411229e4c8b1f2fe944f0a6a69dac29cfea89d2c1bb0e2529079c5d918",
+      "seconds": 468.779241049,
+      "validation_before": {
+        "threshold": 1.00001,
+        "tp": 0,
+        "fp": 0,
+        "tn": 58,
+        "fn": 23,
+        "precision": 0.0,
+        "recall": 0.0,
+        "average_precision": 0.6759803954857988
+      },
+      "validation_after": {
+        "threshold": 0.8778680562973022,
+        "tp": 2,
+        "fp": 0,
+        "tn": 58,
+        "fn": 21,
+        "precision": 1.0,
+        "recall": 0.08695652173913043,
+        "average_precision": 0.7407663910813851
+      }
+    }
+  ]
+}

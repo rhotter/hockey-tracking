@@ -1,0 +1,152 @@
+{
+  "id": "nbhl-dino-identity-v1",
+  "models": [
+    {
+      "variant": "parts",
+      "model": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "input_sha256": "8ffd96b4d8970dad1e16727a2a9f4170df00d2ba786361d42755a9ec61e27614",
+      "confidence_threshold": 0.8282294273376466,
+      "old_splits": {
+        "development_regression": {
+          "pairs": 79,
+          "same_reference": 45,
+          "different_reference": 34,
+          "correct_merges": 13,
+          "wrong_merges": 0,
+          "rejected_same": 32,
+          "same_recall": 0.28888888888888886,
+          "merge_precision": 1.0
+        },
+        "transfer_regression": {
+          "pairs": 56,
+          "same_reference": 16,
+          "different_reference": 40,
+          "correct_merges": 0,
+          "wrong_merges": 0,
+          "rejected_same": 16,
+          "same_recall": 0.0,
+          "merge_precision": null
+        }
+      },
+      "gb": {
+        "pairs": 647,
+        "same_reference": 78,
+        "different_reference": 569,
+        "correct_merges": 2,
+        "wrong_merges": 0,
+        "rejected_same": 76,
+        "same_recall": 0.02564102564102564,
+        "merge_precision": 1.0
+      },
+      "gb_same_team": {
+        "pairs": 338,
+        "same_reference": 78,
+        "different_reference": 260,
+        "correct_merges": 2,
+        "wrong_merges": 0,
+        "rejected_same": 76,
+        "same_recall": 0.02564102564102564,
+        "merge_precision": 1.0
+      },
+      "gb_clips": {
+        "gb-tracking-0600": {
+          "pairs": 324,
+          "same_reference": 41,
+          "different_reference": 283,
+          "correct_merges": 1,
+          "wrong_merges": 0,
+          "rejected_same": 40,
+          "same_recall": 0.024390243902439025,
+          "merge_precision": 1.0
+        },
+        "gb-tracking-1800": {
+          "pairs": 323,
+          "same_reference": 37,
+          "different_reference": 286,
+          "correct_merges": 1,
+          "wrong_merges": 0,
+          "rejected_same": 36,
+          "same_recall": 0.02702702702702703,
+          "merge_precision": 1.0
+        }
+      }
+    },
+    {
+      "variant": "whole",
+      "model": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "input_sha256": "53b9fcfdc3174105a54fda262b3681795035cbdb784583b8463d43cdcca299fc",
+      "confidence_threshold": 0.8914945125579835,
+      "old_splits": {
+        "development_regression": {
+          "pairs": 79,
+          "same_reference": 45,
+          "different_reference": 34,
+          "correct_merges": 12,
+          "wrong_merges": 0,
+          "rejected_same": 33,
+          "same_recall": 0.26666666666666666,
+          "merge_precision": 1.0
+        },
+        "transfer_regression": {
+          "pairs": 56,
+          "same_reference": 16,
+          "different_reference": 40,
+          "correct_merges": 0,
+          "wrong_merges": 0,
+          "rejected_same": 16,
+          "same_recall": 0.0,
+          "merge_precision": null
+        }
+      },
+      "gb": {
+        "pairs": 647,
+        "same_reference": 78,
+        "different_reference": 569,
+        "correct_merges": 3,
+        "wrong_merges": 0,
+        "rejected_same": 75,
+        "same_recall": 0.038461538461538464,
+        "merge_precision": 1.0
+      },
+      "gb_same_team": {
+        "pairs": 338,
+        "same_reference": 78,
+        "different_reference": 260,
+        "correct_merges": 3,
+        "wrong_merges": 0,
+        "rejected_same": 75,
+        "same_recall": 0.038461538461538464,
+        "merge_precision": 1.0
+      },
+      "gb_clips": {
+        "gb-tracking-0600": {
+          "pairs": 324,
+          "same_reference": 41,
+          "different_reference": 283,
+          "correct_merges": 2,
+          "wrong_merges": 0,
+          "rejected_same": 39,
+          "same_recall": 0.04878048780487805,
+          "merge_precision": 1.0
+        },
+        "gb-tracking-1800": {
+          "pairs": 323,
+          "same_reference": 37,
+          "different_reference": 286,
+          "correct_merges": 1,
+          "wrong_merges": 0,
+          "rejected_same": 36,
+          "same_recall": 0.02702702702702703,
+          "merge_precision": 1.0
+        }
+      }
+    }
+  ],
+  "primary_variant": "parts",
+  "scope": "Assisted crop-level development comparison, not automatic tracking.",
+  "selection": "Threshold fixed above the largest different-player cosine on California development pairs; no threshold chosen using the other sets.",
+  "limitations": "Assistant-reviewed references, correlated pairs and reviewed bounding boxes. Parts and whole are both reported, not selected by transfer results. High crop similarity does not establish continuous identity.",
+  "gb_reference_sha256": "c927fe72899f5faa2e3231035ebf33714fdfc0625489da62216fcee5f42b3ab9"
+}

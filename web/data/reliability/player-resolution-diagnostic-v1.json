@@ -1,0 +1,361 @@
+{
+  "id": "nbhl-player-resolution-diagnostic-v1",
+  "scope": "Post-transfer development diagnostic, not a fresh test",
+  "models": [
+    {
+      "variant": "full1920",
+      "selection": {
+        "variant": "full1920",
+        "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+        "confidence_threshold": 0.9,
+        "validation": {
+          "confidence_threshold": 0.9,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 93,
+          "fp": 1,
+          "fn": 85,
+          "precision": 0.9893617021276596,
+          "recall": 0.5224719101123596,
+          "f1": 0.6838235294117647,
+          "false_positives_per_frame": 0.043478260869565216,
+          "goalies": 19,
+          "goalie_hits": 8,
+          "goalie_recall": 0.42105263157894735
+        },
+        "validation_labels_sha256": "3e7a1d15a0d6ce40107ae25350d606450a27407eb87e171714e1e99d8bab003e",
+        "selection": "Maximum Pittsburgh recall at precision >=0.95, lowest threshold tie. Fallback best F1 if target unmet.",
+        "test_results_motivated_variant_design": true,
+        "task_scope": "NBHL ball hockey only",
+        "test_labels_used_for_threshold": false
+      },
+      "selection_sha256": "0dcd0c03847f807e35277dcaab5abb971620fdd0fa3bd3adfa44452a9d074d41",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.9,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 26,
+            "fp": 0,
+            "fn": 59,
+            "precision": 1.0,
+            "recall": 0.3058823529411765,
+            "f1": 0.46846846846846846,
+            "false_positives_per_frame": 0.0,
+            "goalies": 11,
+            "goalie_hits": 2,
+            "goalie_recall": 0.18181818181818182
+          },
+          "seconds": 8.710716286,
+          "input_sha256": "1a7b913a73f5625596fb9d74a7e54e46b08c5a054a4527f7f35a8b894a7c5f27"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.9,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 49,
+            "fp": 0,
+            "fn": 42,
+            "precision": 1.0,
+            "recall": 0.5384615384615384,
+            "f1": 0.7,
+            "false_positives_per_frame": 0.0,
+            "goalies": 8,
+            "goalie_hits": 0,
+            "goalie_recall": 0.0
+          },
+          "seconds": 7.9295868270000085,
+          "input_sha256": "fcc9d26be81aff207f61d407e3f4a9e38fdb233aa76b36c5f04f811beadba27e"
+        }
+      ],
+      "combined": {
+        "frames": 22,
+        "targets": 176,
+        "tp": 75,
+        "fp": 0,
+        "fn": 101,
+        "goalies": 19,
+        "goalie_hits": 2,
+        "precision": 1.0,
+        "recall": 0.42613636363636365
+      }
+    },
+    {
+      "variant": "full2560",
+      "selection": {
+        "variant": "full2560",
+        "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+        "confidence_threshold": 0.85,
+        "validation": {
+          "confidence_threshold": 0.85,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 137,
+          "fp": 4,
+          "fn": 41,
+          "precision": 0.9716312056737588,
+          "recall": 0.7696629213483146,
+          "f1": 0.8589341692789969,
+          "false_positives_per_frame": 0.17391304347826086,
+          "goalies": 19,
+          "goalie_hits": 13,
+          "goalie_recall": 0.6842105263157895
+        },
+        "validation_labels_sha256": "3e7a1d15a0d6ce40107ae25350d606450a27407eb87e171714e1e99d8bab003e",
+        "selection": "Maximum Pittsburgh recall at precision >=0.95, lowest threshold tie. Fallback best F1 if target unmet.",
+        "test_results_motivated_variant_design": true,
+        "task_scope": "NBHL ball hockey only",
+        "test_labels_used_for_threshold": false
+      },
+      "selection_sha256": "6a088ba999bea5c4aa8b30a7d9671f99e0144ddce8d0c458bea31b6b2f312cb7",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.85,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 44,
+            "fp": 2,
+            "fn": 41,
+            "precision": 0.9565217391304348,
+            "recall": 0.5176470588235295,
+            "f1": 0.6717557251908397,
+            "false_positives_per_frame": 0.18181818181818182,
+            "goalies": 11,
+            "goalie_hits": 1,
+            "goalie_recall": 0.09090909090909091
+          },
+          "seconds": 1.0597700880000076,
+          "input_sha256": "82cce8e69195fac7a9d25c9db33d6cf0fd632e14f49f4fff6fbc7c713325c4c4"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.85,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 75,
+            "fp": 3,
+            "fn": 16,
+            "precision": 0.9615384615384616,
+            "recall": 0.8241758241758241,
+            "f1": 0.8875739644970414,
+            "false_positives_per_frame": 0.2727272727272727,
+            "goalies": 8,
+            "goalie_hits": 5,
+            "goalie_recall": 0.625
+          },
+          "seconds": 1.147993403000001,
+          "input_sha256": "327813b40456247d1a4c5c99cba2acd979425ea592ce68a3509f3ec9aa267509"
+        }
+      ],
+      "combined": {
+        "frames": 22,
+        "targets": 176,
+        "tp": 119,
+        "fp": 5,
+        "fn": 57,
+        "goalies": 19,
+        "goalie_hits": 6,
+        "precision": 0.9596774193548387,
+        "recall": 0.6761363636363636
+      }
+    },
+    {
+      "variant": "tiles960",
+      "selection": {
+        "variant": "tiles960",
+        "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+        "confidence_threshold": 0.55,
+        "validation": {
+          "confidence_threshold": 0.55,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 165,
+          "fp": 8,
+          "fn": 13,
+          "precision": 0.953757225433526,
+          "recall": 0.9269662921348315,
+          "f1": 0.9401709401709402,
+          "false_positives_per_frame": 0.34782608695652173,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "validation_labels_sha256": "3e7a1d15a0d6ce40107ae25350d606450a27407eb87e171714e1e99d8bab003e",
+        "selection": "Maximum Pittsburgh recall at precision >=0.95, lowest threshold tie. Fallback best F1 if target unmet.",
+        "test_results_motivated_variant_design": true,
+        "task_scope": "NBHL ball hockey only",
+        "test_labels_used_for_threshold": false
+      },
+      "selection_sha256": "d68a2bd6457ad321c5b001cb548e9149b71ec7abeff40b22d3069d9a3da784c2",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 67,
+            "fp": 2,
+            "fn": 18,
+            "precision": 0.9710144927536232,
+            "recall": 0.788235294117647,
+            "f1": 0.8701298701298701,
+            "false_positives_per_frame": 0.18181818181818182,
+            "goalies": 11,
+            "goalie_hits": 5,
+            "goalie_recall": 0.45454545454545453
+          },
+          "seconds": 0.42731731799999295,
+          "input_sha256": "e52b849152abb6d74c535a2c6e0df3db717d9037bf9b77813fed11b8e62429a9"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 88,
+            "fp": 12,
+            "fn": 3,
+            "precision": 0.88,
+            "recall": 0.967032967032967,
+            "f1": 0.9214659685863874,
+            "false_positives_per_frame": 1.0909090909090908,
+            "goalies": 8,
+            "goalie_hits": 7,
+            "goalie_recall": 0.875
+          },
+          "seconds": 1.43109862499999,
+          "input_sha256": "7f52a3e0e196698e61dac0c0d3743eb20ad8e6ef05b5d7ff8bb48c5bc9015e0d"
+        }
+      ],
+      "combined": {
+        "frames": 22,
+        "targets": 176,
+        "tp": 155,
+        "fp": 14,
+        "fn": 21,
+        "goalies": 19,
+        "goalie_hits": 12,
+        "precision": 0.9171597633136095,
+        "recall": 0.8806818181818182
+      }
+    },
+    {
+      "variant": "full1280_tiles960",
+      "selection": {
+        "variant": "full1280_tiles960",
+        "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+        "confidence_threshold": 0.65,
+        "validation": {
+          "confidence_threshold": 0.65,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 165,
+          "fp": 6,
+          "fn": 13,
+          "precision": 0.9649122807017544,
+          "recall": 0.9269662921348315,
+          "f1": 0.9455587392550143,
+          "false_positives_per_frame": 0.2608695652173913,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "validation_labels_sha256": "3e7a1d15a0d6ce40107ae25350d606450a27407eb87e171714e1e99d8bab003e",
+        "selection": "Maximum Pittsburgh recall at precision >=0.95, lowest threshold tie. Fallback best F1 if target unmet.",
+        "test_results_motivated_variant_design": true,
+        "task_scope": "NBHL ball hockey only",
+        "test_labels_used_for_threshold": false
+      },
+      "selection_sha256": "69af6ee0f148f86a241e0a63ebdcbaad530e9b0c05154b6f55f8fb09e07eb224",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 64,
+            "fp": 1,
+            "fn": 21,
+            "precision": 0.9846153846153847,
+            "recall": 0.7529411764705882,
+            "f1": 0.8533333333333334,
+            "false_positives_per_frame": 0.09090909090909091,
+            "goalies": 11,
+            "goalie_hits": 4,
+            "goalie_recall": 0.36363636363636365
+          },
+          "seconds": 0.641689576000001,
+          "input_sha256": "30a6d723f826b3312176fcde1b6b84be27b88e28d3fc8969fc12e9330f7bf055"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 89,
+            "fp": 11,
+            "fn": 2,
+            "precision": 0.89,
+            "recall": 0.978021978021978,
+            "f1": 0.9319371727748691,
+            "false_positives_per_frame": 1.0,
+            "goalies": 8,
+            "goalie_hits": 8,
+            "goalie_recall": 1.0
+          },
+          "seconds": 1.739762214999999,
+          "input_sha256": "57aa750baaf85e5aa825ffc4e806273e7ed81bef467298629bd655c947f97a27"
+        }
+      ],
+      "combined": {
+        "frames": 22,
+        "targets": 176,
+        "tp": 153,
+        "fp": 12,
+        "fn": 23,
+        "goalies": 19,
+        "goalie_hits": 12,
+        "precision": 0.9272727272727272,
+        "recall": 0.8693181818181818
+      }
+    }
+  ],
+  "baseline": {
+    "model": "NBHL YOLO11m at 1280",
+    "confidence_threshold": 0.65,
+    "targets": 176,
+    "tp": 149,
+    "fp": 6,
+    "fn": 27
+  },
+  "conclusion": "No unconditional improvement. Tiling recovered additional North Shore players but added false detections; full-frame higher resolution required much higher Pittsburgh-selected thresholds and missed more players. Original settings remain the primary YOLO configuration.",
+  "limitations": [
+    "The same Buffalo and North Shore labels were used previously; their observed failures motivated these variants.",
+    "Thresholds were selected only on Pittsburgh, with precision >=0.95 as the target.",
+    "Runtime includes per-call overhead and model warm-up; it is not a streaming throughput comparison.",
+    "Assistant-reviewed boxes, no independent human ground truth."
+  ]
+}

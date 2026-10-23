@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-18T09:49:20.665837+00:00",
+  "venues": [
+    {
+      "source_id": "plDp2kPtk_g",
+      "official_match_location": "Grey Rink",
+      "evidence": "data/stats/nbhl-619593-details.json:SportCenterName",
+      "facility": "Fitchburg Street Hockey, Coolidge Park, Fitchburg MA",
+      "primary_url": "https://www.fitchburgstreethockey.com/",
+      "finding": "Facility lists Grey Rink under Coolidge Park, separately from Leominster Dek. An earlier exploratory Leominster venue hypothesis was unverified and is rejected. Leominster published 160x80 dimensions cannot calibrate this game.",
+      "dimensions_verified": false
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "official_match_location": "Marge Martin Sports Complex",
+      "evidence": "data/stats/nbhl-752704-details.json:SportCenterName",
+      "primary_url": "https://www.gthapanthers.org/faq",
+      "finding": "Venue confirmed; exact filmed rink dimensions not established.",
+      "dimensions_verified": false
+    }
+  ],
+  "metric_distance_enabled": false
+}

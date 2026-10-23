@@ -1,0 +1,473 @@
+{
+  "frozen_at": "2026-10-19T16:06:18.725788+00:00",
+  "model": "8b",
+  "policy": "jersey_veto_normalized",
+  "counts": {
+    "correct": 102,
+    "wrong": 0,
+    "unknown_same": 14,
+    "same_total": 111,
+    "different_total": 759,
+    "missing": 26,
+    "matched_observations": 207,
+    "reference_observations": 213
+  },
+  "objective": 102,
+  "rule": "Maximize correct-10*wrong; then minimize unverified joins; prefer unchanged generic baseline. Any remaining exact ties use candidate order (8B then235B, protocol policy order).",
+  "exact_ties": [
+    {
+      "model": "8b",
+      "policy": "jersey_veto_normalized",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "jersey_veto",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "jersey_veto_normalized",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    }
+  ],
+  "candidates": [
+    {
+      "model": "8b",
+      "policy": "osnet_full",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "8b",
+      "policy": "osnet_shortlist",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "8b",
+      "policy": "jersey_veto",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "8b",
+      "policy": "jersey_support",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "8b",
+      "policy": "single_veto",
+      "counts": {
+        "correct": 95,
+        "wrong": 1,
+        "unknown_same": 12,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 85
+    },
+    {
+      "model": "8b",
+      "policy": "multi_veto",
+      "counts": {
+        "correct": 100,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 100
+    },
+    {
+      "model": "8b",
+      "policy": "multi_strict",
+      "counts": {
+        "correct": 94,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 94
+    },
+    {
+      "model": "8b",
+      "policy": "multi_symmetric",
+      "counts": {
+        "correct": 92,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 92
+    },
+    {
+      "model": "8b",
+      "policy": "multi_hybrid",
+      "counts": {
+        "correct": 100,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 100
+    },
+    {
+      "model": "8b",
+      "policy": "multi_and_jersey_veto",
+      "counts": {
+        "correct": 100,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 100
+    },
+    {
+      "model": "8b",
+      "policy": "jersey_veto_normalized",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "8b",
+      "policy": "jersey_support_normalized",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "8b",
+      "policy": "multi_and_jersey_veto_normalized",
+      "counts": {
+        "correct": 100,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 100
+    },
+    {
+      "model": "235b",
+      "policy": "osnet_full",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "osnet_shortlist",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "jersey_veto",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "jersey_support",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "single_veto",
+      "counts": {
+        "correct": 100,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 100
+    },
+    {
+      "model": "235b",
+      "policy": "multi_veto",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 101
+    },
+    {
+      "model": "235b",
+      "policy": "multi_strict",
+      "counts": {
+        "correct": 97,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 97
+    },
+    {
+      "model": "235b",
+      "policy": "multi_symmetric",
+      "counts": {
+        "correct": 96,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 96
+    },
+    {
+      "model": "235b",
+      "policy": "multi_hybrid",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 101
+    },
+    {
+      "model": "235b",
+      "policy": "multi_and_jersey_veto",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 12,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 101
+    },
+    {
+      "model": "235b",
+      "policy": "jersey_veto_normalized",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "jersey_support_normalized",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 102
+    },
+    {
+      "model": "235b",
+      "policy": "multi_and_jersey_veto_normalized",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 12,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "objective": 101
+    }
+  ],
+  "development_reports": [
+    {
+      "file": "notes/ball-hockey/vlm-reconnect-extend-development-8b.json",
+      "sha256": "ebccbda19757aa2424db94e427febb41249dd24d7c215f1a878aec3db8be842a",
+      "model": "8b"
+    },
+    {
+      "file": "notes/ball-hockey/vlm-reconnect-extend-development-235b.json",
+      "sha256": "50e42fba9053532aa1fbd8d2fa5a875f4edde4f6ae667bea2604612486508cdc",
+      "model": "235b"
+    }
+  ],
+  "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+  "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+  "regression_predictions_inspected": false,
+  "regression_scores_inspected": false,
+  "regression_inference_started_in_parallel": true
+}

@@ -1,0 +1,310 @@
+{
+  "id": "nbhl-goal-scan-evaluation",
+  "directory": "/dev/shm/sport-scans-goal-scan-v1/235b-vllm-highres",
+  "games": [
+    {
+      "source_id": "Z-tFHtxODsE",
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+      "engine": "vllm0.11.1",
+      "complete": true,
+      "duration_s": 2963.656,
+      "windows": 149,
+      "seconds_excluding_model_load": 1185.6410920269993,
+      "states": {
+        "no": 144,
+        "yes": 5
+      },
+      "events": [
+        {
+          "interval": [
+            617,
+            620
+          ],
+          "window": [
+            600,
+            630.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 17,
+            "offset_end_s": 20,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "A player in white and blue shoots the ball into the net, and the goalie reacts to the goal. The scoreboard updates from 0-1 to 0-2."
+          }
+        },
+        {
+          "interval": [
+            1666,
+            1670
+          ],
+          "window": [
+            1660,
+            1690.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 6,
+            "offset_end_s": 10,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "A player in white and blue shoots the ball into the net, and the goalie is on the ground after the shot. The players immediately begin to celebrate, confirming the goal."
+          }
+        },
+        {
+          "interval": [
+            1963,
+            1966
+          ],
+          "window": [
+            1960,
+            1990.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 3,
+            "offset_end_s": 6,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "A player in white and blue shoots the ball into the net, and the goalie fails to stop it. The player immediately raises his stick in celebration, and teammates begin to converge, confirming the goal."
+          }
+        },
+        {
+          "interval": [
+            2217,
+            2221
+          ],
+          "window": [
+            2200,
+            2230.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 17,
+            "offset_end_s": 21,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "A player in white and blue shoots the ball, it enters the net, and the referee immediately raises his arm to signal a goal."
+          }
+        },
+        {
+          "interval": [
+            2550,
+            2555
+          ],
+          "window": [
+            2540,
+            2570.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 10,
+            "offset_end_s": 15,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "Player #19 in white and blue shoots the ball into the net, and the goalie falls. The player then raises his stick in celebration, and teammates begin to gather and celebrate around him."
+          }
+        }
+      ],
+      "clusters": [
+        {
+          "interval": [
+            617,
+            620
+          ],
+          "members": [
+            {
+              "interval": [
+                617,
+                620
+              ],
+              "window": [
+                600,
+                630.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 17,
+                "offset_end_s": 20,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "A player in white and blue shoots the ball into the net, and the goalie reacts to the goal. The scoreboard updates from 0-1 to 0-2."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            1666,
+            1670
+          ],
+          "members": [
+            {
+              "interval": [
+                1666,
+                1670
+              ],
+              "window": [
+                1660,
+                1690.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 6,
+                "offset_end_s": 10,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "A player in white and blue shoots the ball into the net, and the goalie is on the ground after the shot. The players immediately begin to celebrate, confirming the goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            1963,
+            1966
+          ],
+          "members": [
+            {
+              "interval": [
+                1963,
+                1966
+              ],
+              "window": [
+                1960,
+                1990.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 3,
+                "offset_end_s": 6,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "A player in white and blue shoots the ball into the net, and the goalie fails to stop it. The player immediately raises his stick in celebration, and teammates begin to converge, confirming the goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2217,
+            2221
+          ],
+          "members": [
+            {
+              "interval": [
+                2217,
+                2221
+              ],
+              "window": [
+                2200,
+                2230.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 17,
+                "offset_end_s": 21,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "A player in white and blue shoots the ball, it enters the net, and the referee immediately raises his arm to signal a goal."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2550,
+            2555
+          ],
+          "members": [
+            {
+              "interval": [
+                2550,
+                2555
+              ],
+              "window": [
+                2540,
+                2570.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 10,
+                "offset_end_s": 15,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "Player #19 in white and blue shoots the ball into the net, and the goalie falls. The player then raises his stick in celebration, and teammates begin to gather and celebrate around him."
+              }
+            }
+          ]
+        }
+      ],
+      "invalid_event_offsets": [],
+      "metrics": {
+        "2": {
+          "tolerance_s": 2,
+          "reviewed_goals": 7,
+          "candidates": 5,
+          "matched": 3,
+          "unmatched_candidates": 2,
+          "missed_reviewed_goals": 4,
+          "precision": 0.6,
+          "recall": 0.42857142857142855,
+          "matches": [
+            {
+              "candidate": 0,
+              "goal_index": 2,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 1,
+              "goal_index": 3,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 2,
+              "goal_index": 4,
+              "distance_s": 0.0
+            }
+          ]
+        },
+        "10": {
+          "tolerance_s": 10,
+          "reviewed_goals": 7,
+          "candidates": 5,
+          "matched": 3,
+          "unmatched_candidates": 2,
+          "missed_reviewed_goals": 4,
+          "precision": 0.6,
+          "recall": 0.42857142857142855,
+          "matches": [
+            {
+              "candidate": 0,
+              "goal_index": 2,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 1,
+              "goal_index": 3,
+              "distance_s": 0.0
+            },
+            {
+              "candidate": 2,
+              "goal_index": 4,
+              "distance_s": 0.0
+            }
+          ]
+        }
+      },
+      "reviewed_goals_in_candidate_windows": 3,
+      "completed_sha256": "324f7031436bc767f239619beeefa3cceddc88b318ca2688ac8662ce5ae9b094"
+    }
+  ],
+  "reference_sha256": {
+    "data/stats/nbhl-goal-review.json": "3929931dd7270222e14ba6a309cf23bb8f4f2bc056dc5cd39efa4094914fb408",
+    "data/ball-hockey/goal-review-nj-v1.json": "0c00174039d71d0def34046c422467ad2295319786611dcc61da6cf0c80b7914",
+    "data/ball-hockey/goal-review-ma-v1.json": "c190263142d2b1e24bd9e7a7bce6b3a9007c8f00f9baa27323efc97ab2ca6b65"
+  },
+  "policy": "Candidate statuses yes or possible; overlapping proposals within five seconds clustered, then one-to-one interval matching with two- and ten-second tolerance. No threshold selected on goals. Complete recordings only. Window retrieval is a separate coarse measure, not precise goal localization.",
+  "limitations": "Assistant-reviewed goal windows, not independent human ground truth. California and Massachusetts reviews were reconciled with known official records; New Jersey was sealed before official comparison. Massachusetts has no exact clock validation for these intervals. Claimed ball crossings and scoring colors are model statements, not validated facts. Runtime excludes model download/load."
+}

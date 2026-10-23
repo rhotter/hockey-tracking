@@ -1,0 +1,288 @@
+{
+  "id": "nbhl-buffalo-training-v3",
+  "models": [
+    {
+      "tag": "yolo11m-buffalo-1c-s17-f10-e80-88a1f5e8",
+      "settings": {
+        "data": "/data/ball-hockey/reliability-20261018/datasets/yolo11m-buffalo-1c-s17-f10-e80-88a1f5e8/dataset.yaml",
+        "epochs": 80,
+        "patience": 25,
+        "imgsz": 1280,
+        "batch": 4,
+        "workers": 4,
+        "device": 0,
+        "project": "/data/ball-hockey/reliability-20261018/training",
+        "name": "yolo11m-buffalo-1c-s17-f10-e80-88a1f5e8",
+        "exist_ok": true,
+        "seed": 17,
+        "deterministic": true,
+        "optimizer": "AdamW",
+        "lr0": 0.0003,
+        "lrf": 0.05,
+        "weight_decay": 0.0005,
+        "warmup_epochs": 3,
+        "cos_lr": true,
+        "freeze": 10,
+        "mosaic": 0.3,
+        "close_mosaic": 10,
+        "mixup": 0.0,
+        "copy_paste": 0.0,
+        "degrees": 2.0,
+        "translate": 0.05,
+        "scale": 0.25,
+        "shear": 0.0,
+        "perspective": 0.0,
+        "fliplr": 0.5,
+        "flipud": 0.0,
+        "hsv_h": 0.015,
+        "hsv_s": 0.3,
+        "hsv_v": 0.3,
+        "cache": false,
+        "save": true,
+        "save_period": 10,
+        "plots": false,
+        "amp": true,
+        "verbose": false
+      },
+      "counts": {
+        "train": {
+          "player": 1387,
+          "goalie": 144,
+          "frames": 207
+        },
+        "val": {
+          "player": 159,
+          "goalie": 19,
+          "frames": 23
+        }
+      },
+      "manifest_sha256": "88a1f5e868939e131caa67a20511bf57cabac816a553069fec7749d20c1646a9",
+      "scope": "NBHL ball hockey only",
+      "base_weights_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+      "gpu": "NVIDIA L4",
+      "classes": 1,
+      "role_mapping": {
+        "player": 0,
+        "goalie": 0
+      },
+      "motivation": "Indoor Buffalo misses and role confusion motivated a distinct training recording, reserved before viewing.",
+      "test_data_used_for_training": false,
+      "transfer_status": "Already-reviewed regression sources; not a fresh test.",
+      "seconds": 714.6915171960001,
+      "completed_epochs": 53,
+      "best_weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-buffalo-1c-s17-f10-e80-88a1f5e8/weights/best.pt",
+      "best_sha256": "9a9720f6c32d2b6e936a708aff7119461cdf1b58710755a97e45874c16b15257",
+      "selection": {
+        "weights_sha256": "9a9720f6c32d2b6e936a708aff7119461cdf1b58710755a97e45874c16b15257",
+        "confidence_threshold": 0.7,
+        "validation": {
+          "confidence_threshold": 0.7,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 158,
+          "fp": 8,
+          "fn": 20,
+          "precision": 0.9518072289156626,
+          "recall": 0.8876404494382022,
+          "f1": 0.9186046511627907,
+          "false_positives_per_frame": 0.34782608695652173,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "test_threshold_tuning": false
+      },
+      "transfer": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.7,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 67,
+            "fp": 1,
+            "fn": 18,
+            "precision": 0.9852941176470589,
+            "recall": 0.788235294117647,
+            "f1": 0.8758169934640523,
+            "false_positives_per_frame": 0.09090909090909091,
+            "goalies": 11,
+            "goalie_hits": 6,
+            "goalie_recall": 0.5454545454545454
+          },
+          "role_confusion_on_matched_detections": null
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.7,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 83,
+            "fp": 4,
+            "fn": 8,
+            "precision": 0.9540229885057471,
+            "recall": 0.9120879120879121,
+            "f1": 0.9325842696629213,
+            "false_positives_per_frame": 0.36363636363636365,
+            "goalies": 8,
+            "goalie_hits": 7,
+            "goalie_recall": 0.875
+          },
+          "role_confusion_on_matched_detections": null
+        }
+      ],
+      "completed_report_sha256": "14311123243e37915eaa7fd2a59406fe324a5d4d0aa8631bdc417b7c54ac0cce"
+    },
+    {
+      "tag": "yolo11m-buffalo-2c-s17-f10-e80-88a1f5e8",
+      "settings": {
+        "data": "/data/ball-hockey/reliability-20261018/datasets/yolo11m-buffalo-2c-s17-f10-e80-88a1f5e8/dataset.yaml",
+        "epochs": 80,
+        "patience": 25,
+        "imgsz": 1280,
+        "batch": 4,
+        "workers": 4,
+        "device": 0,
+        "project": "/data/ball-hockey/reliability-20261018/training",
+        "name": "yolo11m-buffalo-2c-s17-f10-e80-88a1f5e8",
+        "exist_ok": true,
+        "seed": 17,
+        "deterministic": true,
+        "optimizer": "AdamW",
+        "lr0": 0.0003,
+        "lrf": 0.05,
+        "weight_decay": 0.0005,
+        "warmup_epochs": 3,
+        "cos_lr": true,
+        "freeze": 10,
+        "mosaic": 0.3,
+        "close_mosaic": 10,
+        "mixup": 0.0,
+        "copy_paste": 0.0,
+        "degrees": 2.0,
+        "translate": 0.05,
+        "scale": 0.25,
+        "shear": 0.0,
+        "perspective": 0.0,
+        "fliplr": 0.5,
+        "flipud": 0.0,
+        "hsv_h": 0.015,
+        "hsv_s": 0.3,
+        "hsv_v": 0.3,
+        "cache": false,
+        "save": true,
+        "save_period": 10,
+        "plots": false,
+        "amp": true,
+        "verbose": false
+      },
+      "counts": {
+        "train": {
+          "player": 1387,
+          "goalie": 144,
+          "frames": 207
+        },
+        "val": {
+          "player": 159,
+          "goalie": 19,
+          "frames": 23
+        }
+      },
+      "manifest_sha256": "88a1f5e868939e131caa67a20511bf57cabac816a553069fec7749d20c1646a9",
+      "scope": "NBHL ball hockey only",
+      "base_weights_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+      "gpu": "NVIDIA L4",
+      "classes": 2,
+      "role_mapping": {
+        "player": 0,
+        "goalie": 1
+      },
+      "motivation": "Indoor Buffalo misses and role confusion motivated a distinct training recording, reserved before viewing.",
+      "test_data_used_for_training": false,
+      "transfer_status": "Already-reviewed regression sources; not a fresh test.",
+      "seconds": 717.034464285,
+      "completed_epochs": 53,
+      "best_weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-buffalo-2c-s17-f10-e80-88a1f5e8/weights/best.pt",
+      "best_sha256": "2fe864b3cffc4f444cb7ab12c7bcf5d1c41c29a99eb21e43d83c15aac5484c5f",
+      "selection": {
+        "weights_sha256": "2fe864b3cffc4f444cb7ab12c7bcf5d1c41c29a99eb21e43d83c15aac5484c5f",
+        "confidence_threshold": 0.65,
+        "validation": {
+          "confidence_threshold": 0.65,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 161,
+          "fp": 8,
+          "fn": 17,
+          "precision": 0.9526627218934911,
+          "recall": 0.9044943820224719,
+          "f1": 0.9279538904899135,
+          "false_positives_per_frame": 0.34782608695652173,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "test_threshold_tuning": false
+      },
+      "transfer": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 71,
+            "fp": 3,
+            "fn": 14,
+            "precision": 0.9594594594594594,
+            "recall": 0.8352941176470589,
+            "f1": 0.8930817610062893,
+            "false_positives_per_frame": 0.2727272727272727,
+            "goalies": 11,
+            "goalie_hits": 5,
+            "goalie_recall": 0.45454545454545453
+          },
+          "role_confusion_on_matched_detections": {
+            "player->player": 65,
+            "goalie->goalie": 4,
+            "goalie->player": 1,
+            "player->goalie": 1
+          }
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 84,
+            "fp": 4,
+            "fn": 7,
+            "precision": 0.9545454545454546,
+            "recall": 0.9230769230769231,
+            "f1": 0.9385474860335196,
+            "false_positives_per_frame": 0.36363636363636365,
+            "goalies": 8,
+            "goalie_hits": 7,
+            "goalie_recall": 0.875
+          },
+          "role_confusion_on_matched_detections": {
+            "player->player": 77,
+            "goalie->goalie": 6,
+            "goalie->player": 1
+          }
+        }
+      ],
+      "completed_report_sha256": "67e0dfa43ebf61c37e5f03bc63521789e5bb924436c8089177c1b0eb24dddacc"
+    }
+  ],
+  "conclusion": "Neither new variant improves the original selected YOLO on Pittsburgh validation. Both were frozen before the Great Britain test and reported. No automatic production replacement.",
+  "limitations": "Expanded 207-frame ball-hockey training set, assistant labels. Buffalo and North Shore regression data share a venue with added Buffalo training; they are not independent venue tests."
+}

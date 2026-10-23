@@ -1,0 +1,2464 @@
+{
+  "id": "nbhl-reid-long-transfer-reference-v1",
+  "status": "sealed_before_inference",
+  "sealed_at": "2026-10-18T15:45:56.562240+00:00",
+  "selection_sha256": "ca2c3c7c6ea4e457547492095d6dddf1e20f02a3fe4204fbf1316211a735c674",
+  "protocol_sha256": "0ddc7fd53ccf2be0ae24b3ffc3712c746e199c8ce3d480da5b71ed6d4472fcff",
+  "pairing_policy_sha256": "954a10f727aceb334eaa509e59e9a27709786f7922578edb8ed6801e23c485b8",
+  "annotation_sha256": "6f64e08573dc1b468d26c7ee9036dcbc7d98eaa62b2310564d2af8ef6fc3934a",
+  "sampled_frames": [
+    {
+      "frame": 0,
+      "source_time_s": 900.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000001.jpg",
+      "sha256": "31700fc7494ff035d3170706d1c99d66193c9be7efd808b9c55dfa1d359a0646",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 150,
+      "source_time_s": 910.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000151.jpg",
+      "sha256": "f7c1ddd01ac2ac2a4441869eb05a4e6f23505f8a05dc0758d243ae343858b6a0",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 300,
+      "source_time_s": 920.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000301.jpg",
+      "sha256": "b4967f79a698527c98c0e9d0b5a21c5a75cbc4c681bf2d1f13b3492323d8dd08",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 450,
+      "source_time_s": 930.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000451.jpg",
+      "sha256": "a08175d9c203ece7db12552598d50f840a440803e38b18da76ff530fade2f776",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 600,
+      "source_time_s": 940.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000601.jpg",
+      "sha256": "424d23acb33a623489a95c427064ecef1fbd96925b0366e348779cbf3c7d249b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 750,
+      "source_time_s": 950.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000751.jpg",
+      "sha256": "6b653d66462788038f7cceb859b79ad094d923f0bd6b794a05282c7c067ab82b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 899,
+      "source_time_s": 959.9333333333333,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000900.jpg",
+      "sha256": "db029ca3e78a330ddbb2652b319c9a77ca649bf30b8ea36194d9fc11a734ed77",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "observations": [
+    {
+      "id": "gb0900-f0000-00",
+      "frame": 0,
+      "team": "blue",
+      "bbox": [
+        398,
+        190,
+        446,
+        277
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-01",
+      "frame": 0,
+      "team": "blue",
+      "bbox": [
+        312,
+        236,
+        370,
+        343
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-02",
+      "frame": 0,
+      "team": "black",
+      "bbox": [
+        467,
+        227,
+        517,
+        328
+      ],
+      "role": "field",
+      "jersey": 47,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-03",
+      "frame": 0,
+      "team": "black",
+      "bbox": [
+        545,
+        237,
+        613,
+        302
+      ],
+      "role": "goalie",
+      "jersey": null,
+      "helmet": null,
+      "signature": "black goalie pads and jersey, pale cage mask and red/orange stick, adjacent pre-edit views",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-04",
+      "frame": 0,
+      "team": "black",
+      "bbox": [
+        616,
+        224,
+        655,
+        312
+      ],
+      "role": "field",
+      "jersey": 65,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-05",
+      "frame": 0,
+      "team": "black",
+      "bbox": [
+        674,
+        222,
+        730,
+        326
+      ],
+      "role": "field",
+      "jersey": 88,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-06",
+      "frame": 0,
+      "team": "blue",
+      "bbox": [
+        718,
+        220,
+        790,
+        311
+      ],
+      "role": "field",
+      "jersey": 43,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0000-07",
+      "frame": 0,
+      "team": "black",
+      "bbox": [
+        820,
+        293,
+        876,
+        426
+      ],
+      "role": "field",
+      "jersey": 2,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-00",
+      "frame": 150,
+      "team": "blue",
+      "bbox": [
+        356,
+        225,
+        417,
+        347
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-01",
+      "frame": 150,
+      "team": "black",
+      "bbox": [
+        560,
+        233,
+        612,
+        288
+      ],
+      "role": "goalie",
+      "jersey": null,
+      "helmet": null,
+      "signature": "black goalie pads and jersey, pale cage mask and red/orange stick, adjacent pre-edit views",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-02",
+      "frame": 150,
+      "team": "black",
+      "bbox": [
+        534,
+        264,
+        610,
+        388
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-03",
+      "frame": 150,
+      "team": "black",
+      "bbox": [
+        689,
+        225,
+        746,
+        323
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-04",
+      "frame": 150,
+      "team": "blue",
+      "bbox": [
+        889,
+        244,
+        942,
+        363
+      ],
+      "role": "field",
+      "jersey": 43,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-05",
+      "frame": 150,
+      "team": "blue",
+      "bbox": [
+        944,
+        210,
+        995,
+        301
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-06",
+      "frame": 150,
+      "team": "black",
+      "bbox": [
+        556,
+        342,
+        643,
+        496
+      ],
+      "role": "field",
+      "jersey": 2,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0150-07",
+      "frame": 150,
+      "team": "black",
+      "bbox": [
+        1201,
+        356,
+        1280,
+        543
+      ],
+      "role": "field",
+      "jersey": 88,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0450-00",
+      "frame": 450,
+      "team": "blue",
+      "bbox": [
+        0,
+        294,
+        60,
+        512
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0450-01",
+      "frame": 450,
+      "team": "blue",
+      "bbox": [
+        231,
+        111,
+        316,
+        240
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0450-02",
+      "frame": 450,
+      "team": "black",
+      "bbox": [
+        436,
+        89,
+        496,
+        221
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0450-03",
+      "frame": 450,
+      "team": "black",
+      "bbox": [
+        645,
+        215,
+        758,
+        378
+      ],
+      "role": "field",
+      "jersey": 2,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0450-04",
+      "frame": 450,
+      "team": "blue",
+      "bbox": [
+        740,
+        428,
+        889,
+        675
+      ],
+      "role": "field",
+      "jersey": 22,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0450-05",
+      "frame": 450,
+      "team": "blue",
+      "bbox": [
+        1114,
+        307,
+        1266,
+        522
+      ],
+      "role": "field",
+      "jersey": 43,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0600-00",
+      "frame": 600,
+      "team": "black",
+      "bbox": [
+        445,
+        159,
+        510,
+        275
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0600-01",
+      "frame": 600,
+      "team": "black",
+      "bbox": [
+        792,
+        149,
+        841,
+        242
+      ],
+      "role": "goalie",
+      "jersey": null,
+      "helmet": null,
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0600-02",
+      "frame": 600,
+      "team": "black",
+      "bbox": [
+        476,
+        295,
+        595,
+        466
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0750-00",
+      "frame": 750,
+      "team": "blue",
+      "bbox": [
+        78,
+        380,
+        147,
+        539
+      ],
+      "role": "field",
+      "jersey": 43,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0750-01",
+      "frame": 750,
+      "team": "black",
+      "bbox": [
+        570,
+        305,
+        624,
+        383
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0750-02",
+      "frame": 750,
+      "team": "blue",
+      "bbox": [
+        610,
+        305,
+        669,
+        391
+      ],
+      "role": "field",
+      "jersey": 27,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0750-03",
+      "frame": 750,
+      "team": "blue",
+      "bbox": [
+        1026,
+        513,
+        1117,
+        720
+      ],
+      "role": "field",
+      "jersey": 22,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0899-00",
+      "frame": 899,
+      "team": "blue",
+      "bbox": [
+        206,
+        263,
+        263,
+        398
+      ],
+      "role": "field",
+      "jersey": 43,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0899-01",
+      "frame": 899,
+      "team": "blue",
+      "bbox": [
+        330,
+        193,
+        371,
+        281
+      ],
+      "role": "field",
+      "jersey": 27,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0899-02",
+      "frame": 899,
+      "team": "black",
+      "bbox": [
+        478,
+        225,
+        519,
+        325
+      ],
+      "role": "field",
+      "jersey": 41,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0899-03",
+      "frame": 899,
+      "team": "black",
+      "bbox": [
+        574,
+        253,
+        621,
+        324
+      ],
+      "role": "goalie",
+      "jersey": null,
+      "helmet": null,
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0899-04",
+      "frame": 899,
+      "team": "blue",
+      "bbox": [
+        678,
+        228,
+        724,
+        314
+      ],
+      "role": "field",
+      "jersey": 22,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    },
+    {
+      "id": "gb0900-f0899-05",
+      "frame": 899,
+      "team": "black",
+      "bbox": [
+        235,
+        453,
+        303,
+        674
+      ],
+      "role": "field",
+      "jersey": null,
+      "helmet": "black",
+      "clip": "gb-reid-long-0900"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-04",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-04",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-03",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-01",
+      "truth": "same",
+      "same": true,
+      "evidence": "Distinctive matching equipment: black goalie pads and jersey, pale cage mask and red/orange stick, adjacent pre-edit views"
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-03",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-03",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0150-07",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-04",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-06",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-03",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-06",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-06",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0150-07",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0150-07",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0600-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0600-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0600-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0600-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0600-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0600-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0600-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0600-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0600-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0600-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0600-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0600-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0600-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0600-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0600-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0600-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0600-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0600-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0600-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0600-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0600-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0600-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0600-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0600-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0600-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0600-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0600-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0600-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0600-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0600-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0600-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0600-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0600-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0600-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0600-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0600-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-00__gb0900-f0750-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-00",
+      "b": "gb0900-f0750-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-00__gb0900-f0750-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-00",
+      "b": "gb0900-f0750-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0600-00__gb0900-f0750-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-00",
+      "b": "gb0900-f0750-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-00__gb0900-f0750-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-00",
+      "b": "gb0900-f0750-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-01__gb0900-f0750-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-01",
+      "b": "gb0900-f0750-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-01__gb0900-f0750-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-01",
+      "b": "gb0900-f0750-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0600-01__gb0900-f0750-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-01",
+      "b": "gb0900-f0750-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-01__gb0900-f0750-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-01",
+      "b": "gb0900-f0750-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-02__gb0900-f0750-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-02",
+      "b": "gb0900-f0750-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-02__gb0900-f0750-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-02",
+      "b": "gb0900-f0750-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0600-02__gb0900-f0750-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-02",
+      "b": "gb0900-f0750-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0600-02__gb0900-f0750-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0600-02",
+      "b": "gb0900-f0750-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-00__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-00",
+      "b": "gb0900-f0899-00",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-00__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-00",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-00__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-00",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-00__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-00",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-00__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-00",
+      "b": "gb0900-f0899-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-00__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-00",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-01__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-01",
+      "b": "gb0900-f0899-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-01__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-01",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-01__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-01",
+      "b": "gb0900-f0899-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0750-01__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-01",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0750-01__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-01",
+      "b": "gb0900-f0899-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-01__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-01",
+      "b": "gb0900-f0899-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0750-02__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-02",
+      "b": "gb0900-f0899-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-02__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-02",
+      "b": "gb0900-f0899-01",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-02__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-02",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-02__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-02",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-02__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-02",
+      "b": "gb0900-f0899-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-02__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-02",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-03__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-03",
+      "b": "gb0900-f0899-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-03__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-03",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-03__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-03",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-03__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-03",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0750-03__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-03",
+      "b": "gb0900-f0899-04",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0750-03__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0750-03",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0450-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0450-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0450-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0450-04",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-00__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-00",
+      "b": "gb0900-f0450-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0450-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0450-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0450-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0450-04",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-01__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-01",
+      "b": "gb0900-f0450-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0450-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0450-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0450-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0450-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-02__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-02",
+      "b": "gb0900-f0450-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0450-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0450-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0450-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0450-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-03__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-03",
+      "b": "gb0900-f0450-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0450-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0450-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0450-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0450-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-04__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-04",
+      "b": "gb0900-f0450-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0450-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0450-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0450-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0450-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-05__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-05",
+      "b": "gb0900-f0450-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0450-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0450-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0450-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0450-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0450-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-06__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-06",
+      "b": "gb0900-f0450-05",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0450-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0450-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0450-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0450-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0450-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0450-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0450-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0450-03",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0450-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0450-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0000-07__gb0900-f0450-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0000-07",
+      "b": "gb0900-f0450-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0899-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0899-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0899-04",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-00__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-00",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0899-00",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0899-01",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0899-04",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-01__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-01",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0899-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0899-02",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0899-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-02__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-02",
+      "b": "gb0900-f0899-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0899-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Goalie / field-player equipment contradiction."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0899-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-03__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-03",
+      "b": "gb0900-f0899-05",
+      "truth": "uncertain",
+      "same": null,
+      "evidence": "Identity not independently readable at both endpoints."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0899-00",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0899-04",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-04__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-04",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0899-00",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0899-00",
+      "truth": "same",
+      "same": true,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0899-01",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0899-01",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0899-02",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0899-02",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0899-03",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0899-03",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0899-04",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0899-04",
+      "truth": "different",
+      "same": false,
+      "evidence": "Independently readable jersey numbers on the same team."
+    },
+    {
+      "id": "gb0900-f0450-05__gb0900-f0899-05",
+      "clip": "gb-reid-long-0900",
+      "a": "gb0900-f0450-05",
+      "b": "gb0900-f0899-05",
+      "truth": "different",
+      "same": false,
+      "evidence": "Opposing team uniforms."
+    }
+  ],
+  "counts": {
+    "same": 11,
+    "different": 144,
+    "uncertain": 47
+  },
+  "review": {
+    "reviewer": "assistant",
+    "input": "Seven hash-verified reserved raw frames, with ordinary resized crops for number readability. No detector proposals, model tracks, jersey OCR or VLM predictions used.",
+    "frame_300": "Period-title graphic: no floor participants. This interval includes an edit between periods and is not 60 seconds of continuous play.",
+    "identity_policy": "Only independently readable numbers are recorded. Black jersey at frame 0 is 65, confirmed in its crop. Blurred numbers at frames 150 and 600 remain unknown. Equipment signature limited to two adjacent pre-edit goalie views. Cross-edit identity can be scored only when a jersey is independently readable at both ends.",
+    "limitations": "Sparse assistant review, not independent-human or dense tracking ground truth. Body boxes are manually approximated. Same-team unreadable identities remain uncertain.",
+    "inference_inspected": false
+  },
+  "excluded": [
+    {
+      "frame": 0,
+      "region": [
+        1256,
+        601,
+        1280,
+        720
+      ],
+      "reason": "Severely truncated right-edge blue participant; insufficient separable body for a useful reference box."
+    },
+    {
+      "frame": 750,
+      "region": [
+        0,
+        317,
+        20,
+        423
+      ],
+      "reason": "Severely truncated left-edge blue participant."
+    },
+    {
+      "frames": [
+        0,
+        150,
+        450,
+        600,
+        750,
+        899
+      ],
+      "reason": "Officials and participants behind boards are excluded from floor-player references."
+    }
+  ],
+  "independent_human_ground_truth": false,
+  "scope": "New longer interval in a previously seen recording, excluded from training and selection; not a new-camera or independent-human test."
+}

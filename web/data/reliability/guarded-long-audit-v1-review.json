@@ -1,0 +1,149 @@
+{
+  "id": "nbhl-guarded-long-audit-v1-review",
+  "reviewed_at": "2026-10-18T12:53:51.478954+00:00",
+  "reviewer": "assistant",
+  "independent_human_ground_truth": false,
+  "protocol_sha256": "23ea628ef9b321780c7f00ba6036bb8400057482fad85baefbbe2459d9c0fddd",
+  "evidence_sha256": {
+    "Z-tFHtxODsE": "4129bdee60c56e8a2caddedcead2309f29ac5154c14416ae81eca6d0059ac4e1",
+    "plDp2kPtk_g": "08bd295d7c770e4d9ea899e810ee26599b2ca83d1632c0897f8998475f8d97ee",
+    "OLpK8enSjJs": "dc7847009ee9ce2f4991b7b0cb7b005caede33d132102a39b9b3e4acf9f20eb6"
+  },
+  "labels": {
+    "guarded-Z-tFHtxODsE-000": {
+      "identity": "uncertain",
+      "evidence": "The front/back views and small helmet/number pixels do not establish a common identity."
+    },
+    "guarded-Z-tFHtxODsE-001": {
+      "identity": "different",
+      "evidence": "A is a dark-uniform goalie with large pads; B is a white/blue field player."
+    },
+    "guarded-Z-tFHtxODsE-002": {
+      "identity": "uncertain",
+      "evidence": "Dark uniforms match, but neither endpoint supplies a reliably readable shared number."
+    },
+    "guarded-Z-tFHtxODsE-003": {
+      "identity": "same",
+      "evidence": "Matching two-digit cyan back marking and distinctive white/black shin protection in both rear views."
+    },
+    "guarded-Z-tFHtxODsE-004": {
+      "identity": "different",
+      "evidence": "A wears the dark cyan/black team uniform; B wears the white jersey and blue shorts."
+    },
+    "guarded-Z-tFHtxODsE-005": {
+      "identity": "different",
+      "evidence": "A has a black helmet and white lower-leg socks; B has a white helmet and black long leg coverings."
+    },
+    "guarded-Z-tFHtxODsE-006": {
+      "identity": "uncertain",
+      "evidence": "Similar dark helmet, uniform and white shin protection; no independently clear number or face."
+    },
+    "guarded-Z-tFHtxODsE-007": {
+      "identity": "uncertain",
+      "evidence": "42 is readable in A; the much smaller B crop does not independently verify the number."
+    },
+    "guarded-Z-tFHtxODsE-008": {
+      "identity": "uncertain",
+      "evidence": "Dark-team front/back views are too small to establish person identity."
+    },
+    "guarded-Z-tFHtxODsE-009": {
+      "identity": "uncertain",
+      "evidence": "A has a readable back marking, but B is heavily motion blurred."
+    },
+    "guarded-Z-tFHtxODsE-010": {
+      "identity": "uncertain",
+      "evidence": "Matching team and striped leg protection are suggestive; no clear shared number or face."
+    },
+    "guarded-plDp2kPtk_g-000": {
+      "identity": "same",
+      "evidence": "Same white-team goalie, consistent mask, white jersey and distinctive cream goalie pads at the same net."
+    },
+    "guarded-plDp2kPtk_g-001": {
+      "identity": "uncertain",
+      "evidence": "Both are white-team field players with dark helmets; the second body is partially blocked and no common number is readable."
+    },
+    "guarded-plDp2kPtk_g-002": {
+      "identity": "uncertain",
+      "evidence": "The second crop includes an overlapping white player and red player; the red identity is not independently clear."
+    },
+    "guarded-plDp2kPtk_g-003": {
+      "identity": "uncertain",
+      "evidence": "White jerseys and dark helmets match, but no clear individual marking is shared."
+    },
+    "guarded-plDp2kPtk_g-004": {
+      "identity": "uncertain",
+      "evidence": "White helmets and jerseys match; the first lower body is occluded and no readable shared number is present."
+    },
+    "guarded-plDp2kPtk_g-005": {
+      "identity": "uncertain",
+      "evidence": "44 is visible on the second back; the first front view cannot independently verify that identity."
+    },
+    "guarded-plDp2kPtk_g-006": {
+      "identity": "uncertain",
+      "evidence": "Red uniform and white helmet match; similar leg protection is insufficient to verify the player."
+    },
+    "guarded-plDp2kPtk_g-007": {
+      "identity": "different",
+      "evidence": "A has a white helmet and white/black shin protection; B has a red helmet, gray leg covering and bright neon shoes."
+    },
+    "guarded-plDp2kPtk_g-008": {
+      "identity": "uncertain",
+      "evidence": "Both have white helmets and similar equipment; no clear number or distinctive face is resolved."
+    },
+    "guarded-plDp2kPtk_g-009": {
+      "identity": "uncertain",
+      "evidence": "The red-team crops are small and lack a shared readable number."
+    },
+    "guarded-plDp2kPtk_g-010": {
+      "identity": "same",
+      "evidence": "Matching red number 7, white helmet and equipment; the second view shows the player falling."
+    },
+    "guarded-plDp2kPtk_g-011": {
+      "identity": "same",
+      "evidence": "Matching bearded face, white helmet, striped shorts, white gloves and yellow/black shin protection."
+    },
+    "guarded-OLpK8enSjJs-000": {
+      "identity": "uncertain",
+      "evidence": "Red jerseys and white helmets match, but the second lower body is blocked and no number is readable."
+    },
+    "guarded-OLpK8enSjJs-001": {
+      "identity": "uncertain",
+      "evidence": "Both wear red with dark helmets. Blur and viewpoint make the shin-protection differences inconclusive."
+    },
+    "guarded-OLpK8enSjJs-002": {
+      "identity": "uncertain",
+      "evidence": "White helmets and jerseys match; no readable number establishes identity."
+    },
+    "guarded-OLpK8enSjJs-003": {
+      "identity": "same",
+      "evidence": "Same red goalie at the net, with matching helmet and large dark blue/gray pads; foreground overlap does not hide the goalie identity."
+    },
+    "guarded-OLpK8enSjJs-004": {
+      "identity": "uncertain",
+      "evidence": "Several nearby red players have white helmets; the endpoints do not expose a clear individual number."
+    },
+    "guarded-OLpK8enSjJs-005": {
+      "identity": "same",
+      "evidence": "Same white goalie with matching white helmet and large dark goalie equipment at the net."
+    },
+    "guarded-OLpK8enSjJs-006": {
+      "identity": "uncertain",
+      "evidence": "Matching red helmet and white uniform are suggestive, but the small crops lack a clear number or face."
+    },
+    "guarded-OLpK8enSjJs-007": {
+      "identity": "uncertain",
+      "evidence": "White helmets and dark leg coverings match; no distinctive number or face is readable."
+    },
+    "guarded-OLpK8enSjJs-008": {
+      "identity": "same",
+      "evidence": "Matching distinctive yellow helmet and white/black lower-leg equipment on the red player."
+    }
+  },
+  "counts": {
+    "uncertain": 21,
+    "different": 4,
+    "same": 7
+  },
+  "review_material": "All paired endpoint crops and both full-frame context thumbnails; selected crops also inspected individually. No reverse or combined tracker predictions viewed before labels were sealed.",
+  "limitations": "New endpoint references from previously viewed clips, selected only from guarded-forward same-ID hypotheses. Equipment-based support is weaker than independently verified jersey identity. Most small or ambiguous appearances remain uncertain; no complete-track continuity is asserted."
+}

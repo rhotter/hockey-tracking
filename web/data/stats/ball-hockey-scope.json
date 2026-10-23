@@ -1,0 +1,13 @@
+{
+  "sport": "ball_hockey",
+  "scope": "All active product demos, task-specific training and evaluation use ball hockey only.",
+  "compute": "Modal",
+  "modal_environment": "main",
+  "modal_volume": "sport-scans-experiments",
+  "generic_pretraining_allowed": true,
+  "excluded_task_domains": ["ice_hockey", "roller_hockey", "field_hockey"],
+  "historical_ice_hockey_work": "Archived research only; excluded from the active website, training data, evaluation and future experiments.",
+  "rink_geometry": "Use measured venue dimensions. Never assume NHL rink dimensions or metric scale from image appearance.",
+  "source_registry": "data/ball-hockey/sources.json",
+  "missing_visibility": "Do not invent ball or player positions through occlusion or outside the camera view."
+}

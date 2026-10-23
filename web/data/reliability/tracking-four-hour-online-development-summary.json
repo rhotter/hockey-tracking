@@ -1,0 +1,1190 @@
+{
+  "phase": "development_only",
+  "baseline": {
+    "name": "osnet_parts_generic-w0.0-f-1.0",
+    "variant": "osnet_parts_generic",
+    "phase": "development_only",
+    "final_test_used": false,
+    "appearance_weight": 0.0,
+    "appearance_floor": -1.0,
+    "raw_counts": {
+      "correct": 88,
+      "wrong": 0,
+      "unknown_same": 11,
+      "same_total": 111,
+      "different_total": 759,
+      "missing": 26,
+      "matched_observations": 207,
+      "reference_observations": 213
+    },
+    "linked_counts": {
+      "correct": 102,
+      "wrong": 0,
+      "unknown_same": 15,
+      "same_total": 111,
+      "different_total": 759,
+      "missing": 26,
+      "matched_observations": 207,
+      "reference_observations": 213
+    },
+    "seconds": 940.833314488,
+    "gpu": "NVIDIA L40S",
+    "code_sha256": "8b369fbb6e6244b62a761f32def8969ea839edcacfd976bd95e6b6610af6207e",
+    "fresh_same_gpu_baseline": true,
+    "interpretation": "Online appearance prototype matching, not new neural training. Generic/trained backbones already existed. Fixed post-linking policy; no final recordings evaluated. Zero-weight control invokes the unchanged original SAM2 tracker.",
+    "full_report_sha256": "162a6e3748500470f25f5719f4afed3c70010a3b8f65fd2d76b1f62693e2c150",
+    "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-joint/osnet_parts_generic-w0.0-f-1.0/completed.json",
+    "clip_counts": [
+      {
+        "clip": "game2_01m",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 3,
+          "different_total": 6,
+          "missing": 0,
+          "matched_observations": 6,
+          "reference_observations": 6
+        }
+      },
+      {
+        "clip": "game2_06m",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 3,
+          "different_total": 6,
+          "missing": 0,
+          "matched_observations": 6,
+          "reference_observations": 6
+        }
+      },
+      {
+        "clip": "game2_24m",
+        "counts": {
+          "correct": 1,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 2,
+          "different_total": 2,
+          "missing": 0,
+          "matched_observations": 4,
+          "reference_observations": 4
+        }
+      },
+      {
+        "clip": "game2_33m",
+        "counts": {
+          "correct": 2,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 3,
+          "different_total": 6,
+          "missing": 0,
+          "matched_observations": 6,
+          "reference_observations": 6
+        }
+      },
+      {
+        "clip": "game2_41m",
+        "counts": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 5,
+          "different_total": 20,
+          "missing": 0,
+          "matched_observations": 10,
+          "reference_observations": 10
+        }
+      },
+      {
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 7,
+          "wrong": 0,
+          "unknown_same": 5,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 8,
+          "matched_observations": 34,
+          "reference_observations": 35
+        }
+      },
+      {
+        "clip": "gb-tracking-0600",
+        "counts": {
+          "correct": 40,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 41,
+          "different_total": 283,
+          "missing": 14,
+          "matched_observations": 43,
+          "reference_observations": 44
+        }
+      },
+      {
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 37,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        }
+      },
+      {
+        "clip": "long-plDp2kPtk_g",
+        "counts": {
+          "correct": 5,
+          "wrong": 0,
+          "unknown_same": 10,
+          "same_total": 6,
+          "different_total": 6,
+          "missing": 4,
+          "matched_observations": 54,
+          "reference_observations": 58
+        }
+      }
+    ]
+  },
+  "online_candidates": [
+    {
+      "name": "osnet_parts_generic-w0.25-f0.5",
+      "variant": "osnet_parts_generic",
+      "phase": "development_only",
+      "final_test_used": false,
+      "appearance_weight": 0.25,
+      "appearance_floor": 0.5,
+      "raw_counts": {
+        "correct": 88,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 51,
+        "matched_observations": 205,
+        "reference_observations": 213
+      },
+      "linked_counts": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 51,
+        "matched_observations": 205,
+        "reference_observations": 213
+      },
+      "seconds": 1239.558613849,
+      "gpu": "NVIDIA L40S",
+      "code_sha256": "8b369fbb6e6244b62a761f32def8969ea839edcacfd976bd95e6b6610af6207e",
+      "interpretation": "Online appearance prototype matching, not new neural training. Generic/trained backbones already existed. Fixed post-linking policy; no final recordings evaluated.",
+      "full_report_sha256": "23d66048881a5df5d97c537c1c779a9073461f8d866c81a36c52ef5bbf178a95",
+      "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-joint/osnet_parts_generic-w0.25-f0.5/completed.json",
+      "clip_counts": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          }
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 33,
+            "matched_observations": 32,
+            "reference_observations": 35
+          }
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 37,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 0,
+            "unknown_same": 9,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 54,
+            "reference_observations": 58
+          }
+        }
+      ],
+      "paired_to_fresh_control": {
+        "same_gained": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-000"
+          ]
+        ],
+        "same_lost": [],
+        "new_wrong": [],
+        "removed_wrong": []
+      }
+    },
+    {
+      "name": "osnet_parts_generic-w0.5-f0.65",
+      "variant": "osnet_parts_generic",
+      "phase": "development_only",
+      "final_test_used": false,
+      "appearance_weight": 0.5,
+      "appearance_floor": 0.65,
+      "raw_counts": {
+        "correct": 88,
+        "wrong": 0,
+        "unknown_same": 11,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 68,
+        "matched_observations": 203,
+        "reference_observations": 213
+      },
+      "linked_counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 68,
+        "matched_observations": 203,
+        "reference_observations": 213
+      },
+      "seconds": 1224.066508034,
+      "gpu": "NVIDIA L40S",
+      "code_sha256": "8b369fbb6e6244b62a761f32def8969ea839edcacfd976bd95e6b6610af6207e",
+      "interpretation": "Online appearance prototype matching, not new neural training. Generic/trained backbones already existed. Fixed post-linking policy; no final recordings evaluated.",
+      "full_report_sha256": "e414c8951e733ae664a4d55077534507e00815a33711bfec284f97c1de54e7ab",
+      "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-joint/osnet_parts_generic-w0.5-f0.65/completed.json",
+      "clip_counts": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          }
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 33,
+            "matched_observations": 32,
+            "reference_observations": 35
+          }
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 16,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 0,
+            "unknown_same": 9,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 5,
+            "matched_observations": 53,
+            "reference_observations": 58
+          }
+        }
+      ],
+      "paired_to_fresh_control": {
+        "same_gained": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-000"
+          ]
+        ],
+        "same_lost": [
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0150-black_64__gb-tracking-1800-0225-black_64"
+          ],
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0225-black_64__gb-tracking-1800-0285-black_64"
+          ]
+        ],
+        "new_wrong": [],
+        "removed_wrong": []
+      }
+    },
+    {
+      "name": "osnet_parts_head-w0.25-f0.5",
+      "variant": "osnet_parts_head",
+      "phase": "development_only",
+      "final_test_used": false,
+      "appearance_weight": 0.25,
+      "appearance_floor": 0.5,
+      "raw_counts": {
+        "correct": 86,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 51,
+        "matched_observations": 205,
+        "reference_observations": 213
+      },
+      "linked_counts": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 51,
+        "matched_observations": 205,
+        "reference_observations": 213
+      },
+      "seconds": 1210.9855386289998,
+      "gpu": "NVIDIA L40S",
+      "code_sha256": "8b369fbb6e6244b62a761f32def8969ea839edcacfd976bd95e6b6610af6207e",
+      "interpretation": "Online appearance prototype matching, not new neural training. Generic/trained backbones already existed. Fixed post-linking policy; no final recordings evaluated.",
+      "full_report_sha256": "7162a004ba73bdcd03c05c65605210618fdcabcfb0321c9ca540bf15ad8df778",
+      "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-joint/osnet_parts_head-w0.25-f0.5/completed.json",
+      "clip_counts": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          }
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 33,
+            "matched_observations": 32,
+            "reference_observations": 35
+          }
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 37,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 0,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 54,
+            "reference_observations": 58
+          }
+        }
+      ],
+      "paired_to_fresh_control": {
+        "same_gained": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-000"
+          ]
+        ],
+        "same_lost": [],
+        "new_wrong": [],
+        "removed_wrong": []
+      }
+    },
+    {
+      "name": "osnet_parts_head-w0.5-f0.65",
+      "variant": "osnet_parts_head",
+      "phase": "development_only",
+      "final_test_used": false,
+      "appearance_weight": 0.5,
+      "appearance_floor": 0.65,
+      "raw_counts": {
+        "correct": 83,
+        "wrong": 0,
+        "unknown_same": 12,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 80,
+        "matched_observations": 202,
+        "reference_observations": 213
+      },
+      "linked_counts": {
+        "correct": 97,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 80,
+        "matched_observations": 202,
+        "reference_observations": 213
+      },
+      "seconds": 973.497125781,
+      "gpu": "NVIDIA L40S",
+      "code_sha256": "8b369fbb6e6244b62a761f32def8969ea839edcacfd976bd95e6b6610af6207e",
+      "interpretation": "Online appearance prototype matching, not new neural training. Generic/trained backbones already existed. Fixed post-linking policy; no final recordings evaluated.",
+      "full_report_sha256": "03e63155a9f54d7b6b6ef5d7a07be7349bdb67ce03e8a92a6af9f9ae067afeb6",
+      "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-joint/osnet_parts_head-w0.5-f0.65/completed.json",
+      "clip_counts": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          }
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 33,
+            "matched_observations": 32,
+            "reference_observations": 35
+          }
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 31,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 29,
+            "matched_observations": 42,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 0,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 53,
+            "reference_observations": 58
+          }
+        }
+      ],
+      "paired_to_fresh_control": {
+        "same_gained": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-000"
+          ]
+        ],
+        "same_lost": [
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0000-black_93__gb-tracking-1800-0030-black_93"
+          ],
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0150-black_64__gb-tracking-1800-0225-black_64"
+          ],
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0225-black_25__gb-tracking-1800-0285-black_25"
+          ],
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0225-black_64__gb-tracking-1800-0285-black_64"
+          ],
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0000-black_25__gb-tracking-1800-0285-black_25"
+          ],
+          [
+            "gb-tracking-1800",
+            "gb-tracking-1800-0000-black_93__gb-tracking-1800-0285-black_93"
+          ]
+        ],
+        "new_wrong": [],
+        "removed_wrong": []
+      }
+    }
+  ],
+  "confidence_candidates": [
+    {
+      "name": "seed0.45-continue0.05",
+      "variant": "osnet_parts_generic",
+      "phase": "post_final_development_exploration",
+      "final_test_used": false,
+      "new_confidence": 0.45,
+      "continuation_confidence": 0.05,
+      "raw_counts": {
+        "correct": 88,
+        "wrong": 0,
+        "unknown_same": 9,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "linked_counts": {
+        "correct": 103,
+        "wrong": 1,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "seconds": 1350.632267466,
+      "gpu": "NVIDIA L40S",
+      "code_sha256": "ebaaec3f1f891b537d72cbb1808b976f6f962e24a0d5499823de8b2aadd9eccc",
+      "interpretation": "Exploratory thresholds after final diagnostics. Only existing development recordings evaluated; no untouched test remains for this change. Not neural training and not a replacement for the frozen final model.",
+      "full_report_sha256": "cc359d093723aa801a0b973f6b4c0ad5a38448f62ae4123f6c9cdc7c09a713b5",
+      "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-confidence/seed0.45-continue0.05/completed.json",
+      "clip_counts": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          }
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 8,
+            "matched_observations": 34,
+            "reference_observations": 35
+          }
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 37,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 8,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 54,
+            "reference_observations": 58
+          }
+        }
+      ],
+      "paired_to_fresh_control": {
+        "same_gained": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-000"
+          ]
+        ],
+        "same_lost": [],
+        "new_wrong": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-008"
+          ]
+        ],
+        "removed_wrong": []
+      }
+    },
+    {
+      "name": "seed0.55-continue0.05",
+      "variant": "osnet_parts_generic",
+      "phase": "post_final_development_exploration",
+      "final_test_used": false,
+      "new_confidence": 0.55,
+      "continuation_confidence": 0.05,
+      "raw_counts": {
+        "correct": 88,
+        "wrong": 0,
+        "unknown_same": 9,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "linked_counts": {
+        "correct": 103,
+        "wrong": 1,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "seconds": 1120.1593494489998,
+      "gpu": "NVIDIA L40S",
+      "code_sha256": "ebaaec3f1f891b537d72cbb1808b976f6f962e24a0d5499823de8b2aadd9eccc",
+      "interpretation": "Exploratory thresholds after final diagnostics. Only existing development recordings evaluated; no untouched test remains for this change. Not neural training and not a replacement for the frozen final model.",
+      "full_report_sha256": "7ecd99bd8b7d54e6a66de0e87a3614275825555a265440bb19b692a25bef72b8",
+      "full_report_modal_path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/sam2-confidence/seed0.55-continue0.05/completed.json",
+      "clip_counts": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          }
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          }
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 8,
+            "matched_observations": 34,
+            "reference_observations": 35
+          }
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 37,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 8,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 54,
+            "reference_observations": 58
+          }
+        }
+      ],
+      "paired_to_fresh_control": {
+        "same_gained": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-000"
+          ]
+        ],
+        "same_lost": [],
+        "new_wrong": [
+          [
+            "long-plDp2kPtk_g",
+            "sam2-plDp2kPtk_g-008"
+          ]
+        ],
+        "removed_wrong": []
+      }
+    }
+  ],
+  "limits": "Four candidates on the same repeatedly used development reference. Appearance heads were trained earlier; online matching itself has no new weight training. No additional final-test inference. Baseline invokes the unchanged original tracker; its top-level code hash names the wrapper candidate module, while its per-clip artifact hashes identify the original implementation."
+}

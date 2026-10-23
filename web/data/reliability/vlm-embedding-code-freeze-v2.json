@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-19T15:58:33.931423+00:00",
+  "status": "before_any_embedding_accuracy_score",
+  "supersedes": "vlm-embedding-code-freeze-v1.json for scoring only; original GPU inference source and protocol remain unchanged",
+  "sha256": {
+    "scripts/modal_nbhl_embedding_evaluate.py": "cea52d612002133b8f2e85f650465117788358ca3b5d396d038723817073ffe6",
+    "scripts/modal_nbhl_vlm_embeddings.py": "fe2f943f42705b0998313299583f94c775bf18e73723ba72a1dd95e8a26dc8a5",
+    "data/ball-hockey/vlm-embedding-protocol-v1.json": "ed386a67c5baaaa055bd5187e30c6c3e02e7a1b5ad01a41e9282a31f9d5af164",
+    "data/ball-hockey/vlm-embedding-selection-amendment-v1.json": "1c410265675e0254c75b25f9043668557920e48fa570d33c6f073a936962e823"
+  }
+}

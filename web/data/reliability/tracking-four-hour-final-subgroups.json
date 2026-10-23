@@ -1,0 +1,3583 @@
+{
+  "source_sha256": "281bf3a16db5a103329606f1a51d0776d14077ff7722e48d0b4235fc2cdb6bd2",
+  "reference_sha256": "d75c360c51a07a32c5369955cc3a4afc6190ae7c46822015a061808757dc12d1",
+  "counts_recomputed_successfully": true,
+  "subgroups": [
+    {
+      "phase": "primary_final",
+      "method": "fourhour-botsort",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 69,
+        "same_matched_but_separate": 25,
+        "same_with_missing_observation": 9,
+        "different_total": 962,
+        "different_wrongly_joined": 4,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 97
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 69,
+        "same_matched_but_separate": 25,
+        "same_with_missing_observation": 9,
+        "different_total": 433,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 53
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 3,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 44
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 3,
+        "same_matched_but_separate": 7,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 8,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 66,
+        "same_matched_but_separate": 18,
+        "same_with_missing_observation": 7,
+        "different_total": 836,
+        "different_wrongly_joined": 4,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 73
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-sam2",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 80,
+        "same_matched_but_separate": 13,
+        "same_with_missing_observation": 10,
+        "different_total": 962,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 105
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 80,
+        "same_matched_but_separate": 13,
+        "same_with_missing_observation": 10,
+        "different_total": 433,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 49
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 5,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 8,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 75,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 8,
+        "different_total": 836,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 81
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-sam2-generic",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 90,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 10,
+        "different_total": 962,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 105
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 90,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 10,
+        "different_total": 433,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 56
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 49
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 10,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 8,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 80,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 8,
+        "different_total": 836,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 81
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-sam2-parts",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 90,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 10,
+        "different_total": 962,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 105
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 90,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 10,
+        "different_total": 433,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 56
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 49
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 10,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 8,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 80,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 8,
+        "different_total": 836,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 81
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-sam2-trained",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 90,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 10,
+        "different_total": 962,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 105
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 90,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 10,
+        "different_total": 433,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 56
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 49
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 10,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 8,
+        "uncertain_joined": 2,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 80,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 8,
+        "different_total": 836,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 81
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-tracktrack",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 69,
+        "same_matched_but_separate": 23,
+        "same_with_missing_observation": 11,
+        "different_total": 962,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 123
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 69,
+        "same_matched_but_separate": 23,
+        "same_with_missing_observation": 11,
+        "different_total": 433,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 66
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 57
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 4,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 8,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 65,
+        "same_matched_but_separate": 17,
+        "same_with_missing_observation": 9,
+        "different_total": 836,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 99
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-tracktrack-generic",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 77,
+        "same_matched_but_separate": 15,
+        "same_with_missing_observation": 11,
+        "different_total": 962,
+        "different_wrongly_joined": 3,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 123
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 77,
+        "same_matched_but_separate": 15,
+        "same_with_missing_observation": 11,
+        "different_total": 433,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 66
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 57
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 5,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 8,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 72,
+        "same_matched_but_separate": 10,
+        "same_with_missing_observation": 9,
+        "different_total": 836,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 99
+      }
+    },
+    {
+      "phase": "primary_final",
+      "method": "fourhour-tracktrack-trained",
+      "all": {
+        "same_total": 103,
+        "same_recovered": 78,
+        "same_matched_but_separate": 14,
+        "same_with_missing_observation": 11,
+        "different_total": 962,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 123
+      },
+      "same_team": {
+        "same_total": 103,
+        "same_recovered": 78,
+        "same_matched_but_separate": 14,
+        "same_with_missing_observation": 11,
+        "different_total": 433,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 38,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 66
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 529,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 57
+      },
+      "first_last": {
+        "same_total": 12,
+        "same_recovered": 6,
+        "same_matched_but_separate": 4,
+        "same_with_missing_observation": 2,
+        "different_total": 126,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 8,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 91,
+        "same_recovered": 72,
+        "same_matched_but_separate": 10,
+        "same_with_missing_observation": 9,
+        "different_total": 836,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 30,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 99
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-botsort",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 24,
+        "same_with_missing_observation": 2,
+        "different_total": 368,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 31
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 24,
+        "same_with_missing_observation": 2,
+        "different_total": 150,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 12
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 19
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 24,
+        "same_with_missing_observation": 2,
+        "different_total": 353,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-sam2",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 1,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 1,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 1,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-sam2-generic",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-sam2-parts",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-sam2-trained",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 17,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 17,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 17,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-tracktrack",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 4,
+        "different_total": 368,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 4,
+        "different_total": 150,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 4,
+        "different_total": 353,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 54
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-tracktrack-generic",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 13,
+        "same_matched_but_separate": 9,
+        "same_with_missing_observation": 4,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 13,
+        "same_matched_but_separate": 9,
+        "same_with_missing_observation": 4,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 13,
+        "same_matched_but_separate": 9,
+        "same_with_missing_observation": 4,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 54
+      }
+    },
+    {
+      "phase": "duration_stress",
+      "method": "fourhour-tracktrack-trained",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 14,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 14,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 14,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 54
+      }
+    }
+  ],
+  "clips": [
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-botsort",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 13,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 1,
+        "different_total": 191,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 13,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 1,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 13,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 1,
+        "different_total": 182,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-tracktrack",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 14,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 1,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 14,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 1,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 14,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 1,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-tracktrack-generic",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 17,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 1,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 17,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 1,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 17,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 1,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-tracktrack-trained",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 17,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 1,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 17,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 1,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 10
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 17,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 1,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 20
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-sam2",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 15,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 0,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 15,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 0,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 3
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 6
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 15,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 0,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-sam2-generic",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 3
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 6
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-sam2-parts",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 3
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 6
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      }
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "method": "fourhour-sam2-trained",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 191,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      },
+      "same_team": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 84,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 14,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 3
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 107,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 6
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 9,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 20,
+        "same_recovered": 18,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 182,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 11,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 9
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-botsort",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 15,
+        "same_matched_but_separate": 12,
+        "same_with_missing_observation": 5,
+        "different_total": 315,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 51
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 15,
+        "same_matched_but_separate": 12,
+        "same_with_missing_observation": 5,
+        "different_total": 148,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 28
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 23
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 0,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 15,
+        "same_matched_but_separate": 7,
+        "same_with_missing_observation": 3,
+        "different_total": 243,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-tracktrack",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 13,
+        "same_matched_but_separate": 13,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 60
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 13,
+        "same_matched_but_separate": 13,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 31
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 0,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 13,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 36
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-tracktrack-generic",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 15,
+        "same_matched_but_separate": 11,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 3,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 60
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 15,
+        "same_matched_but_separate": 11,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 31
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 0,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 15,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 36
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-tracktrack-trained",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 16,
+        "same_matched_but_separate": 10,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 60
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 16,
+        "same_matched_but_separate": 10,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 31
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 1,
+        "same_matched_but_separate": 4,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 15,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 36
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-sam2",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 18,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 62
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 18,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 34
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 28
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 0,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 18,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 38
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-sam2-generic",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 25,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 62
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 25,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 34
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 28
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 20,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 38
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-sam2-parts",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 25,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 62
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 25,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 34
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 28
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 20,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 38
+      }
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "method": "fourhour-sam2-trained",
+      "phase": "primary_final",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 32,
+        "same_recovered": 25,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 6,
+        "different_total": 315,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 62
+      },
+      "same_team": {
+        "same_total": 32,
+        "same_recovered": 25,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 6,
+        "different_total": 148,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 2,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 34
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 167,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 28
+      },
+      "first_last": {
+        "same_total": 7,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 72,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 24
+      },
+      "adjacent_samples": {
+        "same_total": 25,
+        "same_recovered": 20,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 4,
+        "different_total": 243,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 38
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-botsort",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 41,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 2,
+        "different_total": 418,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 41,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 2,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 11
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 7
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 3,
+        "same_matched_but_separate": 2,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 38,
+        "same_matched_but_separate": 4,
+        "same_with_missing_observation": 2,
+        "different_total": 376,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-tracktrack",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 42,
+        "same_matched_but_separate": 4,
+        "same_with_missing_observation": 3,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 35
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 42,
+        "same_matched_but_separate": 4,
+        "same_with_missing_observation": 3,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 21
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 14
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 4,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 38,
+        "same_matched_but_separate": 3,
+        "same_with_missing_observation": 3,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 35
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-tracktrack-generic",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 45,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 3,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 35
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 45,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 3,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 21
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 14
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 40,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 3,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 35
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-tracktrack-trained",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 45,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 3,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 35
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 45,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 3,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 21
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 14
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 40,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 3,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 35
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-sam2",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 11
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 7
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 42,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-sam2-generic",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 11
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 7
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 42,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-sam2-parts",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 11
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 7
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 42,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      }
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "method": "fourhour-sam2-trained",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 418,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      },
+      "same_team": {
+        "same_total": 49,
+        "same_recovered": 47,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 196,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 11
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 222,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 7
+      },
+      "first_last": {
+        "same_total": 5,
+        "same_recovered": 5,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 42,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 1,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 44,
+        "same_recovered": 42,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 376,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 18
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-botsort",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-tracktrack",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-tracktrack-generic",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-tracktrack-trained",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 4
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 1,
+        "same_with_missing_observation": 1,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-sam2",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-sam2-generic",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 16
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 8
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-sam2-parts",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 16
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 8
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      }
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "method": "fourhour-sam2-trained",
+      "phase": "primary_final",
+      "recording": "marylandwomen",
+      "all": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 38,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 16
+      },
+      "same_team": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 5,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 21,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 8
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 33,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 8
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 3,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 3,
+        "uncertain_joined": 1,
+        "pairs_with_missing_observation": 0
+      },
+      "adjacent_samples": {
+        "same_total": 2,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 2,
+        "different_total": 35,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 18,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-botsort",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 24,
+        "same_with_missing_observation": 2,
+        "different_total": 368,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 31
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 24,
+        "same_with_missing_observation": 2,
+        "different_total": 150,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 12
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 19
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 24,
+        "same_with_missing_observation": 2,
+        "different_total": 353,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-tracktrack",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 4,
+        "different_total": 368,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 4,
+        "different_total": 150,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 0,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 4,
+        "different_total": 353,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 54
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-tracktrack-generic",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 13,
+        "same_matched_but_separate": 9,
+        "same_with_missing_observation": 4,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 13,
+        "same_matched_but_separate": 9,
+        "same_with_missing_observation": 4,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 13,
+        "same_matched_but_separate": 9,
+        "same_with_missing_observation": 4,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 54
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-tracktrack-trained",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 14,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 56
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 14,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 29
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 14,
+        "same_matched_but_separate": 8,
+        "same_with_missing_observation": 4,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 54
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-sam2",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 1,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 1,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 1,
+        "same_matched_but_separate": 22,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-sam2-generic",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-sam2-parts",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 18,
+        "same_matched_but_separate": 5,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 2,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "method": "fourhour-sam2-trained",
+      "phase": "duration_stress",
+      "recording": "pittsburgh",
+      "all": {
+        "same_total": 26,
+        "same_recovered": 17,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 3,
+        "different_total": 368,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 43
+      },
+      "same_team": {
+        "same_total": 26,
+        "same_recovered": 17,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 3,
+        "different_total": 150,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 37,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 16
+      },
+      "cross_team": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 218,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 0,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 27
+      },
+      "first_last": {
+        "same_total": 0,
+        "same_recovered": 0,
+        "same_matched_but_separate": 0,
+        "same_with_missing_observation": 0,
+        "different_total": 15,
+        "different_wrongly_joined": 0,
+        "uncertain_total": 5,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 2
+      },
+      "adjacent_samples": {
+        "same_total": 26,
+        "same_recovered": 17,
+        "same_matched_but_separate": 6,
+        "same_with_missing_observation": 3,
+        "different_total": 353,
+        "different_wrongly_joined": 1,
+        "uncertain_total": 32,
+        "uncertain_joined": 0,
+        "pairs_with_missing_observation": 41
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "phase": "primary_final",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-botsort",
+      "same_player_added": [
+        "pittsburgh-0600-0075-01__pittsburgh-0600-0150-02",
+        "pittsburgh-0600-0075-02__pittsburgh-0600-0150-01",
+        "pittsburgh-0600-0150-03__pittsburgh-0600-0225-07",
+        "pittsburgh-0600-0150-04__pittsburgh-0600-0225-05",
+        "pittsburgh-0600-0300-03__pittsburgh-0600-0375-00",
+        "pittsburgh-1800-0075-03__pittsburgh-1800-0150-06",
+        "pittsburgh-1800-0075-04__pittsburgh-1800-0150-05",
+        "pittsburgh-1800-0075-07__pittsburgh-1800-0150-08",
+        "pittsburgh-1800-0075-08__pittsburgh-1800-0150-09",
+        "pittsburgh-1800-0375-00__pittsburgh-1800-0449-06",
+        "pittsburgh-1800-0375-02__pittsburgh-1800-0449-04",
+        "pittsburgh-1800-0000-02__pittsburgh-1800-0449-06",
+        "pittsburgh-1800-0000-03__pittsburgh-1800-0449-05",
+        "pittsburgh-1800-0000-04__pittsburgh-1800-0449-04",
+        "pittsburgh-1800-0000-07__pittsburgh-1800-0449-02",
+        "pittsburgh-1800-0000-08__pittsburgh-1800-0449-03",
+        "marylandwomen-0600-0300-05__marylandwomen-0600-0375-04",
+        "marylandwomen-0600-0300-06__marylandwomen-0600-0375-06",
+        "marylandwomen-0600-0300-07__marylandwomen-0600-0375-05",
+        "marylandwomen-0600-0375-04__marylandwomen-0600-0449-03",
+        "marylandwomen-0600-0000-05__marylandwomen-0600-0449-04",
+        "marylandwomen-0600-0000-07__marylandwomen-0600-0449-03"
+      ],
+      "same_player_removed": [
+        "pittsburgh-1800-0150-01__pittsburgh-1800-0225-02"
+      ],
+      "wrong_identity_added": [],
+      "wrong_identity_removed": [
+        "pittsburgh-0600-0075-01__pittsburgh-0600-0150-01",
+        "pittsburgh-0600-0075-02__pittsburgh-0600-0150-02",
+        "pittsburgh-1800-0375-02__pittsburgh-1800-0449-07",
+        "marylandwomen-0600-0300-04__marylandwomen-0600-0375-06"
+      ],
+      "unverified_added": [
+        "pittsburgh-1800-0000-00__pittsburgh-1800-0449-07",
+        "marylandwomen-1800-0000-00__marylandwomen-1800-0449-04"
+      ],
+      "unverified_removed": []
+    },
+    {
+      "phase": "duration_stress",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-botsort",
+      "same_player_added": [
+        "pittsburgh-stress-0900-0000-09__pittsburgh-stress-0900-0450-06",
+        "pittsburgh-stress-0900-2250-00__pittsburgh-stress-0900-2700-01",
+        "pittsburgh-stress-0900-2700-00__pittsburgh-stress-0900-3150-02",
+        "pittsburgh-stress-0900-2700-01__pittsburgh-stress-0900-3150-01",
+        "pittsburgh-stress-0900-2700-02__pittsburgh-stress-0900-3150-05",
+        "pittsburgh-stress-0900-2700-04__pittsburgh-stress-0900-3150-07",
+        "pittsburgh-stress-0900-2700-05__pittsburgh-stress-0900-3150-06",
+        "pittsburgh-stress-0900-3150-01__pittsburgh-stress-0900-3600-00",
+        "pittsburgh-stress-0900-3150-02__pittsburgh-stress-0900-3600-01",
+        "pittsburgh-stress-0900-3150-03__pittsburgh-stress-0900-3600-02",
+        "pittsburgh-stress-0900-3150-04__pittsburgh-stress-0900-3600-09",
+        "pittsburgh-stress-0900-3150-05__pittsburgh-stress-0900-3600-04",
+        "pittsburgh-stress-0900-3150-06__pittsburgh-stress-0900-3600-08",
+        "pittsburgh-stress-0900-3600-04__pittsburgh-stress-0900-4050-00",
+        "pittsburgh-stress-0900-3600-05__pittsburgh-stress-0900-4050-02",
+        "pittsburgh-stress-0900-3600-06__pittsburgh-stress-0900-4050-01",
+        "pittsburgh-stress-0900-3600-08__pittsburgh-stress-0900-4050-05"
+      ],
+      "same_player_removed": [],
+      "wrong_identity_added": [
+        "pittsburgh-stress-0900-3150-07__pittsburgh-stress-0900-3600-05"
+      ],
+      "wrong_identity_removed": [
+        "pittsburgh-stress-0900-0900-02__pittsburgh-stress-0900-1350-01"
+      ],
+      "unverified_added": [],
+      "unverified_removed": []
+    },
+    {
+      "phase": "primary_final",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-sam2",
+      "same_player_added": [
+        "pittsburgh-0600-0150-03__pittsburgh-0600-0225-07",
+        "pittsburgh-0600-0150-04__pittsburgh-0600-0225-05",
+        "pittsburgh-0600-0225-07__pittsburgh-0600-0300-04",
+        "pittsburgh-1800-0075-02__pittsburgh-1800-0150-07",
+        "pittsburgh-1800-0375-03__pittsburgh-1800-0449-05",
+        "pittsburgh-1800-0000-02__pittsburgh-1800-0449-06",
+        "pittsburgh-1800-0000-03__pittsburgh-1800-0449-05",
+        "pittsburgh-1800-0000-04__pittsburgh-1800-0449-04",
+        "pittsburgh-1800-0000-07__pittsburgh-1800-0449-02",
+        "pittsburgh-1800-0000-08__pittsburgh-1800-0449-03"
+      ],
+      "same_player_removed": [],
+      "wrong_identity_added": [],
+      "wrong_identity_removed": [],
+      "unverified_added": [
+        "pittsburgh-1800-0000-00__pittsburgh-1800-0449-07",
+        "marylandwomen-1800-0000-00__marylandwomen-1800-0449-04"
+      ],
+      "unverified_removed": []
+    },
+    {
+      "phase": "duration_stress",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-sam2",
+      "same_player_added": [
+        "pittsburgh-stress-0900-0000-09__pittsburgh-stress-0900-0450-06",
+        "pittsburgh-stress-0900-2250-00__pittsburgh-stress-0900-2700-01",
+        "pittsburgh-stress-0900-2700-00__pittsburgh-stress-0900-3150-02",
+        "pittsburgh-stress-0900-2700-01__pittsburgh-stress-0900-3150-01",
+        "pittsburgh-stress-0900-2700-04__pittsburgh-stress-0900-3150-07",
+        "pittsburgh-stress-0900-2700-05__pittsburgh-stress-0900-3150-06",
+        "pittsburgh-stress-0900-3150-01__pittsburgh-stress-0900-3600-00",
+        "pittsburgh-stress-0900-3150-02__pittsburgh-stress-0900-3600-01",
+        "pittsburgh-stress-0900-3150-03__pittsburgh-stress-0900-3600-02",
+        "pittsburgh-stress-0900-3150-04__pittsburgh-stress-0900-3600-09",
+        "pittsburgh-stress-0900-3150-05__pittsburgh-stress-0900-3600-04",
+        "pittsburgh-stress-0900-3150-06__pittsburgh-stress-0900-3600-08",
+        "pittsburgh-stress-0900-3600-04__pittsburgh-stress-0900-4050-00",
+        "pittsburgh-stress-0900-3600-05__pittsburgh-stress-0900-4050-02",
+        "pittsburgh-stress-0900-3600-06__pittsburgh-stress-0900-4050-01",
+        "pittsburgh-stress-0900-3600-08__pittsburgh-stress-0900-4050-05"
+      ],
+      "same_player_removed": [],
+      "wrong_identity_added": [
+        "pittsburgh-stress-0900-3150-07__pittsburgh-stress-0900-3600-05"
+      ],
+      "wrong_identity_removed": [],
+      "unverified_added": [],
+      "unverified_removed": []
+    },
+    {
+      "phase": "primary_final",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-sam2-generic",
+      "same_player_added": [],
+      "same_player_removed": [],
+      "wrong_identity_added": [],
+      "wrong_identity_removed": [],
+      "unverified_added": [],
+      "unverified_removed": []
+    },
+    {
+      "phase": "duration_stress",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-sam2-generic",
+      "same_player_added": [
+        "pittsburgh-stress-0900-3150-04__pittsburgh-stress-0900-3600-09"
+      ],
+      "same_player_removed": [
+        "pittsburgh-stress-0900-0000-01__pittsburgh-stress-0900-0450-04",
+        "pittsburgh-stress-0900-2250-01__pittsburgh-stress-0900-2700-00"
+      ],
+      "wrong_identity_added": [],
+      "wrong_identity_removed": [
+        "pittsburgh-stress-0900-0900-01__pittsburgh-stress-0900-1350-01"
+      ],
+      "unverified_added": [],
+      "unverified_removed": []
+    },
+    {
+      "phase": "primary_final",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-sam2-parts",
+      "same_player_added": [],
+      "same_player_removed": [],
+      "wrong_identity_added": [],
+      "wrong_identity_removed": [],
+      "unverified_added": [],
+      "unverified_removed": []
+    },
+    {
+      "phase": "duration_stress",
+      "selected": "fourhour-sam2-trained",
+      "comparator": "fourhour-sam2-parts",
+      "same_player_added": [],
+      "same_player_removed": [
+        "pittsburgh-stress-0900-2250-01__pittsburgh-stress-0900-2700-00"
+      ],
+      "wrong_identity_added": [],
+      "wrong_identity_removed": [
+        "pittsburgh-stress-0900-0450-07__pittsburgh-stress-0900-0900-02"
+      ],
+      "unverified_added": [],
+      "unverified_removed": []
+    }
+  ],
+  "limits": "Descriptive subgroup counts only. Pairs share people and frames; two new recordings do not support a population accuracy or independent-pair confidence interval. No method selection or tuning uses this report."
+}

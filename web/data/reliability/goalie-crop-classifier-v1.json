@@ -1,0 +1,1919 @@
+{
+  "model": "facebook/dinov2-base",
+  "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+  "manifest_sha256": "6f459b18084c243e14e505c458cb4f40e201a702b505bebdd622681320dac26f",
+  "input_features_sha256": "61188a34ce0573815923975914a1b020f0e8be690d775809bca4e3f292fbef19",
+  "classifier_sha256": "2dc99ee9841cf578b0659377acee36c2a06578b686ecd9fad6b32b9cf1ada99d",
+  "training_counts": {
+    "field_player": 1301,
+    "goalie": 133
+  },
+  "selected": {
+    "C": 10.0,
+    "field_below": 0.008990995060765398,
+    "goalie_above": 0.5,
+    "validation": {
+      "field_player": {
+        "targets": 159,
+        "correct": 128,
+        "wrong": 0,
+        "abstained": 31
+      },
+      "goalie": {
+        "targets": 19,
+        "correct": 15,
+        "wrong": 0,
+        "abstained": 4
+      }
+    },
+    "macro_coverage": 0.7972525653757034
+  },
+  "candidates": [
+    {
+      "C": 0.01,
+      "field_below": 0.41378541036503846,
+      "goalie_above": 0.5809006502484569,
+      "validation": {
+        "field_player": {
+          "targets": 159,
+          "correct": 81,
+          "wrong": 0,
+          "abstained": 78
+        },
+        "goalie": {
+          "targets": 19,
+          "correct": 2,
+          "wrong": 0,
+          "abstained": 17
+        }
+      },
+      "macro_coverage": 0.3073485600794439
+    },
+    {
+      "C": 0.1,
+      "field_below": 0.21052997266286244,
+      "goalie_above": 0.7016604182542691,
+      "validation": {
+        "field_player": {
+          "targets": 159,
+          "correct": 102,
+          "wrong": 0,
+          "abstained": 57
+        },
+        "goalie": {
+          "targets": 19,
+          "correct": 6,
+          "wrong": 0,
+          "abstained": 13
+        }
+      },
+      "macro_coverage": 0.4786494538232373
+    },
+    {
+      "C": 1.0,
+      "field_below": 0.058599360719339764,
+      "goalie_above": 0.628342596500752,
+      "validation": {
+        "field_player": {
+          "targets": 159,
+          "correct": 120,
+          "wrong": 0,
+          "abstained": 39
+        },
+        "goalie": {
+          "targets": 19,
+          "correct": 12,
+          "wrong": 0,
+          "abstained": 7
+        }
+      },
+      "macro_coverage": 0.6931479642502483
+    },
+    {
+      "C": 10.0,
+      "field_below": 0.008990995060765398,
+      "goalie_above": 0.5,
+      "validation": {
+        "field_player": {
+          "targets": 159,
+          "correct": 128,
+          "wrong": 0,
+          "abstained": 31
+        },
+        "goalie": {
+          "targets": 19,
+          "correct": 15,
+          "wrong": 0,
+          "abstained": 4
+        }
+      },
+      "macro_coverage": 0.7972525653757034
+    }
+  ],
+  "selection": "Maximum macro coverage with zero incorrect roles on Pittsburgh. Strict field < min(0.5, all goalie scores); strict goalie > max(0.5, all field scores); otherwise unknown. Tie picks smaller C.",
+  "scope": "Post-failure development diagnostic, conditional on player boxes. The classifier does not reject nonplayers and has no fresh-test claim.",
+  "transfer": [
+    {
+      "field_player": {
+        "targets": 74,
+        "correct": 38,
+        "wrong": 3,
+        "abstained": 33
+      },
+      "goalie": {
+        "targets": 11,
+        "correct": 2,
+        "wrong": 0,
+        "abstained": 9
+      },
+      "source_id": "PWxYa6OZEgo"
+    },
+    {
+      "field_player": {
+        "targets": 83,
+        "correct": 47,
+        "wrong": 0,
+        "abstained": 36
+      },
+      "goalie": {
+        "targets": 8,
+        "correct": 6,
+        "wrong": 0,
+        "abstained": 2
+      },
+      "source_id": "vPRRzE3ol2s"
+    }
+  ],
+  "long_evidence_sha256": {
+    "long-track-audit-v1/Z-tFHtxODsE": "df7e9ae5caf63f198e61137db72e7f178ec2e32ce4e68dd559ebf4313704a1ba",
+    "long-track-audit-v1/plDp2kPtk_g": "21c331041d090c1aba06901c8e864c22703ff6627066cd98aa87163b4e3ff67c",
+    "long-track-audit-v1/OLpK8enSjJs": "f5c298678c8d99a7aea472a847039939810e5e9fb9d38ce51be65e507b5e7b9c",
+    "sam2-long-audit-v1/Z-tFHtxODsE": "cd52b7ddf527ab8b0a6ad6844f666c472cd0afc519d9701372326e8715f4cdb3",
+    "sam2-long-audit-v1/plDp2kPtk_g": "3c7c504772fc9a4c40633dc25d198bff69bd82721a07d32002df3072a19bd1af",
+    "sam2-long-audit-v1/OLpK8enSjJs": "fa8c393eeb9233a19d38276449943ede48e40435f0ad0454cac80c75febde70e"
+  },
+  "inference_seconds_cpu": 104.128433417,
+  "long_identity_labels_used": false,
+  "preprocessing": "Same full/torso/legs normalized DINOv2 CLS concatenation as the cached player filter. Long audit crops are trimmed back to original detection bounds.",
+  "id": "nbhl-goalie-crop-classifier-v1",
+  "raw_sha256": "576d595e16dd5c3e4699e6d99764a7291171616edee916cb3e6ee16165825c14",
+  "long_pair_role_conflicts": {
+    "long-track-audit-v1": {
+      "uncertain_not_blocked": 31,
+      "different_not_blocked": 34,
+      "same_not_blocked": 11,
+      "different_blocked": 5,
+      "uncertain_blocked": 1
+    },
+    "sam2-long-audit-v1": {
+      "uncertain_not_blocked": 18,
+      "same_not_blocked": 7,
+      "different_not_blocked": 7,
+      "different_blocked": 1,
+      "uncertain_blocked": 1
+    }
+  },
+  "long_pairs": [
+    {
+      "id": "Z-tFHtxODsE-000",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0024051223456934287,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.03592847493675982,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-001",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.16471883540409188,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.18128988596808157,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-002",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0013164291658475406,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0013337032286125875,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-003",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0017118909305800902,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.002435004526492569,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-004",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.00984014974876763,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0033587791719861234,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-005",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0011487883768639686,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0020274570655972692,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-006",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.015874693255898457,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.10717009575724935,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-007",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.005092287627280117,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.048144802345005094,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-008",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.6969396209379585,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.004406690680039051,
+        "role": 0
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "Z-tFHtxODsE-009",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.9806981809933819,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.9284037815179859,
+        "role": 1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-010",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0018034479604997187,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.8773680889352676,
+        "role": 1
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "Z-tFHtxODsE-011",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.07329568306079633,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0022596187825091,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-012",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0031659325855121897,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0008558957416153376,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-013",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.003840077395422702,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.02882802881654989,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-014",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0035556702804193205,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0014624148207164796,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-015",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0016066537774836217,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.004434508582614455,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-016",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.010279537577199682,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0009576791268511651,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-017",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.001915555458278033,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.00251385569607848,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-018",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0004869372702736995,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.006710141165827025,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-019",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.007096707843424781,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.014934256464691908,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-020",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.9866262211033552,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.026852368056372703,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-021",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.002947789556909619,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0010016453606677164,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-022",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0052550168627656536,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0215762589453708,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "Z-tFHtxODsE-023",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.010131726671624045,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.007413100104730755,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-000",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0015553620052582155,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.009688150849400662,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-001",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.04330405439589472,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0014257188694765418,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-002",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.002728283622987499,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.9729677120460309,
+        "role": 1
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "plDp2kPtk_g-003",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0008845744601581687,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.003510518266879187,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-004",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.03537167517796522,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.009064238920166164,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-005",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0006001692953786177,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.00943253574449358,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-006",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.018559355720993764,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.001793390754468983,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-007",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.05477773628984836,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.16450324272815825,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-008",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0006725100545619205,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.005584345690317909,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-009",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.010064919872354234,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.006023111168611853,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-010",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.005043617815851126,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0036471984072005545,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-011",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0016141321002771233,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.03287309625054907,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-012",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.002339897362137729,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.003927469127812944,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-013",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.002459719601110233,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.007048085269245305,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-014",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.012516069499680267,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0035767374416446314,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-015",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.7314692544400561,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.01938860415018866,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-016",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0010276712530188166,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0017222572963424305,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-017",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.010237444720603001,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0016325970922283018,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-018",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.025203070881980125,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.001083977642055807,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-019",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.005863497219632315,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.008838880796204597,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-020",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0022151772628480094,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0023146028756343318,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-021",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0017502719817769081,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0038172177931947446,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-022",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.006336320182012225,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.015963921752991068,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-023",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.003357903273178454,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.003891202670172624,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-024",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.006174656205580261,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.005964425412103037,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "plDp2kPtk_g-025",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.021635684024662052,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.04729659012390813,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-000",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0012566782023506228,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0015379534523547508,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-001",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.001711475891189124,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.009971864625130146,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-002",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.006677956427936661,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.005955872610380718,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-003",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0030786462107861598,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.015716320323771602,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-004",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.10544899124898856,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.014412892664438704,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-005",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.05749117805310885,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.011322287748993303,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-006",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.004304935079285067,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.04282863557273268,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-007",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0007127341585277529,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.00974169536535964,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-008",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0012102502574196045,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0029670601386661472,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-009",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.002067133754707977,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.006966784584750772,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-010",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.07349392136394509,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.01668501360188471,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-011",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.17284317780938427,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.766235985862582,
+        "role": 1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-012",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.9991974384571036,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.007010035146026766,
+        "role": 0
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "OLpK8enSjJs-013",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0929323881071445,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.002167163829344813,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-014",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.05765378679588872,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.2913090507141246,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-015",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.9562644397948697,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.0033543017135443357,
+        "role": 0
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "OLpK8enSjJs-016",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0027868393106703663,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.001423359476553274,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-017",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.008650663551195236,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.008109053573492623,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-018",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.2849404422838342,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.5237424611490454,
+        "role": 1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-019",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0014340494165880804,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0008137851907720636,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-020",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.001377719570617878,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.010041791122521381,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-021",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.009693666021580886,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.00760159022361394,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-022",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0021475409865243187,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.002240357215459712,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-023",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0007502347531373833,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0011386633121057018,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-024",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.002190397272920522,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.012923785617953152,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-025",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.017734258245359742,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.03520775561619046,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-026",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.5139268923778826,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.0018592152298244414,
+        "role": 0
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "OLpK8enSjJs-027",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.004903281364889763,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.000607420136643492,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-028",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.001948205531364334,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.001096355899052732,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-029",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.08607736132992706,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.004278046327008254,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-030",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.005824764372642805,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.022897149764699632,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "OLpK8enSjJs-031",
+      "sampling_set": "long-track-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.07708980649293463,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.008143152611555349,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-000",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.04388507127614736,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.030608986952285592,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-001",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0006976980224271271,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.001330201377922291,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-002",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.9906260271511738,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.18731215258769468,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-003",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0008635934392649812,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0008624814025000809,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-004",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.14779709567005156,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.003434070159098667,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-005",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.00039817917398426934,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0014311006733364817,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-006",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.5981396586177393,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.0013257024326078224,
+        "role": 0
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-007",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.012545039763126112,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0741962041284135,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-008",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.9995530540625173,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.14039309775784312,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-009",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.4357896175358743,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.016151879568768828,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-010",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.12847512089320698,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0695124925055422,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-Z-tFHtxODsE-011",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "Z-tFHtxODsE",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.9028445227207433,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.9972111955323982,
+        "role": 1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-000",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.7031152341656508,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.8980709513489173,
+        "role": 1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-001",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0297543538754833,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.002928527186092286,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-002",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.029722490461783053,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0070360839685611,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-003",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.011865545624411838,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.06448146984010496,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-004",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.013127667497936233,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.0038586205215819557,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-005",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.09884473926731782,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.016511196442355398,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-006",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.010064888139841991,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.007247446078608918,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-007",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.01074436205299948,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.006106707810383189,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-008",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.0008987011603236335,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.007226268460094249,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-009",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0010617612409541545,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.036435818947072166,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-010",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0008252209589303079,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.010228587141095166,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-011",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.0008780649549778585,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0005162918394016311,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-plDp2kPtk_g-012",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "plDp2kPtk_g",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0019529257345408668,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0010308468271697899,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-000",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.06864149428146302,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.000752965575029191,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-001",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "different",
+      "a": {
+        "goalie_score": 0.02017717753248606,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.022732619109614847,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-002",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0023763412896841292,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.012684695698709995,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-003",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "same",
+      "a": {
+        "goalie_score": 0.7002605981785321,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.9985911102140648,
+        "role": 1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-004",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.001219861470557353,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.025907087237943712,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-005",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.5320438462079697,
+        "role": 1
+      },
+      "b": {
+        "goalie_score": 0.0002385170492056176,
+        "role": 0
+      },
+      "role_conflict": true
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-006",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.002000187676749545,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.0007148626101187754,
+        "role": 0
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-007",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.07879174437603771,
+        "role": -1
+      },
+      "b": {
+        "goalie_score": 0.03943862157461774,
+        "role": -1
+      },
+      "role_conflict": false
+    },
+    {
+      "id": "sam2-OLpK8enSjJs-008",
+      "sampling_set": "sam2-long-audit-v1",
+      "source_id": "OLpK8enSjJs",
+      "review": "uncertain",
+      "a": {
+        "goalie_score": 0.0029968680367904173,
+        "role": 0
+      },
+      "b": {
+        "goalie_score": 0.003781772369204279,
+        "role": 0
+      },
+      "role_conflict": false
+    }
+  ],
+  "decision": "Not a general reliable goalie classifier: Buffalo has three field-player false goalie decisions and substantial abstention. Any role-conflict filtering is a development ablation, never proof of identity."
+}

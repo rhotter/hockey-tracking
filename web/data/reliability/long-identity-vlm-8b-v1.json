@@ -1,0 +1,2202 @@
+{
+  "id": "nbhl-long-identity-vlm-v1",
+  "kind": "vlm",
+  "models": [
+    {
+      "method": "8b",
+      "sampling_sets": {
+        "long-track-audit-v1": {
+          "pairs": 82,
+          "in_scope": 82,
+          "out_of_scope": 0,
+          "confusion": {
+            "same": {
+              "same": 11
+            },
+            "different": {
+              "different": 28,
+              "same": 6,
+              "uncertain": 5
+            },
+            "uncertain": {
+              "same": 20,
+              "different": 4,
+              "uncertain": 8
+            }
+          },
+          "supported_same": 11,
+          "incorrect_same": 6,
+          "unsupported_same": 20,
+          "same_recall_including_missing": 1.0,
+          "merge_precision_known_references": 0.6470588235294118,
+          "sources": {
+            "OLpK8enSjJs": {
+              "pairs": 32,
+              "in_scope": 32,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 3
+                },
+                "different": {
+                  "different": 7,
+                  "uncertain": 4,
+                  "same": 3
+                },
+                "uncertain": {
+                  "same": 8,
+                  "different": 1,
+                  "uncertain": 6
+                }
+              },
+              "supported_same": 3,
+              "incorrect_same": 3,
+              "unsupported_same": 8,
+              "same_recall_including_missing": 1.0,
+              "merge_precision_known_references": 0.5
+            },
+            "Z-tFHtxODsE": {
+              "pairs": 24,
+              "in_scope": 24,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 6
+                },
+                "different": {
+                  "different": 11,
+                  "same": 1
+                },
+                "uncertain": {
+                  "same": 4,
+                  "different": 1,
+                  "uncertain": 1
+                }
+              },
+              "supported_same": 6,
+              "incorrect_same": 1,
+              "unsupported_same": 4,
+              "same_recall_including_missing": 1.0,
+              "merge_precision_known_references": 0.8571428571428571
+            },
+            "plDp2kPtk_g": {
+              "pairs": 26,
+              "in_scope": 26,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 2
+                },
+                "different": {
+                  "different": 10,
+                  "same": 2,
+                  "uncertain": 1
+                },
+                "uncertain": {
+                  "same": 8,
+                  "different": 2,
+                  "uncertain": 1
+                }
+              },
+              "supported_same": 2,
+              "incorrect_same": 2,
+              "unsupported_same": 8,
+              "same_recall_including_missing": 1.0,
+              "merge_precision_known_references": 0.5
+            }
+          }
+        },
+        "sam2-long-audit-v1": {
+          "pairs": 34,
+          "in_scope": 34,
+          "out_of_scope": 0,
+          "confusion": {
+            "same": {
+              "same": 5,
+              "different": 1,
+              "uncertain": 1
+            },
+            "different": {
+              "different": 7,
+              "same": 1
+            },
+            "uncertain": {
+              "uncertain": 5,
+              "different": 9,
+              "same": 5
+            }
+          },
+          "supported_same": 5,
+          "incorrect_same": 1,
+          "unsupported_same": 5,
+          "same_recall_including_missing": 0.7142857142857143,
+          "merge_precision_known_references": 0.8333333333333334,
+          "sources": {
+            "OLpK8enSjJs": {
+              "pairs": 9,
+              "in_scope": 9,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "uncertain": 1
+                },
+                "different": {
+                  "different": 1
+                },
+                "uncertain": {
+                  "different": 2,
+                  "uncertain": 3,
+                  "same": 2
+                }
+              },
+              "supported_same": 0,
+              "incorrect_same": 0,
+              "unsupported_same": 2,
+              "same_recall_including_missing": 0.0,
+              "merge_precision_known_references": null
+            },
+            "Z-tFHtxODsE": {
+              "pairs": 12,
+              "in_scope": 12,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 3,
+                  "different": 1
+                },
+                "different": {
+                  "different": 3
+                },
+                "uncertain": {
+                  "uncertain": 2,
+                  "different": 3
+                }
+              },
+              "supported_same": 3,
+              "incorrect_same": 0,
+              "unsupported_same": 0,
+              "same_recall_including_missing": 0.75,
+              "merge_precision_known_references": 1.0
+            },
+            "plDp2kPtk_g": {
+              "pairs": 13,
+              "in_scope": 13,
+              "out_of_scope": 0,
+              "confusion": {
+                "same": {
+                  "same": 2
+                },
+                "different": {
+                  "different": 3,
+                  "same": 1
+                },
+                "uncertain": {
+                  "different": 4,
+                  "same": 3
+                }
+              },
+              "supported_same": 2,
+              "incorrect_same": 1,
+              "unsupported_same": 3,
+              "same_recall_including_missing": 1.0,
+              "merge_precision_known_references": 0.6666666666666666
+            }
+          }
+        }
+      },
+      "decisions": [
+        {
+          "id": "Z-tFHtxODsE-000",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player: identical white jersey with blue shorts, blue helmet, and same leg pads; consistent posture and equipment despite different viewing angles and blurriness"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player: identical white jersey with blue shorts, blue helmet, and same leg pads; consistent posture and equipment despite different viewing angles and blurriness\"\n}",
+          "seconds": 2.674095272999999,
+          "input_tokens": 525,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Matching team, blue helmet and leg protection, but no sufficiently clear complete number in both crops."
+        },
+        {
+          "id": "Z-tFHtxODsE-001",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 7,
+            "number_b": null,
+            "evidence": "Image A shows a clear jersey number 7, while Image B is too blurry to read any number, and the player's equipment and posture differ significantly."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 7,\n  \"number_b\": null,\n  \"evidence\": \"Image A shows a clear jersey number 7, while Image B is too blurry to read any number, and the player's equipment and posture differ significantly.\"\n}",
+          "seconds": 2.674095272999999,
+          "input_tokens": 533,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-helmet field player in A; dark-helmet field player by the goal in B, confirmed from raw context."
+        },
+        {
+          "id": "Z-tFHtxODsE-002",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 89,
+            "number_b": 89,
+            "evidence": "Clear matching complete jersey number 89 on both players, consistent uniform (white jersey, blue shorts) and similar equipment (helmet, gloves, skates) despite different viewing angles and motion blur."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 89,\n  \"number_b\": 89,\n  \"evidence\": \"Clear matching complete jersey number 89 on both players, consistent uniform (white jersey, blue shorts) and similar equipment (helmet, gloves, skates) despite different viewing angles and motion blur.\"\n}",
+          "seconds": 2.674095272999999,
+          "input_tokens": 507,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 89; matching blue helmet and white uniform."
+        },
+        {
+          "id": "Z-tFHtxODsE-003",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 4,
+            "number_b": 4,
+            "evidence": "Same jersey number 4 clearly visible on both players, consistent uniform, and matching equipment (helmet, gloves, stick) despite different viewing angles and slight motion blur."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 4,\n  \"number_b\": 4,\n  \"evidence\": \"Same jersey number 4 clearly visible on both players, consistent uniform, and matching equipment (helmet, gloves, stick) despite different viewing angles and slight motion blur.\"\n}",
+          "seconds": 2.674095272999999,
+          "input_tokens": 529,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 4; matching white helmet and dark uniform."
+        },
+        {
+          "id": "Z-tFHtxODsE-004",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 7,
+            "number_b": 7,
+            "evidence": "Matching jersey number 7 and consistent uniform with blue shorts and white jersey with purple accents"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 7,\n  \"number_b\": 7,\n  \"evidence\": \"Matching jersey number 7 and consistent uniform with blue shorts and white jersey with purple accents\"\n}",
+          "seconds": 1.213498973250001,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "B shows 7; A number partly hidden and clothing similarities do not distinguish teammates."
+        },
+        {
+          "id": "Z-tFHtxODsE-005",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 27,
+            "number_b": 27,
+            "evidence": "Same complete jersey number 27, same uniform color and design, same helmet, same leg pads, and same stick handling posture"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 27,\n  \"number_b\": 27,\n  \"evidence\": \"Same complete jersey number 27, same uniform color and design, same helmet, same leg pads, and same stick handling posture\"\n}",
+          "seconds": 1.213498973250001,
+          "input_tokens": 514,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs visibly show 21; matching white helmet, red gloves and leg protection."
+        },
+        {
+          "id": "Z-tFHtxODsE-006",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 9,
+            "number_b": null,
+            "evidence": "Player in A wears white jersey with visible number 9, while player in B wears dark uniform with no visible number; different uniform colors and equipment suggest different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 9,\n  \"number_b\": null,\n  \"evidence\": \"Player in A wears white jersey with visible number 9, while player in B wears dark uniform with no visible number; different uniform colors and equipment suggest different individuals.\"\n}",
+          "seconds": 1.213498973250001,
+          "input_tokens": 521,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and blue helmet in A; opposing dark uniform in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-007",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 17,
+            "number_b": 17,
+            "evidence": "Both players wear the same dark jersey with the number 17 clearly visible on the back, matching uniform and equipment style."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 17,\n  \"number_b\": 17,\n  \"evidence\": \"Both players wear the same dark jersey with the number 17 clearly visible on the back, matching uniform and equipment style.\"\n}",
+          "seconds": 1.213498973250001,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "White helmet with dark uniform in A; dark helmet and different leg protection in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-008",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "different uniform colors and equipment: Image A shows dark uniform with light pants, Image B shows white jersey with blue shorts and different stick"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"different uniform colors and equipment: Image A shows dark uniform with light pants, Image B shows white jersey with blue shorts and different stick\"\n}",
+          "seconds": 1.2251228897500042,
+          "input_tokens": 524,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A contains the white-uniform goalie with large leg pads; B is a white-uniform field player."
+        },
+        {
+          "id": "Z-tFHtxODsE-009",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same goalie equipment including mask, pads, and stick; consistent white and black uniform; same player in different poses"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same goalie equipment including mask, pads, and stick; consistent white and black uniform; same player in different poses\"\n}",
+          "seconds": 1.2251228897500042,
+          "input_tokens": 518,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "White goalie mask, distinctive striped pads and blocker match; same goalie position and equipment."
+        },
+        {
+          "id": "Z-tFHtxODsE-010",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 33,
+            "number_b": null,
+            "evidence": "Image A shows a clear jersey number 33, while Image B shows no visible jersey number and the player's equipment and posture are inconsistent with the same individual."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 33,\n  \"number_b\": null,\n  \"evidence\": \"Image A shows a clear jersey number 33, while Image B shows no visible jersey number and the player's equipment and posture are inconsistent with the same individual.\"\n}",
+          "seconds": 1.2251228897500042,
+          "input_tokens": 518,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A is #33 with a black helmet; B has a white helmet and different equipment."
+        },
+        {
+          "id": "Z-tFHtxODsE-011",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 77,
+            "evidence": "Player in B has clearly visible jersey number 77; player in A has no visible jersey number and different uniform color and equipment style."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 77,\n  \"evidence\": \"Player in B has clearly visible jersey number 77; player in A has no visible jersey number and different uniform color and equipment style.\"\n}",
+          "seconds": 1.2251228897500042,
+          "input_tokens": 514,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform player in A is replaced by white #77 in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-012",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 10,
+            "evidence": "Player in A has no visible jersey number, while player in B clearly shows number 10; different complete jersey numbers establish different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 10,\n  \"evidence\": \"Player in A has no visible jersey number, while player in B clearly shows number 10; different complete jersey numbers establish different individuals.\"\n}",
+          "seconds": 1.249663595499996,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "B clearly shows 10; A front/shoulder digits are not sufficiently clear to establish identity from team colors and helmet."
+        },
+        {
+          "id": "Z-tFHtxODsE-013",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniforms: white jersey vs. dark jersey with stripes, different pants, different equipment (stick in B, no stick clearly visible in A), different body posture and viewing angle"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms: white jersey vs. dark jersey with stripes, different pants, different equipment (stick in B, no stick clearly visible in A), different body posture and viewing angle\"\n}",
+          "seconds": 1.249663595499996,
+          "input_tokens": 521,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform player in A; dark-uniform opponent in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-014",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 27,
+            "number_b": 27,
+            "evidence": "Matching complete jersey number 27 and consistent uniform with identical helmet, gloves, and leg pads."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 27,\n  \"number_b\": 27,\n  \"evidence\": \"Matching complete jersey number 27 and consistent uniform with identical helmet, gloves, and leg pads.\"\n}",
+          "seconds": 1.249663595499996,
+          "input_tokens": 526,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs clearly show 27 with white helmet, red gloves and matching leg protection."
+        },
+        {
+          "id": "Z-tFHtxODsE-015",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 18,
+            "number_b": 18,
+            "evidence": "Clear matching complete jersey number 18 and consistent uniform with blue shorts and white jersey with blue and yellow trim."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 18,\n  \"number_b\": 18,\n  \"evidence\": \"Clear matching complete jersey number 18 and consistent uniform with blue shorts and white jersey with blue and yellow trim.\"\n}",
+          "seconds": 1.249663595499996,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both backs clearly show 18 with black helmet and matching white shoes/leg guards."
+        },
+        {
+          "id": "Z-tFHtxODsE-016",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.354579984499999,
+          "input_tokens": 522,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "Same white uniform and dark helmet, but no clear matching number or uniquely distinguishing detail."
+        },
+        {
+          "id": "Z-tFHtxODsE-017",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 4,
+            "evidence": "Player in B has clearly visible number 4 on back; player in A has no visible number. Different jersey numbers and viewing angles prevent identity confirmation."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 4,\n  \"evidence\": \"Player in B has clearly visible number 4 on back; player in A has no visible number. Different jersey numbers and viewing angles prevent identity confirmation.\"\n}",
+          "seconds": 1.354579984499999,
+          "input_tokens": 530,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark helmet and full dark leg guards in A; white helmet and exposed lower-leg socks in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-018",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 11,
+            "number_b": null,
+            "evidence": "Different uniforms: dark jersey in A vs. light jersey in B; different equipment: gloves and stick in A vs. stick in B; different headgear: helmet in A vs. cap in B"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 11,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms: dark jersey in A vs. light jersey in B; different equipment: gloves and stick in A vs. stick in B; different headgear: helmet in A vs. cap in B\"\n}",
+          "seconds": 1.354579984499999,
+          "input_tokens": 512,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform player in A; target box in B is on the white-uniform opponent, confirmed in full-frame context."
+        },
+        {
+          "id": "Z-tFHtxODsE-019",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player, same uniform, same equipment, same posture, same viewing direction, same background"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player, same uniform, same equipment, same posture, same viewing direction, same background\"\n}",
+          "seconds": 1.354579984499999,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Matching dark uniform and dark helmet; back digits are not sufficiently legible in both views."
+        },
+        {
+          "id": "Z-tFHtxODsE-020",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 1,
+            "evidence": "Player in A wears goalie gear; player in B wears field player gear and has visible number 1 on back."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 1,\n  \"evidence\": \"Player in A wears goalie gear; player in B wears field player gear and has visible number 1 on back.\"\n}",
+          "seconds": 1.6416424344999996,
+          "input_tokens": 532,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White goalie in A is replaced by dark-uniform field player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-021",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniforms: Image A shows a white jersey with blue shorts, Image B shows a dark jersey with blue shorts. Different equipment: Image A has red skates and a blue helmet, Image B has black skates and no visible helmet. Different viewing angles and motion blur prevent confirmation of same individual."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms: Image A shows a white jersey with blue shorts, Image B shows a dark jersey with blue shorts. Different equipment: Image A has red skates and a blue helmet, Image B has black skates and no visible helmet. Different viewing angles and motion blur prevent confirmation of same individual.\"\n}",
+          "seconds": 1.6416424344999996,
+          "input_tokens": 526,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform blue-helmet player in A; dark-uniform player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-022",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 17,
+            "number_b": null,
+            "evidence": "Different uniforms and equipment: white jersey with number 17 vs. dark jersey with no visible number, and different headgear (cap vs. no cap)."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 17,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms and equipment: white jersey with number 17 vs. dark jersey with no visible number, and different headgear (cap vs. no cap).\"\n}",
+          "seconds": 1.6416424344999996,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White #17 in A; opposing dark-uniform player in B."
+        },
+        {
+          "id": "Z-tFHtxODsE-023",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player based on consistent uniform color, pattern, and equipment style despite different angles and blurriness"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player based on consistent uniform color, pattern, and equipment style despite different angles and blurriness\"\n}",
+          "seconds": 1.6416424344999996,
+          "input_tokens": 534,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Same uniform/helmet colors, but no clear matching number in both crops."
+        },
+        {
+          "id": "plDp2kPtk_g-000",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same helmet, same jersey color and pattern, same stick, same leg pads, same skates"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same helmet, same jersey color and pattern, same stick, same leg pads, same skates\"\n}",
+          "seconds": 1.2055171442500026,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White helmet and white/blue uniform match; B feet and full digits not visible enough to distinguish teammates."
+        },
+        {
+          "id": "plDp2kPtk_g-001",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 54,
+            "number_b": 66,
+            "evidence": "Different complete jersey numbers: 54 vs 66"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 54,\n  \"number_b\": 66,\n  \"evidence\": \"Different complete jersey numbers: 54 vs 66\"\n}",
+          "seconds": 1.2055171442500026,
+          "input_tokens": 516,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red helmet and white #54 in A; white helmet and a different two-digit back number in B."
+        },
+        {
+          "id": "plDp2kPtk_g-002",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniforms and equipment: red jersey vs. goalie jersey, and goalie pads vs. skates and gloves"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms and equipment: red jersey vs. goalie jersey, and goalie pads vs. skates and gloves\"\n}",
+          "seconds": 1.2055171442500026,
+          "input_tokens": 517,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; white-uniform goalie with large pads in B."
+        },
+        {
+          "id": "plDp2kPtk_g-003",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 88,
+            "evidence": "Different uniforms: red jersey in A vs. light blue jersey in B; different jersey numbers visible: 88 in B, no clear number in A"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 88,\n  \"evidence\": \"Different uniforms: red jersey in A vs. light blue jersey in B; different jersey numbers visible: 88 in B, no clear number in A\"\n}",
+          "seconds": 1.2055171442500026,
+          "input_tokens": 526,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform player in A; white #85 in B."
+        },
+        {
+          "id": "plDp2kPtk_g-004",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 33,
+            "number_b": 32,
+            "evidence": "Different jersey numbers: 33 vs 32"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 33,\n  \"number_b\": 32,\n  \"evidence\": \"Different jersey numbers: 33 vs 32\"\n}",
+          "seconds": 1.166026183249997,
+          "input_tokens": 521,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform player in A; white-uniform opponent in B."
+        },
+        {
+          "id": "plDp2kPtk_g-005",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 11,
+            "number_b": 11,
+            "evidence": "Both players wear identical red jerseys with the number 11 clearly visible on the back and matching white helmets and equipment."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 11,\n  \"number_b\": 11,\n  \"evidence\": \"Both players wear identical red jerseys with the number 11 clearly visible on the back and matching white helmets and equipment.\"\n}",
+          "seconds": 1.166026183249997,
+          "input_tokens": 536,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and black leg guards match; number is not clearly readable in both."
+        },
+        {
+          "id": "plDp2kPtk_g-006",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey with black trim, same helmet, same gloves, same stick, consistent posture and body shape"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey with black trim, same helmet, same gloves, same stick, consistent posture and body shape\"\n}",
+          "seconds": 1.166026183249997,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and dark helmet match; no sufficiently clear number or unique equipment in both crops."
+        },
+        {
+          "id": "plDp2kPtk_g-007",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Player in A wears red helmet and appears to be a field player; player in B wears goalie mask and full goalie gear, indicating different roles and equipment."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Player in A wears red helmet and appears to be a field player; player in B wears goalie mask and full goalie gear, indicating different roles and equipment.\"\n}",
+          "seconds": 1.166026183249997,
+          "input_tokens": 524,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform field player with red helmet in A; goalie with large white pads in B."
+        },
+        {
+          "id": "plDp2kPtk_g-008",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 87,
+            "evidence": "Different jersey colors (white/light blue vs. red), different helmet colors (red vs. white), and different visible jersey numbers (null vs. 87)."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 87,\n  \"evidence\": \"Different jersey colors (white/light blue vs. red), different helmet colors (red vs. white), and different visible jersey numbers (null vs. 87).\"\n}",
+          "seconds": 1.3720259325000015,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform red-helmet player in A; red-uniform white-helmet #87 in B."
+        },
+        {
+          "id": "plDp2kPtk_g-009",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 83,
+            "evidence": "Player in A wears a referee uniform; player in B wears a red team jersey with visible number 83."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 83,\n  \"evidence\": \"Player in A wears a referee uniform; player in B wears a red team jersey with visible number 83.\"\n}",
+          "seconds": 1.3720259325000015,
+          "input_tokens": 518,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Striped-shirt referee in A; red-uniform player in B."
+        },
+        {
+          "id": "plDp2kPtk_g-010",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": 4,
+            "evidence": "Same player: consistent white helmet, light blue jersey with dark blue/black accents, and dark shorts. Number 4 is visible on back in B; number not visible on front in A due to angle and blur."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": 4,\n  \"evidence\": \"Same player: consistent white helmet, light blue jersey with dark blue/black accents, and dark shorts. Number 4 is visible on back in B; number not visible on front in A due to angle and blur.\"\n}",
+          "seconds": 1.3720259325000015,
+          "input_tokens": 521,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "Dark shin guards and dark shoes in A; green shin guards in B."
+        },
+        {
+          "id": "plDp2kPtk_g-011",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment to confirm same individual"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment to confirm same individual\"\n}",
+          "seconds": 1.3720259325000015,
+          "input_tokens": 513,
+          "decision": "uncertain",
+          "review": "different",
+          "review_evidence": "Gray socks with exposed knees in A; large white/black leg guards in B."
+        },
+        {
+          "id": "plDp2kPtk_g-012",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 2,
+            "number_b": null,
+            "evidence": "Different jersey colors (red vs. white), different equipment (black shorts vs. dark shorts), and different player positions (one appears to be a field player, the other possibly a goalie or different position) indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 2,\n  \"number_b\": null,\n  \"evidence\": \"Different jersey colors (red vs. white), different equipment (black shorts vs. dark shorts), and different player positions (one appears to be a field player, the other possibly a goalie or different position) indicate different individuals.\"\n}",
+          "seconds": 1.378976701500001,
+          "input_tokens": 530,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "plDp2kPtk_g-013",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same uniform color and pattern, same helmet style, same beard, same body build and posture, consistent equipment"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same uniform color and pattern, same helmet style, same beard, same body build and posture, consistent equipment\"\n}",
+          "seconds": 1.378976701500001,
+          "input_tokens": 524,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, dark helmet and white socks match, but no readable number or sufficiently distinctive detail in both."
+        },
+        {
+          "id": "plDp2kPtk_g-014",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 96,
+            "number_b": 96,
+            "evidence": "Clear matching complete jersey number 96 on both players, consistent red uniform with black trim, and same white helmet."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 96,\n  \"number_b\": 96,\n  \"evidence\": \"Clear matching complete jersey number 96 on both players, consistent red uniform with black trim, and same white helmet.\"\n}",
+          "seconds": 1.378976701500001,
+          "input_tokens": 513,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White helmet and red uniform match; back number only visible in B."
+        },
+        {
+          "id": "plDp2kPtk_g-015",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "different equipment: Image A shows goalie equipment (large pads, blocker, catcher), Image B shows field player equipment (stick, no pads)"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"different equipment: Image A shows goalie equipment (large pads, blocker, catcher), Image B shows field player equipment (stick, no pads)\"\n}",
+          "seconds": 1.378976701500001,
+          "input_tokens": 514,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Goalie with large tan/red pads in A; white/black leg equipment in B."
+        },
+        {
+          "id": "plDp2kPtk_g-016",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 7,
+            "number_b": 7,
+            "evidence": "Both players wear matching red jerseys with clearly visible number 7 on the back and identical red-and-white striped shorts."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 7,\n  \"number_b\": 7,\n  \"evidence\": \"Both players wear matching red jerseys with clearly visible number 7 on the back and identical red-and-white striped shorts.\"\n}",
+          "seconds": 1.1693552627500026,
+          "input_tokens": 540,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White helmet and red uniform in A, matching leg equipment in B, but B is partly obscured and no number is readable in both."
+        },
+        {
+          "id": "plDp2kPtk_g-017",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 3,
+            "evidence": "Player in A has no visible jersey number, player in B has clear number 3; different complete jersey numbers establish different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 3,\n  \"evidence\": \"Player in A has no visible jersey number, player in B has clear number 3; different complete jersey numbers establish different individuals.\"\n}",
+          "seconds": 1.1693552627500026,
+          "input_tokens": 515,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Dark helmet and red uniform match; A bent over hides number, B shows #3."
+        },
+        {
+          "id": "plDp2kPtk_g-018",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Opposing team uniforms (white/black vs. red) and different equipment (goalie gear vs. field player gear)."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Opposing team uniforms (white/black vs. red) and different equipment (goalie gear vs. field player gear).\"\n}",
+          "seconds": 1.1693552627500026,
+          "input_tokens": 515,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and dark helmet in A; red uniform and white helmet in B."
+        },
+        {
+          "id": "plDp2kPtk_g-019",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Player in A wears red jersey with white stripes, player in B wears red jersey with different pattern and visible white number 1 on sleeve, indicating different individuals"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Player in A wears red jersey with white stripes, player in B wears red jersey with different pattern and visible white number 1 on sleeve, indicating different individuals\"\n}",
+          "seconds": 1.1693552627500026,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and dark helmet match; legs partly obscured and no readable number in both."
+        },
+        {
+          "id": "plDp2kPtk_g-020",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": 37,
+            "evidence": "Same player: identical uniform (white jersey with light blue stripe, black pinstripe shorts), same helmet, same gloves, same stick, same leg pads. Number 37 visible in image B; number not visible in image A."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": 37,\n  \"evidence\": \"Same player: identical uniform (white jersey with light blue stripe, black pinstripe shorts), same helmet, same gloves, same stick, same leg pads. Number 37 visible in image B; number not visible in image A.\"\n}",
+          "seconds": 1.4410927555000015,
+          "input_tokens": 513,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching dark green helmet, distinctive vertically striped shorts and white/black leg guards in both; B back number visible."
+        },
+        {
+          "id": "plDp2kPtk_g-021",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same uniform color and design, same helmet style, same stick, same body posture and orientation"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same uniform color and design, same helmet style, same stick, same body posture and orientation\"\n}",
+          "seconds": 1.4410927555000015,
+          "input_tokens": 525,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white socks match but number and distinctive identity evidence are insufficient."
+        },
+        {
+          "id": "plDp2kPtk_g-022",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment to confirm same individual"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment to confirm same individual\"\n}",
+          "seconds": 1.4410927555000015,
+          "input_tokens": 508,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; no legible number in both and B lower body missing."
+        },
+        {
+          "id": "plDp2kPtk_g-023",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player: matching white helmet, white jersey with dark sleeves, dark shorts, and distinctive pink skates"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player: matching white helmet, white jersey with dark sleeves, dark shorts, and distinctive pink skates\"\n}",
+          "seconds": 1.4410927555000015,
+          "input_tokens": 518,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching white helmet, distinctive purple shoes, exposed knees and black shin guards in both close observations."
+        },
+        {
+          "id": "plDp2kPtk_g-024",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey with black and white trim, white helmet, and black leg pads with white stripe"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey with black and white trim, white helmet, and black leg pads with white stripe\"\n}",
+          "seconds": 1.294966393749995,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "White shin protection in A; dark shin protection with blue ankle socks in B."
+        },
+        {
+          "id": "plDp2kPtk_g-025",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same white helmet, same red jersey with white stripes, same body posture and equipment"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same white helmet, same red jersey with white stripes, same body posture and equipment\"\n}",
+          "seconds": 1.294966393749995,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; lower body cropped and no number readable in both."
+        },
+        {
+          "id": "OLpK8enSjJs-000",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player: consistent white helmet, white jersey with black trim, black shorts, and leg pads; both images show the same player from different angles and moments"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player: consistent white helmet, white jersey with black trim, black shorts, and leg pads; both images show the same player from different angles and moments\"\n}",
+          "seconds": 1.294966393749995,
+          "input_tokens": 513,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White helmet, white uniform and white/black shin guards match; A jersey number is not readable."
+        },
+        {
+          "id": "OLpK8enSjJs-001",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 17,
+            "number_b": null,
+            "evidence": "Player in A wears red jersey with visible number 17; player in B wears light-colored jersey with no visible number, and equipment differs (goalie pads vs. skates)"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 17,\n  \"number_b\": null,\n  \"evidence\": \"Player in A wears red jersey with visible number 17; player in B wears light-colored jersey with no visible number, and equipment differs (goalie pads vs. skates)\"\n}",
+          "seconds": 1.294966393749995,
+          "input_tokens": 536,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform dark-helmet player in A; white-uniform white-helmet opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-002",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.0653463477500011,
+          "input_tokens": 518,
+          "decision": "uncertain",
+          "review": "different",
+          "review_evidence": "White helmet with white shin guards in A; dark helmet and dark shin guards in B."
+        },
+        {
+          "id": "OLpK8enSjJs-003",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey with black stripe, same white leg pads with black stripes, same helmet style, consistent body shape and posture"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey with black stripe, same white leg pads with black stripes, same helmet style, consistent body shape and posture\"\n}",
+          "seconds": 1.0653463477500011,
+          "input_tokens": 529,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "Dark helmet in A; white helmet in B."
+        },
+        {
+          "id": "OLpK8enSjJs-004",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "different uniform colors and equipment; player in A wears red jersey, player in B wears white jersey with red accents"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"different uniform colors and equipment; player in A wears red jersey, player in B wears white jersey with red accents\"\n}",
+          "seconds": 1.0653463477500011,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform in both; B overlaps a white player and helmet/number evidence is insufficient."
+        },
+        {
+          "id": "OLpK8enSjJs-005",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniform colors (red vs. white) and different equipment (black pants in A vs. white pants in B)"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniform colors (red vs. white) and different equipment (black pants in A vs. white pants in B)\"\n}",
+          "seconds": 1.0653463477500011,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-006",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey, same helmet, same gloves, same stance and equipment, consistent appearance despite blur and occlusion"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey, same helmet, same gloves, same stance and equipment, consistent appearance despite blur and occlusion\"\n}",
+          "seconds": 1.208494201249998,
+          "input_tokens": 514,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, dark helmet and dark leg protection match; no readable number in both."
+        },
+        {
+          "id": "OLpK8enSjJs-007",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same white helmet, same white jersey with black trim, same black shorts, same stick, same body posture and orientation"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same white helmet, same white jersey with black trim, same black shorts, same stick, same body posture and orientation\"\n}",
+          "seconds": 1.208494201249998,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and short socks match; B overlaps teammate and both full numbers are not readable."
+        },
+        {
+          "id": "OLpK8enSjJs-008",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment to confirm same individual"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment to confirm same individual\"\n}",
+          "seconds": 1.208494201249998,
+          "input_tokens": 526,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white/black leg guards match, but no readable number in both."
+        },
+        {
+          "id": "OLpK8enSjJs-009",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 8,
+            "number_b": 8,
+            "evidence": "Matching jersey number 8 visible on both players, consistent white helmet and uniform style, and similar body build and equipment despite different viewing angles and blurriness."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 8,\n  \"number_b\": 8,\n  \"evidence\": \"Matching jersey number 8 visible on both players, consistent white helmet and uniform style, and similar body build and equipment despite different viewing angles and blurriness.\"\n}",
+          "seconds": 1.208494201249998,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and dark shin guards match; only A back number is legible."
+        },
+        {
+          "id": "OLpK8enSjJs-010",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player: consistent red jersey, white helmet, and similar body posture and equipment despite blur and occlusion"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player: consistent red jersey, white helmet, and similar body posture and equipment despite blur and occlusion\"\n}",
+          "seconds": 1.399413952499998,
+          "input_tokens": 518,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; blur prevents a clear comparison of number and leg equipment."
+        },
+        {
+          "id": "OLpK8enSjJs-011",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.399413952499998,
+          "input_tokens": 529,
+          "decision": "uncertain",
+          "review": "different",
+          "review_evidence": "Red-uniform field player in A; red-uniform goalie with large pads in B."
+        },
+        {
+          "id": "OLpK8enSjJs-012",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniforms: Image A shows a light-colored goalie uniform, Image B shows a red and dark-colored jersey with stripes. Different equipment: Image A shows goalie pads and stick, Image B shows field player gear with gloves and stick."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms: Image A shows a light-colored goalie uniform, Image B shows a red and dark-colored jersey with stripes. Different equipment: Image A shows goalie pads and stick, Image B shows field player gear with gloves and stick.\"\n}",
+          "seconds": 1.399413952499998,
+          "input_tokens": 521,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform goalie with large pads in A; red-uniform field player in B."
+        },
+        {
+          "id": "OLpK8enSjJs-013",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey, white helmet, and black-and-white striped leg pads visible in both images"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey, white helmet, and black-and-white striped leg pads visible in both images\"\n}",
+          "seconds": 1.399413952499998,
+          "input_tokens": 519,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin protection match; both jersey numbers are not legible."
+        },
+        {
+          "id": "OLpK8enSjJs-014",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.3171912497500031,
+          "input_tokens": 543,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match, but blur obscures identifying digits and equipment detail."
+        },
+        {
+          "id": "OLpK8enSjJs-015",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Image A shows a goalie with a visible chest protector and stick, while Image B shows a field player with a helmet and stick, indicating different roles and equipment."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Image A shows a goalie with a visible chest protector and stick, while Image B shows a field player with a helmet and stick, indicating different roles and equipment.\"\n}",
+          "seconds": 1.3171912497500031,
+          "input_tokens": 525,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform goalie with large pads in A; white-uniform field player in B."
+        },
+        {
+          "id": "OLpK8enSjJs-016",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Player in A wears white jersey, player in B wears red jersey; different uniform colors indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Player in A wears white jersey, player in B wears red jersey; different uniform colors indicate different individuals.\"\n}",
+          "seconds": 1.3171912497500031,
+          "input_tokens": 532,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform in A; red-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-017",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both images are too blurry and low-resolution to clearly identify the central player or read any jersey number. The player's equipment and posture are not distinct enough to confirm if it is the same individual."
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Both images are too blurry and low-resolution to clearly identify the central player or read any jersey number. The player's equipment and posture are not distinct enough to confirm if it is the same individual.\"\n}",
+          "seconds": 1.3171912497500031,
+          "input_tokens": 519,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B heavily blurred and digits unreadable."
+        },
+        {
+          "id": "OLpK8enSjJs-018",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniform colors (red vs. white/black) and different equipment (stick vs. goalie pads) indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniform colors (red vs. white/black) and different equipment (stick vs. goalie pads) indicate different individuals.\"\n}",
+          "seconds": 1.1857059497500018,
+          "input_tokens": 536,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-019",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same uniform color and style, same helmet, same stick, same leg pads, same skates, consistent body shape and posture"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same uniform color and style, same helmet, same stick, same leg pads, same skates, consistent body shape and posture\"\n}",
+          "seconds": 1.1857059497500018,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "Dark shin guards in A; white guards with dark straps in B."
+        },
+        {
+          "id": "OLpK8enSjJs-020",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.1857059497500018,
+          "input_tokens": 513,
+          "decision": "uncertain",
+          "review": "different",
+          "review_evidence": "Dark helmet and white/black leg guards in A; white helmet and dark leg guards in B."
+        },
+        {
+          "id": "OLpK8enSjJs-021",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniform colors (red vs. light gray), different helmet style, different leg gear (white pads vs. dark pads), and different body posture and viewing angle."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniform colors (red vs. light gray), different helmet style, different leg gear (white pads vs. dark pads), and different body posture and viewing angle.\"\n}",
+          "seconds": 1.1857059497500018,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Red uniform in A; white-uniform opponent in B."
+        },
+        {
+          "id": "OLpK8enSjJs-022",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "identical red jersey with black horizontal stripe, identical white leg pads with black stripes, identical helmet and gloves, same posture and viewing angle"
+          },
+          "output": "{\"identity\":\"same\",\"number_a\":null,\"number_b\":null,\"evidence\":\"identical red jersey with black horizontal stripe, identical white leg pads with black stripes, identical helmet and gloves, same posture and viewing angle\"}",
+          "seconds": 1.3514801005000052,
+          "input_tokens": 514,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching dark helmet, red shorts with dark side panel, white knee protection and three dark shin straps; same clear equipment configuration in both."
+        },
+        {
+          "id": "OLpK8enSjJs-023",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 11,
+            "number_b": 11,
+            "evidence": "Both players wear identical white jerseys with the number 11 clearly visible on the back, matching uniform and equipment (white helmet, black shorts, black socks, gloves) consistent with the same individual."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 11,\n  \"number_b\": 11,\n  \"evidence\": \"Both players wear identical white jerseys with the number 11 clearly visible on the back, matching uniform and equipment (white helmet, black shorts, black socks, gloves) consistent with the same individual.\"\n}",
+          "seconds": 1.3514801005000052,
+          "input_tokens": 514,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White helmet and dark socks match; back digits in B are too small to confirm the same number."
+        },
+        {
+          "id": "OLpK8enSjJs-024",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.3514801005000052,
+          "input_tokens": 522,
+          "decision": "uncertain",
+          "review": "different",
+          "review_evidence": "Light-colored shin protection in A; solid dark shin protection in B."
+        },
+        {
+          "id": "OLpK8enSjJs-025",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of same individual or distinct equipment/number"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of same individual or distinct equipment/number\"\n}",
+          "seconds": 1.3514801005000052,
+          "input_tokens": 518,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "Multiple overlapping white-uniform players; exact central identity cannot be resolved confidently across the crops."
+        },
+        {
+          "id": "OLpK8enSjJs-026",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "blur and occlusion prevent clear identification of jersey number or distinctive equipment"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"blur and occlusion prevent clear identification of jersey number or distinctive equipment\"\n}",
+          "seconds": 1.2033406337499954,
+          "input_tokens": 525,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; number and equipment are too blurred to establish identity."
+        },
+        {
+          "id": "OLpK8enSjJs-027",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 17,
+            "number_b": 17,
+            "evidence": "Same player: matching red jersey with clearly visible number 17 on both images, consistent black shorts with white logo, and similar helmet and stance."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 17,\n  \"number_b\": 17,\n  \"evidence\": \"Same player: matching red jersey with clearly visible number 17 on both images, consistent black shorts with white logo, and similar helmet and stance.\"\n}",
+          "seconds": 1.2033406337499954,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both clearly show red #77 with dark helmet and matching dark shin guards."
+        },
+        {
+          "id": "OLpK8enSjJs-028",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same uniform color, helmet, and leg pads; consistent posture and equipment despite blur and occlusion"
+          },
+          "output": "{\"identity\":\"same\",\"number_a\":null,\"number_b\":null,\"evidence\":\"same uniform color, helmet, and leg pads; consistent posture and equipment despite blur and occlusion\"}",
+          "seconds": 1.2033406337499954,
+          "input_tokens": 533,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin guards match; no readable number or sufficiently unique feature in both."
+        },
+        {
+          "id": "OLpK8enSjJs-029",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey, same helmet color (yellow), same leg pads, same stick, consistent posture and motion blur"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey, same helmet color (yellow), same leg pads, same stick, consistent posture and motion blur\"\n}",
+          "seconds": 1.2033406337499954,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "Red goalie with large tan pads in A; red field player wearing a yellow helmet in B."
+        },
+        {
+          "id": "OLpK8enSjJs-030",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both images are too blurry to clearly identify the same individual or confirm distinct individuals based on visible jersey numbers or distinctive equipment."
+          },
+          "output": "{\"identity\":\"uncertain\",\"number_a\":null,\"number_b\":null,\"evidence\":\"Both images are too blurry to clearly identify the same individual or confirm distinct individuals based on visible jersey numbers or distinctive equipment.\"}",
+          "seconds": 1.032458056000003,
+          "input_tokens": 522,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet and white/black shin guards match; identifying digits are unclear."
+        },
+        {
+          "id": "OLpK8enSjJs-031",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "long-track-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 8,
+            "number_b": 8,
+            "evidence": "Same player with matching white jersey, black shorts, and visible number 8 on both images."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 8,\n  \"number_b\": 8,\n  \"evidence\": \"Same player with matching white jersey, black shorts, and visible number 8 on both images.\"\n}",
+          "seconds": 1.032458056000003,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching distinctive purple full-length socks, pink shoes and white helmet in both observations."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-000",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "both images are too blurry and lack clear visual features to confirm if it is the same individual or not"
+          },
+          "output": "{\n  \"identity\": \"uncertain\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"both images are too blurry and lack clear visual features to confirm if it is the same individual or not\"\n}",
+          "seconds": 1.032458056000003,
+          "input_tokens": 526,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "Both dark uniforms and light helmets, but no legible matching number or distinct equipment."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-001",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 5,
+            "number_b": 5,
+            "evidence": "Same complete jersey number 5, same uniform color scheme, same distinctive leg braces, and same helmet."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 5,\n  \"number_b\": 5,\n  \"evidence\": \"Same complete jersey number 5, same uniform color scheme, same distinctive leg braces, and same helmet.\"\n}",
+          "seconds": 1.032458056000003,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Both clearly white #5 with blue helmet, matching shorts and black shin straps."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-002",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniforms: Image A shows dark jersey with stripes, Image B shows light shirt and dark shorts."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms: Image A shows dark jersey with stripes, Image B shows light shirt and dark shorts.\"\n}",
+          "seconds": 1.4632010975000043,
+          "input_tokens": 521,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark-uniform goalie with large pads in A; white-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-003",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 11,
+            "number_b": 11,
+            "evidence": "Both players wear the same jersey number 11, same uniform color and pattern, and same equipment (stick, gloves, skates), despite different viewing angles and slight motion blur."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 11,\n  \"number_b\": 11,\n  \"evidence\": \"Both players wear the same jersey number 11, same uniform color and pattern, and same equipment (stick, gloves, skates), despite different viewing angles and slight motion blur.\"\n}",
+          "seconds": 1.4632010975000043,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching dark back number, white long socks, blue uniform stripes and light shoes in both."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-004",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 17,
+            "evidence": "Player in B has clearly visible jersey number 17; player in A has no visible jersey number. Different uniform colors and equipment also suggest different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 17,\n  \"evidence\": \"Player in B has clearly visible jersey number 17; player in A has no visible jersey number. Different uniform colors and equipment also suggest different individuals.\"\n}",
+          "seconds": 1.4632010975000043,
+          "input_tokens": 530,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "A lacks readable digits and much of lower body; white uniform alone is insufficient."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-005",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 40,
+            "number_b": 40,
+            "evidence": "Matching jersey number 40 visible on both players, consistent uniform (white jersey with blue shorts, red skates, black knee pads), and similar equipment (stick, helmet) despite different viewing angles and blurriness."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 40,\n  \"number_b\": 40,\n  \"evidence\": \"Matching jersey number 40 visible on both players, consistent uniform (white jersey with blue shorts, red skates, black knee pads), and similar equipment (stick, helmet) despite different viewing angles and blurriness.\"\n}",
+          "seconds": 1.4632010975000043,
+          "input_tokens": 530,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "A shows #40 on shorts; B shows #40 on back with matching blue helmet and red shoes."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-006",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 7,
+            "evidence": "Player in B has clearly visible number 7 on back; player in A has no visible jersey number; different equipment (stick type) and viewing angles."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 7,\n  \"evidence\": \"Player in B has clearly visible number 7 on back; player in A has no visible jersey number; different equipment (stick type) and viewing angles.\"\n}",
+          "seconds": 1.2876232739999978,
+          "input_tokens": 508,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark goalie with large pads in A; dark-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-007",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Image B is too blurred to identify any features or numbers; image A shows a player but no clear jersey number or distinctive equipment visible to confirm identity or distinguish from others."
+          },
+          "output": "{\"identity\":\"uncertain\",\"number_a\":null,\"number_b\":null,\"evidence\":\"Image B is too blurred to identify any features or numbers; image A shows a player but no clear jersey number or distinctive equipment visible to confirm identity or distinguish from others.\"}",
+          "seconds": 1.2876232739999978,
+          "input_tokens": 526,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "Dark uniform in both; B is too motion-blurred to establish identity."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-008",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniform colors and equipment; player in A wears light-colored pants and appears to be a goalie, while player in B wears dark pants and is a field player."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniform colors and equipment; player in A wears light-colored pants and appears to be a goalie, while player in B wears dark pants and is a field player.\"\n}",
+          "seconds": 1.2876232739999978,
+          "input_tokens": 518,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "Dark goalie with large pads in A; dark-uniform field player in B."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-009",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 8,
+            "evidence": "Player in A has no visible jersey number, while player in B has clearly visible number 8 on jersey and pants. Different jersey numbers and no visible matching equipment or features establish different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 8,\n  \"evidence\": \"Player in A has no visible jersey number, while player in B has clearly visible number 8 on jersey and pants. Different jersey numbers and no visible matching equipment or features establish different individuals.\"\n}",
+          "seconds": 1.2876232739999978,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform in both; A overlaps another player and identifying number/equipment are insufficiently clear."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-010",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 22,
+            "evidence": "Player in image A has no visible jersey number, while player in image B clearly shows number 22. Different complete jersey numbers indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 22,\n  \"evidence\": \"Player in image A has no visible jersey number, while player in image B clearly shows number 22. Different complete jersey numbers indicate different individuals.\"\n}",
+          "seconds": 1.3935711417500016,
+          "input_tokens": 529,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Partial torso in A and overlapping players in B do not establish identity."
+        },
+        {
+          "id": "sam2-Z-tFHtxODsE-011",
+          "source_id": "Z-tFHtxODsE",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Image A shows a goalie with full protective gear, while Image B shows a player in a jersey with stripes and no goalie equipment, indicating different roles and individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Image A shows a goalie with full protective gear, while Image B shows a player in a jersey with stripes and no goalie equipment, indicating different roles and individuals.\"\n}",
+          "seconds": 1.3935711417500016,
+          "input_tokens": 536,
+          "decision": "different",
+          "review": "same",
+          "review_evidence": "Matching dark goalie helmet, jersey, tan leg pads, gloves and blocker in both."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-000",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both are goalies in identical white and light blue goalie gear with matching pads and stick, consistent uniform and equipment across both images despite different angles and blurriness."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Both are goalies in identical white and light blue goalie gear with matching pads and stick, consistent uniform and equipment across both images despite different angles and blurriness.\"\n}",
+          "seconds": 1.3935711417500016,
+          "input_tokens": 520,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching white-uniform goalie with large plain white pads, blocker and glove; no conflicting equipment."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-001",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 26,
+            "number_b": null,
+            "evidence": "Player in A has visible jersey number 26; player in B has no visible jersey number. Different equipment (goalie stick in A, skates in B) and different body posture also suggest different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 26,\n  \"number_b\": null,\n  \"evidence\": \"Player in A has visible jersey number 26; player in B has no visible jersey number. Different equipment (goalie stick in A, skates in B) and different body posture also suggest different individuals.\"\n}",
+          "seconds": 1.3935711417500016,
+          "input_tokens": 518,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "A has dark lower-leg covering beneath red #26; B has white/black shin protection and bright red shoes."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-002",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 12,
+            "evidence": "Player in B has clearly visible jersey number 12; player in A has no visible jersey number. Different jersey numbers indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 12,\n  \"evidence\": \"Player in B has clearly visible jersey number 12; player in A has no visible jersey number. Different jersey numbers indicate different individuals.\"\n}",
+          "seconds": 1.3332123845000012,
+          "input_tokens": 518,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; A back number and legs are not visible."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-003",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Player in A has white jersey with black sleeves, player in B has white jersey with black shoulders and different leg gear; jersey numbers not visible or clear enough to confirm same individual"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Player in A has white jersey with black sleeves, player in B has white jersey with black shoulders and different leg gear; jersey numbers not visible or clear enough to confirm same individual\"\n}",
+          "seconds": 1.3332123845000012,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; A legs obscured and neither number clearly established in both."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-004",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 5,
+            "evidence": "Player in A has no visible jersey number, player in B has clear number 5; different uniforms and equipment types (A appears to be a field player, B is in full goalie gear)."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 5,\n  \"evidence\": \"Player in A has no visible jersey number, player in B has clear number 5; different uniforms and equipment types (A appears to be a field player, B is in full goalie gear).\"\n}",
+          "seconds": 1.3332123845000012,
+          "input_tokens": 519,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform field player in A; red-uniform #5 in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-005",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": 8,
+            "evidence": "same player with white helmet and white jersey, number 8 visible in image B, number not visible in image A"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": 8,\n  \"evidence\": \"same player with white helmet and white jersey, number 8 visible in image B, number not visible in image A\"\n}",
+          "seconds": 1.3332123845000012,
+          "input_tokens": 532,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; digits not visible and equipment partly obscured."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-006",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniforms: white jersey in A vs. red jersey in B"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniforms: white jersey in A vs. red jersey in B\"\n}",
+          "seconds": 1.1616917334999926,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White uniform and white helmet in A; red uniform and red helmet in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-007",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": 5,
+            "number_b": 14,
+            "evidence": "Clear contradiction: different complete jersey numbers (5 vs 14) on players in separate images"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": 5,\n  \"number_b\": 14,\n  \"evidence\": \"Clear contradiction: different complete jersey numbers (5 vs 14) on players in separate images\"\n}",
+          "seconds": 1.1616917334999926,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; only B back number is visible."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-008",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same uniform color and pattern, same helmet, same stick, same body shape and posture, consistent equipment despite different viewing angles and blur"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same uniform color and pattern, same helmet, same stick, same body shape and posture, consistent equipment despite different viewing angles and blur\"\n}",
+          "seconds": 1.1616917334999926,
+          "input_tokens": 522,
+          "decision": "same",
+          "review": "different",
+          "review_evidence": "Dark shoes and mostly white shin protection in A; bright pink shoes and different banded shin protection in B."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-009",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 93,
+            "evidence": "Player in B has clearly visible jersey number 93; player in A has no visible jersey number. Different complete jersey numbers indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 93,\n  \"evidence\": \"Player in B has clearly visible jersey number 93; player in A has no visible jersey number. Different complete jersey numbers indicate different individuals.\"\n}",
+          "seconds": 1.1616917334999926,
+          "input_tokens": 521,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "Matching red uniform and white helmet; A identifying digits hidden and lower legs incomplete."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-010",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": 57,
+            "number_b": 57,
+            "evidence": "Same jersey number 57 visible on both players, consistent uniform and equipment, and both are seen from behind in similar poses."
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 57,\n  \"number_b\": 57,\n  \"evidence\": \"Same jersey number 57 visible on both players, consistent uniform and equipment, and both are seen from behind in similar poses.\"\n}",
+          "seconds": 1.2815223522499934,
+          "input_tokens": 521,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B back digits too faint to compare reliably."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-011",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same player: matching white helmet, red jersey with black and white stripes, black shorts with white stripes, and bright pink skates"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same player: matching white helmet, red jersey with black and white stripes, black shorts with white stripes, and bright pink skates\"\n}",
+          "seconds": 1.2815223522499934,
+          "input_tokens": 521,
+          "decision": "same",
+          "review": "same",
+          "review_evidence": "Matching distinctive bright pink shoes, white shin protection with dark bands, white helmet and red uniform."
+        },
+        {
+          "id": "sam2-plDp2kPtk_g-012",
+          "source_id": "plDp2kPtk_g",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same uniform, same helmet, same gloves, same stick, same body shape and posture"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same uniform, same helmet, same gloves, same stick, same body shape and posture\"\n}",
+          "seconds": 1.2815223522499934,
+          "input_tokens": 526,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White uniform and dark helmet match; no number readable in both and lower-leg details insufficient."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-000",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 18,
+            "evidence": "Player in B has clearly visible jersey number 18; player in A has no visible jersey number and is viewed from a different angle with different equipment (no stick visible)."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 18,\n  \"evidence\": \"Player in B has clearly visible jersey number 18; player in A has no visible jersey number and is viewed from a different angle with different equipment (no stick visible).\"\n}",
+          "seconds": 1.2815223522499934,
+          "input_tokens": 522,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; no complete number readable in both."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-001",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Different uniform colors (white vs. red) and different equipment (goalie-style gear vs. field player gear)"
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"Different uniform colors (white vs. red) and different equipment (goalie-style gear vs. field player gear)\"\n}",
+          "seconds": 1.0040611929999983,
+          "input_tokens": 514,
+          "decision": "different",
+          "review": "different",
+          "review_evidence": "White-uniform player in A; red-uniform opponent in B."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-002",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both images are too blurry to clearly identify the same individual or confirm distinct individuals; jersey numbers and distinctive equipment are not visible."
+          },
+          "output": "{\"identity\":\"uncertain\",\"number_a\":null,\"number_b\":null,\"evidence\":\"Both images are too blurry to clearly identify the same individual or confirm distinct individuals; jersey numbers and distinctive equipment are not visible.\"}",
+          "seconds": 1.0040611929999983,
+          "input_tokens": 513,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "B is mostly outside the image; identity cannot be resolved."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-003",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both images are too blurry to clearly identify the same individual or distinguish them from others; no complete jersey number or distinctive equipment is visible to confirm identity."
+          },
+          "output": "{\"identity\":\"uncertain\",\"number_a\":null,\"number_b\":null,\"evidence\":\"Both images are too blurry to clearly identify the same individual or distinguish them from others; no complete jersey number or distinctive equipment is visible to confirm identity.\"}",
+          "seconds": 1.0040611929999983,
+          "input_tokens": 530,
+          "decision": "uncertain",
+          "review": "same",
+          "review_evidence": "Matching white-uniform goalie with large light pads and dark outer pad edges; distinctive goalie equipment visible in both."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-004",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both images are too blurry to isolate a central player or read any jersey number with certainty."
+          },
+          "output": "{\"identity\":\"uncertain\",\"number_a\":null,\"number_b\":null,\"evidence\":\"Both images are too blurry to isolate a central player or read any jersey number with certainty.\"}",
+          "seconds": 1.0040611929999983,
+          "input_tokens": 518,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "Red uniform and white helmet match; strong motion blur hides identifying details."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-005",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "different",
+            "number_a": null,
+            "number_b": 17,
+            "evidence": "Player in B has clearly visible jersey number 17; player in A has no visible number. Different jersey numbers and different equipment (goalie pads vs. skates) indicate different individuals."
+          },
+          "output": "{\n  \"identity\": \"different\",\n  \"number_a\": null,\n  \"number_b\": 17,\n  \"evidence\": \"Player in B has clearly visible jersey number 17; player in A has no visible number. Different jersey numbers and different equipment (goalie pads vs. skates) indicate different individuals.\"\n}",
+          "seconds": 1.3040715059999997,
+          "input_tokens": 518,
+          "decision": "different",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; only A has a clearly readable back number."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-006",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same red jersey, same white helmet, same black and white striped pants, same posture and position relative to foreground player"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same red jersey, same white helmet, same black and white striped pants, same posture and position relative to foreground player\"\n}",
+          "seconds": 1.3040715059999997,
+          "input_tokens": 514,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "Red uniform, white helmet and white shin guards match; no number readable in both and equipment is shared by teammates."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-007",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "uncertain",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "Both images are too blurry to isolate a central player or read any jersey numbers."
+          },
+          "output": "{\"identity\":\"uncertain\",\"number_a\":null,\"number_b\":null,\"evidence\":\"Both images are too blurry to isolate a central player or read any jersey numbers.\"}",
+          "seconds": 1.3040715059999997,
+          "input_tokens": 513,
+          "decision": "uncertain",
+          "review": "uncertain",
+          "review_evidence": "White uniform and white helmet match; B lower body is obscured and digits are unreadable."
+        },
+        {
+          "id": "sam2-OLpK8enSjJs-008",
+          "source_id": "OLpK8enSjJs",
+          "sampling_set": "sam2-long-audit-v1",
+          "parsed": {
+            "identity": "same",
+            "number_a": null,
+            "number_b": null,
+            "evidence": "same white helmet, same white jersey with dark stripes, same dark pants with white stripe, same gloves and skates, consistent posture and equipment configuration despite different viewing angles"
+          },
+          "output": "{\n  \"identity\": \"same\",\n  \"number_a\": null,\n  \"number_b\": null,\n  \"evidence\": \"same white helmet, same white jersey with dark stripes, same dark pants with white stripe, same gloves and skates, consistent posture and equipment configuration despite different viewing angles\"\n}",
+          "seconds": 1.3040715059999997,
+          "input_tokens": 517,
+          "decision": "same",
+          "review": "uncertain",
+          "review_evidence": "White uniform, white helmet, white socks and dark knee guards match, but no number readable in both and generic equipment does not establish identity."
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "predictions-8b.json": "01a567f98c1bc42065de81c9e79521b3ff370b8006b3f07aa6e6431a3f09540e"
+  },
+  "model_provenance": {
+    "8b": {
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "prompt": "These are two crops from the same NBHL ball-hockey recording. Compare the central player in image A with the central player in image B. Decide whether visible evidence establishes the same individual, establishes different individuals, or is insufficient. Team uniform or similar appearance alone does not establish the same individual. Use same only for a clearly matching complete jersey number with consistent uniform, or a distinctive matching combination of equipment that distinguishes this player from teammates. Use different for a clear contradiction such as opposing uniforms, field player versus goalie equipment, clearly different complete jersey numbers, or clearly different distinctive equipment. Consider blur, occlusion, lighting and viewing direction before treating a feature as a contradiction. Do not invent hidden digits or assume an automatic track is correct. Read a number only if all its digits are clearly visible on the central player; otherwise use null. If one central person cannot be isolated, use uncertain. Return only JSON: {\"identity\":\"same, different, or uncertain\", \"number_a\":integer or null, \"number_b\":integer or null, \"evidence\":\"short specific visible agreement, contradiction, or uncertainty\"}.",
+      "gpu": "NVIDIA L4",
+      "loading_seconds": 64.093148662,
+      "scope": "Post-audit development diagnostic on selected long-track hypotheses, not a fresh or representative MOT test."
+    }
+  },
+  "reference_sha256": {
+    "long-track-audit-v1": "8b7ccb4f8e9f99799c8caeb5a59bd0a8a80a2a3c388e0a0017fb42e49cd2519b",
+    "sam2-long-audit-v1": "b2bb4ca8c694789a7941925b5b0f9f9483318fdb2fd837130d3000ec97f2b553"
+  },
+  "scope": "Post-audit development comparison on the same reviewed endpoints within each sampling set. Sources and sampling sets remain separate.",
+  "limitations": "Assistant review, not independent human ground truth. The 82 BoT-SORT and 34 SAM2 positive hypotheses have different selection distributions; their aggregate precision is not a fair algorithm comparison. Unknown identities do not enter accuracy. Missing observations are separate from rejected matches. The long SAM2 run only covers 600\u2013720 source seconds. Pair decisions do not establish identity throughout the intervening video or full-game statistics."
+}

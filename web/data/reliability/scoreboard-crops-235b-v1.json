@@ -1,0 +1,1303 @@
+{
+  "id": "nbhl-scoreboard-exact-crop-audit-v1",
+  "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+  "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+  "prediction_sha256": "7141d61d0b9924d5b3f495096645baa8c3ff3cf137c3925db1e5f3dbd0a83e5b",
+  "reference_sha256": "8390a4f75a42ba44c3b45ea89c7edba97bac94af4c942d025a52af7d4f801e28",
+  "counts": {
+    "home_correct": 48,
+    "guest_unknown_abstain": 11,
+    "period_unknown_abstain": 14,
+    "clock_unknown_abstain": 14,
+    "guest_unsupported": 31,
+    "period_abstain": 16,
+    "clock_correct": 27,
+    "guest_correct": 9,
+    "period_correct": 17,
+    "clock_unsupported": 8,
+    "clock_wrong": 2,
+    "period_wrong": 2,
+    "home_abstain": 1,
+    "home_wrong": 2,
+    "period_unsupported": 2
+  },
+  "cases": [
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 45,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00045-1.jpg",
+      "sha256": "385159cc3ccac0e3e12649c2a1820dfb94b5a8a75a8a337813b319c40a155424",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 50,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00050-1.jpg",
+      "sha256": "8afff600c97ade6bb671ab017ced061ccd0d7bf76bd18b2b8c4dfdfa5823c091",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 555
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 555.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 55,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00055-0.jpg",
+      "sha256": "9f0d2194f92d6bdb75f78363ac4db946c249145a833fc8f1e5cbee99d9d5e8fe",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": 0,
+        "period": 1,
+        "clock": 550
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 0,
+        "period": 1,
+        "clock": 550.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 65,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00065-1.jpg",
+      "sha256": "6023487eea53e21ebbad011cdd3802e22719c7552b9f18cb45c7b97807138eb7",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 544
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 544.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 70,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00070-1.jpg",
+      "sha256": "2b0d260e5c88a3c86fc117334abb1f74022a359444b9a6c2bc842e9e8fce461f",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 544
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 544.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 75,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00075-0.jpg",
+      "sha256": "ddff8bb5fa1211fbdaf7d1749cea8f85fd2bdf6863ca49514dc51f6b8a8ce3b5",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 544
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 544.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 80,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00080-0.jpg",
+      "sha256": "adbc954904a84fcc26a31db042de20289cc31347cd956ea8269b07013cd345c4",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 544
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 544.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 85,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00085-1.jpg",
+      "sha256": "69c135c03c93d0cbcf358207ff0d820c98737cc735f26874551f632c7ee971e1",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 544.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 90,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00090-0.jpg",
+      "sha256": "20e7d1efd890fa774c477f6c32b0f1f849cb428203d4979fa3eef1a8a13d30c6",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 100,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00100-0.jpg",
+      "sha256": "a08a13abe127516a4ae7c3536924327db3599b5a2436f8bbba3b68207d57751f",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": 0,
+        "period": 1,
+        "clock": 536
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 0,
+        "period": 1,
+        "clock": 536.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 105,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00105-0.jpg",
+      "sha256": "0ba44d423024c52d164cd96af60dc694e36665ce7f15478109f0e2f11d3db54c",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 110,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00110-0.jpg",
+      "sha256": "2784e971b8b1d1e598fa949f68c7a6ba5fef24bae05d40090a79e04686c0467e",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 125,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00125-0.jpg",
+      "sha256": "2966d0c5aaf45db122fa331cf6cfe88112bdac6aaf10d1a5f99efa66e023f772",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 335,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00335-1.jpg",
+      "sha256": "f86cbb08de39e1fcebe7e64d02af1c926bd955e5b118530347c22aff0c634bd1",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": 0,
+        "period": 1,
+        "clock": 402
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 0,
+        "period": 1,
+        "clock": 402.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 645,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00645-0.jpg",
+      "sha256": "c74283c03e34e34ed75635b0c6a702babac6d12f71d6198e54470b5599525e3b",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 218.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 650,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00650-0.jpg",
+      "sha256": "e5af3c6734f39f778d23c4858481a13e21f3276c979c97440e2a96756c89e5f7",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 211
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 211.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 710,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00710-0.jpg",
+      "sha256": "f9ad073aa9b339a21fbaf990ffd8fb943709eac7de4d7ca9ed07ae2b7adb6a29",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 183
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 188.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "wrong"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 725,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00725-0.jpg",
+      "sha256": "61909deb6b562904f7c25f2e9e7600f3f762e5b7e641b5da836598fe1a7a55ac",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 173
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 173.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 820,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00820-0.jpg",
+      "sha256": "8d1574b53170dd7feb8c5f0b2607143c9e4396af1d0e9ace8856f0848124ec8c",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 825,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00825-0.jpg",
+      "sha256": "a31ea94ec26e8722d6d3008864c5fe48936c1d7e859c92fdbfccc4779d5fa97c",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 71.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 860,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00860-0.jpg",
+      "sha256": "bc46f6f5b42b4f80eabc212dd91b5135149af4c45ab0864cf6f1f8e90db4f909",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 41.6
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 41.6
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 865,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00865-0.jpg",
+      "sha256": "e9545fd597a088471f010b8ceec05c26c792f2753cecad67e8c1b6a7972acd68",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 41.6
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 41.6
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 870,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00870-0.jpg",
+      "sha256": "276e9fc2789cbef50f8dd62ba02e50b43501e0e373cd9fa12604a7d55d4e48bb",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": 41.6
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": 1,
+        "clock": 41.6
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 875,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00875-0.jpg",
+      "sha256": "87b4a1d9a39eae9c274a906bae726644eca5bd0c8cbb4dd0a69358390c062722",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 1,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 1,
+        "period": null,
+        "clock": 41.6
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 890,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00890-0.jpg",
+      "sha256": "cade3b4f3d7e44aa4eb897ca67a0638af637654e56fbfd91c709705bf03d3cc0",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 0,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 975,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/00975-0.jpg",
+      "sha256": "1f1d888ec2b3207770f17e4cafdf2f6691666ab474846c22483b81218df86482",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 0,
+        "guest": null,
+        "period": 2,
+        "clock": 563
+      },
+      "predicted": {
+        "home": 0,
+        "guest": 2,
+        "period": null,
+        "clock": 563.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 1465,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/01465-0.jpg",
+      "sha256": "ef85fa0ef57bf2c2e1444d0e9a9396fc165c298d28c79dbb1963e63f2f249f45",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 2,
+        "guest": null,
+        "period": 2,
+        "clock": null
+      },
+      "predicted": {
+        "home": 2,
+        "guest": 2,
+        "period": 1,
+        "clock": 428.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "wrong",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 1470,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/01470-0.jpg",
+      "sha256": "fc96e9cc1a639a923aca12f22a80a50bd3adf5aaeeddeb4599b12f9d7871ed81",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 2,
+        "guest": null,
+        "period": 2,
+        "clock": 428
+      },
+      "predicted": {
+        "home": 2,
+        "guest": 2,
+        "period": null,
+        "clock": 428.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 1685,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/01685-0.jpg",
+      "sha256": "bd280c8c57b4db47dbb2c77a39bf055e704d2b953d4e67322d5b5ad62ce085e7",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 2,
+        "guest": null,
+        "period": 2,
+        "clock": 356
+      },
+      "predicted": {
+        "home": 2,
+        "guest": 2,
+        "period": null,
+        "clock": 356.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 1690,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/01690-0.jpg",
+      "sha256": "6240dae501287294e77be88ec19c1e494cb648f9cba5be37a065db29143f4e1c",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 2,
+        "guest": null,
+        "period": 2,
+        "clock": 355
+      },
+      "predicted": {
+        "home": 2,
+        "guest": 2,
+        "period": 2,
+        "clock": 355.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 1945,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/01945-0.jpg",
+      "sha256": "239c788bd5165ce9ec319bacbebb155d985201b82e01b8d3249a53fedb9b434b",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 4,
+        "guest": null,
+        "period": 2,
+        "clock": 201
+      },
+      "predicted": {
+        "home": 4,
+        "guest": 2,
+        "period": null,
+        "clock": 201.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2045,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02045-0.jpg",
+      "sha256": "33bac1d8e0e1196b8f4184a601d39fce5f16fc09f47f43d27be71fe75c4b5dda",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 4,
+        "guest": null,
+        "period": 2,
+        "clock": null
+      },
+      "predicted": {
+        "home": 4,
+        "guest": 2,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2230,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02230-0.jpg",
+      "sha256": "462801ab9c6380c1c6360974ea5818d67570b830f47b1a44d22e234a7f5dfe11",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 5,
+        "guest": 2,
+        "period": 2,
+        "clock": 9.4
+      },
+      "predicted": {
+        "home": 5,
+        "guest": 2,
+        "period": 2,
+        "clock": 9.4
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2235,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02235-0.jpg",
+      "sha256": "b53f694785c6c1d3babdee69829eccf185897286d882483e9d15c8e4bfc81c1b",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 5,
+        "guest": null,
+        "period": 2,
+        "clock": 4.6
+      },
+      "predicted": {
+        "home": 5,
+        "guest": 2,
+        "period": 4,
+        "clock": 6.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "wrong",
+        "clock": "wrong"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2240,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02240-1.jpg",
+      "sha256": "c3391d31a81e0324aef2d7573f363202db98b67ac13a8496e80394e0864ef9ef",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 5,
+        "guest": null,
+        "period": 2,
+        "clock": 4.6
+      },
+      "predicted": {
+        "home": 5,
+        "guest": 2,
+        "period": null,
+        "clock": 4.6
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2250,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02250-0.jpg",
+      "sha256": "fc3947f3af90564a759cea533f8e2436c4264663a505463843e811301915fa9b",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 5,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 5,
+        "guest": 4,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2455,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02455-0.jpg",
+      "sha256": "d6e601e48f3f17d22640275d596a12e5f1160dd54f2284842fec51101a59189e",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": 2,
+        "period": 3,
+        "clock": 481
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 2,
+        "period": 3,
+        "clock": 481.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2460,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02460-1.jpg",
+      "sha256": "8741c6fa612cedf495473476d4a9ebc006b456838cda8a7a022a301852844167",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": null,
+        "period": 3,
+        "clock": 476
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 3,
+        "period": null,
+        "clock": 476.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2465,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02465-1.jpg",
+      "sha256": "bad6a86d379b3e8f3550aaba42abe49c95f162a9d5e7a2910aea8039dc60db1d",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": null,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "abstain",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2470,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02470-1.jpg",
+      "sha256": "d456c2de85ab6b21ce6ba4ad949ad427bd3b71f077578cac824c7147800547ce",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 3,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2480,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02480-0.jpg",
+      "sha256": "c18111c44a6bbe5ef51da2e10c6edcec18bbdcde9d87ae3d0afb2d3416239ea3",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": null,
+        "period": 3,
+        "clock": 456
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 3,
+        "period": null,
+        "clock": 456.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2555,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02555-0.jpg",
+      "sha256": "cf5bc5bd7d8222fe0a31d6af8c3cb1566889e20b23112c1ccc1869143c263644",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": 2,
+        "period": 3,
+        "clock": 403
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 2,
+        "period": 3,
+        "clock": 403.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2690,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02690-0.jpg",
+      "sha256": "f953e432daa0aa791c187baf81109b673099512d0d00f61dc9d4c98793cab205",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": 2,
+        "period": 3,
+        "clock": 343
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 2,
+        "period": 3,
+        "clock": 343.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "correct",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "OLpK8enSjJs",
+      "source_time_s": 2700,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/OLpK8enSjJs/02700-0.jpg",
+      "sha256": "c48bd99ffd0ccd3d843008e7ba71c0f2b9148a8db828621671b7e6624d90d9b5",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 6,
+        "guest": null,
+        "period": 3,
+        "clock": null
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 3,
+        "period": null,
+        "clock": 76.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unsupported",
+        "period": "abstain",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 430,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/00430-0.jpg",
+      "sha256": "c1f867709bc95a496b359ae9853fb1122756c6fc4cc187eb783cd64c3b2954f9",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 2,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 7,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "states": {
+        "home": "wrong",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 745,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/00745-0.jpg",
+      "sha256": "346977f6f2656f379c4b157b33f4cb91a3222357d49283fc61e3545bfd8b339b",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": 1.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "unsupported"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 790,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/00790-0.jpg",
+      "sha256": "02a64625e89a580930412bedb2301d26d3b7f58c30ec9dd9881c27d23f92b01c",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 3,
+        "guest": 0,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 3,
+        "guest": 0,
+        "period": 1,
+        "clock": null
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "unsupported",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 900,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/00900-0.jpg",
+      "sha256": "a2d81291bc3bd9923575cc081c3f1eed31cdcd52d3903ff86ac04b6d00500a0e",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": 543
+      },
+      "predicted": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": 543.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 1070,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/01070-0.jpg",
+      "sha256": "3735042f2dcad02b189bf5bf3a51dba7d089735e0562f53497b20ba58c4ce1db",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 6,
+        "guest": 3,
+        "period": 3,
+        "clock": null
+      },
+      "states": {
+        "home": "wrong",
+        "guest": "unsupported",
+        "period": "unsupported",
+        "clock": "unknown_abstain"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 1110,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/01110-0.jpg",
+      "sha256": "fb37389255f3f74c704529383774f65273fabe367497557a71bea719641a853d",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": 414
+      },
+      "predicted": {
+        "home": 3,
+        "guest": null,
+        "period": null,
+        "clock": 414.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "unknown_abstain",
+        "period": "unknown_abstain",
+        "clock": "correct"
+      }
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "source_time_s": 1835,
+      "crop": "/data/ball-hockey/reliability-20261018/scoreboard-grounding-v1/plDp2kPtk_g/01835-0.jpg",
+      "sha256": "c333c0e77d0a09348d291749a639b23ba1bf49251f032ce128cf0920e3d4f45e",
+      "is_scoreboard": true,
+      "readings": {
+        "home": 5,
+        "guest": 1,
+        "period": null,
+        "clock": null
+      },
+      "predicted": {
+        "home": 5,
+        "guest": 1,
+        "period": null,
+        "clock": 595.0
+      },
+      "states": {
+        "home": "correct",
+        "guest": "correct",
+        "period": "unknown_abstain",
+        "clock": "unsupported"
+      }
+    }
+  ],
+  "scope": "For each of 44 newly located NJ timestamps absent from the earlier 59-frame bank audit, review the smallest-area accepted crop. Also all seven accepted Massachusetts crops. Selected after the 8B reader evaluation; development diagnostic, not a fresh held-out test.",
+  "limitations": "Single selected crops do not establish whole-frame board visibility or exhaustive localization recall. Unknown reference values are unsupported readings, not proof of an incorrect numerical value."
+}

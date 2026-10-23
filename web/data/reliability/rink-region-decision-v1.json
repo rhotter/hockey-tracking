@@ -1,0 +1,11 @@
+{
+  "status": "rejected_for_automatic_filtering",
+  "reason": "Severe unseen-venue transfer failure: the model selects spectator foreground rather than playing area in Massachusetts.",
+  "validation_mean_iou": 0.9189136993792864,
+  "transfer_mean_iou": 0.03489221707833212,
+  "transfer_player_points_inside_margin4": 9,
+  "transfer_player_targets": 93,
+  "transfer_nonplayer_points_inside_margin4": 48,
+  "transfer_nonplayer_targets": 179,
+  "next_experiment": "Keep role-only result separate. Evaluate reviewed boundary propagation and expand ball-hockey venue coverage before another automatic region test."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "nbhl-guarded-audit-uniform-diagnostic",
+  "scope": "Post-label crop diagnostic of the four remaining wrong same-ID pairs. Crops were re-encoded as JPEG; this does not reconstruct the stored historical appearance class inside the tracker.",
+  "classes": {
+    "0": "unknown",
+    "1": "white-looking",
+    "2": "red-looking",
+    "3": "dark-looking"
+  },
+  "cases": [
+    {
+      "case": "guarded-Z-tFHtxODsE-001",
+      "endpoint_uniform_classes": {
+        "a": 3,
+        "b": 0
+      },
+      "review": {
+        "identity": "different",
+        "evidence": "A is a dark-uniform goalie with large pads; B is a white/blue field player."
+      }
+    },
+    {
+      "case": "guarded-Z-tFHtxODsE-004",
+      "endpoint_uniform_classes": {
+        "a": 3,
+        "b": 0
+      },
+      "review": {
+        "identity": "different",
+        "evidence": "A wears the dark cyan/black team uniform; B wears the white jersey and blue shorts."
+      }
+    },
+    {
+      "case": "guarded-Z-tFHtxODsE-005",
+      "endpoint_uniform_classes": {
+        "a": 3,
+        "b": 3
+      },
+      "review": {
+        "identity": "different",
+        "evidence": "A has a black helmet and white lower-leg socks; B has a white helmet and black long leg coverings."
+      }
+    },
+    {
+      "case": "guarded-plDp2kPtk_g-007",
+      "endpoint_uniform_classes": {
+        "a": 2,
+        "b": 2
+      },
+      "review": {
+        "identity": "different",
+        "evidence": "A has a white helmet and white/black shin protection; B has a red helmet, gray leg covering and bright neon shoes."
+      }
+    }
+  ]
+}

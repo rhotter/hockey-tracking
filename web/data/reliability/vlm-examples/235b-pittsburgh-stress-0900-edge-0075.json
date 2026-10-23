@@ -1,0 +1,241 @@
+{
+  "id": "pittsburgh-stress-0900-edge-0075",
+  "phase": "regression",
+  "model": "235b",
+  "clip": "pittsburgh-stress-0900",
+  "source_id": "JlBtScHdcg4",
+  "candidate": {
+    "a": "40",
+    "b": "50",
+    "gap": 35,
+    "cosine_mean": 0.7829123735427856,
+    "cosine_views": 0.722282886505127,
+    "distance_heights": 0.08561721597488473,
+    "support_a": 173,
+    "support_b": 201,
+    "id": "pittsburgh-stress-0900-edge-0075"
+  },
+  "groups": [
+    {
+      "group": "A",
+      "track_id": "40",
+      "start": 388,
+      "end": 586,
+      "count": 173,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/regression/pittsburgh-stress-0900/crops/0182-0.jpg",
+          "sha256": "1bcaee7eeaf14afba3a07d7bffbdbb14be928ec9c27f7f18a57d2b7a9a68dbd5",
+          "frame": 415,
+          "quality": 0.9265749454498291,
+          "bbox": [
+            1199,
+            295,
+            1269,
+            447
+          ],
+          "source_frame_sha256": "7b662368bfb57fd6827c61911a917579b9d4eeb87df0a8152f8cae3ee5b87d3c"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/regression/pittsburgh-stress-0900/crops/0182-1.jpg",
+          "sha256": "29fcdbe950d52762e492615fa86051ea36049453e303887075dcbc3afdece980",
+          "frame": 508,
+          "quality": 0.917661190032959,
+          "bbox": [
+            767,
+            355,
+            845,
+            486
+          ],
+          "source_frame_sha256": "aada14daaa86f1dc6de7c0fe230dac81ac3de24caf13386a1e4192e28ca66963"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/regression/pittsburgh-stress-0900/crops/0182-2.jpg",
+          "sha256": "0756e274ac86c74cad60dde9f1b94c62ded9c224fa80aae157ba65a67673c426",
+          "frame": 545,
+          "quality": 0.9214097857475281,
+          "bbox": [
+            1062,
+            360,
+            1138,
+            510
+          ],
+          "source_frame_sha256": "ea9b9dda5e9e8fa70a1131460ae4c197982a24420632a78f9a5465347a226b6d"
+        }
+      ],
+      "best_image": 0
+    },
+    {
+      "group": "B",
+      "track_id": "50",
+      "start": 621,
+      "end": 831,
+      "count": 201,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/regression/pittsburgh-stress-0900/crops/0189-0.jpg",
+          "sha256": "a3a08865d0b08ec3e8ab8740178fef45751744947f3dbae6cd715438fdba49e2",
+          "frame": 678,
+          "quality": 0.9341588020324707,
+          "bbox": [
+            628,
+            407,
+            725,
+            615
+          ],
+          "source_frame_sha256": "04c16d6526ff620205a864dd5127067aa09c0b3e8ec28fd72eeaaf10b05ecf5d"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/regression/pittsburgh-stress-0900/crops/0189-1.jpg",
+          "sha256": "1532ae390141f11e557aaadcf9a23910608ac520a0a75c5b633eb8da9d06ba85",
+          "frame": 771,
+          "quality": 0.9258840680122375,
+          "bbox": [
+            608,
+            593,
+            768,
+            938
+          ],
+          "source_frame_sha256": "5e66dc9adb65c45d6e2b1b44ae0786c7730629c4276a018c580eb0d7cccaf5a0"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/regression/pittsburgh-stress-0900/crops/0189-2.jpg",
+          "sha256": "e97f9952822c8098ac7d51ec6951d7ac2a7909b7594bc329753ec269c852f6b6",
+          "frame": 817,
+          "quality": 0.9243603348731995,
+          "bbox": [
+            634,
+            381,
+            843,
+            704
+          ],
+          "source_frame_sha256": "d03d536bcd33c3d7507d83769e8920e717dde19593d20f2ded026c0b091c0786"
+        }
+      ],
+      "best_image": 0
+    }
+  ],
+  "responses": {
+    "single": {
+      "id": "pittsburgh-stress-0900-edge-0075/single",
+      "task": "single",
+      "clip": "pittsburgh-stress-0900",
+      "edge_id": "pittsburgh-stress-0900-edge-0075",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"distinctive_details\",\n  \"evidence\": \"Group A player has a visible white number '1' on jersey and white leg pads; Group B player has no visible number and black leg pads, plus a red helmet vs. dark helmet in A.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "distinctive_details",
+        "evidence": "Group A player has a visible white number '1' on jersey and white leg pads; Group B player has no visible number and black leg pads, plus a red helmet vs. dark helmet in A."
+      },
+      "seconds": 1.7822471821249906,
+      "input_tokens": 370,
+      "output_tokens": 86,
+      "finish_reason": "stop"
+    },
+    "multi": {
+      "id": "pittsburgh-stress-0900-edge-0075/multi",
+      "task": "multi",
+      "clip": "pittsburgh-stress-0900",
+      "edge_id": "pittsburgh-stress-0900-edge-0075",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"jersey_number\",\n  \"evidence\": \"Group A player shows jersey digit '4' on back; Group B player shows jersey digit '36' on back.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "jersey_number",
+        "evidence": "Group A player shows jersey digit '4' on back; Group B player shows jersey digit '36' on back."
+      },
+      "seconds": 1.9639082688750022,
+      "input_tokens": 669,
+      "output_tokens": 70,
+      "finish_reason": "stop"
+    },
+    "reverse": {
+      "id": "pittsburgh-stress-0900-edge-0075/reverse",
+      "task": "reverse",
+      "clip": "pittsburgh-stress-0900",
+      "edge_id": "pittsburgh-stress-0900-edge-0075",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"jersey_number\",\n  \"evidence\": \"Group A player clearly shows jersey number 36; Group B player shows a different number (appears to be 4 or 14) on the back.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "jersey_number",
+        "evidence": "Group A player clearly shows jersey number 36; Group B player shows a different number (appears to be 4 or 14) on the back."
+      },
+      "seconds": 1.6150033594999513,
+      "input_tokens": 669,
+      "output_tokens": 79,
+      "finish_reason": "stop"
+    }
+  },
+  "number_responses": {
+    "a": {
+      "id": "pittsburgh-stress-0900/number/40",
+      "task": "number",
+      "clip": "pittsburgh-stress-0900",
+      "track_id": "40",
+      "output": "{\n  \"consistent\": \"yes\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"front\"\n    },\n    {\n      \"image\": 2,\n      \"number\": 4,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 3,\n      \"number\": 4,\n      \"location\": \"back\"\n    }\n  ],\n  \"evidence\": \"Number 4 is clearly visible on the back in images 2 and 3; front is obscured in image 1 but back is consistent in 2 and 3.\"\n}",
+      "parsed": {
+        "consistent": "yes",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "front"
+          },
+          {
+            "image": 2,
+            "number": 4,
+            "location": "back"
+          },
+          {
+            "image": 3,
+            "number": 4,
+            "location": "back"
+          }
+        ],
+        "evidence": "Number 4 is clearly visible on the back in images 2 and 3; front is obscured in image 1 but back is consistent in 2 and 3."
+      },
+      "seconds": 3.4868192042499686,
+      "input_tokens": 386,
+      "output_tokens": 133,
+      "finish_reason": "stop"
+    },
+    "b": {
+      "id": "pittsburgh-stress-0900/number/50",
+      "task": "number",
+      "clip": "pittsburgh-stress-0900",
+      "track_id": "50",
+      "output": "{\n  \"consistent\": \"yes\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"front\"\n    },\n    {\n      \"image\": 2,\n      \"number\": 36,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 3,\n      \"number\": 36,\n      \"location\": \"back\"\n    }\n  ],\n  \"evidence\": \"Number 36 is clearly visible on the back in images 2 and 3; front is obscured in image 1.\"\n}",
+      "parsed": {
+        "consistent": "yes",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "front"
+          },
+          {
+            "image": 2,
+            "number": 36,
+            "location": "back"
+          },
+          {
+            "image": 3,
+            "number": 36,
+            "location": "back"
+          }
+        ],
+        "evidence": "Number 36 is clearly visible on the back in images 2 and 3; front is obscured in image 1."
+      },
+      "seconds": 2.6423732000000086,
+      "input_tokens": 379,
+      "output_tokens": 126,
+      "finish_reason": "stop"
+    }
+  },
+  "image_sha256": "5c5e074e8d76393fdc1f1dbdb3161661c6874b7430f54bccdb56b67393b68ef8"
+}

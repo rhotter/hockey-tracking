@@ -1,0 +1,83 @@
+{
+  "id": "nbhl-four-hour-learned-transfer-freeze-v1",
+  "status": "frozen_before_reference_review",
+  "frozen_at": "2026-10-18T18:22:53.034032+00:00",
+  "protocol_sha256": "2bdee8291ab5fae6ca7d4b934e8d6ce8e8902beaf000c3f0cbd0f46d1f693622",
+  "primary_method": "learnedlink-trained",
+  "detector": {
+    "weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-multi-s17-f10-e80-remap-v2-6f459b18/weights/best.pt",
+    "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3"
+  },
+  "appearance_weights_sha256": "8a07e8da38946f7cee37f4561617bf8b6d2fe8f3a4027852893ea092e46d919f",
+  "online": {
+    "family": "tracktrack",
+    "variant": "none",
+    "buffer": 30,
+    "profile": "matched",
+    "id": "motion-control"
+  },
+  "learned_head": {
+    "weights": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/learned-links/osnet_parts_generic/linear-l2-0.01.pt",
+    "weights_sha256": "28e80c138b3e6e8d4303381891b4dd448b3dfdaf85b91ccb5078afc0deb1ff28",
+    "architecture": "linear",
+    "parameters": 7,
+    "regularization": 0.01,
+    "training_pairs": 7505,
+    "positive_training_pairs": 1022,
+    "negative_training_pairs": 6483,
+    "dataset_sha256": "a3bf31288ac936b439f2b4edd48ada18c6462c9b4e687d6261ee7ec1d95779c6"
+  },
+  "methods": [
+    {
+      "id": "learnedlink-motion",
+      "label": "TrackTrack motion",
+      "linking": null
+    },
+    {
+      "id": "learnedlink-cosine",
+      "label": "Generic appearance + fixed similarity",
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "views",
+        "cosine": 0.75,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10,
+        "id": "global-041"
+      }
+    },
+    {
+      "id": "learnedlink-trained",
+      "label": "Generic appearance + learned association",
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "learned",
+        "cosine": 0.65,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10
+      }
+    }
+  ],
+  "inference_code_sha256": {
+    "modal_campaign.py": "cde4bb252f36085633c907c65f008dd9c4a4ccb3308525f4ff128344b426726d",
+    "nbhl_tracking_fourhour.py": "bcb1545f1d9d97c5a0806fae0e8aba2c443c5000b6e649b721e55f6cf71fa0ba",
+    "nbhl_detection_metrics.py": "c072493cdae824f2f65762b0f5ed4c337180d1ea1b553c6eafeac50314faee7b",
+    "nbhl_identity_contrastive.py": "b2812c32b02995a95f7af271b0e94c4e757ab297822bcac78e03b6070f409c17",
+    "nbhl_reid_learning.py": "5b0050c549f4149a0c4e4bff4a465c87a4cf2c7d2ae8eda78c671011f5eb4d08",
+    "nbhl_tracking_global_links.py": "cd2260bd17f521fb45065979c3697e2fd92295da09006c65ee3ea18ce818b786",
+    "modal_nbhl_learned_transfer.py": "a7f3b8e21144fde23a0a89fb3218dd8c9bf1f7d824cd0976e359eac5d6511c63"
+  },
+  "selection": "Three methods fixed before raw video review. Learned linear association was chosen on MA/GB development checks; generic OSNet appearance weights are unchanged. Original two-recording final scores have not been inspected.",
+  "source_id": "3FNUq6K0Bcc",
+  "clips": [
+    "philadelphia-0900",
+    "philadelphia-1500"
+  ]
+}

@@ -4,6 +4,12 @@ Player-track reconnection experiments on **NBHL ball hockey**. This release cont
 
 The strongest observed candidate combines **SAM2 track fragments**, **OSNet appearance features**, and **Qwen3-VL Embedding 2B**, encoding several player crops together. A global assignment joins compatible fragments without filling missing positions.
 
+## Website
+
+[Open the public results and replay site](https://rhotter.github.io/hockey-tracking/). Every push to `main` runs the release checks, builds the site and deploys it through GitHub Actions. Frontend source lives in `web/`. Replay assets are stored separately in the `site-assets-v1` GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`.
+
+Build locally with `python scripts/build_site.py`, then serve `dist/` with `python -m http.server --directory dist 8000`. To update media, upload a new versioned release bundle and update the asset manifest; keep media out of Git history.
+
 ## Measured result
 
 | Method | Four short clips: correct / 103 | Wrong / 962 | Unverified joins | Five-minute clip: correct / 26 | Wrong / 368 |
@@ -67,4 +73,4 @@ Priorities: recover missing observations, detect and split contaminated fragment
 
 ## Licensing and media
 
-Original project code and included original annotations are released under the [MIT license](LICENSE). No video, player crop images, model weights or vendored third-party implementation is included. Referenced models and dependencies retain their own licenses and access conditions; this license does not grant rights to those artifacts. See [third-party references](docs/artifacts.md).
+Original project code and included original annotations are released under the [MIT license](LICENSE). Git history excludes video, player crop images, model weights and vendored third-party implementations. The website uses replay clips and player images distributed separately as release assets; those third-party media are excluded from the MIT license. Referenced models and dependencies retain their own licenses and access conditions; this license does not grant rights to those artifacts. See [third-party references](docs/artifacts.md).

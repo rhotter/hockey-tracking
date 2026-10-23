@@ -1,0 +1,2189 @@
+{
+  "id": "nbhl-map-feet-visibility-audit-v1",
+  "labels_sha256": "ccb0cd9b50e6c8d8c84bcda63b34904d8e544d0dd15038cb5785f8641529287c",
+  "independent_human_ground_truth": false,
+  "methods": [
+    {
+      "method": "full-yolo11m",
+      "prediction_sha256": "af8e73c3fdd0fc2f290da92e6343369ea5f7cdedc3f1dfedc1b2a9ded14c533b",
+      "groups": {
+        "visible": {
+          "total": 34,
+          "foot_emitted": 19,
+          "map_emitted": 19
+        },
+        "occluded": {
+          "total": 7,
+          "foot_emitted": 0,
+          "map_emitted": 0
+        },
+        "unknown": {
+          "total": 7,
+          "foot_emitted": 1,
+          "map_emitted": 1
+        }
+      },
+      "observations": [
+        {
+          "id": 0,
+          "frame": 0,
+          "track_id": "007-00-50",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1241.3202514648438,
+            534.1310729980469
+          ],
+          "ankle_scores": [
+            0.9937719702720642,
+            0.9946227073669434
+          ]
+        },
+        {
+          "id": 1,
+          "frame": 0,
+          "track_id": "007-00-51",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 2,
+          "frame": 0,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            685.565185546875,
+            560.3277893066406
+          ],
+          "ankle_scores": [
+            0.9870029091835022,
+            0.9823734760284424
+          ]
+        },
+        {
+          "id": 3,
+          "frame": 0,
+          "track_id": "007-00-64",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 4,
+          "frame": 0,
+          "track_id": "007-00-66",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 5,
+          "frame": 0,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 6,
+          "frame": 0,
+          "track_id": "007-00-65",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 7,
+          "frame": 0,
+          "track_id": "007-00-63",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 8,
+          "frame": 60,
+          "track_id": "007-00-50",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 9,
+          "frame": 60,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            692.9705505371094,
+            559.6742858886719
+          ],
+          "ankle_scores": [
+            0.9623845815658569,
+            0.9703431725502014
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 60,
+          "track_id": "007-00-67",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            512.2911071777344,
+            724.1190185546875
+          ],
+          "ankle_scores": [
+            0.9875319600105286,
+            0.9938467144966125
+          ]
+        },
+        {
+          "id": 11,
+          "frame": 60,
+          "track_id": "007-00-63",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 12,
+          "frame": 60,
+          "track_id": "007-00-73",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 13,
+          "frame": 60,
+          "track_id": "007-00-64",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 14,
+          "frame": 60,
+          "track_id": "007-00-66",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 15,
+          "frame": 60,
+          "track_id": "007-00-69",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 16,
+          "frame": 60,
+          "track_id": "007-00-76",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 17,
+          "frame": 120,
+          "track_id": "007-00-63",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            264.31553649902344,
+            561.842529296875
+          ],
+          "ankle_scores": [
+            0.9830288887023926,
+            0.995888888835907
+          ]
+        },
+        {
+          "id": 18,
+          "frame": 120,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            643.1641540527344,
+            520.6522216796875
+          ],
+          "ankle_scores": [
+            0.9900363683700562,
+            0.9883344173431396
+          ]
+        },
+        {
+          "id": 19,
+          "frame": 120,
+          "track_id": "007-00-79",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 20,
+          "frame": 120,
+          "track_id": "007-00-77",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 21,
+          "frame": 120,
+          "track_id": "007-00-82",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 22,
+          "frame": 120,
+          "track_id": "007-00-69",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 23,
+          "frame": 180,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1254.3904418945312,
+            658.9870300292969
+          ],
+          "ankle_scores": [
+            0.9962641596794128,
+            0.9869203567504883
+          ]
+        },
+        {
+          "id": 24,
+          "frame": 180,
+          "track_id": "007-00-94",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            318.5359191894531,
+            844.7439575195312
+          ],
+          "ankle_scores": [
+            0.9895468354225159,
+            0.9805426597595215
+          ]
+        },
+        {
+          "id": 25,
+          "frame": 180,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1858.302001953125,
+            546.8895263671875
+          ],
+          "ankle_scores": [
+            0.9773907661437988,
+            0.948169469833374
+          ]
+        },
+        {
+          "id": 26,
+          "frame": 180,
+          "track_id": "007-00-95",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            622.9612426757812,
+            712.0703125
+          ],
+          "ankle_scores": [
+            0.9856907725334167,
+            0.9838272333145142
+          ]
+        },
+        {
+          "id": 27,
+          "frame": 180,
+          "track_id": "007-00-112",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            455.14915466308594,
+            639.6763916015625
+          ],
+          "ankle_scores": [
+            0.9966639876365662,
+            0.9949818253517151
+          ]
+        },
+        {
+          "id": 28,
+          "frame": 180,
+          "track_id": "007-00-82",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1140.7137451171875,
+            702.7705688476562
+          ],
+          "ankle_scores": [
+            0.9870713353157043,
+            0.9606117010116577
+          ]
+        },
+        {
+          "id": 29,
+          "frame": 180,
+          "track_id": "007-00-114",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 30,
+          "frame": 240,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1565.74072265625,
+            576.9335327148438
+          ],
+          "ankle_scores": [
+            0.9910373687744141,
+            0.9711117744445801
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 240,
+          "track_id": "007-00-94",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            618.85693359375,
+            568.3075866699219
+          ],
+          "ankle_scores": [
+            0.9728767275810242,
+            0.9639787673950195
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 240,
+          "track_id": "007-00-115",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1246.4592895507812,
+            534.133544921875
+          ],
+          "ankle_scores": [
+            0.9821829795837402,
+            0.9828437566757202
+          ]
+        },
+        {
+          "id": 33,
+          "frame": 240,
+          "track_id": "007-00-117",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 34,
+          "frame": 240,
+          "track_id": "007-00-128",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 35,
+          "frame": 240,
+          "track_id": "007-00-132",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1802.6355590820312,
+            701.2451171875
+          ],
+          "ankle_scores": [
+            0.990990400314331,
+            0.9830066561698914
+          ]
+        },
+        {
+          "id": 36,
+          "frame": 240,
+          "track_id": "007-00-133",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            19.707079887390137,
+            515.5127868652344
+          ],
+          "ankle_scores": [
+            0.9760128855705261,
+            0.962710976600647
+          ]
+        },
+        {
+          "id": 37,
+          "frame": 240,
+          "track_id": "007-00-135",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 38,
+          "frame": 299,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1677.8450317382812,
+            606.0965270996094
+          ],
+          "ankle_scores": [
+            0.9879111051559448,
+            0.984091579914093
+          ]
+        },
+        {
+          "id": 39,
+          "frame": 299,
+          "track_id": "007-00-94",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 40,
+          "frame": 299,
+          "track_id": "007-00-115",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 41,
+          "frame": 299,
+          "track_id": "007-00-117",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 42,
+          "frame": 299,
+          "track_id": "007-00-132",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1380.2146606445312,
+            638.84326171875
+          ],
+          "ankle_scores": [
+            0.9466250538825989,
+            0.9753615856170654
+          ]
+        },
+        {
+          "id": 43,
+          "frame": 299,
+          "track_id": "007-00-133",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 44,
+          "frame": 299,
+          "track_id": "007-00-141",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1703.156982421875,
+            840.4278564453125
+          ],
+          "ankle_scores": [
+            0.978865385055542,
+            0.967747688293457
+          ]
+        },
+        {
+          "id": 45,
+          "frame": 299,
+          "track_id": "007-00-142",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 46,
+          "frame": 299,
+          "track_id": "007-00-137",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 47,
+          "frame": 299,
+          "track_id": "007-00-143",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        }
+      ]
+    },
+    {
+      "method": "rtmw",
+      "prediction_sha256": "c5ac4db5ab85ea99ea60012ca8714ffa0f550b4aad97cb4a71a990e5a4004178",
+      "groups": {
+        "visible": {
+          "total": 34,
+          "foot_emitted": 34,
+          "map_emitted": 34
+        },
+        "occluded": {
+          "total": 7,
+          "foot_emitted": 7,
+          "map_emitted": 7
+        },
+        "unknown": {
+          "total": 7,
+          "foot_emitted": 7,
+          "map_emitted": 7
+        }
+      },
+      "observations": [
+        {
+          "id": 0,
+          "frame": 0,
+          "track_id": "007-00-50",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1241.6427278645833,
+            538.4616666666667
+          ],
+          "ankle_scores": [
+            5.140241622924805,
+            5.622136116027832
+          ]
+        },
+        {
+          "id": 1,
+          "frame": 0,
+          "track_id": "007-00-51",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1195.2213834635418,
+            502.21336263020834
+          ],
+          "ankle_scores": [
+            4.4089555740356445,
+            4.143858909606934
+          ]
+        },
+        {
+          "id": 2,
+          "frame": 0,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            682.0874153645833,
+            566.0902734375
+          ],
+          "ankle_scores": [
+            5.539238929748535,
+            4.957716941833496
+          ]
+        },
+        {
+          "id": 3,
+          "frame": 0,
+          "track_id": "007-00-64",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1018.0875634765625,
+            432.46562174479163
+          ],
+          "ankle_scores": [
+            5.42900276184082,
+            5.867483615875244
+          ]
+        },
+        {
+          "id": 4,
+          "frame": 0,
+          "track_id": "007-00-66",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            416.45782063802085,
+            458.3974560546875
+          ],
+          "ankle_scores": [
+            4.246045112609863,
+            4.674640655517578
+          ]
+        },
+        {
+          "id": 5,
+          "frame": 0,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1419.3082031249996,
+            448.4136263020834
+          ],
+          "ankle_scores": [
+            4.608349323272705,
+            3.9342141151428223
+          ]
+        },
+        {
+          "id": 6,
+          "frame": 0,
+          "track_id": "007-00-65",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1285.9168408203125,
+            429.1507421875
+          ],
+          "ankle_scores": [
+            3.9275238513946533,
+            4.217121124267578
+          ]
+        },
+        {
+          "id": 7,
+          "frame": 0,
+          "track_id": "007-00-63",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            860.8573307291667,
+            425.72343424479175
+          ],
+          "ankle_scores": [
+            4.163225173950195,
+            4.362662315368652
+          ]
+        },
+        {
+          "id": 8,
+          "frame": 60,
+          "track_id": "007-00-50",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1234.1165592447915,
+            500.01846028645826
+          ],
+          "ankle_scores": [
+            2.6781768798828125,
+            3.557699203491211
+          ]
+        },
+        {
+          "id": 9,
+          "frame": 60,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            692.2561376953124,
+            562.1228662109374
+          ],
+          "ankle_scores": [
+            5.55478048324585,
+            5.440439224243164
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 60,
+          "track_id": "007-00-67",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            512.1661588541666,
+            724.444296875
+          ],
+          "ankle_scores": [
+            5.513190269470215,
+            4.734972953796387
+          ]
+        },
+        {
+          "id": 11,
+          "frame": 60,
+          "track_id": "007-00-63",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            975.6932617187499,
+            437.34607421875
+          ],
+          "ankle_scores": [
+            3.9891908168792725,
+            2.4358110427856445
+          ]
+        },
+        {
+          "id": 12,
+          "frame": 60,
+          "track_id": "007-00-73",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            729.9882486979167,
+            418.0682503255208
+          ],
+          "ankle_scores": [
+            3.2687246799468994,
+            2.955167770385742
+          ]
+        },
+        {
+          "id": 13,
+          "frame": 60,
+          "track_id": "007-00-64",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            809.8984944661458,
+            409.23871419270836
+          ],
+          "ankle_scores": [
+            3.9411163330078125,
+            3.728912591934204
+          ]
+        },
+        {
+          "id": 14,
+          "frame": 60,
+          "track_id": "007-00-66",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            211.47753906249997,
+            470.04734375000004
+          ],
+          "ankle_scores": [
+            5.429348468780518,
+            4.958698272705078
+          ]
+        },
+        {
+          "id": 15,
+          "frame": 60,
+          "track_id": "007-00-69",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1119.4367578125,
+            456.48896484375007
+          ],
+          "ankle_scores": [
+            4.203978538513184,
+            4.109373092651367
+          ]
+        },
+        {
+          "id": 16,
+          "frame": 60,
+          "track_id": "007-00-76",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1285.1482812499999,
+            485.46069010416664
+          ],
+          "ankle_scores": [
+            3.997516632080078,
+            4.855509281158447
+          ]
+        },
+        {
+          "id": 17,
+          "frame": 120,
+          "track_id": "007-00-63",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            264.5800341796875,
+            559.1081770833333
+          ],
+          "ankle_scores": [
+            4.141382694244385,
+            4.051251411437988
+          ]
+        },
+        {
+          "id": 18,
+          "frame": 120,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            643.4040022786459,
+            521.1479036458334
+          ],
+          "ankle_scores": [
+            5.277193069458008,
+            5.212518215179443
+          ]
+        },
+        {
+          "id": 19,
+          "frame": 120,
+          "track_id": "007-00-79",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            936.1727034505209,
+            450.5970198567708
+          ],
+          "ankle_scores": [
+            4.1700053215026855,
+            4.385909557342529
+          ]
+        },
+        {
+          "id": 20,
+          "frame": 120,
+          "track_id": "007-00-77",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            906.2958854166667,
+            441.2488802083334
+          ],
+          "ankle_scores": [
+            3.399662494659424,
+            3.416261672973633
+          ]
+        },
+        {
+          "id": 21,
+          "frame": 120,
+          "track_id": "007-00-82",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            94.97690104166665,
+            518.0834635416667
+          ],
+          "ankle_scores": [
+            5.343096733093262,
+            5.1423821449279785
+          ]
+        },
+        {
+          "id": 22,
+          "frame": 120,
+          "track_id": "007-00-69",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            819.3101741536459,
+            447.28635416666674
+          ],
+          "ankle_scores": [
+            3.0583882331848145,
+            3.4878454208374023
+          ]
+        },
+        {
+          "id": 23,
+          "frame": 180,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1254.7348144531247,
+            660.0519140624999
+          ],
+          "ankle_scores": [
+            5.255471229553223,
+            5.891335487365723
+          ]
+        },
+        {
+          "id": 24,
+          "frame": 180,
+          "track_id": "007-00-94",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            320.90291992187497,
+            844.2702001953124
+          ],
+          "ankle_scores": [
+            6.367951393127441,
+            6.775057792663574
+          ]
+        },
+        {
+          "id": 25,
+          "frame": 180,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1859.9345703125,
+            552.330107421875
+          ],
+          "ankle_scores": [
+            3.6477901935577393,
+            3.5495641231536865
+          ]
+        },
+        {
+          "id": 26,
+          "frame": 180,
+          "track_id": "007-00-95",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            624.0611979166667,
+            715.4482552083334
+          ],
+          "ankle_scores": [
+            5.038295269012451,
+            5.64608097076416
+          ]
+        },
+        {
+          "id": 27,
+          "frame": 180,
+          "track_id": "007-00-112",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            452.4019498697917,
+            643.4416764322917
+          ],
+          "ankle_scores": [
+            3.7152600288391113,
+            3.890505790710449
+          ]
+        },
+        {
+          "id": 28,
+          "frame": 180,
+          "track_id": "007-00-82",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1145.992612847222,
+            704.9712890625001
+          ],
+          "ankle_scores": [
+            3.79929780960083,
+            4.280577659606934
+          ]
+        },
+        {
+          "id": 29,
+          "frame": 180,
+          "track_id": "007-00-114",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1807.08931640625,
+            523.090126953125
+          ],
+          "ankle_scores": [
+            4.659663200378418,
+            3.400737762451172
+          ]
+        },
+        {
+          "id": 30,
+          "frame": 240,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1570.1223600260419,
+            580.4771875
+          ],
+          "ankle_scores": [
+            5.746372222900391,
+            5.40044641494751
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 240,
+          "track_id": "007-00-94",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            619.5597607421876,
+            574.6167024739582
+          ],
+          "ankle_scores": [
+            3.5672967433929443,
+            3.9997174739837646
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 240,
+          "track_id": "007-00-115",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1245.1294075520834,
+            538.2637109374999
+          ],
+          "ankle_scores": [
+            4.874767303466797,
+            5.189370155334473
+          ]
+        },
+        {
+          "id": 33,
+          "frame": 240,
+          "track_id": "007-00-117",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            972.4018359375,
+            506.60144531250006
+          ],
+          "ankle_scores": [
+            4.3064422607421875,
+            4.048266410827637
+          ]
+        },
+        {
+          "id": 34,
+          "frame": 240,
+          "track_id": "007-00-128",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1439.362294921875,
+            520.2603092447916
+          ],
+          "ankle_scores": [
+            4.150598526000977,
+            4.555659294128418
+          ]
+        },
+        {
+          "id": 35,
+          "frame": 240,
+          "track_id": "007-00-132",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1805.5289567057291,
+            708.6914892578126
+          ],
+          "ankle_scores": [
+            5.050943374633789,
+            4.3620805740356445
+          ]
+        },
+        {
+          "id": 36,
+          "frame": 240,
+          "track_id": "007-00-133",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            19.416835937499997,
+            516.2330436197917
+          ],
+          "ankle_scores": [
+            4.256547927856445,
+            4.6829023361206055
+          ]
+        },
+        {
+          "id": 37,
+          "frame": 240,
+          "track_id": "007-00-135",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1833.9536686197916,
+            547.4101171875
+          ],
+          "ankle_scores": [
+            3.7832250595092773,
+            4.670844078063965
+          ]
+        },
+        {
+          "id": 38,
+          "frame": 299,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1676.6244335937502,
+            607.0522558593749
+          ],
+          "ankle_scores": [
+            5.196805477142334,
+            4.432370185852051
+          ]
+        },
+        {
+          "id": 39,
+          "frame": 299,
+          "track_id": "007-00-94",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1007.6729785156251,
+            572.71775390625
+          ],
+          "ankle_scores": [
+            3.2427492141723633,
+            3.6121034622192383
+          ]
+        },
+        {
+          "id": 40,
+          "frame": 299,
+          "track_id": "007-00-115",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1352.01376953125,
+            550.558583984375
+          ],
+          "ankle_scores": [
+            2.3944334983825684,
+            3.2762107849121094
+          ]
+        },
+        {
+          "id": 41,
+          "frame": 299,
+          "track_id": "007-00-117",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            515.5278255208334,
+            510.6715364583334
+          ],
+          "ankle_scores": [
+            3.213855028152466,
+            3.169895648956299
+          ]
+        },
+        {
+          "id": 42,
+          "frame": 299,
+          "track_id": "007-00-132",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1380.1607373046875,
+            643.5976204427083
+          ],
+          "ankle_scores": [
+            4.015768527984619,
+            4.580476760864258
+          ]
+        },
+        {
+          "id": 43,
+          "frame": 299,
+          "track_id": "007-00-133",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            197.31784667968748,
+            509.5566536458333
+          ],
+          "ankle_scores": [
+            3.538468599319458,
+            4.030082702636719
+          ]
+        },
+        {
+          "id": 44,
+          "frame": 299,
+          "track_id": "007-00-141",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1702.0151985677085,
+            851.2347102864584
+          ],
+          "ankle_scores": [
+            4.572175025939941,
+            5.190202713012695
+          ]
+        },
+        {
+          "id": 45,
+          "frame": 299,
+          "track_id": "007-00-142",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1477.15017578125,
+            513.846630859375
+          ],
+          "ankle_scores": [
+            3.948741912841797,
+            4.139893531799316
+          ]
+        },
+        {
+          "id": 46,
+          "frame": 299,
+          "track_id": "007-00-137",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1562.523984375,
+            540.8729296875
+          ],
+          "ankle_scores": [
+            4.5204668045043945,
+            4.219906806945801
+          ]
+        },
+        {
+          "id": 47,
+          "frame": 299,
+          "track_id": "007-00-143",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            496.3826334635416,
+            499.86461100260425
+          ],
+          "ankle_scores": [
+            2.9039511680603027,
+            3.0655312538146973
+          ]
+        }
+      ]
+    },
+    {
+      "method": "yolo11m-crops",
+      "prediction_sha256": "fb2b04d1ace9cf66d1f0077cf63713513b26b59a9bb7743ec071870a6bd1b9fc",
+      "groups": {
+        "visible": {
+          "total": 34,
+          "foot_emitted": 32,
+          "map_emitted": 32
+        },
+        "occluded": {
+          "total": 7,
+          "foot_emitted": 5,
+          "map_emitted": 5
+        },
+        "unknown": {
+          "total": 7,
+          "foot_emitted": 6,
+          "map_emitted": 6
+        }
+      },
+      "observations": [
+        {
+          "id": 0,
+          "frame": 0,
+          "track_id": "007-00-50",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1242.6315021514893,
+            533.8876953125
+          ],
+          "ankle_scores": [
+            0.9631196856498718,
+            0.9726403951644897
+          ]
+        },
+        {
+          "id": 1,
+          "frame": 0,
+          "track_id": "007-00-51",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1199.2439498901367,
+            500.30130767822266
+          ],
+          "ankle_scores": [
+            0.9590747952461243,
+            0.9376631379127502
+          ]
+        },
+        {
+          "id": 2,
+          "frame": 0,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            684.322416305542,
+            562.0920028686523
+          ],
+          "ankle_scores": [
+            0.9876844882965088,
+            0.9881023168563843
+          ]
+        },
+        {
+          "id": 3,
+          "frame": 0,
+          "track_id": "007-00-64",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1014.4457750320435,
+            430.6083755493164
+          ],
+          "ankle_scores": [
+            0.9892328977584839,
+            0.9869324564933777
+          ]
+        },
+        {
+          "id": 4,
+          "frame": 0,
+          "track_id": "007-00-66",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 5,
+          "frame": 0,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1420.8093528747559,
+            449.6455383300781
+          ],
+          "ankle_scores": [
+            0.9534773826599121,
+            0.9065175652503967
+          ]
+        },
+        {
+          "id": 6,
+          "frame": 0,
+          "track_id": "007-00-65",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1289.5309238433838,
+            424.3993606567383
+          ],
+          "ankle_scores": [
+            0.61415696144104,
+            0.6893297433853149
+          ]
+        },
+        {
+          "id": 7,
+          "frame": 0,
+          "track_id": "007-00-63",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            865.7567596435547,
+            425.28982162475586
+          ],
+          "ankle_scores": [
+            0.9727491140365601,
+            0.974405825138092
+          ]
+        },
+        {
+          "id": 8,
+          "frame": 60,
+          "track_id": "007-00-50",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1223.3585758209229,
+            498.32311248779297
+          ],
+          "ankle_scores": [
+            0.9162864685058594,
+            0.9448509812355042
+          ]
+        },
+        {
+          "id": 9,
+          "frame": 60,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            692.5409088134766,
+            562.0621337890625
+          ],
+          "ankle_scores": [
+            0.9905179142951965,
+            0.9937642812728882
+          ]
+        },
+        {
+          "id": 10,
+          "frame": 60,
+          "track_id": "007-00-67",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            516.5531196594238,
+            724.5218734741211
+          ],
+          "ankle_scores": [
+            0.9748366475105286,
+            0.9785082340240479
+          ]
+        },
+        {
+          "id": 11,
+          "frame": 60,
+          "track_id": "007-00-63",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            980.1448020935059,
+            445.1705551147461
+          ],
+          "ankle_scores": [
+            0.9376373291015625,
+            0.9365469813346863
+          ]
+        },
+        {
+          "id": 12,
+          "frame": 60,
+          "track_id": "007-00-73",
+          "visibility": "unknown",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": [
+            0.24774295091629028,
+            0.24264554679393768
+          ]
+        },
+        {
+          "id": 13,
+          "frame": 60,
+          "track_id": "007-00-64",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            810.7822313308716,
+            400.9131393432617
+          ],
+          "ankle_scores": [
+            0.9771151542663574,
+            0.9820041060447693
+          ]
+        },
+        {
+          "id": 14,
+          "frame": 60,
+          "track_id": "007-00-66",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            213.4124937057495,
+            458.21578216552734
+          ],
+          "ankle_scores": [
+            0.962013304233551,
+            0.9780220985412598
+          ]
+        },
+        {
+          "id": 15,
+          "frame": 60,
+          "track_id": "007-00-69",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1119.308240890503,
+            454.4728012084961
+          ],
+          "ankle_scores": [
+            0.9938011765480042,
+            0.9935324192047119
+          ]
+        },
+        {
+          "id": 16,
+          "frame": 60,
+          "track_id": "007-00-76",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 17,
+          "frame": 120,
+          "track_id": "007-00-63",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            265.57763290405273,
+            561.5758438110352
+          ],
+          "ankle_scores": [
+            0.9856270551681519,
+            0.9937532544136047
+          ]
+        },
+        {
+          "id": 18,
+          "frame": 120,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            643.1876831054688,
+            522.3213348388672
+          ],
+          "ankle_scores": [
+            0.9962116479873657,
+            0.9963847398757935
+          ]
+        },
+        {
+          "id": 19,
+          "frame": 120,
+          "track_id": "007-00-79",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            934.65163230896,
+            442.4801559448242
+          ],
+          "ankle_scores": [
+            0.9490764737129211,
+            0.9443418979644775
+          ]
+        },
+        {
+          "id": 20,
+          "frame": 120,
+          "track_id": "007-00-77",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            901.1219940185547,
+            438.82521057128906
+          ],
+          "ankle_scores": [
+            0.8154348134994507,
+            0.87385493516922
+          ]
+        },
+        {
+          "id": 21,
+          "frame": 120,
+          "track_id": "007-00-82",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            94.37061882019043,
+            518.1699905395508
+          ],
+          "ankle_scores": [
+            0.9863285422325134,
+            0.9890978336334229
+          ]
+        },
+        {
+          "id": 22,
+          "frame": 120,
+          "track_id": "007-00-69",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            820.7576427459717,
+            454.4125747680664
+          ],
+          "ankle_scores": [
+            0.9390896558761597,
+            0.9539710283279419
+          ]
+        },
+        {
+          "id": 23,
+          "frame": 180,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1255.8778743743896,
+            663.2860946655273
+          ],
+          "ankle_scores": [
+            0.9857359528541565,
+            0.9869928359985352
+          ]
+        },
+        {
+          "id": 24,
+          "frame": 180,
+          "track_id": "007-00-94",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            317.8539352416992,
+            845.652587890625
+          ],
+          "ankle_scores": [
+            0.960660994052887,
+            0.963346004486084
+          ]
+        },
+        {
+          "id": 25,
+          "frame": 180,
+          "track_id": "007-00-42",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1856.395793914795,
+            549.1011505126953
+          ],
+          "ankle_scores": [
+            0.9646978378295898,
+            0.9433966875076294
+          ]
+        },
+        {
+          "id": 26,
+          "frame": 180,
+          "track_id": "007-00-95",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            598.0108375549316,
+            715.80712890625
+          ],
+          "ankle_scores": [
+            0.964441180229187,
+            0.9641152620315552
+          ]
+        },
+        {
+          "id": 27,
+          "frame": 180,
+          "track_id": "007-00-112",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            442.2265281677246,
+            650.8705749511719
+          ],
+          "ankle_scores": [
+            0.9877952337265015,
+            0.9836380481719971
+          ]
+        },
+        {
+          "id": 28,
+          "frame": 180,
+          "track_id": "007-00-82",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1139.4968070983887,
+            704.5780181884766
+          ],
+          "ankle_scores": [
+            0.9669545292854309,
+            0.9419493079185486
+          ]
+        },
+        {
+          "id": 29,
+          "frame": 180,
+          "track_id": "007-00-114",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1798.6761684417725,
+            524.9855651855469
+          ],
+          "ankle_scores": [
+            0.954888105392456,
+            0.9286213517189026
+          ]
+        },
+        {
+          "id": 30,
+          "frame": 240,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1571.183925628662,
+            579.6977691650391
+          ],
+          "ankle_scores": [
+            0.9859927296638489,
+            0.982069730758667
+          ]
+        },
+        {
+          "id": 31,
+          "frame": 240,
+          "track_id": "007-00-94",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            620.5651893615723,
+            579.2275543212891
+          ],
+          "ankle_scores": [
+            0.9928238391876221,
+            0.9922067523002625
+          ]
+        },
+        {
+          "id": 32,
+          "frame": 240,
+          "track_id": "007-00-115",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1246.7341232299805,
+            531.3526000976562
+          ],
+          "ankle_scores": [
+            0.9793358445167542,
+            0.9807513952255249
+          ]
+        },
+        {
+          "id": 33,
+          "frame": 240,
+          "track_id": "007-00-117",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            974.1102705001831,
+            501.27418518066406
+          ],
+          "ankle_scores": [
+            0.9642154574394226,
+            0.9737745523452759
+          ]
+        },
+        {
+          "id": 34,
+          "frame": 240,
+          "track_id": "007-00-128",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1440.521282196045,
+            523.6589431762695
+          ],
+          "ankle_scores": [
+            0.9742523431777954,
+            0.9648985266685486
+          ]
+        },
+        {
+          "id": 35,
+          "frame": 240,
+          "track_id": "007-00-132",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1807.6949043273926,
+            703.8083190917969
+          ],
+          "ankle_scores": [
+            0.989719808101654,
+            0.9873930811882019
+          ]
+        },
+        {
+          "id": 36,
+          "frame": 240,
+          "track_id": "007-00-133",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            19.047670364379883,
+            517.4452056884766
+          ],
+          "ankle_scores": [
+            0.9637112021446228,
+            0.9710999727249146
+          ]
+        },
+        {
+          "id": 37,
+          "frame": 240,
+          "track_id": "007-00-135",
+          "visibility": "occluded",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1838.9631233215332,
+            553.1457443237305
+          ],
+          "ankle_scores": [
+            0.8973134160041809,
+            0.810745120048523
+          ]
+        },
+        {
+          "id": 38,
+          "frame": 299,
+          "track_id": "007-00-56",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1678.4787063598633,
+            607.9972534179688
+          ],
+          "ankle_scores": [
+            0.9708861708641052,
+            0.9665141105651855
+          ]
+        },
+        {
+          "id": 39,
+          "frame": 299,
+          "track_id": "007-00-94",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1009.7321586608887,
+            575.0706481933594
+          ],
+          "ankle_scores": [
+            0.9232979416847229,
+            0.964241623878479
+          ]
+        },
+        {
+          "id": 40,
+          "frame": 299,
+          "track_id": "007-00-115",
+          "visibility": "occluded",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": [
+            0.10633563250303268,
+            0.15052220225334167
+          ]
+        },
+        {
+          "id": 41,
+          "frame": 299,
+          "track_id": "007-00-117",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            518.5125617980957,
+            509.41229248046875
+          ],
+          "ankle_scores": [
+            0.9456844925880432,
+            0.9689878225326538
+          ]
+        },
+        {
+          "id": 42,
+          "frame": 299,
+          "track_id": "007-00-132",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1380.1296844482422,
+            641.9050750732422
+          ],
+          "ankle_scores": [
+            0.9665564298629761,
+            0.9823396801948547
+          ]
+        },
+        {
+          "id": 43,
+          "frame": 299,
+          "track_id": "007-00-133",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            200.91049766540527,
+            514.0891876220703
+          ],
+          "ankle_scores": [
+            0.7718353271484375,
+            0.8089178204536438
+          ]
+        },
+        {
+          "id": 44,
+          "frame": 299,
+          "track_id": "007-00-141",
+          "visibility": "visible",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1705.6957817077637,
+            856.533935546875
+          ],
+          "ankle_scores": [
+            0.9794180393218994,
+            0.9645344018936157
+          ]
+        },
+        {
+          "id": 45,
+          "frame": 299,
+          "track_id": "007-00-142",
+          "visibility": "visible",
+          "foot_emitted": false,
+          "map_emitted": false,
+          "foot_pixel": null,
+          "ankle_scores": null
+        },
+        {
+          "id": 46,
+          "frame": 299,
+          "track_id": "007-00-137",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            1569.9697284698486,
+            543.1960639953613
+          ],
+          "ankle_scores": [
+            0.9606708884239197,
+            0.9491775631904602
+          ]
+        },
+        {
+          "id": 47,
+          "frame": 299,
+          "track_id": "007-00-143",
+          "visibility": "unknown",
+          "foot_emitted": true,
+          "map_emitted": true,
+          "foot_pixel": [
+            493.93299865722656,
+            503.79308319091797
+          ],
+          "ankle_scores": [
+            0.833105206489563,
+            0.9091353416442871
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": "48 crops at six fixed times in one 20-second NBHL clip, assistant reviewed. This only checks foot emission versus visible/occluded/unknown review. No exact keypoint, ground contact, calibration, identity or distance accuracy. Unknown is not negative. Three full-image baseline overlay frames were seen before raw labels; crop-model results were not."
+}

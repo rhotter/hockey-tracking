@@ -1,0 +1,307 @@
+{
+  "updated_at": "2026-10-18T06:58:27.085042+00:00",
+  "games": {
+    "game1": {
+      "title": "Bay Area / SoCal",
+      "clips": [
+        {
+          "id": "validation_03m",
+          "label": "3:00 \u00b7 16 seconds",
+          "start_s": 180,
+          "duration_s": 16,
+          "source_id": "Z-tFHtxODsE",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/validation_03m/sam2.mp4",
+              "poster": "media/current/validation_03m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/validation_03m/botsort.mp4",
+              "poster": "media/current/validation_03m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/validation_03m/comparison.mp4",
+              "poster": "media/current/validation_03m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "validation_10m",
+          "label": "10:00 \u00b7 16 seconds",
+          "start_s": 600,
+          "duration_s": 16,
+          "source_id": "Z-tFHtxODsE",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/validation_10m/sam2.mp4",
+              "poster": "media/current/validation_10m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/validation_10m/botsort.mp4",
+              "poster": "media/current/validation_10m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/validation_10m/comparison.mp4",
+              "poster": "media/current/validation_10m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "validation_15m",
+          "label": "15:00 \u00b7 16 seconds",
+          "start_s": 900,
+          "duration_s": 16,
+          "source_id": "Z-tFHtxODsE",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/validation_15m/sam2.mp4",
+              "poster": "media/current/validation_15m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/validation_15m/botsort.mp4",
+              "poster": "media/current/validation_15m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/validation_15m/comparison.mp4",
+              "poster": "media/current/validation_15m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "validation_25m",
+          "label": "25:00 \u00b7 16 seconds",
+          "start_s": 1500,
+          "duration_s": 16,
+          "source_id": "Z-tFHtxODsE",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/validation_25m/sam2.mp4",
+              "poster": "media/current/validation_25m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/validation_25m/botsort.mp4",
+              "poster": "media/current/validation_25m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/validation_25m/comparison.mp4",
+              "poster": "media/current/validation_25m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "validation_40m",
+          "label": "40:00 \u00b7 16 seconds",
+          "start_s": 2400,
+          "duration_s": 16,
+          "source_id": "Z-tFHtxODsE",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/validation_40m/sam2.mp4",
+              "poster": "media/current/validation_40m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/validation_40m/botsort.mp4",
+              "poster": "media/current/validation_40m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/validation_40m/comparison.mp4",
+              "poster": "media/current/validation_40m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "validation_46m",
+          "label": "46:40 \u00b7 16 seconds",
+          "start_s": 2800,
+          "duration_s": 16,
+          "source_id": "Z-tFHtxODsE",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/validation_46m/sam2.mp4",
+              "poster": "media/current/validation_46m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/validation_46m/botsort.mp4",
+              "poster": "media/current/validation_46m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/validation_46m/comparison.mp4",
+              "poster": "media/current/validation_46m/comparison.jpg"
+            }
+          }
+        }
+      ],
+      "views": {
+        "sam2": {
+          "label": "SAM2 + player filter",
+          "description": "Automatic mask tracking with an NBHL-trained detector and player/spectator filter. T labels are temporary IDs."
+        },
+        "botsort": {
+          "label": "BoT-SORT + player filter",
+          "description": "Motion tracking with the same NBHL-trained detector and player/spectator filter."
+        },
+        "comparison": {
+          "label": "Side by side",
+          "description": "Left: BoT-SORT. Right: SAM2. Both use the same detector and player/spectator filter."
+        }
+      }
+    },
+    "game2": {
+      "title": "Cleghorn / Southcoast",
+      "clips": [
+        {
+          "id": "game2_01m",
+          "label": "1:30 \u00b7 20 seconds",
+          "start_s": 90,
+          "duration_s": 20,
+          "source_id": "plDp2kPtk_g",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/game2_01m/sam2.mp4",
+              "poster": "media/current/game2_01m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/game2_01m/botsort.mp4",
+              "poster": "media/current/game2_01m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/game2_01m/comparison.mp4",
+              "poster": "media/current/game2_01m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "game2_06m",
+          "label": "6:00 \u00b7 20 seconds",
+          "start_s": 360,
+          "duration_s": 20,
+          "source_id": "plDp2kPtk_g",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/game2_06m/sam2.mp4",
+              "poster": "media/current/game2_06m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/game2_06m/botsort.mp4",
+              "poster": "media/current/game2_06m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/game2_06m/comparison.mp4",
+              "poster": "media/current/game2_06m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "game2_15m",
+          "label": "15:00 \u00b7 20 seconds",
+          "start_s": 900,
+          "duration_s": 20,
+          "source_id": "plDp2kPtk_g",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/game2_15m/sam2.mp4",
+              "poster": "media/current/game2_15m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/game2_15m/botsort.mp4",
+              "poster": "media/current/game2_15m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/game2_15m/comparison.mp4",
+              "poster": "media/current/game2_15m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "game2_24m",
+          "label": "24:00 \u00b7 20 seconds",
+          "start_s": 1440,
+          "duration_s": 20,
+          "source_id": "plDp2kPtk_g",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/game2_24m/sam2.mp4",
+              "poster": "media/current/game2_24m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/game2_24m/botsort.mp4",
+              "poster": "media/current/game2_24m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/game2_24m/comparison.mp4",
+              "poster": "media/current/game2_24m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "game2_33m",
+          "label": "33:00 \u00b7 20 seconds",
+          "start_s": 1980,
+          "duration_s": 20,
+          "source_id": "plDp2kPtk_g",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/game2_33m/sam2.mp4",
+              "poster": "media/current/game2_33m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/game2_33m/botsort.mp4",
+              "poster": "media/current/game2_33m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/game2_33m/comparison.mp4",
+              "poster": "media/current/game2_33m/comparison.jpg"
+            }
+          }
+        },
+        {
+          "id": "game2_41m",
+          "label": "41:00 \u00b7 20 seconds",
+          "start_s": 2460,
+          "duration_s": 20,
+          "source_id": "plDp2kPtk_g",
+          "note": "Positions are shown only when a current detection supports them. Spectators and identity switches can still occur.",
+          "media": {
+            "sam2": {
+              "video": "media/current/game2_41m/sam2.mp4",
+              "poster": "media/current/game2_41m/sam2.jpg"
+            },
+            "botsort": {
+              "video": "media/current/game2_41m/botsort.mp4",
+              "poster": "media/current/game2_41m/botsort.jpg"
+            },
+            "comparison": {
+              "video": "media/current/game2_41m/comparison.mp4",
+              "poster": "media/current/game2_41m/comparison.jpg"
+            }
+          }
+        }
+      ],
+      "views": {
+        "sam2": {
+          "label": "SAM2 + player filter",
+          "description": "Automatic mask tracking with an NBHL-trained detector and player/spectator filter. T labels are temporary IDs."
+        },
+        "botsort": {
+          "label": "BoT-SORT + player filter",
+          "description": "Motion tracking with the same NBHL-trained detector and player/spectator filter."
+        },
+        "comparison": {
+          "label": "Side by side",
+          "description": "Left: BoT-SORT. Right: SAM2. Both use the same detector and player/spectator filter."
+        }
+      }
+    }
+  }
+}

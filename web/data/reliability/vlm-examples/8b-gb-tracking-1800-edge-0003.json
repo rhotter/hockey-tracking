@@ -1,0 +1,241 @@
+{
+  "id": "gb-tracking-1800-edge-0003",
+  "phase": "development",
+  "model": "8b",
+  "clip": "gb-tracking-1800",
+  "source_id": "X83xW6iQKoc",
+  "candidate": {
+    "a": "2",
+    "b": "22",
+    "gap": 54,
+    "cosine_mean": 0.7849836349487305,
+    "cosine_views": 0.726677656173706,
+    "distance_heights": 0.29475457309731773,
+    "support_a": 167,
+    "support_b": 16,
+    "id": "gb-tracking-1800-edge-0003"
+  },
+  "groups": [
+    {
+      "group": "A",
+      "track_id": "2",
+      "start": 0,
+      "end": 166,
+      "count": 167,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/gb-tracking-1800/crops/0005-0.jpg",
+          "sha256": "3a96a78fa4694db8f934aee54cd165fe75f4468578c54e35374400eb2d2d2818",
+          "frame": 54,
+          "quality": 0.9347694516181946,
+          "bbox": [
+            687,
+            235,
+            745,
+            364
+          ],
+          "source_frame_sha256": "55e6abb21e9b5428d1b8cf0fd7357750e75c1a8501d25b7aeeb01493abd5771c"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/gb-tracking-1800/crops/0005-1.jpg",
+          "sha256": "77d280a0e0cdc29a83ff7eae574dfd2f974f05985bd51b0845f9b8573fa18a79",
+          "frame": 98,
+          "quality": 0.9322311878204346,
+          "bbox": [
+            677,
+            246,
+            730,
+            342
+          ],
+          "source_frame_sha256": "4ddb4d5b0d45171ad94db30498a384d095edf65ed8f3718d4ab186d50092a4fe"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/gb-tracking-1800/crops/0005-2.jpg",
+          "sha256": "254abb03a8d7801be18725abf41c54314d1e9fa1fe26c33e1584318e689759d2",
+          "frame": 133,
+          "quality": 0.9292002320289612,
+          "bbox": [
+            778,
+            261,
+            841,
+            372
+          ],
+          "source_frame_sha256": "7ad1c7513ac4b433b8c746b8e3af6b3c85263221e3bfac260754201b7f638036"
+        }
+      ],
+      "best_image": 0
+    },
+    {
+      "group": "B",
+      "track_id": "22",
+      "start": 220,
+      "end": 235,
+      "count": 16,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/gb-tracking-1800/crops/0008-0.jpg",
+          "sha256": "a538bc4c2692e827f867ace967e70645349ba7f29c48f0d46945b841c7ab414e",
+          "frame": 222,
+          "quality": 0.8461757249982742,
+          "bbox": [
+            1216,
+            197,
+            1280,
+            329
+          ],
+          "source_frame_sha256": "f60012d9c3c5e4658374131b1ea5b57bf1236397353162168149601deb90294b"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/gb-tracking-1800/crops/0008-1.jpg",
+          "sha256": "5312203137333c7efb558c8b5d56fecbebe2b58b5c5c53dc3747e1e39b045b83",
+          "frame": 227,
+          "quality": 0.9230302572250366,
+          "bbox": [
+            1148,
+            196,
+            1217,
+            324
+          ],
+          "source_frame_sha256": "e5e18fa12db007d914ba98dfb34b0a8d4a83cc33b69089f7dd59d3b5c6304e6e"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/gb-tracking-1800/crops/0008-2.jpg",
+          "sha256": "b5c6321139fc36e1661c4a6ce1e77460c0194ec52600a648f9635fd5ed4c824a",
+          "frame": 233,
+          "quality": 0.9177820682525635,
+          "bbox": [
+            1104,
+            192,
+            1162,
+            317
+          ],
+          "source_frame_sha256": "f95565c5a363236e27a3a053fcd11654c3f5625f8fb651c8317ac329658dd240"
+        }
+      ],
+      "best_image": 1
+    }
+  ],
+  "responses": {
+    "single": {
+      "id": "gb-tracking-1800-edge-0003/single",
+      "task": "single",
+      "clip": "gb-tracking-1800",
+      "edge_id": "gb-tracking-1800-edge-0003",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"jersey_number\",\n  \"evidence\": \"Player in group A has visible jersey number 64; player in group B has no visible jersey number.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "jersey_number",
+        "evidence": "Player in group A has visible jersey number 64; player in group B has no visible jersey number."
+      },
+      "seconds": 0.2922155103750015,
+      "input_tokens": 364,
+      "output_tokens": 67,
+      "finish_reason": "stop"
+    },
+    "multi": {
+      "id": "gb-tracking-1800-edge-0003/multi",
+      "task": "multi",
+      "clip": "gb-tracking-1800",
+      "edge_id": "gb-tracking-1800-edge-0003",
+      "output": "{\n  \"decision\": \"same\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"jersey_number\",\n  \"evidence\": \"Player in both groups wears jersey number 64 visible on back.\"\n}",
+      "parsed": {
+        "decision": "same",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "jersey_number",
+        "evidence": "Player in both groups wears jersey number 64 visible on back."
+      },
+      "seconds": 0.18964535912499514,
+      "input_tokens": 659,
+      "output_tokens": 59,
+      "finish_reason": "stop"
+    },
+    "reverse": {
+      "id": "gb-tracking-1800-edge-0003/reverse",
+      "task": "reverse",
+      "clip": "gb-tracking-1800",
+      "edge_id": "gb-tracking-1800-edge-0003",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"jersey_number\",\n  \"evidence\": \"Group B player has visible jersey number 64; Group A player's jersey number is not visible or discernible.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "jersey_number",
+        "evidence": "Group B player has visible jersey number 64; Group A player's jersey number is not visible or discernible."
+      },
+      "seconds": 0.17775633262499468,
+      "input_tokens": 659,
+      "output_tokens": 69,
+      "finish_reason": "stop"
+    }
+  },
+  "number_responses": {
+    "a": {
+      "id": "gb-tracking-1800/number/2",
+      "task": "number",
+      "clip": "gb-tracking-1800",
+      "track_id": "2",
+      "output": "{\n  \"consistent\": \"yes\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": \"64\",\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 2,\n      \"number\": \"64\",\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 3,\n      \"number\": null,\n      \"location\": \"unknown\"\n    }\n  ],\n  \"evidence\": \"The central player is the same individual in all images, wearing the same black uniform with the number 64 clearly visible on the back in images 1 and 2. The number is not visible in image 3 due to the player's orientation.\"\n}",
+      "parsed": {
+        "consistent": "yes",
+        "readings": [
+          {
+            "image": 1,
+            "number": "64",
+            "location": "back"
+          },
+          {
+            "image": 2,
+            "number": "64",
+            "location": "back"
+          },
+          {
+            "image": 3,
+            "number": null,
+            "location": "unknown"
+          }
+        ],
+        "evidence": "The central player is the same individual in all images, wearing the same black uniform with the number 64 clearly visible on the back in images 1 and 2. The number is not visible in image 3 due to the player's orientation."
+      },
+      "seconds": 0.3562553140000091,
+      "input_tokens": 380,
+      "output_tokens": 151,
+      "finish_reason": "stop"
+    },
+    "b": {
+      "id": "gb-tracking-1800/number/22",
+      "task": "number",
+      "clip": "gb-tracking-1800",
+      "track_id": "22",
+      "output": "{\n  \"consistent\": \"yes\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"unknown\"\n    },\n    {\n      \"image\": 2,\n      \"number\": null,\n      \"location\": \"unknown\"\n    },\n    {\n      \"image\": 3,\n      \"number\": null,\n      \"location\": \"unknown\"\n    }\n  ],\n  \"evidence\": \"All images are too blurry to discern any jersey number on the central player's shirt, sleeve or shorts.\"\n}",
+      "parsed": {
+        "consistent": "yes",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "unknown"
+          },
+          {
+            "image": 2,
+            "number": null,
+            "location": "unknown"
+          },
+          {
+            "image": 3,
+            "number": null,
+            "location": "unknown"
+          }
+        ],
+        "evidence": "All images are too blurry to discern any jersey number on the central player's shirt, sleeve or shorts."
+      },
+      "seconds": 0.3562553140000091,
+      "input_tokens": 375,
+      "output_tokens": 117,
+      "finish_reason": "stop"
+    }
+  },
+  "image_sha256": "f51e188f03c9dd44d77b62e6e01cb14ce56114fc0c507475e22cac118def2b14"
+}

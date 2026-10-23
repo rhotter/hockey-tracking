@@ -1,0 +1,6 @@
+{
+  "created_at": "2026-10-19T15:15:45.835519+00:00",
+  "decision": "Run the two regression inference jobs concurrently with development to reduce elapsed time. All inference prompts, crop selection and policies including the number-format amendment are already frozen. No regression predictions, reference comparisons or scores will be inspected before the development-only selection is saved.",
+  "protocol_requirement": "Development selects policy, then freeze before scoring Pittsburgh/Maryland. Previously evaluated regression evidence, not a fresh test.",
+  "selection_saved": false
+}

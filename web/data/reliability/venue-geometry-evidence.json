@@ -1,0 +1,14 @@
+{
+  "venue": "The Rinks - Irvine Inline - Rink 3",
+  "venue_evidence": "data/stats/nbhl-518555-details.json:SportCenterName",
+  "official_match": "https://thenbhl.com/scores/game-518555",
+  "dimensions_verified": false,
+  "metric_distance_enabled": false,
+  "research_urls": [
+    "https://irvineinline.therinks.com/",
+    "https://irvineinline.therinks.com/public-skating/",
+    "https://irvineinline.therinks.com/online-bookings/book-a-rink-time/"
+  ],
+  "finding": "Official match metadata identifies Rink 3. Venue pages confirm three surfaces but no rink-specific length, width, or tile dimensions found. Generic municipal rink standards are not measurements of this rink.",
+  "checked_at": "2026-10-18T06:51:07.477841+00:00"
+}

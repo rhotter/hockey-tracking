@@ -1,0 +1,573 @@
+{
+  "id": "nbhl-player-transfer-v2",
+  "models": [
+    {
+      "model": "generic_baseline",
+      "spec": {
+        "name": "generic_baseline",
+        "weights": "/data/models/yolo11m.pt",
+        "weights_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+        "confidence_threshold": 0.75,
+        "validation_metrics": {
+          "confidence_threshold": 0.75,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 138,
+          "fp": 33,
+          "fn": 40,
+          "precision": 0.8070175438596491,
+          "recall": 0.7752808988764045,
+          "f1": 0.7908309455587392,
+          "false_positives_per_frame": 1.434782608695652,
+          "goalies": 19,
+          "goalie_hits": 10,
+          "goalie_recall": 0.5263157894736842
+        },
+        "family": "YOLO11m"
+      },
+      "freeze_sha256": "b196447350a0b973ad82f865ab9a6edc52b46d6ef8f620b0fc53a9b25ca144ab",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.75,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 37,
+            "fp": 37,
+            "fn": 48,
+            "precision": 0.5,
+            "recall": 0.43529411764705883,
+            "f1": 0.46540880503144655,
+            "false_positives_per_frame": 3.3636363636363638,
+            "goalies": 11,
+            "goalie_hits": 2,
+            "goalie_recall": 0.18181818181818182
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.75,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 85,
+            "tp": 37,
+            "fp": 37,
+            "fn": 48,
+            "precision": 0.5,
+            "recall": 0.43529411764705883,
+            "f1": 0.46540880503144655,
+            "false_positives_per_frame": 3.3636363636363638,
+            "goalies": 11,
+            "goalie_hits": 2,
+            "goalie_recall": 0.18181818181818182
+          },
+          "ap50": 0.4929044087089107,
+          "labels_sha256": "a872fe7cef79a89cf0fb9898b173dc2cc1b5f837d84caf92dfc530978d6902d3",
+          "seconds": 5.26083721,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "buf-1200-0100",
+              "reason": "Strong pan blur makes the far-side overlapping players and left-edge partial person ambiguous; cannot confidently provide exhaustive visible-player labels.",
+              "source_time_s": 1205.0
+            }
+          ],
+          "prediction_sha256": "55cf54a8c581bcc78c2bed1e0f7ecdd3a082ee1cb18b948006c7221ddf59b4b3"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.75,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 70,
+            "fp": 17,
+            "fn": 21,
+            "precision": 0.8045977011494253,
+            "recall": 0.7692307692307693,
+            "f1": 0.7865168539325843,
+            "false_positives_per_frame": 1.5454545454545454,
+            "goalies": 8,
+            "goalie_hits": 4,
+            "goalie_recall": 0.5
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.75,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 91,
+            "tp": 70,
+            "fp": 17,
+            "fn": 21,
+            "precision": 0.8045977011494253,
+            "recall": 0.7692307692307693,
+            "f1": 0.7865168539325843,
+            "false_positives_per_frame": 1.5454545454545454,
+            "goalies": 8,
+            "goalie_hits": 4,
+            "goalie_recall": 0.5
+          },
+          "ap50": 0.8218057772938065,
+          "labels_sha256": "d7080f4327c672369e79f45e07703505031b5eaed578063b3b981a0d404a906f",
+          "seconds": 0.9519021559999992,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "ns-2400-0100",
+              "reason": "Line change has multiple heavily overlapping red players at the bench opening; cannot confidently distinguish every on-floor body from players entering/leaving over the boards. Entire frame excluded before candidate predictions.",
+              "source_time_s": 2405.0
+            }
+          ],
+          "prediction_sha256": "5c33903c871f47989f12aad7b3fb5829da65c3145fe0cc429cc93b535ebeda2f"
+        }
+      ],
+      "all": {
+        "confidence_threshold": 0.75,
+        "iou_threshold": 0.5,
+        "frames": 22,
+        "targets": 176,
+        "tp": 107,
+        "fp": 54,
+        "fn": 69,
+        "precision": 0.6645962732919255,
+        "recall": 0.6079545454545454,
+        "f1": 0.6350148367952523,
+        "false_positives_per_frame": 2.4545454545454546,
+        "goalies": 19,
+        "goalie_hits": 6,
+        "goalie_recall": 0.3157894736842105
+      }
+    },
+    {
+      "model": "rfdetr_medium",
+      "spec": {
+        "name": "rfdetr_medium",
+        "family": "RF-DETR",
+        "weights": "/data/ball-hockey/reliability-20261018/training/rfdetr-medium-r960-s17-e80-6f459b18/checkpoint_best_total.pth",
+        "weights_sha256": "6d9918def1a3d61a2a3c620d3a014380cf958733addc8aee315db72a36aab19a",
+        "confidence_threshold": 0.55,
+        "validation_metrics": {
+          "confidence_threshold": 0.55,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 161,
+          "fp": 8,
+          "fn": 17,
+          "precision": 0.9526627218934911,
+          "recall": 0.9044943820224719,
+          "f1": 0.9279538904899135,
+          "false_positives_per_frame": 0.34782608695652173,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "meets_validation_precision_target": true,
+        "pittsburgh_evaluation_sha256": "56e1270cd6699f061f1d289ef58c8328a07960dcd804b426f7bdbafbcb90c100",
+        "resolution": 960,
+        "code_revision": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb"
+      },
+      "freeze_sha256": "b196447350a0b973ad82f865ab9a6edc52b46d6ef8f620b0fc53a9b25ca144ab",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 75,
+            "fp": 6,
+            "fn": 10,
+            "precision": 0.9259259259259259,
+            "recall": 0.8823529411764706,
+            "f1": 0.9036144578313253,
+            "false_positives_per_frame": 0.5454545454545454,
+            "goalies": 11,
+            "goalie_hits": 7,
+            "goalie_recall": 0.6363636363636364
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 85,
+            "tp": 78,
+            "fp": 3,
+            "fn": 7,
+            "precision": 0.9629629629629629,
+            "recall": 0.9176470588235294,
+            "f1": 0.9397590361445783,
+            "false_positives_per_frame": 0.2727272727272727,
+            "goalies": 11,
+            "goalie_hits": 9,
+            "goalie_recall": 0.8181818181818182
+          },
+          "ap50": 0.9428468565513416,
+          "labels_sha256": "a872fe7cef79a89cf0fb9898b173dc2cc1b5f837d84caf92dfc530978d6902d3",
+          "seconds": 1.9799407559999977,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "buf-1200-0100",
+              "reason": "Strong pan blur makes the far-side overlapping players and left-edge partial person ambiguous; cannot confidently provide exhaustive visible-player labels.",
+              "source_time_s": 1205.0
+            }
+          ],
+          "prediction_sha256": "65b133d62247aaa6e45986763eece99332876454a3b0903f72f1964269bd8c72"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 85,
+            "fp": 6,
+            "fn": 6,
+            "precision": 0.9340659340659341,
+            "recall": 0.9340659340659341,
+            "f1": 0.9340659340659341,
+            "false_positives_per_frame": 0.5454545454545454,
+            "goalies": 8,
+            "goalie_hits": 8,
+            "goalie_recall": 1.0
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 91,
+            "tp": 88,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.967032967032967,
+            "recall": 0.967032967032967,
+            "f1": 0.967032967032967,
+            "false_positives_per_frame": 0.2727272727272727,
+            "goalies": 8,
+            "goalie_hits": 8,
+            "goalie_recall": 1.0
+          },
+          "ap50": 0.9720157037067174,
+          "labels_sha256": "d7080f4327c672369e79f45e07703505031b5eaed578063b3b981a0d404a906f",
+          "seconds": 0.6619040929999969,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "ns-2400-0100",
+              "reason": "Line change has multiple heavily overlapping red players at the bench opening; cannot confidently distinguish every on-floor body from players entering/leaving over the boards. Entire frame excluded before candidate predictions.",
+              "source_time_s": 2405.0
+            }
+          ],
+          "prediction_sha256": "8bd45a7a91c0e5505c550ffbac2c44b00b4980561399c57964a48245c2605a0c"
+        }
+      ],
+      "all": {
+        "confidence_threshold": 0.55,
+        "iou_threshold": 0.5,
+        "frames": 22,
+        "targets": 176,
+        "tp": 160,
+        "fp": 12,
+        "fn": 16,
+        "precision": 0.9302325581395349,
+        "recall": 0.9090909090909091,
+        "f1": 0.9195402298850575,
+        "false_positives_per_frame": 0.5454545454545454,
+        "goalies": 19,
+        "goalie_hits": 15,
+        "goalie_recall": 0.7894736842105263
+      }
+    },
+    {
+      "model": "rfdetr_small",
+      "spec": {
+        "name": "rfdetr_small",
+        "family": "RF-DETR",
+        "weights": "/data/ball-hockey/reliability-20261018/training/rfdetr-small-r960-s17-e80-6f459b18/checkpoint_best_total.pth",
+        "weights_sha256": "ebec4e5a2adfefcfad9de1c76c257612e15a0503a68d3daeede63807384b2215",
+        "confidence_threshold": 0.55,
+        "validation_metrics": {
+          "confidence_threshold": 0.55,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 159,
+          "fp": 8,
+          "fn": 19,
+          "precision": 0.9520958083832335,
+          "recall": 0.8932584269662921,
+          "f1": 0.9217391304347826,
+          "false_positives_per_frame": 0.34782608695652173,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "meets_validation_precision_target": true,
+        "pittsburgh_evaluation_sha256": "c77f3df5734d7fc6edabefaf5a98043f086baacfffc09eeb22c5c2305db764e2",
+        "resolution": 960,
+        "code_revision": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb"
+      },
+      "freeze_sha256": "b196447350a0b973ad82f865ab9a6edc52b46d6ef8f620b0fc53a9b25ca144ab",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 75,
+            "fp": 6,
+            "fn": 10,
+            "precision": 0.9259259259259259,
+            "recall": 0.8823529411764706,
+            "f1": 0.9036144578313253,
+            "false_positives_per_frame": 0.5454545454545454,
+            "goalies": 11,
+            "goalie_hits": 7,
+            "goalie_recall": 0.6363636363636364
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 85,
+            "tp": 77,
+            "fp": 4,
+            "fn": 8,
+            "precision": 0.9506172839506173,
+            "recall": 0.9058823529411765,
+            "f1": 0.927710843373494,
+            "false_positives_per_frame": 0.36363636363636365,
+            "goalies": 11,
+            "goalie_hits": 8,
+            "goalie_recall": 0.7272727272727273
+          },
+          "ap50": 0.9389586423365391,
+          "labels_sha256": "a872fe7cef79a89cf0fb9898b173dc2cc1b5f837d84caf92dfc530978d6902d3",
+          "seconds": 1.8676711939999997,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "buf-1200-0100",
+              "reason": "Strong pan blur makes the far-side overlapping players and left-edge partial person ambiguous; cannot confidently provide exhaustive visible-player labels.",
+              "source_time_s": 1205.0
+            }
+          ],
+          "prediction_sha256": "fbd750b1f1d69748054a59807c27636d8fd2df7c6c01675868e16e3ddb602579"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 86,
+            "fp": 7,
+            "fn": 5,
+            "precision": 0.9247311827956989,
+            "recall": 0.945054945054945,
+            "f1": 0.9347826086956522,
+            "false_positives_per_frame": 0.6363636363636364,
+            "goalies": 8,
+            "goalie_hits": 7,
+            "goalie_recall": 0.875
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.55,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 91,
+            "tp": 87,
+            "fp": 6,
+            "fn": 4,
+            "precision": 0.9354838709677419,
+            "recall": 0.9560439560439561,
+            "f1": 0.9456521739130435,
+            "false_positives_per_frame": 0.5454545454545454,
+            "goalies": 8,
+            "goalie_hits": 7,
+            "goalie_recall": 0.875
+          },
+          "ap50": 0.9841581797843703,
+          "labels_sha256": "d7080f4327c672369e79f45e07703505031b5eaed578063b3b981a0d404a906f",
+          "seconds": 0.5987929280000017,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "ns-2400-0100",
+              "reason": "Line change has multiple heavily overlapping red players at the bench opening; cannot confidently distinguish every on-floor body from players entering/leaving over the boards. Entire frame excluded before candidate predictions.",
+              "source_time_s": 2405.0
+            }
+          ],
+          "prediction_sha256": "033262c58383eda4dfa25d14bb0197113cbf127f3b7a3f8e3e22c32f68a9e947"
+        }
+      ],
+      "all": {
+        "confidence_threshold": 0.55,
+        "iou_threshold": 0.5,
+        "frames": 22,
+        "targets": 176,
+        "tp": 161,
+        "fp": 13,
+        "fn": 15,
+        "precision": 0.9252873563218391,
+        "recall": 0.9147727272727273,
+        "f1": 0.92,
+        "false_positives_per_frame": 0.5909090909090909,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      }
+    },
+    {
+      "model": "selected_finetuned",
+      "spec": {
+        "name": "selected_finetuned",
+        "weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-multi-s17-f10-e80-remap-v2-6f459b18/weights/best.pt",
+        "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+        "confidence_threshold": 0.65,
+        "validation_metrics": {
+          "confidence_threshold": 0.65,
+          "iou_threshold": 0.5,
+          "frames": 23,
+          "targets": 178,
+          "tp": 164,
+          "fp": 3,
+          "fn": 14,
+          "precision": 0.9820359281437125,
+          "recall": 0.9213483146067416,
+          "f1": 0.9507246376811594,
+          "false_positives_per_frame": 0.13043478260869565,
+          "goalies": 19,
+          "goalie_hits": 17,
+          "goalie_recall": 0.8947368421052632
+        },
+        "family": "YOLO11m"
+      },
+      "freeze_sha256": "b196447350a0b973ad82f865ab9a6edc52b46d6ef8f620b0fc53a9b25ca144ab",
+      "games": [
+        {
+          "source_id": "PWxYa6OZEgo",
+          "metrics": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 85,
+            "tp": 64,
+            "fp": 1,
+            "fn": 21,
+            "precision": 0.9846153846153847,
+            "recall": 0.7529411764705882,
+            "f1": 0.8533333333333334,
+            "false_positives_per_frame": 0.09090909090909091,
+            "goalies": 11,
+            "goalie_hits": 4,
+            "goalie_recall": 0.36363636363636365
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 85,
+            "tp": 64,
+            "fp": 1,
+            "fn": 21,
+            "precision": 0.9846153846153847,
+            "recall": 0.7529411764705882,
+            "f1": 0.8533333333333334,
+            "false_positives_per_frame": 0.09090909090909091,
+            "goalies": 11,
+            "goalie_hits": 4,
+            "goalie_recall": 0.36363636363636365
+          },
+          "ap50": 0.9046169429010401,
+          "labels_sha256": "a872fe7cef79a89cf0fb9898b173dc2cc1b5f837d84caf92dfc530978d6902d3",
+          "seconds": 5.711845281999999,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "buf-1200-0100",
+              "reason": "Strong pan blur makes the far-side overlapping players and left-edge partial person ambiguous; cannot confidently provide exhaustive visible-player labels.",
+              "source_time_s": 1205.0
+            }
+          ],
+          "prediction_sha256": "9b75892371a152b5d3a416732c8bd2ae44fa53119d025ceaf4c46d0b65e1ac8a"
+        },
+        {
+          "source_id": "vPRRzE3ol2s",
+          "metrics": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.5,
+            "frames": 11,
+            "targets": 91,
+            "tp": 85,
+            "fp": 5,
+            "fn": 6,
+            "precision": 0.9444444444444444,
+            "recall": 0.9340659340659341,
+            "f1": 0.9392265193370166,
+            "false_positives_per_frame": 0.45454545454545453,
+            "goalies": 8,
+            "goalie_hits": 8,
+            "goalie_recall": 1.0
+          },
+          "diagnostic_iou_03": {
+            "confidence_threshold": 0.65,
+            "iou_threshold": 0.3,
+            "frames": 11,
+            "targets": 91,
+            "tp": 86,
+            "fp": 4,
+            "fn": 5,
+            "precision": 0.9555555555555556,
+            "recall": 0.945054945054945,
+            "f1": 0.9502762430939227,
+            "false_positives_per_frame": 0.36363636363636365,
+            "goalies": 8,
+            "goalie_hits": 8,
+            "goalie_recall": 1.0
+          },
+          "ap50": 0.9665080997733883,
+          "labels_sha256": "d7080f4327c672369e79f45e07703505031b5eaed578063b3b981a0d404a906f",
+          "seconds": 0.8816846930000004,
+          "gpu": "NVIDIA L4",
+          "excluded": [
+            {
+              "id": "ns-2400-0100",
+              "reason": "Line change has multiple heavily overlapping red players at the bench opening; cannot confidently distinguish every on-floor body from players entering/leaving over the boards. Entire frame excluded before candidate predictions.",
+              "source_time_s": 2405.0
+            }
+          ],
+          "prediction_sha256": "00b236ef715a60bfe5b47ae1d9ad322b068ee2621d72df16d78259bc0a510420"
+        }
+      ],
+      "all": {
+        "confidence_threshold": 0.65,
+        "iou_threshold": 0.5,
+        "frames": 22,
+        "targets": 176,
+        "tp": 149,
+        "fp": 6,
+        "fn": 27,
+        "precision": 0.9612903225806452,
+        "recall": 0.8465909090909091,
+        "f1": 0.9003021148036254,
+        "false_positives_per_frame": 0.2727272727272727,
+        "goalies": 19,
+        "goalie_hits": 12,
+        "goalie_recall": 0.631578947368421
+      }
+    }
+  ],
+  "evaluation_scope": "Second transfer evaluation: 22 complete proposal-free reviewed frames from two recordings, 176 visible players. Sources previously seen for the separate ball task. Labels and thresholds sealed before detector inference.",
+  "independent_human_ground_truth": false,
+  "threshold_tuned_on_test": false,
+  "limitations": "Small assistant-labeled sample with two excluded frames retained in the manifest. Precision/recall are at IoU 0.5 and frozen validation-selected confidence thresholds. Same-game frames and players are dependent. This is detection, not persistent identification or a full-game reliability claim."
+}

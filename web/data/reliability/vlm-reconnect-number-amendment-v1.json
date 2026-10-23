@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-19T15:14:55.797556+00:00",
+  "reason": "Partial development response-format inspection found 73 digit strings versus 1 integer. No accuracy score has been viewed. Preserve the original strict-parser results and add three equivalent-decimal-normalization controls before development selection and regression inference.",
+  "normalization": "Only full ASCII decimal strings 0 or 1..99, without whitespace, leading zeroes or uncertainty, convert to integer. No digit correction, guessing, reference lookup or prompt change.",
+  "policies": [
+    "jersey_veto_normalized",
+    "jersey_support_normalized",
+    "multi_and_jersey_veto_normalized"
+  ],
+  "selection": "Same original development-only objective and baseline tie preference. Original ten policies and three added controls are considered.",
+  "source_sha256": {
+    "scripts/nbhl_vlm_number_normalization.py": "8ecef2db8c528c6abb7f180c7e1f5d82d6a3dc76bc08c6d8a76fc60b25f19125",
+    "scripts/modal_nbhl_vlm_diagnostics.py": "40e02e6a751678bb985a5309dc0f7153137f66432ebd3a00d0b4ad43ebdd12a4"
+  }
+}

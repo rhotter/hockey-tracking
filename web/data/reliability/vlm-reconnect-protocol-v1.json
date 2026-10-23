@@ -1,0 +1,78 @@
+{
+  "id": "nbhl-vlm-reconnect-v1",
+  "created_at": "2026-10-19T15:05:22.709242+00:00",
+  "scope": "NBHL ball hockey only",
+  "status": "frozen_before_vlm_inference",
+  "models": {
+    "235b": {
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+      "tensor_parallel": 2
+    },
+    "8b": {
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "tensor_parallel": 1
+    }
+  },
+  "tasks": [
+    "number",
+    "single",
+    "multi",
+    "reverse"
+  ],
+  "pair_prompt": "Compare the central NBHL ball-hockey player in group A with the central player in group B. The groups are separate automatic track fragments and may show the same player or different players. Images within a group can also contain a tracking mistake. Compare visible jersey digits, gloves, helmet or hair, shoes, socks, pads and other distinguishing details. Teammates wear nearly identical uniforms; matching team colors or a similar pose alone is insufficient. Do not guess hidden digits or identify a person by name. If evidence cannot distinguish the players, return uncertain. A different viewpoint, lighting or scale alone is not proof of different identity. Return only JSON: {\"decision\":\"same|different|uncertain\",\"a_consistent\":\"yes|no|uncertain\",\"b_consistent\":\"yes|no|uncertain\",\"evidence_type\":\"jersey_number|distinctive_details|team_difference|uniform_only|insufficient\",\"evidence\":\"one short description of directly visible matching or conflicting details\"}.",
+  "number_prompt": "These images show the central player from one automatic NBHL ball-hockey track fragment. The tracker can switch people. For each image read ONLY a complete, visibly distinguishable jersey number on that central player's shirt, sleeve or shorts. Ignore other people, words, logos and background numbers. Return null for hidden, partial, blurred or ambiguous digits; do not infer a missing digit and do not use a roster. Also assess whether the central player's identity is consistent across the images. Return only JSON: {\"consistent\":\"yes|no|uncertain\",\"readings\":[{\"image\":1,\"number\":null,\"location\":\"back|front|sleeve|shorts|unknown\"}],\"evidence\":\"one short description of uncertainty or visible digits\"}.",
+  "baseline": {
+    "solver": "global_assignment",
+    "pooling": "mean",
+    "cosine": 0.75,
+    "margin": 0.0,
+    "gap": 300,
+    "gap_penalty": 0.001,
+    "motion_base": 1.0,
+    "motion_per_frame": 0.12,
+    "min_support": 10
+  },
+  "candidate_selection": "Geometry-compatible, minimum10 observations, gap<=300frames, mean cosine>=.65; union of top2 successors and top2 predecessors plus every baseline-accepted edge. No evaluation labels used.",
+  "crops": "Up to3 high-quality crops from temporal thirds of each track prototype set; single-image mode uses highest quality among them. No roster, identity labels, reference boxes or baseline match score is passed to the VLM.",
+  "development_sources": [
+    "plDp2kPtk_g",
+    "X83xW6iQKoc"
+  ],
+  "regression_sources": [
+    "JlBtScHdcg4",
+    "ILV4PoQFxGU"
+  ],
+  "evaluation": "Existing assistant-reviewed sparse references. MA/GB selects policy, then freeze before scoring Pittsburgh/Maryland. Those recordings were evaluated previously and informed the general research direction; regression evidence, not a fresh untouched test.",
+  "metrics": [
+    "same-player links recovered",
+    "different-player pairs wrongly joined",
+    "uncertain-identity pairs joined",
+    "matched observations",
+    "fragment counts",
+    "VLM valid/uncertain responses",
+    "inference time"
+  ],
+  "selection_rule": "Select only on development: maximize correct-10*wrong, then minimize unverified joins; prefer the unchanged generic baseline in a tie. No observation is dropped by any linking policy. Report all policies on previously evaluated regression clips, separately for short/stress.",
+  "constraints": [
+    "No changes to frozen original outputs or references",
+    "Unknown VLM answers are not ground truth or calibrated confidence",
+    "Number agreement across images can have correlated errors",
+    "No full-game identity or advanced-statistics claim"
+  ],
+  "policies": [
+    "osnet_full",
+    "osnet_shortlist",
+    "jersey_veto",
+    "jersey_support",
+    "single_veto",
+    "multi_veto",
+    "multi_strict",
+    "multi_symmetric",
+    "multi_hybrid",
+    "multi_and_jersey_veto"
+  ],
+  "number_consensus": "At least2 images with the same complete integer in0..99, every readable number agrees, and within-track consistency=yes. Repeated frames are correlated, not independent confirmation.",
+  "strict_match": "decision=same, both within-track consistency=yes, evidence_type=jersey_number or distinctive_details. Symmetric policy additionally requires this in reversed group order."
+}

@@ -1,0 +1,4572 @@
+{
+  "id": "nbhl-temporal-jersey-audit-v1",
+  "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+  "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+  "splits": {
+    "all": {
+      "enforced_consensus": {
+        "readable": 36,
+        "correct": 32,
+        "wrong": 3,
+        "abstained": 1,
+        "invalid": 0,
+        "unknown": 61,
+        "unsupported_readings": 26,
+        "unknown_abstained": 35,
+        "accuracy_when_answered_on_readable_crops": 0.9142857142857143,
+        "recall_on_readable_crops": 0.8888888888888888,
+        "errors": [
+          {
+            "id": "validation_03m-60-0",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+            "status": "readable",
+            "number": 42,
+            "location": "back",
+            "prediction": 12,
+            "model_final_claim": 12,
+            "reason": "two or more agreeing readings, no conflict",
+            "image_count": 4,
+            "readings": [
+              {
+                "image": 1,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "clearly visible '12' in dark digits on white jersey back"
+              },
+              {
+                "image": 2,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "partially visible but complete '12' on jersey back, consistent with image 1"
+              },
+              {
+                "image": 3,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "clearly visible '12' on white jersey back, same player orientation and uniform"
+              },
+              {
+                "image": 4,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "clearly visible '12' on white jersey back, consistent with other images"
+              }
+            ]
+          },
+          {
+            "id": "validation_10m-180-1",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+            "status": "readable",
+            "number": 44,
+            "location": "back",
+            "prediction": 14,
+            "model_final_claim": 14,
+            "reason": "two or more agreeing readings, no conflict",
+            "image_count": 5,
+            "readings": [
+              {
+                "image": 1,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              },
+              {
+                "image": 2,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey, despite motion blur"
+              },
+              {
+                "image": 3,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              },
+              {
+                "image": 4,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              },
+              {
+                "image": 5,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              }
+            ]
+          },
+          {
+            "id": "validation_40m-120-3",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+            "status": "readable",
+            "number": 42,
+            "location": "sleeve",
+            "prediction": 12,
+            "model_final_claim": 12,
+            "reason": "two or more agreeing readings, no conflict",
+            "image_count": 5,
+            "readings": [
+              {
+                "image": 1,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, centered on chest area."
+              },
+              {
+                "image": 2,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, same position as image 1."
+              },
+              {
+                "image": 3,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, consistent with previous images."
+              },
+              {
+                "image": 4,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, no blurring or obstruction."
+              },
+              {
+                "image": 5,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, consistent across all frames."
+              }
+            ]
+          }
+        ]
+      },
+      "model_final_claim": {
+        "readable": 36,
+        "correct": 33,
+        "wrong": 3,
+        "abstained": 0,
+        "invalid": 0,
+        "unknown": 61,
+        "unsupported_readings": 27,
+        "unknown_abstained": 34,
+        "accuracy_when_answered_on_readable_crops": 0.9166666666666666,
+        "recall_on_readable_crops": 0.9166666666666666,
+        "errors": [
+          {
+            "id": "validation_03m-60-0",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+            "status": "readable",
+            "number": 42,
+            "location": "back",
+            "prediction": 12
+          },
+          {
+            "id": "validation_10m-180-1",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+            "status": "readable",
+            "number": 44,
+            "location": "back",
+            "prediction": 14
+          },
+          {
+            "id": "validation_40m-120-3",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+            "status": "readable",
+            "number": 42,
+            "location": "sleeve",
+            "prediction": 12
+          }
+        ]
+      }
+    },
+    "development_regression": {
+      "enforced_consensus": {
+        "readable": 31,
+        "correct": 27,
+        "wrong": 3,
+        "abstained": 1,
+        "invalid": 0,
+        "unknown": 34,
+        "unsupported_readings": 20,
+        "unknown_abstained": 14,
+        "accuracy_when_answered_on_readable_crops": 0.9,
+        "recall_on_readable_crops": 0.8709677419354839,
+        "errors": [
+          {
+            "id": "validation_03m-60-0",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+            "status": "readable",
+            "number": 42,
+            "location": "back",
+            "prediction": 12,
+            "model_final_claim": 12,
+            "reason": "two or more agreeing readings, no conflict",
+            "image_count": 4,
+            "readings": [
+              {
+                "image": 1,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "clearly visible '12' in dark digits on white jersey back"
+              },
+              {
+                "image": 2,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "partially visible but complete '12' on jersey back, consistent with image 1"
+              },
+              {
+                "image": 3,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "clearly visible '12' on white jersey back, same player orientation and uniform"
+              },
+              {
+                "image": 4,
+                "number": 12,
+                "location": "back of jersey",
+                "evidence": "clearly visible '12' on white jersey back, consistent with other images"
+              }
+            ]
+          },
+          {
+            "id": "validation_10m-180-1",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+            "status": "readable",
+            "number": 44,
+            "location": "back",
+            "prediction": 14,
+            "model_final_claim": 14,
+            "reason": "two or more agreeing readings, no conflict",
+            "image_count": 5,
+            "readings": [
+              {
+                "image": 1,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              },
+              {
+                "image": 2,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey, despite motion blur"
+              },
+              {
+                "image": 3,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              },
+              {
+                "image": 4,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              },
+              {
+                "image": 5,
+                "number": 14,
+                "location": "back",
+                "evidence": "clearly visible blue '14' on back of jersey"
+              }
+            ]
+          },
+          {
+            "id": "validation_40m-120-3",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+            "status": "readable",
+            "number": 42,
+            "location": "sleeve",
+            "prediction": 12,
+            "model_final_claim": 12,
+            "reason": "two or more agreeing readings, no conflict",
+            "image_count": 5,
+            "readings": [
+              {
+                "image": 1,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, centered on chest area."
+              },
+              {
+                "image": 2,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, same position as image 1."
+              },
+              {
+                "image": 3,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, consistent with previous images."
+              },
+              {
+                "image": 4,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, no blurring or obstruction."
+              },
+              {
+                "image": 5,
+                "number": 12,
+                "location": "shirt",
+                "evidence": "Digits '12' clearly visible on front of white shirt, consistent across all frames."
+              }
+            ]
+          }
+        ]
+      },
+      "model_final_claim": {
+        "readable": 31,
+        "correct": 28,
+        "wrong": 3,
+        "abstained": 0,
+        "invalid": 0,
+        "unknown": 34,
+        "unsupported_readings": 20,
+        "unknown_abstained": 14,
+        "accuracy_when_answered_on_readable_crops": 0.9032258064516129,
+        "recall_on_readable_crops": 0.9032258064516129,
+        "errors": [
+          {
+            "id": "validation_03m-60-0",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+            "status": "readable",
+            "number": 42,
+            "location": "back",
+            "prediction": 12
+          },
+          {
+            "id": "validation_10m-180-1",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+            "status": "readable",
+            "number": 44,
+            "location": "back",
+            "prediction": 14
+          },
+          {
+            "id": "validation_40m-120-3",
+            "source_id": "Z-tFHtxODsE",
+            "split": "development_regression",
+            "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+            "status": "readable",
+            "number": 42,
+            "location": "sleeve",
+            "prediction": 12
+          }
+        ]
+      }
+    },
+    "transfer_regression": {
+      "enforced_consensus": {
+        "readable": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 0,
+        "unknown": 27,
+        "unsupported_readings": 6,
+        "unknown_abstained": 21,
+        "accuracy_when_answered_on_readable_crops": 1.0,
+        "recall_on_readable_crops": 1.0,
+        "errors": []
+      },
+      "model_final_claim": {
+        "readable": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstained": 0,
+        "invalid": 0,
+        "unknown": 27,
+        "unsupported_readings": 7,
+        "unknown_abstained": 20,
+        "accuracy_when_answered_on_readable_crops": 1.0,
+        "recall_on_readable_crops": 1.0,
+        "errors": []
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "validation_03m-0-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "96fd384bcea634bf6b698cff6ca0c60c2f8136d2bda5ff6ed0ff82f82e91a3fe",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 10,
+      "model_final_claim": 10,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; only a fragment of a digit is visible, insufficient to determine a complete number."
+        },
+        {
+          "image": 2,
+          "number": 10,
+          "location": "back of jersey",
+          "evidence": "Clear, complete, and visibly distinguishable digits '10' in blue on the back of the white jersey."
+        },
+        {
+          "image": 3,
+          "number": 10,
+          "location": "back of jersey",
+          "evidence": "Clear, complete, and visibly distinguishable digits '10' in blue on the back of the white jersey, consistent with image 2."
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-60-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "00ca431d44d698a61bfd6b5d95f3d21900611b4188431a22b86a2d2963b4bc19",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 10,
+      "model_final_claim": 10,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are not visible or are obscured; no complete, distinguishable number can be read on jersey, sleeve, or shorts."
+        },
+        {
+          "image": 2,
+          "number": 10,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digits '10' visible on the back of the white jersey."
+        },
+        {
+          "image": 3,
+          "number": 10,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digits '10' visible on the back of the white jersey."
+        },
+        {
+          "image": 4,
+          "number": 10,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digits '10' visible on the back of the white jersey."
+        },
+        {
+          "image": 5,
+          "number": 10,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digits '10' visible on the back of the white jersey."
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-180-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "15d23b3480e8013ceb15acc7e2b11fdd4dec0aeb9e7936110660996dcc0c07f2",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 10,
+      "model_final_claim": 10,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are partially visible but too blurry to read confidently"
+        },
+        {
+          "image": 3,
+          "number": 10,
+          "location": "back",
+          "evidence": "clearly visible '10' on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "back",
+          "evidence": "player is mostly occluded; no readable digits"
+        },
+        {
+          "image": 5,
+          "number": 10,
+          "location": "back",
+          "evidence": "clearly visible '10' on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+      "status": "readable",
+      "number": 42,
+      "location": "back",
+      "prediction": 12,
+      "model_final_claim": 12,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": 12,
+          "location": "back of jersey",
+          "evidence": "clearly visible '12' in dark digits on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": 12,
+          "location": "back of jersey",
+          "evidence": "partially visible but complete '12' on jersey back, consistent with image 1"
+        },
+        {
+          "image": 3,
+          "number": 12,
+          "location": "back of jersey",
+          "evidence": "clearly visible '12' on white jersey back, same player orientation and uniform"
+        },
+        {
+          "image": 4,
+          "number": 12,
+          "location": "back of jersey",
+          "evidence": "clearly visible '12' on white jersey back, consistent with other images"
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-120-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "ca1147d25917ee47d2ac6cc6b76a814d2b62ecf71271aee5eda45b3cf8169825",
+      "status": "readable",
+      "number": 42,
+      "location": "back",
+      "prediction": 42,
+      "model_final_claim": 42,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 42,
+          "location": "back of jersey",
+          "evidence": "Digits '42' are clearly visible on the back of the white jersey, centered and legible despite slight motion blur."
+        },
+        {
+          "image": 2,
+          "number": 42,
+          "location": "back of jersey",
+          "evidence": "Digits '42' are clearly visible on the back of the white jersey, fully legible and centered."
+        },
+        {
+          "image": 3,
+          "number": 42,
+          "location": "back of jersey",
+          "evidence": "Digits '42' are visible on the back of the jersey, slightly blurred but still clearly distinguishable."
+        },
+        {
+          "image": 4,
+          "number": 42,
+          "location": "back of jersey",
+          "evidence": "Digits '42' are clearly visible on the back of the jersey, centered and legible."
+        },
+        {
+          "image": 5,
+          "number": 42,
+          "location": "back of jersey",
+          "evidence": "Digits '42' are clearly visible on the back of the jersey, fully legible and centered."
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-60-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "fcbe5deca2f39230b683ddb0acde03c2b971661330162f06f53e662ae6fa8230",
+      "status": "readable",
+      "number": 17,
+      "location": "back",
+      "prediction": 17,
+      "model_final_claim": 17,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 17,
+          "location": "back of jersey",
+          "evidence": "clearly visible digits '17' on back of white jersey"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "player turned sideways; no digits visible on jersey, sleeve, or shorts"
+        },
+        {
+          "image": 3,
+          "number": 17,
+          "location": "back of jersey",
+          "evidence": "clearly visible digits '17' on back of white jersey"
+        },
+        {
+          "image": 4,
+          "number": 17,
+          "location": "back of jersey",
+          "evidence": "clearly visible digits '17' on back of white jersey"
+        },
+        {
+          "image": 5,
+          "number": 17,
+          "location": "back of jersey",
+          "evidence": "clearly visible digits '17' on back of white jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-120-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "98a300e7d0ef265bdc8942daa031dc16acb7f7f68594dd8e042630414d7ece54",
+      "status": "readable",
+      "number": 17,
+      "location": "back",
+      "prediction": null,
+      "model_final_claim": 17,
+      "reason": "conflicting readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 17,
+          "location": "back",
+          "evidence": "Digits '17' are clearly visible on the back of the jersey, though slightly pixelated, they are complete and distinguishable."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Player is turned sideways; no digits are visible on jersey, sleeve, or shorts."
+        },
+        {
+          "image": 3,
+          "number": 17,
+          "location": "back",
+          "evidence": "Digits '17' are clearly visible on the back of the jersey, matching image 1 in style and position."
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "back",
+          "evidence": "Only the digit '7' is clearly visible on the back; the leading '1' is obscured or cut off, so it is not complete."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Player is facing forward and angled; no digits are visible on jersey, sleeve, or shorts."
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-60-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3a2a103932864f20bab4978f8a9d8ad5bbf89c2c890c75aff32cbf6a8ce4761f",
+      "status": "readable",
+      "number": 44,
+      "location": "back",
+      "prediction": 44,
+      "model_final_claim": 44,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue '44' on back of dark jersey"
+        },
+        {
+          "image": 2,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue '44' on back of dark jersey, partially obscured by another player but still legible"
+        },
+        {
+          "image": 3,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue '44' on back of dark jersey, slightly angled but fully legible"
+        },
+        {
+          "image": 4,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue '44' on back of dark jersey, consistent with other frames"
+        },
+        {
+          "image": 5,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue '44' on back of dark jersey, unobstructed and legible"
+        }
+      ]
+    },
+    {
+      "id": "validation_03m-120-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d3c261aedb4cdf3b073a17b4cf2d567e28e52854ab2835f68b8614c9e3246ab9",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 14,
+      "model_final_claim": 14,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct; cannot be read"
+        },
+        {
+          "image": 2,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible light blue '14' on dark jersey back"
+        },
+        {
+          "image": 3,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible light blue '14' on dark jersey back"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct; cannot be read"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "back",
+          "evidence": "central player is obscured by foreground player; no digits visible"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-0-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "05c46ca1bbcf9abe46e8e7e49d1463df04b9e9c99a10cd95b814deb125ee3902",
+      "status": "readable",
+      "number": 9,
+      "location": "back",
+      "prediction": 9,
+      "model_final_claim": 9,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digit is blurred and partially obscured, not clearly readable"
+        },
+        {
+          "image": 2,
+          "number": 9,
+          "location": "back",
+          "evidence": "clear, complete digit '9' visible on back of jersey"
+        },
+        {
+          "image": 3,
+          "number": 9,
+          "location": "back",
+          "evidence": "clear, complete digit '9' visible on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-120-5",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "10c2c6cc682f731a1bda862ff166c5f7c0e0ab4784c9082f483329c6d356bc29",
+      "status": "readable",
+      "number": 9,
+      "location": "back",
+      "prediction": 9,
+      "model_final_claim": 9,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 9,
+          "location": "back",
+          "evidence": "clearly visible digit 9 on back of white jersey"
+        },
+        {
+          "image": 2,
+          "number": 9,
+          "location": "back",
+          "evidence": "clearly visible digit 9 on back of white jersey"
+        },
+        {
+          "image": 3,
+          "number": 9,
+          "location": "back",
+          "evidence": "clearly visible digit 9 on back of white jersey"
+        },
+        {
+          "image": 4,
+          "number": 9,
+          "location": "back",
+          "evidence": "clearly visible digit 9 on back of white jersey"
+        },
+        {
+          "image": 5,
+          "number": 9,
+          "location": "back",
+          "evidence": "clearly visible digit 9 on back of white jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-180-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "be278c6e40a3443ebeeeb09a211338b93289f944ef79654add804690d39ea179",
+      "status": "readable",
+      "number": 9,
+      "location": "back",
+      "prediction": 9,
+      "model_final_claim": 9,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 9,
+          "location": "back of jersey",
+          "evidence": "clearly visible digit 9 on back of white jersey"
+        },
+        {
+          "image": 2,
+          "number": 9,
+          "location": "back of jersey",
+          "evidence": "digit 9 visible on back of jersey, slightly blurred but distinguishable"
+        },
+        {
+          "image": 3,
+          "number": 9,
+          "location": "back of jersey",
+          "evidence": "digit 9 clearly visible on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": 9,
+          "location": "back of jersey",
+          "evidence": "digit 9 clearly visible on back of jersey"
+        },
+        {
+          "image": 5,
+          "number": 9,
+          "location": "back of jersey",
+          "evidence": "digit 9 clearly visible on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-120-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b1a791f5b298d0c22400c6082bd73d214a4ef57db8231b6801e8d1feec97014d",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible digit 4 on back of jersey"
+        },
+        {
+          "image": 2,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible digit 4 on back of jersey"
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "back",
+          "evidence": "digit 4 visible on back of jersey, slightly blurred but distinguishable"
+        },
+        {
+          "image": 4,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible digit 4 on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-180-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6d9bf9218117899f095586566e70092c5e35e27441f3d39da934583b3e63aad0",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "back of jersey",
+          "evidence": "clearly visible digit '4' on back of white jersey"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "player is heavily blurred and turned away; no digits visible"
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "back of jersey",
+          "evidence": "clearly visible digit '4' on back of white jersey, same as image 1"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "player is turned sideways; no digits visible on jersey, sleeves, or shorts"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-0-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "dc3458cbe6457542fc769aa6cbff375b3045472a823cefaecb83c6614dd8da92",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 44,
+      "model_final_claim": 44,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Image is too blurry to distinguish any jersey digits on the central player."
+        },
+        {
+          "image": 2,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "Two complete, clearly visible digits '44' on the back of the central player\u2019s jersey."
+        },
+        {
+          "image": 3,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "Same two complete, clearly visible digits '44' on the back of the central player\u2019s jersey as in image 2."
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-60-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "a75b9d46d59c8d2870b719830cd81fcab575de411ed8de09f951ef1bed4b84cc",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry to read any numbers."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are partially visible but too blurred and indistinct to read reliably."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No clearly readable digits on jersey, sleeve, or shorts; motion blur obscures details."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on central player; jersey and shorts lack legible numbers."
+        },
+        {
+          "image": 5,
+          "number": 18,
+          "location": "shorts",
+          "evidence": "Clear, complete digits '18' visible on the right thigh of the shorts; however, this player wears a different jersey (white with blue trim) than the central player in images 1\u20134 (dark jersey), indicating a different identity."
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-120-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "c9a26733115aeef245bf4a2c9ba59ab956c2d2d343ee65824ccc890628f7d4eb",
+      "status": "readable",
+      "number": 44,
+      "location": "back",
+      "prediction": 44,
+      "model_final_claim": 44,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible light blue '44' on dark jersey back"
+        },
+        {
+          "image": 2,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "partially visible but clearly '44' on jersey back, consistent with image 1"
+        },
+        {
+          "image": 3,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible light blue '44' on dark jersey back, same as image 1"
+        },
+        {
+          "image": 4,
+          "number": 44,
+          "location": "back of jersey",
+          "evidence": "clearly visible light blue '44' on dark jersey back, consistent with previous images"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "jersey front and sides show no readable digits; back is obscured by motion and angle"
+        }
+      ]
+    },
+    {
+      "id": "validation_10m-180-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+      "status": "readable",
+      "number": 44,
+      "location": "back",
+      "prediction": 14,
+      "model_final_claim": 14,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible blue '14' on back of jersey"
+        },
+        {
+          "image": 2,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible blue '14' on back of jersey, despite motion blur"
+        },
+        {
+          "image": 3,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible blue '14' on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible blue '14' on back of jersey"
+        },
+        {
+          "image": 5,
+          "number": 14,
+          "location": "back",
+          "evidence": "clearly visible blue '14' on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_15m-0-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b74491c61aa407e0ba7e38f6302c70e31717e534d8f4c66a98d39419e1d1c907",
+      "status": "readable",
+      "number": 5,
+      "location": "back",
+      "prediction": 5,
+      "model_final_claim": 5,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "clear, complete, blue digit '5' centered on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "clear, complete, blue digit '5' centered on white jersey back"
+        },
+        {
+          "image": 3,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "clear, complete, blue digit '5' centered on white jersey back"
+        }
+      ]
+    },
+    {
+      "id": "validation_15m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "03fd1297f55448f2e9c971ea6890f34f85eaebe9cc366b82c51644fb381a9a4b",
+      "status": "readable",
+      "number": 5,
+      "location": "back",
+      "prediction": 5,
+      "model_final_claim": 5,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '5' visible on back of white jersey"
+        },
+        {
+          "image": 2,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '5' visible on back of white jersey"
+        },
+        {
+          "image": 3,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '5' visible on back of white jersey"
+        },
+        {
+          "image": 4,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "partial view but complete digit '5' visible on back of jersey"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "no visible digits on jersey, sleeve, or shorts; number area is obscured or out of frame"
+        }
+      ]
+    },
+    {
+      "id": "validation_15m-120-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "1bcce3864b898656870a5dddedc8e831b18336e6b1b3204ba14af343f127397f",
+      "status": "readable",
+      "number": 5,
+      "location": "back",
+      "prediction": 5,
+      "model_final_claim": 5,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 5,
+          "location": "back",
+          "evidence": "blurred but complete digit 5 visible on back of jersey"
+        },
+        {
+          "image": 2,
+          "number": 5,
+          "location": "back",
+          "evidence": "clear, complete digit 5 on back of jersey"
+        },
+        {
+          "image": 3,
+          "number": 5,
+          "location": "back",
+          "evidence": "clear, complete digit 5 on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": 5,
+          "location": "back",
+          "evidence": "blurred but complete digit 5 visible on back of jersey"
+        },
+        {
+          "image": 5,
+          "number": 5,
+          "location": "back",
+          "evidence": "blurred but complete digit 5 visible on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_15m-180-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b49f38b3034c3944ac0f4e6373625f5362545cdae9710cac1be405a821daa655",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 5,
+      "model_final_claim": 5,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; player is in side profile, jersey back not visible, and image is blurry."
+        },
+        {
+          "image": 2,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '5' visible on the center of the white jersey back."
+        },
+        {
+          "image": 3,
+          "number": 5,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '5' visible on the center of the white jersey back, same as image 2."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; player is in side profile, jersey back not visible, and image is blurry."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; player is in side profile, jersey back not visible, and image is blurry."
+        }
+      ]
+    },
+    {
+      "id": "validation_15m-60-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6c423b96bdd2b3704720ed8406a18f05ab4bcf195c76d8658f6147ebed271ee3",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of jersey"
+        },
+        {
+          "image": 2,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of jersey"
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "no visible digits on central player; jersey front and back obscured"
+        },
+        {
+          "image": 5,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible digit 4 on right thigh of shorts"
+        }
+      ]
+    },
+    {
+      "id": "validation_15m-120-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "ceeb1c1c0f1a78a4c4be34396f9557cc697b99b004aa3012de4bafa3c0f946c3",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of white jersey"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "central player is facing away and obscured; no visible digits on central player"
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of white jersey"
+        },
+        {
+          "image": 4,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of white jersey"
+        },
+        {
+          "image": 5,
+          "number": 4,
+          "location": "back",
+          "evidence": "clearly visible large digit 4 on back of white jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_25m-0-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "cbcbbfda78566f5891e07a822fa2fa43a9b5701cc47749414019fb04a308e30a",
+      "status": "readable",
+      "number": 7,
+      "location": "back",
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        }
+      ]
+    },
+    {
+      "id": "validation_25m-60-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b667652b4f8f64ae4a6a6817fad69ce559b30f96899bde2def18805efafea373",
+      "status": "readable",
+      "number": 7,
+      "location": "back",
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "number on back is blurred and partially obscured; not readable"
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        },
+        {
+          "image": 5,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "clearly visible black digit '7' on white jersey back"
+        }
+      ]
+    },
+    {
+      "id": "validation_25m-120-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "5ab56f95a2eaa241ba19f9499116d44cb139f07171e5f2d76e4249d3203dbb4d",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey and shorts are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Player is in profile; no digits are clearly visible on jersey, sleeve, or shorts."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey and shorts are too blurred or partially obscured to be read as complete and distinguishable."
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete, and visibly distinguishable digit '7' on the back of the jersey."
+        },
+        {
+          "image": 5,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete, and visibly distinguishable digit '7' on the back of the jersey, matching image 4."
+        }
+      ]
+    },
+    {
+      "id": "validation_25m-180-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "11655d8a5f91dc47dc886b581e8a84d88d4aa45679c1e9d048c23a3a8bc73ac4",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry to read any number."
+        },
+        {
+          "image": 2,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '7' visible on back of white jersey."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; image too blurry and player facing away or sideways without readable number."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; player facing sideways, no number legible on jersey, sleeve, or shorts."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; player in motion, no number legible on any part of uniform."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "161b2188fb4ee0e807c8dffa0a9c4d4e6fa7cdc952d6680d2333ffb3dcc9cc68",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 33,
+      "model_final_claim": 33,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "Digits '33' clearly visible on blue shorts, both digits fully legible and unobstructed."
+        },
+        {
+          "image": 2,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "Digits '33' clearly visible on blue shorts, same position and style as image 1, fully legible."
+        },
+        {
+          "image": 3,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "Digits '33' clearly visible on blue shorts, consistent with images 1 and 2, fully legible."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "00719679941b3ffeea7af72ec6909fa4d74907c9209eb5762bd250e6d29fbc82",
+      "status": "readable",
+      "number": 33,
+      "location": "shorts",
+      "prediction": 33,
+      "model_final_claim": 33,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "Digits '33' clearly visible on blue shorts, fully legible and unobstructed."
+        },
+        {
+          "image": 2,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "Digits '33' clearly visible on blue shorts, fully legible and unobstructed."
+        },
+        {
+          "image": 3,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "Digits '33' clearly visible on blue shorts, fully legible and unobstructed."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Player mostly out of frame; no visible jersey, sleeve, or shorts digits."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "abf44580a77b2c75cf21c9bc4c9db607587e15a12dec65ad8139c13327ed70c2",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 33,
+      "model_final_claim": 33,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "blue shorts show clear, complete digits '33' on right leg"
+        },
+        {
+          "image": 2,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "blue shorts show clear, complete digits '33' on right leg"
+        },
+        {
+          "image": 3,
+          "number": 33,
+          "location": "shorts",
+          "evidence": "blue shorts show clear, complete digits '33' on right leg"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "shorts partially visible but digits are blurred and indistinct"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "shorts visible but digits are too blurred to read"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-5",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "ea6232048603c50e6196338097ffa736d165f0c9c3c41761ed4f1b113b20532b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "conflicting readings",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 17,
+          "location": "shorts",
+          "evidence": "blue shorts show clear white digits '17' on right leg"
+        },
+        {
+          "image": 2,
+          "number": 17,
+          "location": "shorts",
+          "evidence": "blue shorts show clear white digits '17' on right leg"
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "blue shorts show a single white digit '7' on right leg; '1' is missing or obscured"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8cc5a8b5f59ef0694693aeb7eda2b8fa2856eb09ab265d3f44a06b1c8a4df4c3",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 2,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 5,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-120-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b8a3bfe33d1d910909d24e772bc7ae2d4eacd8d13d281fe179dbd128dadeec4c",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 2,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 5,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "447ea33c4154c3a27cc41f1238f89b051e55843656c20add8632b63b65b24f4e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 2,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        },
+        {
+          "image": 5,
+          "number": 7,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '7' on blue shorts"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "f036aa0ea17b9c8b1012a5a1d42ff6aae5f9558e97e59fb48c1ead3e759cfd31",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable number can be read."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-7",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8307b41639fd9dc8e5ae3d5e16fbcb19b97f2690294cd40f416e2665239ff7e0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable digit is readable."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable digit is readable."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable digit is readable."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable digit is readable."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable digit is readable."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-120-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+      "status": "readable",
+      "number": 42,
+      "location": "sleeve",
+      "prediction": 12,
+      "model_final_claim": 12,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 12,
+          "location": "shirt",
+          "evidence": "Digits '12' clearly visible on front of white shirt, centered on chest area."
+        },
+        {
+          "image": 2,
+          "number": 12,
+          "location": "shirt",
+          "evidence": "Digits '12' clearly visible on front of white shirt, same position as image 1."
+        },
+        {
+          "image": 3,
+          "number": 12,
+          "location": "shirt",
+          "evidence": "Digits '12' clearly visible on front of white shirt, consistent with previous images."
+        },
+        {
+          "image": 4,
+          "number": 12,
+          "location": "shirt",
+          "evidence": "Digits '12' clearly visible on front of white shirt, no blurring or obstruction."
+        },
+        {
+          "image": 5,
+          "number": 12,
+          "location": "shirt",
+          "evidence": "Digits '12' clearly visible on front of white shirt, consistent across all frames."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-5",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "0b30429f3eb36511068024f4cf9fa7ccae1ed042e13f3be37c73a2a37ca87b48",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 42,
+      "model_final_claim": 42,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 42,
+          "location": "back",
+          "evidence": "clearly visible '42' on back of jersey"
+        },
+        {
+          "image": 2,
+          "number": 42,
+          "location": "back",
+          "evidence": "clearly visible '42' on back of jersey"
+        },
+        {
+          "image": 3,
+          "number": 42,
+          "location": "back",
+          "evidence": "clearly visible '42' on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": 42,
+          "location": "back",
+          "evidence": "partially visible '42' on back of jersey, digits distinguishable"
+        },
+        {
+          "image": 5,
+          "number": 42,
+          "location": "back",
+          "evidence": "partially visible '42' on back of jersey, digits distinguishable"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "73f42e4b4ec919409c9a83f9c8111f17fd5c3d0c1db64ae55be63a91fa48029b",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "model_final_claim": 40,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        },
+        {
+          "image": 3,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b2cbd5f78cb24e7264e6b9d541194b6b1980b58f3d74e35b92bea88b2a3f5582",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "model_final_claim": 40,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        },
+        {
+          "image": 3,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        },
+        {
+          "image": 4,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        },
+        {
+          "image": 5,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible large purple digits '40' on white jersey back"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-120-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "613cdef3832dc55dc183f370bbecf3ca4e30b91e3078b8bc0db4ef951c802e74",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "model_final_claim": 40,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "Digits '40' clearly visible in dark blue on white jersey back."
+        },
+        {
+          "image": 2,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "Digits '40' clearly visible in dark blue on white jersey back."
+        },
+        {
+          "image": 3,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "Digits '40' clearly visible in dark blue on white jersey back."
+        },
+        {
+          "image": 4,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "Digits '40' clearly visible in dark blue on white jersey back."
+        },
+        {
+          "image": 5,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "Digits '40' clearly visible in dark blue on white jersey back."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-9",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "311269debdc2bbc83715e2db0490c984b45e7d73c1b8bc2a72242f107a8f2abb",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "model_final_claim": 40,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible, complete digits '40' in dark blue on white jersey"
+        },
+        {
+          "image": 2,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible, complete digits '40' in dark blue on white jersey"
+        },
+        {
+          "image": 3,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible, complete digits '40' in dark blue on white jersey"
+        },
+        {
+          "image": 4,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible, complete digits '40' in dark blue on white jersey"
+        },
+        {
+          "image": 5,
+          "number": 40,
+          "location": "back of jersey",
+          "evidence": "clearly visible, complete digits '40' in dark blue on white jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3c7de7842c722d9ba95bd620f3bcd80c3c086e235bb01d83bde09ccfc1507fb3",
+      "status": "readable",
+      "number": 69,
+      "location": "shorts",
+      "prediction": 69,
+      "model_final_claim": 69,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, fully legible and unobstructed."
+        },
+        {
+          "image": 2,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, same position and clarity as image 1."
+        },
+        {
+          "image": 3,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, consistent with images 1 and 2."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "1c07a9e0f7d83358bd1974b584529c937e036034e736c8cdc546541dd7e7164a",
+      "status": "readable",
+      "number": 69,
+      "location": "shorts",
+      "prediction": 69,
+      "model_final_claim": 69,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, fully legible and unobstructed."
+        },
+        {
+          "image": 2,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, same position and clarity as image 1."
+        },
+        {
+          "image": 3,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, consistent with previous images."
+        },
+        {
+          "image": 4,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, no blurring or obstruction."
+        },
+        {
+          "image": 5,
+          "number": 69,
+          "location": "shorts",
+          "evidence": "Digits '69' clearly visible on the left thigh of the shorts, consistent across all frames."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-120-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "57d23cc6249bf21258e37af6953edbda15c6a68a76dede643f4e4e50a2de1072",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 63,
+      "model_final_claim": 63,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 63,
+          "location": "back",
+          "evidence": "clearly visible blue digits '63' on back of jersey"
+        },
+        {
+          "image": 2,
+          "number": 63,
+          "location": "back",
+          "evidence": "clearly visible blue digits '63' on back of jersey"
+        },
+        {
+          "image": 3,
+          "number": 63,
+          "location": "back",
+          "evidence": "clearly visible blue digits '63' on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": 63,
+          "location": "back",
+          "evidence": "clearly visible blue digits '63' on back of jersey"
+        },
+        {
+          "image": 5,
+          "number": 63,
+          "location": "back",
+          "evidence": "clearly visible blue digits '63' on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3f7d2fc787d677129d78e8376b7c17fab4f4ad257903b499b90deb1557abcee2",
+      "status": "readable",
+      "number": 69,
+      "location": "back",
+      "prediction": 69,
+      "model_final_claim": 69,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 69,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue digits '69' on back of dark jersey"
+        },
+        {
+          "image": 2,
+          "number": 69,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue digits '69' on back of dark jersey"
+        },
+        {
+          "image": 3,
+          "number": 69,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue digits '69' on back of dark jersey"
+        },
+        {
+          "image": 4,
+          "number": 69,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue digits '69' on back of dark jersey"
+        },
+        {
+          "image": 5,
+          "number": 69,
+          "location": "back of jersey",
+          "evidence": "clearly visible blue digits '69' on back of dark jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-12",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6fdc348084fc778f50727e14a839f54a0bc3a76d05c6adb897354aa35637b8f6",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry to read any numbers."
+        },
+        {
+          "image": 2,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "Clear, complete digit '4' visible on the right thigh of the shorts."
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "Clear, complete digit '4' visible on the right thigh of the shorts, same location as image 2."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-12",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "176b3401258ae9307998dce33a89cc239321c00cbb1872279b417a677f6dc6fe",
+      "status": "readable",
+      "number": 4,
+      "location": "shorts",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 2,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 4,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 5,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-120-9",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "5580ad01a535223fd8578f59d8cf2312c523410291a105579dfe5b1cc25b05d7",
+      "status": "readable",
+      "number": 4,
+      "location": "shorts",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 2,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 3,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 4,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on black shorts"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "digit on shorts is partially obscured and not fully legible"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d066d4fcaf27dd970160c7d1b66527cc44b48eefa65abf897821ec9a717ffe80",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 4,
+      "model_final_claim": 4,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on right short leg"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "no visible digits on jersey, sleeves, or shorts; number area on shorts is obscured or blurred"
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "no visible digits; shorts number area is too blurry to read"
+        },
+        {
+          "image": 4,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on right short leg"
+        },
+        {
+          "image": 5,
+          "number": 4,
+          "location": "shorts",
+          "evidence": "clearly visible white digit '4' on right short leg"
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-0-7",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "1b16226b4c50a0f3b6a312d504b07379ba5296eb5324a420131c6da74ca86e1b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 1,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable jersey digits are readable on the central player's shirt, sleeve, or shorts. The image is blurry and obstructed."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-60-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "aef0c79ddb4d98952f430b5e86e3593fd5d17c03eabc180ce902782820be60f5",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 81,
+      "model_final_claim": 81,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' clearly visible on the right thigh of the central player's black shorts."
+        },
+        {
+          "image": 2,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' clearly visible on the right thigh of the central player's black shorts."
+        },
+        {
+          "image": 3,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' clearly visible on the right thigh of the central player's black shorts."
+        },
+        {
+          "image": 4,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' clearly visible on the right thigh of the central player's black shorts."
+        },
+        {
+          "image": 5,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' clearly visible on the right thigh of the central player's black shorts."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-120-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8623ae9902ed93c38a4a99ed8c63e5ba0fc8776ab8adf4e13ddeb93d4d5db1a6",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 81,
+      "model_final_claim": 81,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' clearly visible on right shorts leg, white on black, fully legible."
+        },
+        {
+          "image": 2,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' visible on right shorts leg, white on black, fully legible."
+        },
+        {
+          "image": 3,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' visible on right shorts leg, white on black, fully legible."
+        },
+        {
+          "image": 4,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' visible on right shorts leg, white on black, fully legible."
+        },
+        {
+          "image": 5,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' visible on right shorts leg, white on black, fully legible."
+        }
+      ]
+    },
+    {
+      "id": "validation_40m-180-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6dff7d0972828b04ec4296d93d83b70b1257e9ee0f76ca6e163353103e93bbf8",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey and shorts are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey and shorts are too blurry to read; no complete, visibly distinguishable number is visible."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey and shorts are obscured or blurred; no complete, visibly distinguishable number can be identified."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey and shorts are not clearly visible; no complete, visibly distinguishable number is present."
+        },
+        {
+          "image": 5,
+          "number": 81,
+          "location": "shorts",
+          "evidence": "Digits '81' are clearly visible on the right thigh of the shorts; complete, unambiguous, and legible."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-0-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "4abf53b50f4b97f18bc64b3421a4f2455eda42900b16f84b936e25a263314d9e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "03b722da53ad0e79756cded10c48c65471933451af9cd66e3b6883b97d89383a",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; too blurry to read any number."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts are too blurry and lack readable numbers."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; number on shorts is partially visible but too blurry to confirm."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts lack readable numbers; side view obscures any potential digits."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts are too blurry and no number can be read."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-120-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "5246c1e403868728b2d64d583ba96a4e9775a99344e630b42f23a482630c2281",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 7,
+      "model_final_claim": 7,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Image too blurry to distinguish any digits on jersey, sleeve, or shorts."
+        },
+        {
+          "image": 2,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '7' visible on back of jersey."
+        },
+        {
+          "image": 3,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '7' visible on back of jersey."
+        },
+        {
+          "image": 4,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '7' visible on back of jersey."
+        },
+        {
+          "image": 5,
+          "number": 7,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '7' visible on back of jersey."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-180-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "7fade65773dac7cb2051125db269d56b251c1241028b385a0b5e97d3bc1e3daa",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry to distinguish any numbers."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts are blurred and lack readable numbers."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits visible; image quality too low to identify any numbers on uniform."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits; uniform details are indistinct and no numbers are visible."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts lack any discernible numbers due to blur and angle."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-0-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6a87c371c10abe66a574bdf2b199616360fe8ccee4b4f923c0cc97807d99c422",
+      "status": "readable",
+      "number": 33,
+      "location": "back",
+      "prediction": 33,
+      "model_final_claim": 33,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": 33,
+          "location": "back of jersey",
+          "evidence": "clearly visible, large purple digits '33' on white jersey back"
+        },
+        {
+          "image": 2,
+          "number": 33,
+          "location": "back of jersey",
+          "evidence": "clearly visible, large purple digits '33' on white jersey back"
+        },
+        {
+          "image": 3,
+          "number": 33,
+          "location": "back of jersey",
+          "evidence": "clearly visible, large purple digits '33' on white jersey back"
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-60-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8d84ec493ea8957d96f8eefeeef8368fae5172f4e8c7cc082d765fe01cd12ed0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 33,
+      "model_final_claim": 33,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "Digits are blurred and partially obscured; only a fragment resembling '3' is visible, not complete or distinguishable."
+        },
+        {
+          "image": 2,
+          "number": 33,
+          "location": "back",
+          "evidence": "Clear, complete, and visibly distinguishable digits '33' on the back of the jersey."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "back",
+          "evidence": "Player\u2019s back is mostly obscured by a referee; no digits are visible on the central player."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "back",
+          "evidence": "Digits are blurred and indistinct; only a partial shape resembling '3' is visible, not complete or readable."
+        },
+        {
+          "image": 5,
+          "number": 33,
+          "location": "back",
+          "evidence": "Clear, complete, and visibly distinguishable digits '33' on the back of the jersey."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-120-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d4466364afe50574a31163c5dbd8c9c0377adb8ec895dd38dad0c3e6c9577a8f",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digits are heavily blurred and indistinct; cannot be read"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "back",
+          "evidence": "no visible digits; jersey is turned away and too blurry"
+        },
+        {
+          "image": 3,
+          "number": 89,
+          "location": "back",
+          "evidence": "clearly visible '89' on back of jersey"
+        },
+        {
+          "image": 4,
+          "number": 33,
+          "location": "back",
+          "evidence": "clearly visible '33' on back of jersey"
+        },
+        {
+          "image": 5,
+          "number": 89,
+          "location": "back",
+          "evidence": "clearly visible '89' on back of jersey"
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-0-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "659cdd5b48ab92ca80c25d9e15362b56b410e4ca34fbab62a097521db0edda7b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 3,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Image too blurry; no digits on jersey, sleeve, or shorts are visibly distinguishable."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Image too blurry; no digits on jersey, sleeve, or shorts are visibly distinguishable."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Image too blurry; no digits on jersey, sleeve, or shorts are visibly distinguishable."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-60-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d20d1b66e03f79550e95169d49bec4bb12c9179ff248c3b1761568611774cb80",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey or shorts are too blurred and indistinct to read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are partially visible but too blurred to confidently identify."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are slightly more visible but still too blurred and ambiguous to read."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are obscured by motion blur and partial occlusion; not readable."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are completely blurred and indistinct due to motion and low resolution."
+        }
+      ]
+    },
+    {
+      "id": "validation_46m-120-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "41f62dc217e54f8b4280beae74d019126ae39762b6b23838a2874335f5fad52d",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are partially visible but too blurry and obscured to read completely; no complete number can be confirmed."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are too blurred and partially hidden; no complete, visibly distinguishable number is readable."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are indistinct and blurred; no complete number can be read with certainty."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are too blurry and obscured; no complete, visibly distinguishable number is readable."
+        }
+      ]
+    },
+    {
+      "id": "game2_01m-060-19",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "f22fee13fb8b1db29ae30ea0b6a78beb73812afc2c27b9f4c6686ec0236277db",
+      "status": "readable",
+      "number": 3,
+      "location": "back",
+      "prediction": 3,
+      "model_final_claim": 3,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 2,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 3,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 4,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 5,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        }
+      ]
+    },
+    {
+      "id": "game2_01m-180-17",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "6c5a48552621ff353b75a26abb0ee388fba069dffbb772e8c57cfb33e9f51f26",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 3,
+      "model_final_claim": 3,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digit is partially visible and blurred, cannot be read confidently"
+        },
+        {
+          "image": 2,
+          "number": 3,
+          "location": "back",
+          "evidence": "complete, clearly visible white digit '3' on red jersey back"
+        },
+        {
+          "image": 3,
+          "number": 3,
+          "location": "back",
+          "evidence": "complete, clearly visible white digit '3' on red jersey back"
+        },
+        {
+          "image": 4,
+          "number": 3,
+          "location": "back",
+          "evidence": "complete, clearly visible white digit '3' on red jersey back"
+        },
+        {
+          "image": 5,
+          "number": 3,
+          "location": "back",
+          "evidence": "complete, clearly visible white digit '3' on red jersey back"
+        }
+      ]
+    },
+    {
+      "id": "game2_01m-060-17",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "3e639ae774af8482dd423a12bfae6740aa1ad19efe19ee7ca80363e8ffe81001",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are partially visible but too blurred to read as a complete, distinguishable number."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are obscured by motion blur and angle; no complete number is readable."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Back of jersey is turned away; no digits visible on front, sleeves, or shorts."
+        },
+        {
+          "image": 5,
+          "number": 17,
+          "location": "back of jersey",
+          "evidence": "Digits '17' are clearly visible and legible on the back of the jersey in this frame."
+        }
+      ]
+    },
+    {
+      "id": "game2_01m-180-20",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "9014e640991b19a239744283305816e64b9408ee4fc1b190893bbd71efe357fa",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry to distinguish any numbers."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts are obscured or too low resolution to read any numbers."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits visible; jersey and shorts lack readable numbers due to blur and angle."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits visible; image too blurry and obstructed to identify any numbers."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits visible; jersey and shorts show no readable numbers due to motion blur and low resolution."
+        }
+      ]
+    },
+    {
+      "id": "game2_01m-060-18",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "826c258bfee1ec8cfe0f814466d382630aef6ec6ccbd0a39363282b996e9709e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; logo present but not a number."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts obscured or too blurry to read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are too small and blurry to distinguish; no clear number on jersey or sleeves."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits on jersey, sleeves, or shorts; image too low resolution."
+        },
+        {
+          "image": 5,
+          "number": 6,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digit '6' visible on the back of the jersey; no conflicting digits in other images."
+        }
+      ]
+    },
+    {
+      "id": "game2_01m-180-21",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d26307df0e5c6cbb8def731610c177a211805cb3061d563fa17faca145074c0c",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry to distinguish any numbers."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are not clearly visible or legible on any part of the central player\u2019s uniform; too blurry or obscured."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, distinguishable digits visible on jersey, sleeve, or shorts; image quality prevents reading."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits; uniform details are too blurred or partially hidden to identify any number."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible or legible digits on central player\u2019s jersey, sleeve, or shorts; image too low resolution."
+        }
+      ]
+    },
+    {
+      "id": "game2_06m-060-23",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "f8d782aa4a2de7f5e36eecd1b5de81c86c982b5672cba96f1a9df0812585870c",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        }
+      ]
+    },
+    {
+      "id": "game2_06m-180-16",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "84e42c75481c95d067d30f6ea9716a77c6c633f4e73537fc8ffac34f3204512a",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 22,
+      "model_final_claim": 22,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 22,
+          "location": "shorts",
+          "evidence": "Digits '22' clearly visible on right thigh of shorts, fully legible and unobstructed."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are blurred and partially obscured by motion and angle; no complete number readable."
+        },
+        {
+          "image": 3,
+          "number": 22,
+          "location": "shorts",
+          "evidence": "Digits '22' clearly visible on right thigh of shorts, same position and style as image 1."
+        },
+        {
+          "image": 4,
+          "number": 22,
+          "location": "shorts",
+          "evidence": "Digits '22' clearly visible on right thigh of shorts, consistent with images 1 and 3."
+        },
+        {
+          "image": 5,
+          "number": 22,
+          "location": "shorts",
+          "evidence": "Digits '22' clearly visible on right thigh of shorts, fully legible and consistent with prior images."
+        }
+      ]
+    },
+    {
+      "id": "game2_06m-060-21",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "6c0cdcd9286e43bd0bb427b9ee76a0bc6e0496b9e1351d2d761186b4d16d3ddd",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and partially obscured, not fully legible"
+        },
+        {
+          "image": 2,
+          "number": 12,
+          "location": "back",
+          "evidence": "clearly visible '12' on back of jersey, complete and distinguishable"
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and partially obscured, not fully legible"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are obscured by equipment and motion blur"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are obscured by equipment and motion blur"
+        }
+      ]
+    },
+    {
+      "id": "game2_06m-180-15",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d3a8049547ec54b0a83eac15beca6a63f44c80fd590a257a5cc7c5790552c377",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; only a circular logo is present on the chest."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey front and sleeves are plain, shorts show no readable numbers."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey and shorts lack readable numbers, only logo visible on chest."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey front and sleeves are plain, shorts show no readable numbers."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey front and sleeves are plain, shorts show no readable numbers."
+        }
+      ]
+    },
+    {
+      "id": "game2_06m-060-09",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "fd8c29018ac2e94505881bc8c4d807ac9846c3b5a3ccb099bedd95e4d57367c0",
+      "status": "readable",
+      "number": 3,
+      "location": "back",
+      "prediction": 3,
+      "model_final_claim": 3,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 2,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 3,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 4,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        },
+        {
+          "image": 5,
+          "number": 3,
+          "location": "back of jersey",
+          "evidence": "clear, complete digit '3' visible on back of red jersey"
+        }
+      ]
+    },
+    {
+      "id": "game2_06m-180-14",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "5e693f86429d80468bd2312d8e55a96f728c361d4447f4e72a34a6925114556a",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially hidden by equipment; no complete, visibly distinguishable number can be read."
+        }
+      ]
+    },
+    {
+      "id": "game2_24m-060-12",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "ba8812d0aaf8f99286961b4256a97fadf0743ee3bff367dbd2594f6e907b7247",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey, sleeve, or shorts are blurred and not visibly distinguishable."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are not visible or are too blurred to read on any part of the uniform."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable digits are present on jersey, sleeve, or shorts."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are obscured or too low resolution to be read confidently."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits on jersey, sleeve, or shorts; all are blurred or hidden."
+        }
+      ]
+    },
+    {
+      "id": "game2_24m-180-17",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "30c3068c0b9a1660cb55f73a4690de06575c01019e45d8616a507661cb0d1c53",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 95,
+      "model_final_claim": 95,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 95,
+          "location": "back",
+          "evidence": "clearly visible '95' on back of red jersey"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "digits obscured by angle and foreground object"
+        },
+        {
+          "image": 3,
+          "number": 95,
+          "location": "back",
+          "evidence": "clearly visible '95' on back of red jersey"
+        },
+        {
+          "image": 4,
+          "number": 95,
+          "location": "back",
+          "evidence": "clearly visible '95' on back of red jersey"
+        },
+        {
+          "image": 5,
+          "number": 95,
+          "location": "back",
+          "evidence": "partially visible but clearly '95' on back of red jersey"
+        }
+      ]
+    },
+    {
+      "id": "game2_24m-060-19",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "e6e055435d4d067c6e134ec3d983714bbec8f046ec9fcefa0b786adbf3d5d7df",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; all areas are blurred or obscured."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits; jersey front and sleeves are indistinct and lack readable numbers."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits visible; jersey and shorts show no clear or complete numbers."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits; jersey and shorts are too blurry or lack visible numbers."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits visible; jersey and shorts are obscured or too low resolution to read."
+        }
+      ]
+    },
+    {
+      "id": "game2_24m-180-01",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "2de07a43443c973f58699346c2ee93dabc3ff1480bc8bd488ccef0d758398c6f",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are partially visible but too blurred to read completely; no complete number can be confirmed."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are obscured by motion blur and angle; no complete, readable number is present."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Player is cropped; no jersey, sleeve, or shorts with readable digits are visible."
+        }
+      ]
+    },
+    {
+      "id": "game2_33m-060-04",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "cfba5952637bf215d73b4acd664acb218c86bb69ee32d6a5717bd63db9479196",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 94,
+      "model_final_claim": 94,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits are visible on jersey, sleeve, or shorts; back is turned but number area is obscured or too low resolution."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits; jersey back is partially visible but number is not legible."
+        },
+        {
+          "image": 4,
+          "number": 94,
+          "location": "back of jersey",
+          "evidence": "Digits '94' are clearly visible and complete on the back of the white jersey."
+        },
+        {
+          "image": 5,
+          "number": 94,
+          "location": "back of jersey",
+          "evidence": "Digits '94' are clearly visible and complete on the back of the white jersey, matching image 4."
+        }
+      ]
+    },
+    {
+      "id": "game2_33m-180-09",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "1006e8e02edaf824b6ddff60c3c02fb356b9594876df336f28423715bcedf5d0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; image too blurry and obstructed."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are too blurred and partially hidden to read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No clearly visible digits; jersey and shorts are obscured or too low resolution."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back are indistinct and partially blocked; cannot confirm any number."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No readable digits on any visible part of uniform; image too blurry."
+        }
+      ]
+    },
+    {
+      "id": "game2_33m-060-10",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "1777aa8d4bbfc1a6d93be3e363b1b4617342eee776aa8b1c0c65b6e4b51d20d8",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": 91,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": 91,
+          "location": "back of jersey",
+          "evidence": "Digits '91' are clearly visible and complete on the back of the red jersey."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are obscured by motion blur and body position; no complete number is readable."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No digits are visible on jersey, sleeves, or shorts; image too blurry to discern any number."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are partially hidden and blurred; no complete, visibly distinguishable number can be read."
+        }
+      ]
+    },
+    {
+      "id": "game2_33m-180-08",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "955479ad0960bfdfe4e3bf6f84fcfea07b4c333452723bb9d938d61cf4e1f4b7",
+      "status": "readable",
+      "number": 94,
+      "location": "back",
+      "prediction": 94,
+      "model_final_claim": 94,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 94,
+          "location": "back",
+          "evidence": "clearly visible white digits '94' on red jersey back"
+        },
+        {
+          "image": 2,
+          "number": 94,
+          "location": "back",
+          "evidence": "clearly visible white digits '94' on red jersey back"
+        },
+        {
+          "image": 3,
+          "number": 94,
+          "location": "back",
+          "evidence": "clearly visible white digits '94' on red jersey back"
+        },
+        {
+          "image": 4,
+          "number": 94,
+          "location": "back",
+          "evidence": "partially visible but clearly '94' on red jersey back"
+        },
+        {
+          "image": 5,
+          "number": 94,
+          "location": "back",
+          "evidence": "clearly visible white digits '94' on red jersey back"
+        }
+      ]
+    },
+    {
+      "id": "game2_33m-060-09",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "e8cca0199e33864532b68b429913d464edc2c5ee177d80eff44198560bf9385e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable digits on jersey, sleeve, or shorts; logo present but not a number."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable digits on jersey, sleeve, or shorts; logo present but not a number."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable digits on jersey, sleeve, or shorts; logo present but not a number."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable digits on jersey, sleeve, or shorts; logo present but not a number."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No complete, visibly distinguishable digits on jersey, sleeve, or shorts; logo present but not a number; partial '55' visible on another player, ignored."
+        }
+      ]
+    },
+    {
+      "id": "game2_33m-180-11",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "564455b0de164151a0f98aa24c490dfe329b5ded4f51700d7a8615f3c8b58c5f",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are too blurred and partially obscured to be read as complete or distinguishable."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; any markings are too indistinct to identify."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and not legible; no complete number can be confirmed."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are too small and blurred to be read as complete or distinguishable."
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-060-10",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d91c80efc4209301eb2a0d3813e0a1d4c6f516be9ecba258b13a239ef7e8afc4",
+      "status": "readable",
+      "number": 93,
+      "location": "back",
+      "prediction": 93,
+      "model_final_claim": 93,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 93,
+          "location": "back",
+          "evidence": "clearly visible '93' on back of red jersey"
+        },
+        {
+          "image": 2,
+          "number": 93,
+          "location": "back",
+          "evidence": "clearly visible '93' on back of red jersey, slightly bent posture"
+        },
+        {
+          "image": 3,
+          "number": 93,
+          "location": "back",
+          "evidence": "clearly visible '93' on back of red jersey, similar pose to image 1"
+        },
+        {
+          "image": 4,
+          "number": 93,
+          "location": "back",
+          "evidence": "clearly visible '93' on back of red jersey, arm extended"
+        },
+        {
+          "image": 5,
+          "number": 93,
+          "location": "back",
+          "evidence": "clearly visible '93' on back of red jersey, standing upright"
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-180-22",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "455020b9c279909c2541b4f821af3ffbf13ec66ef059226ef722c2d7065b74c3",
+      "status": "readable",
+      "number": 93,
+      "location": "back",
+      "prediction": 93,
+      "model_final_claim": 93,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 93,
+          "location": "back of jersey",
+          "evidence": "clearly visible '93' in white with black outline on red jersey"
+        },
+        {
+          "image": 2,
+          "number": 93,
+          "location": "back of jersey",
+          "evidence": "clearly visible '93' in white with black outline on red jersey"
+        },
+        {
+          "image": 3,
+          "number": 93,
+          "location": "back of jersey",
+          "evidence": "clearly visible '93' in white with black outline on red jersey"
+        },
+        {
+          "image": 4,
+          "number": 93,
+          "location": "back of jersey",
+          "evidence": "clearly visible '93' in white with black outline on red jersey"
+        },
+        {
+          "image": 5,
+          "number": 93,
+          "location": "back of jersey",
+          "evidence": "clearly visible '93' in white with black outline on red jersey"
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-060-22",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "3f747b26ae8a8d60709b08256270ad32f356cb19c0616ed82ae6627b0e465eed",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 86,
+      "model_final_claim": 86,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": 86,
+          "location": "back",
+          "evidence": "clearly visible white digits '86' on red jersey back"
+        },
+        {
+          "image": 2,
+          "number": 86,
+          "location": "back",
+          "evidence": "clearly visible white digits '86' on red jersey back"
+        },
+        {
+          "image": 3,
+          "number": 86,
+          "location": "back",
+          "evidence": "clearly visible white digits '86' on red jersey back"
+        },
+        {
+          "image": 4,
+          "number": 86,
+          "location": "back",
+          "evidence": "clearly visible white digits '86' on red jersey back"
+        },
+        {
+          "image": 5,
+          "number": 86,
+          "location": "back",
+          "evidence": "clearly visible white digits '86' on red jersey back"
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-180-10",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "f66f2a1de24f98e742a27d95cd0e577f04ff9ad52e92ad09b11105dc425b40be",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 96,
+      "model_final_claim": 96,
+      "reason": "two or more agreeing readings, no conflict",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; cannot be read."
+        },
+        {
+          "image": 2,
+          "number": 96,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digits '96' visible on back of red jersey."
+        },
+        {
+          "image": 3,
+          "number": 96,
+          "location": "back of jersey",
+          "evidence": "Clear, complete digits '96' visible on back of red jersey."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are obscured by another player and body angle; not readable."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits are too blurry and partially hidden; cannot be read."
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-060-24",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "5050b42f2ae1cb49af8491a79223e12f3e81bbf5f7e0a8513977edcb44934912",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially obscured; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and partially hidden; no complete, visibly distinguishable number can be read."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on jersey are blurred and indistinct; no complete, visibly distinguishable number can be read."
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-180-13",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "670954c0045c15e70ff7b35b980cc5252353f68f9c493cfab2a57c0aa6921a92",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "identity not confirmed by model",
+      "image_count": 4,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are blurred and indistinct; cannot confirm any complete number."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeves, or shorts; number area is obscured or too blurry to read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are too blurred and partially hidden; no complete number readable."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are extremely blurred and partially occluded; no complete number visible."
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-060-15",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d5dc3d4ed62bce5577eef0064a5423d76d71c05a97fe131ca770f2782cccd7c6",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are blurred and indistinct; no complete, visibly distinguishable digits readable."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are partially visible but too blurred to read; no complete, visibly distinguishable digits."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are partially visible but too blurred to read; no complete, visibly distinguishable digits."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are partially visible but too blurred to read; no complete, visibly distinguishable digits."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on back of jersey are partially visible but too blurred to read; no complete, visibly distinguishable digits."
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-180-14",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "7ad1a28ab3f4b3e9a0e7d071b39e02abb02a0b3383d585c76a9b696478783ff0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "unknown",
+          "evidence": "No visible digits on jersey, sleeve, or shorts; all areas are blurred or obscured."
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are too blurred and partially hidden to be read."
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are partially visible but too blurred to distinguish clearly."
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are tiny and blurred; not visibly distinguishable."
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "unknown",
+          "evidence": "Digits on shorts are partially visible but too small and blurred to read confidently."
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-060-12",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "1387980eae391d9d44a131d90e23ce60667e7b9e9a28420377deae55d7670c4b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct, cannot be read"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are partially visible but too blurred to read"
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are slightly more visible but still too blurred to confidently read"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct, cannot be read"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct, cannot be read"
+        }
+      ]
+    },
+    {
+      "id": "game2_41m-180-15",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "e4274347d54fd7e3fcaa497c499993486fa9834281cd3eaa79904f33ea871adb",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "model_final_claim": null,
+      "reason": "fewer than two complete readings",
+      "image_count": 5,
+      "readings": [
+        {
+          "image": 1,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are blurred and indistinct"
+        },
+        {
+          "image": 2,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are too blurred to read"
+        },
+        {
+          "image": 3,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are partially visible but too blurry to confirm"
+        },
+        {
+          "image": 4,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are obscured by motion blur and angle"
+        },
+        {
+          "image": 5,
+          "number": null,
+          "location": "back",
+          "evidence": "digits on back are visible but too pixelated and indistinct to read"
+        }
+      ]
+    }
+  ],
+  "prediction_sha256": "d9ec1788316a71cdbbf7d993bcb39abfe5463165f36ab9db9fa9a5af845cbe58",
+  "evidence_sha256": "4292d8bdfac0118edf5520ce4bfd5e81fca2eaf3b0526c6c07329a86beff7cbd",
+  "labels_sha256": "b2c70dab2a2ef5638eeec6dd9aa925829d769298a10aa021cbd5069c17ea08d2",
+  "enforced_vs_claim_disagreements": 2,
+  "independent_human_ground_truth": false,
+  "label_revision": 2,
+  "label_corrections": [
+    {
+      "id": "game2_33m-180-08",
+      "old_number": 93,
+      "number": 94,
+      "reason": "The original crop shows 94; nearby frames 170,177,184,195 from the same visibly consistent red-helmeted player confirm the final digit is 4. The two later white-helmeted 93 crops remain 93. Error was in the assistant reference, not the 235B prediction. Discovered after reviewing temporal evidence and previous model results; not blind.",
+      "evidence": "data/ball-hockey/review-evidence/jersey-game2-33m-94.jpg",
+      "evidence_sha256": "10dc51b1cb478d3a95bc3c0a09322f8d0fb691ecf0a95c575b608bfe87ca49a3"
+    }
+  ],
+  "limitations": "The original central crop is unchanged, but neighboring automatic-track crops supply additional evidence. References are only for the central single image: extra readings on unknown central crops may be correct, and are not scored as false. Adjacent frames and cases are dependent. Model-reported identity consistency can be wrong. The benchmark reviewed box selects the automatic track; this is assisted regression, not full-game jersey identification."
+}

@@ -1,0 +1,265 @@
+{
+  "id": "nbhl-consistency-error-example-v1",
+  "source_id": "plDp2kPtk_g",
+  "case": "guarded-plDp2kPtk_g-007",
+  "a": {
+    "frame": 1066,
+    "source_time_s": 671.0666666666666,
+    "track_id": 124,
+    "bbox": [
+      851.760986328125,
+      391.9073181152344,
+      896.475341796875,
+      526.9180297851562
+    ],
+    "confidence": 0.9468846321105957,
+    "observed": true,
+    "mask_detection_iou": 0.8396706665342509,
+    "mask_bbox": [
+      846,
+      394,
+      895,
+      526
+    ],
+    "mask_area": 4021,
+    "polygon": [
+      [
+        876,
+        394
+      ],
+      [
+        865,
+        398
+      ],
+      [
+        863,
+        415
+      ],
+      [
+        853,
+        423
+      ],
+      [
+        855,
+        441
+      ],
+      [
+        851,
+        472
+      ],
+      [
+        860,
+        491
+      ],
+      [
+        858,
+        493
+      ],
+      [
+        850,
+        491
+      ],
+      [
+        854,
+        504
+      ],
+      [
+        846,
+        521
+      ],
+      [
+        851,
+        525
+      ],
+      [
+        858,
+        525
+      ],
+      [
+        863,
+        515
+      ],
+      [
+        873,
+        505
+      ],
+      [
+        882,
+        510
+      ],
+      [
+        887,
+        521
+      ],
+      [
+        894,
+        516
+      ],
+      [
+        886,
+        474
+      ],
+      [
+        889,
+        470
+      ],
+      [
+        886,
+        449
+      ],
+      [
+        888,
+        427
+      ],
+      [
+        882,
+        413
+      ],
+      [
+        886,
+        402
+      ]
+    ],
+    "role_probability": 0.9679051073934921,
+    "role_keep": true,
+    "image": "/data/ball-hockey/reliability-20261018/guarded-long-audit-v1/plDp2kPtk_g/guarded-plDp2kPtk_g-007-a.jpg",
+    "sha256": "efb260155ca4d8024b9ac1877bec5040cad5d5367a5f34387dc9ac83c4c68fc2",
+    "crop_bounds": [
+      848,
+      386,
+      900,
+      532
+    ]
+  },
+  "b": {
+    "frame": 1291,
+    "source_time_s": 686.0666666666666,
+    "track_id": 124,
+    "bbox": [
+      810.2484741210938,
+      410.1420593261719,
+      866.1253051757812,
+      585.7552490234375
+    ],
+    "confidence": 0.8915592432022095,
+    "observed": true,
+    "mask_detection_iou": 0.8930650613158009,
+    "mask_bbox": [
+      814,
+      410,
+      864,
+      586
+    ],
+    "mask_area": 5853,
+    "polygon": [
+      [
+        837,
+        410
+      ],
+      [
+        830,
+        415
+      ],
+      [
+        830,
+        437
+      ],
+      [
+        821,
+        447
+      ],
+      [
+        814,
+        465
+      ],
+      [
+        814,
+        476
+      ],
+      [
+        820,
+        487
+      ],
+      [
+        829,
+        539
+      ],
+      [
+        819,
+        558
+      ],
+      [
+        815,
+        580
+      ],
+      [
+        822,
+        584
+      ],
+      [
+        830,
+        572
+      ],
+      [
+        831,
+        580
+      ],
+      [
+        843,
+        585
+      ],
+      [
+        847,
+        582
+      ],
+      [
+        846,
+        566
+      ],
+      [
+        851,
+        550
+      ],
+      [
+        851,
+        532
+      ],
+      [
+        859,
+        522
+      ],
+      [
+        863,
+        505
+      ],
+      [
+        862,
+        458
+      ],
+      [
+        853,
+        436
+      ],
+      [
+        854,
+        426
+      ],
+      [
+        850,
+        413
+      ]
+    ],
+    "role_probability": 0.9838096694913708,
+    "role_keep": true,
+    "image": "/data/ball-hockey/reliability-20261018/guarded-long-audit-v1/plDp2kPtk_g/guarded-plDp2kPtk_g-007-b.jpg",
+    "sha256": "17f0055a6566dd2b91cf78312438dc15a4a5a5ebfd51a2b9c5f1cb4532c77f5c",
+    "crop_bounds": [
+      805,
+      403,
+      870,
+      592
+    ]
+  },
+  "review": "Different people: white versus red helmet, different leg protection and footwear. Both forward and reverse guarded SAM2 retained the same ID at these endpoints.",
+  "selection": "Illustrates one of the two known wrong matches remaining after forward/reverse agreement; not a representative accuracy sample."
+}

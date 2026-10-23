@@ -1,0 +1,1900 @@
+{
+  "status": "sealed_before_prediction_review",
+  "sealed_at": "2026-10-18T18:50:58.276848+00:00",
+  "protocol_sha256": "fa3c5c43c0d173a630f9b847b0fd8ce3ad6745a82ef1c3c6293dc8796b2952dd",
+  "reviewer": "assistant",
+  "independent_human_ground_truth": false,
+  "inference_already_running": true,
+  "predictions_or_scores_seen_for_these_recordings": false,
+  "original_reference_unchanged": true,
+  "counts": {
+    "visible": 54,
+    "out_of_view": 46,
+    "uncertain": 24
+  },
+  "observations": [
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 0,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        350,
+        143,
+        448,
+        302
+      ],
+      "frame_sha256": "4ec2ffb141f62eee8f49f789004f3b10f38de1e24b27866d9d59e6b758aa18eb",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 0,
+      "identity": "y5",
+      "state": "visible",
+      "bbox": [
+        1580,
+        364,
+        1760,
+        744
+      ],
+      "frame_sha256": "4ec2ffb141f62eee8f49f789004f3b10f38de1e24b27866d9d59e6b758aa18eb",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 15,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "b2130eb8121580961cd3c55daadd16eb159b8a4bc123735b8dbbe5051e6674f5",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 15,
+      "identity": "y5",
+      "state": "visible",
+      "bbox": [
+        516,
+        339,
+        711,
+        624
+      ],
+      "frame_sha256": "b2130eb8121580961cd3c55daadd16eb159b8a4bc123735b8dbbe5051e6674f5",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 30,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "6cd22597bc1da3d39704fb41696a97c9a81d97e5ac962dabe9c8f106088f7115",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 30,
+      "identity": "y5",
+      "state": "visible",
+      "bbox": [
+        888,
+        348,
+        1047,
+        648
+      ],
+      "frame_sha256": "6cd22597bc1da3d39704fb41696a97c9a81d97e5ac962dabe9c8f106088f7115",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 45,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        792,
+        411,
+        876,
+        591
+      ],
+      "frame_sha256": "1a342fb2a683cd5788ee850ced046f31686f2fd6597834fc58c703260d4f9b43",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 45,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "1a342fb2a683cd5788ee850ced046f31686f2fd6597834fc58c703260d4f9b43",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 60,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1320,
+        366,
+        1416,
+        537
+      ],
+      "frame_sha256": "114cdc43ef4f10908ce818b059ea028461a7492f00db2fa7bc9e2a2f5151933d",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 60,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "114cdc43ef4f10908ce818b059ea028461a7492f00db2fa7bc9e2a2f5151933d",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 75,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1137,
+        364,
+        1233,
+        507
+      ],
+      "frame_sha256": "b7dff6e828e37f9bf3341f6d4a944f0475a5785823b93c0a7c94238757b6c019",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 75,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "b7dff6e828e37f9bf3341f6d4a944f0475a5785823b93c0a7c94238757b6c019",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 90,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1230,
+        327,
+        1287,
+        474
+      ],
+      "frame_sha256": "9368ceaeae0ce9941e3ecf6bdeb4d3b597a7c0982b4de80c1a3cdbfde1d7797b",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 90,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "9368ceaeae0ce9941e3ecf6bdeb4d3b597a7c0982b4de80c1a3cdbfde1d7797b",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 105,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1293,
+        291,
+        1365,
+        447
+      ],
+      "frame_sha256": "280861b75b9d66f1402da9ae2a9744dd78101c3926daae166e99cb7cb4e9c96d",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 105,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "280861b75b9d66f1402da9ae2a9744dd78101c3926daae166e99cb7cb4e9c96d",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 120,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1347,
+        282,
+        1437,
+        459
+      ],
+      "frame_sha256": "b8e068fb116de11bf4ab4a8fe0965e3f1b6b5e48a4430788cf1959ff260c2670",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 120,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "b8e068fb116de11bf4ab4a8fe0965e3f1b6b5e48a4430788cf1959ff260c2670",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 135,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1269,
+        360,
+        1362,
+        552
+      ],
+      "frame_sha256": "d976b592ed863b35437e0f6c87ab1a8f4d46f49d5ac0fb6eea5a0ed8d854c281",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 135,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "d976b592ed863b35437e0f6c87ab1a8f4d46f49d5ac0fb6eea5a0ed8d854c281",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 150,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1216,
+        424,
+        1320,
+        628
+      ],
+      "frame_sha256": "a317e1e9635a028b905499635376ba74572d86c029bf30a1d552efc02ea3aadb",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 150,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "a317e1e9635a028b905499635376ba74572d86c029bf30a1d552efc02ea3aadb",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 165,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "894c8ad480d72ec26161b23172ee4aa6fb7488e62dd39bd655ab98456b0b39a9",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 165,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "894c8ad480d72ec26161b23172ee4aa6fb7488e62dd39bd655ab98456b0b39a9",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 180,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "a8f8fb47d553925535b81faac16c7d156a91fc700ce8b96aa1dc6799e38f7fac",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 180,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "a8f8fb47d553925535b81faac16c7d156a91fc700ce8b96aa1dc6799e38f7fac",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 195,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1248,
+        519,
+        1353,
+        900
+      ],
+      "frame_sha256": "53fd271a155aebaf02393a0816294e8650742b0c46d5d311b14d2f4f4b45adcf",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 195,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "53fd271a155aebaf02393a0816294e8650742b0c46d5d311b14d2f4f4b45adcf",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 210,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        951,
+        519,
+        1092,
+        888
+      ],
+      "frame_sha256": "007f291c4ae2b7e6a47b36cf4eebc090b49d77e9fcc56494f39e8cd5b4358694",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 210,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "007f291c4ae2b7e6a47b36cf4eebc090b49d77e9fcc56494f39e8cd5b4358694",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 225,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1080,
+        470,
+        1212,
+        805
+      ],
+      "frame_sha256": "f1a0e4360e6c6a74a2972bbd905e0130a53295915d32accf68a792ac621d4d5c",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 225,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "f1a0e4360e6c6a74a2972bbd905e0130a53295915d32accf68a792ac621d4d5c",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 240,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1200,
+        462,
+        1308,
+        792
+      ],
+      "frame_sha256": "b66fd813e35931792d56bcefbbbd639771bad74c05ce0f8a755cd681dd4794b5",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 240,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "b66fd813e35931792d56bcefbbbd639771bad74c05ce0f8a755cd681dd4794b5",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 255,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1134,
+        450,
+        1320,
+        810
+      ],
+      "frame_sha256": "1c68e2fdd79e3a3a590fb2918e4d81be3c5f5d33b6e679e6e3410e29704afc0f",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 255,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "1c68e2fdd79e3a3a590fb2918e4d81be3c5f5d33b6e679e6e3410e29704afc0f",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 270,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        1035,
+        465,
+        1245,
+        903
+      ],
+      "frame_sha256": "70a932431fabca1b37a30ab0ea98722b0de70503642c976f23dafce2cd527841",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 270,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "70a932431fabca1b37a30ab0ea98722b0de70503642c976f23dafce2cd527841",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 285,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        876,
+        546,
+        1137,
+        1080
+      ],
+      "frame_sha256": "5443650de5f000d9edb9e8042dff0b4681d8c732aec94fd062754e2a65a4be88",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 285,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "5443650de5f000d9edb9e8042dff0b4681d8c732aec94fd062754e2a65a4be88",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 300,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        767,
+        650,
+        1081,
+        1080
+      ],
+      "frame_sha256": "863298f462ac2634910563516a23844467c30e588795eb3a6ea8bf8dd6eeba92",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 300,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "863298f462ac2634910563516a23844467c30e588795eb3a6ea8bf8dd6eeba92",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 315,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        843,
+        840,
+        1071,
+        1080
+      ],
+      "frame_sha256": "535750f9019943ed6d5c287e5584e6f133957257acd88185720541efdd4618d6",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 315,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "535750f9019943ed6d5c287e5584e6f133957257acd88185720541efdd4618d6",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 330,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "d620924c50a916756db77fc5d4d3da04ce3af891c8ad1eb9cb11ffd48c35a582",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 330,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "d620924c50a916756db77fc5d4d3da04ce3af891c8ad1eb9cb11ffd48c35a582",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 345,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "339d0e17ddf7f04786368065c8f850c7e57fd015877e955cbe0c378c60073644",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 345,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "339d0e17ddf7f04786368065c8f850c7e57fd015877e955cbe0c378c60073644",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 360,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "450b7a231ba70639ff264517b7fda35628ffab682b22ea7090818ebaffb711e7",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 360,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "450b7a231ba70639ff264517b7fda35628ffab682b22ea7090818ebaffb711e7",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 375,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        961,
+        844,
+        1232,
+        1080
+      ],
+      "frame_sha256": "774a523d6e806b15321668136178a3cd739f41159216cd176e72174f455361af",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 375,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "774a523d6e806b15321668136178a3cd739f41159216cd176e72174f455361af",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 390,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        540,
+        426,
+        924,
+        1029
+      ],
+      "frame_sha256": "b164c874345325ff233f828ed0219642224cc4a5b7dd976636aa611fcbdb0667",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 390,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "b164c874345325ff233f828ed0219642224cc4a5b7dd976636aa611fcbdb0667",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 405,
+      "identity": "n32",
+      "state": "visible",
+      "bbox": [
+        651,
+        255,
+        864,
+        675
+      ],
+      "frame_sha256": "3e59340aa5d8d6bb29122237496fb51619a8c7971fd846bae11ef992edd8ca38",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 405,
+      "identity": "y5",
+      "state": "visible",
+      "bbox": [
+        1098,
+        240,
+        1272,
+        621
+      ],
+      "frame_sha256": "3e59340aa5d8d6bb29122237496fb51619a8c7971fd846bae11ef992edd8ca38",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 420,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "8caefff98459f3da7b402e2bec26a66b2cb3960c8cff310e544250d2ddec381f",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 420,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "8caefff98459f3da7b402e2bec26a66b2cb3960c8cff310e544250d2ddec381f",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 435,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "67b24c419516e93cd3f259628d03396c5bc013b12542e44bc4eee38189e53f57",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 435,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "67b24c419516e93cd3f259628d03396c5bc013b12542e44bc4eee38189e53f57",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 449,
+      "identity": "n32",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "4dd837fcbdc8df0e14b7b8035e519cfe75cecee1c89f6bfeb990413cb83fe0e2",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "frame": 449,
+      "identity": "y5",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "4dd837fcbdc8df0e14b7b8035e519cfe75cecee1c89f6bfeb990413cb83fe0e2",
+      "shape": [
+        1080,
+        1920
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 0,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        950,
+        325,
+        1004,
+        440
+      ],
+      "frame_sha256": "446e169762d060a46899238a2a26f77898974a4ac561975970964a96799ee97f",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 0,
+      "identity": "w_front",
+      "state": "visible",
+      "bbox": [
+        454,
+        451,
+        533,
+        638
+      ],
+      "frame_sha256": "446e169762d060a46899238a2a26f77898974a4ac561975970964a96799ee97f",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 15,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        922,
+        330,
+        972,
+        438
+      ],
+      "frame_sha256": "dedc8d822081dccc57f3516154abc2dd0c594e62dcb4893bcffa3dca1d6a859d",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 15,
+      "identity": "w_front",
+      "state": "visible",
+      "bbox": [
+        464,
+        510,
+        550,
+        720
+      ],
+      "frame_sha256": "dedc8d822081dccc57f3516154abc2dd0c594e62dcb4893bcffa3dca1d6a859d",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 30,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        866,
+        294,
+        920,
+        390
+      ],
+      "frame_sha256": "0bc028330d1d8595601d242f53288a2fc0718b13a81f4e6051536701ed9267e9",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 30,
+      "identity": "w_front",
+      "state": "visible",
+      "bbox": [
+        470,
+        544,
+        552,
+        720
+      ],
+      "frame_sha256": "0bc028330d1d8595601d242f53288a2fc0718b13a81f4e6051536701ed9267e9",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 45,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        838,
+        304,
+        882,
+        396
+      ],
+      "frame_sha256": "9ad233a61353538dc701ab129859bd49d59d714df25257ec85a898822236ee36",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 45,
+      "identity": "w_front",
+      "state": "visible",
+      "bbox": [
+        546,
+        646,
+        616,
+        720
+      ],
+      "frame_sha256": "9ad233a61353538dc701ab129859bd49d59d714df25257ec85a898822236ee36",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 60,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        796,
+        286,
+        838,
+        378
+      ],
+      "frame_sha256": "9afb384c15677ab4d003597717a213039dbcd2fb986d1603e97ccebfe68c04ec",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 60,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "9afb384c15677ab4d003597717a213039dbcd2fb986d1603e97ccebfe68c04ec",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 75,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        782,
+        247,
+        825,
+        339
+      ],
+      "frame_sha256": "6ef2fdd94f6f17752daee3abc75ebf84fa3716f65e2c6d3b38fcd7e9d8cdcabb",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 75,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "6ef2fdd94f6f17752daee3abc75ebf84fa3716f65e2c6d3b38fcd7e9d8cdcabb",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 90,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        770,
+        220,
+        818,
+        310
+      ],
+      "frame_sha256": "2ea4574335717a6009386eece4191d159cc73da8df0839a4e36f0ee6652f6dd4",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 90,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "2ea4574335717a6009386eece4191d159cc73da8df0839a4e36f0ee6652f6dd4",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 105,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        788,
+        220,
+        834,
+        308
+      ],
+      "frame_sha256": "f0df626aea28700c51305d1fca39d9108364a3759b7212cdc98fd071c644cf61",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 105,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "f0df626aea28700c51305d1fca39d9108364a3759b7212cdc98fd071c644cf61",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 120,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        798,
+        234,
+        842,
+        320
+      ],
+      "frame_sha256": "a335b213390e6cfe1b29eb3db6d90efa1e2c0579c9a975e77ad2fb7886e8ec63",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 120,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "a335b213390e6cfe1b29eb3db6d90efa1e2c0579c9a975e77ad2fb7886e8ec63",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 135,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        806,
+        266,
+        838,
+        354
+      ],
+      "frame_sha256": "f88c1ade6e989723ff75da548315fdb866552af2612b0a90e4ca9e1e0f368259",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 135,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "f88c1ade6e989723ff75da548315fdb866552af2612b0a90e4ca9e1e0f368259",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 150,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        814,
+        263,
+        843,
+        334
+      ],
+      "frame_sha256": "f0153ea771aa8a0775052f8f12f2c56a5015ed14065ace73a55bbb40f03522a8",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 150,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "f0153ea771aa8a0775052f8f12f2c56a5015ed14065ace73a55bbb40f03522a8",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 165,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        816,
+        282,
+        850,
+        366
+      ],
+      "frame_sha256": "b79ea397769fab731b92c4342d7e9a54f2e43e387b486de35174f874a34c388a",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 165,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "b79ea397769fab731b92c4342d7e9a54f2e43e387b486de35174f874a34c388a",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 180,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        820,
+        262,
+        852,
+        352
+      ],
+      "frame_sha256": "36b6c9d93f82fd1bfe1cf65ef43df234743eeab8b2d9d3f3549629893c91f964",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 180,
+      "identity": "w_front",
+      "state": "out_of_view",
+      "bbox": null,
+      "frame_sha256": "36b6c9d93f82fd1bfe1cf65ef43df234743eeab8b2d9d3f3549629893c91f964",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Selected player is outside the camera view at this reviewed instant; no position invented."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 195,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        812,
+        230,
+        836,
+        312
+      ],
+      "frame_sha256": "289d7974ba1cc80c895f10d47bb0d22aaa5ad26eb4e08a8d2884459696a450a3",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 195,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "289d7974ba1cc80c895f10d47bb0d22aaa5ad26eb4e08a8d2884459696a450a3",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 210,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        626,
+        264,
+        654,
+        348
+      ],
+      "frame_sha256": "e3e58a04c9288fcaa3fa24bd713db22e5410cee279125492ef951802a420b7a1",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 210,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "e3e58a04c9288fcaa3fa24bd713db22e5410cee279125492ef951802a420b7a1",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 225,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        588,
+        250,
+        614,
+        345
+      ],
+      "frame_sha256": "646f1f34af72293cedb1c81e7d48f54c4fa94e50fed30133c86b29e7eae049f9",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 225,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "646f1f34af72293cedb1c81e7d48f54c4fa94e50fed30133c86b29e7eae049f9",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 240,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        602,
+        222,
+        632,
+        306
+      ],
+      "frame_sha256": "14d37fbbd8001530b2e36c5642fca9acf23e98c86be84d020fa4501c593fb9ee",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 240,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "14d37fbbd8001530b2e36c5642fca9acf23e98c86be84d020fa4501c593fb9ee",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 255,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        588,
+        230,
+        632,
+        310
+      ],
+      "frame_sha256": "73bdbbe356c39801145663f33c4c948f3ed909379d6b7479194d71e5ce4174e3",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 255,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "73bdbbe356c39801145663f33c4c948f3ed909379d6b7479194d71e5ce4174e3",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 270,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        536,
+        274,
+        566,
+        350
+      ],
+      "frame_sha256": "4c9a5a97993d1710e827ebff951d871fef441d3471c62eb60f7ea95833741806",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 270,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "4c9a5a97993d1710e827ebff951d871fef441d3471c62eb60f7ea95833741806",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 285,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        536,
+        286,
+        568,
+        364
+      ],
+      "frame_sha256": "9a16c6c26ff6f6335c9bc9b3c9ea7429d6fbf8ce4f6b04515d5026f2e1d8fead",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 285,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "9a16c6c26ff6f6335c9bc9b3c9ea7429d6fbf8ce4f6b04515d5026f2e1d8fead",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 300,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        540,
+        302,
+        567,
+        365
+      ],
+      "frame_sha256": "bd188203309c0f908b826465a95bd37b6af2f91fc5939dffcb81a5481a26b57e",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 300,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "bd188203309c0f908b826465a95bd37b6af2f91fc5939dffcb81a5481a26b57e",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 315,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        600,
+        338,
+        624,
+        400
+      ],
+      "frame_sha256": "bb1ef7f96a03dab5920168ed808a1e2197a1ec22ac79802bcf8e4ef628f5f9ee",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 315,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "bb1ef7f96a03dab5920168ed808a1e2197a1ec22ac79802bcf8e4ef628f5f9ee",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 330,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        684,
+        364,
+        758,
+        452
+      ],
+      "frame_sha256": "6b6de91f1f499500b5d986891f28756314072025da752fffa87612a285b148a0",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 330,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "6b6de91f1f499500b5d986891f28756314072025da752fffa87612a285b148a0",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 345,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        852,
+        370,
+        904,
+        470
+      ],
+      "frame_sha256": "61b21bf3bed0d5f54fea3794747f3a031f143baa01fea4880367c042b3267905",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 345,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "61b21bf3bed0d5f54fea3794747f3a031f143baa01fea4880367c042b3267905",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 360,
+      "identity": "p_white_right",
+      "state": "visible",
+      "bbox": [
+        1008,
+        388,
+        1068,
+        496
+      ],
+      "frame_sha256": "558084245fd104c0261412ada2a5278cf6c94177f6eefa940e00ef0ad644ef57",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Visible equipment and temporal raw-video context; stick excluded from body box."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 360,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "558084245fd104c0261412ada2a5278cf6c94177f6eefa940e00ef0ad644ef57",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 375,
+      "identity": "p_white_right",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "317d4df7fbeebc76e97e2f54f89b9b66fe22d59baf0313f6535b37a1d69737a8",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 375,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "317d4df7fbeebc76e97e2f54f89b9b66fe22d59baf0313f6535b37a1d69737a8",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 390,
+      "identity": "p_white_right",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "ed1d402bf3c1b52df6a3db85d70c4ce164d5a94148a5e52032c5b77a32e55e39",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 390,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "ed1d402bf3c1b52df6a3db85d70c4ce164d5a94148a5e52032c5b77a32e55e39",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 405,
+      "identity": "p_white_right",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "0f2a24b79eaca5ae63562c33eb93107b55aeab4d293e79d34afdc028d9f84e69",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 405,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "0f2a24b79eaca5ae63562c33eb93107b55aeab4d293e79d34afdc028d9f84e69",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 420,
+      "identity": "p_white_right",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "3c74f90fd0dec453555069f209af4e74ebe11a180ea500aff63fa3b42b8ff00a",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 420,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "3c74f90fd0dec453555069f209af4e74ebe11a180ea500aff63fa3b42b8ff00a",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 435,
+      "identity": "p_white_right",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "e931878d524845db038d947b97d5d4bbd9d2ef27187269e2813da31ecbf0538e",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 435,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "e931878d524845db038d947b97d5d4bbd9d2ef27187269e2813da31ecbf0538e",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 449,
+      "identity": "p_white_right",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "95fed5454b1f4c9f89641ab28f13b40563ff9705ce55edda6c354173b8c5b13d",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "frame": 449,
+      "identity": "w_front",
+      "state": "uncertain",
+      "bbox": null,
+      "frame_sha256": "95fed5454b1f4c9f89641ab28f13b40563ff9705ce55edda6c354173b8c5b13d",
+      "shape": [
+        720,
+        1280
+      ],
+      "note": "Identity cannot be confidently continued through the intervening view change; excluded from identity scoring."
+    }
+  ],
+  "limits": "Four predetermined players in two 30-second intervals. Sparse one-second samples, not dense every-frame MOT ground truth. Supplementary labels sealed after inference started but before prediction review. No parameter tuning on this audit."
+}

@@ -1,0 +1,189 @@
+{
+  "id": "nbhl-long-identity-examples-v1",
+  "selection": "Three illustrative reviewed failures selected after evaluation. Not a random sample or an accuracy estimate.",
+  "cases": [
+    {
+      "case": {
+        "track_id": "021-00-102",
+        "gap_s": 5,
+        "a": {
+          "frame": 429,
+          "source_time_s": 2548.6,
+          "bbox": [
+            456.77,
+            465.05,
+            562.91,
+            641.16
+          ],
+          "confidence": 0.91115,
+          "role_probability": 0.91136,
+          "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/Z-tFHtxODsE/Z-tFHtxODsE-020-a.jpg",
+          "sha256": "62bf051db0bf10be8cf3f306ebd6fe2def1385798089a3dd16deb89cf5131471",
+          "crop_bounds": [
+            448,
+            458,
+            571,
+            648
+          ]
+        },
+        "b": {
+          "frame": 504,
+          "source_time_s": 2553.6,
+          "bbox": [
+            383.66,
+            494.59,
+            492.18,
+            656.24
+          ],
+          "confidence": 0.91078,
+          "role_probability": 0.9628,
+          "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/Z-tFHtxODsE/Z-tFHtxODsE-020-b.jpg",
+          "sha256": "138869df9e877991736ab2ad8b9c5a3e5ede606295108cef864fed4267c9033f",
+          "crop_bounds": [
+            374,
+            488,
+            500,
+            662
+          ]
+        },
+        "rank": "011159bc238edf72ed9d347835a9fedd7a10cf77ec825fa1439081d3a3abc69d",
+        "id": "Z-tFHtxODsE-020"
+      },
+      "review": "White goalie in A is replaced by dark-uniform field player in B.",
+      "baseline_same_id": true,
+      "guarded_same_id": false,
+      "guarded_endpoints": {
+        "a": {
+          "track_id": "021-00-119",
+          "iou": 1.0
+        },
+        "b": {
+          "track_id": "021-00-144",
+          "iou": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "track_id": "005-00-139",
+        "gap_s": 30,
+        "a": {
+          "frame": 627,
+          "source_time_s": 641.8,
+          "bbox": [
+            494.24,
+            414.12,
+            580.2,
+            548.52
+          ],
+          "confidence": 0.90436,
+          "role_probability": 0.97013,
+          "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/plDp2kPtk_g/plDp2kPtk_g-003-a.jpg",
+          "sha256": "67297fec63e26c7b7eed5ee2ce2605364c2d5c8068759c0a42a546c274da93d2",
+          "crop_bounds": [
+            487,
+            408,
+            587,
+            553
+          ]
+        },
+        "b": {
+          "frame": 1077,
+          "source_time_s": 671.8,
+          "bbox": [
+            488.82,
+            403.79,
+            539.6,
+            535.48
+          ],
+          "confidence": 0.86878,
+          "role_probability": 0.83358,
+          "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/plDp2kPtk_g/plDp2kPtk_g-003-b.jpg",
+          "sha256": "cd1fa59385807f22cffec98c4aa421ea59957dbb7b848763eb888ed72cb92b18",
+          "crop_bounds": [
+            484,
+            398,
+            543,
+            540
+          ]
+        },
+        "rank": "074be8be30b9c28efceca1f76ce049d76cedcf1b934e831ea9f46f4e86e0465c",
+        "id": "plDp2kPtk_g-003"
+      },
+      "review": "Red-uniform player in A; white #85 in B.",
+      "baseline_same_id": true,
+      "guarded_same_id": false,
+      "guarded_endpoints": {
+        "a": {
+          "track_id": "005-00-212",
+          "iou": 1.0
+        },
+        "b": {
+          "track_id": "005-00-129",
+          "iou": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "track_id": "010-00-2",
+        "gap_s": 60,
+        "a": {
+          "frame": 252,
+          "source_time_s": 1216.8,
+          "bbox": [
+            673.65,
+            441.52,
+            788.07,
+            632.36
+          ],
+          "confidence": 0.88041,
+          "role_probability": 0.88683,
+          "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/OLpK8enSjJs/OLpK8enSjJs-001-a.jpg",
+          "sha256": "e9617df5c592598bc3d03528167e03cadd9bc95cabc6e4eda05d7aff472a1874",
+          "crop_bounds": [
+            664,
+            433,
+            797,
+            639
+          ]
+        },
+        "b": {
+          "frame": 1152,
+          "source_time_s": 1276.8,
+          "bbox": [
+            566.82,
+            367.39,
+            612.17,
+            482.75
+          ],
+          "confidence": 0.69342,
+          "role_probability": 0.91435,
+          "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/OLpK8enSjJs/OLpK8enSjJs-001-b.jpg",
+          "sha256": "c73b0f4cec70915b895c4526fa4c4b0d30028eac0ece1300c012a361c830eff1",
+          "crop_bounds": [
+            563,
+            362,
+            615,
+            487
+          ]
+        },
+        "rank": "1cac9a75da5aefb430d01cf50d57a32c432de065f35f22c76c0c03977421aa03",
+        "id": "OLpK8enSjJs-001"
+      },
+      "review": "Red-uniform dark-helmet player in A; white-uniform white-helmet opponent in B.",
+      "baseline_same_id": true,
+      "guarded_same_id": false,
+      "guarded_endpoints": {
+        "a": {
+          "track_id": "010-00-2",
+          "iou": 1.0
+        },
+        "b": {
+          "track_id": "010-00-44",
+          "iou": 1.0
+        }
+      }
+    }
+  ]
+}

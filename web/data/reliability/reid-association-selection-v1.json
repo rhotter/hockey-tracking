@@ -1,0 +1,4522 @@
+{
+  "id": "nbhl-reid-association-selection-v1",
+  "frozen_at": "2026-10-18T15:43:52.638456+00:00",
+  "selection_source": "plDp2kPtk_g",
+  "transfer_source": "X83xW6iQKoc",
+  "baseline": {
+    "counts": {
+      "correct": 9,
+      "wrong": 4,
+      "unknown_same": 5,
+      "same_total": 21,
+      "different_total": 49,
+      "missing": 0,
+      "matched_observations": 90,
+      "reference_observations": 90
+    },
+    "setting": {
+      "mode": "original",
+      "weight": 0.0,
+      "minimum_cosine": 0.0,
+      "high_only": false
+    }
+  },
+  "chosen": {
+    "variant": "extended_full",
+    "setting": {
+      "mode": "blend",
+      "weight": 0.75,
+      "minimum_cosine": 0.5,
+      "high_only": true
+    },
+    "counts": {
+      "correct": 14,
+      "wrong": 1,
+      "unknown_same": 9,
+      "same_total": 21,
+      "different_total": 49,
+      "missing": 0,
+      "matched_observations": 90,
+      "reference_observations": 90
+    },
+    "eligible": true,
+    "objective": [
+      9,
+      0,
+      -9
+    ]
+  },
+  "trained_diagnostic": {
+    "variant": "extended_full",
+    "setting": {
+      "mode": "blend",
+      "weight": 0.75,
+      "minimum_cosine": 0.5,
+      "high_only": true
+    },
+    "counts": {
+      "correct": 14,
+      "wrong": 1,
+      "unknown_same": 9,
+      "same_total": 21,
+      "different_total": 49,
+      "missing": 0,
+      "matched_observations": 90,
+      "reference_observations": 90
+    },
+    "eligible": true,
+    "objective": [
+      9,
+      0,
+      -9
+    ]
+  },
+  "generic_diagnostic": {
+    "variant": "generic",
+    "setting": {
+      "mode": "blend",
+      "weight": 0.75,
+      "minimum_cosine": 0.7,
+      "high_only": true
+    },
+    "counts": {
+      "correct": 11,
+      "wrong": 1,
+      "unknown_same": 6,
+      "same_total": 21,
+      "different_total": 49,
+      "missing": 0,
+      "matched_observations": 90,
+      "reference_observations": 90
+    },
+    "eligible": true,
+    "objective": [
+      6,
+      0,
+      -6
+    ]
+  },
+  "options": [
+    {
+      "variant": "baseline",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -12,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        2,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 6,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -19,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -13,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        0,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 2,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        2,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 1,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        6,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -5,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -12,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -1,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "generic",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -15,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -9,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 3,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -1,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        6,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -12,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 6,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -14,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_head",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 7,
+        "wrong": 4,
+        "unknown_same": 3,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -13,
+        0,
+        -3
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 6,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -19,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 1,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        9,
+        -1,
+        -7
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -5,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -12,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -2,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "reviewed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 5,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -13,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -5,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 5,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -13,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        3,
+        -1,
+        -7
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        3,
+        -1,
+        -7
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -5,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 7,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -13,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -1,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "mixed_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -1,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 4,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -4
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 4,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        0,
+        -4
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 6,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -19,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 4,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -9,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 5,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -13,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        0,
+        -7
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 15,
+        "wrong": 2,
+        "unknown_same": 4,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        5,
+        -1,
+        -4
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 4,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        0,
+        -4
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 5,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -13,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        -1,
+        -8
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 1,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        8,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 15,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        5,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 7,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -13,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 3,
+        "unknown_same": 4,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -7,
+        -1,
+        -4
+      ]
+    },
+    {
+      "variant": "extended_last",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 2,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -2
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -12,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -15,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 5,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -13,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -2,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 1,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        9,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        4,
+        -1,
+        -6
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 1,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        7,
+        -1,
+        -6
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 7,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -8,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "extended_full",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 3,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        -1,
+        -3
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "original",
+        "weight": 0.0,
+        "minimum_cosine": 0.0,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -6,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.25,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -9,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 5,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -14,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 3,
+        "unknown_same": 6,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -3,
+        0,
+        -6
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -9,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.5,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -4,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 8,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -31,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 4,
+        "unknown_same": 8,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -7,
+        0,
+        -8
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 8,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -31,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 9,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -8,
+        0,
+        -9
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 13,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        3,
+        -1,
+        -7
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "blend",
+        "weight": 0.75,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 11,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        1,
+        -1,
+        -7
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 9,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -11,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.25,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -17,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": true,
+      "objective": [
+        -5,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.5,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -12,
+        0,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": false
+      },
+      "counts": {
+        "correct": 8,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -2,
+        -1,
+        -5
+      ]
+    },
+    {
+      "variant": "diagonal",
+      "setting": {
+        "mode": "gate",
+        "weight": 0.0,
+        "minimum_cosine": 0.7,
+        "high_only": true
+      },
+      "counts": {
+        "correct": 7,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 21,
+        "different_total": 49,
+        "missing": 1,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "eligible": false,
+      "objective": [
+        -8,
+        -1,
+        -5
+      ]
+    }
+  ],
+  "weights_sha256": {
+    "reviewed_head": "98a578f6f7202c9c61bb1388ea81347df97aeacac6782a4cc67236adad3c208c",
+    "reviewed_last": "51560bbea364366ddfb9bdb9574d223a104df6bd1f9fa9c3e29f53a188db7d94",
+    "mixed_last": "19d4e0cc05aded2d598a54f65ae812a960c31056b132dbff896a59fa7b46f637",
+    "extended_last": "33e107590070f2aee92d019ee3d226a6ef520371418676deb862dc2c19e6cb24",
+    "extended_full": "c66d9b22844e4929ddc371943bbe3f0f164b53b9592839b60c7c88ff9c90382d",
+    "diagonal": "11eb0a08ddfdac206fb99aaf262573b5222a5892603054ea4ab0029cd3559a1e"
+  },
+  "report_sha256": {
+    "baseline": "811333d2fb36ea8f4c6a8c63b16e01509f52a968c62411c8cda10fd25d36fb18",
+    "generic": "54b75e83f68be7d4f7c83cd7184ce58b2892e3e16285237e733604c0b29e526d",
+    "reviewed_head": "fa67be490da389d2931694e9b627e547d4c83e673931255424b2d0dbb91e11d5",
+    "reviewed_last": "3f95402f8bfa13f201153f777fe75428c97e544450cd003ae8c89120a21cc9a6",
+    "mixed_last": "78f216b54203f841d447635a4fcf5ad39f4d8c9aa4930545ba360ad49225d3fc",
+    "extended_last": "ec7af936f7135ecea38e016e453c79df2e00d01a7e3bfa3b9038b6b0b53aa6f4",
+    "extended_full": "f4260d3d8372dd7a2c2623634df378cfd7692e07724da07ee4d583495ae142dd",
+    "diagonal": "2ba33ca24e02524a69a722b8670145a879c10e9501cd6f4a198a52ab4d530ef1"
+  },
+  "association_code_sha256": "d7bb27e0d2199cc9870a91b1f9ad5516c6850ccb7e1b4089ac07672717ea0bab",
+  "association_protocol_sha256": "a23e96f77afc3e618561929f130fbe8fe22bdfb4902e653b8471c5dde0ac9e7e",
+  "scope": "Validation selection only. Transfer has not run. Training and settings never use Great Britain labels."
+}

@@ -1,0 +1,301 @@
+{
+  "id": "nbhl-goal-scan-evaluation",
+  "directory": "/dev/shm/sport-scans-goal-scan-v1/235b-vllm",
+  "games": [
+    {
+      "source_id": "OLpK8enSjJs",
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+      "engine": "vllm0.11.1",
+      "complete": true,
+      "duration_s": 2943.733333,
+      "windows": 148,
+      "seconds_excluding_model_load": 1125.3796980839998,
+      "states": {
+        "no": 147,
+        "yes": 1
+      },
+      "events": [
+        {
+          "interval": [
+            1684,
+            1687
+          ],
+          "window": [
+            1680,
+            1710.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 4,
+            "offset_end_s": 7,
+            "team_uniform": "red",
+            "ball_crossing_visible": true,
+            "evidence": "Red team player shoots, ball enters net, goalie falls, red players raise sticks in celebration, referee signals goal."
+          }
+        }
+      ],
+      "clusters": [
+        {
+          "interval": [
+            1684,
+            1687
+          ],
+          "members": [
+            {
+              "interval": [
+                1684,
+                1687
+              ],
+              "window": [
+                1680,
+                1710.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 4,
+                "offset_end_s": 7,
+                "team_uniform": "red",
+                "ball_crossing_visible": true,
+                "evidence": "Red team player shoots, ball enters net, goalie falls, red players raise sticks in celebration, referee signals goal."
+              }
+            }
+          ]
+        }
+      ],
+      "invalid_event_offsets": [],
+      "metrics": {
+        "2": {
+          "tolerance_s": 2,
+          "reviewed_goals": 10,
+          "candidates": 1,
+          "matched": 1,
+          "unmatched_candidates": 0,
+          "missed_reviewed_goals": 9,
+          "precision": 1.0,
+          "recall": 0.1,
+          "matches": [
+            {
+              "candidate": 0,
+              "goal_index": 5,
+              "distance_s": 0.0
+            }
+          ]
+        },
+        "10": {
+          "tolerance_s": 10,
+          "reviewed_goals": 10,
+          "candidates": 1,
+          "matched": 1,
+          "unmatched_candidates": 0,
+          "missed_reviewed_goals": 9,
+          "precision": 1.0,
+          "recall": 0.1,
+          "matches": [
+            {
+              "candidate": 0,
+              "goal_index": 5,
+              "distance_s": 0.0
+            }
+          ]
+        }
+      },
+      "reviewed_goals_in_candidate_windows": 1,
+      "completed_sha256": "c2479d509dbf019c04ec3846d458fbc42237bcbbfdc7d6a958adeb1a091a7a1e"
+    },
+    {
+      "source_id": "Z-tFHtxODsE",
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+      "engine": "vllm0.11.1",
+      "complete": true,
+      "duration_s": 2963.656,
+      "windows": 149,
+      "seconds_excluding_model_load": 747.4764452439997,
+      "states": {
+        "no": 147,
+        "yes": 2
+      },
+      "events": [
+        {
+          "interval": [
+            617,
+            620
+          ],
+          "window": [
+            600,
+            630.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 17,
+            "offset_end_s": 20,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "A player in white and blue shoots the ball into the net, and the goalie reacts as if a goal was scored. The scoreboard updates from 1 to 2 for the white team."
+          }
+        },
+        {
+          "interval": [
+            2656,
+            2661
+          ],
+          "window": [
+            2640,
+            2670.0
+          ],
+          "status": "yes",
+          "claim": {
+            "offset_start_s": 16,
+            "offset_end_s": 21,
+            "team_uniform": "white and blue",
+            "ball_crossing_visible": true,
+            "evidence": "A player in white and blue shoots the ball into the net, and the referee immediately raises both arms to signal a goal."
+          }
+        }
+      ],
+      "clusters": [
+        {
+          "interval": [
+            617,
+            620
+          ],
+          "members": [
+            {
+              "interval": [
+                617,
+                620
+              ],
+              "window": [
+                600,
+                630.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 17,
+                "offset_end_s": 20,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "A player in white and blue shoots the ball into the net, and the goalie reacts as if a goal was scored. The scoreboard updates from 1 to 2 for the white team."
+              }
+            }
+          ]
+        },
+        {
+          "interval": [
+            2656,
+            2661
+          ],
+          "members": [
+            {
+              "interval": [
+                2656,
+                2661
+              ],
+              "window": [
+                2640,
+                2670.0
+              ],
+              "status": "yes",
+              "claim": {
+                "offset_start_s": 16,
+                "offset_end_s": 21,
+                "team_uniform": "white and blue",
+                "ball_crossing_visible": true,
+                "evidence": "A player in white and blue shoots the ball into the net, and the referee immediately raises both arms to signal a goal."
+              }
+            }
+          ]
+        }
+      ],
+      "invalid_event_offsets": [],
+      "metrics": {
+        "2": {
+          "tolerance_s": 2,
+          "reviewed_goals": 7,
+          "candidates": 2,
+          "matched": 1,
+          "unmatched_candidates": 1,
+          "missed_reviewed_goals": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "matches": [
+            {
+              "candidate": 0,
+              "goal_index": 2,
+              "distance_s": 0.0
+            }
+          ]
+        },
+        "10": {
+          "tolerance_s": 10,
+          "reviewed_goals": 7,
+          "candidates": 2,
+          "matched": 1,
+          "unmatched_candidates": 1,
+          "missed_reviewed_goals": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285,
+          "matches": [
+            {
+              "candidate": 0,
+              "goal_index": 2,
+              "distance_s": 0.0
+            }
+          ]
+        }
+      },
+      "reviewed_goals_in_candidate_windows": 1,
+      "completed_sha256": "cbb86bfec1c1ba604e9b0f52645ae74da7ee69a4b40f41b8b990e3ce86db8a49"
+    },
+    {
+      "source_id": "plDp2kPtk_g",
+      "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+      "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+      "engine": "vllm0.11.1",
+      "complete": true,
+      "duration_s": 2739.703633,
+      "windows": 137,
+      "seconds_excluding_model_load": 815.0561320379995,
+      "states": {
+        "no": 137
+      },
+      "events": [],
+      "clusters": [],
+      "invalid_event_offsets": [],
+      "metrics": {
+        "2": {
+          "tolerance_s": 2,
+          "reviewed_goals": 7,
+          "candidates": 0,
+          "matched": 0,
+          "unmatched_candidates": 0,
+          "missed_reviewed_goals": 7,
+          "precision": null,
+          "recall": 0.0,
+          "matches": []
+        },
+        "10": {
+          "tolerance_s": 10,
+          "reviewed_goals": 7,
+          "candidates": 0,
+          "matched": 0,
+          "unmatched_candidates": 0,
+          "missed_reviewed_goals": 7,
+          "precision": null,
+          "recall": 0.0,
+          "matches": []
+        }
+      },
+      "reviewed_goals_in_candidate_windows": 0,
+      "completed_sha256": "7e1e3ba238e594f0876645955ae803522402d4c6c67e57ddf9ef2f19c4de4bf7"
+    }
+  ],
+  "reference_sha256": {
+    "data/stats/nbhl-goal-review.json": "3929931dd7270222e14ba6a309cf23bb8f4f2bc056dc5cd39efa4094914fb408",
+    "data/ball-hockey/goal-review-nj-v1.json": "0c00174039d71d0def34046c422467ad2295319786611dcc61da6cf0c80b7914",
+    "data/ball-hockey/goal-review-ma-v1.json": "c190263142d2b1e24bd9e7a7bce6b3a9007c8f00f9baa27323efc97ab2ca6b65"
+  },
+  "policy": "Candidate statuses yes or possible; overlapping proposals within five seconds clustered, then one-to-one interval matching with two- and ten-second tolerance. No threshold selected on goals. Complete recordings only. Window retrieval is a separate coarse measure, not precise goal localization.",
+  "limitations": "Assistant-reviewed goal windows, not independent human ground truth. California and Massachusetts reviews were reconciled with known official records; New Jersey was sealed before official comparison. Massachusetts has no exact clock validation for these intervals. Claimed ball crossings and scoring colors are model statements, not validated facts. Runtime excludes model download/load."
+}

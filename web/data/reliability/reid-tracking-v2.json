@@ -1,0 +1,1563 @@
+{
+  "id": "nbhl-reid-tracking-v2",
+  "models": [
+    {
+      "detector": "yolo",
+      "appearance": "baseline",
+      "suites": {
+        "short": {
+          "pairs": 135,
+          "same_reference": 61,
+          "different_reference": 74,
+          "correct_same": 42,
+          "broken_same": 17,
+          "wrong_merge": 0,
+          "correct_different": 71,
+          "missing_same": 2,
+          "missing_different": 3,
+          "clips": 12,
+          "frames": 3240,
+          "observations": 97,
+          "matched_observations": 96,
+          "fragments": 449,
+          "per_clip": {
+            "game2_01m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_06m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_15m": {
+              "pairs": 0,
+              "same_reference": 0,
+              "different_reference": 0,
+              "correct_same": 0,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_24m": {
+              "pairs": 4,
+              "same_reference": 2,
+              "different_reference": 2,
+              "correct_same": 1,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 2,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_33m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_41m": {
+              "pairs": 25,
+              "same_reference": 5,
+              "different_reference": 20,
+              "correct_same": 2,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 20,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_03m": {
+              "pairs": 11,
+              "same_reference": 5,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 2,
+              "missing_different": 3
+            },
+            "validation_10m": {
+              "pairs": 9,
+              "same_reference": 6,
+              "different_reference": 3,
+              "correct_same": 4,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_15m": {
+              "pairs": 5,
+              "same_reference": 4,
+              "different_reference": 1,
+              "correct_same": 3,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 1,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_25m": {
+              "pairs": 3,
+              "same_reference": 3,
+              "different_reference": 0,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_40m": {
+              "pairs": 41,
+              "same_reference": 20,
+              "different_reference": 21,
+              "correct_same": 19,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 21,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_46m": {
+              "pairs": 10,
+              "same_reference": 7,
+              "different_reference": 3,
+              "correct_same": 3,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "splits": {
+            "development_regression": {
+              "pairs": 79,
+              "same_reference": 45,
+              "different_reference": 34,
+              "correct_same": 34,
+              "broken_same": 9,
+              "wrong_merge": 0,
+              "correct_different": 31,
+              "missing_same": 2,
+              "missing_different": 3
+            },
+            "transfer_regression": {
+              "pairs": 56,
+              "same_reference": 16,
+              "different_reference": 40,
+              "correct_same": 8,
+              "broken_same": 8,
+              "wrong_merge": 0,
+              "correct_different": 40,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          }
+        },
+        "gb": {
+          "pairs": 647,
+          "same_reference": 78,
+          "different_reference": 569,
+          "correct_same": 66,
+          "broken_same": 12,
+          "wrong_merge": 3,
+          "correct_different": 566,
+          "missing_same": 0,
+          "missing_different": 0,
+          "clips": 2,
+          "frames": 600,
+          "observations": 88,
+          "matched_observations": 88,
+          "fragments": 41,
+          "per_clip": {
+            "gb-tracking-0600": {
+              "pairs": 324,
+              "same_reference": 41,
+              "different_reference": 283,
+              "correct_same": 38,
+              "broken_same": 3,
+              "wrong_merge": 3,
+              "correct_different": 280,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "gb-tracking-1800": {
+              "pairs": 323,
+              "same_reference": 37,
+              "different_reference": 286,
+              "correct_same": 28,
+              "broken_same": 9,
+              "wrong_merge": 0,
+              "correct_different": 286,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "same_team": {
+            "pairs": 338,
+            "same_reference": 78,
+            "different_reference": 260,
+            "correct_same": 66,
+            "broken_same": 12,
+            "wrong_merge": 3,
+            "correct_different": 257,
+            "missing_same": 0,
+            "missing_different": 0
+          }
+        }
+      }
+    },
+    {
+      "detector": "yolo",
+      "appearance": "ain",
+      "suites": {
+        "short": {
+          "pairs": 135,
+          "same_reference": 61,
+          "different_reference": 74,
+          "correct_same": 40,
+          "broken_same": 21,
+          "wrong_merge": 2,
+          "correct_different": 72,
+          "missing_same": 0,
+          "missing_different": 0,
+          "clips": 12,
+          "frames": 3240,
+          "observations": 97,
+          "matched_observations": 97,
+          "fragments": 455,
+          "per_clip": {
+            "game2_01m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_06m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_15m": {
+              "pairs": 0,
+              "same_reference": 0,
+              "different_reference": 0,
+              "correct_same": 0,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_24m": {
+              "pairs": 4,
+              "same_reference": 2,
+              "different_reference": 2,
+              "correct_same": 1,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 2,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_33m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_41m": {
+              "pairs": 25,
+              "same_reference": 5,
+              "different_reference": 20,
+              "correct_same": 1,
+              "broken_same": 4,
+              "wrong_merge": 2,
+              "correct_different": 18,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_03m": {
+              "pairs": 11,
+              "same_reference": 5,
+              "different_reference": 6,
+              "correct_same": 3,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_10m": {
+              "pairs": 9,
+              "same_reference": 6,
+              "different_reference": 3,
+              "correct_same": 2,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_15m": {
+              "pairs": 5,
+              "same_reference": 4,
+              "different_reference": 1,
+              "correct_same": 3,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 1,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_25m": {
+              "pairs": 3,
+              "same_reference": 3,
+              "different_reference": 0,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_40m": {
+              "pairs": 41,
+              "same_reference": 20,
+              "different_reference": 21,
+              "correct_same": 19,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 21,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_46m": {
+              "pairs": 10,
+              "same_reference": 7,
+              "different_reference": 3,
+              "correct_same": 3,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "splits": {
+            "development_regression": {
+              "pairs": 79,
+              "same_reference": 45,
+              "different_reference": 34,
+              "correct_same": 33,
+              "broken_same": 12,
+              "wrong_merge": 0,
+              "correct_different": 34,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "transfer_regression": {
+              "pairs": 56,
+              "same_reference": 16,
+              "different_reference": 40,
+              "correct_same": 7,
+              "broken_same": 9,
+              "wrong_merge": 2,
+              "correct_different": 38,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          }
+        },
+        "gb": {
+          "pairs": 647,
+          "same_reference": 78,
+          "different_reference": 569,
+          "correct_same": 66,
+          "broken_same": 12,
+          "wrong_merge": 3,
+          "correct_different": 566,
+          "missing_same": 0,
+          "missing_different": 0,
+          "clips": 2,
+          "frames": 600,
+          "observations": 88,
+          "matched_observations": 88,
+          "fragments": 41,
+          "per_clip": {
+            "gb-tracking-0600": {
+              "pairs": 324,
+              "same_reference": 41,
+              "different_reference": 283,
+              "correct_same": 38,
+              "broken_same": 3,
+              "wrong_merge": 3,
+              "correct_different": 280,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "gb-tracking-1800": {
+              "pairs": 323,
+              "same_reference": 37,
+              "different_reference": 286,
+              "correct_same": 28,
+              "broken_same": 9,
+              "wrong_merge": 0,
+              "correct_different": 286,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "same_team": {
+            "pairs": 338,
+            "same_reference": 78,
+            "different_reference": 260,
+            "correct_same": 66,
+            "broken_same": 12,
+            "wrong_merge": 3,
+            "correct_different": 257,
+            "missing_same": 0,
+            "missing_different": 0
+          }
+        }
+      }
+    },
+    {
+      "detector": "yolo",
+      "appearance": "standard",
+      "suites": {
+        "short": {
+          "pairs": 135,
+          "same_reference": 61,
+          "different_reference": 74,
+          "correct_same": 42,
+          "broken_same": 19,
+          "wrong_merge": 0,
+          "correct_different": 74,
+          "missing_same": 0,
+          "missing_different": 0,
+          "clips": 12,
+          "frames": 3240,
+          "observations": 97,
+          "matched_observations": 97,
+          "fragments": 459,
+          "per_clip": {
+            "game2_01m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_06m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_15m": {
+              "pairs": 0,
+              "same_reference": 0,
+              "different_reference": 0,
+              "correct_same": 0,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_24m": {
+              "pairs": 4,
+              "same_reference": 2,
+              "different_reference": 2,
+              "correct_same": 1,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 2,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_33m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_41m": {
+              "pairs": 25,
+              "same_reference": 5,
+              "different_reference": 20,
+              "correct_same": 2,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 20,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_03m": {
+              "pairs": 11,
+              "same_reference": 5,
+              "different_reference": 6,
+              "correct_same": 3,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_10m": {
+              "pairs": 9,
+              "same_reference": 6,
+              "different_reference": 3,
+              "correct_same": 2,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_15m": {
+              "pairs": 5,
+              "same_reference": 4,
+              "different_reference": 1,
+              "correct_same": 4,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 1,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_25m": {
+              "pairs": 3,
+              "same_reference": 3,
+              "different_reference": 0,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_40m": {
+              "pairs": 41,
+              "same_reference": 20,
+              "different_reference": 21,
+              "correct_same": 19,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 21,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_46m": {
+              "pairs": 10,
+              "same_reference": 7,
+              "different_reference": 3,
+              "correct_same": 3,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "splits": {
+            "development_regression": {
+              "pairs": 79,
+              "same_reference": 45,
+              "different_reference": 34,
+              "correct_same": 34,
+              "broken_same": 11,
+              "wrong_merge": 0,
+              "correct_different": 34,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "transfer_regression": {
+              "pairs": 56,
+              "same_reference": 16,
+              "different_reference": 40,
+              "correct_same": 8,
+              "broken_same": 8,
+              "wrong_merge": 0,
+              "correct_different": 40,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          }
+        },
+        "gb": {
+          "pairs": 647,
+          "same_reference": 78,
+          "different_reference": 569,
+          "correct_same": 66,
+          "broken_same": 12,
+          "wrong_merge": 3,
+          "correct_different": 566,
+          "missing_same": 0,
+          "missing_different": 0,
+          "clips": 2,
+          "frames": 600,
+          "observations": 88,
+          "matched_observations": 88,
+          "fragments": 41,
+          "per_clip": {
+            "gb-tracking-0600": {
+              "pairs": 324,
+              "same_reference": 41,
+              "different_reference": 283,
+              "correct_same": 38,
+              "broken_same": 3,
+              "wrong_merge": 3,
+              "correct_different": 280,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "gb-tracking-1800": {
+              "pairs": 323,
+              "same_reference": 37,
+              "different_reference": 286,
+              "correct_same": 28,
+              "broken_same": 9,
+              "wrong_merge": 0,
+              "correct_different": 286,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "same_team": {
+            "pairs": 338,
+            "same_reference": 78,
+            "different_reference": 260,
+            "correct_same": 66,
+            "broken_same": 12,
+            "wrong_merge": 3,
+            "correct_different": 257,
+            "missing_same": 0,
+            "missing_different": 0
+          }
+        }
+      }
+    },
+    {
+      "detector": "rfdetr",
+      "appearance": "baseline",
+      "suites": {
+        "short": {
+          "pairs": 135,
+          "same_reference": 61,
+          "different_reference": 74,
+          "correct_same": 38,
+          "broken_same": 23,
+          "wrong_merge": 1,
+          "correct_different": 73,
+          "missing_same": 0,
+          "missing_different": 0,
+          "clips": 12,
+          "frames": 3240,
+          "observations": 97,
+          "matched_observations": 97,
+          "fragments": 402,
+          "per_clip": {
+            "game2_01m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_06m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 0,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_15m": {
+              "pairs": 0,
+              "same_reference": 0,
+              "different_reference": 0,
+              "correct_same": 0,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_24m": {
+              "pairs": 4,
+              "same_reference": 2,
+              "different_reference": 2,
+              "correct_same": 1,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 2,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_33m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 0,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_41m": {
+              "pairs": 25,
+              "same_reference": 5,
+              "different_reference": 20,
+              "correct_same": 1,
+              "broken_same": 4,
+              "wrong_merge": 1,
+              "correct_different": 19,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_03m": {
+              "pairs": 11,
+              "same_reference": 5,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_10m": {
+              "pairs": 9,
+              "same_reference": 6,
+              "different_reference": 3,
+              "correct_same": 2,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_15m": {
+              "pairs": 5,
+              "same_reference": 4,
+              "different_reference": 1,
+              "correct_same": 4,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 1,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_25m": {
+              "pairs": 3,
+              "same_reference": 3,
+              "different_reference": 0,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_40m": {
+              "pairs": 41,
+              "same_reference": 20,
+              "different_reference": 21,
+              "correct_same": 19,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 21,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_46m": {
+              "pairs": 10,
+              "same_reference": 7,
+              "different_reference": 3,
+              "correct_same": 4,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "splits": {
+            "development_regression": {
+              "pairs": 79,
+              "same_reference": 45,
+              "different_reference": 34,
+              "correct_same": 34,
+              "broken_same": 11,
+              "wrong_merge": 0,
+              "correct_different": 34,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "transfer_regression": {
+              "pairs": 56,
+              "same_reference": 16,
+              "different_reference": 40,
+              "correct_same": 4,
+              "broken_same": 12,
+              "wrong_merge": 1,
+              "correct_different": 39,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          }
+        },
+        "gb": {
+          "pairs": 647,
+          "same_reference": 78,
+          "different_reference": 569,
+          "correct_same": 64,
+          "broken_same": 12,
+          "wrong_merge": 3,
+          "correct_different": 553,
+          "missing_same": 2,
+          "missing_different": 13,
+          "clips": 2,
+          "frames": 600,
+          "observations": 88,
+          "matched_observations": 87,
+          "fragments": 40,
+          "per_clip": {
+            "gb-tracking-0600": {
+              "pairs": 324,
+              "same_reference": 41,
+              "different_reference": 283,
+              "correct_same": 37,
+              "broken_same": 2,
+              "wrong_merge": 2,
+              "correct_different": 268,
+              "missing_same": 2,
+              "missing_different": 13
+            },
+            "gb-tracking-1800": {
+              "pairs": 323,
+              "same_reference": 37,
+              "different_reference": 286,
+              "correct_same": 27,
+              "broken_same": 10,
+              "wrong_merge": 1,
+              "correct_different": 285,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "same_team": {
+            "pairs": 338,
+            "same_reference": 78,
+            "different_reference": 260,
+            "correct_same": 64,
+            "broken_same": 12,
+            "wrong_merge": 2,
+            "correct_different": 250,
+            "missing_same": 2,
+            "missing_different": 8
+          }
+        }
+      }
+    },
+    {
+      "detector": "rfdetr",
+      "appearance": "ain",
+      "suites": {
+        "short": {
+          "pairs": 135,
+          "same_reference": 61,
+          "different_reference": 74,
+          "correct_same": 41,
+          "broken_same": 18,
+          "wrong_merge": 3,
+          "correct_different": 68,
+          "missing_same": 2,
+          "missing_different": 3,
+          "clips": 12,
+          "frames": 3240,
+          "observations": 97,
+          "matched_observations": 96,
+          "fragments": 401,
+          "per_clip": {
+            "game2_01m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_06m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 0,
+              "broken_same": 3,
+              "wrong_merge": 2,
+              "correct_different": 4,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_15m": {
+              "pairs": 0,
+              "same_reference": 0,
+              "different_reference": 0,
+              "correct_same": 0,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_24m": {
+              "pairs": 4,
+              "same_reference": 2,
+              "different_reference": 2,
+              "correct_same": 1,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 2,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_33m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_41m": {
+              "pairs": 25,
+              "same_reference": 5,
+              "different_reference": 20,
+              "correct_same": 2,
+              "broken_same": 3,
+              "wrong_merge": 1,
+              "correct_different": 19,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_03m": {
+              "pairs": 11,
+              "same_reference": 5,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 2,
+              "missing_different": 3
+            },
+            "validation_10m": {
+              "pairs": 9,
+              "same_reference": 6,
+              "different_reference": 3,
+              "correct_same": 3,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_15m": {
+              "pairs": 5,
+              "same_reference": 4,
+              "different_reference": 1,
+              "correct_same": 3,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 1,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_25m": {
+              "pairs": 3,
+              "same_reference": 3,
+              "different_reference": 0,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_40m": {
+              "pairs": 41,
+              "same_reference": 20,
+              "different_reference": 21,
+              "correct_same": 19,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 21,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_46m": {
+              "pairs": 10,
+              "same_reference": 7,
+              "different_reference": 3,
+              "correct_same": 4,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "splits": {
+            "development_regression": {
+              "pairs": 79,
+              "same_reference": 45,
+              "different_reference": 34,
+              "correct_same": 34,
+              "broken_same": 9,
+              "wrong_merge": 0,
+              "correct_different": 31,
+              "missing_same": 2,
+              "missing_different": 3
+            },
+            "transfer_regression": {
+              "pairs": 56,
+              "same_reference": 16,
+              "different_reference": 40,
+              "correct_same": 7,
+              "broken_same": 9,
+              "wrong_merge": 3,
+              "correct_different": 37,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          }
+        },
+        "gb": {
+          "pairs": 647,
+          "same_reference": 78,
+          "different_reference": 569,
+          "correct_same": 64,
+          "broken_same": 12,
+          "wrong_merge": 2,
+          "correct_different": 554,
+          "missing_same": 2,
+          "missing_different": 13,
+          "clips": 2,
+          "frames": 600,
+          "observations": 88,
+          "matched_observations": 87,
+          "fragments": 40,
+          "per_clip": {
+            "gb-tracking-0600": {
+              "pairs": 324,
+              "same_reference": 41,
+              "different_reference": 283,
+              "correct_same": 37,
+              "broken_same": 2,
+              "wrong_merge": 2,
+              "correct_different": 268,
+              "missing_same": 2,
+              "missing_different": 13
+            },
+            "gb-tracking-1800": {
+              "pairs": 323,
+              "same_reference": 37,
+              "different_reference": 286,
+              "correct_same": 27,
+              "broken_same": 10,
+              "wrong_merge": 0,
+              "correct_different": 286,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "same_team": {
+            "pairs": 338,
+            "same_reference": 78,
+            "different_reference": 260,
+            "correct_same": 64,
+            "broken_same": 12,
+            "wrong_merge": 2,
+            "correct_different": 250,
+            "missing_same": 2,
+            "missing_different": 8
+          }
+        }
+      }
+    },
+    {
+      "detector": "rfdetr",
+      "appearance": "standard",
+      "suites": {
+        "short": {
+          "pairs": 135,
+          "same_reference": 61,
+          "different_reference": 74,
+          "correct_same": 40,
+          "broken_same": 19,
+          "wrong_merge": 3,
+          "correct_different": 68,
+          "missing_same": 2,
+          "missing_different": 3,
+          "clips": 12,
+          "frames": 3240,
+          "observations": 97,
+          "matched_observations": 96,
+          "fragments": 402,
+          "per_clip": {
+            "game2_01m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_06m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 0,
+              "broken_same": 3,
+              "wrong_merge": 2,
+              "correct_different": 4,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_15m": {
+              "pairs": 0,
+              "same_reference": 0,
+              "different_reference": 0,
+              "correct_same": 0,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_24m": {
+              "pairs": 4,
+              "same_reference": 2,
+              "different_reference": 2,
+              "correct_same": 1,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 2,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_33m": {
+              "pairs": 9,
+              "same_reference": 3,
+              "different_reference": 6,
+              "correct_same": 1,
+              "broken_same": 2,
+              "wrong_merge": 0,
+              "correct_different": 6,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "game2_41m": {
+              "pairs": 25,
+              "same_reference": 5,
+              "different_reference": 20,
+              "correct_same": 2,
+              "broken_same": 3,
+              "wrong_merge": 1,
+              "correct_different": 19,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_03m": {
+              "pairs": 11,
+              "same_reference": 5,
+              "different_reference": 6,
+              "correct_same": 2,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 2,
+              "missing_different": 3
+            },
+            "validation_10m": {
+              "pairs": 9,
+              "same_reference": 6,
+              "different_reference": 3,
+              "correct_same": 3,
+              "broken_same": 3,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_15m": {
+              "pairs": 5,
+              "same_reference": 4,
+              "different_reference": 1,
+              "correct_same": 4,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 1,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_25m": {
+              "pairs": 3,
+              "same_reference": 3,
+              "different_reference": 0,
+              "correct_same": 3,
+              "broken_same": 0,
+              "wrong_merge": 0,
+              "correct_different": 0,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_40m": {
+              "pairs": 41,
+              "same_reference": 20,
+              "different_reference": 21,
+              "correct_same": 19,
+              "broken_same": 1,
+              "wrong_merge": 0,
+              "correct_different": 21,
+              "missing_same": 0,
+              "missing_different": 0
+            },
+            "validation_46m": {
+              "pairs": 10,
+              "same_reference": 7,
+              "different_reference": 3,
+              "correct_same": 3,
+              "broken_same": 4,
+              "wrong_merge": 0,
+              "correct_different": 3,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "splits": {
+            "development_regression": {
+              "pairs": 79,
+              "same_reference": 45,
+              "different_reference": 34,
+              "correct_same": 34,
+              "broken_same": 9,
+              "wrong_merge": 0,
+              "correct_different": 31,
+              "missing_same": 2,
+              "missing_different": 3
+            },
+            "transfer_regression": {
+              "pairs": 56,
+              "same_reference": 16,
+              "different_reference": 40,
+              "correct_same": 6,
+              "broken_same": 10,
+              "wrong_merge": 3,
+              "correct_different": 37,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          }
+        },
+        "gb": {
+          "pairs": 647,
+          "same_reference": 78,
+          "different_reference": 569,
+          "correct_same": 64,
+          "broken_same": 12,
+          "wrong_merge": 2,
+          "correct_different": 554,
+          "missing_same": 2,
+          "missing_different": 13,
+          "clips": 2,
+          "frames": 600,
+          "observations": 88,
+          "matched_observations": 87,
+          "fragments": 40,
+          "per_clip": {
+            "gb-tracking-0600": {
+              "pairs": 324,
+              "same_reference": 41,
+              "different_reference": 283,
+              "correct_same": 37,
+              "broken_same": 2,
+              "wrong_merge": 2,
+              "correct_different": 268,
+              "missing_same": 2,
+              "missing_different": 13
+            },
+            "gb-tracking-1800": {
+              "pairs": 323,
+              "same_reference": 37,
+              "different_reference": 286,
+              "correct_same": 27,
+              "broken_same": 10,
+              "wrong_merge": 0,
+              "correct_different": 286,
+              "missing_same": 0,
+              "missing_different": 0
+            }
+          },
+          "same_team": {
+            "pairs": 338,
+            "same_reference": 78,
+            "different_reference": 260,
+            "correct_same": 64,
+            "broken_same": 12,
+            "wrong_merge": 2,
+            "correct_different": 250,
+            "missing_same": 2,
+            "missing_different": 8
+          }
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "yolo/game2_01m-summary.json": "5749ad567b597245eba9f1fb3ddfb27a5d7e56332679c518af7f3cb7588bb3a5",
+    "yolo/game2_06m-summary.json": "a2c85e6cc88e1311e5b8533329d2abb86f7a435fb3f943062d583e1495538c66",
+    "yolo/game2_15m-summary.json": "445f8de5ddfd6d90540dc8f6a7b1e1c08b6bee622741bbf5dead2bbdd5edf7f1",
+    "yolo/game2_24m-summary.json": "e54a75e036634795518dd1cfc1938c48f266077c8506a99d035728d91f5fdb85",
+    "yolo/game2_33m-summary.json": "09b0f3c8e621c91f05d3cef6796a9bfa0f43082e2c126e0e0663d57ccf13cfd9",
+    "yolo/game2_41m-summary.json": "48f963725a155b2c64a2651119ec08458c5fce976783b2bf3b85d0da88c696c3",
+    "yolo/gb-tracking-0600-summary.json": "8bcfe8453c9b18be96e0732dc45cc8f49a71534261f14bf20f883eac9fd9d3a5",
+    "yolo/gb-tracking-1800-summary.json": "5df56e9595b6a58c97443f362c10505083eee3490a7faae68b3a5bb53cbe0bf9",
+    "yolo/validation_03m-summary.json": "6e33f1b3df82d9c1295c490d390e8a6401797335c32362af24365a28d8314b78",
+    "yolo/validation_10m-summary.json": "3fd6bc29b8d3c925d8cd3a5f6179e9bfd8fab16842e312bd5f9cfc9bde27edd7",
+    "yolo/validation_15m-summary.json": "9face0fd0016cc81ee0b2a1f8186474814864afd5d19bccc636f584da16f923e",
+    "yolo/validation_25m-summary.json": "14ad6b213f88f860b8527a8b386b5d41420b19253605b8925c8ff5ae755e8b61",
+    "yolo/validation_40m-summary.json": "b652add0e9f079ccda83e10dd0c7483a06a6afdb722c27266f63b9ab440ac894",
+    "yolo/validation_46m-summary.json": "358376011e19e800c77193a30005ca24689806e75496ce73d12c679b8d2caa7b",
+    "rfdetr/game2_01m-summary.json": "ab580dd437e95fddb02ad467ea8be25087a23e906bba7e33ce22ea10c5978228",
+    "rfdetr/game2_06m-summary.json": "d0c8062150a22c1787b23745408715751081360494b94327de59e5d60c4e9d85",
+    "rfdetr/game2_15m-summary.json": "fb67f5fed3639555b0368ddfc028cc68edb55e1dbe54e4768f2aa5cedb5f593f",
+    "rfdetr/game2_24m-summary.json": "7faf45dc5fe4905200988c7dd84e6ecb96971920fdaef7d307416c2f8f15ca47",
+    "rfdetr/game2_33m-summary.json": "de732611d429b528cd837bdff92960c554fb6165f5864cd43f9b0ca43d8e85a3",
+    "rfdetr/game2_41m-summary.json": "00d10f658a9e2787f745f03ca07ba1406f74533845fa8e4ecc0c29b4780ce2cb",
+    "rfdetr/gb-tracking-0600-summary.json": "fabefb04176fb545e8b86061bc1bb9e95fda4670f79ff3b5a366daac61a10664",
+    "rfdetr/gb-tracking-1800-summary.json": "79aed5b7ed77d7b8d7a0f3d5b98dc5b9051d94d1ea19a5899287be9d4a87ad02",
+    "rfdetr/validation_03m-summary.json": "60ee824189732d456f1b910872cbd99ceaf4719b9108b1c2009de109974fdb5e",
+    "rfdetr/validation_10m-summary.json": "dc64b2f7760cee641cb90a821345447514566f3fb736b34b1401d46584f4de9d",
+    "rfdetr/validation_15m-summary.json": "7aea9aeef44360a4936338ff23b678602b740fc45ef7531875fca9dd0e8e2ceb",
+    "rfdetr/validation_25m-summary.json": "751dba0f69144ffec3acff0e3249afa4d2deebb8f4c7fa84e917cc8eace5c016",
+    "rfdetr/validation_40m-summary.json": "0d7ea0eb69d58a4075e64e080ca205c60ecfcc9074f49859d6808c66ffb210b7",
+    "rfdetr/validation_46m-summary.json": "aeba1a601fc1dbb7c7445cf13f2ff2f8a8e18964300e887944ecb37c5966a007"
+  },
+  "provenance": {
+    "yolo": {
+      "detector_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+      "confidence_threshold": 0.65,
+      "configs": {
+        "baseline": {
+          "tracker_type": "botsort",
+          "track_high_thresh": 0.65,
+          "track_low_thresh": 0.1,
+          "new_track_thresh": 0.65,
+          "track_buffer": 30,
+          "match_thresh": 0.8,
+          "fuse_score": true,
+          "gmc_method": "sparseOptFlow",
+          "proximity_thresh": 0.5,
+          "appearance_thresh": 0.8,
+          "with_reid": false,
+          "model": "auto"
+        },
+        "ain": {
+          "tracker_type": "botsort",
+          "track_high_thresh": 0.65,
+          "track_low_thresh": 0.1,
+          "new_track_thresh": 0.65,
+          "track_buffer": 30,
+          "match_thresh": 0.8,
+          "fuse_score": true,
+          "gmc_method": "sparseOptFlow",
+          "proximity_thresh": 0.5,
+          "appearance_thresh": 0.8,
+          "with_reid": true,
+          "model": "generic_osnet_ain"
+        },
+        "standard": {
+          "tracker_type": "botsort",
+          "track_high_thresh": 0.65,
+          "track_low_thresh": 0.1,
+          "new_track_thresh": 0.65,
+          "track_buffer": 30,
+          "match_thresh": 0.8,
+          "fuse_score": true,
+          "gmc_method": "sparseOptFlow",
+          "proximity_thresh": 0.5,
+          "appearance_thresh": 0.8,
+          "with_reid": true,
+          "model": "generic_osnet_standard"
+        }
+      },
+      "embedding_models": {
+        "ain": {
+          "model": "osnet_ain_x1_0",
+          "pretraining": "Generic pedestrian MSMT17; no ball-hockey or ice-hockey task-trained weights.",
+          "code_revision": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+          "code_sha256": "a43b495866a4b1645cd134a30c3011592e8c6826ba4781955a135588cf46cd25",
+          "weights_revision": "a5c5cc037c24235cda3b21085b93ad77c9616224",
+          "weights_sha256": "8a07e8da38946f7cee37f4561617bf8b6d2fe8f3a4027852893ea092e46d919f",
+          "preprocessing": "RGB bilinear resize to H256 W128; ImageNet normalization; unit embedding; cosine similarity."
+        },
+        "standard": {
+          "model": "osnet_x1_0",
+          "pretraining": "Generic pedestrian MSMT17; no ball-hockey or ice-hockey task-trained weights.",
+          "code_revision": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+          "code_sha256": "c7c1c29187d6330f859c91da229271531920464c7011aec13842a086b2263cae",
+          "weights_revision": "a5c5cc037c24235cda3b21085b93ad77c9616224",
+          "weights_sha256": "48df972f72887b95cf3b43b3a07c3a7d2398381aea0f9cae64a7ef11d512b727",
+          "preprocessing": "RGB bilinear resize to H256 W128; ImageNet normalization; unit embedding; cosine similarity."
+        }
+      }
+    },
+    "rfdetr": {
+      "detector_sha256": "6d9918def1a3d61a2a3c620d3a014380cf958733addc8aee315db72a36aab19a",
+      "confidence_threshold": 0.55,
+      "configs": {
+        "baseline": {
+          "tracker_type": "botsort",
+          "track_high_thresh": 0.55,
+          "track_low_thresh": 0.1,
+          "new_track_thresh": 0.55,
+          "track_buffer": 30,
+          "match_thresh": 0.8,
+          "fuse_score": true,
+          "gmc_method": "sparseOptFlow",
+          "proximity_thresh": 0.5,
+          "appearance_thresh": 0.8,
+          "with_reid": false,
+          "model": "auto"
+        },
+        "ain": {
+          "tracker_type": "botsort",
+          "track_high_thresh": 0.55,
+          "track_low_thresh": 0.1,
+          "new_track_thresh": 0.55,
+          "track_buffer": 30,
+          "match_thresh": 0.8,
+          "fuse_score": true,
+          "gmc_method": "sparseOptFlow",
+          "proximity_thresh": 0.5,
+          "appearance_thresh": 0.8,
+          "with_reid": true,
+          "model": "generic_osnet_ain"
+        },
+        "standard": {
+          "tracker_type": "botsort",
+          "track_high_thresh": 0.55,
+          "track_low_thresh": 0.1,
+          "new_track_thresh": 0.55,
+          "track_buffer": 30,
+          "match_thresh": 0.8,
+          "fuse_score": true,
+          "gmc_method": "sparseOptFlow",
+          "proximity_thresh": 0.5,
+          "appearance_thresh": 0.8,
+          "with_reid": true,
+          "model": "generic_osnet_standard"
+        }
+      },
+      "embedding_models": {
+        "ain": {
+          "model": "osnet_ain_x1_0",
+          "pretraining": "Generic pedestrian MSMT17; no ball-hockey or ice-hockey task-trained weights.",
+          "code_revision": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+          "code_sha256": "a43b495866a4b1645cd134a30c3011592e8c6826ba4781955a135588cf46cd25",
+          "weights_revision": "a5c5cc037c24235cda3b21085b93ad77c9616224",
+          "weights_sha256": "8a07e8da38946f7cee37f4561617bf8b6d2fe8f3a4027852893ea092e46d919f",
+          "preprocessing": "RGB bilinear resize to H256 W128; ImageNet normalization; unit embedding; cosine similarity."
+        },
+        "standard": {
+          "model": "osnet_x1_0",
+          "pretraining": "Generic pedestrian MSMT17; no ball-hockey or ice-hockey task-trained weights.",
+          "code_revision": "f8cd150fdf77e8d9e1ed143b7f308c2c609ded50",
+          "code_sha256": "c7c1c29187d6330f859c91da229271531920464c7011aec13842a086b2263cae",
+          "weights_revision": "a5c5cc037c24235cda3b21085b93ad77c9616224",
+          "weights_sha256": "48df972f72887b95cf3b43b3a07c3a7d2398381aea0f9cae64a7ef11d512b727",
+          "preprocessing": "RGB bilinear resize to H256 W128; ImageNet normalization; unit embedding; cosine similarity."
+        }
+      }
+    }
+  },
+  "primary_embedding_variant": "ain",
+  "selection": "Unchanged upstream BoT-SORT appearance/proximity settings; no tuning on the reviewed pairs. All comparisons reported.",
+  "scope": "Post-review regression using the same frozen detections. Unchanged baseline track partitions were reproduced frame by frame.",
+  "limitations": "Sparse correlated assistant references, not independent human ground truth or full-clip HOTA/IDF1. A missing endpoint is not a correct rejection. Generic pedestrian embeddings do not assign jersey identity or full-game statistics."
+}

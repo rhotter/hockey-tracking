@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-10-19T15:58:33.930544+00:00",
+  "reason": "Separate the overall deployment choice from the forced embedding challengers. Otherwise a baseline win on development would cause six baseline fallbacks to be reported as the transfer experiment. No embedding accuracy scores have been viewed.",
+  "rule": "For each model and image representation, freeze the best actual embedding configuration on development, excluding fallback to baseline. Evaluate those six challengers on regression regardless of whether the overall development choice is the unchanged baseline. The overall winner still compares against the full baseline with the original objective and baseline tie preference.",
+  "original_source_commit": "9133c2e3dc58f24411594bbc07a15359262d2da1",
+  "original_protocol_unchanged": true,
+  "inference_unchanged": true,
+  "regression_scores_seen": false
+}

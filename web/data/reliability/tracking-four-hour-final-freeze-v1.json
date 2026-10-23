@@ -1,0 +1,366 @@
+{
+  "id": "nbhl-four-hour-final-freeze-v1",
+  "status": "frozen_before_final_test_review",
+  "frozen_at": "2026-10-18T17:45:28.285989+00:00",
+  "primary_method": "fourhour-sam2-trained",
+  "detector": {
+    "weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-multi-s17-f10-e80-remap-v2-6f459b18/weights/best.pt",
+    "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3"
+  },
+  "appearance_models": {
+    "generic": {
+      "architecture": "osnet_supcon",
+      "weights": null,
+      "weights_sha256": "8a07e8da38946f7cee37f4561617bf8b6d2fe8f3a4027852893ea092e46d919f"
+    },
+    "osnet_parts_generic": {
+      "architecture": "osnet_parts",
+      "weights": null,
+      "weights_sha256": "8a07e8da38946f7cee37f4561617bf8b6d2fe8f3a4027852893ea092e46d919f"
+    },
+    "osnet_parts_head": {
+      "architecture": "osnet_parts_head",
+      "weights": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/contrastive/osnet_parts_head/best.pt",
+      "weights_sha256": "2ca447b2487c93226625af5b68d957142b864865c1d4e287dc034ec5720e158c"
+    },
+    "osnet_parts_late_s73": {
+      "architecture": "osnet_parts_late_s73",
+      "weights": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/contrastive/osnet_parts_late_s73/best.pt",
+      "weights_sha256": "a75a9e0bdb70a266b886fdb61112839858d5ab3e5fbbf692727e95cef8cd9dd6"
+    }
+  },
+  "methods": [
+    {
+      "id": "fourhour-botsort",
+      "label": "BoT-SORT baseline",
+      "family": "botsort",
+      "appearance": "generic",
+      "online": {
+        "family": "botsort",
+        "variant": "none",
+        "buffer": 30,
+        "profile": "matched",
+        "id": "baseline"
+      },
+      "linking": null,
+      "development_counts": {
+        "correct": 77,
+        "wrong": 5,
+        "unknown_same": 9,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 25,
+        "matched_observations": 211,
+        "reference_observations": 213
+      },
+      "selection_report_id": "baseline",
+      "publish_stress": true
+    },
+    {
+      "id": "fourhour-tracktrack",
+      "label": "TrackTrack, motion only",
+      "family": "tracktrack",
+      "appearance": "generic",
+      "online": {
+        "family": "tracktrack",
+        "variant": "none",
+        "buffer": 30,
+        "profile": "matched",
+        "id": "tracktrack-motion"
+      },
+      "linking": null,
+      "development_counts": {
+        "correct": 73,
+        "wrong": 0,
+        "unknown_same": 6,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 210,
+        "reference_observations": 213
+      },
+      "selection_report_id": "tracktrack-motion",
+      "publish_stress": false
+    },
+    {
+      "id": "fourhour-tracktrack-generic",
+      "label": "TrackTrack + generic appearance + global links",
+      "family": "tracktrack",
+      "appearance": "osnet_parts_generic",
+      "online": {
+        "family": "tracktrack",
+        "variant": "none",
+        "buffer": 30,
+        "profile": "matched",
+        "id": "motion-control"
+      },
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "views",
+        "cosine": 0.75,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10,
+        "id": "global-041"
+      },
+      "development_counts": {
+        "correct": 94,
+        "wrong": 0,
+        "unknown_same": 7,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 210,
+        "reference_observations": 213
+      },
+      "selection_report_id": "global-tracktrack-osnet_parts_generic",
+      "publish_stress": false
+    },
+    {
+      "id": "fourhour-tracktrack-trained",
+      "label": "TrackTrack + trained appearance + global links",
+      "family": "tracktrack",
+      "appearance": "osnet_parts_late_s73",
+      "online": {
+        "family": "tracktrack",
+        "variant": "none",
+        "buffer": 30,
+        "profile": "matched",
+        "id": "motion-control"
+      },
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "views",
+        "cosine": 0.75,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10,
+        "id": "global-041"
+      },
+      "development_counts": {
+        "correct": 95,
+        "wrong": 0,
+        "unknown_same": 8,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 210,
+        "reference_observations": 213
+      },
+      "selection_report_id": "global-tracktrack-osnet_parts_late_s73",
+      "publish_stress": true
+    },
+    {
+      "id": "fourhour-sam2",
+      "label": "SAM2 Large, detector supported",
+      "family": "sam2",
+      "size": "large",
+      "appearance": "generic",
+      "weights_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+      "linking": null,
+      "publish_stress": true,
+      "development_counts": {
+        "correct": 87,
+        "wrong": 0,
+        "unknown_same": 11,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      }
+    },
+    {
+      "id": "fourhour-sam2-generic",
+      "label": "SAM2 + generic appearance + global links",
+      "family": "sam2",
+      "size": "large",
+      "base_method": "fourhour-sam2",
+      "appearance": "generic",
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "mean",
+        "cosine": 0.75,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10,
+        "id": "global-005"
+      },
+      "development_counts": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "selection_report_id": "global-large-generic",
+      "publish_stress": true
+    },
+    {
+      "id": "fourhour-sam2-parts",
+      "label": "SAM2 + generic body regions + global links",
+      "family": "sam2",
+      "size": "large",
+      "base_method": "fourhour-sam2",
+      "appearance": "osnet_parts_generic",
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "mean",
+        "cosine": 0.75,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10,
+        "id": "global-005"
+      },
+      "development_counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "selection_report_id": "global-large-osnet_parts_generic",
+      "publish_stress": false
+    },
+    {
+      "id": "fourhour-sam2-trained",
+      "label": "SAM2 + trained appearance + global links",
+      "family": "sam2",
+      "size": "large",
+      "base_method": "fourhour-sam2",
+      "appearance": "osnet_parts_head",
+      "linking": {
+        "solver": "global_assignment",
+        "pooling": "mean",
+        "cosine": 0.75,
+        "margin": 0.0,
+        "gap": 300,
+        "gap_penalty": 0.001,
+        "motion_base": 1.0,
+        "motion_per_frame": 0.12,
+        "min_support": 10,
+        "id": "global-005"
+      },
+      "development_counts": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "selection_report_id": "global-large-osnet_parts_head",
+      "publish_stress": true
+    }
+  ],
+  "final_test_clips": [
+    "pittsburgh-0600",
+    "pittsburgh-1800",
+    "marylandwomen-0600",
+    "marylandwomen-1800",
+    "pittsburgh-stress-0900"
+  ],
+  "source_titles": {
+    "JlBtScHdcg4": "NBHL Pittsburgh Legends Tier Semis: Pittsburgh Seahorses vs. Rolling Hills Relics (09/05/2026)",
+    "ILV4PoQFxGU": "NBHL Maryland Women's Tier 2 Finals: Maryland Vibes vs. Potomac Swamp Creatures Game 1 (08/15/2026)"
+  },
+  "primary_clips": [
+    "pittsburgh-0600",
+    "pittsburgh-1800",
+    "marylandwomen-0600",
+    "marylandwomen-1800"
+  ],
+  "duration_stress_clips": [
+    "pittsburgh-stress-0900"
+  ],
+  "inference_code_sha256": {
+    "modal_campaign.py": "cde4bb252f36085633c907c65f008dd9c4a4ccb3308525f4ff128344b426726d",
+    "nbhl_tracking_final_inference.py": "787f3c312238366e8a216a8d2c86aa8151e4f1cc3cc47dac37727c1a845bdd1f",
+    "nbhl_tracking_fourhour.py": "bcb1545f1d9d97c5a0806fae0e8aba2c443c5000b6e649b721e55f6cf71fa0ba",
+    "nbhl_reid_learning.py": "5b0050c549f4149a0c4e4bff4a465c87a4cf2c7d2ae8eda78c671011f5eb4d08",
+    "nbhl_identity_contrastive.py": "b2812c32b02995a95f7af271b0e94c4e757ab297822bcac78e03b6070f409c17",
+    "nbhl_detection_metrics.py": "c072493cdae824f2f65762b0f5ed4c337180d1ea1b553c6eafeac50314faee7b",
+    "nbhl_sam2_tracking_v2.py": "36d693f1e26c7f3f182dc67b2141d316efef08df94bb2251203c80c21bd57673",
+    "nbhl_tracking_global_links.py": "cd2260bd17f521fb45065979c3697e2fd92295da09006c65ee3ea18ce818b786"
+  },
+  "execution_wrapper_sha256": "f14beaa1426410e90b2d51637c09c8f7bf414421668c2ae982b16770359db632",
+  "reference_builder_sha256": "94ae5ad2397ad3a5764f6146c6ecf66a6d382684690a5a7df3a94b2f5e5e68f4",
+  "development_report_sha256": "630629530582e1151d12bb826d95879f0bb003a9b75f8371cda57a420eafce4c",
+  "preflight_sha256": "e107003ab1c43414e6a8f78dfcecc73dcbc2c837f0953d286f58306fe11148b3",
+  "reference_corrections_sha256": "45498a4a2613daec9cb637cd84c9a2598dc93f46784d6c3036db6e48bcfc8b26",
+  "versions": {
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "ultralytics": "8.4.181",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "opencv-python": "4.11.0.86",
+    "pillow": "12.3.0"
+  },
+  "sam2_vendor_commit": "6472b52e79c47a7793cd4c6cabd64e812a8e5852",
+  "training_sources": [
+    "Z-tFHtxODsE",
+    "OLpK8enSjJs",
+    "WWX74oJC9co",
+    "xbLtZLIiiyA"
+  ],
+  "development_sources": [
+    "plDp2kPtk_g",
+    "X83xW6iQKoc"
+  ],
+  "final_sources": [
+    "JlBtScHdcg4",
+    "ILV4PoQFxGU"
+  ],
+  "selection": "Coverage >=201/213; maximize correct-10*wrong known pairs; fewer accepted unknown pairs, greater observation coverage, then fewer links. Family-specific trained candidates and generic controls retained. No final footage, labels, detections or tracks were visually reviewed before this freeze.",
+  "control_design": "Generic and trained body-region descriptors use identical linking parameters within each tracker family. Generic whole-body OSNet is also retained, separating part pooling from training.",
+  "limits": "Recording-disjoint final test, not a guaranteed venue-disjoint test. Sparse assistant reference; unknown identities retained. Five-minute duration stress reported separately. No model or association changes after final reference review.",
+  "reservations": [
+    {
+      "path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/final-test/reservation.json",
+      "sha256": "3603c4b0db9b56da79ccf554ba4a5b982a13501e162cbd90350bdfcd3938447d",
+      "raw_sha256": "1a72a8bbeba3705190ca1250984e5349281a9cd60d74ec40cae74319e50c5e56",
+      "clips": [
+        "pittsburgh-0600",
+        "pittsburgh-1800"
+      ]
+    },
+    {
+      "path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/final-test/reservation-second.json",
+      "sha256": "0732c7c39b551a031f1d4308e08b2eba3c50318cb96459c0847dfc79560353bf",
+      "raw_sha256": "f7b1eaf20e8e9aee3c692bf056d7a6b4894fe60dec27c416d3d36e89937380e8",
+      "clips": [
+        "marylandwomen-0600",
+        "marylandwomen-1800"
+      ]
+    },
+    {
+      "path": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/final-test/reservation-stress.json",
+      "sha256": "7e037272cf8cc886ef352375a25b77a83edaf7224bd24a843081f2351b91c814",
+      "raw_sha256": "1a72a8bbeba3705190ca1250984e5349281a9cd60d74ec40cae74319e50c5e56",
+      "clips": [
+        "pittsburgh-stress-0900"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "nbhl-four-hour-dense-sample-audit-v1",
+  "registered_at": "2026-10-18T18:42:47.339393+00:00",
+  "phase": "additional_reference_before_prediction_review",
+  "inference_already_running": true,
+  "predictions_or_scores_seen_for_these_recordings": false,
+  "original_freeze_sha256": "75182f8bea4b9b6bcec57f3bec353f0c9ac4e9791b267ee443681fe5735cbd3d",
+  "original_reference_sha256": "d75c360c51a07a32c5369955cc3a4afc6190ae7c46822015a061808757dc12d1",
+  "clips": {
+    "pittsburgh-0600": [
+      "n32",
+      "y5"
+    ],
+    "marylandwomen-0600": [
+      "p_white_right",
+      "w_front"
+    ]
+  },
+  "selection": "First reserved short interval of each original final recording; largest reviewed frame-zero non-goalie box per team that does not touch an image boundary. Selection uses raw reference boxes only.",
+  "frames": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    449
+  ],
+  "labels": "Manual raw-context review only; visible boxes, known out-of-view/occlusion, or uncertain identity. No invented boxes through occlusion.",
+  "metrics": "Matched visible observations; identity changes between adjacent one-second references of the same confidently followed player; lost observation breaks reported separately. Not exhaustive MOT ground truth, IDF1 or HOTA.",
+  "no_model_selection_or_tuning": true
+}

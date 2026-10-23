@@ -1,0 +1,68 @@
+{
+  "id": "nbhl-vlm-identity-error-example-v1",
+  "case": {
+    "track_id": "016-00-60",
+    "gap_s": 60,
+    "a": {
+      "frame": 478,
+      "source_time_s": 1951.8667,
+      "bbox": [
+        920.85,
+        436.98,
+        988.91,
+        532.64
+      ],
+      "confidence": 0.87385,
+      "role_probability": 0.88299,
+      "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/plDp2kPtk_g/plDp2kPtk_g-001-a.jpg",
+      "sha256": "c8c599d93ced29d71f88f8b458b4a24561d29d44a8635365dc7d0d536f2da39e",
+      "crop_bounds": [
+        915,
+        433,
+        994,
+        536
+      ]
+    },
+    "b": {
+      "frame": 1378,
+      "source_time_s": 2011.8667,
+      "bbox": [
+        1048.19,
+        377.13,
+        1104.71,
+        529.27
+      ],
+      "confidence": 0.89651,
+      "role_probability": 0.94762,
+      "image": "/data/ball-hockey/reliability-20261018/long-track-audit-v1/plDp2kPtk_g/plDp2kPtk_g-001-b.jpg",
+      "sha256": "d5245ef35ce7e9b8d8e138d863371dfed72d35d6d8d12035c3427ae9dcdc89f1",
+      "crop_bounds": [
+        1043,
+        371,
+        1109,
+        535
+      ]
+    },
+    "rank": "e35bcbb9b18b4e8e71779f6826fc0d4771f673c8ebef2c96b24499a6477647ef",
+    "id": "plDp2kPtk_g-001"
+  },
+  "prediction": {
+    "id": "plDp2kPtk_g-001",
+    "source_id": "plDp2kPtk_g",
+    "sampling_set": "long-track-audit-v1",
+    "parsed": {
+      "identity": "same",
+      "number_a": 54,
+      "number_b": 54,
+      "evidence": "Both central players wear white jerseys with clearly visible number 54 on the back, and both wear red helmets. The jersey style, number font, and helmet color are consistent across both images."
+    },
+    "output": "{\n  \"identity\": \"same\",\n  \"number_a\": 54,\n  \"number_b\": 54,\n  \"evidence\": \"Both central players wear white jerseys with clearly visible number 54 on the back, and both wear red helmets. The jersey style, number font, and helmet color are consistent across both images.\"\n}",
+    "seconds": 1.166163804875005,
+    "input_tokens": 516,
+    "decision": "same",
+    "review": "different",
+    "review_evidence": "Red helmet and white #54 in A; white helmet and a different two-digit back number in B."
+  },
+  "prediction_report_sha256": "519818daa1a3c24653b916fc795439501fdd53d1ff314a07b061f10973c7e4eb",
+  "selection": "One already-reviewed false positive selected after evaluation to illustrate a confident same-team mistake, not an accuracy sample."
+}

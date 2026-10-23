@@ -1,0 +1,13 @@
+{
+  "status": "planned_not_trained",
+  "scope": "ball_hockey_only",
+  "tasks": ["player_goalie_referee_detection", "ball_localization_and_visibility", "jersey_readability_and_identity", "rink_landmarks_and_feet"],
+  "initial_annotation_budget": {"frames_range":[1500,3000],"games_range":[6,10],"untouched_new_test_games_range":[2,3],"meaning":"Planning estimates; not measured sample complexity."},
+  "split_unit": "whole_game_prefer_venue_holdout",
+  "training_label_requirement": "Complete reviewed frame labels. Sparse detector proposals cannot be treated as exhaustive labels.",
+  "ball_states": ["visible", "occluded", "outside_view", "unresolved"],
+  "teacher_policy": "Suggestions require review and source attribution before training; no hallucinated identities or invisible ball coordinates.",
+  "compute": "Modal with persistent volume; bounded runs and evaluation before scaling",
+  "no_dependency_on_sam_access": true,
+  "current_unseen_test_set": null
+}

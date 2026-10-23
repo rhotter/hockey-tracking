@@ -1,0 +1,61 @@
+{
+  "id": "nbhl-reid-raw-reference-frames-v1",
+  "frames": [
+    {
+      "frame": 0,
+      "source_time_s": 900.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000001.jpg",
+      "sha256": "31700fc7494ff035d3170706d1c99d66193c9be7efd808b9c55dfa1d359a0646",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 150,
+      "source_time_s": 910.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000151.jpg",
+      "sha256": "f7c1ddd01ac2ac2a4441869eb05a4e6f23505f8a05dc0758d243ae343858b6a0",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 300,
+      "source_time_s": 920.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000301.jpg",
+      "sha256": "b4967f79a698527c98c0e9d0b5a21c5a75cbc4c681bf2d1f13b3492323d8dd08",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 450,
+      "source_time_s": 930.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000451.jpg",
+      "sha256": "a08175d9c203ece7db12552598d50f840a440803e38b18da76ff530fade2f776",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 600,
+      "source_time_s": 940.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000601.jpg",
+      "sha256": "424d23acb33a623489a95c427064ecef1fbd96925b0366e348779cbf3c7d249b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 750,
+      "source_time_s": 950.0,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000751.jpg",
+      "sha256": "6b653d66462788038f7cceb859b79ad094d923f0bd6b794a05282c7c067ab82b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "frame": 899,
+      "source_time_s": 959.9333333333333,
+      "path": "/data/sequences/gb-reid-long-0900/img1/000900.jpg",
+      "sha256": "db029ca3e78a330ddbb2652b319c9a77ca649bf30b8ea36194d9fc11a734ed77",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "game2_06m-edge-0032",
+  "phase": "development",
+  "model": "8b",
+  "clip": "game2_06m",
+  "source_id": "plDp2kPtk_g",
+  "candidate": {
+    "a": "15",
+    "b": "32",
+    "gap": 6,
+    "cosine_mean": 0.8210739493370056,
+    "cosine_views": 0.7550228834152222,
+    "distance_heights": 0.30608733752670975,
+    "support_a": 138,
+    "support_b": 61,
+    "id": "game2_06m-edge-0032"
+  },
+  "groups": [
+    {
+      "group": "A",
+      "track_id": "15",
+      "start": 13,
+      "end": 150,
+      "count": 138,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0005-0.jpg",
+          "sha256": "d0e4ae4a9ec20578b854b50fd10f784da672e1815e0d22c78247f5e32a1d03a4",
+          "frame": 60,
+          "quality": 0.9426909685134888,
+          "bbox": [
+            1538,
+            400,
+            1624,
+            574
+          ],
+          "source_frame_sha256": "be1a6b00c67b59807eedd431e00f7dd8380aba8aa7fdfca2af69d9fa10ea042c"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0005-1.jpg",
+          "sha256": "a89852c6681910553c739106adfcde26e6b261922a5b284b8147e8bd42b99cf8",
+          "frame": 119,
+          "quality": 0.9335491061210632,
+          "bbox": [
+            1692,
+            405,
+            1789,
+            573
+          ],
+          "source_frame_sha256": "f1bbe914c6ca71610e14a59ff316e761b7694f8d3d1c936c0f5c66c5b9526bf1"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0005-2.jpg",
+          "sha256": "cb303ce3f601c9c9235d50a795789373dd59cfbb9dd172ac3fd63be42f37a3ea",
+          "frame": 124,
+          "quality": 0.932783842086792,
+          "bbox": [
+            1618,
+            405,
+            1695,
+            557
+          ],
+          "source_frame_sha256": "c99be1abd6866a6c7da175fb8fa0e89943750e0fd8fb9bb7bb3eecf25ebbffe3"
+        }
+      ],
+      "best_image": 0
+    },
+    {
+      "group": "B",
+      "track_id": "32",
+      "start": 156,
+      "end": 223,
+      "count": 61,
+      "images": [
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0016-0.jpg",
+          "sha256": "7c37eebf44c8cc1b09dde9841f75b7a6aa64a79177bec88ce69f9f5d1ecb1262",
+          "frame": 173,
+          "quality": 0.9409964680671692,
+          "bbox": [
+            1117,
+            392,
+            1165,
+            511
+          ],
+          "source_frame_sha256": "b49ae271481795cb4e6c43b63599edee73e3aecc3c7a1478e5602cbc8ecd6e1b"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0016-1.jpg",
+          "sha256": "d54cc2c390e551914d176e00b385995846ea753ede78898415a9150c277e0176",
+          "frame": 178,
+          "quality": 0.9339545369148254,
+          "bbox": [
+            1160,
+            391,
+            1215,
+            511
+          ],
+          "source_frame_sha256": "0ba1c0bf5195ba9a6d30252fa7971cf821ac3e5a3ff5606b46611cf5aeda449a"
+        },
+        {
+          "path": "/data/ball-hockey/reliability-20261018/vlm-reconnect-20261019-v1/development/game2_06m/crops/0016-2.jpg",
+          "sha256": "44225b7d4a82d829180f830b46184b929d7d2b92fda55423737496c0f3aa91b3",
+          "frame": 218,
+          "quality": 0.9316277503967285,
+          "bbox": [
+            1752,
+            398,
+            1836,
+            546
+          ],
+          "source_frame_sha256": "661c43826d7f609a8d90ad59d02c0c3568d73449ccc90203ea91206933f84900"
+        }
+      ],
+      "best_image": 0
+    }
+  ],
+  "responses": {
+    "single": {
+      "id": "game2_06m-edge-0032/single",
+      "task": "single",
+      "clip": "game2_06m",
+      "edge_id": "game2_06m-edge-0032",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"distinctive_details\",\n  \"evidence\": \"Player in group A has a visible jersey number '2' on the back, while player in group B has a visible jersey number '5' on the back.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "distinctive_details",
+        "evidence": "Player in group A has a visible jersey number '2' on the back, while player in group B has a visible jersey number '5' on the back."
+      },
+      "seconds": 0.22288677550000102,
+      "input_tokens": 376,
+      "output_tokens": 78,
+      "finish_reason": "stop"
+    },
+    "multi": {
+      "id": "game2_06m-edge-0032/multi",
+      "task": "multi",
+      "clip": "game2_06m",
+      "edge_id": "game2_06m-edge-0032",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"distinctive_details\",\n  \"evidence\": \"Group A player has a light blue jersey with a visible number '10' on the back, while Group B player has a white jersey with a dark logo and no visible number.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "distinctive_details",
+        "evidence": "Group A player has a light blue jersey with a visible number '10' on the back, while Group B player has a white jersey with a dark logo and no visible number."
+      },
+      "seconds": 0.2999281663750004,
+      "input_tokens": 682,
+      "output_tokens": 82,
+      "finish_reason": "stop"
+    },
+    "reverse": {
+      "id": "game2_06m-edge-0032/reverse",
+      "task": "reverse",
+      "clip": "game2_06m",
+      "edge_id": "game2_06m-edge-0032",
+      "output": "{\n  \"decision\": \"different\",\n  \"a_consistent\": \"yes\",\n  \"b_consistent\": \"yes\",\n  \"evidence_type\": \"distinctive_details\",\n  \"evidence\": \"Player in group A has a dark helmet and a visible number '2' on the back of the jersey. Player in group B has a lighter-colored helmet and a different number (appears to be '10') on the back of the jersey.\"\n}",
+      "parsed": {
+        "decision": "different",
+        "a_consistent": "yes",
+        "b_consistent": "yes",
+        "evidence_type": "distinctive_details",
+        "evidence": "Player in group A has a dark helmet and a visible number '2' on the back of the jersey. Player in group B has a lighter-colored helmet and a different number (appears to be '10') on the back of the jersey."
+      },
+      "seconds": 0.232705054500002,
+      "input_tokens": 682,
+      "output_tokens": 96,
+      "finish_reason": "stop"
+    }
+  },
+  "number_responses": {
+    "a": {
+      "id": "game2_06m/number/15",
+      "task": "number",
+      "clip": "game2_06m",
+      "track_id": "15",
+      "output": "{\n  \"consistent\": \"no\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 2,\n      \"number\": null,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 3,\n      \"number\": null,\n      \"location\": \"back\"\n    }\n  ],\n  \"evidence\": \"The central player's jersey number is obscured or illegible in all images, and the player's posture and equipment suggest they are not the same individual across all frames.\"\n}",
+      "parsed": {
+        "consistent": "no",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "back"
+          },
+          {
+            "image": 2,
+            "number": null,
+            "location": "back"
+          },
+          {
+            "image": 3,
+            "number": null,
+            "location": "back"
+          }
+        ],
+        "evidence": "The central player's jersey number is obscured or illegible in all images, and the player's posture and equipment suggest they are not the same individual across all frames."
+      },
+      "seconds": 0.3056846496250003,
+      "input_tokens": 386,
+      "output_tokens": 129,
+      "finish_reason": "stop"
+    },
+    "b": {
+      "id": "game2_06m/number/32",
+      "task": "number",
+      "clip": "game2_06m",
+      "track_id": "32",
+      "output": "{\n  \"consistent\": \"yes\",\n  \"readings\": [\n    {\n      \"image\": 1,\n      \"number\": null,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 2,\n      \"number\": null,\n      \"location\": \"back\"\n    },\n    {\n      \"image\": 3,\n      \"number\": null,\n      \"location\": \"back\"\n    }\n  ],\n  \"evidence\": \"The central player is the same individual across all images, wearing the same jersey, but the jersey number on the back is too blurry and indistinct to be read in any image.\"\n}",
+      "parsed": {
+        "consistent": "yes",
+        "readings": [
+          {
+            "image": 1,
+            "number": null,
+            "location": "back"
+          },
+          {
+            "image": 2,
+            "number": null,
+            "location": "back"
+          },
+          {
+            "image": 3,
+            "number": null,
+            "location": "back"
+          }
+        ],
+        "evidence": "The central player is the same individual across all images, wearing the same jersey, but the jersey number on the back is too blurry and indistinct to be read in any image."
+      },
+      "seconds": 0.36438505075000194,
+      "input_tokens": 392,
+      "output_tokens": 133,
+      "finish_reason": "stop"
+    }
+  },
+  "image_sha256": "5cbc2224a945026010e7689e9ff3af3dd38cc160afd3bf13132dfc193cda790e"
+}

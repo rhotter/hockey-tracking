@@ -1,0 +1,1818 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "prompt": "Read the complete jersey number of the central player in this NBHL ball-hockey crop. Use visible digits on their shirt, sleeves or shorts. Ignore background people and words or logos. Return null if any digit is hidden, blurred, too small or ambiguous. Do not infer a missing digit or use a roster. Return only JSON: {\"number\": integer or null, \"readable\": true or false, \"location\": \"back, front, sleeve, shorts, or unknown\", \"evidence\": \"one short description of the visible digits or uncertainty\"}.",
+  "label_revision": 2,
+  "label_corrections": [
+    {
+      "id": "game2_33m-180-08",
+      "old_number": 93,
+      "number": 94,
+      "reason": "The original crop shows 94; nearby frames 170,177,184,195 from the same visibly consistent red-helmeted player confirm the final digit is 4. The two later white-helmeted 93 crops remain 93. Error was in the assistant reference, not the 235B prediction. Discovered after reviewing temporal evidence and previous model results; not blind.",
+      "evidence": "data/ball-hockey/review-evidence/jersey-game2-33m-94.jpg",
+      "evidence_sha256": "10dc51b1cb478d3a95bc3c0a09322f8d0fb691ecf0a95c575b608bfe87ca49a3"
+    }
+  ],
+  "labels_sha256": "b2c70dab2a2ef5638eeec6dd9aa925829d769298a10aa021cbd5069c17ea08d2",
+  "prediction_sha256": "ed4ee83b94a4fc04b1109e91c461a0c3b8acf17a034c1ab349f13d69e50e963a",
+  "splits": {
+    "all": {
+      "readable": 36,
+      "correct": 29,
+      "wrong": 6,
+      "abstained": 1,
+      "invalid": 0,
+      "unknown": 61,
+      "unsupported_readings": 17,
+      "unknown_abstained": 44,
+      "accuracy_when_answered_on_readable_crops": 0.8285714285714286,
+      "recall_on_readable_crops": 0.8055555555555556,
+      "errors": [
+        {
+          "id": "validation_03m-60-0",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+          "status": "readable",
+          "number": 42,
+          "location": "back",
+          "prediction": 12,
+          "answer": {
+            "number": 12,
+            "readable": true,
+            "location": "back",
+            "evidence": "The digits '1' and '2' are clearly visible in dark blue on the back of the white jersey."
+          }
+        },
+        {
+          "id": "validation_10m-120-5",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "10c2c6cc682f731a1bda862ff166c5f7c0e0ab4784c9082f483329c6d356bc29",
+          "status": "readable",
+          "number": 9,
+          "location": "back",
+          "prediction": 8,
+          "answer": {
+            "number": 8,
+            "readable": true,
+            "location": "back",
+            "evidence": "The digit 8 is clearly visible on the back of the central player's white jersey."
+          }
+        },
+        {
+          "id": "validation_10m-180-1",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+          "status": "readable",
+          "number": 44,
+          "location": "back",
+          "prediction": 1,
+          "answer": {
+            "number": 1,
+            "readable": true,
+            "location": "back",
+            "evidence": "The digit '1' is clearly visible in white on the lower back of the dark jersey."
+          }
+        },
+        {
+          "id": "validation_40m-120-3",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+          "status": "readable",
+          "number": 42,
+          "location": "sleeve",
+          "prediction": 24,
+          "answer": {
+            "number": 24,
+            "readable": true,
+            "location": "sleeve",
+            "evidence": "The digits '24' are clearly visible on the player's right sleeve."
+          }
+        },
+        {
+          "id": "validation_40m-0-11",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "3c7de7842c722d9ba95bd620f3bcd80c3c086e235bb01d83bde09ccfc1507fb3",
+          "status": "readable",
+          "number": 69,
+          "location": "shorts",
+          "prediction": 89,
+          "answer": {
+            "number": 89,
+            "readable": true,
+            "location": "shorts",
+            "evidence": "The digits '89' are clearly visible in white on the side of the player's black shorts."
+          }
+        },
+        {
+          "id": "validation_40m-60-12",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "176b3401258ae9307998dce33a89cc239321c00cbb1872279b417a677f6dc6fe",
+          "status": "readable",
+          "number": 4,
+          "location": "shorts",
+          "prediction": 14,
+          "answer": {
+            "number": 14,
+            "readable": true,
+            "location": "shorts",
+            "evidence": "The digits '14' are clearly visible in white on the lower left leg of the player's black shorts."
+          }
+        }
+      ]
+    },
+    "development_regression": {
+      "readable": 31,
+      "correct": 24,
+      "wrong": 6,
+      "abstained": 1,
+      "invalid": 0,
+      "unknown": 34,
+      "unsupported_readings": 11,
+      "unknown_abstained": 23,
+      "accuracy_when_answered_on_readable_crops": 0.8,
+      "recall_on_readable_crops": 0.7741935483870968,
+      "errors": [
+        {
+          "id": "validation_03m-60-0",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+          "status": "readable",
+          "number": 42,
+          "location": "back",
+          "prediction": 12,
+          "answer": {
+            "number": 12,
+            "readable": true,
+            "location": "back",
+            "evidence": "The digits '1' and '2' are clearly visible in dark blue on the back of the white jersey."
+          }
+        },
+        {
+          "id": "validation_10m-120-5",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "10c2c6cc682f731a1bda862ff166c5f7c0e0ab4784c9082f483329c6d356bc29",
+          "status": "readable",
+          "number": 9,
+          "location": "back",
+          "prediction": 8,
+          "answer": {
+            "number": 8,
+            "readable": true,
+            "location": "back",
+            "evidence": "The digit 8 is clearly visible on the back of the central player's white jersey."
+          }
+        },
+        {
+          "id": "validation_10m-180-1",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+          "status": "readable",
+          "number": 44,
+          "location": "back",
+          "prediction": 1,
+          "answer": {
+            "number": 1,
+            "readable": true,
+            "location": "back",
+            "evidence": "The digit '1' is clearly visible in white on the lower back of the dark jersey."
+          }
+        },
+        {
+          "id": "validation_40m-120-3",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+          "status": "readable",
+          "number": 42,
+          "location": "sleeve",
+          "prediction": 24,
+          "answer": {
+            "number": 24,
+            "readable": true,
+            "location": "sleeve",
+            "evidence": "The digits '24' are clearly visible on the player's right sleeve."
+          }
+        },
+        {
+          "id": "validation_40m-0-11",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "3c7de7842c722d9ba95bd620f3bcd80c3c086e235bb01d83bde09ccfc1507fb3",
+          "status": "readable",
+          "number": 69,
+          "location": "shorts",
+          "prediction": 89,
+          "answer": {
+            "number": 89,
+            "readable": true,
+            "location": "shorts",
+            "evidence": "The digits '89' are clearly visible in white on the side of the player's black shorts."
+          }
+        },
+        {
+          "id": "validation_40m-60-12",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "176b3401258ae9307998dce33a89cc239321c00cbb1872279b417a677f6dc6fe",
+          "status": "readable",
+          "number": 4,
+          "location": "shorts",
+          "prediction": 14,
+          "answer": {
+            "number": 14,
+            "readable": true,
+            "location": "shorts",
+            "evidence": "The digits '14' are clearly visible in white on the lower left leg of the player's black shorts."
+          }
+        }
+      ]
+    },
+    "transfer_regression": {
+      "readable": 5,
+      "correct": 5,
+      "wrong": 0,
+      "abstained": 0,
+      "invalid": 0,
+      "unknown": 27,
+      "unsupported_readings": 6,
+      "unknown_abstained": 21,
+      "accuracy_when_answered_on_readable_crops": 1.0,
+      "recall_on_readable_crops": 1.0,
+      "errors": []
+    }
+  },
+  "rows": [
+    {
+      "id": "validation_03m-0-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "96fd384bcea634bf6b698cff6ca0c60c2f8136d2bda5ff6ed0ff82f82e91a3fe",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the back of the jersey is partially visible but heavily blurred and distorted by motion, making the digits ambiguous and unreadable."
+      }
+    },
+    {
+      "id": "validation_03m-60-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "00ca431d44d698a61bfd6b5d95f3d21900611b4188431a22b86a2d2963b4bc19",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the central player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_03m-180-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "15d23b3480e8013ceb15acc7e2b11fdd4dec0aeb9e7936110660996dcc0c07f2",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "The image is heavily blurred due to motion, making any digits on the player's jersey or shorts completely illegible."
+      }
+    },
+    {
+      "id": "validation_03m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+      "status": "readable",
+      "number": 42,
+      "location": "back",
+      "prediction": 12,
+      "answer": {
+        "number": 12,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '1' and '2' are clearly visible in dark blue on the back of the white jersey."
+      }
+    },
+    {
+      "id": "validation_03m-120-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "ca1147d25917ee47d2ac6cc6b76a814d2b62ecf71271aee5eda45b3cf8169825",
+      "status": "readable",
+      "number": 42,
+      "location": "back",
+      "prediction": 42,
+      "answer": {
+        "number": 42,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '42' are clearly visible in black on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_03m-60-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "fcbe5deca2f39230b683ddb0acde03c2b971661330162f06f53e662ae6fa8230",
+      "status": "readable",
+      "number": 17,
+      "location": "back",
+      "prediction": 17,
+      "answer": {
+        "number": 17,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '17' are clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_03m-120-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "98a300e7d0ef265bdc8942daa031dc16acb7f7f68594dd8e042630414d7ece54",
+      "status": "readable",
+      "number": 17,
+      "location": "back",
+      "prediction": 17,
+      "answer": {
+        "number": 17,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '1' and '7' are clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_03m-60-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3a2a103932864f20bab4978f8a9d8ad5bbf89c2c890c75aff32cbf6a8ce4761f",
+      "status": "readable",
+      "number": 44,
+      "location": "back",
+      "prediction": 44,
+      "answer": {
+        "number": 44,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '44' are clearly visible in light blue on the back of the player's dark jersey."
+      }
+    },
+    {
+      "id": "validation_03m-120-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d3c261aedb4cdf3b073a17b4cf2d567e28e52854ab2835f68b8614c9e3246ab9",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 7,
+      "answer": {
+        "number": 7,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 7 is visible on the back of the player's jersey."
+      }
+    },
+    {
+      "id": "validation_10m-0-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "05c46ca1bbcf9abe46e8e7e49d1463df04b9e9c99a10cd95b814deb125ee3902",
+      "status": "readable",
+      "number": 9,
+      "location": "back",
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the player's back is heavily blurred and indistinct, making the digits unreadable."
+      }
+    },
+    {
+      "id": "validation_10m-120-5",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "10c2c6cc682f731a1bda862ff166c5f7c0e0ab4784c9082f483329c6d356bc29",
+      "status": "readable",
+      "number": 9,
+      "location": "back",
+      "prediction": 8,
+      "answer": {
+        "number": 8,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 8 is clearly visible on the back of the central player's white jersey."
+      }
+    },
+    {
+      "id": "validation_10m-180-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "be278c6e40a3443ebeeeb09a211338b93289f944ef79654add804690d39ea179",
+      "status": "readable",
+      "number": 9,
+      "location": "back",
+      "prediction": 9,
+      "answer": {
+        "number": 9,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 9 is clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_10m-120-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b1a791f5b298d0c22400c6082bd73d214a4ef57db8231b6801e8d1feec97014d",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "answer": {
+        "number": 4,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 4 is clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_10m-180-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6d9bf9218117899f095586566e70092c5e35e27441f3d39da934583b3e63aad0",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "answer": {
+        "number": 4,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit '4' is clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_10m-0-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "dc3458cbe6457542fc769aa6cbff375b3045472a823cefaecb83c6614dd8da92",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "The image is extremely blurry and low resolution, making any digits on the player's jersey indistinguishable."
+      }
+    },
+    {
+      "id": "validation_10m-60-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "a75b9d46d59c8d2870b719830cd81fcab575de411ed8de09f951ef1bed4b84cc",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the central player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_10m-120-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "c9a26733115aeef245bf4a2c9ba59ab956c2d2d343ee65824ccc890628f7d4eb",
+      "status": "readable",
+      "number": 44,
+      "location": "back",
+      "prediction": 44,
+      "answer": {
+        "number": 44,
+        "readable": true,
+        "location": "back",
+        "evidence": "The number 44 is clearly visible in light blue on the back of the player's dark jersey."
+      }
+    },
+    {
+      "id": "validation_10m-180-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+      "status": "readable",
+      "number": 44,
+      "location": "back",
+      "prediction": 1,
+      "answer": {
+        "number": 1,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit '1' is clearly visible in white on the lower back of the dark jersey."
+      }
+    },
+    {
+      "id": "validation_15m-0-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b74491c61aa407e0ba7e38f6302c70e31717e534d8f4c66a98d39419e1d1c907",
+      "status": "readable",
+      "number": 5,
+      "location": "back",
+      "prediction": 5,
+      "answer": {
+        "number": 5,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 5 is clearly visible in blue on the back of the white jersey."
+      }
+    },
+    {
+      "id": "validation_15m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "03fd1297f55448f2e9c971ea6890f34f85eaebe9cc366b82c51644fb381a9a4b",
+      "status": "readable",
+      "number": 5,
+      "location": "back",
+      "prediction": 5,
+      "answer": {
+        "number": 5,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 5 is clearly visible in blue on the back of the white jersey."
+      }
+    },
+    {
+      "id": "validation_15m-120-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "1bcce3864b898656870a5dddedc8e831b18336e6b1b3204ba14af343f127397f",
+      "status": "readable",
+      "number": 5,
+      "location": "back",
+      "prediction": 5,
+      "answer": {
+        "number": 5,
+        "readable": true,
+        "location": "front",
+        "evidence": "The digit 5 is clearly visible on the front of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_15m-180-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b49f38b3034c3944ac0f4e6373625f5362545cdae9710cac1be405a821daa655",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_15m-60-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6c423b96bdd2b3704720ed8406a18f05ab4bcf195c76d8658f6147ebed271ee3",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "answer": {
+        "number": 4,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit '4' is clearly visible in the center of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_15m-120-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "ceeb1c1c0f1a78a4c4be34396f9557cc697b99b004aa3012de4bafa3c0f946c3",
+      "status": "readable",
+      "number": 4,
+      "location": "back",
+      "prediction": 4,
+      "answer": {
+        "number": 4,
+        "readable": true,
+        "location": "front",
+        "evidence": "The digit 4 is clearly visible on the front of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_25m-0-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "cbcbbfda78566f5891e07a822fa2fa43a9b5701cc47749414019fb04a308e30a",
+      "status": "readable",
+      "number": 7,
+      "location": "back",
+      "prediction": 7,
+      "answer": {
+        "number": 7,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 7 is clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_25m-60-1",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b667652b4f8f64ae4a6a6817fad69ce559b30f96899bde2def18805efafea373",
+      "status": "readable",
+      "number": 7,
+      "location": "back",
+      "prediction": 7,
+      "answer": {
+        "number": 7,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit 7 is clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_25m-120-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "5ab56f95a2eaa241ba19f9499116d44cb139f07171e5f2d76e4249d3203dbb4d",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 14,
+      "answer": {
+        "number": 14,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '14' are clearly visible in white on the blue shorts of the central player."
+      }
+    },
+    {
+      "id": "validation_25m-180-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "11655d8a5f91dc47dc886b581e8a84d88d4aa45679c1e9d048c23a3a8bc73ac4",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No visible digits on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_40m-0-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "161b2188fb4ee0e807c8dffa0a9c4d4e6fa7cdc952d6680d2333ffb3dcc9cc68",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 30,
+      "answer": {
+        "number": 30,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '30' are clearly visible in white on the lower right side of the player's blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "00719679941b3ffeea7af72ec6909fa4d74907c9209eb5762bd250e6d29fbc82",
+      "status": "readable",
+      "number": 33,
+      "location": "shorts",
+      "prediction": 33,
+      "answer": {
+        "number": 33,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The number 33 is clearly visible in white on the front of the blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-180-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "abf44580a77b2c75cf21c9bc4c9db607587e15a12dec65ad8139c13327ed70c2",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 33,
+      "answer": {
+        "number": 33,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The number 33 is clearly visible in white on the right leg of the player's blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-0-5",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "ea6232048603c50e6196338097ffa736d165f0c9c3c41761ed4f1b113b20532b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 17,
+      "answer": {
+        "number": 17,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '17' are clearly visible in white on the left leg of the blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-60-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8cc5a8b5f59ef0694693aeb7eda2b8fa2856eb09ab265d3f44a06b1c8a4df4c3",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 7,
+      "answer": {
+        "number": 7,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digit 7 is clearly visible in white on the left leg of the blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-120-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b8a3bfe33d1d910909d24e772bc7ae2d4eacd8d13d281fe179dbd128dadeec4c",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 7,
+      "answer": {
+        "number": 7,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digit 7 is clearly visible in white on the front of the player's blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-180-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "447ea33c4154c3a27cc41f1238f89b051e55843656c20add8632b63b65b24f4e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 17,
+      "answer": {
+        "number": 17,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '1' and '7' are clearly visible in white on the left leg of the blue shorts."
+      }
+    },
+    {
+      "id": "validation_40m-0-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "f036aa0ea17b9c8b1012a5a1d42ff6aae5f9558e97e59fb48c1ead3e759cfd31",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The digits on the player's back are heavily blurred and distorted by motion, making them illegible."
+      }
+    },
+    {
+      "id": "validation_40m-60-7",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8307b41639fd9dc8e5ae3d5e16fbcb19b97f2690294cd40f416e2665239ff7e0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the player's back is partially visible but heavily blurred and distorted by motion, making the digits ambiguous and unreadable."
+      }
+    },
+    {
+      "id": "validation_40m-120-3",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+      "status": "readable",
+      "number": 42,
+      "location": "sleeve",
+      "prediction": 24,
+      "answer": {
+        "number": 24,
+        "readable": true,
+        "location": "sleeve",
+        "evidence": "The digits '24' are clearly visible on the player's right sleeve."
+      }
+    },
+    {
+      "id": "validation_40m-180-5",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "0b30429f3eb36511068024f4cf9fa7ccae1ed042e13f3be37c73a2a37ca87b48",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "Only the digit '2' is visible on the back of the jersey; the preceding digit is obscured by the player's arm and body angle."
+      }
+    },
+    {
+      "id": "validation_40m-0-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "73f42e4b4ec919409c9a83f9c8111f17fd5c3d0c1db64ae55be63a91fa48029b",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "answer": {
+        "number": 40,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '40' are clearly visible in large blue font on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_40m-60-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "b2cbd5f78cb24e7264e6b9d541194b6b1980b58f3d74e35b92bea88b2a3f5582",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "answer": {
+        "number": 40,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '40' are clearly visible in large purple font on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "validation_40m-120-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "613cdef3832dc55dc183f370bbecf3ca4e30b91e3078b8bc0db4ef951c802e74",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "answer": {
+        "number": 40,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '40' are clearly visible in dark blue on the back of the white jersey."
+      }
+    },
+    {
+      "id": "validation_40m-180-9",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "311269debdc2bbc83715e2db0490c984b45e7d73c1b8bc2a72242f107a8f2abb",
+      "status": "readable",
+      "number": 40,
+      "location": "back",
+      "prediction": 40,
+      "answer": {
+        "number": 40,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '4' and '0' are clearly visible in dark blue on the back of the white jersey."
+      }
+    },
+    {
+      "id": "validation_40m-0-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3c7de7842c722d9ba95bd620f3bcd80c3c086e235bb01d83bde09ccfc1507fb3",
+      "status": "readable",
+      "number": 69,
+      "location": "shorts",
+      "prediction": 89,
+      "answer": {
+        "number": 89,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '89' are clearly visible in white on the side of the player's black shorts."
+      }
+    },
+    {
+      "id": "validation_40m-60-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "1c07a9e0f7d83358bd1974b584529c937e036034e736c8cdc546541dd7e7164a",
+      "status": "readable",
+      "number": 69,
+      "location": "shorts",
+      "prediction": 69,
+      "answer": {
+        "number": 69,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '69' are clearly visible in white on the side of the player's black shorts."
+      }
+    },
+    {
+      "id": "validation_40m-120-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "57d23cc6249bf21258e37af6953edbda15c6a68a76dede643f4e4e50a2de1072",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The jersey number on the back is partially visible but the digits are cut off by the edge of the image and are too blurry to read with certainty."
+      }
+    },
+    {
+      "id": "validation_40m-180-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "3f7d2fc787d677129d78e8376b7c17fab4f4ad257903b499b90deb1557abcee2",
+      "status": "readable",
+      "number": 69,
+      "location": "back",
+      "prediction": 69,
+      "answer": {
+        "number": 69,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits 6 and 9 are clearly visible in light blue on the back of the player's dark jersey."
+      }
+    },
+    {
+      "id": "validation_40m-0-12",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6fdc348084fc778f50727e14a839f54a0bc3a76d05c6adb897354aa35637b8f6",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_40m-60-12",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "176b3401258ae9307998dce33a89cc239321c00cbb1872279b417a677f6dc6fe",
+      "status": "readable",
+      "number": 4,
+      "location": "shorts",
+      "prediction": 14,
+      "answer": {
+        "number": 14,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '14' are clearly visible in white on the lower left leg of the player's black shorts."
+      }
+    },
+    {
+      "id": "validation_40m-120-9",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "5580ad01a535223fd8578f59d8cf2312c523410291a105579dfe5b1cc25b05d7",
+      "status": "readable",
+      "number": 4,
+      "location": "shorts",
+      "prediction": 4,
+      "answer": {
+        "number": 4,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digit 4 is clearly visible in white on the bottom right of the player's black shorts."
+      }
+    },
+    {
+      "id": "validation_40m-180-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d066d4fcaf27dd970160c7d1b66527cc44b48eefa65abf897821ec9a717ffe80",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 4,
+      "answer": {
+        "number": 4,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digit '4' is clearly visible on the right leg of the player's black shorts."
+      }
+    },
+    {
+      "id": "validation_40m-0-7",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "1b16226b4c50a0f3b6a312d504b07379ba5296eb5324a420131c6da74ca86e1b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "The number on the central player's shirt is obscured by the player in the foreground and is too blurry to read clearly."
+      }
+    },
+    {
+      "id": "validation_40m-60-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "aef0c79ddb4d98952f430b5e86e3593fd5d17c03eabc180ce902782820be60f5",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 11,
+      "answer": {
+        "number": 11,
+        "readable": true,
+        "location": "shorts",
+        "evidence": "The digits '11' are clearly visible on the front of the central player's black shorts."
+      }
+    },
+    {
+      "id": "validation_40m-120-4",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8623ae9902ed93c38a4a99ed8c63e5ba0fc8776ab8adf4e13ddeb93d4d5db1a6",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "shorts",
+        "evidence": "The digits on the shorts are too small and blurred to be read clearly."
+      }
+    },
+    {
+      "id": "validation_40m-180-6",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6dff7d0972828b04ec4296d93d83b70b1257e9ee0f76ca6e163353103e93bbf8",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "The number on the front of the central player's jersey is heavily blurred and indistinct, making the digits unreadable."
+      }
+    },
+    {
+      "id": "validation_46m-0-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "4abf53b50f4b97f18bc64b3421a4f2455eda42900b16f84b936e25a263314d9e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "The image is too low-resolution and blurry to distinguish any digits on the player's jersey or shorts."
+      }
+    },
+    {
+      "id": "validation_46m-60-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "03b722da53ad0e79756cded10c48c65471933451af9cd66e3b6883b97d89383a",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_46m-120-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "5246c1e403868728b2d64d583ba96a4e9775a99344e630b42f23a482630c2281",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "The image is extremely blurry and low resolution, making any digits on the player's jersey indistinguishable."
+      }
+    },
+    {
+      "id": "validation_46m-180-0",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "7fade65773dac7cb2051125db269d56b251c1241028b385a0b5e97d3bc1e3daa",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "validation_46m-0-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "6a87c371c10abe66a574bdf2b199616360fe8ccee4b4f923c0cc97807d99c422",
+      "status": "readable",
+      "number": 33,
+      "location": "back",
+      "prediction": 33,
+      "answer": {
+        "number": 33,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '33' are clearly visible in dark blue on the back of the white jersey."
+      }
+    },
+    {
+      "id": "validation_46m-60-8",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "8d84ec493ea8957d96f8eefeeef8368fae5172f4e8c7cc082d765fe01cd12ed0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 13,
+      "answer": {
+        "number": 13,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '1' and '3' are visible on the back of the player's white jersey, though slightly blurred due to motion."
+      }
+    },
+    {
+      "id": "validation_46m-120-2",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d4466364afe50574a31163c5dbd8c9c0377adb8ec895dd38dad0c3e6c9577a8f",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The digits on the player's back are heavily blurred and indistinct, making them impossible to read."
+      }
+    },
+    {
+      "id": "validation_46m-0-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "659cdd5b48ab92ca80c25d9e15362b56b410e4ca34fbab62a097521db0edda7b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player; the image is too low resolution and the player is facing away or in profile without a clear number on the back or sleeves."
+      }
+    },
+    {
+      "id": "validation_46m-60-11",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "d20d1b66e03f79550e95169d49bec4bb12c9179ff248c3b1761568611774cb80",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "The image is too blurry and low-resolution to distinguish any digits on the player's jersey."
+      }
+    },
+    {
+      "id": "validation_46m-120-10",
+      "source_id": "Z-tFHtxODsE",
+      "split": "development_regression",
+      "crop_sha256": "41f62dc217e54f8b4280beae74d019126ae39762b6b23838a2874335f5fad52d",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "The image is extremely blurry and low resolution, making any digits on the player's jersey indistinguishable."
+      }
+    },
+    {
+      "id": "game2_01m-060-19",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "f22fee13fb8b1db29ae30ea0b6a78beb73812afc2c27b9f4c6686ec0236277db",
+      "status": "readable",
+      "number": 3,
+      "location": "back",
+      "prediction": 3,
+      "answer": {
+        "number": 3,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit '3' is clearly visible in white on the back of the red jersey."
+      }
+    },
+    {
+      "id": "game2_01m-180-17",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "6c5a48552621ff353b75a26abb0ee388fba069dffbb772e8c57cfb33e9f51f26",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the back of the jersey is partially obscured by the player's arm and angle, making the full digits ambiguous and unreadable."
+      }
+    },
+    {
+      "id": "game2_01m-060-17",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "3e639ae774af8482dd423a12bfae6740aa1ad19efe19ee7ca80363e8ffe81001",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "The number on the front of the central player's jersey is heavily blurred and indistinct, making the digits unreadable."
+      }
+    },
+    {
+      "id": "game2_01m-180-20",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "9014e640991b19a239744283305816e64b9408ee4fc1b190893bbd71efe357fa",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "game2_01m-060-18",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "826c258bfee1ec8cfe0f814466d382630aef6ec6ccbd0a39363282b996e9709e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "No digits are visible on the player's jersey, sleeves, or shorts; only a logo is present on the chest."
+      }
+    },
+    {
+      "id": "game2_01m-180-21",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d26307df0e5c6cbb8def731610c177a211805cb3061d563fa17faca145074c0c",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "game2_06m-060-23",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "f8d782aa4a2de7f5e36eecd1b5de81c86c982b5672cba96f1a9df0812585870c",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "game2_06m-180-16",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "84e42c75481c95d067d30f6ea9716a77c6c633f4e73537fc8ffac34f3204512a",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "shorts",
+        "evidence": "The number on the shorts is too small and blurred to be read clearly."
+      }
+    },
+    {
+      "id": "game2_06m-060-21",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "6c0cdcd9286e43bd0bb427b9ee76a0bc6e0496b9e1351d2d761186b4d16d3ddd",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 11,
+      "answer": {
+        "number": 11,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '11' are clearly visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "game2_06m-180-15",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d3a8049547ec54b0a83eac15beca6a63f44c80fd590a257a5cc7c5790552c377",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts; only a logo is present on the front of the jersey."
+      }
+    },
+    {
+      "id": "game2_06m-060-09",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "fd8c29018ac2e94505881bc8c4d807ac9846c3b5a3ccb099bedd95e4d57367c0",
+      "status": "readable",
+      "number": 3,
+      "location": "back",
+      "prediction": 3,
+      "answer": {
+        "number": 3,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digit '3' is clearly visible in white on the back of the red jersey."
+      }
+    },
+    {
+      "id": "game2_06m-180-14",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "5e693f86429d80468bd2312d8e55a96f728c361d4447f4e72a34a6925114556a",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "The image is too low-resolution and blurry to distinguish any specific digits on the player's jersey."
+      }
+    },
+    {
+      "id": "game2_24m-060-12",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "ba8812d0aaf8f99286961b4256a97fadf0743ee3bff367dbd2594f6e907b7247",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the player's back is visible but is too small and blurry to read the specific digits clearly."
+      }
+    },
+    {
+      "id": "game2_24m-180-17",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "30c3068c0b9a1660cb55f73a4690de06575c01019e45d8616a507661cb0d1c53",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 55,
+      "answer": {
+        "number": 55,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '55' are clearly visible in white on the back of the red jersey."
+      }
+    },
+    {
+      "id": "game2_24m-060-19",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "e6e055435d4d067c6e134ec3d983714bbec8f046ec9fcefa0b786adbf3d5d7df",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "game2_24m-180-01",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "2de07a43443c973f58699346c2ee93dabc3ff1480bc8bd488ccef0d758398c6f",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "game2_33m-060-04",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "cfba5952637bf215d73b4acd664acb218c86bb69ee32d6a5717bd63db9479196",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the back of the central player's jersey is heavily blurred and indistinct, making the digits unreadable."
+      }
+    },
+    {
+      "id": "game2_33m-180-09",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "1006e8e02edaf824b6ddff60c3c02fb356b9594876df336f28423715bcedf5d0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "The image is too blurry and low-resolution to distinguish any jersey numbers on the players."
+      }
+    },
+    {
+      "id": "game2_33m-060-10",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "1777aa8d4bbfc1a6d93be3e363b1b4617342eee776aa8b1c0c65b6e4b51d20d8",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "unknown",
+        "evidence": "No jersey number is visible on the player's shirt, sleeves, or shorts."
+      }
+    },
+    {
+      "id": "game2_33m-180-08",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "955479ad0960bfdfe4e3bf6f84fcfea07b4c333452723bb9d938d61cf4e1f4b7",
+      "status": "readable",
+      "number": 94,
+      "location": "back",
+      "prediction": 94,
+      "answer": {
+        "number": 94,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits 9 and 4 are clearly visible in white on the back of the maroon jersey."
+      }
+    },
+    {
+      "id": "game2_33m-060-09",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "e8cca0199e33864532b68b429913d464edc2c5ee177d80eff44198560bf9385e",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "front",
+        "evidence": "The number on the front of the jersey is heavily blurred and indistinct, making the digits unreadable."
+      }
+    },
+    {
+      "id": "game2_33m-180-11",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "564455b0de164151a0f98aa24c490dfe329b5ded4f51700d7a8615f3c8b58c5f",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The image is extremely low resolution and blurry, making any potential digits on the player's jersey indistinguishable."
+      }
+    },
+    {
+      "id": "game2_41m-060-10",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d91c80efc4209301eb2a0d3813e0a1d4c6f516be9ecba258b13a239ef7e8afc4",
+      "status": "readable",
+      "number": 93,
+      "location": "back",
+      "prediction": 93,
+      "answer": {
+        "number": 93,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '93' are clearly visible in white with a black outline on the back of the red jersey."
+      }
+    },
+    {
+      "id": "game2_41m-180-22",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "455020b9c279909c2541b4f821af3ffbf13ec66ef059226ef722c2d7065b74c3",
+      "status": "readable",
+      "number": 93,
+      "location": "back",
+      "prediction": 93,
+      "answer": {
+        "number": 93,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits 9 and 3 are clearly visible in white with a black outline on the back of the red jersey."
+      }
+    },
+    {
+      "id": "game2_41m-060-22",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "3f747b26ae8a8d60709b08256270ad32f356cb19c0616ed82ae6627b0e465eed",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": 86,
+      "answer": {
+        "number": 86,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits 8 and 6 are clearly visible in white on the back of the red jersey."
+      }
+    },
+    {
+      "id": "game2_41m-180-10",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "f66f2a1de24f98e742a27d95cd0e577f04ff9ad52e92ad09b11105dc425b40be",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The digits on the player's back are heavily blurred and indistinct, making them impossible to read."
+      }
+    },
+    {
+      "id": "game2_41m-060-24",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "5050b42f2ae1cb49af8491a79223e12f3e81bbf5f7e0a8513977edcb44934912",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 17,
+      "answer": {
+        "number": 17,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '1' and '7' are visible on the back of the player's white jersey."
+      }
+    },
+    {
+      "id": "game2_41m-180-13",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "670954c0045c15e70ff7b35b980cc5252353f68f9c493cfab2a57c0aa6921a92",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 11,
+      "answer": {
+        "number": 11,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '11' are visible on the back of the central player's white jersey."
+      }
+    },
+    {
+      "id": "game2_41m-060-15",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "d5dc3d4ed62bce5577eef0064a5423d76d71c05a97fe131ca770f2782cccd7c6",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The digits on the back of the player's jersey are too small and blurry to be read clearly."
+      }
+    },
+    {
+      "id": "game2_41m-180-14",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "7ad1a28ab3f4b3e9a0e7d071b39e02abb02a0b3383d585c76a9b696478783ff0",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "shorts",
+        "evidence": "The number on the shorts is visible but too small and blurred to read the digits clearly."
+      }
+    },
+    {
+      "id": "game2_41m-060-12",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "1387980eae391d9d44a131d90e23ce60667e7b9e9a28420377deae55d7670c4b",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": null,
+      "answer": {
+        "number": null,
+        "readable": false,
+        "location": "back",
+        "evidence": "The number on the back of the player's shirt is too blurry and low-resolution to be read clearly."
+      }
+    },
+    {
+      "id": "game2_41m-180-15",
+      "source_id": "plDp2kPtk_g",
+      "split": "transfer_regression",
+      "crop_sha256": "e4274347d54fd7e3fcaa497c499993486fa9834281cd3eaa79904f33ea871adb",
+      "status": "unknown",
+      "number": null,
+      "location": null,
+      "prediction": 17,
+      "answer": {
+        "number": 17,
+        "readable": true,
+        "location": "back",
+        "evidence": "The digits '1' and '7' are visible on the back of the player's white jersey."
+      }
+    }
+  ],
+  "independent_human_ground_truth": false,
+  "limitations": "Assistant-reviewed 97 crops, 36 readable and 61 unknown. Labels were reviewed after inference and corrected with neighboring-frame evidence; this is a regression audit, not a blind test. Extra readings on unknown crops are unsupported, not necessarily false. Same-player images are dependent."
+}
