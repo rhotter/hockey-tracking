@@ -15,3 +15,8 @@ outputs/
 *.mp4
 *.mov
 .DS_Store
+
+node_modules/
+.next/
+.vercel/
+public/

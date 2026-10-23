@@ -1,0 +1,20 @@
+{
+  "name": "hockey-tracking",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prepare:site": "python3 scripts/prepare_next_site.py",
+    "build": "npm run prepare:site && next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "html-react-parser": "6.1.9",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}

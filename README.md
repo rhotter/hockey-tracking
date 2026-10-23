@@ -6,9 +6,20 @@ The strongest observed candidate combines **SAM2 track fragments**, **OSNet appe
 
 ## Website
 
-[Open the public results and replay site](https://rhotter.github.io/hockey-tracking/). Every push to `main` runs the release checks, builds the site and deploys it through GitHub Actions. Frontend source lives in `web/`. Replay assets are stored separately in the `site-assets-v1` GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`.
+The website is a **Next.js 16 / React 19** app deployed on **Vercel**, connected to this repository's `main` branch. Pull requests receive Vercel previews. GitHub Actions verifies the research release and Next.js production build.
 
-Build locally with `python scripts/build_site.py`, then serve `dist/` with `python -m http.server --directory dist 8000`. To update media, upload a new versioned release bundle and update the asset manifest; keep media out of Git history.
+```bash
+npm ci
+npm run prepare:site
+npm run dev
+# Production build:
+npm run build
+npm start
+```
+
+Python 3.10+ and Node.js 22+ are required. The App Router renders the five research pages from trusted templates in `web/`, with server-rendered React content and the existing video/canvas controllers initialized after hydration. Existing `.html` links still work. `app/`, `components/` and `lib/` contain the Next.js integration.
+
+Replay assets are stored separately in the `site-assets-v1` GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
 ## Measured result
 
