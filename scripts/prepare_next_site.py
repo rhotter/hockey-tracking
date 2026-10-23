@@ -1,11 +1,15 @@
 """Verify and prepare public assets for the Next.js app."""
 from pathlib import Path
 import shutil
+import hashlib
+import json
 from build_site import build
 
 ROOT = Path(__file__).resolve().parents[1]
 archive = ROOT / 'build/replay-assets.tar.gz'
-build(ROOT, archive if archive.exists() else None)
+manifest = json.loads((ROOT / 'site-assets.json').read_text())
+cache_valid = archive.exists() and hashlib.sha256(archive.read_bytes()).hexdigest() == manifest['sha256']
+build(ROOT, archive if cache_valid else None)
 public = ROOT / 'public'
 if public.exists():
     shutil.rmtree(public)

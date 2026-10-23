@@ -1,0 +1,25 @@
+{
+  "selected": {
+    "prompt": "hockey player",
+    "threshold": 0.6,
+    "metrics": {
+      "confidence_threshold": 0.6,
+      "iou_threshold": 0.5,
+      "frames": 23,
+      "targets": 178,
+      "tp": 152,
+      "fp": 23,
+      "fn": 26,
+      "precision": 0.8685714285714285,
+      "recall": 0.8539325842696629,
+      "f1": 0.8611898016997167,
+      "false_positives_per_frame": 1.0,
+      "goalies": 19,
+      "goalie_hits": 15,
+      "goalie_recall": 0.7894736842105263
+    }
+  },
+  "development_sha256": "942113b80e7264f3ac19de409426b1b6738c60f6ada3850614a1f51b8d62c7d6",
+  "recorded_at": "2026-10-23T17:56:49.716862+00:00",
+  "rule": "Recorded from development result before regression output inspection; prompt was passed unchanged to regression call."
+}

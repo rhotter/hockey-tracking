@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "url": "https://github.com/rhotter/hockey-tracking/releases/download/site-assets-v1/replay-assets.tar.gz",
-  "sha256": "4989d3ca045ada5b43bc871f3b6d51390eaafa097591f3729d3f028b9004060c",
+  "url": "https://github.com/rhotter/hockey-tracking/releases/download/site-assets-v2/replay-assets-v2.tar.gz",
+  "sha256": "327ba1f47265991333ea476d9a706117e056ebadaf47880a89e7745372ed1017",
   "files": {
     "data/reliability/consistency-example/a.jpg": "efb260155ca4d8024b9ac1877bec5040cad5d5367a5f34387dc9ac83c4c68fc2",
     "data/reliability/consistency-example/b.jpg": "17f0055a6566dd2b91cf78312438dc15a4a5a5ebfd51a2b9c5f1cb4532c77f5c",
@@ -312,6 +312,10 @@
     "media/tracking-fourhour/pittsburgh-stress-0900-vlm-embedding-2b-joint.json": "93b4fe667fd7fa18ffdb4230f49bf33f9d7f8ee0c8ce05f6c96b8fbbfe545835",
     "media/tracking-fourhour/pittsburgh-stress-0900-vlm-osnet-baseline.json": "b0d33bfc53a96077e158114a8e48db96d209edc6423aa60e13b42ed42bec8867",
     "media/tracking-fourhour/pittsburgh-stress-0900.jpg": "8e7cb34e23f72dbf43cb0f4d5ff6bfbcf49b36bd83fc4eed72b3bd6b5b377227",
-    "media/tracking-fourhour/pittsburgh-stress-0900.mp4": "c3479e6118ffd981da7b55875669ae115cfc229b211ee2c20e7834cea8f6c860"
+    "media/tracking-fourhour/pittsburgh-stress-0900.mp4": "c3479e6118ffd981da7b55875669ae115cfc229b211ee2c20e7834cea8f6c860",
+    "media/sam3/body-review-1.jpg": "d3782985d84cb43bd8db397294180689b7b36173bc97cd88dd5b407c11dde8d3",
+    "media/sam3/body-review-2.jpg": "de6c0292e93e7371b0aeb6a066cbba3e1b89ac93193cb78dd215117121db64f3",
+    "media/sam3/body-review-3.jpg": "759a431374464cb59ff06ccf0fa0cc793f165423bb214d9fd300dd1b5d7d00a3",
+    "media/sam3/body-review-4.jpg": "924530a281cc7dbbc9dc838ad01f24177af0fcbf4f0d492c23a3683fed25b6b7"
   }
 }

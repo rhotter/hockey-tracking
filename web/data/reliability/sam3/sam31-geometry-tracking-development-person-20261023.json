@@ -1,0 +1,162 @@
+[
+  {
+    "clip": "gb-tracking-1800",
+    "variants": [
+      {
+        "method": "original-boxes",
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 30,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 56,
+          "matched_observations": 40,
+          "reference_observations": 44
+        },
+        "fragments": 29,
+        "observations": 3586,
+        "seconds": 62.941131162000005,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 64,
+        "baseline_raw_sam2": {
+          "correct": 29,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        }
+      },
+      {
+        "method": "final-mask",
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 30,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 42,
+          "matched_observations": 41,
+          "reference_observations": 44
+        },
+        "fragments": 29,
+        "observations": 3584,
+        "seconds": 62.941131162000005,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 64,
+        "box_recipe": "final-mask"
+      },
+      {
+        "method": "largest-component",
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 33,
+          "wrong": 1,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        },
+        "fragments": 29,
+        "observations": 3584,
+        "seconds": 62.941131162000005,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 64,
+        "box_recipe": "largest-component"
+      }
+    ]
+  },
+  {
+    "clip": "gb-reid-long-0900",
+    "variants": [
+      {
+        "method": "original-boxes",
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 110,
+          "matched_observations": 23,
+          "reference_observations": 35
+        },
+        "fragments": 66,
+        "observations": 6773,
+        "seconds": 282.81694153300003,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 64,
+        "baseline_raw_sam2": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 8,
+          "matched_observations": 34,
+          "reference_observations": 35
+        }
+      },
+      {
+        "method": "final-mask",
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 104,
+          "matched_observations": 25,
+          "reference_observations": 35
+        },
+        "fragments": 66,
+        "observations": 6627,
+        "seconds": 282.81694153300003,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 64,
+        "box_recipe": "final-mask"
+      },
+      {
+        "method": "largest-component",
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 56,
+          "matched_observations": 29,
+          "reference_observations": 35
+        },
+        "fragments": 66,
+        "observations": 6627,
+        "seconds": 282.81694153300003,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 64,
+        "box_recipe": "largest-component"
+      }
+    ]
+  }
+]

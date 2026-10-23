@@ -1,0 +1,6 @@
+{
+  "created_at": "2026-10-23T17:59:14.528676+00:00",
+  "reason": "Standalone SAM3 detection regressed. Test tracker component using identical existing detector boxes and SAM2 assignment thresholds. Added before any SAM3 tracking scores were inspected.",
+  "selection": "Evaluate development first. Only promote if correct-10*wrong exceeds raw SAM2, then test same fixed settings on four short regression clips.",
+  "adapter_sha256": "d8f2e94bde91189d6b02caacec5b10aab6c92e2cd07afe5dae92817e96c34666"
+}

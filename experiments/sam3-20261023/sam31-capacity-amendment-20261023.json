@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-10-23T18:27:23.250374+00:00",
+  "reason": "The one-minute development run reached the 64-object limit and emitted capacity warnings. No capacity warnings in the four regression clips. Test 128 slots on only the affected development clip to measure whether this engineering limit explains fragmentation. No accuracy scores for SAM3.1 inspected at this point.",
+  "clip": "gb-reid-long-0900",
+  "max_num_objects": 128,
+  "multiplex_count": 16,
+  "other_settings": "Unchanged from sam31-amendment-20261023.json",
+  "publication": "Keep and report the original 64-slot run. Do not merge the follow-up into the original development total or imply a 128-slot regression test."
+}

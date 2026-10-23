@@ -1,0 +1,76 @@
+[
+  {
+    "clip": "gb-tracking-1800",
+    "counts": {
+      "correct": 29,
+      "wrong": 0,
+      "unknown_same": 0,
+      "same_total": 37,
+      "different_total": 286,
+      "missing": 15,
+      "matched_observations": 43,
+      "reference_observations": 44
+    },
+    "fragments": 26,
+    "observations": 2360,
+    "seconds": 43.518224153,
+    "phase": "development",
+    "baseline_raw_sam2": {
+      "correct": 29,
+      "wrong": 0,
+      "unknown_same": 0,
+      "same_total": 37,
+      "different_total": 286,
+      "missing": 0,
+      "matched_observations": 44,
+      "reference_observations": 44
+    },
+    "config": {
+      "new_confidence": 0.65,
+      "continuation_confidence": 0.1,
+      "minimum_mask_iou": 0.3,
+      "margin": 0.1,
+      "retire_frames": 15,
+      "maximum_live": 24,
+      "scene_resets": true,
+      "output_requires_current_detection": true
+    }
+  },
+  {
+    "clip": "gb-reid-long-0900",
+    "counts": {
+      "correct": 4,
+      "wrong": 0,
+      "unknown_same": 4,
+      "same_total": 11,
+      "different_total": 144,
+      "missing": 8,
+      "matched_observations": 34,
+      "reference_observations": 35
+    },
+    "fragments": 72,
+    "observations": 4867,
+    "seconds": 125.38213420799998,
+    "phase": "development",
+    "baseline_raw_sam2": {
+      "correct": 4,
+      "wrong": 0,
+      "unknown_same": 4,
+      "same_total": 11,
+      "different_total": 144,
+      "missing": 8,
+      "matched_observations": 34,
+      "reference_observations": 35
+    },
+    "config": {
+      "new_confidence": 0.65,
+      "continuation_confidence": 0.1,
+      "minimum_mask_iou": 0.3,
+      "margin": 0.1,
+      "retire_frames": 15,
+      "maximum_live": 24,
+      "scene_resets": true,
+      "output_requires_current_detection": true
+    }
+  }
+]

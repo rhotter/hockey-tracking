@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-23T18:20:52.441496+00:00",
+  "reason": "Test the newer official SAM 3.1 Object Multiplex checkpoint after the original SAM3 comparison. Access confirmed. No SAM 3.1 predictions inspected.",
+  "model": "facebook/sam3.1",
+  "weights_revision": "daa63191845a41281374e725f4c9e51c7a824460",
+  "code_revision": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+  "prompt": "person",
+  "output_probability_threshold": 0.5,
+  "max_num_objects": 64,
+  "multiplex_count": 16,
+  "compile": false,
+  "use_fa3": false,
+  "frame_staging": "byte-identical local JPEG files",
+  "development": [
+    "gb-tracking-1800",
+    "gb-reid-long-0900"
+  ],
+  "regression": [
+    "pittsburgh-0600",
+    "pittsburgh-1800",
+    "marylandwomen-0600",
+    "marylandwomen-1800"
+  ],
+  "selection": "No new prompt/threshold sweep; transfer the SAM3 development-selected prompt. Report every run. No promotion based solely on reused regression references.",
+  "limitations": "SAM3 regression results already inspected. This is an explicit follow-up regression comparison, not an unseen test.",
+  "runner_sha256": "3aebe67b4842e74bc7dda098f0c13755999c6a0fff0b394e2c212ac9fc9ca3f4"
+}

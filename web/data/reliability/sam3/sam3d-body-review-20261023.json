@@ -1,0 +1,107 @@
+{
+  "id": "nbhl-sam3d-body-audit-20261023",
+  "seconds": 13.614351873,
+  "frames": 6,
+  "boxes": 48,
+  "groups": {
+    "visible": {
+      "total": 34,
+      "foot_emitted": 34
+    },
+    "occluded": {
+      "total": 7,
+      "foot_emitted": 7
+    },
+    "unknown": {
+      "total": 7,
+      "foot_emitted": 7
+    }
+  },
+  "reference_sha256": "ccb0cd9b50e6c8d8c84bcda63b34904d8e544d0dd15038cb5785f8641529287c",
+  "comparison_methods": [
+    {
+      "method": "full-yolo11m",
+      "prediction_sha256": "af8e73c3fdd0fc2f290da92e6343369ea5f7cdedc3f1dfedc1b2a9ded14c533b",
+      "groups": {
+        "visible": {
+          "total": 34,
+          "foot_emitted": 19,
+          "map_emitted": 19
+        },
+        "occluded": {
+          "total": 7,
+          "foot_emitted": 0,
+          "map_emitted": 0
+        },
+        "unknown": {
+          "total": 7,
+          "foot_emitted": 1,
+          "map_emitted": 1
+        }
+      }
+    },
+    {
+      "method": "rtmw",
+      "prediction_sha256": "c5ac4db5ab85ea99ea60012ca8714ffa0f550b4aad97cb4a71a990e5a4004178",
+      "groups": {
+        "visible": {
+          "total": 34,
+          "foot_emitted": 34,
+          "map_emitted": 34
+        },
+        "occluded": {
+          "total": 7,
+          "foot_emitted": 7,
+          "map_emitted": 7
+        },
+        "unknown": {
+          "total": 7,
+          "foot_emitted": 7,
+          "map_emitted": 7
+        }
+      }
+    },
+    {
+      "method": "yolo11m-crops",
+      "prediction_sha256": "fb2b04d1ace9cf66d1f0077cf63713513b26b59a9bb7743ec071870a6bd1b9fc",
+      "groups": {
+        "visible": {
+          "total": 34,
+          "foot_emitted": 32,
+          "map_emitted": 32
+        },
+        "occluded": {
+          "total": 7,
+          "foot_emitted": 5,
+          "map_emitted": 5
+        },
+        "unknown": {
+          "total": 7,
+          "foot_emitted": 6,
+          "map_emitted": 6
+        }
+      }
+    }
+  ],
+  "reviewed_at": "2026-10-23T18:01:07.892961+00:00",
+  "visual_review": "All four sheets covering all 48 boxes inspected. Many estimates follow the visible lower body. Examples 25 and 26 show ambiguous/collapsed or displaced ankle estimates despite visible-foot labels. Occluded examples 1, 6, 16, 19, 20, 37 and 40 still receive predictions. No coordinate-accuracy scoring is available.",
+  "limitations": "Emission rate is not keypoint accuracy. Labels describe foot visibility only. No calibrated metric geometry or ground-contact truth. No demonstrated gain over RTMW, which also emitted on all 48 boxes.",
+  "sheets": [
+    {
+      "file": "body-review-1.jpg",
+      "sha256": "d3782985d84cb43bd8db397294180689b7b36173bc97cd88dd5b407c11dde8d3"
+    },
+    {
+      "file": "body-review-2.jpg",
+      "sha256": "de6c0292e93e7371b0aeb6a066cbba3e1b89ac93193cb78dd215117121db64f3"
+    },
+    {
+      "file": "body-review-3.jpg",
+      "sha256": "759a431374464cb59ff06ccf0fa0cc793f165423bb214d9fd300dd1b5d7d00a3"
+    },
+    {
+      "file": "body-review-4.jpg",
+      "sha256": "924530a281cc7dbbc9dc838ad01f24177af0fcbf4f0d492c23a3683fed25b6b7"
+    }
+  ]
+}

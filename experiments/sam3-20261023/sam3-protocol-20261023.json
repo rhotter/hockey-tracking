@@ -1,0 +1,30 @@
+{
+  "id": "nbhl-sam3-20261023-v1",
+  "scope": "NBHL ball hockey only. Reused assistant-reviewed regression sets; not independent test accuracy.",
+  "sam3_code_revision": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+  "sam3_weights_revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "detection": {
+    "prompts": ["person", "hockey player", "ball hockey player"],
+    "development_source": "b8CM4rZexaY",
+    "regression_sources": ["1f0Y5BIr5Ps", "5Qw_g9E7EqE"],
+    "thresholds": [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9],
+    "selection": "Maximize development F1, break ties by precision then higher threshold. Freeze prompt and threshold before regression scoring.",
+    "iou": 0.5,
+    "filter": "No manual rink or role filtering. Officials and spectators count as false positives."
+  },
+  "tracking": {
+    "development_clips": ["gb-tracking-1800", "gb-reid-long-0900"],
+    "prompts": ["person", "hockey player"],
+    "regression_clips": ["pittsburgh-0600", "pittsburgh-1800", "marylandwomen-0600", "marylandwomen-1800"],
+    "selection": "Native SAM3 defaults, max correct-10*wrong on development, then coverage then fewer unknown joins; person wins exact ties.",
+    "comparison": "SAM3 native mask-derived boxes and IDs vs frozen SAM2 plus appearance reconnection. Different observations are an end-to-end comparison, not an association-only ablation.",
+    "fps": 15,
+    "occlusion": "Empty masks create no observed position. Mask-derived positions may still be hallucinated and need review."
+  },
+  "pose": {
+    "input": "map-feet-visibility-v1.json, all 48 fixed automatic boxes",
+    "checkpoint": "facebook/sam-3d-body-dinov3",
+    "restriction": "Visibility labels are not ankle-coordinate ground truth. Report coverage and qualitative errors, not metric accuracy or miles run."
+  },
+  "training": "None. Pretrained official checkpoints, frozen prompt selection."
+}

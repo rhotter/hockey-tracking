@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-10-23T17:55:21.008285+00:00",
+  "protocol_sha256": "46ea08540251c75f7ba100c4b7b2ed78e9c49d558e4670b87f5c049abf0eec67",
+  "inference_code_sha256": "d17b46a408a4a3679ff9431b5597db81db8bea45a56e20a429a499122b0b0336",
+  "body_reference_sha256": "ccb0cd9b50e6c8d8c84bcda63b34904d8e544d0dd15038cb5785f8641529287c",
+  "status": "before candidate scoring; engineering fixes will be documented"
+}

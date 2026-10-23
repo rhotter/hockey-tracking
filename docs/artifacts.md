@@ -6,6 +6,7 @@
 - Frozen prompts, selection records, model revisions and source hashes.
 - A portable global reconnection component and synthetic example.
 - Equivalence tests against the original global solver.
+- SAM3 and SAM 3.1 sparse pair outcomes and compact replay boxes, plus SAM 3D Body numeric predictions and visibility references. `scripts/verify_sam3_results.py` checks these without model access.
 
 ## Reference source
 
@@ -21,6 +22,8 @@ These references identify dependencies, not an assertion that all use the same l
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics): YOLO detector tooling; the private trained checkpoint is not included.
 - [SAM2](https://github.com/facebookresearch/sam2): mask propagation.
+- [SAM3 / SAM 3.1](https://github.com/facebookresearch/sam3): pretrained concept segmentation and multi-object tracking; pinned code `7f473cfd983d5eb43040ff608f66bff0d7bdcb53`. Checkpoints require their own access and are not redistributed.
+- [SAM 3D Body](https://github.com/facebookresearch/sam-3d-body): DINOv3 body-pose audit; pinned code `b5c765a0d89d789985e186d396315e7590887b94`.
 - [Selective Mask Propagation](https://github.com/holma91/selective-mask-propagation): source environment used by the research scripts.
 - [Deep Person Re-identification / OSNet](https://github.com/KaiyangZhou/deep-person-reid): appearance features.
 - [Qwen3-VL Embedding](https://github.com/QwenLM/Qwen3-VL-Embedding): multimodal image embeddings. Pinned code revision: `393e2978d27852b0d0230d6994f37f9c15bed73c`.

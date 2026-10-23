@@ -1,0 +1,1124 @@
+{
+  "id": "nj-map-feet-visibility-v1",
+  "reviewed_at": "2026-10-18T08:24:45.643848+00:00",
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "sample_frames": [
+    0,
+    60,
+    120,
+    180,
+    240,
+    299
+  ],
+  "independent_human_ground_truth": false,
+  "selection": "All 48 current track boxes at six fixed clip frames. Raw lower-body crops reviewed before cropped YOLO/RTMW results. Three full-image YOLO overlay frames had previously been seen.",
+  "reviewer": "assistant",
+  "observations": [
+    {
+      "id": 0,
+      "frame": 0,
+      "track_id": "007-00-50",
+      "bbox": [
+        1200.31,
+        362.59,
+        1283.6,
+        554.45
+      ],
+      "crop_origin": [
+        1180,
+        448
+      ],
+      "crop_size": [
+        123,
+        136
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 1,
+      "frame": 0,
+      "track_id": "007-00-51",
+      "bbox": [
+        1163.01,
+        354.61,
+        1224.68,
+        523.74
+      ],
+      "crop_origin": [
+        1143,
+        430
+      ],
+      "crop_size": [
+        101,
+        123
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 2,
+      "frame": 0,
+      "track_id": "007-00-56",
+      "bbox": [
+        645.43,
+        399.75,
+        733.46,
+        580.57
+      ],
+      "crop_origin": [
+        625,
+        481
+      ],
+      "crop_size": [
+        128,
+        129
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 3,
+      "frame": 0,
+      "track_id": "007-00-64",
+      "bbox": [
+        985.95,
+        331.65,
+        1048.57,
+        444.64
+      ],
+      "crop_origin": [
+        965,
+        382
+      ],
+      "crop_size": [
+        103,
+        92
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 4,
+      "frame": 0,
+      "track_id": "007-00-66",
+      "bbox": [
+        401.32,
+        353.05,
+        444.53,
+        471.66
+      ],
+      "crop_origin": [
+        381,
+        406
+      ],
+      "crop_size": [
+        83,
+        95
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 5,
+      "frame": 0,
+      "track_id": "007-00-42",
+      "bbox": [
+        1381.38,
+        327.67,
+        1441.32,
+        463.49
+      ],
+      "crop_origin": [
+        1361,
+        388
+      ],
+      "crop_size": [
+        100,
+        105
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 6,
+      "frame": 0,
+      "track_id": "007-00-65",
+      "bbox": [
+        1249.32,
+        311.59,
+        1319.49,
+        435.44
+      ],
+      "crop_origin": [
+        1229,
+        367
+      ],
+      "crop_size": [
+        110,
+        98
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 7,
+      "frame": 0,
+      "track_id": "007-00-63",
+      "bbox": [
+        839.41,
+        339.48,
+        905.36,
+        440.66
+      ],
+      "crop_origin": [
+        819,
+        385
+      ],
+      "crop_size": [
+        106,
+        85
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868"
+    },
+    {
+      "id": 8,
+      "frame": 60,
+      "track_id": "007-00-50",
+      "bbox": [
+        1199.31,
+        359.73,
+        1292.81,
+        524.63
+      ],
+      "crop_origin": [
+        1179,
+        433
+      ],
+      "crop_size": [
+        133,
+        121
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 9,
+      "frame": 60,
+      "track_id": "007-00-56",
+      "bbox": [
+        656.63,
+        402.17,
+        740.65,
+        584.6
+      ],
+      "crop_origin": [
+        636,
+        484
+      ],
+      "crop_size": [
+        124,
+        130
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 10,
+      "frame": 60,
+      "track_id": "007-00-67",
+      "bbox": [
+        424.26,
+        505.57,
+        611.88,
+        755.21
+      ],
+      "crop_origin": [
+        404,
+        617
+      ],
+      "crop_size": [
+        227,
+        168
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 11,
+      "frame": 60,
+      "track_id": "007-00-63",
+      "bbox": [
+        948.85,
+        345.67,
+        994.6,
+        459.07
+      ],
+      "crop_origin": [
+        928,
+        396
+      ],
+      "crop_size": [
+        86,
+        93
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 12,
+      "frame": 60,
+      "track_id": "007-00-73",
+      "bbox": [
+        701.59,
+        317.49,
+        757.71,
+        421.4
+      ],
+      "crop_origin": [
+        681,
+        364
+      ],
+      "crop_size": [
+        96,
+        87
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 13,
+      "frame": 60,
+      "track_id": "007-00-64",
+      "bbox": [
+        790.83,
+        307.31,
+        834.32,
+        420.72
+      ],
+      "crop_origin": [
+        770,
+        358
+      ],
+      "crop_size": [
+        84,
+        92
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 14,
+      "frame": 60,
+      "track_id": "007-00-66",
+      "bbox": [
+        186.76,
+        362.03,
+        241.99,
+        480.71
+      ],
+      "crop_origin": [
+        166,
+        415
+      ],
+      "crop_size": [
+        95,
+        95
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 15,
+      "frame": 60,
+      "track_id": "007-00-69",
+      "bbox": [
+        1077.72,
+        338.5,
+        1136.55,
+        471.1
+      ],
+      "crop_origin": [
+        1057,
+        398
+      ],
+      "crop_size": [
+        99,
+        103
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 16,
+      "frame": 60,
+      "track_id": "007-00-76",
+      "bbox": [
+        1261.55,
+        356.27,
+        1346.02,
+        503.07
+      ],
+      "crop_origin": [
+        1241,
+        422
+      ],
+      "crop_size": [
+        125,
+        111
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "073034886a6f0fe5893d3b0b84a73aa254d03219dc4f309538d47c5bb9f67615"
+    },
+    {
+      "id": 17,
+      "frame": 120,
+      "track_id": "007-00-63",
+      "bbox": [
+        244.97,
+        427.65,
+        340.07,
+        584.42
+      ],
+      "crop_origin": [
+        224,
+        498
+      ],
+      "crop_size": [
+        136,
+        116
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33"
+    },
+    {
+      "id": 18,
+      "frame": 120,
+      "track_id": "007-00-42",
+      "bbox": [
+        576.6,
+        379.61,
+        683.37,
+        539.7
+      ],
+      "crop_origin": [
+        556,
+        451
+      ],
+      "crop_size": [
+        147,
+        118
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33"
+    },
+    {
+      "id": 19,
+      "frame": 120,
+      "track_id": "007-00-79",
+      "bbox": [
+        899.75,
+        339.68,
+        971.17,
+        464.79
+      ],
+      "crop_origin": [
+        879,
+        395
+      ],
+      "crop_size": [
+        112,
+        99
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33"
+    },
+    {
+      "id": 20,
+      "frame": 120,
+      "track_id": "007-00-77",
+      "bbox": [
+        869.7,
+        329.63,
+        912.66,
+        451.83
+      ],
+      "crop_origin": [
+        849,
+        384
+      ],
+      "crop_size": [
+        83,
+        97
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33"
+    },
+    {
+      "id": 21,
+      "frame": 120,
+      "track_id": "007-00-82",
+      "bbox": [
+        53.95,
+        377.39,
+        127.19,
+        532.11
+      ],
+      "crop_origin": [
+        33,
+        447
+      ],
+      "crop_size": [
+        114,
+        115
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33"
+    },
+    {
+      "id": 22,
+      "frame": 120,
+      "track_id": "007-00-69",
+      "bbox": [
+        788.67,
+        333.17,
+        856.61,
+        465.16
+      ],
+      "crop_origin": [
+        768,
+        392
+      ],
+      "crop_size": [
+        108,
+        103
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33"
+    },
+    {
+      "id": 23,
+      "frame": 180,
+      "track_id": "007-00-56",
+      "bbox": [
+        1188.12,
+        466.21,
+        1309.53,
+        686.27
+      ],
+      "crop_origin": [
+        1168,
+        565
+      ],
+      "crop_size": [
+        161,
+        151
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 24,
+      "frame": 180,
+      "track_id": "007-00-94",
+      "bbox": [
+        223.1,
+        590.43,
+        404.22,
+        887.1
+      ],
+      "crop_origin": [
+        203,
+        723
+      ],
+      "crop_size": [
+        221,
+        194
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 25,
+      "frame": 180,
+      "track_id": "007-00-42",
+      "bbox": [
+        1819.09,
+        391.0,
+        1876.26,
+        570.34
+      ],
+      "crop_origin": [
+        1799,
+        471
+      ],
+      "crop_size": [
+        97,
+        129
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 26,
+      "frame": 180,
+      "track_id": "007-00-95",
+      "bbox": [
+        568.19,
+        500.32,
+        655.31,
+        744.32
+      ],
+      "crop_origin": [
+        548,
+        610
+      ],
+      "crop_size": [
+        127,
+        164
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 27,
+      "frame": 180,
+      "track_id": "007-00-112",
+      "bbox": [
+        374.5,
+        481.42,
+        503.39,
+        675.96
+      ],
+      "crop_origin": [
+        354,
+        568
+      ],
+      "crop_size": [
+        169,
+        137
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 28,
+      "frame": 180,
+      "track_id": "007-00-82",
+      "bbox": [
+        1035.47,
+        542.23,
+        1178.77,
+        730.57
+      ],
+      "crop_origin": [
+        1015,
+        626
+      ],
+      "crop_size": [
+        183,
+        134
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 29,
+      "frame": 180,
+      "track_id": "007-00-114",
+      "bbox": [
+        1750.01,
+        397.79,
+        1828.52,
+        545.78
+      ],
+      "crop_origin": [
+        1730,
+        464
+      ],
+      "crop_size": [
+        118,
+        111
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb"
+    },
+    {
+      "id": 30,
+      "frame": 240,
+      "track_id": "007-00-56",
+      "bbox": [
+        1518.0,
+        428.59,
+        1613.64,
+        599.13
+      ],
+      "crop_origin": [
+        1498,
+        505
+      ],
+      "crop_size": [
+        135,
+        124
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 31,
+      "frame": 240,
+      "track_id": "007-00-94",
+      "bbox": [
+        587.89,
+        430.23,
+        656.97,
+        598.18
+      ],
+      "crop_origin": [
+        567,
+        505
+      ],
+      "crop_size": [
+        109,
+        123
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 32,
+      "frame": 240,
+      "track_id": "007-00-115",
+      "bbox": [
+        1206.69,
+        396.86,
+        1291.45,
+        553.06
+      ],
+      "crop_origin": [
+        1186,
+        467
+      ],
+      "crop_size": [
+        125,
+        116
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 33,
+      "frame": 240,
+      "track_id": "007-00-117",
+      "bbox": [
+        958.12,
+        387.41,
+        1002.42,
+        525.53
+      ],
+      "crop_origin": [
+        938,
+        449
+      ],
+      "crop_size": [
+        84,
+        106
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 34,
+      "frame": 240,
+      "track_id": "007-00-128",
+      "bbox": [
+        1377.89,
+        399.12,
+        1461.43,
+        540.7
+      ],
+      "crop_origin": [
+        1357,
+        462
+      ],
+      "crop_size": [
+        124,
+        108
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 35,
+      "frame": 240,
+      "track_id": "007-00-132",
+      "bbox": [
+        1736.58,
+        509.41,
+        1844.0,
+        735.02
+      ],
+      "crop_origin": [
+        1716,
+        610
+      ],
+      "crop_size": [
+        148,
+        155
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 36,
+      "frame": 240,
+      "track_id": "007-00-133",
+      "bbox": [
+        0.21,
+        387.94,
+        52.86,
+        533.72
+      ],
+      "crop_origin": [
+        0,
+        453
+      ],
+      "crop_size": [
+        72,
+        110
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 37,
+      "frame": 240,
+      "track_id": "007-00-135",
+      "bbox": [
+        1791.35,
+        425.01,
+        1862.67,
+        572.12
+      ],
+      "crop_origin": [
+        1771,
+        491
+      ],
+      "crop_size": [
+        111,
+        111
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d"
+    },
+    {
+      "id": 38,
+      "frame": 299,
+      "track_id": "007-00-56",
+      "bbox": [
+        1633.2,
+        452.02,
+        1707.56,
+        626.41
+      ],
+      "crop_origin": [
+        1613,
+        530
+      ],
+      "crop_size": [
+        114,
+        126
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 39,
+      "frame": 299,
+      "track_id": "007-00-94",
+      "bbox": [
+        991.85,
+        425.77,
+        1042.39,
+        589.27
+      ],
+      "crop_origin": [
+        971,
+        499
+      ],
+      "crop_size": [
+        91,
+        120
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 40,
+      "frame": 299,
+      "track_id": "007-00-115",
+      "bbox": [
+        1342.82,
+        433.11,
+        1414.98,
+        537.66
+      ],
+      "crop_origin": [
+        1322,
+        480
+      ],
+      "crop_size": [
+        112,
+        87
+      ],
+      "visibility": "occluded",
+      "both_feet_visible": false,
+      "reason": "Another player obscures at least one foot.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 41,
+      "frame": 299,
+      "track_id": "007-00-117",
+      "bbox": [
+        496.5,
+        382.42,
+        549.48,
+        532.74
+      ],
+      "crop_origin": [
+        476,
+        450
+      ],
+      "crop_size": [
+        93,
+        112
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 42,
+      "frame": 299,
+      "track_id": "007-00-132",
+      "bbox": [
+        1342.57,
+        483.85,
+        1415.09,
+        665.54
+      ],
+      "crop_origin": [
+        1322,
+        565
+      ],
+      "crop_size": [
+        113,
+        130
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 43,
+      "frame": 299,
+      "track_id": "007-00-133",
+      "bbox": [
+        165.45,
+        421.21,
+        241.3,
+        529.08
+      ],
+      "crop_origin": [
+        145,
+        469
+      ],
+      "crop_size": [
+        116,
+        90
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 44,
+      "frame": 299,
+      "track_id": "007-00-141",
+      "bbox": [
+        1655.62,
+        587.33,
+        1769.77,
+        866.55
+      ],
+      "crop_origin": [
+        1635,
+        712
+      ],
+      "crop_size": [
+        154,
+        184
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 45,
+      "frame": 299,
+      "track_id": "007-00-142",
+      "bbox": [
+        1430.81,
+        407.88,
+        1513.23,
+        524.62
+      ],
+      "crop_origin": [
+        1410,
+        460
+      ],
+      "crop_size": [
+        123,
+        94
+      ],
+      "visibility": "visible",
+      "both_feet_visible": true,
+      "reason": "Both feet can be distinguished in the raw crop; this does not establish foot contact or exact ankle coordinates.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 46,
+      "frame": 299,
+      "track_id": "007-00-137",
+      "bbox": [
+        1524.82,
+        439.23,
+        1597.91,
+        557.91
+      ],
+      "crop_origin": [
+        1504,
+        492
+      ],
+      "crop_size": [
+        113,
+        95
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    },
+    {
+      "id": 47,
+      "frame": 299,
+      "track_id": "007-00-143",
+      "bbox": [
+        455.09,
+        381.64,
+        519.81,
+        529.97
+      ],
+      "crop_origin": [
+        435,
+        448
+      ],
+      "crop_size": [
+        104,
+        111
+      ],
+      "visibility": "unknown",
+      "both_feet_visible": null,
+      "reason": "Truncation, blur, overlap or duplicate-box ambiguity prevents a confident two-foot judgment.",
+      "frame_sha256": "760f7698265d0d89cc1f02f9dab81cab4e17566a5e5ab28174ac276caaefe5a7"
+    }
+  ],
+  "limitations": "Small assistant-reviewed diagnostic, not independent pose ground truth. Two-foot visibility is not foot contact. Unknown cases excluded. No exact keypoint or metric location labels; cannot claim spatial accuracy from this audit."
+}

@@ -19,12 +19,13 @@
  if([...method.options].some(o=>o.value===query.get('method')))method.value=query.get('method');
  function availableMethods(){const spec=catalog[clip.value];for(const option of method.options){option.disabled=!spec.methods.includes(option.value);option.hidden=option.disabled;}if(method.selectedOptions[0].disabled)method.value=spec.default;}
  function updateAbout(){
-  const spec=catalog[clip.value],vlm=method.value.startsWith('vlm-');
+  const spec=catalog[clip.value],vlm=method.value.startsWith('vlm-'),sam3=method.value.startsWith('sam3');
+  document.getElementById('tracking-about-sam3').hidden=!sam3;
   document.getElementById('tracking-about-vlm').hidden=!vlm;
-  document.getElementById('tracking-about-original').hidden=vlm||Boolean(spec.description);
-  document.getElementById('tracking-about-new').hidden=vlm||!spec.description||['learned','runtime'].includes(spec.about);
-  document.getElementById('tracking-about-learned').hidden=vlm||spec.about!=='learned';
-  document.getElementById('tracking-about-runtime').hidden=vlm||spec.about!=='runtime';
+  document.getElementById('tracking-about-original').hidden=vlm||sam3||Boolean(spec.description);
+  document.getElementById('tracking-about-new').hidden=vlm||sam3||!spec.description||['learned','runtime'].includes(spec.about);
+  document.getElementById('tracking-about-learned').hidden=vlm||sam3||spec.about!=='learned';
+  document.getElementById('tracking-about-runtime').hidden=vlm||sam3||spec.about!=='runtime';
  }
  function loadVideo(){const name=clip.value,spec=catalog[name];if(initialSeekPending){initialSeekPending=false;const time=Number(query.get('t'));if(query.has('t')&&Number.isFinite(time)&&time>=0)video.addEventListener('loadedmetadata',()=>{if(clip.value===name)video.currentTime=Math.min(time,Math.max(0,video.duration-1/15));},{once:true});}video.poster=`${spec.folder}/${name}.jpg`;SportScansMedia.load(video,`${spec.folder}/${name}.mp4`);document.getElementById('tracking-description').textContent=spec.description||'Great Britain · Yorkshire Iron Rats / Highland Frost · July 26, 2026';updateAbout();}
  availableMethods();loadVideo();

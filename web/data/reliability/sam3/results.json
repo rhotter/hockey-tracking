@@ -1,0 +1,1078 @@
+{
+  "id": "nbhl-sam3-20261023-v1",
+  "scope": "Reused NBHL recordings and sparse assistant-reviewed references; not independent full-game accuracy.",
+  "training": "None; pretrained official checkpoints.",
+  "selection": {
+    "prompt": "person",
+    "created_at": "2026-10-23T18:09:25.848879+00:00",
+    "development": [
+      {
+        "prompt": "person",
+        "counts": {
+          "correct": 40,
+          "wrong": 0,
+          "unknown_same": 5,
+          "same_total": 48,
+          "different_total": 430,
+          "missing": 29,
+          "matched_observations": 77,
+          "reference_observations": 79
+        },
+        "source_sha256": "7ef198586ad9e9e8772fa6695a26949c377e423e465bfcb2a6f7b8832a3d60a4"
+      },
+      {
+        "prompt": "hockey player",
+        "counts": {
+          "correct": 32,
+          "wrong": 0,
+          "unknown_same": 6,
+          "same_total": 48,
+          "different_total": 430,
+          "missing": 90,
+          "matched_observations": 73,
+          "reference_observations": 79
+        },
+        "source_sha256": "f4cd3d5766b11c329d2f2d15c066b528e41920ad138e3032bdb52aca47dd2463"
+      }
+    ],
+    "rule": "Max correct-10*wrong, then matched observations, then fewer unknown joins, then person.",
+    "hybrid_decision": "Do not promote hybrid: 33 correct, 0 wrong, unchanged vs raw SAM2; one fewer matched observation. No hybrid regression run.",
+    "native_decision": "Run selected native prompt on all four fixed regression clips. Current best linked pipeline remains comparison."
+  },
+  "detection": {
+    "sam3": {
+      "confidence_threshold": 0.6,
+      "iou_threshold": 0.5,
+      "frames": 36,
+      "targets": 256,
+      "tp": 94,
+      "fp": 3,
+      "fn": 162,
+      "precision": 0.9690721649484536,
+      "recall": 0.3671875,
+      "f1": 0.5325779036827195,
+      "false_positives_per_frame": 0.08333333333333333,
+      "goalies": 24,
+      "goalie_hits": 10,
+      "goalie_recall": 0.4166666666666667
+    },
+    "fine_tuned_detector": {
+      "frames": 36,
+      "targets": 256,
+      "tp": 215,
+      "fp": 12,
+      "fn": 41
+    }
+  },
+  "tracking": {
+    "development": {
+      "person": [
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 29,
+            "matched_observations": 42,
+            "reference_observations": 44
+          },
+          "fragments": 23,
+          "observations": 2991,
+          "seconds": 201.72770463499998,
+          "prompt": "person",
+          "phase": "development",
+          "baseline_raw_sam2": {
+            "correct": 29,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 5,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 0,
+            "matched_observations": 35,
+            "reference_observations": 35
+          },
+          "fragments": 47,
+          "observations": 8871,
+          "seconds": 705.1383461429999,
+          "prompt": "person",
+          "phase": "development",
+          "baseline_raw_sam2": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 8,
+            "matched_observations": 34,
+            "reference_observations": 35
+          }
+        }
+      ],
+      "hockey player": [
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 25,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 90,
+            "matched_observations": 38,
+            "reference_observations": 44
+          },
+          "fragments": 14,
+          "observations": 2769,
+          "seconds": 152.02493716700002,
+          "prompt": "hockey player",
+          "phase": "development",
+          "baseline_raw_sam2": {
+            "correct": 29,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          }
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 7,
+            "wrong": 0,
+            "unknown_same": 6,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 0,
+            "matched_observations": 35,
+            "reference_observations": 35
+          },
+          "fragments": 30,
+          "observations": 7052,
+          "seconds": 606.266008906,
+          "prompt": "hockey player",
+          "phase": "development",
+          "baseline_raw_sam2": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 8,
+            "matched_observations": 34,
+            "reference_observations": 35
+          }
+        }
+      ]
+    },
+    "native_regression": [
+      {
+        "clip": "pittsburgh-0600",
+        "counts": {
+          "correct": 19,
+          "wrong": 2,
+          "unknown_same": 0,
+          "same_total": 20,
+          "different_total": 191,
+          "missing": 9,
+          "matched_observations": 38,
+          "reference_observations": 39
+        },
+        "fragments": 38,
+        "observations": 4516,
+        "seconds": 190.186120299,
+        "prompt": "person",
+        "phase": "regression",
+        "baseline_raw_sam2": {
+          "correct": 15,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 20,
+          "different_total": 191,
+          "missing": 9,
+          "matched_observations": 38,
+          "reference_observations": 39
+        }
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "counts": {
+          "correct": 20,
+          "wrong": 1,
+          "unknown_same": 0,
+          "same_total": 32,
+          "different_total": 315,
+          "missing": 34,
+          "matched_observations": 45,
+          "reference_observations": 47
+        },
+        "fragments": 45,
+        "observations": 5212,
+        "seconds": 221.176106014,
+        "prompt": "person",
+        "phase": "regression",
+        "baseline_raw_sam2": {
+          "correct": 18,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 32,
+          "different_total": 315,
+          "missing": 62,
+          "matched_observations": 43,
+          "reference_observations": 47
+        }
+      },
+      {
+        "clip": "marylandwomen-0600",
+        "counts": {
+          "correct": 49,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 49,
+          "different_total": 418,
+          "missing": 0,
+          "matched_observations": 57,
+          "reference_observations": 57
+        },
+        "fragments": 13,
+        "observations": 4450,
+        "seconds": 89.21338578699996,
+        "prompt": "person",
+        "phase": "regression",
+        "baseline_raw_sam2": {
+          "correct": 47,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 49,
+          "different_total": 418,
+          "missing": 18,
+          "matched_observations": 56,
+          "reference_observations": 57
+        }
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "counts": {
+          "correct": 2,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 2,
+          "different_total": 38,
+          "missing": 0,
+          "matched_observations": 22,
+          "reference_observations": 22
+        },
+        "fragments": 23,
+        "observations": 2248,
+        "seconds": 145.82265348099997,
+        "prompt": "person",
+        "phase": "regression",
+        "baseline_raw_sam2": {
+          "correct": 0,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 2,
+          "different_total": 38,
+          "missing": 16,
+          "matched_observations": 20,
+          "reference_observations": 22
+        }
+      }
+    ],
+    "native_totals": {
+      "correct": 90,
+      "wrong": 3,
+      "unknown_same": 0,
+      "same_total": 103,
+      "different_total": 962,
+      "missing": 43,
+      "matched_observations": 162,
+      "reference_observations": 165
+    },
+    "raw_sam2_totals": {
+      "correct": 80,
+      "wrong": 0,
+      "unknown_same": 0,
+      "same_total": 103,
+      "different_total": 962,
+      "missing": 105,
+      "matched_observations": 157,
+      "reference_observations": 165
+    },
+    "best_existing": [
+      {
+        "clip": "pittsburgh-0600",
+        "counts": {
+          "correct": 18,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 20,
+          "different_total": 191,
+          "missing": 9
+        }
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "counts": {
+          "correct": 25,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 32,
+          "different_total": 315,
+          "missing": 62
+        }
+      },
+      {
+        "clip": "marylandwomen-0600",
+        "counts": {
+          "correct": 47,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 49,
+          "different_total": 418,
+          "missing": 18
+        }
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "counts": {
+          "correct": 0,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 2,
+          "different_total": 38,
+          "missing": 16
+        }
+      }
+    ],
+    "best_existing_totals": {
+      "correct": 90,
+      "wrong": 0,
+      "unknown_same": 4,
+      "same_total": 103,
+      "different_total": 962,
+      "missing": 105
+    },
+    "hybrid_development": [
+      {
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 29,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 15,
+          "matched_observations": 43,
+          "reference_observations": 44
+        },
+        "fragments": 26,
+        "observations": 2360,
+        "seconds": 43.518224153,
+        "phase": "development",
+        "baseline_raw_sam2": {
+          "correct": 29,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        },
+        "config": {
+          "new_confidence": 0.65,
+          "continuation_confidence": 0.1,
+          "minimum_mask_iou": 0.3,
+          "margin": 0.1,
+          "retire_frames": 15,
+          "maximum_live": 24,
+          "scene_resets": true,
+          "output_requires_current_detection": true
+        }
+      },
+      {
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 8,
+          "matched_observations": 34,
+          "reference_observations": 35
+        },
+        "fragments": 72,
+        "observations": 4867,
+        "seconds": 125.38213420799998,
+        "phase": "development",
+        "baseline_raw_sam2": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 8,
+          "matched_observations": 34,
+          "reference_observations": 35
+        },
+        "config": {
+          "new_confidence": 0.65,
+          "continuation_confidence": 0.1,
+          "minimum_mask_iou": 0.3,
+          "margin": 0.1,
+          "retire_frames": 15,
+          "maximum_live": 24,
+          "scene_resets": true,
+          "output_requires_current_detection": true
+        }
+      }
+    ],
+    "hybrid_development_totals": {
+      "correct": 33,
+      "wrong": 0,
+      "unknown_same": 4,
+      "same_total": 48,
+      "different_total": 430,
+      "missing": 23,
+      "matched_observations": 77,
+      "reference_observations": 79
+    },
+    "hybrid_regression": null,
+    "posthoc_pair_comparison": [
+      {
+        "clip": "pittsburgh-0600",
+        "gained_same_pairs": 2,
+        "lost_same_pairs": 1
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "gained_same_pairs": 2,
+        "lost_same_pairs": 7
+      },
+      {
+        "clip": "marylandwomen-0600",
+        "gained_same_pairs": 2,
+        "lost_same_pairs": 0
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "gained_same_pairs": 2,
+        "lost_same_pairs": 0
+      }
+    ],
+    "wrong_joins": [
+      {
+        "id": "pittsburgh-0600-0375-01__pittsburgh-0600-0449-01",
+        "clip": "pittsburgh-0600",
+        "a": "pittsburgh-0600-0375-01",
+        "b": "pittsburgh-0600-0449-01",
+        "truth": "different",
+        "evidence": "Distinct reviewed identities co-occur in at least one raw reference frame.",
+        "gap_s": 4.933333333333334,
+        "predicted_same": true,
+        "track_a": "sam3-28",
+        "track_b": "sam3-28"
+      },
+      {
+        "id": "pittsburgh-0600-0375-04__pittsburgh-0600-0449-03",
+        "clip": "pittsburgh-0600",
+        "a": "pittsburgh-0600-0375-04",
+        "b": "pittsburgh-0600-0449-03",
+        "truth": "different",
+        "evidence": "Distinct reviewed identities co-occur in at least one raw reference frame.",
+        "gap_s": 4.933333333333334,
+        "predicted_same": true,
+        "track_a": "sam3-25",
+        "track_b": "sam3-25"
+      },
+      {
+        "id": "pittsburgh-1800-0300-00__pittsburgh-1800-0375-00",
+        "clip": "pittsburgh-1800",
+        "a": "pittsburgh-1800-0300-00",
+        "b": "pittsburgh-1800-0375-00",
+        "truth": "different",
+        "evidence": "Distinct reviewed identities co-occur in at least one raw reference frame.",
+        "gap_s": 5.0,
+        "predicted_same": true,
+        "track_a": "sam3-32",
+        "track_b": "sam3-32"
+      }
+    ],
+    "best_existing_development_totals": {
+      "correct": 45,
+      "wrong": 0,
+      "unknown_same": 5,
+      "same_total": 48,
+      "different_total": 430,
+      "missing": 8
+    },
+    "sam31_regression": [
+      {
+        "clip": "pittsburgh-0600",
+        "counts": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 20,
+          "different_total": 191,
+          "missing": 175,
+          "matched_observations": 19,
+          "reference_observations": 39
+        },
+        "fragments": 40,
+        "observations": 4168,
+        "seconds": 78.348118584,
+        "prompt": "person",
+        "phase": "regression",
+        "model": "sam3.1",
+        "baseline_raw_sam2": {
+          "correct": 15,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 20,
+          "different_total": 191,
+          "missing": 9,
+          "matched_observations": 38,
+          "reference_observations": 39
+        }
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "counts": {
+          "correct": 8,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 32,
+          "different_total": 315,
+          "missing": 265,
+          "matched_observations": 24,
+          "reference_observations": 47
+        },
+        "fragments": 47,
+        "observations": 4562,
+        "seconds": 88.686861459,
+        "prompt": "person",
+        "phase": "regression",
+        "model": "sam3.1",
+        "baseline_raw_sam2": {
+          "correct": 18,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 32,
+          "different_total": 315,
+          "missing": 62,
+          "matched_observations": 43,
+          "reference_observations": 47
+        }
+      },
+      {
+        "clip": "marylandwomen-0600",
+        "counts": {
+          "correct": 29,
+          "wrong": 1,
+          "unknown_same": 0,
+          "same_total": 49,
+          "different_total": 418,
+          "missing": 166,
+          "matched_observations": 46,
+          "reference_observations": 57
+        },
+        "fragments": 12,
+        "observations": 4553,
+        "seconds": 57.83306393400001,
+        "prompt": "person",
+        "phase": "regression",
+        "model": "sam3.1",
+        "baseline_raw_sam2": {
+          "correct": 47,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 49,
+          "different_total": 418,
+          "missing": 18,
+          "matched_observations": 56,
+          "reference_observations": 57
+        }
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "counts": {
+          "correct": 0,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 2,
+          "different_total": 38,
+          "missing": 2,
+          "matched_observations": 21,
+          "reference_observations": 22
+        },
+        "fragments": 36,
+        "observations": 1818,
+        "seconds": 76.543908365,
+        "prompt": "person",
+        "phase": "regression",
+        "model": "sam3.1",
+        "baseline_raw_sam2": {
+          "correct": 0,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 2,
+          "different_total": 38,
+          "missing": 16,
+          "matched_observations": 20,
+          "reference_observations": 22
+        }
+      }
+    ],
+    "sam31_totals": {
+      "correct": 41,
+      "wrong": 1,
+      "unknown_same": 1,
+      "same_total": 103,
+      "different_total": 962,
+      "missing": 608,
+      "matched_observations": 110,
+      "reference_observations": 165
+    },
+    "sam31_development": [
+      {
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 30,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 56,
+          "matched_observations": 40,
+          "reference_observations": 44
+        },
+        "fragments": 29,
+        "observations": 3586,
+        "seconds": 41.105903119,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "baseline_raw_sam2": {
+          "correct": 29,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        }
+      },
+      {
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 110,
+          "matched_observations": 23,
+          "reference_observations": 35
+        },
+        "fragments": 66,
+        "observations": 6773,
+        "seconds": 290.72711752,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "baseline_raw_sam2": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 8,
+          "matched_observations": 34,
+          "reference_observations": 35
+        }
+      }
+    ],
+    "sam31_capacity_followup": [
+      {
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 86,
+          "matched_observations": 29,
+          "reference_observations": 35
+        },
+        "fragments": 90,
+        "observations": 7718,
+        "seconds": 307.067938619,
+        "prompt": "person",
+        "phase": "development",
+        "model": "sam3.1",
+        "max_objects": 128,
+        "baseline_raw_sam2": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 4,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 8,
+          "matched_observations": 34,
+          "reference_observations": 35
+        }
+      }
+    ],
+    "sam31_geometry_development": [
+      {
+        "clip": "gb-tracking-1800",
+        "variants": [
+          {
+            "method": "original-boxes",
+            "clip": "gb-tracking-1800",
+            "counts": {
+              "correct": 30,
+              "wrong": 0,
+              "unknown_same": 0,
+              "same_total": 37,
+              "different_total": 286,
+              "missing": 56,
+              "matched_observations": 40,
+              "reference_observations": 44
+            },
+            "fragments": 29,
+            "observations": 3586,
+            "seconds": 62.941131162000005,
+            "prompt": "person",
+            "phase": "development",
+            "model": "sam3.1",
+            "max_objects": 64,
+            "baseline_raw_sam2": {
+              "correct": 29,
+              "wrong": 0,
+              "unknown_same": 0,
+              "same_total": 37,
+              "different_total": 286,
+              "missing": 0,
+              "matched_observations": 44,
+              "reference_observations": 44
+            }
+          },
+          {
+            "method": "final-mask",
+            "clip": "gb-tracking-1800",
+            "counts": {
+              "correct": 30,
+              "wrong": 0,
+              "unknown_same": 0,
+              "same_total": 37,
+              "different_total": 286,
+              "missing": 42,
+              "matched_observations": 41,
+              "reference_observations": 44
+            },
+            "fragments": 29,
+            "observations": 3584,
+            "seconds": 62.941131162000005,
+            "prompt": "person",
+            "phase": "development",
+            "model": "sam3.1",
+            "max_objects": 64,
+            "box_recipe": "final-mask"
+          },
+          {
+            "method": "largest-component",
+            "clip": "gb-tracking-1800",
+            "counts": {
+              "correct": 33,
+              "wrong": 1,
+              "unknown_same": 0,
+              "same_total": 37,
+              "different_total": 286,
+              "missing": 0,
+              "matched_observations": 44,
+              "reference_observations": 44
+            },
+            "fragments": 29,
+            "observations": 3584,
+            "seconds": 62.941131162000005,
+            "prompt": "person",
+            "phase": "development",
+            "model": "sam3.1",
+            "max_objects": 64,
+            "box_recipe": "largest-component"
+          }
+        ]
+      },
+      {
+        "clip": "gb-reid-long-0900",
+        "variants": [
+          {
+            "method": "original-boxes",
+            "clip": "gb-reid-long-0900",
+            "counts": {
+              "correct": 3,
+              "wrong": 0,
+              "unknown_same": 4,
+              "same_total": 11,
+              "different_total": 144,
+              "missing": 110,
+              "matched_observations": 23,
+              "reference_observations": 35
+            },
+            "fragments": 66,
+            "observations": 6773,
+            "seconds": 282.81694153300003,
+            "prompt": "person",
+            "phase": "development",
+            "model": "sam3.1",
+            "max_objects": 64,
+            "baseline_raw_sam2": {
+              "correct": 4,
+              "wrong": 0,
+              "unknown_same": 4,
+              "same_total": 11,
+              "different_total": 144,
+              "missing": 8,
+              "matched_observations": 34,
+              "reference_observations": 35
+            }
+          },
+          {
+            "method": "final-mask",
+            "clip": "gb-reid-long-0900",
+            "counts": {
+              "correct": 3,
+              "wrong": 0,
+              "unknown_same": 4,
+              "same_total": 11,
+              "different_total": 144,
+              "missing": 104,
+              "matched_observations": 25,
+              "reference_observations": 35
+            },
+            "fragments": 66,
+            "observations": 6627,
+            "seconds": 282.81694153300003,
+            "prompt": "person",
+            "phase": "development",
+            "model": "sam3.1",
+            "max_objects": 64,
+            "box_recipe": "final-mask"
+          },
+          {
+            "method": "largest-component",
+            "clip": "gb-reid-long-0900",
+            "counts": {
+              "correct": 4,
+              "wrong": 0,
+              "unknown_same": 4,
+              "same_total": 11,
+              "different_total": 144,
+              "missing": 56,
+              "matched_observations": 29,
+              "reference_observations": 35
+            },
+            "fragments": 66,
+            "observations": 6627,
+            "seconds": 282.81694153300003,
+            "prompt": "person",
+            "phase": "development",
+            "model": "sam3.1",
+            "max_objects": 64,
+            "box_recipe": "largest-component"
+          }
+        ]
+      }
+    ],
+    "sam31_geometry_selection": {
+      "created_at": "2026-10-23T18:38:33.823226+00:00",
+      "source_sha256": "e015149c6ded8f171f6fa9b4bbf5facce26341614d4ae7d47e69abde46b633fc",
+      "development": [
+        {
+          "method": "original-boxes",
+          "counts": {
+            "correct": 33,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 48,
+            "different_total": 430,
+            "missing": 166,
+            "matched_observations": 63,
+            "reference_observations": 79
+          },
+          "objective": 33,
+          "order": 0
+        },
+        {
+          "method": "final-mask",
+          "counts": {
+            "correct": 33,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 48,
+            "different_total": 430,
+            "missing": 146,
+            "matched_observations": 66,
+            "reference_observations": 79
+          },
+          "objective": 33,
+          "order": 1
+        },
+        {
+          "method": "largest-component",
+          "counts": {
+            "correct": 37,
+            "wrong": 1,
+            "unknown_same": 4,
+            "same_total": 48,
+            "different_total": 430,
+            "missing": 56,
+            "matched_observations": 73,
+            "reference_observations": 79
+          },
+          "objective": 27,
+          "order": 2
+        }
+      ],
+      "selected": "final-mask",
+      "run_regression": false,
+      "reason": "Only promote a strictly improved correct-minus-10-times-wrong development objective."
+    }
+  },
+  "body": {
+    "id": "nbhl-sam3d-body-audit-20261023",
+    "seconds": 13.614351873,
+    "frames": 6,
+    "boxes": 48,
+    "groups": {
+      "visible": {
+        "total": 34,
+        "foot_emitted": 34
+      },
+      "occluded": {
+        "total": 7,
+        "foot_emitted": 7
+      },
+      "unknown": {
+        "total": 7,
+        "foot_emitted": 7
+      }
+    },
+    "reference_sha256": "ccb0cd9b50e6c8d8c84bcda63b34904d8e544d0dd15038cb5785f8641529287c",
+    "comparison_methods": [
+      {
+        "method": "full-yolo11m",
+        "prediction_sha256": "af8e73c3fdd0fc2f290da92e6343369ea5f7cdedc3f1dfedc1b2a9ded14c533b",
+        "groups": {
+          "visible": {
+            "total": 34,
+            "foot_emitted": 19,
+            "map_emitted": 19
+          },
+          "occluded": {
+            "total": 7,
+            "foot_emitted": 0,
+            "map_emitted": 0
+          },
+          "unknown": {
+            "total": 7,
+            "foot_emitted": 1,
+            "map_emitted": 1
+          }
+        }
+      },
+      {
+        "method": "rtmw",
+        "prediction_sha256": "c5ac4db5ab85ea99ea60012ca8714ffa0f550b4aad97cb4a71a990e5a4004178",
+        "groups": {
+          "visible": {
+            "total": 34,
+            "foot_emitted": 34,
+            "map_emitted": 34
+          },
+          "occluded": {
+            "total": 7,
+            "foot_emitted": 7,
+            "map_emitted": 7
+          },
+          "unknown": {
+            "total": 7,
+            "foot_emitted": 7,
+            "map_emitted": 7
+          }
+        }
+      },
+      {
+        "method": "yolo11m-crops",
+        "prediction_sha256": "fb2b04d1ace9cf66d1f0077cf63713513b26b59a9bb7743ec071870a6bd1b9fc",
+        "groups": {
+          "visible": {
+            "total": 34,
+            "foot_emitted": 32,
+            "map_emitted": 32
+          },
+          "occluded": {
+            "total": 7,
+            "foot_emitted": 5,
+            "map_emitted": 5
+          },
+          "unknown": {
+            "total": 7,
+            "foot_emitted": 6,
+            "map_emitted": 6
+          }
+        }
+      }
+    ],
+    "reviewed_at": "2026-10-23T18:01:07.892961+00:00",
+    "visual_review": "All four sheets covering all 48 boxes inspected. Many estimates follow the visible lower body. Examples 25 and 26 show ambiguous/collapsed or displaced ankle estimates despite visible-foot labels. Occluded examples 1, 6, 16, 19, 20, 37 and 40 still receive predictions. No coordinate-accuracy scoring is available.",
+    "limitations": "Emission rate is not keypoint accuracy. Labels describe foot visibility only. No calibrated metric geometry or ground-contact truth. No demonstrated gain over RTMW, which also emitted on all 48 boxes.",
+    "sheets": [
+      {
+        "file": "body-review-1.jpg",
+        "sha256": "d3782985d84cb43bd8db397294180689b7b36173bc97cd88dd5b407c11dde8d3"
+      },
+      {
+        "file": "body-review-2.jpg",
+        "sha256": "de6c0292e93e7371b0aeb6a066cbba3e1b89ac93193cb78dd215117121db64f3"
+      },
+      {
+        "file": "body-review-3.jpg",
+        "sha256": "759a431374464cb59ff06ccf0fa0cc793f165423bb214d9fd300dd1b5d7d00a3"
+      },
+      {
+        "file": "body-review-4.jpg",
+        "sha256": "924530a281cc7dbbc9dc838ad01f24177af0fcbf4f0d492c23a3683fed25b6b7"
+      }
+    ]
+  },
+  "limitations": [
+    "Native SAM3 changes both detections and IDs; it is not an association-only comparison.",
+    "SAM3 can segment officials and spectators, and may emit inferred masks behind occlusion. Sparse identity pairs do not measure every false positive or switch.",
+    "Pose emission is not accuracy or visibility; no metric distance, time on floor or roster identity is established."
+  ]
+}

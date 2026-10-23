@@ -1,0 +1,58 @@
+[
+  {
+    "clip": "gb-tracking-1800",
+    "counts": {
+      "correct": 35,
+      "wrong": 0,
+      "unknown_same": 0,
+      "same_total": 37,
+      "different_total": 286,
+      "missing": 29,
+      "matched_observations": 42,
+      "reference_observations": 44
+    },
+    "fragments": 23,
+    "observations": 2991,
+    "seconds": 201.72770463499998,
+    "prompt": "person",
+    "phase": "development",
+    "baseline_raw_sam2": {
+      "correct": 29,
+      "wrong": 0,
+      "unknown_same": 0,
+      "same_total": 37,
+      "different_total": 286,
+      "missing": 0,
+      "matched_observations": 44,
+      "reference_observations": 44
+    }
+  },
+  {
+    "clip": "gb-reid-long-0900",
+    "counts": {
+      "correct": 5,
+      "wrong": 0,
+      "unknown_same": 5,
+      "same_total": 11,
+      "different_total": 144,
+      "missing": 0,
+      "matched_observations": 35,
+      "reference_observations": 35
+    },
+    "fragments": 47,
+    "observations": 8871,
+    "seconds": 705.1383461429999,
+    "prompt": "person",
+    "phase": "development",
+    "baseline_raw_sam2": {
+      "correct": 4,
+      "wrong": 0,
+      "unknown_same": 4,
+      "same_total": 11,
+      "different_total": 144,
+      "missing": 8,
+      "matched_observations": 34,
+      "reference_observations": 35
+    }
+  }
+]

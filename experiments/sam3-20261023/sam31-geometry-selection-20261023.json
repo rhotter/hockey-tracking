@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-23T18:38:33.823226+00:00",
+  "source_sha256": "e015149c6ded8f171f6fa9b4bbf5facce26341614d4ae7d47e69abde46b633fc",
+  "development": [
+    {
+      "method": "original-boxes",
+      "counts": {
+        "correct": 33,
+        "wrong": 0,
+        "unknown_same": 4,
+        "same_total": 48,
+        "different_total": 430,
+        "missing": 166,
+        "matched_observations": 63,
+        "reference_observations": 79
+      },
+      "objective": 33,
+      "order": 0
+    },
+    {
+      "method": "final-mask",
+      "counts": {
+        "correct": 33,
+        "wrong": 0,
+        "unknown_same": 4,
+        "same_total": 48,
+        "different_total": 430,
+        "missing": 146,
+        "matched_observations": 66,
+        "reference_observations": 79
+      },
+      "objective": 33,
+      "order": 1
+    },
+    {
+      "method": "largest-component",
+      "counts": {
+        "correct": 37,
+        "wrong": 1,
+        "unknown_same": 4,
+        "same_total": 48,
+        "different_total": 430,
+        "missing": 56,
+        "matched_observations": 73,
+        "reference_observations": 79
+      },
+      "objective": 27,
+      "order": 2
+    }
+  ],
+  "selected": "final-mask",
+  "run_regression": false,
+  "reason": "Only promote a strictly improved correct-minus-10-times-wrong development objective."
+}

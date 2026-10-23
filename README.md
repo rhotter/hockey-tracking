@@ -19,9 +19,17 @@ npm run build
 npm start
 ```
 
-Python 3.10+ and Node.js 22+ are required. The App Router renders the five research pages from trusted templates in `web/`, with server-rendered React content and the existing video/canvas controllers initialized after hydration. Existing `.html` links still work. `app/`, `components/` and `lib/` contain the Next.js integration.
+Python 3.10+ and Node.js 22+ are required. The App Router renders the six research pages from trusted templates in `web/`, with server-rendered React content and the existing video/canvas controllers initialized after hydration. Existing `.html` links still work. `app/`, `components/` and `lib/` contain the Next.js integration.
 
-Replay assets are stored separately in the `site-assets-v1` GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
+Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
+
+## SAM3 experiments — October 23, 2026
+
+[Results, eight interactive replays and all 48 pose-audit crops](https://hockey-tracking-phi.vercel.app/sam3.html).
+
+Official pretrained SAM3, SAM 3.1 Object Multiplex, a detector-supported SAM3 hybrid, three detection prompts, and SAM 3D Body were tested on Modal. No new fine-tuning was performed. Native SAM3 improved over raw SAM2 from 80 to 90 correct short-clip pairs, but introduced three wrong joins; the existing full pipeline already achieves 90 with zero reviewed wrong joins. Native SAM 3.1's tested configuration scored 41/103 with one wrong join and substantial bounding-box failures. A mask-cleanup follow-up increased correct development pairs from 33 to 37 but added a wrong join, failing the predeclared conservative objective. The existing recommended pipeline is retained.
+
+The standalone SAM3 detector scored 53.3% F1 versus 89.0% for the fine-tuned YOLO detector on the 36-frame regression check. SAM 3D Body emitted ankles on all 48 cases, including all seven with occluded feet; that does not establish coordinate accuracy or visibility. These are reused, sparse checks, not full-game reliability measurements. Experiment source and subsequent capacity/mask-postprocessing diagnostics are archived under `experiments/sam3-20261023/`.
 
 ## Measured result
 
@@ -46,10 +54,11 @@ No account, GPU, model download or video is needed. Python 3.10+ is sufficient:
 git clone https://github.com/rhotter/hockey-tracking.git
 cd hockey-tracking
 python scripts/verify_results.py
+python scripts/verify_sam3_results.py
 python scripts/verify_release.py
 ```
 
-The first command recomputes **117 comparisons** from the included pair outcomes: 78 generative-model, 24 embedding, and 15 revised-prompt comparisons. It also checks frozen source, selection hashes and the fixed-observation ceiling. The second checks the public release's file hashes. These checks reproduce saved evaluation counts, **not fresh inference**.
+The first command recomputes **117 comparisons** from the included pair outcomes: 78 generative-model, 24 embedding, and 15 revised-prompt comparisons. It also checks frozen source, selection hashes and the fixed-observation ceiling. The SAM3 verifier checks saved pair outcomes against the frozen reference, all exported replay frames, development selection and pose-emission counts. The final command checks the public release's file hashes. These checks reproduce saved evaluation counts, **not fresh inference**.
 
 ## Use the reconnection component
 
@@ -70,6 +79,7 @@ The example uses explicitly synthetic data. `hockey_tracking.reconnect.reconnect
 - `hockey_tracking/`: portable reconnection component, extracted from the measured implementation.
 - `results/`: pair outcomes, all comparison summaries, exact changed pairs and recording references.
 - `experiments/reference/`: selected original source and frozen protocols, preserved byte-for-byte for auditing.
+- `experiments/sam3-20261023/`: SAM3, SAM 3.1 and SAM 3D Body experiment source and protocols; outputs are in `web/data/reliability/sam3/`.
 - `experiments/provenance.json`: original source hashes and release origin.
 - `docs/`: pipeline, evaluation limits and external artifact requirements.
 - `tests/`: assignment, observation-preservation and original-solver equivalence checks.

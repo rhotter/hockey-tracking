@@ -1,0 +1,37 @@
+{
+  "prompt": "person",
+  "created_at": "2026-10-23T18:09:25.848879+00:00",
+  "development": [
+    {
+      "prompt": "person",
+      "counts": {
+        "correct": 40,
+        "wrong": 0,
+        "unknown_same": 5,
+        "same_total": 48,
+        "different_total": 430,
+        "missing": 29,
+        "matched_observations": 77,
+        "reference_observations": 79
+      },
+      "source_sha256": "7ef198586ad9e9e8772fa6695a26949c377e423e465bfcb2a6f7b8832a3d60a4"
+    },
+    {
+      "prompt": "hockey player",
+      "counts": {
+        "correct": 32,
+        "wrong": 0,
+        "unknown_same": 6,
+        "same_total": 48,
+        "different_total": 430,
+        "missing": 90,
+        "matched_observations": 73,
+        "reference_observations": 79
+      },
+      "source_sha256": "f4cd3d5766b11c329d2f2d15c066b528e41920ad138e3032bdb52aca47dd2463"
+    }
+  ],
+  "rule": "Max correct-10*wrong, then matched observations, then fewer unknown joins, then person.",
+  "hybrid_decision": "Do not promote hybrid: 33 correct, 0 wrong, unchanged vs raw SAM2; one fewer matched observation. No hybrid regression run.",
+  "native_decision": "Run selected native prompt on all four fixed regression clips. Current best linked pipeline remains comparison."
+}
