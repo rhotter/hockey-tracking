@@ -1,0 +1,20 @@
+{
+  "sealed_at": "2026-10-19T15:07:20.594288+00:00",
+  "status": "before_first_vlm_request",
+  "sha256": {
+    "scripts/nbhl_vlm_reconnect.py": "02371ae2c851823e10f0a124ae0f292ecac7a7b7a53fa730dd9ef4bd4fd0aa6f",
+    "scripts/modal_nbhl_vlm_reconnect.py": "849c21a7d33dd23042341e5b3003e8afb118ec694ae248d0fc6df152cc366cc4",
+    "data/ball-hockey/vlm-reconnect-protocol-v1.json": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136"
+  },
+  "inference": {
+    "engine": "vllm0.11.1",
+    "max_model_len": 8192,
+    "max_images": 6,
+    "max_pixels_per_image": 262144,
+    "batch_size": 8,
+    "temperature": 0,
+    "max_tokens": 320,
+    "seed": 17
+  },
+  "notes": "All prompts and policy implementations sealed before response review. Regression labels were already reviewed in prior experiments; no new-test claim."
+}

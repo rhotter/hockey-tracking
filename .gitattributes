@@ -1,0 +1,3 @@
+* text=auto
+# Keep byte-preserved experiment source, including its original EOF whitespace.
+experiments/reference/** whitespace=-blank-at-eof

@@ -1,0 +1,263 @@
+{
+  "phase": "development",
+  "model_key": "235b",
+  "model": {
+    "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+    "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+    "tensor_parallel": 2
+  },
+  "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+  "prediction_sha256": "b3da1cca7ce409b774bf2ca9a3428e79c0d12724723c1b1aedbf452e5bc761ae",
+  "evidence_sha256": "2a3722454f671ad6e40fcdc2222c57039a3d91052d56a117b2df1e0a3df1c1f0",
+  "totals": [
+    {
+      "policy": "osnet_full",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 320,
+      "links": 159
+    },
+    {
+      "policy": "osnet_shortlist",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 320,
+      "links": 159
+    },
+    {
+      "policy": "jersey_veto",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 322,
+      "links": 157
+    },
+    {
+      "policy": "jersey_support",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 321,
+      "links": 158
+    },
+    {
+      "policy": "single_veto",
+      "scope": "all",
+      "counts": {
+        "correct": 100,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 330,
+      "links": 149
+    },
+    {
+      "policy": "multi_veto",
+      "scope": "all",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 336,
+      "links": 143
+    },
+    {
+      "policy": "multi_strict",
+      "scope": "all",
+      "counts": {
+        "correct": 97,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 344,
+      "links": 135
+    },
+    {
+      "policy": "multi_symmetric",
+      "scope": "all",
+      "counts": {
+        "correct": 96,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 357,
+      "links": 122
+    },
+    {
+      "policy": "multi_hybrid",
+      "scope": "all",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 326,
+      "links": 153
+    },
+    {
+      "policy": "multi_and_jersey_veto",
+      "scope": "all",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 12,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 337,
+      "links": 142
+    },
+    {
+      "policy": "jersey_veto_normalized",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 322,
+      "links": 157
+    },
+    {
+      "policy": "jersey_support_normalized",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 321,
+      "links": 158
+    },
+    {
+      "policy": "multi_and_jersey_veto_normalized",
+      "scope": "all",
+      "counts": {
+        "correct": 101,
+        "wrong": 0,
+        "unknown_same": 12,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "fragments": 337,
+      "links": 142
+    }
+  ],
+  "response_counts": {
+    "number": {
+      "parsed": 301
+    },
+    "single": {
+      "same": 183,
+      "different": 146,
+      "uncertain": 211
+    },
+    "multi": {
+      "different": 226,
+      "same": 244,
+      "uncertain": 70
+    },
+    "reverse": {
+      "different": 228,
+      "same": 253,
+      "uncertain": 59
+    }
+  },
+  "order_consistency": {
+    "different / different": 178,
+    "same / same": 196,
+    "uncertain / different": 19,
+    "same / different": 31,
+    "uncertain / uncertain": 29,
+    "different / same": 35,
+    "different / uncertain": 13,
+    "same / uncertain": 17,
+    "uncertain / same": 22
+  },
+  "requests": 1921,
+  "generation_seconds": 2735.089915723998,
+  "loading_seconds": 361.820783258,
+  "baseline_original_frames_reproduced": [],
+  "limits": "Existing assistant-reviewed sparse references. MA/GB selects policy, then freeze before scoring Pittsburgh/Maryland. Those recordings were evaluated previously and informed the general research direction; regression evidence, not a fresh untouched test. VLM outputs and within-track consistency statements are unverified predictions. Fragment IDs are not roster identities.",
+  "normalization": {
+    "converted_digit_strings": 0,
+    "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+    "original_evaluation_sha256": "8304eccfaf531aac83316ad355b47a4ba43c7de9d051952a35bf22a8ece543d2"
+  }
+}

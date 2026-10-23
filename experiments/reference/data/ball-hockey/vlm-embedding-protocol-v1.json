@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-19T15:23:59.646248+00:00",
+  "scope": "NBHL ball-hockey only; supplementary experiment independent of the frozen generative VLM selection.",
+  "model_code_revision": "393e2978d27852b0d0230d6994f37f9c15bed73c",
+  "models": {
+    "2b": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+    "8b": "2c4565515e0f265c6511776e7193b22c0968ddc7"
+  },
+  "representations": [
+    "single",
+    "mean",
+    "joint"
+  ],
+  "candidate_input": "Reuse the exact preselected image crops and edges from the generative VLM protocol, without reference labels.",
+  "thresholds": [
+    0.5,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9,
+    0.925,
+    0.95,
+    0.975
+  ],
+  "policies": [
+    "veto",
+    "replace",
+    "blend"
+  ],
+  "definitions": {
+    "veto": "Remove shortlisted edges with embedding cosine below threshold; all other original scores/edges remain.",
+    "replace": "Use shortlisted embedding cosine as link score and selected threshold as global cutoff.",
+    "blend": "Use shortlisted 0.5*OSNet+0.5*embedding cosine as link score and selected threshold as global cutoff."
+  },
+  "selection": "Development only: maximize correct-10*wrong, then minimize unverified joins, prefer unchanged baseline ties. Select one setting per model/representation before regression scoring; record the overall development winner.",
+  "regression": "Existing Pittsburgh/Maryland sparse references, previously reviewed. Regression, not untouched validation. Inference may run in parallel but scores are not viewed before selection.",
+  "training": "None. Generic multimodal retrieval checkpoints with fixed identity instruction. Not a reproduction of ContextReID fine-tuning.",
+  "script_sha256": "fe2f943f42705b0998313299583f94c775bf18e73723ba72a1dd95e8a26dc8a5"
+}

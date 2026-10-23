@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-19T16:53:26.214955+00:00",
+  "selected": {
+    "policy": "osnet_full",
+    "scope": "all",
+    "counts": {
+      "correct": 102,
+      "wrong": 0,
+      "unknown_same": 15,
+      "same_total": 111,
+      "different_total": 759,
+      "missing": 26,
+      "matched_observations": 207,
+      "reference_observations": 213
+    }
+  },
+  "development_sha256": "8f53fd2dfb90757f8e490657e3321ec30fc69c115daeaf1e186c1b8a3105b50b",
+  "first_round_regression_seen_before_prompt_design": true,
+  "revised_prompt_regression_scores_seen": false
+}

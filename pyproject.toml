@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbhl-hockey-tracking"
+version = "0.1.0"
+description = "Measured NBHL ball-hockey track reconnection experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2"]
+
+[tool.setuptools.packages.find]
+include = ["hockey_tracking*"]

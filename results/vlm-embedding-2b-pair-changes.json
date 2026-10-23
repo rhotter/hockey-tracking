@@ -1,0 +1,193 @@
+[
+  {
+    "representation": "single",
+    "setting": {
+      "policy": "blend",
+      "representation": "single",
+      "threshold": 0.75
+    },
+    "changes": [
+      {
+        "clip": "marylandwomen-0600",
+        "id": "marylandwomen-0600-0000-06__marylandwomen-0600-0449-05",
+        "truth": "uncertain",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "id": "marylandwomen-1800-0000-00__marylandwomen-1800-0449-04",
+        "truth": "uncertain",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-0600",
+        "id": "pittsburgh-0600-0000-01__pittsburgh-0600-0449-00",
+        "truth": "uncertain",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "id": "pittsburgh-1800-0000-08__pittsburgh-1800-0449-03",
+        "truth": "same",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-0000-01__pittsburgh-stress-0900-0450-04",
+        "truth": "same",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-2700-04__pittsburgh-stress-0900-3150-07",
+        "truth": "same",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-04__pittsburgh-stress-0900-3600-09",
+        "truth": "same",
+        "baseline_same": true,
+        "candidate_same": false
+      }
+    ]
+  },
+  {
+    "representation": "mean",
+    "setting": {
+      "policy": "blend",
+      "representation": "mean",
+      "threshold": 0.825
+    },
+    "changes": [
+      {
+        "clip": "marylandwomen-0600",
+        "id": "marylandwomen-0600-0000-06__marylandwomen-0600-0449-05",
+        "truth": "uncertain",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "id": "marylandwomen-1800-0000-00__marylandwomen-1800-0449-04",
+        "truth": "uncertain",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "id": "pittsburgh-1800-0000-08__pittsburgh-1800-0449-03",
+        "truth": "same",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-0000-01__pittsburgh-stress-0900-0450-04",
+        "truth": "same",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-0450-07__pittsburgh-stress-0900-0900-02",
+        "truth": "different",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-04__pittsburgh-stress-0900-3600-09",
+        "truth": "same",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-06__pittsburgh-stress-0900-3600-08",
+        "truth": "same",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-07__pittsburgh-stress-0900-3600-05",
+        "truth": "different",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-07__pittsburgh-stress-0900-3600-06",
+        "truth": "same",
+        "baseline_same": false,
+        "candidate_same": true
+      }
+    ]
+  },
+  {
+    "representation": "joint",
+    "setting": {
+      "policy": "blend",
+      "representation": "joint",
+      "threshold": 0.75
+    },
+    "changes": [
+      {
+        "clip": "marylandwomen-0600",
+        "id": "marylandwomen-0600-0000-06__marylandwomen-0600-0449-05",
+        "truth": "uncertain",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-0600",
+        "id": "pittsburgh-0600-0000-01__pittsburgh-0600-0449-00",
+        "truth": "uncertain",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-0000-01__pittsburgh-stress-0900-0450-04",
+        "truth": "same",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-0000-03__pittsburgh-stress-0900-0450-02",
+        "truth": "same",
+        "baseline_same": false,
+        "candidate_same": true
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-0450-07__pittsburgh-stress-0900-0900-02",
+        "truth": "different",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-07__pittsburgh-stress-0900-3600-05",
+        "truth": "different",
+        "baseline_same": true,
+        "candidate_same": false
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "id": "pittsburgh-stress-0900-3150-07__pittsburgh-stress-0900-3600-06",
+        "truth": "same",
+        "baseline_same": false,
+        "candidate_same": true
+      }
+    ]
+  }
+]

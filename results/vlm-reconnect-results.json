@@ -1,0 +1,2502 @@
+{
+  "selection": {
+    "frozen_at": "2026-10-19T16:06:18.725788+00:00",
+    "model": "8b",
+    "policy": "jersey_veto_normalized",
+    "counts": {
+      "correct": 102,
+      "wrong": 0,
+      "unknown_same": 14,
+      "same_total": 111,
+      "different_total": 759,
+      "missing": 26,
+      "matched_observations": 207,
+      "reference_observations": 213
+    },
+    "objective": 102,
+    "rule": "Maximize correct-10*wrong; then minimize unverified joins; prefer unchanged generic baseline. Any remaining exact ties use candidate order (8B then235B, protocol policy order).",
+    "exact_ties": [
+      {
+        "model": "8b",
+        "policy": "jersey_veto_normalized",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "jersey_veto",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "jersey_veto_normalized",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      }
+    ],
+    "candidates": [
+      {
+        "model": "8b",
+        "policy": "osnet_full",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "8b",
+        "policy": "osnet_shortlist",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "8b",
+        "policy": "jersey_veto",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "8b",
+        "policy": "jersey_support",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "8b",
+        "policy": "single_veto",
+        "counts": {
+          "correct": 95,
+          "wrong": 1,
+          "unknown_same": 12,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 85
+      },
+      {
+        "model": "8b",
+        "policy": "multi_veto",
+        "counts": {
+          "correct": 100,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 100
+      },
+      {
+        "model": "8b",
+        "policy": "multi_strict",
+        "counts": {
+          "correct": 94,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 94
+      },
+      {
+        "model": "8b",
+        "policy": "multi_symmetric",
+        "counts": {
+          "correct": 92,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 92
+      },
+      {
+        "model": "8b",
+        "policy": "multi_hybrid",
+        "counts": {
+          "correct": 100,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 100
+      },
+      {
+        "model": "8b",
+        "policy": "multi_and_jersey_veto",
+        "counts": {
+          "correct": 100,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 100
+      },
+      {
+        "model": "8b",
+        "policy": "jersey_veto_normalized",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "8b",
+        "policy": "jersey_support_normalized",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "8b",
+        "policy": "multi_and_jersey_veto_normalized",
+        "counts": {
+          "correct": 100,
+          "wrong": 0,
+          "unknown_same": 13,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 100
+      },
+      {
+        "model": "235b",
+        "policy": "osnet_full",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "osnet_shortlist",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "jersey_veto",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "jersey_support",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "single_veto",
+        "counts": {
+          "correct": 100,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 100
+      },
+      {
+        "model": "235b",
+        "policy": "multi_veto",
+        "counts": {
+          "correct": 101,
+          "wrong": 0,
+          "unknown_same": 13,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 101
+      },
+      {
+        "model": "235b",
+        "policy": "multi_strict",
+        "counts": {
+          "correct": 97,
+          "wrong": 0,
+          "unknown_same": 13,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 97
+      },
+      {
+        "model": "235b",
+        "policy": "multi_symmetric",
+        "counts": {
+          "correct": 96,
+          "wrong": 0,
+          "unknown_same": 13,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 96
+      },
+      {
+        "model": "235b",
+        "policy": "multi_hybrid",
+        "counts": {
+          "correct": 101,
+          "wrong": 0,
+          "unknown_same": 13,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 101
+      },
+      {
+        "model": "235b",
+        "policy": "multi_and_jersey_veto",
+        "counts": {
+          "correct": 101,
+          "wrong": 0,
+          "unknown_same": 12,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 101
+      },
+      {
+        "model": "235b",
+        "policy": "jersey_veto_normalized",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 14,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "jersey_support_normalized",
+        "counts": {
+          "correct": 102,
+          "wrong": 0,
+          "unknown_same": 15,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 102
+      },
+      {
+        "model": "235b",
+        "policy": "multi_and_jersey_veto_normalized",
+        "counts": {
+          "correct": 101,
+          "wrong": 0,
+          "unknown_same": 12,
+          "same_total": 111,
+          "different_total": 759,
+          "missing": 26,
+          "matched_observations": 207,
+          "reference_observations": 213
+        },
+        "objective": 101
+      }
+    ],
+    "development_reports": [
+      {
+        "file": "notes/ball-hockey/vlm-reconnect-extend-development-8b.json",
+        "sha256": "ebccbda19757aa2424db94e427febb41249dd24d7c215f1a878aec3db8be842a",
+        "model": "8b"
+      },
+      {
+        "file": "notes/ball-hockey/vlm-reconnect-extend-development-235b.json",
+        "sha256": "50e42fba9053532aa1fbd8d2fa5a875f4edde4f6ae667bea2604612486508cdc",
+        "model": "235b"
+      }
+    ],
+    "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+    "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+    "regression_predictions_inspected": false,
+    "regression_scores_inspected": false,
+    "regression_inference_started_in_parallel": true
+  },
+  "reports": [
+    {
+      "phase": "development",
+      "model_key": "8b",
+      "model": {
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+        "tensor_parallel": 1
+      },
+      "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+      "prediction_sha256": "5757e0ef8e1221e4f4ebc2b1650d9f0ab025ced818bd7f40f7cb2dbd9b6ef4bd",
+      "evidence_sha256": "2a3722454f671ad6e40fcdc2222c57039a3d91052d56a117b2df1e0a3df1c1f0",
+      "totals": [
+        {
+          "policy": "osnet_full",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 320,
+          "links": 159
+        },
+        {
+          "policy": "osnet_shortlist",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 320,
+          "links": 159
+        },
+        {
+          "policy": "jersey_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 320,
+          "links": 159
+        },
+        {
+          "policy": "jersey_support",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 320,
+          "links": 159
+        },
+        {
+          "policy": "single_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 95,
+            "wrong": 1,
+            "unknown_same": 12,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 372,
+          "links": 107
+        },
+        {
+          "policy": "multi_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 100,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 346,
+          "links": 133
+        },
+        {
+          "policy": "multi_strict",
+          "scope": "all",
+          "counts": {
+            "correct": 94,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 388,
+          "links": 91
+        },
+        {
+          "policy": "multi_symmetric",
+          "scope": "all",
+          "counts": {
+            "correct": 92,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 409,
+          "links": 70
+        },
+        {
+          "policy": "multi_hybrid",
+          "scope": "all",
+          "counts": {
+            "correct": 100,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 342,
+          "links": 137
+        },
+        {
+          "policy": "multi_and_jersey_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 100,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 346,
+          "links": 133
+        },
+        {
+          "policy": "jersey_veto_normalized",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 326,
+          "links": 153
+        },
+        {
+          "policy": "jersey_support_normalized",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 326,
+          "links": 153
+        },
+        {
+          "policy": "multi_and_jersey_veto_normalized",
+          "scope": "all",
+          "counts": {
+            "correct": 100,
+            "wrong": 0,
+            "unknown_same": 13,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 351,
+          "links": 128
+        }
+      ],
+      "response_counts": {
+        "number": {
+          "parsed": 301
+        },
+        "single": {
+          "different": 368,
+          "same": 40,
+          "uncertain": 132
+        },
+        "multi": {
+          "different": 313,
+          "same": 147,
+          "uncertain": 80
+        },
+        "reverse": {
+          "different": 312,
+          "same": 146,
+          "uncertain": 82
+        }
+      },
+      "order_consistency": {
+        "different / different": 255,
+        "same / different": 37,
+        "same / same": 101,
+        "different / same": 39,
+        "uncertain / uncertain": 54,
+        "same / uncertain": 9,
+        "uncertain / different": 20,
+        "uncertain / same": 6,
+        "different / uncertain": 19
+      },
+      "requests": 1921,
+      "generation_seconds": 477.843565592,
+      "loading_seconds": 86.095981407,
+      "baseline_original_frames_reproduced": [],
+      "limits": "Existing assistant-reviewed sparse references. MA/GB selects policy, then freeze before scoring Pittsburgh/Maryland. Those recordings were evaluated previously and informed the general research direction; regression evidence, not a fresh untouched test. VLM outputs and within-track consistency statements are unverified predictions. Fragment IDs are not roster identities.",
+      "normalization": {
+        "converted_digit_strings": 247,
+        "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+        "original_evaluation_sha256": "d28fc1e0c4167c8100decd8b7fe1d006ec873914ef9d42325bcbafd6eed11078"
+      }
+    },
+    {
+      "phase": "development",
+      "model_key": "235b",
+      "model": {
+        "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+        "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+        "tensor_parallel": 2
+      },
+      "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+      "prediction_sha256": "b3da1cca7ce409b774bf2ca9a3428e79c0d12724723c1b1aedbf452e5bc761ae",
+      "evidence_sha256": "2a3722454f671ad6e40fcdc2222c57039a3d91052d56a117b2df1e0a3df1c1f0",
+      "totals": [
+        {
+          "policy": "osnet_full",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 320,
+          "links": 159
+        },
+        {
+          "policy": "osnet_shortlist",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 320,
+          "links": 159
+        },
+        {
+          "policy": "jersey_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 322,
+          "links": 157
+        },
+        {
+          "policy": "jersey_support",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 321,
+          "links": 158
+        },
+        {
+          "policy": "single_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 100,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 330,
+          "links": 149
+        },
+        {
+          "policy": "multi_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 101,
+            "wrong": 0,
+            "unknown_same": 13,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 336,
+          "links": 143
+        },
+        {
+          "policy": "multi_strict",
+          "scope": "all",
+          "counts": {
+            "correct": 97,
+            "wrong": 0,
+            "unknown_same": 13,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 344,
+          "links": 135
+        },
+        {
+          "policy": "multi_symmetric",
+          "scope": "all",
+          "counts": {
+            "correct": 96,
+            "wrong": 0,
+            "unknown_same": 13,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 357,
+          "links": 122
+        },
+        {
+          "policy": "multi_hybrid",
+          "scope": "all",
+          "counts": {
+            "correct": 101,
+            "wrong": 0,
+            "unknown_same": 13,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 326,
+          "links": 153
+        },
+        {
+          "policy": "multi_and_jersey_veto",
+          "scope": "all",
+          "counts": {
+            "correct": 101,
+            "wrong": 0,
+            "unknown_same": 12,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 337,
+          "links": 142
+        },
+        {
+          "policy": "jersey_veto_normalized",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 14,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 322,
+          "links": 157
+        },
+        {
+          "policy": "jersey_support_normalized",
+          "scope": "all",
+          "counts": {
+            "correct": 102,
+            "wrong": 0,
+            "unknown_same": 15,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 321,
+          "links": 158
+        },
+        {
+          "policy": "multi_and_jersey_veto_normalized",
+          "scope": "all",
+          "counts": {
+            "correct": 101,
+            "wrong": 0,
+            "unknown_same": 12,
+            "same_total": 111,
+            "different_total": 759,
+            "missing": 26,
+            "matched_observations": 207,
+            "reference_observations": 213
+          },
+          "fragments": 337,
+          "links": 142
+        }
+      ],
+      "response_counts": {
+        "number": {
+          "parsed": 301
+        },
+        "single": {
+          "same": 183,
+          "different": 146,
+          "uncertain": 211
+        },
+        "multi": {
+          "different": 226,
+          "same": 244,
+          "uncertain": 70
+        },
+        "reverse": {
+          "different": 228,
+          "same": 253,
+          "uncertain": 59
+        }
+      },
+      "order_consistency": {
+        "different / different": 178,
+        "same / same": 196,
+        "uncertain / different": 19,
+        "same / different": 31,
+        "uncertain / uncertain": 29,
+        "different / same": 35,
+        "different / uncertain": 13,
+        "same / uncertain": 17,
+        "uncertain / same": 22
+      },
+      "requests": 1921,
+      "generation_seconds": 2735.089915723998,
+      "loading_seconds": 361.820783258,
+      "baseline_original_frames_reproduced": [],
+      "limits": "Existing assistant-reviewed sparse references. MA/GB selects policy, then freeze before scoring Pittsburgh/Maryland. Those recordings were evaluated previously and informed the general research direction; regression evidence, not a fresh untouched test. VLM outputs and within-track consistency statements are unverified predictions. Fragment IDs are not roster identities.",
+      "normalization": {
+        "converted_digit_strings": 0,
+        "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+        "original_evaluation_sha256": "8304eccfaf531aac83316ad355b47a4ba43c7de9d051952a35bf22a8ece543d2"
+      }
+    },
+    {
+      "phase": "regression",
+      "model_key": "8b",
+      "model": {
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+        "tensor_parallel": 1
+      },
+      "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+      "prediction_sha256": "4061e64524429ba8e15a08aec226a536a963d3544c0f0534d7e259e48d72cdfe",
+      "evidence_sha256": "79b9e1319a9c84185973c3ceec2e8650c33f17619096329ba9314f59e3323266",
+      "totals": [
+        {
+          "policy": "osnet_full",
+          "scope": "short",
+          "counts": {
+            "correct": 90,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 115,
+          "links": 45
+        },
+        {
+          "policy": "osnet_full",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "links": 153
+        },
+        {
+          "policy": "osnet_shortlist",
+          "scope": "short",
+          "counts": {
+            "correct": 90,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 115,
+          "links": 45
+        },
+        {
+          "policy": "osnet_shortlist",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "links": 153
+        },
+        {
+          "policy": "jersey_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 90,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 115,
+          "links": 45
+        },
+        {
+          "policy": "jersey_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "links": 153
+        },
+        {
+          "policy": "jersey_support",
+          "scope": "short",
+          "counts": {
+            "correct": 90,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 115,
+          "links": 45
+        },
+        {
+          "policy": "jersey_support",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "links": 153
+        },
+        {
+          "policy": "single_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 87,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 127,
+          "links": 33
+        },
+        {
+          "policy": "single_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 15,
+            "wrong": 3,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 189,
+          "links": 109
+        },
+        {
+          "policy": "multi_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 126,
+          "links": 34
+        },
+        {
+          "policy": "multi_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 19,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 171,
+          "links": 127
+        },
+        {
+          "policy": "multi_strict",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 133,
+          "links": 27
+        },
+        {
+          "policy": "multi_strict",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 177,
+          "links": 121
+        },
+        {
+          "policy": "multi_symmetric",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 136,
+          "links": 24
+        },
+        {
+          "policy": "multi_symmetric",
+          "scope": "stress",
+          "counts": {
+            "correct": 17,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 193,
+          "links": 105
+        },
+        {
+          "policy": "multi_hybrid",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 125,
+          "links": 35
+        },
+        {
+          "policy": "multi_hybrid",
+          "scope": "stress",
+          "counts": {
+            "correct": 19,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 164,
+          "links": 134
+        },
+        {
+          "policy": "multi_and_jersey_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 126,
+          "links": 34
+        },
+        {
+          "policy": "multi_and_jersey_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 19,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 171,
+          "links": 127
+        },
+        {
+          "policy": "jersey_veto_normalized",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 118,
+          "links": 42
+        },
+        {
+          "policy": "jersey_veto_normalized",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 3,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 159,
+          "links": 139
+        },
+        {
+          "policy": "jersey_support_normalized",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 118,
+          "links": 42
+        },
+        {
+          "policy": "jersey_support_normalized",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 3,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 154,
+          "links": 144
+        },
+        {
+          "policy": "multi_and_jersey_veto_normalized",
+          "scope": "short",
+          "counts": {
+            "correct": 85,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 128,
+          "links": 32
+        },
+        {
+          "policy": "multi_and_jersey_veto_normalized",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 183,
+          "links": 115
+        }
+      ],
+      "response_counts": {
+        "number": {
+          "parsed": 327
+        },
+        "single": {
+          "different": 469,
+          "same": 151,
+          "uncertain": 35
+        },
+        "multi": {
+          "different": 397,
+          "same": 228,
+          "uncertain": 30
+        },
+        "reverse": {
+          "different": 409,
+          "uncertain": 23,
+          "same": 223
+        }
+      },
+      "order_consistency": {
+        "different / different": 357,
+        "same / different": 41,
+        "uncertain / uncertain": 15,
+        "same / same": 183,
+        "uncertain / different": 11,
+        "different / uncertain": 4,
+        "uncertain / same": 4,
+        "different / same": 36,
+        "same / uncertain": 4
+      },
+      "requests": 2292,
+      "generation_seconds": 563.0171894890018,
+      "loading_seconds": 63.014102603000005,
+      "baseline_original_frames_reproduced": [
+        "marylandwomen-0600",
+        "marylandwomen-1800",
+        "pittsburgh-0600",
+        "pittsburgh-1800",
+        "pittsburgh-stress-0900"
+      ],
+      "limits": "Existing assistant-reviewed sparse references. MA/GB selects policy, then freeze before scoring Pittsburgh/Maryland. Those recordings were evaluated previously and informed the general research direction; regression evidence, not a fresh untouched test. VLM outputs and within-track consistency statements are unverified predictions. Fragment IDs are not roster identities.",
+      "normalization": {
+        "converted_digit_strings": 528,
+        "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+        "original_evaluation_sha256": "c94535f8c06ddedea3d23f85103cad95b507b0557e59b9630acb8f669d93d63e"
+      }
+    },
+    {
+      "phase": "regression",
+      "model_key": "235b",
+      "model": {
+        "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+        "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+        "tensor_parallel": 2
+      },
+      "protocol_sha256": "ef5dae7b3da51d5bf5dd775cfa038441016ee22162eb0b8db62f16f1441a5136",
+      "prediction_sha256": "c07776a203d9ee5fb17d16c62f8298438291f1091b50cb09e2e6c58dd60678e2",
+      "evidence_sha256": "79b9e1319a9c84185973c3ceec2e8650c33f17619096329ba9314f59e3323266",
+      "totals": [
+        {
+          "policy": "osnet_full",
+          "scope": "short",
+          "counts": {
+            "correct": 90,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 115,
+          "links": 45
+        },
+        {
+          "policy": "osnet_full",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "links": 153
+        },
+        {
+          "policy": "osnet_shortlist",
+          "scope": "short",
+          "counts": {
+            "correct": 90,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 115,
+          "links": 45
+        },
+        {
+          "policy": "osnet_shortlist",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "links": 153
+        },
+        {
+          "policy": "jersey_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 118,
+          "links": 42
+        },
+        {
+          "policy": "jersey_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 17,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 163,
+          "links": 135
+        },
+        {
+          "policy": "jersey_support",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 118,
+          "links": 42
+        },
+        {
+          "policy": "jersey_support",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 162,
+          "links": 136
+        },
+        {
+          "policy": "single_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 120,
+          "links": 40
+        },
+        {
+          "policy": "single_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 15,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 164,
+          "links": 134
+        },
+        {
+          "policy": "multi_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 87,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 120,
+          "links": 40
+        },
+        {
+          "policy": "multi_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 20,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 169,
+          "links": 129
+        },
+        {
+          "policy": "multi_strict",
+          "scope": "short",
+          "counts": {
+            "correct": 87,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 125,
+          "links": 35
+        },
+        {
+          "policy": "multi_strict",
+          "scope": "stress",
+          "counts": {
+            "correct": 20,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 171,
+          "links": 127
+        },
+        {
+          "policy": "multi_symmetric",
+          "scope": "short",
+          "counts": {
+            "correct": 84,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 131,
+          "links": 29
+        },
+        {
+          "policy": "multi_symmetric",
+          "scope": "stress",
+          "counts": {
+            "correct": 19,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 184,
+          "links": 114
+        },
+        {
+          "policy": "multi_hybrid",
+          "scope": "short",
+          "counts": {
+            "correct": 87,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 117,
+          "links": 43
+        },
+        {
+          "policy": "multi_hybrid",
+          "scope": "stress",
+          "counts": {
+            "correct": 20,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 163,
+          "links": 135
+        },
+        {
+          "policy": "multi_and_jersey_veto",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 122,
+          "links": 38
+        },
+        {
+          "policy": "multi_and_jersey_veto",
+          "scope": "stress",
+          "counts": {
+            "correct": 19,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 182,
+          "links": 116
+        },
+        {
+          "policy": "jersey_veto_normalized",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 118,
+          "links": 42
+        },
+        {
+          "policy": "jersey_veto_normalized",
+          "scope": "stress",
+          "counts": {
+            "correct": 17,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 163,
+          "links": 135
+        },
+        {
+          "policy": "jersey_support_normalized",
+          "scope": "short",
+          "counts": {
+            "correct": 89,
+            "wrong": 0,
+            "unknown_same": 2,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 118,
+          "links": 42
+        },
+        {
+          "policy": "jersey_support_normalized",
+          "scope": "stress",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 162,
+          "links": 136
+        },
+        {
+          "policy": "multi_and_jersey_veto_normalized",
+          "scope": "short",
+          "counts": {
+            "correct": 86,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 103,
+            "different_total": 962,
+            "missing": 105,
+            "matched_observations": 157,
+            "reference_observations": 165
+          },
+          "fragments": 122,
+          "links": 38
+        },
+        {
+          "policy": "multi_and_jersey_veto_normalized",
+          "scope": "stress",
+          "counts": {
+            "correct": 19,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 182,
+          "links": 116
+        }
+      ],
+      "response_counts": {
+        "number": {
+          "parsed": 327
+        },
+        "single": {
+          "different": 332,
+          "same": 259,
+          "uncertain": 64
+        },
+        "multi": {
+          "uncertain": 29,
+          "different": 385,
+          "same": 241
+        },
+        "reverse": {
+          "different": 387,
+          "same": 239,
+          "uncertain": 29
+        }
+      },
+      "order_consistency": {
+        "uncertain / different": 3,
+        "different / different": 355,
+        "same / different": 29,
+        "uncertain / same": 9,
+        "uncertain / uncertain": 17,
+        "same / same": 204,
+        "different / uncertain": 4,
+        "same / uncertain": 8,
+        "different / same": 26
+      },
+      "requests": 2292,
+      "generation_seconds": 4624.104797537005,
+      "loading_seconds": 365.97188456699996,
+      "baseline_original_frames_reproduced": [
+        "marylandwomen-0600",
+        "marylandwomen-1800",
+        "pittsburgh-0600",
+        "pittsburgh-1800",
+        "pittsburgh-stress-0900"
+      ],
+      "limits": "Existing assistant-reviewed sparse references. MA/GB selects policy, then freeze before scoring Pittsburgh/Maryland. Those recordings were evaluated previously and informed the general research direction; regression evidence, not a fresh untouched test. VLM outputs and within-track consistency statements are unverified predictions. Fragment IDs are not roster identities.",
+      "normalization": {
+        "converted_digit_strings": 0,
+        "amendment_sha256": "6e09f351b7455b3d8620fbe5fc4ad7147711372a1b7e8a17dd5b259a3959f7bb",
+        "original_evaluation_sha256": "2610ed37ddea1d54b9f00ef6502dfc6d4931cdfff361636c3afcee1c08916b64"
+      }
+    }
+  ],
+  "observation_ceiling": {
+    "counts": [
+      {
+        "phase": "development",
+        "scope": "all",
+        "same_pairs": 111,
+        "endpoints_matched": 109,
+        "baseline_connected": 102,
+        "unmatched_same_pairs": 2
+      },
+      {
+        "phase": "regression",
+        "scope": "short",
+        "same_pairs": 103,
+        "endpoints_matched": 93,
+        "baseline_connected": 90,
+        "unmatched_same_pairs": 10
+      },
+      {
+        "phase": "regression",
+        "scope": "stress",
+        "same_pairs": 26,
+        "endpoints_matched": 23,
+        "baseline_connected": 18,
+        "unmatched_same_pairs": 3
+      }
+    ],
+    "limit": "Endpoint matching gives a loose ceiling with the fixed input boxes. It is not a claim that all matched pairs can be joined simultaneously without other identity errors."
+  },
+  "primary_rows": [
+    {
+      "label": "Existing appearance linker",
+      "detail": "Baseline control",
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 2,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 2B \u00b7 images encoded together",
+      "detail": "Frozen challenger; tied the best development objective",
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 4,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 21,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL 8B",
+      "detail": "Selected language-model policy",
+      "policy": "jersey_veto_normalized",
+      "short": {
+        "correct": 89,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 3,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 2B \u00b7 average of image vectors",
+      "detail": "Selected embedding configuration",
+      "short": {
+        "correct": 89,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    }
+  ],
+  "embedding_rows": [
+    {
+      "label": "Existing appearance + global links",
+      "development_selected": false,
+      "development": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 2,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 2B \u00b7 one best image",
+      "development_selected": false,
+      "development": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 89,
+        "wrong": 0,
+        "unknown_same": 3,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 17,
+        "wrong": 2,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 2B \u00b7 average of image vectors",
+      "development_selected": true,
+      "development": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 89,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 2B \u00b7 images encoded together",
+      "development_selected": false,
+      "development": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 4,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 21,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 8B \u00b7 one best image",
+      "development_selected": false,
+      "development": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 16,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 3,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 19,
+        "wrong": 4,
+        "unknown_same": 1,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 8B \u00b7 average of image vectors",
+      "development_selected": false,
+      "development": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 19,
+        "wrong": 1,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "label": "Qwen3-VL Embedding 8B \u00b7 images encoded together",
+      "development_selected": false,
+      "development": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 2,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    }
+  ],
+  "conservative_rows": [
+    {
+      "policy": "osnet_full",
+      "development_selected": true,
+      "development": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 90,
+        "wrong": 0,
+        "unknown_same": 2,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 18,
+        "wrong": 2,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "policy": "multi_veto",
+      "development_selected": false,
+      "development": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 88,
+        "wrong": 0,
+        "unknown_same": 1,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 20,
+        "wrong": 1,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "policy": "multi_strict",
+      "development_selected": false,
+      "development": {
+        "correct": 93,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 86,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 19,
+        "wrong": 1,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "policy": "multi_symmetric",
+      "development_selected": false,
+      "development": {
+        "correct": 91,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 84,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 16,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    },
+    {
+      "policy": "multi_hybrid",
+      "development_selected": false,
+      "development": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "short": {
+        "correct": 88,
+        "wrong": 0,
+        "unknown_same": 1,
+        "same_total": 103,
+        "different_total": 962,
+        "missing": 105,
+        "matched_observations": 157,
+        "reference_observations": 165
+      },
+      "stress": {
+        "correct": 21,
+        "wrong": 1,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      }
+    }
+  ],
+  "scope_notes": {
+    "all": "Nine development clips, 320 seconds from two recordings. These labels select the method.",
+    "short": "Four 30-second clips from Pittsburgh and Maryland women. Previously evaluated regression data; no new-test claim.",
+    "stress": "A separate uninterrupted five-minute Pittsburgh interval. Sparse checks, reported separately from the short clips."
+  }
+}

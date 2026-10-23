@@ -1,0 +1,92 @@
+{
+  "phase": "development",
+  "totals": [
+    {
+      "policy": "osnet_full",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      }
+    },
+    {
+      "policy": "multi_veto",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      }
+    },
+    {
+      "policy": "multi_strict",
+      "scope": "all",
+      "counts": {
+        "correct": 93,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      }
+    },
+    {
+      "policy": "multi_symmetric",
+      "scope": "all",
+      "counts": {
+        "correct": 91,
+        "wrong": 0,
+        "unknown_same": 13,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      }
+    },
+    {
+      "policy": "multi_hybrid",
+      "scope": "all",
+      "counts": {
+        "correct": 102,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      }
+    }
+  ],
+  "order_consistency": {
+    "different / different": 90,
+    "uncertain / uncertain": 288,
+    "same / same": 64,
+    "uncertain / same": 24,
+    "uncertain / different": 25,
+    "same / uncertain": 24,
+    "different / same": 4,
+    "same / different": 4,
+    "different / uncertain": 17
+  },
+  "prediction_sha256": "9e00e7909c6285b29b67056425ed05909337b106a942b9011490046ca3a524c4",
+  "protocol_sha256": "b5083c1ef0ffb5cc034c36416412ab450da5103eece38b3d3cdedd4ed685a609",
+  "requests": 1080,
+  "generation_seconds": 272.99265439700014,
+  "invalid_json": 2,
+  "limits": "Exploratory second prompt designed after inspecting first-round development and 8B regression failures. Existing recordings are reused. It cannot establish independent transfer or a fresh validation gain. No model training or reference changes."
+}

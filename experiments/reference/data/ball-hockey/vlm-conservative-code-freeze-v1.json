@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-10-19T16:30:01.850295+00:00",
+  "status": "before_revised_prompt_inference",
+  "sha256": {
+    "scripts/modal_nbhl_vlm_conservative.py": "a06253b1c141e18dfaaca51b35b518abea51facd90e667ee3a26bf78871e1d61",
+    "data/ball-hockey/vlm-conservative-protocol-v1.json": "b5083c1ef0ffb5cc034c36416412ab450da5103eece38b3d3cdedd4ed685a609"
+  }
+}

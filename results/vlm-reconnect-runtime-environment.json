@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-19T15:54:12.843656+00:00",
+  "environments": [
+    {
+      "kind": "generative",
+      "container": "ta-01M5AB7ZE5PDJRVZSN05GHQ1KR",
+      "packages": {
+        "torch": "2.9.0",
+        "transformers": "4.57.6",
+        "vllm": "0.11.1",
+        "huggingface_hub": "0.36.0",
+        "pillow": "13.0.0",
+        "numpy": "2.2.6"
+      },
+      "gpu": "NVIDIA H200, 610.57.04\nNVIDIA H200, 610.57.04"
+    },
+    {
+      "kind": "embedding",
+      "container": "ta-01M5AC8KZGC4KYMXFAD5MDDQQR",
+      "packages": {
+        "torch": "2.9.1+cu128",
+        "transformers": "4.57.6",
+        "huggingface_hub": "0.36.2",
+        "pillow": "12.3.0",
+        "qwen-vl-utils": "0.0.14",
+        "numpy": "1.26.4"
+      },
+      "gpu": "NVIDIA L40S, 610.57.04"
+    }
+  ]
+}

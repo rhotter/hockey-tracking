@@ -1,0 +1,30 @@
+# Reproduction boundaries and external artifacts
+
+## Included and runnable offline
+
+- Pair outcomes and all 117 published count comparisons.
+- Frozen prompts, selection records, model revisions and source hashes.
+- A portable global reconnection component and synthetic example.
+- Equivalence tests against the original global solver.
+
+## Reference source
+
+`experiments/reference/` preserves selected original experiment files byte-for-byte. Historical absolute `/data/...` paths describe the cloud experiment layout, not data included in this checkout. Research orchestration imports and local mounts may refer to the original laboratory repository. **Do not treat these archived Modal entrypoints as self-contained executable jobs.** They are included to audit how the reported features, candidate lists, policies and scores were produced.
+
+`scripts/verify_results.py` reads the archived source without executing Modal or loading models. It writes an ignored `outputs/verification.json` report. The release adds no public access to the original Modal volume or private website.
+
+Fresh end-to-end reproduction requires lawful access to the listed recordings, the original trained YOLO detector checkpoint, compatible SAM2 and OSNet weights, source frame alignment, reviewed reference observations, and regenerated candidate/crop/feature caches. The detector checkpoint and complete inference caches are not distributed. Generic model access alone is insufficient to reproduce the detector outputs in these experiments.
+
+## Third-party projects
+
+These references identify dependencies, not an assertion that all use the same license. Check their own license files and model cards before use or redistribution.
+
+- [Ultralytics](https://github.com/ultralytics/ultralytics): YOLO detector tooling; the private trained checkpoint is not included.
+- [SAM2](https://github.com/facebookresearch/sam2): mask propagation.
+- [Selective Mask Propagation](https://github.com/holma91/selective-mask-propagation): source environment used by the research scripts.
+- [Deep Person Re-identification / OSNet](https://github.com/KaiyangZhou/deep-person-reid): appearance features.
+- [Qwen3-VL Embedding](https://github.com/QwenLM/Qwen3-VL-Embedding): multimodal image embeddings. Pinned code revision: `393e2978d27852b0d0230d6994f37f9c15bed73c`.
+- [Qwen3-VL Embedding 2B](https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B): revision `9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda`.
+- [Qwen3-VL Embedding 8B](https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B): revision `2c4565515e0f265c6511776e7193b22c0968ddc7`.
+
+The original recording links are in `results/sources.json`. The repository contains original numeric annotations and prediction outcomes, not the recordings or image crops.
