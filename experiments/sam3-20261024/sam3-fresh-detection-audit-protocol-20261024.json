@@ -1,0 +1,30 @@
+{
+  "id": "nbhl-sam3-fresh-detection-audit-20261024-v1",
+  "registered_utc": "2026-10-24T02:57:46.168183+00:00",
+  "source_id": "JlBtScHdcg4",
+  "source_scope": "Pittsburgh recording reused for tracking, excluded from SAM3 detector training/validation/36-frame regression. New complete detection annotation in a fixed temporal sample.",
+  "source_times_s": [
+    2520,
+    2523,
+    2526,
+    2529,
+    2532,
+    2535,
+    2538,
+    2541,
+    2544,
+    2547,
+    2550
+  ],
+  "frames": 11,
+  "reference_policy": "Annotate every visible on-floor player or goalie, including partial players with a distinguishable body. Exclude bench players, officials and spectators. Raw images plus existing YOLO proposals assist boxes; add missing players and correct proposal bounds by visual review. Assistant-reviewed, not independent human ground truth.",
+  "freeze_policy": "Seal all annotations before inspecting SAM3 or rink-filter predictions on these frames. No retraining or selection on this audit.",
+  "methods": [
+    "original SAM3 hockey-player prompt at validation-selected threshold0.6",
+    "frozen transformer-lr1e5 epoch2 at threshold0.5",
+    "same fine-tune plus frozen hockey-rink surface mask threshold0.3/dilation0.025",
+    "existing YOLO detections at the pipeline threshold0.1; proposal-assisted reference can favor this baseline"
+  ],
+  "evaluation": "Confidence-ordered one-to-one box matching at IoU0.5. Report TP/FP/FN/precision/recall/F1 and per-frame outcomes. All11frames remain regardless of outcome.",
+  "limits": "One correlated interval in a reused recording, with detector-assisted reference; not independent game-level accuracy. Results cannot change frozen model/filter choices."
+}

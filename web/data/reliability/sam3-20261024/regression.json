@@ -1,0 +1,695 @@
+{
+  "phase": "regression",
+  "protocol_sha256": "f21999fd5e8643a902358755b755eb43a4452cb37b82bd8449ca05f126a821ed",
+  "inputs": [
+    {
+      "clip": "marylandwomen-0600",
+      "sam3_sha256": "c03e13148f55a157af093d8e638310d5c2df119510125885f0aa4fad0ace1b09",
+      "sam2_sha256": "6ef839251dfbf438eacc43b5771eee84c959c01d46dfb5bf95d2ff258dcbb84b",
+      "features_sha256": "11a480307422f7134dc490194db2f32c6fc3c48a6813602e8565c3ee0bbbb4c2"
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "sam3_sha256": "28a441417a864330b24360e4c599a76074ad059a1577295aa04156634d960bf9",
+      "sam2_sha256": "c74a2b471d7bdebb0b2a61f4c8365fc35f230a5c6c932a697399b126c87c0ddd",
+      "features_sha256": "17c6a750b318a395816c273a2fb910f3333fd428e715a69ab2ed4d5161b798d7"
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "sam3_sha256": "f1a1be8c992399040ceb3eb2ee08a21df4d8f3a555ab46600b43c8c52d0a2d8d",
+      "sam2_sha256": "087d95d67975508500adc921ccb56a21b9c1ad2c7c32c5ed4ef0793aec1ccba5",
+      "features_sha256": "ae27d1aba99e5299c7393ba7a76a51b746aa7435a4a767a19b7ae03b72562e94"
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "sam3_sha256": "ec1a8a0852db86cc9fcd1c57ed6814789b3eb9758f6b3aaa6626e70974af92e7",
+      "sam2_sha256": "9f17b165de8869b44458850182d7ebcf0240323908339aded2df16547efd46c5",
+      "features_sha256": "af98e24635c8f299683636ed0edf9c1dee281170f7da64249f68683900b91a76"
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "sam3_sha256": "fe11e13ff6dd8e4967a1b877c1c90b705b599bc3fcdea4a246b9b174f393625c",
+      "sam2_sha256": "059dc4ac9ee88a74e6613565a3a8e6e9b2beeb7ec6cad5488c3c0c1b94202a2b",
+      "features_sha256": "e6ad208dc15cf505cf65a181cd40b9adc30bbb07fa7e704e7b3b48ea03805a05"
+    }
+  ],
+  "results": [
+    {
+      "key": "sam3-native",
+      "family": "baseline",
+      "setting": {},
+      "counts": {
+        "correct": 105,
+        "wrong": 4,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 43,
+        "matched_observations": 230,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 49,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 0,
+            "matched_observations": 57,
+            "reference_observations": 57
+          },
+          "fragments": 13,
+          "observations": 4450
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 0,
+            "matched_observations": 22,
+            "reference_observations": 22
+          },
+          "fragments": 23,
+          "observations": 2248
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 19,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 38,
+          "observations": 4516
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 20,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 34,
+            "matched_observations": 45,
+            "reference_observations": 47
+          },
+          "fragments": 45,
+          "observations": 5212
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 15,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 0,
+            "matched_observations": 68,
+            "reference_observations": 68
+          },
+          "fragments": 91,
+          "observations": 74690
+        }
+      ]
+    },
+    {
+      "key": "sam2-raw",
+      "family": "baseline",
+      "setting": {},
+      "counts": {
+        "correct": 81,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 148,
+        "matched_observations": 222,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 47,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 18,
+            "matched_observations": 56,
+            "reference_observations": 57
+          },
+          "fragments": 23,
+          "observations": 3877
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 16,
+            "matched_observations": 20,
+            "reference_observations": 22
+          },
+          "fragments": 36,
+          "observations": 1561
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 15,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 46,
+          "observations": 2604
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 62,
+            "matched_observations": 43,
+            "reference_observations": 47
+          },
+          "fragments": 55,
+          "observations": 3197
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 298,
+          "observations": 31467
+        }
+      ]
+    },
+    {
+      "key": "sam2-qwen-joint",
+      "family": "baseline",
+      "setting": {},
+      "counts": {
+        "correct": 111,
+        "wrong": 0,
+        "unknown_same": 4,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 148,
+        "matched_observations": 222,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 47,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 18,
+            "matched_observations": 56,
+            "reference_observations": 57
+          },
+          "fragments": 21,
+          "observations": 3877
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 16,
+            "matched_observations": 20,
+            "reference_observations": 22
+          },
+          "fragments": 20,
+          "observations": 1561
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 34,
+          "observations": 2604
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 25,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 62,
+            "matched_observations": 43,
+            "reference_observations": 47
+          },
+          "fragments": 37,
+          "observations": 3197
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 21,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 147,
+          "observations": 31467
+        }
+      ]
+    },
+    {
+      "key": "anchor-0.3",
+      "family": "anchor",
+      "setting": {
+        "iou": 0.3
+      },
+      "counts": {
+        "correct": 100,
+        "wrong": 4,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 145,
+        "matched_observations": 221,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 47,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 18,
+            "matched_observations": 56,
+            "reference_observations": 57
+          },
+          "fragments": 13,
+          "observations": 3871
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 24,
+            "matched_observations": 19,
+            "reference_observations": 22
+          },
+          "fragments": 23,
+          "observations": 1401
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 19,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 33,
+          "observations": 2732
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 20,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 47,
+            "matched_observations": 44,
+            "reference_observations": 47
+          },
+          "fragments": 38,
+          "observations": 3272
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 13,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 47,
+            "matched_observations": 64,
+            "reference_observations": 68
+          },
+          "fragments": 88,
+          "observations": 31580
+        }
+      ]
+    },
+    {
+      "key": "appearance-0.3-0.0-0.75",
+      "family": "appearance",
+      "setting": {
+        "iou": 0.3,
+        "split": 0.0,
+        "cosine": 0.75
+      },
+      "counts": {
+        "correct": 107,
+        "wrong": 1,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 145,
+        "matched_observations": 221,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 47,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 18,
+            "matched_observations": 56,
+            "reference_observations": 57
+          },
+          "fragments": 19,
+          "observations": 3871
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 24,
+            "matched_observations": 19,
+            "reference_observations": 22
+          },
+          "fragments": 32,
+          "observations": 1401
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 54,
+          "observations": 2732
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 25,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 47,
+            "matched_observations": 44,
+            "reference_observations": 47
+          },
+          "fragments": 56,
+          "observations": 3272
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 16,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 47,
+            "matched_observations": 64,
+            "reference_observations": 68
+          },
+          "fragments": 349,
+          "observations": 31580
+        }
+      ]
+    },
+    {
+      "key": "consensus-qwen-bonus-0.05",
+      "family": "consensus-qwen",
+      "setting": {
+        "mode": "bonus",
+        "bonus": 0.05
+      },
+      "counts": {
+        "correct": 111,
+        "wrong": 0,
+        "unknown_same": 3,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 148,
+        "matched_observations": 222,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 47,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 18,
+            "matched_observations": 56,
+            "reference_observations": 57
+          },
+          "fragments": 21,
+          "observations": 3877
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 16,
+            "matched_observations": 20,
+            "reference_observations": 22
+          },
+          "fragments": 21,
+          "observations": 1561
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 18,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 34,
+          "observations": 2604
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 25,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 62,
+            "matched_observations": 43,
+            "reference_observations": 47
+          },
+          "fragments": 36,
+          "observations": 3197
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 21,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 145,
+          "observations": 31467
+        }
+      ]
+    },
+    {
+      "key": "consensus-bonus-0.1",
+      "family": "consensus",
+      "setting": {
+        "mode": "bonus",
+        "bonus": 0.1
+      },
+      "counts": {
+        "correct": 109,
+        "wrong": 3,
+        "unknown_same": 2,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 148,
+        "matched_observations": 222,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 47,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 18,
+            "matched_observations": 56,
+            "reference_observations": 57
+          },
+          "fragments": 21,
+          "observations": 3877
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 16,
+            "matched_observations": 20,
+            "reference_observations": 22
+          },
+          "fragments": 20,
+          "observations": 1561
+        },
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 18,
+            "wrong": 1,
+            "unknown_same": 1,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 36,
+          "observations": 2604
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 25,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 62,
+            "matched_observations": 43,
+            "reference_observations": 47
+          },
+          "fragments": 37,
+          "observations": 3197
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 19,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 43,
+            "matched_observations": 65,
+            "reference_observations": 68
+          },
+          "fragments": 143,
+          "observations": 31467
+        }
+      ]
+    }
+  ],
+  "seconds": 82.493460327
+}

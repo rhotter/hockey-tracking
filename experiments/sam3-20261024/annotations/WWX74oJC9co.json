@@ -1,0 +1,4401 @@
+{
+  "schema_version": 1,
+  "source_id": "WWX74oJC9co",
+  "sport": "ball_hockey",
+  "league": "NBHL",
+  "split": "train",
+  "reviewer": "assistant visual review",
+  "independent_human_ground_truth": false,
+  "exhaustive_for": "visible active floor players and goalies, excluding officials/bench/spectators",
+  "annotation_policy": "Exhaustive visible active floor players including goalies, excluding officials, bench and spectators. Visible body boxes, no sticks or invented occluded limbs. Unknown ball visibility is not a negative label.",
+  "frames": [
+    {
+      "id": "WWX74oJC9co-00060000",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00060000.jpg",
+      "source_time_s": 60.0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a986e68c6ce331ea0367cd84bb11c30be18bce9c316b35b2a09a0064b33cb5da",
+      "players": [
+        {
+          "bbox": [
+            61.2,
+            460.9,
+            223.8,
+            845.8
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            820.2,
+            453.3,
+            881.4,
+            620.5
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1195.8,
+            464.1,
+            1249.7,
+            593.3
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1409.1,
+            462.1,
+            1464.4,
+            585.4
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1518.5,
+            446.7,
+            1567.2,
+            602.4
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1522.8,
+            428.5,
+            1657.3,
+            698.1
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1624.6,
+            458.8,
+            1682.0,
+            593.7
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            875.0,
+            455.0,
+            918.0,
+            618.0
+          ],
+          "role": "player",
+          "proposal_index": null,
+          "note": "Green player behind orange 3, missed as a distinct player."
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 0
+    },
+    {
+      "id": "WWX74oJC9co-00106530",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00106530.jpg",
+      "source_time_s": 106.53,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1a3eb350d27019525e099acac9bc193ea7e4625d446813ce8445a56dbcf34a29",
+      "players": [
+        {
+          "bbox": [
+            334.3,
+            603.8,
+            423.2,
+            738.9
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            384.4,
+            596.5,
+            537.5,
+            858.5
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            528.0,
+            603.1,
+            599.0,
+            728.4
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            588.2,
+            584.1,
+            662.8,
+            774.0
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1120.4,
+            559.8,
+            1164.3,
+            686.5
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1208.0,
+            575.7,
+            1256.9,
+            690.9
+          ],
+          "role": "goalie",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1253.3,
+            565.0,
+            1299.8,
+            696.9
+          ],
+          "role": "player",
+          "proposal_index": 12
+        },
+        {
+          "bbox": [
+            1396.7,
+            502.8,
+            1496.7,
+            801.5
+          ],
+          "role": "player",
+          "proposal_index": 13
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Near-side orange bench players excluded.",
+      "review_index": 0
+    },
+    {
+      "id": "WWX74oJC9co-00153060",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00153060.jpg",
+      "source_time_s": 153.06,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6da0bfe1c19c00b58f2521e42819fd84e14e6ec5b4917f71fa3839e7519f3a54",
+      "players": [
+        {
+          "bbox": [
+            919.9,
+            561.9,
+            959.6,
+            704.0
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            1001.0,
+            611.0,
+            1084.0,
+            708.0
+          ],
+          "role": "goalie",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1037.0,
+            554.0,
+            1100.0,
+            718.0
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1117.0,
+            536.0,
+            1196.0,
+            638.0
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1138.9,
+            559.0,
+            1193.0,
+            702.6
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1175.1,
+            559.4,
+            1198.2,
+            693.8
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1186.1,
+            555.8,
+            1230.6,
+            694.2
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1256.7,
+            560.8,
+            1300.2,
+            709.9
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1291.4,
+            544.2,
+            1437.2,
+            864.0
+          ],
+          "role": "player",
+          "proposal_index": 12
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Orange 7 stands behind bent orange 8; green 9 has red helmet and stands behind green 10. Partially hidden green goalie 3 has visible body and pads behind orange 5.",
+      "review_index": 1
+    },
+    {
+      "id": "WWX74oJC9co-00199590",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00199590.jpg",
+      "source_time_s": 199.59,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1002c552916376bd7944202428d011d59db9d4f3e0c6e750ce14b4a0c3f1f283",
+      "players": [
+        {
+          "bbox": [
+            78.4,
+            445.1,
+            169.5,
+            689.6
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            649.4,
+            419.5,
+            820.7,
+            852.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            874.8,
+            468.1,
+            1002.1,
+            719.8
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            950.3,
+            450.5,
+            1191.9,
+            883.3
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1462.7,
+            494.3,
+            1563.9,
+            691.2
+          ],
+          "role": "player",
+          "proposal_index": 6
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 1
+    },
+    {
+      "id": "WWX74oJC9co-00246130",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00246130.jpg",
+      "source_time_s": 246.13,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "05857515b422090ac8371b69c9e95c74d2c2d0e86864162fc1bc5648e6cc0171",
+      "players": [
+        {
+          "bbox": [
+            900.0,
+            466.8,
+            983.8,
+            688.7
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            960.5,
+            479.1,
+            1003.4,
+            621.3
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            1216.0,
+            478.3,
+            1262.4,
+            610.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1728.9,
+            424.6,
+            1919.6,
+            1072.8
+          ],
+          "role": "player",
+          "proposal_index": 4
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 2
+    },
+    {
+      "id": "WWX74oJC9co-00432260",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00432260.jpg",
+      "source_time_s": 432.26,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "76744963a4b458a6f936d37fdd9266b1a9e4aa983b643a28f150c5987e18c760",
+      "players": [
+        {
+          "bbox": [
+            0.0,
+            300.0,
+            342.0,
+            1080.0
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            625.4,
+            511.1,
+            682.6,
+            622.2
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            777.0,
+            505.6,
+            840.2,
+            660.4
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            987.9,
+            488.2,
+            1062.3,
+            611.0
+          ],
+          "role": "goalie",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            1099.7,
+            438.4,
+            1338.8,
+            952.4
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1396.7,
+            451.2,
+            1441.1,
+            593.8
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1484.3,
+            445.7,
+            1640.3,
+            755.6
+          ],
+          "role": "player",
+          "proposal_index": 7
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 4
+    },
+    {
+      "id": "WWX74oJC9co-00478790",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00478790.jpg",
+      "source_time_s": 478.79,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "69b9c2ad03a2dfbee7b33d3502f357f4b1903365e7635c18379f394513879912",
+      "players": [
+        {
+          "bbox": [
+            320.7,
+            329.4,
+            418.3,
+            544.6
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            379.0,
+            350.7,
+            458.3,
+            530.6
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            574.7,
+            322.3,
+            687.7,
+            573.6
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            789.0,
+            386.7,
+            967.1,
+            560.9
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            898.9,
+            403.5,
+            1030.8,
+            562.0
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            984.5,
+            332.7,
+            1105.4,
+            614.0
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1172.1,
+            365.8,
+            1264.2,
+            652.2
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1627.7,
+            380.1,
+            1696.9,
+            538.3
+          ],
+          "role": "player",
+          "proposal_index": 12
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Duplicate partial proposals 3 and 6 rejected in favor of full players 1 and 5.",
+      "review_index": 4
+    },
+    {
+      "id": "WWX74oJC9co-00525320",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00525320.jpg",
+      "source_time_s": 525.32,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cf18b5e67f9573343b0116e9bdf2888c2a89c3498af84f208c9ba86876f65164",
+      "players": [
+        {
+          "bbox": [
+            0.5,
+            284.0,
+            285.1,
+            822.8
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            361.8,
+            342.5,
+            451.5,
+            559.3
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            435.5,
+            344.4,
+            597.0,
+            731.5
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            471.8,
+            363.1,
+            539.3,
+            569.1
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            632.0,
+            347.0,
+            1132.0,
+            1080.0
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            700.8,
+            385.6,
+            755.7,
+            533.9
+          ],
+          "role": "goalie",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            807.3,
+            400.7,
+            880.6,
+            559.8
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1522.4,
+            473.3,
+            1577.4,
+            657.4
+          ],
+          "role": "player",
+          "proposal_index": 11
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Green players 12-14 are behind the near boards and excluded; foreground orange 6 remains on the floor.",
+      "review_index": 5
+    },
+    {
+      "id": "WWX74oJC9co-00571860",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00571860.jpg",
+      "source_time_s": 571.86,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b198013024d1b863b1e09ace63f57d8026daeb7e6d10a8bb7dae0c89aa9e690b",
+      "players": [
+        {
+          "bbox": [
+            1.2,
+            346.0,
+            206.5,
+            944.3
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            347.0,
+            389.9,
+            423.8,
+            644.0
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            622.5,
+            440.5,
+            698.1,
+            579.8
+          ],
+          "role": "goalie",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1069.3,
+            469.0,
+            1207.0,
+            813.1
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            1468.0,
+            478.9,
+            1548.4,
+            664.3
+          ],
+          "role": "player",
+          "proposal_index": 6
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Near-board person 7 is a second striped official; green bench players excluded.",
+      "review_index": 5
+    },
+    {
+      "id": "WWX74oJC9co-00618390",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00618390.jpg",
+      "source_time_s": 618.39,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c44b901103f8edde239d81be9caa8b1e8954b7666cdcf9e1e0157709a0253563",
+      "players": [
+        {
+          "bbox": [
+            578.1,
+            216.3,
+            740.6,
+            697.2
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            698.9,
+            253.5,
+            816.6,
+            546.3
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            869.2,
+            278.1,
+            931.1,
+            484.2
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1080.1,
+            253.2,
+            1149.9,
+            549.3
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1306.5,
+            248.3,
+            1594.0,
+            804.8
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 6
+    },
+    {
+      "id": "WWX74oJC9co-00664920",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00664920.jpg",
+      "source_time_s": 664.92,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "67b90a359f1fb9094db42e858ba8997cde48c8e974170f7b4dbc72fa921222d8",
+      "players": [
+        {
+          "bbox": [
+            61.3,
+            284.3,
+            470.3,
+            1073.0
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            653.9,
+            326.1,
+            712.7,
+            479.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            767.3,
+            368.3,
+            892.6,
+            519.8
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            847.9,
+            346.7,
+            921.1,
+            492.7
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1130.7,
+            339.2,
+            1210.3,
+            508.5
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1188.5,
+            347.9,
+            1243.2,
+            485.8
+          ],
+          "role": "goalie",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1232.3,
+            338.1,
+            1293.2,
+            508.3
+          ],
+          "role": "player",
+          "proposal_index": 8
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 6
+    },
+    {
+      "id": "WWX74oJC9co-00711450",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00711450.jpg",
+      "source_time_s": 711.45,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f2753cb49708c536fe431e972430b2a6d836f47a08a591496ae393b99b859d01",
+      "players": [
+        {
+          "bbox": [
+            560.4,
+            437.6,
+            641.9,
+            620.8
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            750.9,
+            441.8,
+            821.8,
+            593.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            960.8,
+            440.6,
+            1053.2,
+            654.9
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1504.8,
+            470.8,
+            1831.8,
+            951.5
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1603.9,
+            441.8,
+            1667.6,
+            533.1
+          ],
+          "role": "goalie",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 7
+    },
+    {
+      "id": "WWX74oJC9co-00757990",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00757990.jpg",
+      "source_time_s": 757.99,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c6bb2bf7083792f59d780ff635e4941bb90c7755d51c54abd03d1702e062127d",
+      "players": [
+        {
+          "bbox": [
+            0.1,
+            389.5,
+            80.7,
+            716.0
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            112.3,
+            412.5,
+            189.2,
+            618.7
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            340.8,
+            419.9,
+            423.7,
+            614.0
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            432.4,
+            425.8,
+            491.6,
+            597.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1112.0,
+            463.2,
+            1171.0,
+            590.3
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1161.9,
+            496.8,
+            1210.2,
+            588.2
+          ],
+          "role": "goalie",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1487.4,
+            464.8,
+            1539.3,
+            596.3
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 7
+    },
+    {
+      "id": "WWX74oJC9co-00851050",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-00851050.jpg",
+      "source_time_s": 851.05,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0470f5c017d0e6898283cb29187dc718fa0bfe1d4ad9f44802afa789a94220e9",
+      "players": [
+        {
+          "bbox": [
+            135.7,
+            476.0,
+            251.3,
+            724.0
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            413.7,
+            465.5,
+            494.9,
+            638.7
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            812.9,
+            426.7,
+            968.8,
+            772.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            936.5,
+            449.9,
+            1006.5,
+            587.4
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1157.7,
+            426.8,
+            1260.6,
+            663.5
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1210.9,
+            369.3,
+            1408.9,
+            873.6
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1690.2,
+            409.9,
+            1777.2,
+            570.2
+          ],
+          "role": "player",
+          "proposal_index": 14
+        },
+        {
+          "bbox": [
+            1789.9,
+            356.7,
+            1919.5,
+            657.8
+          ],
+          "role": "player",
+          "proposal_index": 15
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Far-side glass spectators excluded; 3/4 are one orange player.",
+      "review_index": 8
+    },
+    {
+      "id": "WWX74oJC9co-00897580",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00897580.jpg",
+      "source_time_s": 897.58,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4ca2177e798c11d9792302f01060a4637cf4ff676a135694071e5c12a135e6d9",
+      "players": [
+        {
+          "bbox": [
+            826.7,
+            364.5,
+            944.2,
+            557.5
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            1224.8,
+            380.1,
+            1285.6,
+            535.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1786.1,
+            380.9,
+            1875.4,
+            523.1
+          ],
+          "role": "player",
+          "proposal_index": 4
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 9
+    },
+    {
+      "id": "WWX74oJC9co-00990650",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-00990650.jpg",
+      "source_time_s": 990.65,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6177788c94f93db43c01c8d7e8cd197d3437dc92454b1ada7755d36e2ac643c7",
+      "players": [
+        {
+          "bbox": [
+            1149.3,
+            417.9,
+            1207.7,
+            557.3
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1181.7,
+            491.7,
+            1286.2,
+            612.6
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1210.6,
+            420.8,
+            1280.6,
+            525.2
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1276.1,
+            411.0,
+            1314.7,
+            551.6
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1277.1,
+            418.4,
+            1362.6,
+            635.6
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 10
+    },
+    {
+      "id": "WWX74oJC9co-01037180",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01037180.jpg",
+      "source_time_s": 1037.18,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4cac9ce2b80effe2c1ab8b5f549e93e819ecf9efed6546446aa62d9143ab220f",
+      "players": [
+        {
+          "bbox": [
+            690.6,
+            392.6,
+            925.8,
+            818.1
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            772.2,
+            363.0,
+            835.1,
+            455.9
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            970.0,
+            371.9,
+            1051.1,
+            581.4
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1042.0,
+            342.1,
+            1119.2,
+            654.4
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1094.5,
+            377.3,
+            1249.5,
+            820.2
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1418.5,
+            408.6,
+            1513.6,
+            596.8
+          ],
+          "role": "player",
+          "proposal_index": 10
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Head/shoulders of a second green player remain visible directly behind player 4.",
+      "review_index": 10
+    },
+    {
+      "id": "WWX74oJC9co-01130240",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01130240.jpg",
+      "source_time_s": 1130.24,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "65a28c429e070b0a8d3e6f2e1aa1d5cab76c0892cc183ba67d2094d5f80c4b21",
+      "players": [
+        {
+          "bbox": [
+            241.8,
+            481.5,
+            356.6,
+            748.6
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            584.2,
+            478.7,
+            680.0,
+            770.9
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            755.2,
+            483.4,
+            833.5,
+            755.2
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            883.3,
+            510.5,
+            968.3,
+            699.0
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            907.8,
+            502.6,
+            1097.2,
+            974.1
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1218.1,
+            520.7,
+            1412.0,
+            987.1
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1314.3,
+            489.6,
+            1444.9,
+            836.2
+          ],
+          "role": "player",
+          "proposal_index": 7
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "No separate person box inferred from isolated equipment behind the orange players.",
+      "review_index": 11
+    },
+    {
+      "id": "WWX74oJC9co-01176770",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01176770.jpg",
+      "source_time_s": 1176.77,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2814349b19bf91eaf6b9970d791cae5b1ebf27daa31f1d7228d982421500a27b",
+      "players": [
+        {
+          "bbox": [
+            248.8,
+            420.0,
+            319.2,
+            597.6
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            342.5,
+            395.9,
+            480.5,
+            640.9
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            420.8,
+            414.6,
+            649.4,
+            742.8
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            482.8,
+            403.7,
+            540.9,
+            478.1
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            880.8,
+            413.0,
+            974.6,
+            543.0
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1209.0,
+            394.5,
+            1288.1,
+            556.0
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1391.3,
+            374.5,
+            1478.4,
+            599.4
+          ],
+          "role": "player",
+          "proposal_index": 10
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 12
+    },
+    {
+      "id": "WWX74oJC9co-01223300",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01223300.jpg",
+      "source_time_s": 1223.3,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3330fc5d14bb7b358a0641200577aeb3d3c14105938789cca450bc6144182f41",
+      "players": [
+        {
+          "bbox": [
+            608.0,
+            377.8,
+            724.6,
+            604.8
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            693.7,
+            394.7,
+            747.1,
+            513.4
+          ],
+          "role": "goalie",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            886.2,
+            359.7,
+            958.1,
+            538.8
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            1020.8,
+            377.3,
+            1077.8,
+            485.4
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1072.4,
+            360.7,
+            1154.2,
+            528.9
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1475.6,
+            361.2,
+            1537.0,
+            495.7
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1766.3,
+            320.9,
+            1891.8,
+            559.9
+          ],
+          "role": "player",
+          "proposal_index": 11
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Foreground bench glove and stick are not player boxes.",
+      "review_index": 12
+    },
+    {
+      "id": "WWX74oJC9co-01269840",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01269840.jpg",
+      "source_time_s": 1269.84,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c680146fed6d69754c932436293e859d267915059f089562634a0f822029b041",
+      "players": [
+        {
+          "bbox": [
+            376.5,
+            466.0,
+            469.0,
+            609.9
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            572.4,
+            433.5,
+            634.4,
+            565.4
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            793.0,
+            379.1,
+            938.3,
+            714.2
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            887.0,
+            401.0,
+            982.0,
+            578.0
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            913.1,
+            429.3,
+            1018.9,
+            585.6
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1163.0,
+            402.2,
+            1251.4,
+            522.0
+          ],
+          "role": "goalie",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1306.5,
+            421.9,
+            1364.0,
+            540.0
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1345.7,
+            374.6,
+            1424.5,
+            611.8
+          ],
+          "role": "player",
+          "proposal_index": 12
+        },
+        {
+          "bbox": [
+            1382.0,
+            372.0,
+            1434.0,
+            570.0
+          ],
+          "role": "player",
+          "proposal_index": 13
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "0/1/2 are near-bench players behind blue board. Green 7 is behind orange 6 and bent orange 9; black-helmet orange 13 is separate from white-helmet orange 12.",
+      "review_index": 13
+    },
+    {
+      "id": "WWX74oJC9co-01362900",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01362900.jpg",
+      "source_time_s": 1362.9,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "22e191b5671111f0b39af564b7a58b3c4fddf11b78f49de034cebdc4e583bf35",
+      "players": [
+        {
+          "bbox": [
+            0.1,
+            452.8,
+            56.5,
+            593.1
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            41.6,
+            431.3,
+            117.4,
+            600.7
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            104.7,
+            446.7,
+            154.4,
+            599.7
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            584.1,
+            464.5,
+            706.5,
+            801.7
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            871.2,
+            461.1,
+            927.7,
+            599.6
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1219.5,
+            434.4,
+            1282.7,
+            641.8
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1240.8,
+            373.9,
+            1476.9,
+            1054.0
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1725.0,
+            420.1,
+            1826.6,
+            706.1
+          ],
+          "role": "player",
+          "proposal_index": 10
+        }
+      ],
+      "ball": {
+        "state": "visible",
+        "center": [
+          803,
+          605
+        ],
+        "radius_px": 4,
+        "reviewer": "assistant visual review"
+      },
+      "note": "",
+      "review_index": 14
+    },
+    {
+      "id": "WWX74oJC9co-01409430",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01409430.jpg",
+      "source_time_s": 1409.43,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2f06b1c8fe988f8487d30598f6ebbb9088c73062337949515701c84204ac14b1",
+      "players": [
+        {
+          "bbox": [
+            236.3,
+            504.0,
+            372.9,
+            829.4
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            590.6,
+            589.1,
+            825.1,
+            1074.4
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            986.1,
+            503.1,
+            1096.3,
+            760.9
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1118.4,
+            547.9,
+            1188.8,
+            684.6
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1344.2,
+            539.6,
+            1511.0,
+            1076.7
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 14
+    },
+    {
+      "id": "WWX74oJC9co-01455970",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01455970.jpg",
+      "source_time_s": 1455.97,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3801c57d5a8605d51d6a89a900440efe8275c2522effd32671feb9800fbf8c08",
+      "players": [
+        {
+          "bbox": [
+            388.8,
+            416.3,
+            445.4,
+            538.3
+          ],
+          "role": "goalie",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            467.8,
+            405.0,
+            526.4,
+            552.4
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            544.6,
+            426.1,
+            595.3,
+            532.6
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            679.2,
+            417.0,
+            738.6,
+            560.4
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            730.1,
+            411.9,
+            815.2,
+            553.8
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            897.1,
+            431.2,
+            981.9,
+            540.2
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            957.5,
+            426.7,
+            1066.4,
+            547.7
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1319.4,
+            423.0,
+            1373.6,
+            548.5
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1361.6,
+            412.6,
+            1444.2,
+            658.2
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1448.2,
+            425.1,
+            1531.3,
+            584.1
+          ],
+          "role": "player",
+          "proposal_index": 10
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 15
+    },
+    {
+      "id": "WWX74oJC9co-01502500",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01502500.jpg",
+      "source_time_s": 1502.5,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "95161baef79bb1394bc94a90f51f8c4acb350cdc5c94fba5cf803de56050127e",
+      "players": [
+        {
+          "bbox": [
+            0.1,
+            429.1,
+            51.6,
+            593.3
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            33.7,
+            430.2,
+            72.9,
+            566.4
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            55.6,
+            426.2,
+            128.8,
+            598.8
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            337.8,
+            429.7,
+            386.9,
+            561.6
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            956.9,
+            443.2,
+            1008.2,
+            553.2
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1019.7,
+            431.9,
+            1210.7,
+            733.1
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1312.8,
+            442.4,
+            1493.7,
+            720.4
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1802.2,
+            437.5,
+            1863.2,
+            632.6
+          ],
+          "role": "player",
+          "proposal_index": 14
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Green player 1 is distinct from 3; head-only duplicate 2 rejected.",
+      "review_index": 15
+    },
+    {
+      "id": "WWX74oJC9co-01549030",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01549030.jpg",
+      "source_time_s": 1549.03,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0e5d06d9d41178634582a8f8d1b0f11a6c859ef51c1af7dacc8dcd1d50568d31",
+      "players": [
+        {
+          "bbox": [
+            127.4,
+            418.0,
+            194.8,
+            573.1
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            236.6,
+            417.6,
+            285.7,
+            560.3
+          ],
+          "role": "goalie",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            273.4,
+            406.0,
+            352.8,
+            572.4
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            350.8,
+            410.0,
+            404.7,
+            564.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            472.1,
+            413.5,
+            533.1,
+            558.9
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            919.4,
+            395.4,
+            971.0,
+            529.8
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1033.3,
+            408.2,
+            1076.9,
+            514.2
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1150.6,
+            380.9,
+            1351.8,
+            823.0
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1231.8,
+            386.1,
+            1263.3,
+            446.9
+          ],
+          "role": "player",
+          "proposal_index": 10
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 16
+    },
+    {
+      "id": "WWX74oJC9co-01595570",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01595570.jpg",
+      "source_time_s": 1595.57,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4a6e5dad33758652ba1daef7f29244f8294f3984ff7b3f3ee4c876955146e49d",
+      "players": [
+        {
+          "bbox": [
+            0.1,
+            531.7,
+            92.9,
+            670.9
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            551.7,
+            532.2,
+            675.1,
+            767.1
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            665.5,
+            478.8,
+            743.4,
+            659.4
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            709.2,
+            479.6,
+            753.9,
+            625.1
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            822.0,
+            528.0,
+            890.0,
+            622.0
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            825.0,
+            485.0,
+            879.0,
+            570.0
+          ],
+          "role": "player",
+          "proposal_index": 12
+        },
+        {
+          "bbox": [
+            993.4,
+            493.4,
+            1044.9,
+            640.7
+          ],
+          "role": "player",
+          "proposal_index": 14
+        },
+        {
+          "bbox": [
+            1018.9,
+            476.7,
+            1054.3,
+            597.5
+          ],
+          "role": "player",
+          "proposal_index": 15
+        },
+        {
+          "bbox": [
+            1082.6,
+            481.0,
+            1144.2,
+            632.4
+          ],
+          "role": "player",
+          "proposal_index": 16
+        },
+        {
+          "bbox": [
+            1177.3,
+            481.8,
+            1222.7,
+            623.3
+          ],
+          "role": "player",
+          "proposal_index": 17
+        },
+        {
+          "bbox": [
+            1260.8,
+            484.7,
+            1336.3,
+            620.2
+          ],
+          "role": "goalie",
+          "proposal_index": 18
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Separated the two overlapping orange players at center; duplicate goalie proposal 19 rejected.",
+      "review_index": 16
+    },
+    {
+      "id": "WWX74oJC9co-01642100",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01642100.jpg",
+      "source_time_s": 1642.1,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "860693024fa1a3a411d6d6adbb99224f99de4c53a8504e09145f173ca1a136b7",
+      "players": [
+        {
+          "bbox": [
+            12.0,
+            533.5,
+            106.6,
+            685.1
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            41.7,
+            432.5,
+            257.0,
+            1013.3
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            567.1,
+            491.2,
+            719.4,
+            916.4
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            879.1,
+            441.3,
+            1071.3,
+            923.8
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1170.8,
+            454.2,
+            1377.8,
+            833.1
+          ],
+          "role": "player",
+          "proposal_index": 6
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 17
+    },
+    {
+      "id": "WWX74oJC9co-01688630",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01688630.jpg",
+      "source_time_s": 1688.63,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6d33005c1616cf6119d1f09277f346952272285e8b01d13d9139e259f775f070",
+      "players": [
+        {
+          "bbox": [
+            70.7,
+            385.4,
+            174.2,
+            596.4
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            576.2,
+            419.3,
+            826.8,
+            802.9
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            757.5,
+            434.0,
+            887.5,
+            645.6
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            816.7,
+            386.1,
+            890.0,
+            589.6
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            918.0,
+            443.2,
+            1060.6,
+            815.7
+          ],
+          "role": "player",
+          "proposal_index": 12
+        },
+        {
+          "bbox": [
+            958.5,
+            429.9,
+            1098.3,
+            647.8
+          ],
+          "role": "player",
+          "proposal_index": 13
+        },
+        {
+          "bbox": [
+            1489.7,
+            362.7,
+            1594.2,
+            613.1
+          ],
+          "role": "player",
+          "proposal_index": 15
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Composite/duplicate orange proposals 9/10 rejected; two green players 12/13 retained.",
+      "review_index": 17
+    },
+    {
+      "id": "WWX74oJC9co-01828230",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01828230.jpg",
+      "source_time_s": 1828.23,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "070a9e91a40628cd2c697d44ee22208ca0c94ac46fb041b1fdbbe530cbd6ff66",
+      "players": [
+        {
+          "bbox": [
+            191.0,
+            395.0,
+            287.0,
+            575.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            195.8,
+            413.1,
+            303.2,
+            559.0
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            623.0,
+            397.5,
+            669.0,
+            511.8
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            714.2,
+            408.6,
+            808.6,
+            554.2
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            764.1,
+            407.4,
+            856.9,
+            553.1
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            973.3,
+            360.6,
+            1071.4,
+            602.6
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1126.7,
+            371.2,
+            1186.3,
+            529.3
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1210.8,
+            369.0,
+            1300.0,
+            538.0
+          ],
+          "role": "player",
+          "proposal_index": 12
+        },
+        {
+          "bbox": [
+            1349.5,
+            355.6,
+            1415.8,
+            522.5
+          ],
+          "role": "player",
+          "proposal_index": 13
+        },
+        {
+          "bbox": [
+            1548.4,
+            367.6,
+            1653.2,
+            579.7
+          ],
+          "role": "player",
+          "proposal_index": 14
+        },
+        {
+          "bbox": [
+            1039.0,
+            393.0,
+            1070.0,
+            515.0
+          ],
+          "role": "goalie",
+          "proposal_index": null,
+          "note": "Orange goalie is almost fully occluded behind green 68; visible right shoulder and pad edge."
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 19
+    },
+    {
+      "id": "WWX74oJC9co-01874760",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01874760.jpg",
+      "source_time_s": 1874.76,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1bc51770dcdafca1c3b14df209a6bf78636a33788f8eb65c689e14e1ebedbacb",
+      "players": [
+        {
+          "bbox": [
+            0.2,
+            538.8,
+            108.2,
+            900.7
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            1196.2,
+            631.1,
+            1260.1,
+            707.2
+          ],
+          "role": "goalie",
+          "proposal_index": 7
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Goalie visible above the foreground official, whose body hides the lower goalie.",
+      "review_index": 19
+    },
+    {
+      "id": "WWX74oJC9co-01921290",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-01921290.jpg",
+      "source_time_s": 1921.29,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7fa3532267a1c11f5fc383ea2f28eca73d43e4d5ce9f80e25405a3586e52ae48",
+      "players": [
+        {
+          "bbox": [
+            707.3,
+            479.7,
+            846.2,
+            876.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            787.6,
+            416.4,
+            852.1,
+            653.6
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            822.0,
+            459.2,
+            872.1,
+            654.6
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            925.5,
+            528.4,
+            1080.7,
+            891.0
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            931.0,
+            440.0,
+            1004.0,
+            725.0
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1008.1,
+            433.3,
+            1077.5,
+            636.0
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1758.1,
+            468.4,
+            1863.6,
+            672.9
+          ],
+          "role": "player",
+          "proposal_index": 11
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 20
+    },
+    {
+      "id": "WWX74oJC9co-01967820",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-01967820.jpg",
+      "source_time_s": 1967.82,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5bd44341e57bbfc22422045a5d4edc356fbc722b7a730d74c9cde7775ffb650b",
+      "players": [
+        {
+          "bbox": [
+            0.2,
+            572.4,
+            115.3,
+            1057.7
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            75.0,
+            570.9,
+            152.0,
+            699.6
+          ],
+          "role": "goalie",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            420.5,
+            525.6,
+            499.4,
+            734.2
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            656.8,
+            543.9,
+            726.2,
+            712.5
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            691.5,
+            539.0,
+            801.1,
+            835.1
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            842.4,
+            520.8,
+            933.0,
+            775.5
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1055.2,
+            501.5,
+            1158.8,
+            785.5
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1226.4,
+            513.7,
+            1288.0,
+            757.4
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1461.8,
+            540.4,
+            1506.6,
+            690.8
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 20
+    },
+    {
+      "id": "WWX74oJC9co-02014350",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02014350.jpg",
+      "source_time_s": 2014.35,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "598431140a8a182f947309a69d58dfaa0425ed2535023daf1ae62e80d5431d0d",
+      "players": [
+        {
+          "bbox": [
+            261.8,
+            486.8,
+            335.5,
+            625.1
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            635.8,
+            466.3,
+            703.4,
+            612.7
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            770.0,
+            465.6,
+            812.5,
+            594.2
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            829.9,
+            508.6,
+            893.4,
+            601.8
+          ],
+          "role": "goalie",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            848.3,
+            487.9,
+            1104.0,
+            822.3
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1010.2,
+            472.5,
+            1085.6,
+            574.3
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1080.3,
+            475.9,
+            1138.3,
+            600.1
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 21
+    },
+    {
+      "id": "WWX74oJC9co-02060890",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02060890.jpg",
+      "source_time_s": 2060.89,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "09d302476a5268d961e7a5adc9eef291661bd402389b3fd72434c773bb49972b",
+      "players": [
+        {
+          "bbox": [
+            162.8,
+            509.9,
+            251.5,
+            675.9
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            410.3,
+            528.2,
+            502.3,
+            663.1
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            800.1,
+            529.1,
+            893.2,
+            644.7
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1051.6,
+            423.2,
+            1233.8,
+            977.6
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1434.4,
+            482.2,
+            1486.8,
+            650.8
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1604.0,
+            472.7,
+            1690.5,
+            721.5
+          ],
+          "role": "player",
+          "proposal_index": 12
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Close orange shoulder at left edge belongs to the near-camera bench; duplicate far orange proposal 6 rejected.",
+      "review_index": 21
+    },
+    {
+      "id": "WWX74oJC9co-02107420",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02107420.jpg",
+      "source_time_s": 2107.42,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "929df261d3494814c2a3824e3d146e93ae0e10eb84754aa7382ca335a23f026c",
+      "players": [
+        {
+          "bbox": [
+            442.8,
+            504.4,
+            533.2,
+            700.7
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            707.2,
+            516.8,
+            750.2,
+            616.2
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            821.1,
+            517.1,
+            904.1,
+            632.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            900.9,
+            512.9,
+            982.1,
+            626.2
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            986.8,
+            495.4,
+            1043.0,
+            609.8
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1114.5,
+            478.2,
+            1162.6,
+            639.7
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1158.4,
+            524.1,
+            1230.9,
+            636.4
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1251.9,
+            498.5,
+            1299.7,
+            613.1
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1416.5,
+            498.1,
+            1477.9,
+            620.5
+          ],
+          "role": "goalie",
+          "proposal_index": 11
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 22
+    },
+    {
+      "id": "WWX74oJC9co-02153950",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02153950.jpg",
+      "source_time_s": 2153.95,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6334e03c2d523a97efd5fdae2292e83a6b1147719bddde06ec917742f603021d",
+      "players": [
+        {
+          "bbox": [
+            384.6,
+            504.5,
+            440.4,
+            631.3
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            518.8,
+            483.5,
+            733.9,
+            982.9
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            1303.9,
+            463.3,
+            1381.2,
+            621.2
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1409.6,
+            477.4,
+            1466.9,
+            594.3
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            1439.3,
+            486.2,
+            1506.7,
+            605.3
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1791.2,
+            457.5,
+            1869.7,
+            659.6
+          ],
+          "role": "player",
+          "proposal_index": 7
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 22
+    },
+    {
+      "id": "WWX74oJC9co-02200480",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02200480.jpg",
+      "source_time_s": 2200.48,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "985a3e97efdc6106e51fcff19d2dce9b3644561b8df0189762f931b6bb9ba745",
+      "players": [
+        {
+          "bbox": [
+            309.7,
+            445.3,
+            454.5,
+            754.8
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            585.3,
+            506.3,
+            675.8,
+            656.8
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            602.7,
+            489.6,
+            745.9,
+            703.7
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1658.8,
+            480.4,
+            1753.8,
+            677.9
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            1853.2,
+            493.5,
+            1919.6,
+            738.3
+          ],
+          "role": "player",
+          "proposal_index": 5
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 23
+    },
+    {
+      "id": "WWX74oJC9co-02247020",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02247020.jpg",
+      "source_time_s": 2247.02,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ab84cb395b496bda35873e4d24c5f95288336ae805d8af36963877109582fef2",
+      "players": [
+        {
+          "bbox": [
+            655.6,
+            511.4,
+            702.3,
+            667.8
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            658.6,
+            505.3,
+            778.5,
+            788.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            1034.1,
+            513.8,
+            1095.2,
+            659.2
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1212.5,
+            521.7,
+            1280.5,
+            658.0
+          ],
+          "role": "goalie",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1249.7,
+            530.9,
+            1316.6,
+            685.9
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1318.4,
+            525.4,
+            1463.9,
+            896.0
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1345.0,
+            493.8,
+            1392.5,
+            684.2
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1749.9,
+            517.3,
+            1812.1,
+            719.1
+          ],
+          "role": "player",
+          "proposal_index": 13
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Near-camera orange bench players excluded; partial orange players 2 and 11 are distinct floor players.",
+      "review_index": 23
+    },
+    {
+      "id": "WWX74oJC9co-02293550",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02293550.jpg",
+      "source_time_s": 2293.55,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "765d5c11a399319a067a9d02e2940d3acfa6c128a0e4c9c9a87f3be81df3e4b1",
+      "players": [],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Reviewed negative frame: all three people on the floor are officials; others are beyond boards.",
+      "review_index": 24
+    },
+    {
+      "id": "WWX74oJC9co-02340080",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02340080.jpg",
+      "source_time_s": 2340.08,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4a825920affbb523f4230efc605403c97fa7189ddef99bcf6c1df6f211ee1aef",
+      "players": [
+        {
+          "bbox": [
+            34.5,
+            522.6,
+            256.4,
+            1071.3
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            595.4,
+            505.9,
+            721.5,
+            1031.1
+          ],
+          "role": "player",
+          "proposal_index": 6
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Two visible green floor players; duplicate upper-body boxes and foreground bench helmet excluded.",
+      "review_index": 24
+    },
+    {
+      "id": "WWX74oJC9co-02386610",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02386610.jpg",
+      "source_time_s": 2386.61,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cef9e6b00b62b08d3e806967ce3d9ee48d417428bbbb5d1b214fdd19133c3cd3",
+      "players": [
+        {
+          "bbox": [
+            51.4,
+            508.3,
+            142.1,
+            824.9
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            295.2,
+            618.2,
+            386.7,
+            689.5
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            792.0,
+            529.6,
+            839.6,
+            646.9
+          ],
+          "role": "player",
+          "proposal_index": 2
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 25
+    },
+    {
+      "id": "WWX74oJC9co-02479680",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02479680.jpg",
+      "source_time_s": 2479.68,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "819675781f5f80b2f614ca313350036398353fb4b9ebf5ee14e51966cff7ac86",
+      "players": [
+        {
+          "bbox": [
+            715.6,
+            473.9,
+            785.9,
+            598.2
+          ],
+          "role": "goalie",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            1126.5,
+            466.5,
+            1167.1,
+            575.7
+          ],
+          "role": "player",
+          "proposal_index": 3
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 26
+    },
+    {
+      "id": "WWX74oJC9co-02526210",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02526210.jpg",
+      "source_time_s": 2526.21,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "538a9026c8d1990682db817338ae1f8db85260fdb14c35d54342c5d5bedfe4ed",
+      "players": [
+        {
+          "bbox": [
+            594.2,
+            471.7,
+            679.8,
+            605.3
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            686.5,
+            456.5,
+            756.8,
+            631.5
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            727.8,
+            448.9,
+            812.1,
+            652.6
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            968.6,
+            502.3,
+            1039.1,
+            603.1
+          ],
+          "role": "goalie",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1041.4,
+            446.7,
+            1149.5,
+            707.6
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1126.8,
+            444.2,
+            1193.5,
+            623.4
+          ],
+          "role": "player",
+          "proposal_index": 10
+        },
+        {
+          "bbox": [
+            1184.3,
+            448.1,
+            1240.1,
+            616.1
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1261.4,
+            468.0,
+            1320.0,
+            612.5
+          ],
+          "role": "player",
+          "proposal_index": 12
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 26
+    },
+    {
+      "id": "WWX74oJC9co-02572740",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02572740.jpg",
+      "source_time_s": 2572.74,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "17673a3bde1a979b55e6c5c77a7bde288283aaa782b2bccbe7dbf1a47c4a6600",
+      "players": [
+        {
+          "bbox": [
+            264.6,
+            530.2,
+            330.0,
+            696.4
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            600.3,
+            522.1,
+            654.8,
+            650.9
+          ],
+          "role": "goalie",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            796.9,
+            503.3,
+            917.8,
+            700.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            893.9,
+            521.0,
+            956.9,
+            666.1
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            942.9,
+            529.4,
+            987.3,
+            653.9
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1478.6,
+            496.2,
+            1560.7,
+            703.2
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1716.9,
+            489.7,
+            1919.6,
+            1076.1
+          ],
+          "role": "player",
+          "proposal_index": 8
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 27
+    },
+    {
+      "id": "WWX74oJC9co-02619270",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02619270.jpg",
+      "source_time_s": 2619.27,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cdb5182ede6fee0f1ef44d09f25c33823a42251d1ad81e218a8942f017a281d1",
+      "players": [
+        {
+          "bbox": [
+            110.7,
+            461.1,
+            175.9,
+            606.8
+          ],
+          "role": "goalie",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            550.0,
+            459.2,
+            732.5,
+            812.4
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            725.6,
+            473.8,
+            808.8,
+            659.6
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            795.0,
+            424.1,
+            923.0,
+            755.1
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            886.9,
+            483.6,
+            1110.4,
+            899.0
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            1108.9,
+            476.8,
+            1155.2,
+            613.5
+          ],
+          "role": "player",
+          "proposal_index": 5
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 27
+    },
+    {
+      "id": "WWX74oJC9co-02665810",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02665810.jpg",
+      "source_time_s": 2665.81,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "33cf69daa87eeae055ece2fb32993ed9af392a3aa6e4f1d1ced53b3075c06e01",
+      "players": [
+        {
+          "bbox": [
+            334.1,
+            421.8,
+            411.7,
+            644.5
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            485.2,
+            448.9,
+            559.8,
+            602.3
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            798.1,
+            473.5,
+            893.5,
+            650.8
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            951.5,
+            500.4,
+            1000.1,
+            623.5
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            988.2,
+            486.9,
+            1048.9,
+            656.3
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1116.7,
+            489.4,
+            1178.6,
+            630.2
+          ],
+          "role": "player",
+          "proposal_index": 13
+        },
+        {
+          "bbox": [
+            1179.9,
+            483.5,
+            1237.5,
+            606.0
+          ],
+          "role": "player",
+          "proposal_index": 15
+        },
+        {
+          "bbox": [
+            1537.7,
+            472.0,
+            1621.2,
+            629.8
+          ],
+          "role": "player",
+          "proposal_index": 16
+        },
+        {
+          "bbox": [
+            1064.0,
+            486.0,
+            1102.0,
+            603.0
+          ],
+          "role": "player",
+          "proposal_index": null,
+          "note": "Orange player partly behind central referee; visible jersey and left leg."
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 28
+    },
+    {
+      "id": "WWX74oJC9co-02712340",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02712340.jpg",
+      "source_time_s": 2712.34,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "224552d55380f66d493c7ae6e279f64a1026880b8382cbffc8b7217a8fb3a6fe",
+      "players": [
+        {
+          "bbox": [
+            0.2,
+            472.9,
+            125.1,
+            854.4
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            121.2,
+            517.8,
+            206.1,
+            688.9
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            266.9,
+            512.3,
+            353.4,
+            688.3
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            376.8,
+            503.2,
+            448.6,
+            659.5
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            554.0,
+            493.3,
+            624.8,
+            741.0
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            619.2,
+            554.3,
+            675.1,
+            649.4
+          ],
+          "role": "goalie",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            1016.6,
+            499.6,
+            1058.2,
+            689.4
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1035.9,
+            509.1,
+            1166.1,
+            829.4
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1163.7,
+            512.2,
+            1224.1,
+            651.9
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1449.4,
+            525.0,
+            1601.0,
+            708.4
+          ],
+          "role": "player",
+          "proposal_index": 10
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Player 10 is stepping across the bench boundary with a foot still on the floor; other seated/standing bench players excluded.",
+      "review_index": 28
+    },
+    {
+      "id": "WWX74oJC9co-02758870",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02758870.jpg",
+      "source_time_s": 2758.87,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5ab2e5432d5d9d3c0f3b3fea935346f61592d538230a83a80e2b46e62f8a3cc7",
+      "players": [
+        {
+          "bbox": [
+            1024.3,
+            481.0,
+            1136.4,
+            814.2
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1137.6,
+            464.2,
+            1261.1,
+            799.2
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            1182.2,
+            444.0,
+            1329.8,
+            843.3
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1556.0,
+            478.0,
+            1697.0,
+            835.0
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1537.0,
+            490.0,
+            1615.0,
+            814.0
+          ],
+          "role": "player",
+          "proposal_index": null,
+          "note": "White-helmet orange player behind black-helmet orange 9."
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "",
+      "review_index": 29
+    },
+    {
+      "id": "WWX74oJC9co-02805400",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02805400.jpg",
+      "source_time_s": 2805.4,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d6042fef9219514c6e480398630f13b064781cec6aefbd34199e42878ea8b573",
+      "players": [
+        {
+          "bbox": [
+            448.2,
+            591.4,
+            561.3,
+            872.1
+          ],
+          "role": "player",
+          "proposal_index": 0
+        },
+        {
+          "bbox": [
+            535.4,
+            605.6,
+            588.3,
+            777.1
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            552.9,
+            612.7,
+            642.1,
+            833.0
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            651.9,
+            604.8,
+            761.0,
+            826.9
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            883.4,
+            623.1,
+            1032.7,
+            920.1
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            990.5,
+            634.1,
+            1047.4,
+            917.6
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            1268.0,
+            633.0,
+            1382.0,
+            949.0
+          ],
+          "role": "player",
+          "proposal_index": 9
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Merged split head/body proposals 8/9/10 for the green player nearest the bench.",
+      "review_index": 29
+    },
+    {
+      "id": "WWX74oJC9co-02898470",
+      "image": "/data/ball-hockey/reliability-20261018/frames-midpoints/WWX74oJC9co/WWX74oJC9co-02898470.jpg",
+      "source_time_s": 2898.47,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3d6728e6540d326903b2a7935edbc969503187ecd8c782889e566714ad81f2db",
+      "players": [
+        {
+          "bbox": [
+            261.9,
+            447.3,
+            391.5,
+            830.7
+          ],
+          "role": "player",
+          "proposal_index": 1
+        },
+        {
+          "bbox": [
+            496.1,
+            411.8,
+            612.3,
+            693.2
+          ],
+          "role": "player",
+          "proposal_index": 2
+        },
+        {
+          "bbox": [
+            627.2,
+            430.5,
+            663.8,
+            566.4
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            641.4,
+            428.7,
+            700.8,
+            566.4
+          ],
+          "role": "goalie",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            710.2,
+            431.8,
+            746.8,
+            576.1
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            726.8,
+            423.0,
+            796.7,
+            607.9
+          ],
+          "role": "player",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            867.7,
+            414.4,
+            926.3,
+            571.6
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            920.6,
+            411.9,
+            977.8,
+            572.4
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            968.3,
+            418.9,
+            1022.4,
+            568.3
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1050.7,
+            406.2,
+            1110.3,
+            573.9
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1322.4,
+            497.6,
+            1415.2,
+            642.9
+          ],
+          "role": "player",
+          "proposal_index": 12
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Goalie 4 and adjacent orange player 3 are distinct. Foreground orange bench player excluded.",
+      "review_index": 30
+    },
+    {
+      "id": "WWX74oJC9co-02945000",
+      "image": "/data/ball-hockey/reliability-20261018/frames/WWX74oJC9co/WWX74oJC9co-02945000.jpg",
+      "source_time_s": 2945.0,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b8dac96939ea1657af5265d0c043416134a6533c128d193589c339355abea672",
+      "players": [
+        {
+          "bbox": [
+            337.8,
+            544.7,
+            434.7,
+            684.6
+          ],
+          "role": "player",
+          "proposal_index": 3
+        },
+        {
+          "bbox": [
+            506.8,
+            516.9,
+            575.0,
+            733.4
+          ],
+          "role": "player",
+          "proposal_index": 4
+        },
+        {
+          "bbox": [
+            602.7,
+            525.3,
+            664.6,
+            695.1
+          ],
+          "role": "player",
+          "proposal_index": 5
+        },
+        {
+          "bbox": [
+            826.0,
+            531.1,
+            886.2,
+            663.8
+          ],
+          "role": "goalie",
+          "proposal_index": 6
+        },
+        {
+          "bbox": [
+            869.3,
+            524.1,
+            929.8,
+            679.3
+          ],
+          "role": "player",
+          "proposal_index": 7
+        },
+        {
+          "bbox": [
+            971.0,
+            528.0,
+            1020.0,
+            667.0
+          ],
+          "role": "player",
+          "proposal_index": 8
+        },
+        {
+          "bbox": [
+            1015.0,
+            527.3,
+            1044.5,
+            674.5
+          ],
+          "role": "player",
+          "proposal_index": 9
+        },
+        {
+          "bbox": [
+            1020.4,
+            503.9,
+            1096.4,
+            757.6
+          ],
+          "role": "player",
+          "proposal_index": 11
+        },
+        {
+          "bbox": [
+            1348.9,
+            507.9,
+            1535.8,
+            835.9
+          ],
+          "role": "player",
+          "proposal_index": 13
+        },
+        {
+          "bbox": [
+            1370.6,
+            509.9,
+            1432.5,
+            616.2
+          ],
+          "role": "player",
+          "proposal_index": 14
+        },
+        {
+          "bbox": [
+            1557.4,
+            508.2,
+            1644.1,
+            714.3
+          ],
+          "role": "player",
+          "proposal_index": 15
+        },
+        {
+          "bbox": [
+            968.0,
+            567.0,
+            1022.0,
+            680.0
+          ],
+          "role": "player",
+          "proposal_index": null,
+          "note": "Bent orange white-helmet player in front of black-helmet orange 8."
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Near-camera orange sleeve 0 belongs to bench foreground and is excluded; green 9 is a separate occluded player behind green 11, and red-helmet green 14 stands behind green 13.",
+      "review_index": 31
+    }
+  ],
+  "excluded": [
+    {
+      "id": "WWX74oJC9co-00292660",
+      "source_time_s": 292.66,
+      "reason": "Several overlapping orange players and a head-only proposal cannot be individually delineated confidently from this still."
+    },
+    {
+      "id": "WWX74oJC9co-00339190",
+      "source_time_s": 339.19,
+      "reason": "Severe motion blur makes exhaustive separation and bounding boxes uncertain."
+    },
+    {
+      "id": "WWX74oJC9co-00385730",
+      "source_time_s": 385.73,
+      "reason": "Severe motion blur obscures the number and visible bounds of players across the center."
+    },
+    {
+      "id": "WWX74oJC9co-00804520",
+      "source_time_s": 804.52,
+      "reason": "Occluded central group: number and extent of hidden players cannot be confidently exhausted from this still."
+    },
+    {
+      "id": "WWX74oJC9co-00944120",
+      "source_time_s": 944.12,
+      "reason": "Goalie behind central green/orange cluster cannot be independently delineated confidently from this still."
+    },
+    {
+      "id": "WWX74oJC9co-01083710",
+      "source_time_s": 1083.71,
+      "reason": "Near-camera orange player may be at the bench boundary; side of boards not visible."
+    },
+    {
+      "id": "WWX74oJC9co-01316370",
+      "source_time_s": 1316.37,
+      "reason": "Crowded goalmouth with goalie almost fully hidden; individual visible body extents are ambiguous."
+    },
+    {
+      "id": "WWX74oJC9co-01735160",
+      "source_time_s": 1735.16,
+      "reason": "Only two legs visible behind a foreground stick; player versus official role cannot be established from still."
+    },
+    {
+      "id": "WWX74oJC9co-01781700",
+      "source_time_s": 1781.7,
+      "reason": "Large foreground bench occlusion and nearly hidden goalie make exhaustive visible-person boxes ambiguous."
+    },
+    {
+      "id": "WWX74oJC9co-02433140",
+      "source_time_s": 2433.14,
+      "reason": "Strong horizontal pan blur makes floor-player versus official assignment uncertain for the right figure."
+    },
+    {
+      "id": "WWX74oJC9co-02851940",
+      "source_time_s": 2851.94,
+      "reason": "Motion-blurred overlapping group at net cannot be confidently separated; near-left foreground body is ambiguous."
+    }
+  ],
+  "frame_set": "uniform-v1-plus-midpoints-v2",
+  "annotation_components": [
+    {
+      "path": "data/ball-hockey/annotations/canonical/WWX74oJC9co.json",
+      "sha256": "e02b230180da30926bc1c6b255aedf0d3ab90aabad15d139843b3fba7be1fef0"
+    },
+    {
+      "path": "data/ball-hockey/annotations/canonical-midpoints/WWX74oJC9co.json",
+      "sha256": "d42a212487f164b99e95b9aff84b0a10b04b547f6d8dd0e24824e475e832a12c"
+    }
+  ]
+}

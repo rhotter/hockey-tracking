@@ -1,0 +1,70 @@
+{
+  "id": "nbhl-detector-heldout-v1",
+  "frozen_at": "2026-10-18T05:26:18.692391+00:00",
+  "test_sources": [
+    "1f0Y5BIr5Ps",
+    "5Qw_g9E7EqE"
+  ],
+  "selection_source": "b8CM4rZexaY",
+  "selection_rule": "Highest validation recall among completed candidate thresholds with precision >= 0.95; California-only and CPU control are diagnostic and cannot replace this choice after test inspection.",
+  "protocol_sha256": "f0862745efde2b79fa44a5faf8925d7474621a92aacb9b237837ad46d21bda00",
+  "model_input": {
+    "imgsz": 1280,
+    "nms_iou": 0.65,
+    "max_det": 100,
+    "class": 0
+  },
+  "scoring": {
+    "primary_iou": 0.5,
+    "diagnostic_iou": 0.3,
+    "threshold_search_on_test": false
+  },
+  "models": [
+    {
+      "name": "selected_finetuned",
+      "weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-multi-s17-f10-e80-remap-v2-6f459b18/weights/best.pt",
+      "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+      "confidence_threshold": 0.65,
+      "validation_metrics": {
+        "confidence_threshold": 0.65,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 164,
+        "fp": 3,
+        "fn": 14,
+        "precision": 0.9820359281437125,
+        "recall": 0.9213483146067416,
+        "f1": 0.9507246376811594,
+        "false_positives_per_frame": 0.13043478260869565,
+        "goalies": 19,
+        "goalie_hits": 17,
+        "goalie_recall": 0.8947368421052632
+      }
+    },
+    {
+      "name": "generic_baseline",
+      "weights": "/data/models/yolo11m.pt",
+      "weights_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+      "confidence_threshold": 0.75,
+      "validation_metrics": {
+        "confidence_threshold": 0.75,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 138,
+        "fp": 33,
+        "fn": 40,
+        "precision": 0.8070175438596491,
+        "recall": 0.7752808988764045,
+        "f1": 0.7908309455587392,
+        "false_positives_per_frame": 1.434782608695652,
+        "goalies": 19,
+        "goalie_hits": 10,
+        "goalie_recall": 0.5263157894736842
+      }
+    }
+  ],
+  "test_label_policy": "Assistant draws visible floor-player and goalie boxes from raw images with no model proposals. Freeze and hash complete labels before running test inference. Exclude entire unannotatable frames with reasons. No tuning after test results.",
+  "status": "frozen_before_heldout_visual_review"
+}

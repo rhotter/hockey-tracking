@@ -1,0 +1,1742 @@
+{
+  "schema": 1,
+  "source": "JlBtScHdcg4",
+  "clip": "pittsburgh-runtime-2385-315-absolute-gpu-bounds",
+  "width": 1920,
+  "height": 1080,
+  "fps": 15,
+  "source_start_s": 2385,
+  "audit_start_s": 2520,
+  "audit_end_s": 2550,
+  "protocol_sha256": "7ca40a097842a60071a4cab10c44e2cbc1b2637e0abe3aa9cc520fb6b1657252",
+  "frozen_at": "2026-10-24T02:09:47.856798+00:00",
+  "selection_uses_this_audit": false,
+  "reviewer": "assistant visual review, no candidate tracking IDs displayed before freeze",
+  "identities": {
+    "A": "Initial left yellow player, red helmet; later clearly visible jersey36.",
+    "B": "Initial central navy player with white helmet and red shoes; later clearly visible jersey1.",
+    "C": "Initial right yellow player, white helmet, jersey20.",
+    "D": "Initial foreground navy player, black helmet, jersey10."
+  },
+  "observations": [
+    {
+      "identity": "A",
+      "second": 0,
+      "frame": 2025,
+      "source_time_s": 2520,
+      "frame_sha256": "ecf31917d5c99ce52cf6323e307ddd0e29c5274095979d99ebf224f8e7e701b5",
+      "state": "visible",
+      "bbox": [
+        3.1059350967407227,
+        413.9037780761719,
+        95.71795654296875,
+        620.1226806640625
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 0,
+      "frame": 2025,
+      "source_time_s": 2520,
+      "frame_sha256": "ecf31917d5c99ce52cf6323e307ddd0e29c5274095979d99ebf224f8e7e701b5",
+      "state": "visible",
+      "bbox": [
+        731.1756591796875,
+        458.8157958984375,
+        845.1148681640625,
+        619.3255004882812
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 0,
+      "frame": 2025,
+      "source_time_s": 2520,
+      "frame_sha256": "ecf31917d5c99ce52cf6323e307ddd0e29c5274095979d99ebf224f8e7e701b5",
+      "state": "visible",
+      "bbox": [
+        972.6161499023438,
+        468.4756164550781,
+        1057.52685546875,
+        648.8026123046875
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 0,
+      "frame": 2025,
+      "source_time_s": 2520,
+      "frame_sha256": "ecf31917d5c99ce52cf6323e307ddd0e29c5274095979d99ebf224f8e7e701b5",
+      "state": "visible",
+      "bbox": [
+        890.304931640625,
+        638.693115234375,
+        1141.68603515625,
+        1080.0
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 1,
+      "frame": 2040,
+      "source_time_s": 2521,
+      "frame_sha256": "ccefb560874076910bb4a953b775b920e7c3448bc07e98532ce188069144609e",
+      "state": "visible",
+      "bbox": [
+        623.169189453125,
+        470.25274658203125,
+        715.0269775390625,
+        649.4482421875
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 1,
+      "frame": 2040,
+      "source_time_s": 2521,
+      "frame_sha256": "ccefb560874076910bb4a953b775b920e7c3448bc07e98532ce188069144609e",
+      "state": "visible",
+      "bbox": [
+        1078.37109375,
+        500.389892578125,
+        1266.47607421875,
+        633.6322631835938
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 1,
+      "frame": 2040,
+      "source_time_s": 2521,
+      "frame_sha256": "ccefb560874076910bb4a953b775b920e7c3448bc07e98532ce188069144609e",
+      "state": "visible",
+      "bbox": [
+        1023.78369140625,
+        473.58416748046875,
+        1102.31982421875,
+        630.3495483398438
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 1,
+      "frame": 2040,
+      "source_time_s": 2521,
+      "frame_sha256": "ccefb560874076910bb4a953b775b920e7c3448bc07e98532ce188069144609e",
+      "state": "visible",
+      "bbox": [
+        1794.30908203125,
+        683.2740478515625,
+        1920.0,
+        1078.1201171875
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 2,
+      "frame": 2055,
+      "source_time_s": 2522,
+      "frame_sha256": "b7ebc141c9efa22327b2bea0d1cedeee39126cebbe1cc6279eb8b4608be6f5bd",
+      "state": "visible",
+      "bbox": [
+        1078.431640625,
+        437.4493408203125,
+        1158.72509765625,
+        615.6393432617188
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 2,
+      "frame": 2055,
+      "source_time_s": 2522,
+      "frame_sha256": "b7ebc141c9efa22327b2bea0d1cedeee39126cebbe1cc6279eb8b4608be6f5bd",
+      "state": "visible",
+      "bbox": [
+        1427.2314453125,
+        452.028564453125,
+        1523.033447265625,
+        611.3302612304688
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 2,
+      "frame": 2055,
+      "source_time_s": 2522,
+      "frame_sha256": "b7ebc141c9efa22327b2bea0d1cedeee39126cebbe1cc6279eb8b4608be6f5bd",
+      "state": "visible",
+      "bbox": [
+        1135.5084228515625,
+        438.5847473144531,
+        1213.1678466796875,
+        610.87255859375
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 2,
+      "frame": 2055,
+      "source_time_s": 2522,
+      "frame_sha256": "b7ebc141c9efa22327b2bea0d1cedeee39126cebbe1cc6279eb8b4608be6f5bd",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "A",
+      "second": 3,
+      "frame": 2070,
+      "source_time_s": 2523,
+      "frame_sha256": "fac62242e85fdcb6e5234017e60894e58b1cb01f9f9140ae86fa50eccb5c386b",
+      "state": "visible",
+      "bbox": [
+        1425.0113525390625,
+        419.51458740234375,
+        1496.5418701171875,
+        621.0089721679688
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 3,
+      "frame": 2070,
+      "source_time_s": 2523,
+      "frame_sha256": "fac62242e85fdcb6e5234017e60894e58b1cb01f9f9140ae86fa50eccb5c386b",
+      "state": "visible",
+      "bbox": [
+        1722.340576171875,
+        431.24249267578125,
+        1805.735595703125,
+        627.561767578125
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 3,
+      "frame": 2070,
+      "source_time_s": 2523,
+      "frame_sha256": "fac62242e85fdcb6e5234017e60894e58b1cb01f9f9140ae86fa50eccb5c386b",
+      "state": "visible",
+      "bbox": [
+        1072.5889892578125,
+        418.3621826171875,
+        1157.9952392578125,
+        564.5948486328125
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 3,
+      "frame": 2070,
+      "source_time_s": 2523,
+      "frame_sha256": "fac62242e85fdcb6e5234017e60894e58b1cb01f9f9140ae86fa50eccb5c386b",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "A",
+      "second": 4,
+      "frame": 2085,
+      "source_time_s": 2524,
+      "frame_sha256": "ab11c3356fdb3611f28ddad9e1b429ec3116c777a7a1addbd689b54ff7dd6556",
+      "state": "visible",
+      "bbox": [
+        1811.908447265625,
+        451.4103698730469,
+        1888.6358642578125,
+        661.6524658203125
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 4,
+      "frame": 2085,
+      "source_time_s": 2524,
+      "frame_sha256": "ab11c3356fdb3611f28ddad9e1b429ec3116c777a7a1addbd689b54ff7dd6556",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 4,
+      "frame": 2085,
+      "source_time_s": 2524,
+      "frame_sha256": "ab11c3356fdb3611f28ddad9e1b429ec3116c777a7a1addbd689b54ff7dd6556",
+      "state": "visible",
+      "bbox": [
+        1028.24462890625,
+        397.127197265625,
+        1137.82373046875,
+        543.9581909179688
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 4,
+      "frame": 2085,
+      "source_time_s": 2524,
+      "frame_sha256": "ab11c3356fdb3611f28ddad9e1b429ec3116c777a7a1addbd689b54ff7dd6556",
+      "state": "visible",
+      "bbox": [
+        1592.34423828125,
+        598.8942260742188,
+        1815.326171875,
+        1043.75927734375
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 5,
+      "frame": 2100,
+      "source_time_s": 2525,
+      "frame_sha256": "97a4c87ee9319774153e293e1c308148148c73d638ade714bf59d4e702fc07f2",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 5,
+      "frame": 2100,
+      "source_time_s": 2525,
+      "frame_sha256": "97a4c87ee9319774153e293e1c308148148c73d638ade714bf59d4e702fc07f2",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 5,
+      "frame": 2100,
+      "source_time_s": 2525,
+      "frame_sha256": "97a4c87ee9319774153e293e1c308148148c73d638ade714bf59d4e702fc07f2",
+      "state": "uncertain"
+    },
+    {
+      "identity": "D",
+      "second": 5,
+      "frame": 2100,
+      "source_time_s": 2525,
+      "frame_sha256": "97a4c87ee9319774153e293e1c308148148c73d638ade714bf59d4e702fc07f2",
+      "state": "visible",
+      "bbox": [
+        1407.1337890625,
+        584.9024047851562,
+        1583.955810546875,
+        973.0352783203125
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 6,
+      "frame": 2115,
+      "source_time_s": 2526,
+      "frame_sha256": "7e2e82953b054bacb69908494f7ff19dd5a4fffad06b2a32bbd20cbca474a68f",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 6,
+      "frame": 2115,
+      "source_time_s": 2526,
+      "frame_sha256": "7e2e82953b054bacb69908494f7ff19dd5a4fffad06b2a32bbd20cbca474a68f",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 6,
+      "frame": 2115,
+      "source_time_s": 2526,
+      "frame_sha256": "7e2e82953b054bacb69908494f7ff19dd5a4fffad06b2a32bbd20cbca474a68f",
+      "state": "visible",
+      "bbox": [
+        1120.3795166015625,
+        452.2363586425781,
+        1217.50927734375,
+        575.6500244140625
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 6,
+      "frame": 2115,
+      "source_time_s": 2526,
+      "frame_sha256": "7e2e82953b054bacb69908494f7ff19dd5a4fffad06b2a32bbd20cbca474a68f",
+      "state": "visible",
+      "bbox": [
+        1182.416015625,
+        568.0718994140625,
+        1313.859375,
+        887.0111083984375
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 7,
+      "frame": 2130,
+      "source_time_s": 2527,
+      "frame_sha256": "024f239fe5f79ee4d9b20388f4bfb1978787a6a0434dcd41bf17db25e2fa2c29",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 7,
+      "frame": 2130,
+      "source_time_s": 2527,
+      "frame_sha256": "024f239fe5f79ee4d9b20388f4bfb1978787a6a0434dcd41bf17db25e2fa2c29",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 7,
+      "frame": 2130,
+      "source_time_s": 2527,
+      "frame_sha256": "024f239fe5f79ee4d9b20388f4bfb1978787a6a0434dcd41bf17db25e2fa2c29",
+      "state": "visible",
+      "bbox": [
+        1154.517333984375,
+        432.48065185546875,
+        1236.980712890625,
+        548.2029418945312
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 7,
+      "frame": 2130,
+      "source_time_s": 2527,
+      "frame_sha256": "024f239fe5f79ee4d9b20388f4bfb1978787a6a0434dcd41bf17db25e2fa2c29",
+      "state": "visible",
+      "bbox": [
+        1233.220947265625,
+        531.4733276367188,
+        1402.0947265625,
+        820.2171020507812
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 8,
+      "frame": 2145,
+      "source_time_s": 2528,
+      "frame_sha256": "4069657a274e81b2ab8c836a54e96c2d049a1a58fb7aa6ca497986895709080a",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 8,
+      "frame": 2145,
+      "source_time_s": 2528,
+      "frame_sha256": "4069657a274e81b2ab8c836a54e96c2d049a1a58fb7aa6ca497986895709080a",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 8,
+      "frame": 2145,
+      "source_time_s": 2528,
+      "frame_sha256": "4069657a274e81b2ab8c836a54e96c2d049a1a58fb7aa6ca497986895709080a",
+      "state": "visible",
+      "bbox": [
+        1279.7117919921875,
+        387.1392822265625,
+        1338.3309326171875,
+        501.2506103515625
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 8,
+      "frame": 2145,
+      "source_time_s": 2528,
+      "frame_sha256": "4069657a274e81b2ab8c836a54e96c2d049a1a58fb7aa6ca497986895709080a",
+      "state": "visible",
+      "bbox": [
+        1265.943603515625,
+        480.86572265625,
+        1409.61328125,
+        760.7814331054688
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 9,
+      "frame": 2160,
+      "source_time_s": 2529,
+      "frame_sha256": "084f5fa96c18a56259b526377234070702c7fb50e50ecee9cb409a650010680a",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 9,
+      "frame": 2160,
+      "source_time_s": 2529,
+      "frame_sha256": "084f5fa96c18a56259b526377234070702c7fb50e50ecee9cb409a650010680a",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 9,
+      "frame": 2160,
+      "source_time_s": 2529,
+      "frame_sha256": "084f5fa96c18a56259b526377234070702c7fb50e50ecee9cb409a650010680a",
+      "state": "visible",
+      "bbox": [
+        1249.104248046875,
+        390.32244873046875,
+        1311.5694580078125,
+        530.879150390625
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 9,
+      "frame": 2160,
+      "source_time_s": 2529,
+      "frame_sha256": "084f5fa96c18a56259b526377234070702c7fb50e50ecee9cb409a650010680a",
+      "state": "visible",
+      "bbox": [
+        1140.060791015625,
+        454.1329650878906,
+        1252.352294921875,
+        720.4898681640625
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 10,
+      "frame": 2175,
+      "source_time_s": 2530,
+      "frame_sha256": "95d645bfbf053d192a8f5389edcf823372c38aab7eae7d4069ed1099a7ffaa4d",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 10,
+      "frame": 2175,
+      "source_time_s": 2530,
+      "frame_sha256": "95d645bfbf053d192a8f5389edcf823372c38aab7eae7d4069ed1099a7ffaa4d",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 10,
+      "frame": 2175,
+      "source_time_s": 2530,
+      "frame_sha256": "95d645bfbf053d192a8f5389edcf823372c38aab7eae7d4069ed1099a7ffaa4d",
+      "state": "uncertain"
+    },
+    {
+      "identity": "D",
+      "second": 10,
+      "frame": 2175,
+      "source_time_s": 2530,
+      "frame_sha256": "95d645bfbf053d192a8f5389edcf823372c38aab7eae7d4069ed1099a7ffaa4d",
+      "state": "visible",
+      "bbox": [
+        1149.7294921875,
+        450.2765808105469,
+        1251.2135009765625,
+        695.9140625
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 11,
+      "frame": 2190,
+      "source_time_s": 2531,
+      "frame_sha256": "f27b4c1589a033092163bfaa602a0c527a1ec82d5bc81a03090deb8ba8a0f35c",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "B",
+      "second": 11,
+      "frame": 2190,
+      "source_time_s": 2531,
+      "frame_sha256": "f27b4c1589a033092163bfaa602a0c527a1ec82d5bc81a03090deb8ba8a0f35c",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 11,
+      "frame": 2190,
+      "source_time_s": 2531,
+      "frame_sha256": "f27b4c1589a033092163bfaa602a0c527a1ec82d5bc81a03090deb8ba8a0f35c",
+      "state": "visible",
+      "bbox": [
+        1233.6654052734375,
+        431.3299560546875,
+        1302.6888427734375,
+        586.7410888671875
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 11,
+      "frame": 2190,
+      "source_time_s": 2531,
+      "frame_sha256": "f27b4c1589a033092163bfaa602a0c527a1ec82d5bc81a03090deb8ba8a0f35c",
+      "state": "visible",
+      "bbox": [
+        1246.4381103515625,
+        483.30419921875,
+        1366.0703125,
+        715.735595703125
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 12,
+      "frame": 2205,
+      "source_time_s": 2532,
+      "frame_sha256": "61033d8105b3b6eae04574a4dfc1a00f840fa02483e150938f80a1f3317342d9",
+      "state": "visible",
+      "bbox": [
+        1463.90576171875,
+        727.271728515625,
+        1663.044677734375,
+        1080.0
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 12,
+      "frame": 2205,
+      "source_time_s": 2532,
+      "frame_sha256": "61033d8105b3b6eae04574a4dfc1a00f840fa02483e150938f80a1f3317342d9",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 12,
+      "frame": 2205,
+      "source_time_s": 2532,
+      "frame_sha256": "61033d8105b3b6eae04574a4dfc1a00f840fa02483e150938f80a1f3317342d9",
+      "state": "visible",
+      "bbox": [
+        1097.263916015625,
+        470.1349182128906,
+        1183.2667236328125,
+        617.84619140625
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 12,
+      "frame": 2205,
+      "source_time_s": 2532,
+      "frame_sha256": "61033d8105b3b6eae04574a4dfc1a00f840fa02483e150938f80a1f3317342d9",
+      "state": "visible",
+      "bbox": [
+        1152.99072265625,
+        503.70611572265625,
+        1258.246826171875,
+        741.4147338867188
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 13,
+      "frame": 2220,
+      "source_time_s": 2533,
+      "frame_sha256": "b0d9e4bb146294044f8849f003b9e0a0eb479f5fe05a0a82b28299b0717043f2",
+      "state": "visible",
+      "bbox": [
+        1035.0899658203125,
+        717.8607788085938,
+        1261.2171630859375,
+        1080.0
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 13,
+      "frame": 2220,
+      "source_time_s": 2533,
+      "frame_sha256": "b0d9e4bb146294044f8849f003b9e0a0eb479f5fe05a0a82b28299b0717043f2",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "C",
+      "second": 13,
+      "frame": 2220,
+      "source_time_s": 2533,
+      "frame_sha256": "b0d9e4bb146294044f8849f003b9e0a0eb479f5fe05a0a82b28299b0717043f2",
+      "state": "visible",
+      "bbox": [
+        759.9406127929688,
+        446.46881103515625,
+        827.5680541992188,
+        588.8666381835938
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 13,
+      "frame": 2220,
+      "source_time_s": 2533,
+      "frame_sha256": "b0d9e4bb146294044f8849f003b9e0a0eb479f5fe05a0a82b28299b0717043f2",
+      "state": "visible",
+      "bbox": [
+        868.80029296875,
+        488.92474365234375,
+        974.7335815429688,
+        736.3141479492188
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 14,
+      "frame": 2235,
+      "source_time_s": 2534,
+      "frame_sha256": "c4c298e1e3d57c3309893e765698a097456276013725a6b01df132c68ac5d870",
+      "state": "visible",
+      "bbox": [
+        1114.3297119140625,
+        679.4862670898438,
+        1342.001220703125,
+        1080.0
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 14,
+      "frame": 2235,
+      "source_time_s": 2534,
+      "frame_sha256": "c4c298e1e3d57c3309893e765698a097456276013725a6b01df132c68ac5d870",
+      "state": "visible",
+      "bbox": [
+        1747.305908203125,
+        486.9604797363281,
+        1859.407470703125,
+        702.5879516601562
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 14,
+      "frame": 2235,
+      "source_time_s": 2534,
+      "frame_sha256": "c4c298e1e3d57c3309893e765698a097456276013725a6b01df132c68ac5d870",
+      "state": "visible",
+      "bbox": [
+        524.0360717773438,
+        426.478515625,
+        578.5646362304688,
+        579.1039428710938
+      ],
+      "proposal": 8,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 14,
+      "frame": 2235,
+      "source_time_s": 2534,
+      "frame_sha256": "c4c298e1e3d57c3309893e765698a097456276013725a6b01df132c68ac5d870",
+      "state": "visible",
+      "bbox": [
+        724.4295043945312,
+        470.1338195800781,
+        843.7263793945312,
+        719.4083251953125
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 15,
+      "frame": 2250,
+      "source_time_s": 2535,
+      "frame_sha256": "7598d9fb8bef176579071c847e8c8b66b57364978e993d0029e4a37a55b0a487",
+      "state": "visible",
+      "bbox": [
+        1216.9124755859375,
+        633.418701171875,
+        1395.3646240234375,
+        1036.8692626953125
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 15,
+      "frame": 2250,
+      "source_time_s": 2535,
+      "frame_sha256": "7598d9fb8bef176579071c847e8c8b66b57364978e993d0029e4a37a55b0a487",
+      "state": "visible",
+      "bbox": [
+        1567.8240966796875,
+        476.15924072265625,
+        1667.59423828125,
+        671.6597290039062
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 15,
+      "frame": 2250,
+      "source_time_s": 2535,
+      "frame_sha256": "7598d9fb8bef176579071c847e8c8b66b57364978e993d0029e4a37a55b0a487",
+      "state": "visible",
+      "bbox": [
+        460.2179260253906,
+        448.41339111328125,
+        544.165771484375,
+        604.4668579101562
+      ],
+      "proposal": 8,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 15,
+      "frame": 2250,
+      "source_time_s": 2535,
+      "frame_sha256": "7598d9fb8bef176579071c847e8c8b66b57364978e993d0029e4a37a55b0a487",
+      "state": "visible",
+      "bbox": [
+        745.9440307617188,
+        496.93743896484375,
+        889.4448852539062,
+        742.86474609375
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 16,
+      "frame": 2265,
+      "source_time_s": 2536,
+      "frame_sha256": "229572e9830e9e67aae360a37739b0300ac537c9cfb908906dbc64d1c1cd37a3",
+      "state": "visible",
+      "bbox": [
+        1190.3209228515625,
+        603.9202880859375,
+        1342.3214111328125,
+        947.7236938476562
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 16,
+      "frame": 2265,
+      "source_time_s": 2536,
+      "frame_sha256": "229572e9830e9e67aae360a37739b0300ac537c9cfb908906dbc64d1c1cd37a3",
+      "state": "visible",
+      "bbox": [
+        1407.824951171875,
+        476.1583557128906,
+        1497.9501953125,
+        652.722900390625
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 16,
+      "frame": 2265,
+      "source_time_s": 2536,
+      "frame_sha256": "229572e9830e9e67aae360a37739b0300ac537c9cfb908906dbc64d1c1cd37a3",
+      "state": "visible",
+      "bbox": [
+        487.7502136230469,
+        465.5437316894531,
+        561.0494384765625,
+        626.2247314453125
+      ],
+      "proposal": 7,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 16,
+      "frame": 2265,
+      "source_time_s": 2536,
+      "frame_sha256": "229572e9830e9e67aae360a37739b0300ac537c9cfb908906dbc64d1c1cd37a3",
+      "state": "visible",
+      "bbox": [
+        784.880615234375,
+        512.1740112304688,
+        902.8876953125,
+        766.9953002929688
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 17,
+      "frame": 2280,
+      "source_time_s": 2537,
+      "frame_sha256": "a18f3b06338ab7a17d5dafdc855689f3531eac9ea621863df233b9243a818e9e",
+      "state": "visible",
+      "bbox": [
+        1145.35400390625,
+        561.9052734375,
+        1273.931396484375,
+        848.769775390625
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 17,
+      "frame": 2280,
+      "source_time_s": 2537,
+      "frame_sha256": "a18f3b06338ab7a17d5dafdc855689f3531eac9ea621863df233b9243a818e9e",
+      "state": "visible",
+      "bbox": [
+        1279.11376953125,
+        464.29229736328125,
+        1359.174560546875,
+        628.612548828125
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 17,
+      "frame": 2280,
+      "source_time_s": 2537,
+      "frame_sha256": "a18f3b06338ab7a17d5dafdc855689f3531eac9ea621863df233b9243a818e9e",
+      "state": "visible",
+      "bbox": [
+        533.0877075195312,
+        454.5973205566406,
+        608.3441772460938,
+        624.3016357421875
+      ],
+      "proposal": 7,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 17,
+      "frame": 2280,
+      "source_time_s": 2537,
+      "frame_sha256": "a18f3b06338ab7a17d5dafdc855689f3531eac9ea621863df233b9243a818e9e",
+      "state": "visible",
+      "bbox": [
+        766.9814453125,
+        497.546630859375,
+        872.7545166015625,
+        753.3450927734375
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 18,
+      "frame": 2295,
+      "source_time_s": 2538,
+      "frame_sha256": "498ba39316e497ef3d158a8652c02b4634d15360bc4e96e3c18efdd5f18cf716",
+      "state": "visible",
+      "bbox": [
+        1053.7830810546875,
+        532.464111328125,
+        1169.710205078125,
+        798.0916748046875
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 18,
+      "frame": 2295,
+      "source_time_s": 2538,
+      "frame_sha256": "498ba39316e497ef3d158a8652c02b4634d15360bc4e96e3c18efdd5f18cf716",
+      "state": "visible",
+      "bbox": [
+        1099.822998046875,
+        459.9295349121094,
+        1167.38818359375,
+        592.1614990234375
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 18,
+      "frame": 2295,
+      "source_time_s": 2538,
+      "frame_sha256": "498ba39316e497ef3d158a8652c02b4634d15360bc4e96e3c18efdd5f18cf716",
+      "state": "visible",
+      "bbox": [
+        496.2921142578125,
+        447.1603088378906,
+        596.0570678710938,
+        618.883056640625
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "D",
+      "second": 18,
+      "frame": 2295,
+      "source_time_s": 2538,
+      "frame_sha256": "498ba39316e497ef3d158a8652c02b4634d15360bc4e96e3c18efdd5f18cf716",
+      "state": "visible",
+      "bbox": [
+        609.3895263671875,
+        475.34832763671875,
+        730.2939453125,
+        718.9943237304688
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 19,
+      "frame": 2310,
+      "source_time_s": 2539,
+      "frame_sha256": "b28b76c1223b52072ed05700a10f580103c2c30abcdea2b5a3af22202c000cab",
+      "state": "visible",
+      "bbox": [
+        843.489990234375,
+        503.28515625,
+        964.6820068359375,
+        775.860107421875
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 19,
+      "frame": 2310,
+      "source_time_s": 2539,
+      "frame_sha256": "b28b76c1223b52072ed05700a10f580103c2c30abcdea2b5a3af22202c000cab",
+      "state": "visible",
+      "bbox": [
+        880.3758544921875,
+        430.44525146484375,
+        944.279296875,
+        518.7335815429688
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 19,
+      "frame": 2310,
+      "source_time_s": 2539,
+      "frame_sha256": "b28b76c1223b52072ed05700a10f580103c2c30abcdea2b5a3af22202c000cab",
+      "state": "uncertain"
+    },
+    {
+      "identity": "D",
+      "second": 19,
+      "frame": 2310,
+      "source_time_s": 2539,
+      "frame_sha256": "b28b76c1223b52072ed05700a10f580103c2c30abcdea2b5a3af22202c000cab",
+      "state": "visible",
+      "bbox": [
+        303.2864685058594,
+        437.9363708496094,
+        436.081298828125,
+        680.4315185546875
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 20,
+      "frame": 2325,
+      "source_time_s": 2540,
+      "frame_sha256": "f2d016792c4dc2c8ee644c2243ab15a7575f3b83114a846760d6120ac7ca6bd9",
+      "state": "visible",
+      "bbox": [
+        563.1968994140625,
+        460.4266662597656,
+        700.5498046875,
+        770.6982421875
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 20,
+      "frame": 2325,
+      "source_time_s": 2540,
+      "frame_sha256": "f2d016792c4dc2c8ee644c2243ab15a7575f3b83114a846760d6120ac7ca6bd9",
+      "state": "visible",
+      "bbox": [
+        681.0146484375,
+        376.4490966796875,
+        755.6200561523438,
+        508.78875732421875
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 20,
+      "frame": 2325,
+      "source_time_s": 2540,
+      "frame_sha256": "f2d016792c4dc2c8ee644c2243ab15a7575f3b83114a846760d6120ac7ca6bd9",
+      "state": "uncertain"
+    },
+    {
+      "identity": "D",
+      "second": 20,
+      "frame": 2325,
+      "source_time_s": 2540,
+      "frame_sha256": "f2d016792c4dc2c8ee644c2243ab15a7575f3b83114a846760d6120ac7ca6bd9",
+      "state": "visible",
+      "bbox": [
+        45.77293395996094,
+        382.68365478515625,
+        131.2561492919922,
+        644.86279296875
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 21,
+      "frame": 2340,
+      "source_time_s": 2541,
+      "frame_sha256": "863b52762fe5106a9f3cf457dc6002cc8c6d15de1d9b82eddcd4cb1f4773c118",
+      "state": "visible",
+      "bbox": [
+        414.4415588378906,
+        460.1820373535156,
+        568.1669921875,
+        753.8128662109375
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 21,
+      "frame": 2340,
+      "source_time_s": 2541,
+      "frame_sha256": "863b52762fe5106a9f3cf457dc6002cc8c6d15de1d9b82eddcd4cb1f4773c118",
+      "state": "visible",
+      "bbox": [
+        730.4678955078125,
+        355.22845458984375,
+        794.701416015625,
+        494.3121643066406
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 21,
+      "frame": 2340,
+      "source_time_s": 2541,
+      "frame_sha256": "863b52762fe5106a9f3cf457dc6002cc8c6d15de1d9b82eddcd4cb1f4773c118",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 21,
+      "frame": 2340,
+      "source_time_s": 2541,
+      "frame_sha256": "863b52762fe5106a9f3cf457dc6002cc8c6d15de1d9b82eddcd4cb1f4773c118",
+      "state": "visible",
+      "bbox": [
+        0.070037841796875,
+        410.03961181640625,
+        105.69454193115234,
+        611.7211303710938
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 22,
+      "frame": 2355,
+      "source_time_s": 2542,
+      "frame_sha256": "26ab614d6005344d659dcc806291d994f463fc4632cdf84a3cb1a06dbc6854c0",
+      "state": "visible",
+      "bbox": [
+        671.3494873046875,
+        493.0783996582031,
+        844.7919921875,
+        754.8953247070312
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 22,
+      "frame": 2355,
+      "source_time_s": 2542,
+      "frame_sha256": "26ab614d6005344d659dcc806291d994f463fc4632cdf84a3cb1a06dbc6854c0",
+      "state": "visible",
+      "bbox": [
+        816.13916015625,
+        400.03631591796875,
+        878.975830078125,
+        525.4320068359375
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 22,
+      "frame": 2355,
+      "source_time_s": 2542,
+      "frame_sha256": "26ab614d6005344d659dcc806291d994f463fc4632cdf84a3cb1a06dbc6854c0",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 22,
+      "frame": 2355,
+      "source_time_s": 2542,
+      "frame_sha256": "26ab614d6005344d659dcc806291d994f463fc4632cdf84a3cb1a06dbc6854c0",
+      "state": "visible",
+      "bbox": [
+        307.8337707519531,
+        441.689208984375,
+        488.95880126953125,
+        702.2274169921875
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 23,
+      "frame": 2370,
+      "source_time_s": 2543,
+      "frame_sha256": "8052350731005cdef857c051d3458a2f8c33d1aef621e246c59587ce1fefc4c2",
+      "state": "visible",
+      "bbox": [
+        994.582275390625,
+        510.2200012207031,
+        1111.5950927734375,
+        750.499267578125
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 23,
+      "frame": 2370,
+      "source_time_s": 2543,
+      "frame_sha256": "8052350731005cdef857c051d3458a2f8c33d1aef621e246c59587ce1fefc4c2",
+      "state": "visible",
+      "bbox": [
+        785.919677734375,
+        441.844482421875,
+        851.427001953125,
+        566.0352172851562
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 23,
+      "frame": 2370,
+      "source_time_s": 2543,
+      "frame_sha256": "8052350731005cdef857c051d3458a2f8c33d1aef621e246c59587ce1fefc4c2",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 23,
+      "frame": 2370,
+      "source_time_s": 2543,
+      "frame_sha256": "8052350731005cdef857c051d3458a2f8c33d1aef621e246c59587ce1fefc4c2",
+      "state": "visible",
+      "bbox": [
+        656.5047607421875,
+        484.07501220703125,
+        816.8077392578125,
+        718.6902465820312
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 24,
+      "frame": 2385,
+      "source_time_s": 2544,
+      "frame_sha256": "2b8dc73d9618efc98ea9073ab239605f8a7941d44b7fac98e54f0fe14ea6f45b",
+      "state": "visible",
+      "bbox": [
+        945.632080078125,
+        493.0948791503906,
+        1047.5240478515625,
+        698.0946044921875
+      ],
+      "proposal": 0,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 24,
+      "frame": 2385,
+      "source_time_s": 2544,
+      "frame_sha256": "2b8dc73d9618efc98ea9073ab239605f8a7941d44b7fac98e54f0fe14ea6f45b",
+      "state": "uncertain"
+    },
+    {
+      "identity": "C",
+      "second": 24,
+      "frame": 2385,
+      "source_time_s": 2544,
+      "frame_sha256": "2b8dc73d9618efc98ea9073ab239605f8a7941d44b7fac98e54f0fe14ea6f45b",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 24,
+      "frame": 2385,
+      "source_time_s": 2544,
+      "frame_sha256": "2b8dc73d9618efc98ea9073ab239605f8a7941d44b7fac98e54f0fe14ea6f45b",
+      "state": "visible",
+      "bbox": [
+        693.0467529296875,
+        471.5736083984375,
+        800.5830078125,
+        680.7401123046875
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 25,
+      "frame": 2400,
+      "source_time_s": 2545,
+      "frame_sha256": "2ecd70c762e99a9336c194fde79405c2dcdddfa79877c3d3430fb586d1d9bc65",
+      "state": "visible",
+      "bbox": [
+        896.4276123046875,
+        472.9223327636719,
+        993.6676025390625,
+        638.8519287109375
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 25,
+      "frame": 2400,
+      "source_time_s": 2545,
+      "frame_sha256": "2ecd70c762e99a9336c194fde79405c2dcdddfa79877c3d3430fb586d1d9bc65",
+      "state": "visible",
+      "bbox": [
+        798.8776245117188,
+        440.93023681640625,
+        877.4833374023438,
+        539.5257568359375
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 25,
+      "frame": 2400,
+      "source_time_s": 2545,
+      "frame_sha256": "2ecd70c762e99a9336c194fde79405c2dcdddfa79877c3d3430fb586d1d9bc65",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 25,
+      "frame": 2400,
+      "source_time_s": 2545,
+      "frame_sha256": "2ecd70c762e99a9336c194fde79405c2dcdddfa79877c3d3430fb586d1d9bc65",
+      "state": "visible",
+      "bbox": [
+        636.2173461914062,
+        448.0492858886719,
+        726.3506469726562,
+        617.2230224609375
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 26,
+      "frame": 2415,
+      "source_time_s": 2546,
+      "frame_sha256": "e4e393c9e9b22b04251cb171287b965c31aa45a5b3be370feb72aa278d734497",
+      "state": "visible",
+      "bbox": [
+        1035.7093505859375,
+        445.20355224609375,
+        1130.3228759765625,
+        593.5636596679688
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 26,
+      "frame": 2415,
+      "source_time_s": 2546,
+      "frame_sha256": "e4e393c9e9b22b04251cb171287b965c31aa45a5b3be370feb72aa278d734497",
+      "state": "visible",
+      "bbox": [
+        1015.0806884765625,
+        433.0870056152344,
+        1058.57958984375,
+        522.0258178710938
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 26,
+      "frame": 2415,
+      "source_time_s": 2546,
+      "frame_sha256": "e4e393c9e9b22b04251cb171287b965c31aa45a5b3be370feb72aa278d734497",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 26,
+      "frame": 2415,
+      "source_time_s": 2546,
+      "frame_sha256": "e4e393c9e9b22b04251cb171287b965c31aa45a5b3be370feb72aa278d734497",
+      "state": "visible",
+      "bbox": [
+        770.523193359375,
+        424.07916259765625,
+        839.0452880859375,
+        567.6039428710938
+      ],
+      "proposal": 1,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 27,
+      "frame": 2430,
+      "source_time_s": 2547,
+      "frame_sha256": "a586cd1e672cd158b881629d237a30f87037e16bcb1af9ab941b9551d6b06b18",
+      "state": "visible",
+      "bbox": [
+        1142.281982421875,
+        438.1053771972656,
+        1205.136962890625,
+        586.514404296875
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 27,
+      "frame": 2430,
+      "source_time_s": 2547,
+      "frame_sha256": "a586cd1e672cd158b881629d237a30f87037e16bcb1af9ab941b9551d6b06b18",
+      "state": "visible",
+      "bbox": [
+        1010.7601318359375,
+        425.6219787597656,
+        1078.6728515625,
+        528.1358642578125
+      ],
+      "proposal": 6,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 27,
+      "frame": 2430,
+      "source_time_s": 2547,
+      "frame_sha256": "a586cd1e672cd158b881629d237a30f87037e16bcb1af9ab941b9551d6b06b18",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 27,
+      "frame": 2430,
+      "source_time_s": 2547,
+      "frame_sha256": "a586cd1e672cd158b881629d237a30f87037e16bcb1af9ab941b9551d6b06b18",
+      "state": "visible",
+      "bbox": [
+        892.7530517578125,
+        410.35400390625,
+        952.1165771484375,
+        533.9525146484375
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 28,
+      "frame": 2445,
+      "source_time_s": 2548,
+      "frame_sha256": "d287399b23271d5cf8a06577122443f58e9b1195dc7dff9b556b4a6ec5bacb58",
+      "state": "visible",
+      "bbox": [
+        1157.411865234375,
+        431.211181640625,
+        1214.6107177734375,
+        583.3379516601562
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 28,
+      "frame": 2445,
+      "source_time_s": 2548,
+      "frame_sha256": "d287399b23271d5cf8a06577122443f58e9b1195dc7dff9b556b4a6ec5bacb58",
+      "state": "visible",
+      "bbox": [
+        932.563720703125,
+        410.20458984375,
+        993.2777099609375,
+        526.5531005859375
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 28,
+      "frame": 2445,
+      "source_time_s": 2548,
+      "frame_sha256": "d287399b23271d5cf8a06577122443f58e9b1195dc7dff9b556b4a6ec5bacb58",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 28,
+      "frame": 2445,
+      "source_time_s": 2548,
+      "frame_sha256": "d287399b23271d5cf8a06577122443f58e9b1195dc7dff9b556b4a6ec5bacb58",
+      "state": "visible",
+      "bbox": [
+        909.96044921875,
+        406.9083251953125,
+        944.830322265625,
+        509.1650390625
+      ],
+      "proposal": 8,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "A",
+      "second": 29,
+      "frame": 2460,
+      "source_time_s": 2549,
+      "frame_sha256": "104318241b74d7fe3b5ab2edf064ff7b13c9d166883a2adfe2ee076d75108967",
+      "state": "visible",
+      "bbox": [
+        1209.116455078125,
+        425.48565673828125,
+        1276.1568603515625,
+        577.313232421875
+      ],
+      "proposal": 2,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 29,
+      "frame": 2460,
+      "source_time_s": 2549,
+      "frame_sha256": "104318241b74d7fe3b5ab2edf064ff7b13c9d166883a2adfe2ee076d75108967",
+      "state": "visible",
+      "bbox": [
+        901.7462768554688,
+        390.9826354980469,
+        949.9843139648438,
+        529.089599609375
+      ],
+      "proposal": 4,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 29,
+      "frame": 2460,
+      "source_time_s": 2549,
+      "frame_sha256": "104318241b74d7fe3b5ab2edf064ff7b13c9d166883a2adfe2ee076d75108967",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 29,
+      "frame": 2460,
+      "source_time_s": 2549,
+      "frame_sha256": "104318241b74d7fe3b5ab2edf064ff7b13c9d166883a2adfe2ee076d75108967",
+      "state": "uncertain"
+    },
+    {
+      "identity": "A",
+      "second": 30,
+      "frame": 2475,
+      "source_time_s": 2550,
+      "frame_sha256": "7263e444f0f53bab2d264be4c61e3952b59f3eeffe121135e0fa52bb2b6ce596",
+      "state": "visible",
+      "bbox": [
+        1277.092041015625,
+        426.5408935546875,
+        1326.5234375,
+        582.2916870117188
+      ],
+      "proposal": 5,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "B",
+      "second": 30,
+      "frame": 2475,
+      "source_time_s": 2550,
+      "frame_sha256": "7263e444f0f53bab2d264be4c61e3952b59f3eeffe121135e0fa52bb2b6ce596",
+      "state": "visible",
+      "bbox": [
+        824.6112670898438,
+        402.24530029296875,
+        890.0943603515625,
+        535.7368774414062
+      ],
+      "proposal": 3,
+      "localization_source": "assistant-reviewed YOLO proposal"
+    },
+    {
+      "identity": "C",
+      "second": 30,
+      "frame": 2475,
+      "source_time_s": 2550,
+      "frame_sha256": "7263e444f0f53bab2d264be4c61e3952b59f3eeffe121135e0fa52bb2b6ce596",
+      "state": "out_of_view"
+    },
+    {
+      "identity": "D",
+      "second": 30,
+      "frame": 2475,
+      "source_time_s": 2550,
+      "frame_sha256": "7263e444f0f53bab2d264be4c61e3952b59f3eeffe121135e0fa52bb2b6ce596",
+      "state": "uncertain"
+    }
+  ],
+  "notes": {
+    "2": "C partially occluded by A; white helmet and right leg distinguish them. D leaves the right image boundary after1s.",
+    "5": "C is involved in the crowded overlap near the far boards; its box cannot be assigned confidently from this sample. A and B remain to the right as camera pans left.",
+    "10": "C is largely hidden behind D; no reliable box is assigned.",
+    "11": "The other white-helmet navy player at right is later clearly32 with pale shoes. Target B is1 with red shoes and reenters at14s.",
+    "19": "C jersey20 is largely hidden behind D; no reliable box assigned.",
+    "20": "C remains mostly behind D at the far-left border; no reliable box assigned. C then leaves the camera view. The other white-helmet yellow player following B is79, with white lower-leg guards.",
+    "24": "B is largely hidden behind D; the remaining head/shoulder proposal is not a reliable player box.",
+    "29": "D is largely occluded by the white-helmet yellow player; no reliable independent player box is assigned.",
+    "30": "D remains mostly behind the white-helmet yellow player; no reliable independent player box is assigned."
+  },
+  "counts": {
+    "visible": 88,
+    "out_of_view": 29,
+    "uncertain": 7
+  },
+  "limits": [
+    "New temporal interval from a previously reused recording; not a new independent game.",
+    "Four initially visible floor players sampled once per second; not continuous full-game identity accuracy.",
+    "YOLO-assisted boxes may favor detector-supported methods; boxes and identities were visually reviewed.",
+    "Uncertain and out-of-view observations are excluded; no interpolation or off-camera position inference.",
+    "Manually observed jersey hints are for this audit, not validated production roster identities."
+  ]
+}

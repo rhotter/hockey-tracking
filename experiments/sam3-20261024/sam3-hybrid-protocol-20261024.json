@@ -1,0 +1,40 @@
+{
+  "id": "nbhl-sam3-hybrid-20261024-v1",
+  "started_utc": "2026-10-24T01:02:16Z",
+  "scope": "NBHL ball hockey only. Previously reviewed development and regression references are reused and correlated; these are diagnostics, not independent accuracy estimates.",
+  "development": [
+    "game2_01m",
+    "game2_06m",
+    "game2_24m",
+    "game2_33m",
+    "game2_41m",
+    "gb-tracking-0600",
+    "gb-tracking-1800",
+    "gb-reid-long-0900",
+    "long-plDp2kPtk_g"
+  ],
+  "regression": [
+    "pittsburgh-0600",
+    "pittsburgh-1800",
+    "marylandwomen-0600",
+    "marylandwomen-1800",
+    "pittsburgh-stress-0900"
+  ],
+  "native": {
+    "prompt": "person",
+    "model": "facebook/sam3",
+    "code": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+    "weights": "3c879f39826c281e95690f02c7821c4de09afae7"
+  },
+  "families": {
+    "anchor": "One-to-one SAM3 mask-box / fixed YOLO player detection matching; IoU >=0.3 or0.5 and bidirectional competitor margin >=0.05. Output current detection boxes only.",
+    "appearance_split": "Split anchored SAM3 tracks after three consecutive uncluttered detections whose OSNet cosine to running reference is below0.45,0.60,or0.75; split at scene boundaries and gaps over15frames. Labels never enter inference.",
+    "reconnection": "Existing global forward path assignment; OSNet mean cosine0.75,0.85,or0.92, gap<=300frames, support>=10, existing camera-compensated motion gate. Also test frozen Qwen2B joint embedding blend on newly prepared fragments.",
+    "consensus": "Add SAM3 agreement across endpoint observations as bounded evidence to SAM2 fragment links, or require it. Compare with the same frozen OSNet/Qwen features and observations. Apply the five declared policies to OSNet-only and the frozen OSNet/Qwen2B-joint blend, using the original label-free candidate shortlist. This extension was recorded before any new regression scores.",
+    "native_settings": "Development-only ablations: association IoU0.3, reconditioning every4frames, reconditioning disabled, short keep-alive8frames. Freeze a winning setting before regression.",
+    "long": "Continuous five-minute native SAM3 and overlapping bounded windows on longer cached NBHL segments. No full-game identity claim without reference. Retain gaps."
+  },
+  "selection": "For each family maximize development correct-10*wrong, then matched observations, then fewer uncertain joins, then fewer changes from baseline. Evaluate frozen choices once on reused regression; report all failures and all development settings. No manual per-player corrections.",
+  "metrics": "Sparse reviewed endpoint pairs at box IoU>=0.5, observation coverage, wrong and uncertain joins, fragmentation, wall time, runtime failures. No TOI, miles, HOTA or IDF1 claim from sparse pairs.",
+  "training": "Inference and association experiments initially; any weight training requires a separately recorded training protocol and ball-hockey-only data."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sam3-automatic-visual-exemplar-20261024-v1",
+  "registered_utc": "2026-10-24T01:24:00Z",
+  "scope": "Development-only visual prompting ablation; no new regression scores have been produced.",
+  "selection": "Use the highest-confidence complete initial-frame YOLO player box with confidence>=0.65, height>=40pixels and no image-boundary contact. No manual player choice or reference labels. Fall back to person text if no eligible box exists.",
+  "variants": ["visual exemplar alone", "visual exemplar plus person text", "visual exemplar plus hockey player text"],
+  "development": "All nine clips in sam3-hybrid-protocol-20261024.json",
+  "promotion": "Same frozen development objective: correct-10*wrong, observation coverage, fewer uncertain joins. Only a winning recipe may be evaluated on reused regression.",
+  "limitations": "One exemplar may bias detection toward its uniform, goalie equipment or team. An automatically chosen box is not a verified role or identity."
+}

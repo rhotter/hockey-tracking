@@ -1,0 +1,133 @@
+{
+  "selection_sha256": "07cc969bd0ecf6dc09832961c2dcaecf15531d36716cc81e812a897db487feb1",
+  "results": [
+    {
+      "variant": "original",
+      "threshold": 0.6,
+      "metrics": {
+        "confidence_threshold": 0.6,
+        "iou_threshold": 0.5,
+        "frames": 36,
+        "targets": 256,
+        "tp": 93,
+        "fp": 3,
+        "fn": 163,
+        "precision": 0.96875,
+        "recall": 0.36328125,
+        "f1": 0.5284090909090909,
+        "false_positives_per_frame": 0.08333333333333333,
+        "goalies": 24,
+        "goalie_hits": 10,
+        "goalie_recall": 0.4166666666666667
+      },
+      "ap50": 0.66988060853039,
+      "seconds": 9.913266020000002,
+      "selection_sha256": "07cc969bd0ecf6dc09832961c2dcaecf15531d36716cc81e812a897db487feb1",
+      "sources": [
+        {
+          "source_id": "1f0Y5BIr5Ps",
+          "metrics": {
+            "confidence_threshold": 0.6,
+            "iou_threshold": 0.5,
+            "frames": 18,
+            "targets": 132,
+            "tp": 55,
+            "fp": 1,
+            "fn": 77,
+            "precision": 0.9821428571428571,
+            "recall": 0.4166666666666667,
+            "f1": 0.5851063829787234,
+            "false_positives_per_frame": 0.05555555555555555,
+            "goalies": 14,
+            "goalie_hits": 6,
+            "goalie_recall": 0.42857142857142855
+          }
+        },
+        {
+          "source_id": "5Qw_g9E7EqE",
+          "metrics": {
+            "confidence_threshold": 0.6,
+            "iou_threshold": 0.5,
+            "frames": 18,
+            "targets": 124,
+            "tp": 38,
+            "fp": 2,
+            "fn": 86,
+            "precision": 0.95,
+            "recall": 0.3064516129032258,
+            "f1": 0.4634146341463415,
+            "false_positives_per_frame": 0.1111111111111111,
+            "goalies": 10,
+            "goalie_hits": 4,
+            "goalie_recall": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "variant": "transformer-lr1e5",
+      "threshold": 0.5,
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 36,
+        "targets": 256,
+        "tp": 219,
+        "fp": 22,
+        "fn": 37,
+        "precision": 0.9087136929460581,
+        "recall": 0.85546875,
+        "f1": 0.8812877263581489,
+        "false_positives_per_frame": 0.6111111111111112,
+        "goalies": 24,
+        "goalie_hits": 17,
+        "goalie_recall": 0.7083333333333334
+      },
+      "ap50": 0.9622051774904115,
+      "seconds": 1.8868940540000025,
+      "selection_sha256": "07cc969bd0ecf6dc09832961c2dcaecf15531d36716cc81e812a897db487feb1",
+      "sources": [
+        {
+          "source_id": "1f0Y5BIr5Ps",
+          "metrics": {
+            "confidence_threshold": 0.5,
+            "iou_threshold": 0.5,
+            "frames": 18,
+            "targets": 132,
+            "tp": 110,
+            "fp": 0,
+            "fn": 22,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "false_positives_per_frame": 0.0,
+            "goalies": 14,
+            "goalie_hits": 10,
+            "goalie_recall": 0.7142857142857143
+          }
+        },
+        {
+          "source_id": "5Qw_g9E7EqE",
+          "metrics": {
+            "confidence_threshold": 0.5,
+            "iou_threshold": 0.5,
+            "frames": 18,
+            "targets": 124,
+            "tp": 109,
+            "fp": 22,
+            "fn": 15,
+            "precision": 0.8320610687022901,
+            "recall": 0.8790322580645161,
+            "f1": 0.8549019607843137,
+            "false_positives_per_frame": 1.2222222222222223,
+            "goalies": 10,
+            "goalie_hits": 7,
+            "goalie_recall": 0.7
+          }
+        }
+      ]
+    }
+  ],
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "torch_version": "2.9.1+cu128"
+}

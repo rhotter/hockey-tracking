@@ -1,0 +1,16 @@
+{
+  "clip": "pittsburgh-sam3-20min",
+  "source_id": "JlBtScHdcg4",
+  "start_s": 1785,
+  "duration_s": 1215,
+  "frames": 18225,
+  "width": 960,
+  "height": 540,
+  "fps": 15,
+  "sha256": "b5c35f301f5d951cd6da2aa324b9ef2d986db71389635d0307538cec1ca3b270",
+  "bytes": 130316582,
+  "input_frame_sequence_sha256": "245396debe9fa5fc6d1f1333e9456382dd1b45db39e3288d36d96dba91534aae",
+  "overlap_frames_verified": 675,
+  "seconds": 894.925219069,
+  "source": "Exact cached inference JPEGs, each shared overlap checked byte-for-byte. Delivery resized; inference used1920x1080."
+}

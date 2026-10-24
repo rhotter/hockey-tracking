@@ -1,0 +1,15 @@
+{
+  "id": "sam3-persistent-visual-template-20261024-v1",
+  "registered_utc": "2026-10-24T01:57:37.708065+00:00",
+  "motivation": "The pinned native video API supplies a geometric prompt on the initial frame only. With no text, later frames disallow new detections, so default consecutive-detection confirmation can suppress initial targets. Native visual-only runs returned zero reviewed observations. This extension is experimental feature reuse, not a claim that the official image visual prompt fails.",
+  "implementation": "Encode the same automatic initial YOLO exemplar through SAM3 geometry_encoder once. Detach and retain its token embeddings and mask; supply them through _encode_prompt visual_prompt_embed/visual_prompt_mask on every detector frame, with an empty current geometric prompt. For visual-only mode, enable later new-object admission without changing text embeddings or thresholds. No weights change.",
+  "variants": [
+    "visual-memory",
+    "visual-memory-person",
+    "visual-memory-hockey"
+  ],
+  "development": "All nine fixed hybrid development clips. Same highest-confidence eligible initial-box selection.",
+  "selection": "Compare the three variants and native person baseline using correct-10*wrong, then coverage, then fewer uncertain joins; prefer default on ties. Freeze one choice before reused tracking regression.",
+  "limitations": "The cached geometry tokens include position and appearance; this is an experimental template and may overfocus on the initial team or location. No reference labels enter inference.",
+  "training_or_reference_change": false
+}

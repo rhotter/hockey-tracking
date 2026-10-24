@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "name": "rink-filter-review-1.jpg",
+      "sha256": "c43c5e926bba671a394090dffae54c677fe9694bc47e9f9a437b791f8b5d6ff5",
+      "bytes": 884406
+    },
+    {
+      "name": "rink-filter-review-2.jpg",
+      "sha256": "416f872fbb6e8750de96a780c95d5887b93df7455e8d80bba4e91949e8496b04",
+      "bytes": 771558
+    },
+    {
+      "name": "rink-filter-review-3.jpg",
+      "sha256": "6688e2656dc965c39e9e62095b3d252f02443d5b36f93f04987c1e5778caa085",
+      "bytes": 771063
+    },
+    {
+      "name": "rink-filter-review-4.jpg",
+      "sha256": "2271e358e27f1d1c41c841dd3ba3126b5c2ea82811daf7eef0846d881fd83cda",
+      "bytes": 1046534
+    },
+    {
+      "name": "rink-filter-review-5.jpg",
+      "sha256": "090871f90d3b52d5390a5fea57f0fe70647192c0d53a71cd42791c3cad81c364",
+      "bytes": 1082235
+    },
+    {
+      "name": "rink-filter-review-6.jpg",
+      "sha256": "7dd2f61e5ec74141d0cf771c7a41a92eab55f7b8a3faf359223a9e79579f4a39",
+      "bytes": 1014398
+    }
+  ],
+  "frames": [
+    "1f0Y5BIr5Ps-00060000",
+    "1f0Y5BIr5Ps-00181430",
+    "1f0Y5BIr5Ps-00424300",
+    "1f0Y5BIr5Ps-00545740",
+    "1f0Y5BIr5Ps-00667170",
+    "1f0Y5BIr5Ps-00788610",
+    "1f0Y5BIr5Ps-00910040",
+    "1f0Y5BIr5Ps-01152910",
+    "1f0Y5BIr5Ps-01395780",
+    "1f0Y5BIr5Ps-01517220",
+    "1f0Y5BIr5Ps-01638650",
+    "1f0Y5BIr5Ps-01760090",
+    "1f0Y5BIr5Ps-02002960",
+    "1f0Y5BIr5Ps-02124390",
+    "1f0Y5BIr5Ps-02367260",
+    "1f0Y5BIr5Ps-02488700",
+    "1f0Y5BIr5Ps-02610130",
+    "1f0Y5BIr5Ps-02853000",
+    "5Qw_g9E7EqE-00060000",
+    "5Qw_g9E7EqE-00176610",
+    "5Qw_g9E7EqE-00409830",
+    "5Qw_g9E7EqE-00526430",
+    "5Qw_g9E7EqE-00643040",
+    "5Qw_g9E7EqE-00759650",
+    "5Qw_g9E7EqE-00876260",
+    "5Qw_g9E7EqE-01109480",
+    "5Qw_g9E7EqE-01226090",
+    "5Qw_g9E7EqE-01342700",
+    "5Qw_g9E7EqE-01459300",
+    "5Qw_g9E7EqE-01692520",
+    "5Qw_g9E7EqE-01925740",
+    "5Qw_g9E7EqE-02042350",
+    "5Qw_g9E7EqE-02158960",
+    "5Qw_g9E7EqE-02275570",
+    "5Qw_g9E7EqE-02625390",
+    "5Qw_g9E7EqE-02742000"
+  ],
+  "selection": "All36 regression frames in fixed order.",
+  "legend": "Left: fine-tune. Middle: predicted rink region and margin, cyan. Right: filtered output; orange boxes were removed, including any true players removed in error. Green/red follow the same IoU0.5 matching as detection metrics.",
+  "prior_regression_results_seen": true
+}

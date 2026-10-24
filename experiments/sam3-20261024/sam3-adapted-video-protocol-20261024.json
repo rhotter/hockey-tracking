@@ -1,0 +1,12 @@
+{
+  "id": "sam3-adapted-video-calibration-20261024-v1",
+  "registered_utc": "2026-10-24T01:36:31.997984+00:00",
+  "checkpoint": "The detector checkpoint selected across all six training variants using only the separate detection-validation game.",
+  "prompt": "hockey player",
+  "thresholds": "Let t be its detection-validation confidence threshold. Set video detection and final-output cutoffs to t. Test new-object admission at t, min(0.95,t+0.1), min(0.95,t+0.2). All other native association settings remain defaults.",
+  "reason": "Box adaptation changes score calibration. Fixed pretrained admission/output cutoffs must not silently discard newly learned detections.",
+  "development": "All nine clips in sam3-hybrid-protocol-20261024.json; no reference labels enter inference.",
+  "selection": "Freeze the calibration maximizing correct-10*wrong, then observation coverage, then fewer uncertain joins before reused tracking regression. Report if this family fails to beat the pretrained or existing best pipeline.",
+  "regression": "Four30-second clips plus the continuous five-minute Pittsburgh interval, evaluated once with the selected calibration.",
+  "runtime": "Use the verified bounded decoded-frame cache and history-preserving CPU mask-memory offload. No per-player corrections or occlusion interpolation."
+}

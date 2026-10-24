@@ -1,0 +1,1433 @@
+{
+  "schema_version": 1,
+  "source_id": "5Qw_g9E7EqE",
+  "split": "held_out_test",
+  "sport": "ball_hockey",
+  "league": "NBHL",
+  "reviewer": "Codex visual review",
+  "model_proposals_used": false,
+  "independent_human_ground_truth": false,
+  "frozen_model_config_sha256": "4153cf1227e4b9a3fea11552e52d5cd9da762328c8c18b5affeaadaeea59537e",
+  "review_sha256": "c852202497972c8e0bce3ee6b60c86ea08d2a1ce4dc8d7c84d8888759c2ac9c9",
+  "annotation_policy": "Assistant draws visible floor-player and goalie boxes from raw images with no model proposals. Freeze and hash complete labels before running test inference. Exclude entire unannotatable frames with reasons. No tuning after test results.",
+  "frames": [
+    {
+      "id": "5Qw_g9E7EqE-00060000",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00060000.jpg",
+      "source_time_s": 60.0,
+      "width": 1280,
+      "height": 720,
+      "sha256": "9f2fc7515eb3875572f27c727e044f6ddcb371108efaf2bf65e9f6b50154e793",
+      "players": [
+        {
+          "bbox": [
+            92.0,
+            179.0,
+            139.0,
+            295.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            182.0,
+            191.0,
+            223.0,
+            299.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            579.0,
+            148.0,
+            623.0,
+            251.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            601.0,
+            145.0,
+            644.0,
+            252.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            682.0,
+            157.0,
+            734.0,
+            268.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            723.0,
+            155.0,
+            764.0,
+            248.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            862.0,
+            127.0,
+            899.0,
+            204.0
+          ],
+          "role": "goalie"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Bench personnel behind boards and both striped officials excluded. Two overlapping center players separated.",
+      "review_index": 0
+    },
+    {
+      "id": "5Qw_g9E7EqE-00176610",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00176610.jpg",
+      "source_time_s": 176.61,
+      "width": 1280,
+      "height": 720,
+      "sha256": "96f2b08c4c8df68bf4cf3edaed4a0394d195586ab2623dd1ed55af927ebb487b",
+      "players": [
+        {
+          "bbox": [
+            78.0,
+            186.0,
+            130.0,
+            259.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            221.0,
+            184.0,
+            279.0,
+            282.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            332.0,
+            178.0,
+            380.0,
+            275.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            695.0,
+            168.0,
+            755.0,
+            250.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            847.0,
+            173.0,
+            901.0,
+            265.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1110.0,
+            210.0,
+            1198.0,
+            404.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            812.0,
+            350.0,
+            1019.0,
+            692.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Motion blur; seven visible floor players distinguishable from personnel behind boards.",
+      "review_index": 1
+    },
+    {
+      "id": "5Qw_g9E7EqE-00409830",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00409830.jpg",
+      "source_time_s": 409.83,
+      "width": 1280,
+      "height": 720,
+      "sha256": "eac162a34ba5899ebc9ed279ee73d0983cee6aafbb0e4ed5900e7fe525de4e4d",
+      "players": [
+        {
+          "bbox": [
+            283.0,
+            198.0,
+            347.0,
+            318.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            438.0,
+            152.0,
+            477.0,
+            235.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            635.0,
+            150.0,
+            681.0,
+            224.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            616.0,
+            280.0,
+            694.0,
+            496.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            771.0,
+            216.0,
+            829.0,
+            387.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            779.0,
+            249.0,
+            899.0,
+            493.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Two overlapping white players separated. Spectators outside rink, their glass reflections, and official excluded.",
+      "review_index": 3
+    },
+    {
+      "id": "5Qw_g9E7EqE-00526430",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00526430.jpg",
+      "source_time_s": 526.43,
+      "width": 1280,
+      "height": 720,
+      "sha256": "85919c3f0ec8a6024096f8ea50721e2003926bdaf9d5030442ef2ffad36c7ce0",
+      "players": [
+        {
+          "bbox": [
+            370.0,
+            203.0,
+            415.0,
+            295.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            445.0,
+            210.0,
+            494.0,
+            320.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            471.0,
+            178.0,
+            540.0,
+            269.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            531.0,
+            201.0,
+            565.0,
+            296.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            545.0,
+            185.0,
+            592.0,
+            287.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            656.0,
+            165.0,
+            705.0,
+            264.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            942.0,
+            172.0,
+            1015.0,
+            260.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1178.0,
+            190.0,
+            1248.0,
+            317.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Bench personnel, spectators and striped officials excluded; overlapping goal-area players individually boxed.",
+      "review_index": 4
+    },
+    {
+      "id": "5Qw_g9E7EqE-00643040",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00643040.jpg",
+      "source_time_s": 643.04,
+      "width": 1280,
+      "height": 720,
+      "sha256": "ab733db6aabfa0f1fd980b99462accd2dad27d768038335d52552dde2b1a6055",
+      "players": [
+        {
+          "bbox": [
+            445.0,
+            227.0,
+            498.0,
+            350.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            541.0,
+            226.0,
+            596.0,
+            341.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            494.0,
+            277.0,
+            569.0,
+            410.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            665.0,
+            244.0,
+            722.0,
+            354.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            662.0,
+            329.0,
+            738.0,
+            507.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            789.0,
+            299.0,
+            881.0,
+            468.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            948.0,
+            223.0,
+            993.0,
+            334.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Faceoff setup. Two striped officials and all bench players excluded.",
+      "review_index": 5
+    },
+    {
+      "id": "5Qw_g9E7EqE-00759650",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00759650.jpg",
+      "source_time_s": 759.65,
+      "width": 1280,
+      "height": 720,
+      "sha256": "c9d553f8c7efc2d97d62f51b5e8f8dfd218fd251b970b8874bac1a9e25674535",
+      "players": [
+        {
+          "bbox": [
+            0.0,
+            189.0,
+            25.0,
+            255.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            299.0,
+            151.0,
+            347.0,
+            251.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            405.0,
+            149.0,
+            446.0,
+            225.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            517.0,
+            150.0,
+            551.0,
+            234.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            560.0,
+            150.0,
+            598.0,
+            234.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            632.0,
+            133.0,
+            677.0,
+            216.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            764.0,
+            177.0,
+            861.0,
+            300.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            0.0,
+            304.0,
+            33.0,
+            487.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Boundary-clipped players included; spectators and two officials excluded.",
+      "review_index": 6
+    },
+    {
+      "id": "5Qw_g9E7EqE-00876260",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-00876260.jpg",
+      "source_time_s": 876.26,
+      "width": 1280,
+      "height": 720,
+      "sha256": "1c4226b6f740877a03255f9ae3b40ee67373c98a63f1b42023d2ed697010f364",
+      "players": [
+        {
+          "bbox": [
+            98.0,
+            280.0,
+            195.0,
+            487.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            281.0,
+            190.0,
+            318.0,
+            274.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            434.0,
+            185.0,
+            490.0,
+            278.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            527.0,
+            182.0,
+            562.0,
+            258.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            529.0,
+            203.0,
+            573.0,
+            300.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            640.0,
+            187.0,
+            697.0,
+            246.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            870.0,
+            173.0,
+            908.0,
+            246.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            902.0,
+            179.0,
+            945.0,
+            251.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Two center players overlap; rear player visible head/torso and one foot included.",
+      "review_index": 7
+    },
+    {
+      "id": "5Qw_g9E7EqE-01109480",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-01109480.jpg",
+      "source_time_s": 1109.48,
+      "width": 1280,
+      "height": 720,
+      "sha256": "34780b8ec9be18e249fa9a381d8dddbea7a02a6bbfc822b5651c2be9a3653dda",
+      "players": [
+        {
+          "bbox": [
+            355.0,
+            190.0,
+            412.0,
+            304.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            395.0,
+            198.0,
+            460.0,
+            330.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            315.0,
+            271.0,
+            417.0,
+            456.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            720.0,
+            188.0,
+            774.0,
+            258.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            771.0,
+            200.0,
+            817.0,
+            259.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1244.0,
+            205.0,
+            1280.0,
+            310.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Rightmost floor player clipped by image boundary; blue personnel behind right bench boards excluded.",
+      "review_index": 9
+    },
+    {
+      "id": "5Qw_g9E7EqE-01226090",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-01226090.jpg",
+      "source_time_s": 1226.09,
+      "width": 1280,
+      "height": 720,
+      "sha256": "971aa9d49ee58a1095883f278e278cdfc5e5fed9b62befa58d5df929b1258382",
+      "players": [
+        {
+          "bbox": [
+            54.0,
+            194.0,
+            116.0,
+            322.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            164.0,
+            188.0,
+            210.0,
+            310.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            65.0,
+            262.0,
+            174.0,
+            455.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            334.0,
+            204.0,
+            410.0,
+            318.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            567.0,
+            176.0,
+            622.0,
+            279.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            728.0,
+            161.0,
+            781.0,
+            264.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            352.0,
+            321.0,
+            500.0,
+            573.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Sticks excluded from body boxes; bench personnel and spectators excluded.",
+      "review_index": 10
+    },
+    {
+      "id": "5Qw_g9E7EqE-01342700",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-01342700.jpg",
+      "source_time_s": 1342.7,
+      "width": 1280,
+      "height": 720,
+      "sha256": "b6ec9bb20ac4bcc786726ff3189cf20882edc87d43c15d928c5dd3fcec96d8ce",
+      "players": [
+        {
+          "bbox": [
+            170.0,
+            230.0,
+            242.0,
+            352.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            519.0,
+            223.0,
+            558.0,
+            319.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            584.0,
+            223.0,
+            650.0,
+            321.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            828.0,
+            262.0,
+            891.0,
+            414.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            959.0,
+            247.0,
+            1021.0,
+            373.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            941.0,
+            305.0,
+            1068.0,
+            499.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1175.0,
+            247.0,
+            1221.0,
+            364.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Goalie beside official. Far white player partially occluded by near blue player.",
+      "review_index": 11
+    },
+    {
+      "id": "5Qw_g9E7EqE-01459300",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-01459300.jpg",
+      "source_time_s": 1459.3,
+      "width": 1280,
+      "height": 720,
+      "sha256": "3c14bf824060854e6c6bdee8f5be7164824ed29a4c9b6e415c9bcc8c840a4060",
+      "players": [
+        {
+          "bbox": [
+            76.0,
+            251.0,
+            112.0,
+            347.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            241.0,
+            337.0,
+            323.0,
+            568.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            496.0,
+            252.0,
+            546.0,
+            374.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            532.0,
+            222.0,
+            569.0,
+            281.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            630.0,
+            219.0,
+            663.0,
+            297.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            672.0,
+            209.0,
+            722.0,
+            281.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            761.0,
+            208.0,
+            799.0,
+            275.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1087.0,
+            245.0,
+            1137.0,
+            308.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Far-right blue player lower body occluded by near boards. Official, spectators and reflections excluded.",
+      "review_index": 12
+    },
+    {
+      "id": "5Qw_g9E7EqE-01692520",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-01692520.jpg",
+      "source_time_s": 1692.52,
+      "width": 1280,
+      "height": 720,
+      "sha256": "a3d3a04b54c1122a63faa5bff4f8ed214555b0bbd4f9248529565f91407d8523",
+      "players": [
+        {
+          "bbox": [
+            244.0,
+            230.0,
+            285.0,
+            318.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            327.0,
+            224.0,
+            375.0,
+            307.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            447.0,
+            258.0,
+            516.0,
+            430.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            509.0,
+            218.0,
+            541.0,
+            292.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            536.0,
+            216.0,
+            573.0,
+            300.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            593.0,
+            210.0,
+            642.0,
+            281.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            851.0,
+            278.0,
+            917.0,
+            397.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Spectators and their reflections excluded; seven visible floor players including goalie.",
+      "review_index": 14
+    },
+    {
+      "id": "5Qw_g9E7EqE-01925740",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-01925740.jpg",
+      "source_time_s": 1925.74,
+      "width": 1280,
+      "height": 720,
+      "sha256": "aad46c23e98a291e280011cd1611b97bf9027e5812aaff22e1a6f5a616f2e262",
+      "players": [
+        {
+          "bbox": [
+            183.0,
+            147.0,
+            234.0,
+            238.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            573.0,
+            170.0,
+            624.0,
+            260.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            680.0,
+            169.0,
+            736.0,
+            248.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            764.0,
+            189.0,
+            815.0,
+            269.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            729.0,
+            252.0,
+            834.0,
+            438.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Bench personnel excluded. Floor players remain visible below boards; no metric claims from reflected floor silhouettes.",
+      "review_index": 16
+    },
+    {
+      "id": "5Qw_g9E7EqE-02042350",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-02042350.jpg",
+      "source_time_s": 2042.35,
+      "width": 1280,
+      "height": 720,
+      "sha256": "efb9176093a7cd33a1182edba1a380d66d240319c9e805e1931f47b527223a14",
+      "players": [
+        {
+          "bbox": [
+            473.0,
+            224.0,
+            522.0,
+            308.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            557.0,
+            219.0,
+            604.0,
+            308.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            699.0,
+            225.0,
+            736.0,
+            319.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            865.0,
+            214.0,
+            899.0,
+            303.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            904.0,
+            231.0,
+            948.0,
+            334.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            928.0,
+            233.0,
+            959.0,
+            322.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1059.0,
+            249.0,
+            1118.0,
+            371.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Bench personnel excluded. Floor players remain visible below boards; no metric claims from reflected floor silhouettes.",
+      "review_index": 17
+    },
+    {
+      "id": "5Qw_g9E7EqE-02158960",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-02158960.jpg",
+      "source_time_s": 2158.96,
+      "width": 1280,
+      "height": 720,
+      "sha256": "4672c4f9c47d83127589bb0b14392ba5fc8782868e504bb27166b09a24f0a2ed",
+      "players": [
+        {
+          "bbox": [
+            482.0,
+            234.0,
+            535.0,
+            338.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            522.0,
+            211.0,
+            571.0,
+            293.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            851.0,
+            209.0,
+            902.0,
+            294.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            902.0,
+            203.0,
+            957.0,
+            286.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            999.0,
+            208.0,
+            1051.0,
+            298.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1047.0,
+            216.0,
+            1102.0,
+            308.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            1132.0,
+            201.0,
+            1180.0,
+            302.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Strong blur but seven separable floor-player silhouettes/roles. Foreground striped official and distant bench personnel excluded; box precision limited by blur.",
+      "review_index": 18
+    },
+    {
+      "id": "5Qw_g9E7EqE-02275570",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-02275570.jpg",
+      "source_time_s": 2275.57,
+      "width": 1280,
+      "height": 720,
+      "sha256": "f40f629c3bef73a934924bf284e7889e0a684523c5c26784da97589002de3640",
+      "players": [
+        {
+          "bbox": [
+            213.0,
+            183.0,
+            255.0,
+            280.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            510.0,
+            159.0,
+            550.0,
+            227.0
+          ],
+          "role": "goalie"
+        },
+        {
+          "bbox": [
+            545.0,
+            165.0,
+            574.0,
+            231.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            557.0,
+            162.0,
+            596.0,
+            232.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            593.0,
+            169.0,
+            626.0,
+            241.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            615.0,
+            178.0,
+            660.0,
+            273.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            661.0,
+            148.0,
+            692.0,
+            232.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            788.0,
+            144.0,
+            818.0,
+            218.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            473.0,
+            279.0,
+            548.0,
+            483.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Four white skaters near goalie, one partially behind blue skater; officials and spectators/reflections excluded.",
+      "review_index": 19
+    },
+    {
+      "id": "5Qw_g9E7EqE-02625390",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-02625390.jpg",
+      "source_time_s": 2625.39,
+      "width": 1280,
+      "height": 720,
+      "sha256": "9756750b243181a1450ed10eee4a38171f57d4db2dfc9225219d72d91cc86776",
+      "players": [
+        {
+          "bbox": [
+            0.0,
+            233.0,
+            93.0,
+            416.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            454.0,
+            174.0,
+            502.0,
+            277.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            528.0,
+            180.0,
+            577.0,
+            269.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            579.0,
+            191.0,
+            644.0,
+            337.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            619.0,
+            180.0,
+            657.0,
+            258.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            675.0,
+            176.0,
+            719.0,
+            273.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            703.0,
+            178.0,
+            753.0,
+            259.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            631.0,
+            229.0,
+            708.0,
+            405.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "All visible floor players, with bench personnel excluded.",
+      "review_index": 22
+    },
+    {
+      "id": "5Qw_g9E7EqE-02742000",
+      "image": "/data/ball-hockey/reliability-20261018/frames/5Qw_g9E7EqE/5Qw_g9E7EqE-02742000.jpg",
+      "source_time_s": 2742.0,
+      "width": 1280,
+      "height": 720,
+      "sha256": "659b54d407ef79dad613871e379b4ad4cad3bab3a98093203e8cdeee244bab49",
+      "players": [
+        {
+          "bbox": [
+            318.0,
+            270.0,
+            380.0,
+            379.0
+          ],
+          "role": "player"
+        },
+        {
+          "bbox": [
+            530.0,
+            255.0,
+            600.0,
+            357.0
+          ],
+          "role": "player"
+        }
+      ],
+      "ball": {
+        "state": "unknown"
+      },
+      "note": "Two players; striped official at far left excluded. Empty goal.",
+      "review_index": 23
+    }
+  ],
+  "excluded": [
+    {
+      "id": "5Qw_g9E7EqE-00293220",
+      "source_time_s": 293.22,
+      "reason": "Separate arm-only and foot-only fragments at left boundary cannot be reliably assigned to complete player instances. Spectators and reflections are otherwise identifiable."
+    },
+    {
+      "id": "5Qw_g9E7EqE-00992870",
+      "source_time_s": 992.87,
+      "reason": "White player is midway over the bench boards and a separate arm is clipped at left boundary; active-floor membership/instance correspondence is unresolved in this still."
+    },
+    {
+      "id": "5Qw_g9E7EqE-01575910",
+      "source_time_s": 1575.91,
+      "reason": "Dense overlapping group obscures a rear figure whose role and independent body extent cannot be resolved through the netting."
+    },
+    {
+      "id": "5Qw_g9E7EqE-01809130",
+      "source_time_s": 1809.13,
+      "reason": "Strong camera blur and mostly hidden figure beside right boards prevent a confident active-player versus official/reflection distinction."
+    },
+    {
+      "id": "5Qw_g9E7EqE-02392170",
+      "source_time_s": 2392.17,
+      "reason": "Goal-mouth overlap does not permit confident separation of a blue player from any partly hidden goalie equipment; exhaustive instance count unresolved."
+    },
+    {
+      "id": "5Qw_g9E7EqE-02508780",
+      "source_time_s": 2508.78,
+      "reason": "A second far-side figure behind the white player cannot be confidently distinguished as player versus official through blur/netting; exhaustive role count unresolved."
+    }
+  ]
+}

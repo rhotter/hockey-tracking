@@ -1,0 +1,114 @@
+{
+  "reference_sha256": "06d787d24ddd24b4ef28b02d12326fb9c8bf3b854b95677df57c85191bb2833b",
+  "protocol_sha256": "19fff869c01103e5a64aafaaefb2c6a4d46f9cc8685dcbf5b6135ddb8f2a2dfe",
+  "reference_sealed_at": "2026-10-24T03:00:43.033743+00:00",
+  "completed_at": "2026-10-24T03:07:15.557781+00:00",
+  "fine_tune_selection_sha256": "07cc969bd0ecf6dc09832961c2dcaecf15531d36716cc81e812a897db487feb1",
+  "rink_selection_sha256": "e36361bdc733e87f162fb855b040427977a9657ea79262756984830e1b26493b",
+  "yolo_metadata_sha256": "ebebf5449f1fda309ef2151006227638a47e02521e0a76efd693e34b25467cda",
+  "predictions_sha256": "02e86fd0b4021130bf6cac960b45719f06f7f2673b8a03191d864e8ddeeeee29",
+  "masks_sha256": "af1b10a7ed5d2e03ebe4424af6602377d37134c441cd80eb06a42733ac7ec127",
+  "results": [
+    {
+      "variant": "original",
+      "threshold": 0.6,
+      "metrics": {
+        "confidence_threshold": 0.6,
+        "iou_threshold": 0.5,
+        "frames": 11,
+        "targets": 77,
+        "tp": 51,
+        "fp": 3,
+        "fn": 26,
+        "precision": 0.9444444444444444,
+        "recall": 0.6623376623376623,
+        "f1": 0.7786259541984732,
+        "false_positives_per_frame": 0.2727272727272727,
+        "goalies": 7,
+        "goalie_hits": 6,
+        "goalie_recall": 0.8571428571428571
+      },
+      "ap50": 0.9218708472434899
+    },
+    {
+      "variant": "transformer-lr1e5",
+      "threshold": 0.5,
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 11,
+        "targets": 77,
+        "tp": 74,
+        "fp": 6,
+        "fn": 3,
+        "precision": 0.925,
+        "recall": 0.961038961038961,
+        "f1": 0.9426751592356688,
+        "false_positives_per_frame": 0.5454545454545454,
+        "goalies": 7,
+        "goalie_hits": 6,
+        "goalie_recall": 0.8571428571428571
+      },
+      "ap50": 0.9747985785046563
+    },
+    {
+      "variant": "fine-tuned-rink",
+      "threshold": 0.5,
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 11,
+        "targets": 77,
+        "tp": 73,
+        "fp": 2,
+        "fn": 4,
+        "precision": 0.9733333333333334,
+        "recall": 0.948051948051948,
+        "f1": 0.9605263157894737,
+        "false_positives_per_frame": 0.18181818181818182,
+        "goalies": 7,
+        "goalie_hits": 6,
+        "goalie_recall": 0.8571428571428571
+      },
+      "ap50": 0.9688028215737424,
+      "setting": {
+        "key": "hockey rink-0.3-0.025",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.3,
+        "dilation": 0.025
+      }
+    },
+    {
+      "variant": "yolo-pipeline",
+      "threshold": 0.1,
+      "metrics": {
+        "confidence_threshold": 0.1,
+        "iou_threshold": 0.5,
+        "frames": 11,
+        "targets": 77,
+        "tp": 76,
+        "fp": 23,
+        "fn": 1,
+        "precision": 0.7676767676767676,
+        "recall": 0.987012987012987,
+        "f1": 0.8636363636363636,
+        "false_positives_per_frame": 2.090909090909091,
+        "goalies": 7,
+        "goalie_hits": 7,
+        "goalie_recall": 1.0
+      },
+      "ap50": 0.949037594694897,
+      "reference_bias": "Boxes were assisted by these proposals; this baseline is not independently annotated."
+    }
+  ],
+  "counts": {
+    "frames": 11,
+    "players_and_goalies": 77,
+    "goalies": 7,
+    "manual_boxes": 1
+  },
+  "selection_uses_this_audit": false,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "seconds": 28.293998242999997,
+  "limits": "A correlated temporal sample from a reused tracking recording. YOLO proposals assist localization and can favor that baseline. Partial-player boxes describe visible extent, not inferred hidden body."
+}

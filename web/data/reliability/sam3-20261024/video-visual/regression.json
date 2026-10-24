@@ -1,0 +1,108 @@
+{
+  "family": "visual",
+  "phase": "regression",
+  "results": [
+    {
+      "variant": "visual-hockey",
+      "delta": "",
+      "counts": {
+        "correct": 101,
+        "wrong": 6,
+        "unknown_same": 3,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 181,
+        "matched_observations": 218,
+        "reference_observations": 233
+      },
+      "clips": [
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 19,
+            "wrong": 2,
+            "unknown_same": 1,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 9,
+            "matched_observations": 38,
+            "reference_observations": 39
+          },
+          "fragments": 24,
+          "observations": 3446,
+          "tracks_sha256": "9a4df6d5e2dfd9753ecbd380461deffe80b3155a179bd522f166edf8ff97db14",
+          "metrics_sha256": "56f842b6a984562d47cf6d60f5c2f632925aaed207cb412428eb1300190f9533"
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 21,
+            "wrong": 2,
+            "unknown_same": 1,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 47,
+            "matched_observations": 44,
+            "reference_observations": 47
+          },
+          "fragments": 28,
+          "observations": 3879,
+          "tracks_sha256": "a6fd060348213e824c7b906ca01ba1d5a6d042f348e3b38241e37cc647c377d4",
+          "metrics_sha256": "792f49f54644f5f28e69e01f0118395c1d9c6fe9a49f1a11c008078c30a18f30"
+        },
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 45,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 96,
+            "matched_observations": 51,
+            "reference_observations": 57
+          },
+          "fragments": 11,
+          "observations": 4066,
+          "tracks_sha256": "46b759d66181ae77a3e4e1ad1c1f44bc174911955660ec4392bc768033c52c15",
+          "metrics_sha256": "633c3cb5d91e8be51e71a5d80d252481ddd716b52d0739056321cb786cf603b8"
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 2,
+            "unknown_same": 1,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 29,
+            "matched_observations": 17,
+            "reference_observations": 22
+          },
+          "fragments": 15,
+          "observations": 1494,
+          "tracks_sha256": "94c221fa85549c19a15f7f24a9232366d4a84ce1c6bf1444cbc19f647549ff7f",
+          "metrics_sha256": "45e77a7ae78d49c236a7c0b7fa7e74805f516989279f230d1f1d26a36011ce26"
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 16,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 0,
+            "matched_observations": 68,
+            "reference_observations": 68
+          },
+          "fragments": 72,
+          "observations": 54961,
+          "tracks_sha256": "35f1ab63589fc7cfb14f8e330e74a24dfd43e9c80079b175e3d0e1388a33e7f7",
+          "metrics_sha256": "c0684708d875015a444b8b4ef70e8538ad982fb9abd5a8e279dccb4b8dede1a6"
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "4a89b4f9b5c4fa2b38915f8227726094b3014448d249f335c51407cad700c19c"
+}

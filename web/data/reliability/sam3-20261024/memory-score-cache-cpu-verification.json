@@ -1,0 +1,9 @@
+{
+  "official_source_sha256": "b2b52409c002e1590262375aa794f8ab67e7476f42f8fee41a76de0c14aa62e2",
+  "cases": 100,
+  "exact_memory_selection_checks": 48000,
+  "cache_hits": 470289,
+  "cache_misses": 13898,
+  "includes_reverse_stride_score_replacement_and_threshold_changes": true,
+  "gpu_full_output_equivalence": "pending"
+}

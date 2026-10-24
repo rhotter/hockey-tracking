@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "name": "fresh-detection-review-1.jpg",
+      "sha256": "83c05afb7644cdb5b91b0778ac05a13ef459aaf759530b0ca0f91c63586d90f4",
+      "bytes": 1085140
+    },
+    {
+      "name": "fresh-detection-review-2.jpg",
+      "sha256": "0fc3104d21d9551ff6c7945c3e95862505231149a84c7114fbda267408f1211f",
+      "bytes": 1033489
+    },
+    {
+      "name": "fresh-detection-review-3.jpg",
+      "sha256": "a563ee021389946832f011963ece8a17c6d51f38fb0ae4af558a47cbb7696b1c",
+      "bytes": 1076224
+    },
+    {
+      "name": "fresh-detection-review-4.jpg",
+      "sha256": "cf2a2e776224357ad33cb9de6e3f22eb1bc034f582377897ddfeb48f12a6c10c",
+      "bytes": 800917
+    }
+  ],
+  "frames": [
+    "pittsburgh-fresh-detection-00",
+    "pittsburgh-fresh-detection-03",
+    "pittsburgh-fresh-detection-06",
+    "pittsburgh-fresh-detection-09",
+    "pittsburgh-fresh-detection-12",
+    "pittsburgh-fresh-detection-15",
+    "pittsburgh-fresh-detection-18",
+    "pittsburgh-fresh-detection-21",
+    "pittsburgh-fresh-detection-24",
+    "pittsburgh-fresh-detection-27",
+    "pittsburgh-fresh-detection-30"
+  ],
+  "selection": "Every fixed audit frame, in time order.",
+  "columns": [
+    "Reference",
+    "Pretrained SAM3",
+    "Fine-tuned SAM3",
+    "Fine-tune + rink",
+    "YOLO (proposal-assisted reference)"
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "files": [
+    {
+      "name": "detection-review-1.jpg",
+      "sha256": "c5613663ecb419667c167aeab6718457eed509c9e89771a1486b1aeb4e731458",
+      "bytes": 900150
+    },
+    {
+      "name": "detection-review-2.jpg",
+      "sha256": "d7ed9072b25039d9a7e5c643d4e8d896ce97e9218a0f7ea1d3eeb587ca515aeb",
+      "bytes": 787264
+    },
+    {
+      "name": "detection-review-3.jpg",
+      "sha256": "56e5133ba44454ccf97853d71f725d37c44b3b9f1deaa8120204af1745b6769e",
+      "bytes": 784141
+    },
+    {
+      "name": "detection-review-4.jpg",
+      "sha256": "bdaa8000a190055602037efed64f2815465b1dad4f04a663a3f1b11d2674f313",
+      "bytes": 1066083
+    },
+    {
+      "name": "detection-review-5.jpg",
+      "sha256": "fcce65d0c30ae16a53ce27b5076ba4f10ddef850b66c7478e603d62a7b210613",
+      "bytes": 1102996
+    },
+    {
+      "name": "detection-review-6.jpg",
+      "sha256": "a2317595ba1c742891383f2ae2b8b41017226c2b09a82980af1012387086177a",
+      "bytes": 1028779
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": "1f0Y5BIr5Ps-00060000",
+      "image_sha256": "a8b7f9ce3b150a924e966bee3b4c90de68e31c2173dacbb32ea03642e3808389",
+      "models": {
+        "original": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-00181430",
+      "image_sha256": "d4edc8ef51b4fb4c1a720ecd2ec424d6e1a9b26c3fda0f46843bae174126c7b6",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 5,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-00424300",
+      "image_sha256": "26003f7eb43204ec49f8dcf819f56399646d9495bd9d21c825b1efbb64fcf1ad",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 3,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-00545740",
+      "image_sha256": "30401bd87a997aa3289f535451f002443cdf064ef7ac41a06dab1f860441299d",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 4,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-00667170",
+      "image_sha256": "c8816cde06908f203b5168bdec3babc3d2f2cbd38ef7b4c8aebb804772cfcb64",
+      "models": {
+        "original": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-00788610",
+      "image_sha256": "ed69496e381ac2c34ae9d3cd74ac8a063f4133b578f8e9ad100a67c5eae5d1e7",
+      "models": {
+        "original": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 2,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-00910040",
+      "image_sha256": "530d03b6334915b67d1a63ac6f64f984a3becbeb05fdd3cb7fb09bae39d0e981",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-01152910",
+      "image_sha256": "0db8df9a0a4f552e7b3dfa1c6146ebe351b70815440e22c9a247508356913a6c",
+      "models": {
+        "original": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 3,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-01395780",
+      "image_sha256": "0355ee97bbf761684656b1d10d140426b418503c68e6ff33110af65d73ffa24b",
+      "models": {
+        "original": {
+          "tp": 10,
+          "fp": 1,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-01517220",
+      "image_sha256": "f04d7d7871770ef2c32098a616c62ecaafa1791d4eb27900b66dded78b933552",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 5,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-01638650",
+      "image_sha256": "31e22e3ba5a62c15a8b8eb1d6ed722cda3f3931be255ab7c6a3395e00386b5eb",
+      "models": {
+        "original": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-01760090",
+      "image_sha256": "be1236aa51fb455a02b11e411504d42056d077663a2b8bd0e3a91e82f57a5e5c",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-02002960",
+      "image_sha256": "7819f14499eeb99e5b8685ff0b9f331e6e82b7f921b6110af609f2908b06dcec",
+      "models": {
+        "original": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-02124390",
+      "image_sha256": "358722bdbdfb5367a1097dba681179c6437f2e034440ff79814236a7f86905af",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-02367260",
+      "image_sha256": "d1c4d86c710d4476e6879d8fcaf63e446919bcadfb89937a9b4832881ee4741a",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 5,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-02488700",
+      "image_sha256": "f893cca9c0fa80ca607c7493453e7a50dd65434c279851b40cd3825eea5ec9dd",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 5,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-02610130",
+      "image_sha256": "15d7da2bef79e3890f6f76da09afddd6de0f99a3b4ed38f09fb911375265a756",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 2,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "1f0Y5BIr5Ps-02853000",
+      "image_sha256": "f846b6007ec081e6002e7c76196a77fa6e325222b3c6cbd54dcae9dd8f584555",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00060000",
+      "image_sha256": "9f2fc7515eb3875572f27c727e044f6ddcb371108efaf2bf65e9f6b50154e793",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 3,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00176610",
+      "image_sha256": "96f2b08c4c8df68bf4cf3edaed4a0394d195586ab2623dd1ed55af927ebb487b",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 2,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00409830",
+      "image_sha256": "eac162a34ba5899ebc9ed279ee73d0983cee6aafbb0e4ed5900e7fe525de4e4d",
+      "models": {
+        "original": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00526430",
+      "image_sha256": "85919c3f0ec8a6024096f8ea50721e2003926bdaf9d5030442ef2ffad36c7ce0",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 8,
+          "fp": 1,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00643040",
+      "image_sha256": "ab733db6aabfa0f1fd980b99462accd2dad27d768038335d52552dde2b1a6055",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00759650",
+      "image_sha256": "c9d553f8c7efc2d97d62f51b5e8f8dfd218fd251b970b8874bac1a9e25674535",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 5,
+          "fp": 2,
+          "fn": 3,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-00876260",
+      "image_sha256": "1c4226b6f740877a03255f9ae3b40ee67373c98a63f1b42023d2ed697010f364",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 3,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-01109480",
+      "image_sha256": "34780b8ec9be18e249fa9a381d8dddbea7a02a6bbfc822b5651c2be9a3653dda",
+      "models": {
+        "original": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-01226090",
+      "image_sha256": "971aa9d49ee58a1095883f278e278cdfc5e5fed9b62befa58d5df929b1258382",
+      "models": {
+        "original": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 3,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-01342700",
+      "image_sha256": "b6ec9bb20ac4bcc786726ff3189cf20882edc87d43c15d928c5dd3fcec96d8ce",
+      "models": {
+        "original": {
+          "tp": 7,
+          "fp": 1,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 1,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-01459300",
+      "image_sha256": "3c14bf824060854e6c6bdee8f5be7164824ed29a4c9b6e415c9bcc8c840a4060",
+      "models": {
+        "original": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-01692520",
+      "image_sha256": "a3d3a04b54c1122a63faa5bff4f8ed214555b0bbd4f9248529565f91407d8523",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-01925740",
+      "image_sha256": "aad46c23e98a291e280011cd1611b97bf9027e5812aaff22e1a6f5a616f2e262",
+      "models": {
+        "original": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-02042350",
+      "image_sha256": "efb9176093a7cd33a1182edba1a380d66d240319c9e805e1931f47b527223a14",
+      "models": {
+        "original": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 6,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 6,
+          "fp": 7,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-02158960",
+      "image_sha256": "4672c4f9c47d83127589bb0b14392ba5fc8782868e504bb27166b09a24f0a2ed",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-02275570",
+      "image_sha256": "f40f629c3bef73a934924bf284e7889e0a684523c5c26784da97589002de3640",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 2,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-02625390",
+      "image_sha256": "9756750b243181a1450ed10eee4a38171f57d4db2dfc9225219d72d91cc86776",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 8,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 7,
+          "fp": 5,
+          "fn": 1,
+          "threshold": 0.5
+        }
+      }
+    },
+    {
+      "frame_id": "5Qw_g9E7EqE-02742000",
+      "image_sha256": "659b54d407ef79dad613871e379b4ad4cad3bab3a98093203e8cdeee244bab49",
+      "models": {
+        "original": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "threshold": 0.6
+        },
+        "transformer-lr1e5": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "threshold": 0.5
+        }
+      }
+    }
+  ],
+  "selection": "All 36 reused regression frames, sorted by frame ID, six per sheet.",
+  "legend": "Blue: reviewed reference. Green: predicted box matched at IoU>=0.5. Red: unmatched predicted box.",
+  "adapted_variant": "transformer-lr1e5",
+  "regression_sha256": "07056d9123b154cc9c28c3806b3a0a0fffa29200be3232b7e45b6c14dbfe4dcf"
+}

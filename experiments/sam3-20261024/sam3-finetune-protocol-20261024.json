@@ -1,0 +1,25 @@
+{
+  "id": "nbhl-sam3-box-adaptation-20261024-v1",
+  "training_sources": ["Z-tFHtxODsE", "OLpK8enSjJs", "WWX74oJC9co"],
+  "training_annotations": "canonical-expanded:196 complete reviewed frames,1434 player/goalie boxes; assistant-reviewed, not independent human ground truth",
+  "validation_source": "b8CM4rZexaY",
+  "validation_frames": 23,
+  "regression_sources": ["1f0Y5BIr5Ps", "5Qw_g9E7EqE"],
+  "model": "facebook/sam3",
+  "code_revision": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+  "weights_revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "prompt": "hockey player",
+  "resolution": 1008,
+  "variants": [
+    {"id": "heads-lr1e4", "trainable": "transformer.decoder.bbox_embed and dot_prod_scoring", "lr": 0.0001},
+    {"id": "decoder-lr1e5", "trainable": "transformer.decoder and dot_prod_scoring", "lr": 0.00001},
+    {"id": "decoder-lr5e5", "trainable": "transformer.decoder and dot_prod_scoring", "lr": 0.00005}
+  ],
+  "frozen": "Vision/text backbones, transformer encoder, geometry encoder, segmentation head, and temporal tracker. This is box-supervised detector adaptation, not mask or temporal-tracker training.",
+  "augmentation": "Each training frame and its horizontal flip, with exactly mirrored boxes. No validation augmentation. Frozen backbone outputs cached at float32/bfloat16 original precision.",
+  "optimizer": "AdamW, weight_decay0.0001, gradient_clip1.0, batch1, seed17,20epochs, cosine LR decay to10%. No early test feedback.",
+  "loss": "Final one-to-one decoder outputs only, model eval mode with gradients enabled. Hungarian matching on5*L1+2*negativeGIoU-probability; training loss5*L1+2*(1-GIoU)+sigmoid focal(alpha0.25,gamma2), normalized by ground-truth boxes. Presence multiplication follows official inference scoring. No mask loss or guessed rectangle masks.",
+  "selection": "Validate after each epoch. Max validation F1 over thresholds0.1..0.9, then precision, then higher threshold; select best checkpoint across variants before regression. Original checkpoint is a candidate. Never choose using regression results.",
+  "smoke": "Check finite nonzero gradients, changed trainable parameters, unchanged excluded parameter groups and falling loss on four training frames before full runs.",
+  "video_transfer": "Load only selected detector parameter delta into native SAM3 detector after strict key/shape validation. Evaluate tracking separately; detection gains need not improve identities."
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "pittsburgh-fresh-detection-00",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "ecf31917d5c99ce52cf6323e307ddd0e29c5274095979d99ebf224f8e7e701b5",
+    "packed_bits_zlib_base64": "eJzt171uFDEQAOBZrcRRIG1BhRTdBvEClHRueCF6pN3TFZT3Akj3IhSbUFCmpKGwOKSULFyBT1ge7IuUmxmzs7oCkcIj5Wcy/uK/eJ0FKFGiRIkSJUqUKFGiRIkSJf5J9Hr58enbOkzx12u8CyfLDYa+xfvwxx8+ArhLQ/zqaiQxAphTZhvE3tC6A9I88bFCFhlvWXk8kwPnP0nzAF3GL0lzu9B5ZfLeKX8WexCDZ/wGrcKHiy7QyQju6x0ObOX53Afz1MX5MU6au9p1TxasHGjzFX7cDZxb0twZfP9WcpK8Q78Z+ODTZtyPBPHK88Ez3qA31yq/9S8478lgU1PBv9HBxw//nHOLPK5bln4XZclFWXIZ3qhlvNLLfqn71cDSbPCvGppmg0e6ljlHxzb+wXGWZXycmTuw7FzuZjjofNC5n+HAHyeSW/40ktyD3vug9x5vjk7jPagbN8/Fwy7jRqsPOvcz3Oo8jk7lXuyMjEHcE2dyq/NQ+H0q62Ll8xP3P7mb4b0+dycOdM4brSxPZM4XWvlh80HnnvO/bJzKA1yqvdt6hr80Kq/WWjnAstX5D523W60+VI6m+d98e6Ny8J1SjnfcrcYtBKPVodlr5RFwq/PDDN+QVM49QONpKnm83+naSD5CE7ppHt/ekK5NfkG3aKZ5eprQtZEcIm+nuY2cro3gfeJkcoLH81gh3ficGzo5weNbZY104wWHxHcKX8b7u8WpgMVocHrj43tX5JvJeo+R+8myaxP/NFlf4dgh3XjBDcanxfShWB+5Of0g/ab99sRD5OTE/0qfThfLGm1H1mZ/5G9I74mTtdn//pL+U/yMXy9iy0OV3u8/pIskxPeug/N/AKoL6jg=",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.4820798689846309,
+      "removed": 129,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-03",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "fac62242e85fdcb6e5234017e60894e58b1cb01f9f9140ae86fa50eccb5c386b",
+    "packed_bits_zlib_base64": "eJztlTFv1DAUx51LhcesnTASA3PF0qHCfJR+hEosDAjndAMr34CPUlcgsdGNtan6Ac5SB1LV5GH7JVEuyXNOnEAg+T9Ed/nfz3/7+dnHWFJSUlJSUlJSUlJS0v8nUUbt3LKLmK80h4jN7UpBRfugX0CE500OYF6fkelGABzlmkjgkDmcvQLQ83glXbqLmJ9Dmy68P5egtMN5CTA/AK+5wy8K9MuJX5QOP2IKiAHe+nT2srXdx13lZZi86Pxm5J8G/BQIP//iSPZc936V7/hnvnSrp0VnWybrIa6dw06qHv+W76zxvcObFZed/VDLYRWlcl+rZ6rHP10Nq5zjhHlvX9mwzvV5i+OPe9zKgNcCBnjWlwbubFjH2i+jx/u5+eIG3L/52OKWDWwI+MY/OrwsZnFzUgXcEHgOuJLB2lohLuEWcTX2N+3Dj9XgHHdwgWOEqVRMjv11i/MFXO2DZ2PbDHHNxNhniDcet1O8KhCvEC9GdhPwHNNdF05w/95gumvzMQ7av88Q1w6/HPn+fSVCuuuP4mFk++9DfLI6p3tsKIeL+xkb4NKPALrMQM76fgIBv5u3EWdZTeDuHg7NPemrFvcN5SY/7as23XHN8UztBjjoSdsMcX9FEDYepgjuwZrGw6xKEg9HhsabYJSTruu0RVxQOOyFE5Xr8EnTdro+DG/TiW3vcUXxAX9C4ajyXEZxTu4M4iaOF+sovq5FFMe7n1Ruo7iRt5SlAt5Q+A9MN1F8A9TGdriK4x+o4RGvKTzocxy3krpN9sRtNJ0sLIosbCt6W0PpItuq/INuqoAbal8AL2jyuEO43w2dHnD6QIX08V/MQIq2ejwp6a9qqevUH03fxu0m4b+Lxy9wgK8L+EL69WH4gWtfSF/C/22puH3ggTWrY8Z/KtgK93h8bOzNu++y4jduy5o3YOpftGhzfA==",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.500866087175611,
+      "removed": 100,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-06",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "7e2e82953b054bacb69908494f7ff19dd5a4fffad06b2a32bbd20cbca474a68f",
+    "packed_bits_zlib_base64": "eJztlz9OwzAUhx1ACgvKDfBRylE4BkiIdOvY3oCrhBN0ZEOpGBhxxYAH6z38nDR26IstAYWh/qRGqX/99PwvbitEJpPJZDKZTCaTyWQymd/kFC2rybiiGOf1VO5iXeI5H0uXN7idc6kqXGwqvGRrt53e4kar/biATocK5PpLXlHtXt/ixqBxzX0vCqSP97pFggRqPxvG7KrPdjlunCCuXFxjp58OsR3A3U53rUIaqbze4HvTly7dgEp8wZEu7sP5pOtIV7I923XNTjddy1BfgLj2ekt6HehU0euwpyOI20UT1e2L18HeGpoTPaHb22ZJdbqxO33hq9tpMOcu8LoOdDsNTbcJ/dXruhhEcFc11ufSNnXi26D7zmtSL9Cjxp2nESuc1JUYutVV1wl9Oeq81R963Qw6YKC/7PT1oAd9FTf1nu4xtF6j6mPcXnwIOj+mFX6DMjr0qz2ty7he+HtGV3EdV3EdE7ryY+P12R/pLIHOkdAhobc/1MtoDHQURGiCk4OJjd9V7NT1R8F3dToOIrr2u4qvHtfNYfU2PnYQTGOAquJ5YuF0fN3d10QEk9Lj1SGhB9+WLIkn7rA6JPTgh0ZCZ0+bhJ7qvKnjecZRx+OPn+lP/1r9mPUE7BMXwB3Uv1f9qKnj8YG3TYLEugNTPWyzZ/Y7PtLP81d6u1Az+/frUtRwQtn2+RPf7+Ta",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.4494992441421013,
+      "removed": 95,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-09",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "084f5fa96c18a56259b526377234070702c7fb50e50ecee9cb409a650010680a",
+    "packed_bits_zlib_base64": "eJzt1D1uwjAUB/BnUQmGqvQE5AqslarmSmwdk04dewSO0qAOvYa5gdkyWH6NAyH+iN6Dpiiq5P+ACC+/PGM7BkhJSUlJSUlJSUlJSUmZODMFGZaDFbSfuRCIGBWXzY+1vUk+5s1X7RXn+glP6EXM7FfjlhG/7W+Hlq8zRK9Be78la1jAc9v91KtNdirjF4hqXnbXXYO8K8tNuVpt4MS7AZ61Xi7EwcD9El1/LuNevTfPgApdvzyX8XNhzZkf56Ivo2wqVc/bulM2YB951z9QOUO3c7O13BFe825EvVBe8zaV828aXkR83l+o6OkNdy68sbcxrhjg0udhd3QHp9yhHFML996Ylx6P/nvAc5qLsBzwLKz7PJqbgEdzw3DFcH/qorkJeDS1/4lHC3vv8zzkO4Z7mzbmkuTmweEy5tLh5nq+Z3jGcDUl39Fc35bva5Jj/kFyZDhuae5kkDuZlg/seS+jeXSUBjy7KY+O0oBHR2nAC6IsBw6zK7i6KTcMr+iF1UAvLMMNwyW9sAbohVXMvhjHp+2OQO9KxWzqcdwwXNJcM7wa172iN7XtTr0TkuaG4Ux3jjPdEehXSjGv1HhO7UrFbOpx3NyWS55Tu1Ixu5Lh8gJe/Lo7N3im+0iu/6B7QXPqlbpg6qbj9rgQurnjzUCmCqzzooZ5DTP9CqIE+AFAt683",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.4764424288233812,
+      "removed": 112,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-12",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "61033d8105b3b6eae04574a4dfc1a00f840fa02483e150938f80a1f3317342d9",
+    "packed_bits_zlib_base64": "eJzt18Fu1DAQAFAvkUhP7bW3VOIH4MYtf8I3cOwBYSMO5Xf4AiLxAf0Fox64mhOuFGVwPI7jJDOzopUQB4/U7e5OX2yPx+muUjVq1KhRo0aNGjVq1KhRo0aN/yx6mB/BEKkrAGjBzc9G1e+SJzAh7XTiTfy7IgvjzO/AztyHYWBY001IPYYfr6eFQ3GB+VWMxN3MwS/pdkm7flI3SukEzC4NYVIvw2sb+TKBfPHAwb5X6sM82+xPOQ1hAfeDar+oDlavVz4/KPVoFmJSzYpw6urtwmN+mw78IfPpyMPqb9PksT56kw7iyuTlbpae+Mln4uJmb+Ii7GoecVOaNOHW5XIQPFzbdAIfWsjrnXm3TYeecuXop20ahuYM7zZ8X9rh+uO1LviutGPz8ONO4v2lzP2rzyK3t33BdzszNtDmcqnDxgbubmRuO5FDvjrNxyxonoPma1C8eE3x8jXFi+cUL3eC4Ebm/nn83OgOf90zHJA7zfAxPk4NxzFwf9TxRKaLZL4/kX/J9ycy8Q7wZrU/E4lHZYkzUYwu8OYfcbK0BdfP4z3LQXGlxdLF/4Mdlce7LcudkjlWjOVW5hMuWeB64dTOII+lI3cGuX067yU+4lFg+RA5O3kvc69krgquj2lXcKqtzvNO5ieJ+4JT94uh4N0xPaGyXF+4WLKJ44AlE3jza94+noM0uo+IH92sB5bmfZqjxB3fFyun+uIMd2e4WidPcTwSuHaiL6aS62N+kHk6UQPHTXxz5LjHN5H3Mie60mFBWI4FmThucTctw9OtjuWDAol7nBzL0yd+bvLYs/zaN7zjOH5bIpo6ccPwVFnH8dRqZ3j6rkaMjr0yME2d2mJ8Kr8suT5y24v8RSOOrl53K29/h49p2vQ/v7k33/1F+/VdeL+x+pP9AyPqfcc=",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.3724962207105064,
+      "removed": 90,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-15",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "7598d9fb8bef176579071c847e8c8b66b57364978e993d0029e4a37a55b0a487",
+    "packed_bits_zlib_base64": "eJztl79q3TAUxnUxxEvAGe8QqlfImFKKAx36Gp36DB1K5UuGjn2BQl7FIdCMeYFCdcmQMQodqoLQqWTZV9L1kUz/0NCib7mxPv18To6OZJuQoqKioqKioqKioqKioqL/T4fVXZfzXzGApAk9qQF0k7BbbaYA8Af8Dg3wk8b4zQXug6o7YwvFZj4MeP+GWvx6P8MWhMM3xpYaYn/lrg0uLf4FYr+1Ic0vU42N7tT5yG76qY3eTLae3LWlgZPqakzeSZw52wy72WZagEMtnP92wG+7FxDhnMnBrh1+ehjjugbH62FouzHTwuT7sX4NH2avjw1+LT3egHhi/Xe2HPD1YWvGWMfAa2VvUG/dxUc7TdaBLagt0HQ1TCMxbhqlgZDYw40f2jCsQoBDH+PVHg48xukeDjcRHgYTNpSO8TDYEOo+j8ea8Pc7/BuGD6TDWYS/HH50lcAP3Gyewl87fJXAK5cdp/YiIh1+EuD1zBbVhwCf2ZqcBvjFzOdXNx6fSx0+d3iF2rC5Gm/TorY8brP4+QyP1l247QcygdcjHnQXC2yuHM7jVt6FahyuybyqVtsR76Pe30lRhyuCZ3epaA7XtB/xVSK6y6qLto5XYw4RIxngLLC/Qzviu60Tdd0o6U+JuGlHLeCC4KWdROJDBsGnoBrziV+ZG8QOcIXhXR6XC9F/E+/zuFpIPsDvEVsvROeJpvZ4m/N5oqk9TvN4ti8Mnr09J2dT3+D/+8EUHi0dJ8xtjhRew5heonTMnJbXOVxVkqVwYRZGNHUKB7sw7kRK4tDRNG4rU2VwbHQPT+vP4enkBy0lj502YXT287hewPnj4v4cx3H6b+D4lqHIqNcWfwROUkdt1r88z+Prv4VjpVNHdPc3Q/zgPfsOjZ7fMrf+qwLdcf6rAj0qwePYQwokzUZ3b9Tp6F447rWAP65+KXmax4M3fbsGWxDPhkeObAE+k6efSLsxn3SVeU0gPwBoUc91",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.4470742000503905,
+      "removed": 97,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-18",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "498ba39316e497ef3d158a8652c02b4634d15360bc4e96e3c18efdd5f18cf716",
+    "packed_bits_zlib_base64": "eJztl89u1DAQxhMFNVRC5AWqWrxFDwjzGNyAN0DiikhWK3Xfgr5Kqh72yCPUpYc94j3VSMaD7ckfJ3GyQqvlgOa7xPE3v8x4vM4qSUIikUgkEolEIpFIJNI/FIc6F3NmCgAm+WoH8RBrg8xlkhQyZhfOr0oXqOZw5XGIPR9xnsqkNBdzeKZ4ksPDj6nNEM8sDpdXEzvz+LliVe5W8Xbsc4/fr4zFAZ6N3BrxC8mExz/XA/s54qttivhmskDEPyGuuBnZ7z2+a/A1iKwK7dzjrMmuS3CbFKj0OFjc1wE2LHA/+M6qQjDhlwHaAr19lvpJu/IWdy3q80tAiaLBpVtNt8CisbWtye8B+KmuQY0Nd2uBiQT+jsb41SXiBqfkCN+skWtwm26Aqy9vcGywWa1fNv76rsNxyvSNddGvIdkg1k4Nstt6Xvje1O0TTZjdhT8OcTPCCxZmRz/EVVi8UxXign0f4q6SHjep8UaAW74f18xXJwPcVtQNdQq+OndIugjZh9bsF+IcHrvJnz3+Cr5hRq473PT4NdNbe7HvhHwTwdVHEA6rsqDkAW5cqSq1dcBUag97n51HTCtsvH1zxG25x+uReB3iQfEMcT3Ad91oH8XL+3Z4g5ukg30NW/e72aS6jGeHZRza7HM4LOMQwaca4lP9Ff50AJ88SxfhXQRfTD7CpzoSv122DVv2Hw7gB7KL0+J82SeRDmq3bOPf3rymL6shfiD7kTiJ9L/pxEeGTtzJVJ4Uf9K3UBWSg1y5L5+X7xL3DZ1VZ+4u29Z/AMiFGeo=",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.45586104812295286,
+      "removed": 103,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-21",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "863b52762fe5106a9f3cf457dc6002cc8c6d15de1d9b82eddcd4cb1f4773c118",
+    "packed_bits_zlib_base64": "eJztlzFOwzAUhhMyZCM3wAP3wAMH4QqMDEjOxtgr+SiW2MGdyBD84zR2mrT2C6JEAul9S9v3+3tOXMdqi4JhGIZhGIZhGOYfUq3kz6ql4voV0I/5XEkAhL73sX3K6zufvxhhM3r/AHSqBNqrVC7NoFsBmNQ1Vq7xObyOpk/pw9Vh0G2qQQVEfYca5kxH1HvfAKcD6lEPXTwaenHvh6KRMe6b+UqWY72f6/7jlN+OxXbSu2bst+jeHfVWhTaHeByMQsTY1tPAIQ/FctJDQ4/zsQjvmmn2SZ/NqotjSc1yLU/1Be5cXxCWrM/p9WX62uyC1Psi6iqZ6yYMq5Pxmm5o3ZW0PmxWQseaLoNeJWM0UZfJeA9aV1EX6TzqhoqhrzPtg1526W8u6iLcZU6HVom6C69GuszajsNKdDdEf7+7zD2pzx75c7QANf1wmlji6jTRGovDaBNdpesfQc/dmPqW3q3o8XzcRrfUpsD8eE2yre5WdHOhnnveRs2VmTgsXThwf6pbRepZPuh4Y51hGOZP4Fby98t0hvl9Nt602+ob/7rYn47u1efhXef/8su3uy9xHkv3",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.5277935248173343,
+      "removed": 148,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-24",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "2b8dc73d9618efc98ea9073ab239605f8a7941d44b7fac98e54f0fe14ea6f45b",
+    "packed_bits_zlib_base64": "eJztwQENAAAAwqD3T20PBxQAAAAAAAAAPBgfAgAB",
+    "filter_diagnostics": {
+      "fallback": true,
+      "surface_fraction": 0.0,
+      "removed": 0
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-27",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "a586cd1e672cd158b881629d237a30f87037e16bcb1af9ab941b9551d6b06b18",
+    "packed_bits_zlib_base64": "eJztl09Kw0AUhydEmE0xLt1V8CARXHgNwQvkBpMDCL2KNzB0ocdwQLHLpisHHPPzJa2lSecPIsGK71vM5uObvL7SQoRgGIZhGIZhGIZhmHG4DmuZ3AV9oUpRee1ESnMxSa1H46VQt0Lkbp+iuZIf1WkKuLQCXo1qlM4BvT83gEbN6KAcZqipAZbvdLT50E+xxabd2R97h6q7qXHHXzlqdwzMu3z7+ZK+hT3v5XKg8dDL86G2lzt5OrSD4ff1ZviK5tIi8+Xt7jLtyLEeVxzT3bUj3zzkzNLdtfL5edbQ3Y8+jRVMRt+019+jBJ69mgagfBrwhA7rWL4Ka3h3s6aO5HlYv4V1YHUdi3HzsB756YjkkdUddh4htvlx88MmtnmG+T6xn8zyH+cMc3io3x5gRP7038W4OePnh5vXpjjKE3qfVtYsSnFjZHXSvjo+KVSYof4EcrggcA==",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.48944948349710254,
+      "removed": 137,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "pittsburgh-fresh-detection-30",
+    "mask_shape": [
+      252,
+      252
+    ],
+    "width": 1920,
+    "height": 1080,
+    "frame_sha256": "7263e444f0f53bab2d264be4c61e3952b59f3eeffe121135e0fa52bb2b6ce596",
+    "packed_bits_zlib_base64": "eJztlzFOwzAYhVMyZEFKT0Cv0JHNI9fgCJwAIzGErSNjLsLQjWNgqQMjlhjwEPywE9K0qeMMUVQJ3rdYyctn/38SJXKSEEIIIYQQQgghg6zvY+kiLYFqME7XAoBahl2TiIWLbRqcQOLpRq+8LvBwkmaAeYXXkQLbfuzPX0qVu0G7EtRx6meFLuzSj4/o5XUKJHK3cYPxHZiDqpsUprDXrQ67jwU6ylaH3vfUp2jWanvqY2Sni9P4QA/IR3oobvS6+HxYV3HdP7yriO7tKqhnTXF34cWhGz3X4cV/uYUKtt6xldG4yr7iOuI+4jpm1s/LRzy28+rvI7qM55PvfDl2QYyR3v8zE18bQv4c5/3SzqsTQgghU9htXuS3G9/qg0/g4tntQt3vaeU2m5X9Ab71pjQ=",
+    "filter_diagnostics": {
+      "fallback": false,
+      "surface_fraction": 0.5066452506928697,
+      "removed": 136,
+      "dilation_pixels": [
+        4,
+        7
+      ]
+    }
+  }
+]

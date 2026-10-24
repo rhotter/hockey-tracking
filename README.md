@@ -19,9 +19,19 @@ npm run build
 npm start
 ```
 
-Python 3.10+ and Node.js 22+ are required. The App Router renders the six research pages from trusted templates in `web/`, with server-rendered React content and the existing video/canvas controllers initialized after hydration. Existing `.html` links still work. `app/`, `components/` and `lib/` contain the Next.js integration.
+Python 3.10+ and Node.js 22+ are required. The App Router renders the research pages from trusted templates in `web/`, with server-rendered React content and the existing video/canvas controllers initialized after hydration. Existing `.html` links still work. `app/`, `components/` and `lib/` contain the Next.js integration.
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
+
+## SAM3 fine-tuning and longer replays — October 24, 2026
+
+[Results and evidence](https://hockey-tracking-phi.vercel.app/sam3-improvements.html) · [Complete 20m 15s replay](https://hockey-tracking-phi.vercel.app/tracking-replay.html?clip=pittsburgh-sam3-20min&method=sam3-long)
+
+Six SAM3 weight-training runs used 196 reviewed NBHL frames. The validation-selected detector improved from 52.8% to 88.1% F1 on 36 reused regression frames. A separately selected, post-test rink-filter follow-up reached 90.8%, compared with the existing YOLO detector’s 89.0%. On eleven newly annotated Pittsburgh frames, the frozen fine-tune plus filter reached 96.1% F1; this is a small correlated sample, assisted by YOLO proposals, from a recording previously used for tracking.
+
+The prior SAM2 + OSNet + Qwen pipeline remains the recommended tracking baseline. Adding SAM3 agreement retained 111/129 correct sparse connections and zero known wrong merges, while reducing unverified joins from four to three. This is not a verified accuracy gain. Decoder-only SAM3 adaptation also reached 111 correct connections, but introduced three wrong merges. All selected methods, unsuccessful alternatives, and separate short/five-minute counts are published.
+
+The full replay contains 18,225 frames with native SAM3 and two existing SAM2 appearance variants. A separately sealed 31-sample interval matched all 88 visible reference observations with SAM3 and kept the same ID across all 78 scored adjacent transitions. It covers only four initially visible players and does not validate full-game identity. Each 315-second SAM3 run took 65–110 minutes on an H100 and used 223–341 GiB of process RAM; this is an offline research pipeline.
 
 ## SAM3 experiments — October 23, 2026
 
@@ -53,8 +63,10 @@ No account, GPU, model download or video is needed. Python 3.10+ is sufficient:
 ```bash
 git clone https://github.com/rhotter/hockey-tracking.git
 cd hockey-tracking
+python -m pip install .
 python scripts/verify_results.py
 python scripts/verify_sam3_results.py
+python scripts/verify_sam3_improvements.py
 python scripts/verify_release.py
 ```
 
@@ -80,6 +92,7 @@ The example uses explicitly synthetic data. `hockey_tracking.reconnect.reconnect
 - `results/`: pair outcomes, all comparison summaries, exact changed pairs and recording references.
 - `experiments/reference/`: selected original source and frozen protocols, preserved byte-for-byte for auditing.
 - `experiments/sam3-20261023/`: SAM3, SAM 3.1 and SAM 3D Body experiment source and protocols; outputs are in `web/data/reliability/sam3/`.
+- `experiments/sam3-20261024/`: SAM3 weight adaptation, hybrid tracking, visual prompts, longer replays and independent result-recounting code.
 - `experiments/provenance.json`: original source hashes and release origin.
 - `docs/`: pipeline, evaluation limits and external artifact requirements.
 - `tests/`: assignment, observation-preservation and original-solver equivalence checks.

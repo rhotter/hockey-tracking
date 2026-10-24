@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "clip": "gb-tracking-1800",
+      "frames": 300,
+      "all_frame_rows_exactly_equal": true,
+      "before_sha256": "795338c74e294a01a0606c8b53e627ca54cdf64dc3d20efe35e6525a80d768b2",
+      "after_sha256": "2d00cc18f4b6bdd2ac6f526445823964c1c90f34c7ece052d1812b6d19c0b536",
+      "score_cache": {
+        "calls": 922,
+        "hits": 23102,
+        "misses": 925,
+        "verified_calls": 922
+      },
+      "before_inference_seconds": 84.892382927,
+      "after_inference_seconds": 80.37313146700001,
+      "timing_note": "Different cloud workers; verified control also executes original selector. Not a controlled speed benchmark."
+    },
+    {
+      "clip": "gb-reid-long-0900",
+      "frames": 900,
+      "all_frame_rows_exactly_equal": true,
+      "before_sha256": "bcc267c18b7afddb4ea0509a22aa51c2a628c28b81296143bdebf33ed328b80e",
+      "after_sha256": "7efc8c293c76ce697d48f49c81fe33bfbeb1088761a8a63647174f56c72e8ae5",
+      "score_cache": {
+        "calls": 13606,
+        "hits": 1278340,
+        "misses": 13479,
+        "verified_calls": 0
+      },
+      "before_inference_seconds": 375.021828417,
+      "after_inference_seconds": 339.34655780900005,
+      "timing_note": "Different cloud workers; verified control also executes original selector. Not a controlled speed benchmark."
+    }
+  ],
+  "total_equivalent_frames": 1200,
+  "scores_and_memory_preserved": true
+}

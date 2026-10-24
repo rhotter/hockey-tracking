@@ -1,0 +1,705 @@
+{
+  "clip": "pittsburgh-sam3-20min",
+  "variant": "default-offload",
+  "frames": 18225,
+  "duration_s": 1215,
+  "source_id": "JlBtScHdcg4",
+  "start_s": 1785,
+  "inputs": [
+    {
+      "clip": "pittsburgh-runtime-1785-315-absolute-gpu-bounds",
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 0,
+        "different_total": 0,
+        "missing": 0,
+        "matched_observations": 0,
+        "reference_observations": 0
+      },
+      "fragments": 110,
+      "observations": 79021,
+      "phase": "long",
+      "variant": "default",
+      "delta": "",
+      "offload_history": {
+        "records": 269393,
+        "bytes": 343702683648
+      },
+      "settings": {
+        "memory_score_cache": {
+          "calls": 272309,
+          "hits": 115047315,
+          "misses": 270252,
+          "verified_calls": 0
+        },
+        "initial_prompt_output_count": 15
+      },
+      "total_seconds": 6473.560369833,
+      "inference_seconds": 6457.1139827199995,
+      "frames": 4725,
+      "duration_s": 315.0,
+      "source_id": "JlBtScHdcg4",
+      "tracks_sha256": "f67e1ae7d96e38a529f6eca4381c2fd2f842c7e6ae48620708e253a3dd6f6e4b",
+      "cache": {
+        "frames": 4725,
+        "capacity": 4,
+        "loads": 4725,
+        "hits": 4727,
+        "max_decoded_bytes": 24385536
+      },
+      "peak_gpu_gib": 22.47271966934204,
+      "peak_process_rss_kib": 345671996
+    },
+    {
+      "clip": "pittsburgh-runtime-2085-315-absolute-gpu-bounds",
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 0,
+        "different_total": 0,
+        "missing": 0,
+        "matched_observations": 0,
+        "reference_observations": 0
+      },
+      "fragments": 87,
+      "observations": 89123,
+      "phase": "long",
+      "variant": "default",
+      "delta": "",
+      "offload_history": {
+        "records": 236158,
+        "bytes": 313059520512
+      },
+      "settings": {},
+      "total_seconds": 6680.039568084,
+      "inference_seconds": 6605.143968598,
+      "frames": 4725,
+      "duration_s": 315.0,
+      "source_id": "JlBtScHdcg4",
+      "tracks_sha256": "c7a54213ef2bfca88228addd6da8ce09a951939555d366e17fac3056b249347d",
+      "cache": {
+        "frames": 4725,
+        "capacity": 4,
+        "loads": 4725,
+        "hits": 4727,
+        "max_decoded_bytes": 24385536
+      },
+      "peak_gpu_gib": 20.187026977539062,
+      "peak_process_rss_kib": 315407576
+    },
+    {
+      "clip": "pittsburgh-runtime-2385-315-absolute-gpu-bounds",
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 0,
+        "different_total": 0,
+        "missing": 0,
+        "matched_observations": 0,
+        "reference_observations": 0
+      },
+      "fragments": 116,
+      "observations": 91389,
+      "phase": "long",
+      "variant": "default",
+      "delta": "",
+      "offload_history": {
+        "records": 246044,
+        "bytes": 355729231872
+      },
+      "settings": {
+        "memory_score_cache": {
+          "calls": 248910,
+          "hits": 78834856,
+          "misses": 247052,
+          "verified_calls": 0
+        },
+        "initial_prompt_output_count": 22
+      },
+      "total_seconds": 5752.296411118,
+      "inference_seconds": 5560.096192268999,
+      "frames": 4725,
+      "duration_s": 315.0,
+      "source_id": "JlBtScHdcg4",
+      "tracks_sha256": "8b0dd0700778921ffb4e38955371e77aba95f90b4c35efc9060048fe8c902b5c",
+      "cache": {
+        "frames": 4725,
+        "capacity": 4,
+        "loads": 4725,
+        "hits": 4727,
+        "max_decoded_bytes": 24385536
+      },
+      "peak_gpu_gib": 24.153920650482178,
+      "peak_process_rss_kib": 357126404
+    },
+    {
+      "clip": "pittsburgh-runtime-2685-315-absolute-gpu-bounds",
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 0,
+        "different_total": 0,
+        "missing": 0,
+        "matched_observations": 0,
+        "reference_observations": 0
+      },
+      "fragments": 69,
+      "observations": 91663,
+      "phase": "long",
+      "variant": "default",
+      "delta": "",
+      "offload_history": {
+        "records": 188260,
+        "bytes": 229854081024
+      },
+      "settings": {
+        "memory_score_cache": {
+          "calls": 190090,
+          "hits": 45390146,
+          "misses": 187784,
+          "verified_calls": 0
+        },
+        "initial_prompt_output_count": 5
+      },
+      "total_seconds": 4012.8590348400003,
+      "inference_seconds": 3931.947004877,
+      "frames": 4725,
+      "duration_s": 315.0,
+      "source_id": "JlBtScHdcg4",
+      "tracks_sha256": "7afa4a9667a7ca9de4507105981ce7298a87da0947ebfc12151cc0a91f0157ac",
+      "cache": {
+        "frames": 4725,
+        "capacity": 4,
+        "loads": 4725,
+        "hits": 4727,
+        "max_decoded_bytes": 24385536
+      },
+      "peak_gpu_gib": 17.503676414489746,
+      "peak_process_rss_kib": 233822636
+    }
+  ],
+  "boundaries": [
+    {
+      "left_clip": "pittsburgh-runtime-1785-315-absolute-gpu-bounds",
+      "right_clip": "pittsburgh-runtime-2085-315-absolute-gpu-bounds",
+      "overlap_start_frame": 4500,
+      "overlap_end_frame_exclusive": 4725,
+      "accepted": [
+        {
+          "left_id": "sam3-103",
+          "right_id": "sam3-1",
+          "matching_frames": 210,
+          "left_visible_overlap_frames": 210,
+          "right_visible_overlap_frames": 210,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9940518924378843
+        },
+        {
+          "left_id": "sam3-112",
+          "right_id": "sam3-8",
+          "matching_frames": 194,
+          "left_visible_overlap_frames": 214,
+          "right_visible_overlap_frames": 218,
+          "support_fraction": 0.8899082568807339,
+          "mean_iou": 0.9909763863059443
+        },
+        {
+          "left_id": "sam3-113",
+          "right_id": "sam3-12",
+          "matching_frames": 147,
+          "left_visible_overlap_frames": 148,
+          "right_visible_overlap_frames": 148,
+          "support_fraction": 0.9932432432432432,
+          "mean_iou": 0.9671960805349029
+        },
+        {
+          "left_id": "sam3-15",
+          "right_id": "sam3-17",
+          "matching_frames": 50,
+          "left_visible_overlap_frames": 51,
+          "right_visible_overlap_frames": 51,
+          "support_fraction": 0.9803921568627451,
+          "mean_iou": 0.9390660614871884
+        },
+        {
+          "left_id": "sam3-19",
+          "right_id": "sam3-26",
+          "matching_frames": 103,
+          "left_visible_overlap_frames": 106,
+          "right_visible_overlap_frames": 105,
+          "support_fraction": 0.9716981132075472,
+          "mean_iou": 0.9751741641111401
+        },
+        {
+          "left_id": "sam3-23",
+          "right_id": "sam3-15",
+          "matching_frames": 139,
+          "left_visible_overlap_frames": 144,
+          "right_visible_overlap_frames": 140,
+          "support_fraction": 0.9652777777777778,
+          "mean_iou": 0.9554885829271087
+        },
+        {
+          "left_id": "sam3-26",
+          "right_id": "sam3-24",
+          "matching_frames": 32,
+          "left_visible_overlap_frames": 33,
+          "right_visible_overlap_frames": 32,
+          "support_fraction": 0.9696969696969697,
+          "mean_iou": 0.9872175249027494
+        },
+        {
+          "left_id": "sam3-29",
+          "right_id": "sam3-18",
+          "matching_frames": 43,
+          "left_visible_overlap_frames": 49,
+          "right_visible_overlap_frames": 49,
+          "support_fraction": 0.8775510204081632,
+          "mean_iou": 0.9558001628840999
+        },
+        {
+          "left_id": "sam3-32",
+          "right_id": "sam3-9",
+          "matching_frames": 190,
+          "left_visible_overlap_frames": 193,
+          "right_visible_overlap_frames": 193,
+          "support_fraction": 0.9844559585492227,
+          "mean_iou": 0.9722386666391291
+        },
+        {
+          "left_id": "sam3-36",
+          "right_id": "sam3-23",
+          "matching_frames": 29,
+          "left_visible_overlap_frames": 32,
+          "right_visible_overlap_frames": 32,
+          "support_fraction": 0.90625,
+          "mean_iou": 0.9871538578102752
+        },
+        {
+          "left_id": "sam3-58",
+          "right_id": "sam3-21",
+          "matching_frames": 88,
+          "left_visible_overlap_frames": 90,
+          "right_visible_overlap_frames": 91,
+          "support_fraction": 0.967032967032967,
+          "mean_iou": 0.9806835666274424
+        },
+        {
+          "left_id": "sam3-61",
+          "right_id": "sam3-22",
+          "matching_frames": 39,
+          "left_visible_overlap_frames": 40,
+          "right_visible_overlap_frames": 39,
+          "support_fraction": 0.975,
+          "mean_iou": 0.9753047125922502
+        },
+        {
+          "left_id": "sam3-62",
+          "right_id": "sam3-13",
+          "matching_frames": 105,
+          "left_visible_overlap_frames": 114,
+          "right_visible_overlap_frames": 114,
+          "support_fraction": 0.9210526315789473,
+          "mean_iou": 0.8795615764912189
+        },
+        {
+          "left_id": "sam3-66",
+          "right_id": "sam3-19",
+          "matching_frames": 101,
+          "left_visible_overlap_frames": 103,
+          "right_visible_overlap_frames": 106,
+          "support_fraction": 0.9528301886792453,
+          "mean_iou": 0.9923271414177206
+        },
+        {
+          "left_id": "sam3-71",
+          "right_id": "sam3-7",
+          "matching_frames": 166,
+          "left_visible_overlap_frames": 168,
+          "right_visible_overlap_frames": 167,
+          "support_fraction": 0.9880952380952381,
+          "mean_iou": 0.9868582952472145
+        },
+        {
+          "left_id": "sam3-82",
+          "right_id": "sam3-16",
+          "matching_frames": 105,
+          "left_visible_overlap_frames": 105,
+          "right_visible_overlap_frames": 106,
+          "support_fraction": 0.9905660377358491,
+          "mean_iou": 0.9747756457877456
+        },
+        {
+          "left_id": "sam3-84",
+          "right_id": "sam3-5",
+          "matching_frames": 179,
+          "left_visible_overlap_frames": 179,
+          "right_visible_overlap_frames": 179,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9919018096447868
+        },
+        {
+          "left_id": "sam3-99",
+          "right_id": "sam3-25",
+          "matching_frames": 15,
+          "left_visible_overlap_frames": 16,
+          "right_visible_overlap_frames": 15,
+          "support_fraction": 0.9375,
+          "mean_iou": 0.9386403035652687
+        }
+      ],
+      "candidate_pairs": 57
+    },
+    {
+      "left_clip": "pittsburgh-runtime-2085-315-absolute-gpu-bounds",
+      "right_clip": "pittsburgh-runtime-2385-315-absolute-gpu-bounds",
+      "overlap_start_frame": 9000,
+      "overlap_end_frame_exclusive": 9225,
+      "accepted": [
+        {
+          "left_id": "sam3-0",
+          "right_id": "sam3-13",
+          "matching_frames": 225,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9851916862341805
+        },
+        {
+          "left_id": "sam3-11",
+          "right_id": "sam3-14",
+          "matching_frames": 223,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9911111111111112,
+          "mean_iou": 0.9813071775543114
+        },
+        {
+          "left_id": "sam3-17",
+          "right_id": "sam3-19",
+          "matching_frames": 213,
+          "left_visible_overlap_frames": 216,
+          "right_visible_overlap_frames": 216,
+          "support_fraction": 0.9861111111111112,
+          "mean_iou": 0.9696457482119786
+        },
+        {
+          "left_id": "sam3-20",
+          "right_id": "sam3-3",
+          "matching_frames": 220,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9777777777777777,
+          "mean_iou": 0.9652103188114107
+        },
+        {
+          "left_id": "sam3-21",
+          "right_id": "sam3-0",
+          "matching_frames": 225,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9908641335779432
+        },
+        {
+          "left_id": "sam3-24",
+          "right_id": "sam3-4",
+          "matching_frames": 191,
+          "left_visible_overlap_frames": 213,
+          "right_visible_overlap_frames": 211,
+          "support_fraction": 0.8967136150234741,
+          "mean_iou": 0.8999472299508682
+        },
+        {
+          "left_id": "sam3-28",
+          "right_id": "sam3-15",
+          "matching_frames": 223,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9911111111111112,
+          "mean_iou": 0.9841222700197552
+        },
+        {
+          "left_id": "sam3-39",
+          "right_id": "sam3-11",
+          "matching_frames": 203,
+          "left_visible_overlap_frames": 220,
+          "right_visible_overlap_frames": 224,
+          "support_fraction": 0.90625,
+          "mean_iou": 0.9392577611994524
+        },
+        {
+          "left_id": "sam3-46",
+          "right_id": "sam3-20",
+          "matching_frames": 223,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9911111111111112,
+          "mean_iou": 0.97533568848775
+        },
+        {
+          "left_id": "sam3-49",
+          "right_id": "sam3-5",
+          "matching_frames": 225,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9668068641793512
+        },
+        {
+          "left_id": "sam3-6",
+          "right_id": "sam3-8",
+          "matching_frames": 225,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9829165196680313
+        },
+        {
+          "left_id": "sam3-60",
+          "right_id": "sam3-12",
+          "matching_frames": 221,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9822222222222222,
+          "mean_iou": 0.9483666178816422
+        },
+        {
+          "left_id": "sam3-64",
+          "right_id": "sam3-7",
+          "matching_frames": 130,
+          "left_visible_overlap_frames": 131,
+          "right_visible_overlap_frames": 131,
+          "support_fraction": 0.9923664122137404,
+          "mean_iou": 0.9859900442961517
+        },
+        {
+          "left_id": "sam3-68",
+          "right_id": "sam3-24",
+          "matching_frames": 188,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 188,
+          "support_fraction": 0.8355555555555556,
+          "mean_iou": 0.9497766590453258
+        },
+        {
+          "left_id": "sam3-71",
+          "right_id": "sam3-10",
+          "matching_frames": 224,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9955555555555555,
+          "mean_iou": 0.9641286620903686
+        },
+        {
+          "left_id": "sam3-8",
+          "right_id": "sam3-6",
+          "matching_frames": 72,
+          "left_visible_overlap_frames": 80,
+          "right_visible_overlap_frames": 78,
+          "support_fraction": 0.9,
+          "mean_iou": 0.9272868177814269
+        },
+        {
+          "left_id": "sam3-81",
+          "right_id": "sam3-9",
+          "matching_frames": 224,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9955555555555555,
+          "mean_iou": 0.967390819850257
+        },
+        {
+          "left_id": "sam3-84",
+          "right_id": "sam3-2",
+          "matching_frames": 189,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.84,
+          "mean_iou": 0.9571883861476458
+        },
+        {
+          "left_id": "sam3-86",
+          "right_id": "sam3-18",
+          "matching_frames": 225,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9799203067909481
+        },
+        {
+          "left_id": "sam3-87",
+          "right_id": "sam3-21",
+          "matching_frames": 219,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9733333333333334,
+          "mean_iou": 0.9704832878622149
+        },
+        {
+          "left_id": "sam3-91",
+          "right_id": "sam3-17",
+          "matching_frames": 112,
+          "left_visible_overlap_frames": 112,
+          "right_visible_overlap_frames": 112,
+          "support_fraction": 1.0,
+          "mean_iou": 0.982884954379607
+        }
+      ],
+      "candidate_pairs": 31
+    },
+    {
+      "left_clip": "pittsburgh-runtime-2385-315-absolute-gpu-bounds",
+      "right_clip": "pittsburgh-runtime-2685-315-absolute-gpu-bounds",
+      "overlap_start_frame": 13500,
+      "overlap_end_frame_exclusive": 13725,
+      "accepted": [
+        {
+          "left_id": "sam3-103",
+          "right_id": "sam3-6",
+          "matching_frames": 175,
+          "left_visible_overlap_frames": 180,
+          "right_visible_overlap_frames": 176,
+          "support_fraction": 0.9722222222222222,
+          "mean_iou": 0.9918711360580853
+        },
+        {
+          "left_id": "sam3-105",
+          "right_id": "sam3-5",
+          "matching_frames": 187,
+          "left_visible_overlap_frames": 194,
+          "right_visible_overlap_frames": 191,
+          "support_fraction": 0.9639175257731959,
+          "mean_iou": 0.9761400831462379
+        },
+        {
+          "left_id": "sam3-115",
+          "right_id": "sam3-3",
+          "matching_frames": 217,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9644444444444444,
+          "mean_iou": 0.9800601351501563
+        },
+        {
+          "left_id": "sam3-117",
+          "right_id": "sam3-1",
+          "matching_frames": 200,
+          "left_visible_overlap_frames": 212,
+          "right_visible_overlap_frames": 212,
+          "support_fraction": 0.9433962264150944,
+          "mean_iou": 0.9868528175807334
+        },
+        {
+          "left_id": "sam3-118",
+          "right_id": "sam3-9",
+          "matching_frames": 149,
+          "left_visible_overlap_frames": 151,
+          "right_visible_overlap_frames": 151,
+          "support_fraction": 0.9867549668874173,
+          "mean_iou": 1.0
+        },
+        {
+          "left_id": "sam3-119",
+          "right_id": "sam3-10",
+          "matching_frames": 141,
+          "left_visible_overlap_frames": 141,
+          "right_visible_overlap_frames": 141,
+          "support_fraction": 1.0,
+          "mean_iou": 0.9883617892935085
+        },
+        {
+          "left_id": "sam3-120",
+          "right_id": "sam3-11",
+          "matching_frames": 110,
+          "left_visible_overlap_frames": 112,
+          "right_visible_overlap_frames": 114,
+          "support_fraction": 0.9649122807017544,
+          "mean_iou": 0.9696518707045064
+        },
+        {
+          "left_id": "sam3-121",
+          "right_id": "sam3-13",
+          "matching_frames": 48,
+          "left_visible_overlap_frames": 48,
+          "right_visible_overlap_frames": 51,
+          "support_fraction": 0.9411764705882353,
+          "mean_iou": 0.9869822202001317
+        },
+        {
+          "left_id": "sam3-26",
+          "right_id": "sam3-4",
+          "matching_frames": 212,
+          "left_visible_overlap_frames": 225,
+          "right_visible_overlap_frames": 225,
+          "support_fraction": 0.9422222222222222,
+          "mean_iou": 0.9820068419238842
+        },
+        {
+          "left_id": "sam3-29",
+          "right_id": "sam3-7",
+          "matching_frames": 163,
+          "left_visible_overlap_frames": 172,
+          "right_visible_overlap_frames": 172,
+          "support_fraction": 0.9476744186046512,
+          "mean_iou": 0.9835998464431552
+        },
+        {
+          "left_id": "sam3-30",
+          "right_id": "sam3-8",
+          "matching_frames": 162,
+          "left_visible_overlap_frames": 163,
+          "right_visible_overlap_frames": 163,
+          "support_fraction": 0.9938650306748467,
+          "mean_iou": 0.963523239796702
+        },
+        {
+          "left_id": "sam3-32",
+          "right_id": "sam3-14",
+          "matching_frames": 96,
+          "left_visible_overlap_frames": 100,
+          "right_visible_overlap_frames": 100,
+          "support_fraction": 0.96,
+          "mean_iou": 0.981874602861459
+        },
+        {
+          "left_id": "sam3-34",
+          "right_id": "sam3-16",
+          "matching_frames": 43,
+          "left_visible_overlap_frames": 45,
+          "right_visible_overlap_frames": 45,
+          "support_fraction": 0.9555555555555556,
+          "mean_iou": 0.9928372692401499
+        },
+        {
+          "left_id": "sam3-67",
+          "right_id": "sam3-15",
+          "matching_frames": 69,
+          "left_visible_overlap_frames": 75,
+          "right_visible_overlap_frames": 73,
+          "support_fraction": 0.92,
+          "mean_iou": 0.9848479428988649
+        },
+        {
+          "left_id": "sam3-71",
+          "right_id": "sam3-12",
+          "matching_frames": 149,
+          "left_visible_overlap_frames": 150,
+          "right_visible_overlap_frames": 150,
+          "support_fraction": 0.9933333333333333,
+          "mean_iou": 0.9805513547802475
+        }
+      ],
+      "candidate_pairs": 31
+    }
+  ],
+  "fragments": 328,
+  "tracks_sha256": "faad3a921b77f729481a9167221a2a3b1006d329104e53607eb5e27ed5fb92b5",
+  "accuracy_reference": null,
+  "limits": "Automatic same-time overlap joining. Identities across20minutes are unverified; not jersey numbers or TOI. SAM3 masks can drift or persist behind occlusion."
+}

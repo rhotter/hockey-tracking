@@ -1,0 +1,11 @@
+{
+  "registered_utc": "2026-10-24T02:14:58.968556+00:00",
+  "purpose": "Exact runtime optimization; no accuracy selection. Cache boolean eligibility for immutable per-frame memory scores, invalidating on score tensor replacement or threshold change.",
+  "pinned_source": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+  "controls": [
+    "gb-tracking-1800: 300 frames, compare every memory selection to the official method in the same forward pass",
+    "gb-reid-long-0900: 900 frames, compare all final IDs, boxes and scores to the prior offloaded run"
+  ],
+  "retained": "Every old memory and score, original frame order, threshold and pointer limit.",
+  "constraint": "Only use this optimization for later measured variants after equivalence controls pass; runtime details reported separately."
+}

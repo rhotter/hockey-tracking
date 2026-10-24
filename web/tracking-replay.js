@@ -20,12 +20,16 @@
  function availableMethods(){const spec=catalog[clip.value];for(const option of method.options){option.disabled=!spec.methods.includes(option.value);option.hidden=option.disabled;}if(method.selectedOptions[0].disabled)method.value=spec.default;}
  function updateAbout(){
   const spec=catalog[clip.value],vlm=method.value.startsWith('vlm-'),sam3=method.value.startsWith('sam3');
-  document.getElementById('tracking-about-sam3').hidden=!sam3;
-  document.getElementById('tracking-about-vlm').hidden=!vlm;
-  document.getElementById('tracking-about-original').hidden=vlm||sam3||Boolean(spec.description);
-  document.getElementById('tracking-about-new').hidden=vlm||sam3||!spec.description||['learned','runtime'].includes(spec.about);
-  document.getElementById('tracking-about-learned').hidden=vlm||sam3||spec.about!=='learned';
-  document.getElementById('tracking-about-runtime').hidden=vlm||sam3||spec.about!=='runtime';
+  const methodNote=document.getElementById('tracking-method-note');
+  methodNote.textContent=spec.methodDescriptions?.[method.value]||'';
+  const custom=Boolean(methodNote.textContent);
+  document.getElementById('tracking-about-method').hidden=!custom;
+  document.getElementById('tracking-about-sam3').hidden=custom||!sam3;
+  document.getElementById('tracking-about-vlm').hidden=custom||!vlm;
+  document.getElementById('tracking-about-original').hidden=custom||vlm||sam3||Boolean(spec.description);
+  document.getElementById('tracking-about-new').hidden=custom||vlm||sam3||!spec.description||['learned','runtime'].includes(spec.about);
+  document.getElementById('tracking-about-learned').hidden=custom||vlm||sam3||spec.about!=='learned';
+  document.getElementById('tracking-about-runtime').hidden=custom||vlm||sam3||spec.about!=='runtime';
  }
  function loadVideo(){const name=clip.value,spec=catalog[name];if(initialSeekPending){initialSeekPending=false;const time=Number(query.get('t'));if(query.has('t')&&Number.isFinite(time)&&time>=0)video.addEventListener('loadedmetadata',()=>{if(clip.value===name)video.currentTime=Math.min(time,Math.max(0,video.duration-1/15));},{once:true});}video.poster=`${spec.folder}/${name}.jpg`;SportScansMedia.load(video,`${spec.folder}/${name}.mp4`);document.getElementById('tracking-description').textContent=spec.description||'Great Britain · Yorkshire Iron Rats / Highland Frost · July 26, 2026';updateAbout();}
  availableMethods();loadVideo();
@@ -39,12 +43,15 @@
   if(typeof time!=='number')time=video.currentTime;
   const frame=Math.min(data.frames.length-1,Math.max(0,Math.floor((time+.001)*data.fps)));
   const key=`${generation}:${frame}:${boxes.checked}`;if(key===lastKey)return;lastKey=key;
-  const row=data.frames[frame];ctx.clearRect(0,0,960,540);
-  if(boxes.checked)for(const object of row.objects){
+  const row=data.frames[frame];
+  // Keep long replays compact in memory; expand only the displayed frame.
+  const objects=data.format==='compact_observed_boxes_v1'?row.map(o=>({id:`T${o[0]}`,bbox:o.slice(1).map(v=>v/data.coordinate_scale)})):row.objects;
+  ctx.clearRect(0,0,960,540);
+  if(boxes.checked)for(const object of objects){
    const [x,y,u,v]=object.bbox.map((a,i)=>a*(i%2?540:960));ctx.strokeStyle='#165b8e';ctx.lineWidth=1.5;ctx.strokeRect(x,y,u-x,v-y);
    ctx.font='13px Arial';const width=ctx.measureText(object.id).width+6;ctx.fillStyle='rgba(255,255,255,.92)';ctx.fillRect(x,Math.max(0,y-17),width,17);ctx.fillStyle='#111';ctx.fillText(object.id,x+3,Math.max(13,y-4));
   }
-  status.textContent=`Recording ${clock(data.start_s+frame/data.fps)} · ${row.objects.length} tracked observations · ${method.selectedOptions[0].textContent}`;
+  status.textContent=`Recording ${clock(data.start_s+frame/data.fps)} · ${objects.length} tracked observations · ${method.selectedOptions[0].textContent}`;
   sourceLink.href=`https://www.youtube.com/watch?v=${sourceIds[data.clip.split('-')[0]]}&t=${Math.floor(data.start_s+frame/data.fps)}s`;sourceLink.hidden=false;
   document.body.dataset.trackingFrame=String(frame);document.body.dataset.trackingMethod=data.method;document.body.dataset.trackingClip=data.clip;
  }
@@ -57,9 +64,10 @@
     const result=await response.json();if(result.frames?.length!==catalog[name].frames||result.fps!==15||result.clip!==name||result.method!==selected)throw Error('Track data is incomplete.');
     if(result.format==='compact_observed_boxes_v1'){
      if(result.coordinate_scale!==10000)throw Error('Track coordinates are invalid.');
-     result.frames=result.frames.map(row=>({objects:row.map(o=>{if(o.length!==5||!o.every(Number.isFinite)||!Number.isInteger(o[0])||o[0]<1)throw Error('Track data is incomplete.');return{id:`T${o[0]}`,bbox:o.slice(1).map(v=>v/result.coordinate_scale)};})}));
+     for(const row of result.frames)for(const o of row){if(o.length!==5||!o.every(Number.isFinite)||!Number.isInteger(o[0])||o[0]<1)throw Error('Track data is incomplete.');}
     }
     cache.set(key,result);
+    while(cache.size>3)cache.delete(cache.keys().next().value);
    }
    if(version!==generation)return;data=cache.get(key);draw();
   }catch(e){if(version===generation)fail(e.message);}

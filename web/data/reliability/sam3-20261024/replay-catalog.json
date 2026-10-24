@@ -1,0 +1,348 @@
+[
+  {
+    "clip": "marylandwomen-0600",
+    "methods": [
+      {
+        "id": "sam3-anchor",
+        "family": "anchor",
+        "setting": "anchor-0.3"
+      },
+      {
+        "id": "sam3-appearance",
+        "family": "appearance",
+        "setting": "appearance-0.3-0.0-0.75"
+      },
+      {
+        "id": "sam3-consensus",
+        "family": "consensus",
+        "setting": "consensus-bonus-0.1"
+      },
+      {
+        "id": "sam3-consensus-qwen",
+        "family": "consensus-qwen",
+        "setting": "consensus-qwen-bonus-0.05"
+      },
+      {
+        "id": "sam3-native",
+        "family": "baseline",
+        "setting": "default"
+      },
+      {
+        "id": "sam3-native-tuned",
+        "family": "native",
+        "setting": "association03",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-tuned",
+        "family": "visual",
+        "setting": "visual-hockey",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-memory-tuned",
+        "family": "visual-memory",
+        "setting": "visual-memory-person",
+        "delta": ""
+      },
+      {
+        "id": "sam3-adapted-tuned",
+        "family": "adapted",
+        "setting": "adapt-decoder-person",
+        "delta": "decoder-lr1e5"
+      },
+      {
+        "id": "sam3-adapted-control",
+        "family": "adapted-control",
+        "setting": "default"
+      },
+      {
+        "id": "vlm-embedding-2b-joint",
+        "family": "baseline",
+        "setting": "fixed prior Qwen 2B joint-image blend"
+      }
+    ],
+    "frames": 450
+  },
+  {
+    "clip": "marylandwomen-1800",
+    "methods": [
+      {
+        "id": "sam3-anchor",
+        "family": "anchor",
+        "setting": "anchor-0.3"
+      },
+      {
+        "id": "sam3-appearance",
+        "family": "appearance",
+        "setting": "appearance-0.3-0.0-0.75"
+      },
+      {
+        "id": "sam3-consensus",
+        "family": "consensus",
+        "setting": "consensus-bonus-0.1"
+      },
+      {
+        "id": "sam3-consensus-qwen",
+        "family": "consensus-qwen",
+        "setting": "consensus-qwen-bonus-0.05"
+      },
+      {
+        "id": "sam3-native",
+        "family": "baseline",
+        "setting": "default"
+      },
+      {
+        "id": "sam3-native-tuned",
+        "family": "native",
+        "setting": "association03",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-tuned",
+        "family": "visual",
+        "setting": "visual-hockey",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-memory-tuned",
+        "family": "visual-memory",
+        "setting": "visual-memory-person",
+        "delta": ""
+      },
+      {
+        "id": "sam3-adapted-tuned",
+        "family": "adapted",
+        "setting": "adapt-decoder-person",
+        "delta": "decoder-lr1e5"
+      },
+      {
+        "id": "sam3-adapted-control",
+        "family": "adapted-control",
+        "setting": "default"
+      },
+      {
+        "id": "vlm-embedding-2b-joint",
+        "family": "baseline",
+        "setting": "fixed prior Qwen 2B joint-image blend"
+      }
+    ],
+    "frames": 450
+  },
+  {
+    "clip": "pittsburgh-0600",
+    "methods": [
+      {
+        "id": "sam3-anchor",
+        "family": "anchor",
+        "setting": "anchor-0.3"
+      },
+      {
+        "id": "sam3-appearance",
+        "family": "appearance",
+        "setting": "appearance-0.3-0.0-0.75"
+      },
+      {
+        "id": "sam3-consensus",
+        "family": "consensus",
+        "setting": "consensus-bonus-0.1"
+      },
+      {
+        "id": "sam3-consensus-qwen",
+        "family": "consensus-qwen",
+        "setting": "consensus-qwen-bonus-0.05"
+      },
+      {
+        "id": "sam3-native",
+        "family": "baseline",
+        "setting": "default"
+      },
+      {
+        "id": "sam3-native-tuned",
+        "family": "native",
+        "setting": "association03",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-tuned",
+        "family": "visual",
+        "setting": "visual-hockey",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-memory-tuned",
+        "family": "visual-memory",
+        "setting": "visual-memory-person",
+        "delta": ""
+      },
+      {
+        "id": "sam3-adapted-tuned",
+        "family": "adapted",
+        "setting": "adapt-decoder-person",
+        "delta": "decoder-lr1e5"
+      },
+      {
+        "id": "sam3-adapted-control",
+        "family": "adapted-control",
+        "setting": "default"
+      },
+      {
+        "id": "vlm-embedding-2b-joint",
+        "family": "baseline",
+        "setting": "fixed prior Qwen 2B joint-image blend"
+      }
+    ],
+    "frames": 450
+  },
+  {
+    "clip": "pittsburgh-1800",
+    "methods": [
+      {
+        "id": "sam3-anchor",
+        "family": "anchor",
+        "setting": "anchor-0.3"
+      },
+      {
+        "id": "sam3-appearance",
+        "family": "appearance",
+        "setting": "appearance-0.3-0.0-0.75"
+      },
+      {
+        "id": "sam3-consensus",
+        "family": "consensus",
+        "setting": "consensus-bonus-0.1"
+      },
+      {
+        "id": "sam3-consensus-qwen",
+        "family": "consensus-qwen",
+        "setting": "consensus-qwen-bonus-0.05"
+      },
+      {
+        "id": "sam3-native",
+        "family": "baseline",
+        "setting": "default"
+      },
+      {
+        "id": "sam3-native-tuned",
+        "family": "native",
+        "setting": "association03",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-tuned",
+        "family": "visual",
+        "setting": "visual-hockey",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-memory-tuned",
+        "family": "visual-memory",
+        "setting": "visual-memory-person",
+        "delta": ""
+      },
+      {
+        "id": "sam3-adapted-tuned",
+        "family": "adapted",
+        "setting": "adapt-decoder-person",
+        "delta": "decoder-lr1e5"
+      },
+      {
+        "id": "sam3-adapted-control",
+        "family": "adapted-control",
+        "setting": "default"
+      },
+      {
+        "id": "vlm-embedding-2b-joint",
+        "family": "baseline",
+        "setting": "fixed prior Qwen 2B joint-image blend"
+      }
+    ],
+    "frames": 450
+  },
+  {
+    "clip": "pittsburgh-stress-0900",
+    "methods": [
+      {
+        "id": "sam3-anchor",
+        "family": "anchor",
+        "setting": "anchor-0.3"
+      },
+      {
+        "id": "sam3-appearance",
+        "family": "appearance",
+        "setting": "appearance-0.3-0.0-0.75"
+      },
+      {
+        "id": "sam3-consensus",
+        "family": "consensus",
+        "setting": "consensus-bonus-0.1"
+      },
+      {
+        "id": "sam3-consensus-qwen",
+        "family": "consensus-qwen",
+        "setting": "consensus-qwen-bonus-0.05"
+      },
+      {
+        "id": "sam3-native",
+        "family": "baseline",
+        "setting": "default"
+      },
+      {
+        "id": "sam3-native-tuned",
+        "family": "native",
+        "setting": "association03",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-tuned",
+        "family": "visual",
+        "setting": "visual-hockey",
+        "delta": ""
+      },
+      {
+        "id": "sam3-visual-memory-tuned",
+        "family": "visual-memory",
+        "setting": "visual-memory-person",
+        "delta": ""
+      },
+      {
+        "id": "sam3-adapted-tuned",
+        "family": "adapted",
+        "setting": "adapt-decoder-person",
+        "delta": "decoder-lr1e5"
+      },
+      {
+        "id": "sam3-adapted-control",
+        "family": "adapted-control",
+        "setting": "default"
+      },
+      {
+        "id": "vlm-embedding-2b-joint",
+        "family": "baseline",
+        "setting": "fixed prior Qwen 2B joint-image blend"
+      }
+    ],
+    "frames": 4500
+  },
+  {
+    "clip": "pittsburgh-sam3-20min",
+    "methods": [
+      {
+        "id": "sam3-long",
+        "family": "long",
+        "setting": "default with CPU memory offload"
+      },
+      {
+        "id": "sam2-long-generic",
+        "family": "long-baseline",
+        "setting": "osnet_parts_generic"
+      },
+      {
+        "id": "sam2-long-trained",
+        "family": "long-baseline",
+        "setting": "osnet_parts_head"
+      }
+    ],
+    "frames": 18225
+  }
+]

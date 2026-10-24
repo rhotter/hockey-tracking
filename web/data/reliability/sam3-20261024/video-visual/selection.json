@@ -1,0 +1,944 @@
+{
+  "family": "visual",
+  "best": {
+    "variant": "visual-hockey",
+    "delta": "",
+    "counts": {
+      "correct": 103,
+      "wrong": 1,
+      "unknown_same": 16,
+      "same_total": 111,
+      "different_total": 759,
+      "missing": 1,
+      "matched_observations": 212,
+      "reference_observations": 213
+    },
+    "clips": [
+      {
+        "clip": "game2_01m",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 3,
+          "different_total": 6,
+          "missing": 0,
+          "matched_observations": 6,
+          "reference_observations": 6
+        },
+        "fragments": 11,
+        "observations": 2434,
+        "tracks_sha256": "a2975078542e90676b7e52b6de97d36a56e8d0841b35eb755aace201d9ee15df",
+        "metrics_sha256": "36967f4b0a9775572ad6d003e2bd11d5fc73e6e78b5191790eb83f4734968375"
+      },
+      {
+        "clip": "game2_06m",
+        "counts": {
+          "correct": 3,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 3,
+          "different_total": 6,
+          "missing": 0,
+          "matched_observations": 6,
+          "reference_observations": 6
+        },
+        "fragments": 32,
+        "observations": 5940,
+        "tracks_sha256": "c565401dfe401c912db38622119a48e41245f38595b1658d928fe9b94a884436",
+        "metrics_sha256": "d59440b3139e25191d93dd5cbd926d87439309def15a114c9c4c7726cbb97784"
+      },
+      {
+        "clip": "game2_24m",
+        "counts": {
+          "correct": 1,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 2,
+          "different_total": 2,
+          "missing": 0,
+          "matched_observations": 4,
+          "reference_observations": 4
+        },
+        "fragments": 27,
+        "observations": 2668,
+        "tracks_sha256": "77c4f9c636797e335281907ff32944fd8fe5359a6a6c0d4d94f5092e0ef301c7",
+        "metrics_sha256": "cb53e0b047d86c0da74418df996df64cb456479c1964ed6fcf3e6da01ff0f6a8"
+      },
+      {
+        "clip": "game2_33m",
+        "counts": {
+          "correct": 2,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 3,
+          "different_total": 6,
+          "missing": 0,
+          "matched_observations": 6,
+          "reference_observations": 6
+        },
+        "fragments": 15,
+        "observations": 3351,
+        "tracks_sha256": "a823fdd5543568c07d4e31447b8d314fc3e0b097655f570eef04153c1136d663",
+        "metrics_sha256": "67316bb9f12377c1f33cf7cfd888fee271cca0dd6e146dec11ed72fa09d2118a"
+      },
+      {
+        "clip": "game2_41m",
+        "counts": {
+          "correct": 4,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 5,
+          "different_total": 20,
+          "missing": 0,
+          "matched_observations": 10,
+          "reference_observations": 10
+        },
+        "fragments": 17,
+        "observations": 3852,
+        "tracks_sha256": "783b777cf9ac7ec9653b39fcdeaf5eac8cd95f922db28dc98c42f6a456c7bddd",
+        "metrics_sha256": "91dfcd6d73380e545103e24af97f2d7ac43abef5bad6c75516e45dfc85faa65e"
+      },
+      {
+        "clip": "gb-tracking-0600",
+        "counts": {
+          "correct": 41,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 41,
+          "different_total": 283,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        },
+        "fragments": 17,
+        "observations": 4485,
+        "tracks_sha256": "f294a798fb8764ec66cf30c1c9c44543651e9676d02fdcdcd2f3c52889c40f31",
+        "metrics_sha256": "6b2ab707db4dbcd0c58d47ba0ffc22124e078a60fb970adc5b811feb7609cc58"
+      },
+      {
+        "clip": "gb-tracking-1800",
+        "counts": {
+          "correct": 35,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 37,
+          "different_total": 286,
+          "missing": 0,
+          "matched_observations": 44,
+          "reference_observations": 44
+        },
+        "fragments": 14,
+        "observations": 2891,
+        "tracks_sha256": "74958518fae317ced29865023d8a34252e15e0a4e53a3e0c9d716292648fb2f6",
+        "metrics_sha256": "3e6d90742b3707485a7eec9bc72b19fd870e8f257c30cfc54ddad0cef73d233b"
+      },
+      {
+        "clip": "gb-reid-long-0900",
+        "counts": {
+          "correct": 8,
+          "wrong": 0,
+          "unknown_same": 6,
+          "same_total": 11,
+          "different_total": 144,
+          "missing": 0,
+          "matched_observations": 35,
+          "reference_observations": 35
+        },
+        "fragments": 31,
+        "observations": 7137,
+        "tracks_sha256": "f2a289d39ab2304a55a1763eace00548a14ea6b67dd683284a7502d4428942ca",
+        "metrics_sha256": "247a52b762b3480c4b4fb1d76398153e9d27246e18da45a2293de33ee6d40bac"
+      },
+      {
+        "clip": "long-plDp2kPtk_g",
+        "counts": {
+          "correct": 6,
+          "wrong": 1,
+          "unknown_same": 10,
+          "same_total": 6,
+          "different_total": 6,
+          "missing": 1,
+          "matched_observations": 57,
+          "reference_observations": 58
+        },
+        "fragments": 46,
+        "observations": 24764,
+        "tracks_sha256": "4b6d431ad9458581f49a4594c858bb4c4c883c5cd680aba6f549e153041eafbf",
+        "metrics_sha256": "1741890a91f4c0d36b5a5534a95f2296ceedbbbc3874758106cf99f8c739003f"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "variant": "default",
+      "delta": "",
+      "counts": {
+        "correct": 100,
+        "wrong": 1,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 30,
+        "matched_observations": 210,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 32,
+          "observations": 7204,
+          "seconds": 151.613814718,
+          "prompt": "person",
+          "phase": "development",
+          "model": "sam3",
+          "max_objects": null,
+          "baseline_raw_sam2": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "tracks_sha256": "1e1c47475bf42b23254a6317354c48692aebceb57064cfbf2f988103200a22f0",
+          "metrics_sha256": "577014a2317a719706db60cf89d5681f74fdd077740b732e367086017ee33f4c"
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 53,
+          "observations": 7352,
+          "seconds": 178.43469848,
+          "prompt": "person",
+          "phase": "development",
+          "model": "sam3",
+          "max_objects": null,
+          "baseline_raw_sam2": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "tracks_sha256": "300f0ceb22e3ff7314b937586c4ccc0c469a041e6c4c5e0c908303e10ab51b61",
+          "metrics_sha256": "9fda8e48d038b1ae14d64e112a53c4e7afdc3c533318fd4baf6f45abc053dab1"
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 76,
+          "observations": 6859,
+          "seconds": 213.364954936,
+          "prompt": "person",
+          "phase": "development",
+          "model": "sam3",
+          "max_objects": null,
+          "baseline_raw_sam2": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "tracks_sha256": "321043e8d2decef2c62fdea3157c9f10d7f014159e452f1c112f0cd756346fa9",
+          "metrics_sha256": "cebef950d6a6b27f8fb923ee0ab85e18736b867997ec79aa57e0c6c0e19f87a9"
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 40,
+          "observations": 7604,
+          "seconds": 132.523855847,
+          "prompt": "person",
+          "phase": "development",
+          "model": "sam3",
+          "max_objects": null,
+          "baseline_raw_sam2": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "tracks_sha256": "dd05765aa69d30185831d24897843e854d6d2501786d5ce59d3c075d002711f3",
+          "metrics_sha256": "1c88ce3f46040349e1248690d09551582b5f6895b6275d542fd7fff6264e4189"
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 35,
+          "observations": 7590,
+          "seconds": 126.60092454300002,
+          "prompt": "person",
+          "phase": "development",
+          "model": "sam3",
+          "max_objects": null,
+          "baseline_raw_sam2": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "tracks_sha256": "c2af3aa498088f5909f572af877ebf4c5ced36d6a24f10f709986ad5aea25c41",
+          "metrics_sha256": "9a2874444bf74ed185ee41e5e2b9260300f98bdc7bc8a6ae06698c9a2733c55c"
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 41,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 24,
+          "observations": 6445,
+          "seconds": 105.94800130900006,
+          "prompt": "person",
+          "phase": "development",
+          "model": "sam3",
+          "max_objects": null,
+          "baseline_raw_sam2": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          },
+          "tracks_sha256": "0bf4ebf40278137004bdfbae8c6d580b7999f53554765c654d34a22b10e3a4c4",
+          "metrics_sha256": "1bd6cdfc9c89c1ad00c5a62a14fa7d810f1c0019b1301e5f3d067cc0b59d4089"
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 29,
+            "matched_observations": 42,
+            "reference_observations": 44
+          },
+          "fragments": 23,
+          "observations": 2991,
+          "tracks_sha256": "795338c74e294a01a0606c8b53e627ca54cdf64dc3d20efe35e6525a80d768b2",
+          "metrics_sha256": "655977078ddef5e386a9f023cdd157153b1a7ade30b205010c16e84f96a2552a"
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 5,
+            "wrong": 0,
+            "unknown_same": 5,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 0,
+            "matched_observations": 35,
+            "reference_observations": 35
+          },
+          "fragments": 47,
+          "observations": 8871,
+          "tracks_sha256": "bcc267c18b7afddb4ea0509a22aa51c2a628c28b81296143bdebf33ed328b80e",
+          "metrics_sha256": "d9114c936ce81322e5dd230ca000f5ca39a22d7b6576cfbc314e7520b9fff925"
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 1,
+            "matched_observations": 57,
+            "reference_observations": 58
+          },
+          "fragments": 114,
+          "observations": 51575,
+          "tracks_sha256": "fd411e2118e2dfc4f89c33b1be320e6db2ac522b9d9019a6ed4bc31a53130764",
+          "metrics_sha256": "06e91244a41117405e597a93fbc861e2e6bc894c6071f4e63b03539528c33200"
+        }
+      ]
+    },
+    {
+      "variant": "visual",
+      "delta": "",
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 934,
+        "matched_observations": 0,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 9,
+            "matched_observations": 0,
+            "reference_observations": 6
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "ac6d2c275af03803effa90310e3a82f29e3a881fdb9632966301130c59c84e55",
+          "metrics_sha256": "2847f8a93ee38f425030e35bcb5b1fffdf828cec558378619445e629f45dd0e3"
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 9,
+            "matched_observations": 0,
+            "reference_observations": 6
+          },
+          "fragments": 1,
+          "observations": 211,
+          "tracks_sha256": "fa6a798c1cc2ac722cb3498938d0f1e0b07a3577e48b9d69a24241f848448a54",
+          "metrics_sha256": "f7f03b265fc1e6616ea916cdb6c5e0bf0e769234d2469f5934f98456ce5953ed"
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 4,
+            "matched_observations": 0,
+            "reference_observations": 4
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "938980f361f5b2323b29a6d8ec5a7431f8c84a1d084696af4bccae4297141eaf",
+          "metrics_sha256": "6af06b3c26a2a5098af289cca70b104d54adb5f9e9f9c26d8da2b501fb163d96"
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 9,
+            "matched_observations": 0,
+            "reference_observations": 6
+          },
+          "fragments": 1,
+          "observations": 140,
+          "tracks_sha256": "634c23c0ac57c7ce1f2815f6f0f3bcef40d3c79143f00064c0d93d5bc26a9152",
+          "metrics_sha256": "65600aa65c6755623598566f92c766e9201b424463b2e32f145e695504f0850b"
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 25,
+            "matched_observations": 0,
+            "reference_observations": 10
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "89d6766ddada587fe95b36bd4bb5dc7d065629cdffbc979bba309597378c4c78",
+          "metrics_sha256": "9e1329f531f1d97b3a136f1f8e99b63f3d219cdf7dd60f15ef480f0abadb81f6"
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 324,
+            "matched_observations": 0,
+            "reference_observations": 44
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "4827db3c8767bfbc3b423b3ca718f0a22e012f7177de01dd316366df91c17a65",
+          "metrics_sha256": "e7779b172bc86b35cc5b0857aae8f4011a6a04409dd0850c89a1ab1e739e84df"
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 323,
+            "matched_observations": 0,
+            "reference_observations": 44
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "4a7c1d76dd3d7cc02b6bf1721f9169ed20473b2260956ba0df237085bc92a729",
+          "metrics_sha256": "f54e156f737b03107d625be25a57de4455dd800155beadabc654797223d8faac"
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 202,
+            "matched_observations": 0,
+            "reference_observations": 35
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "6d38d7ddaddf8cdaee60faff25972ff8ce61324fd0cbc2289d11de2a70377014",
+          "metrics_sha256": "bffa698ad93d8f83e6675becc22cb266088e3cab18c53daba2434b7a2584d6c0"
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 29,
+            "matched_observations": 0,
+            "reference_observations": 58
+          },
+          "fragments": 0,
+          "observations": 0,
+          "tracks_sha256": "f75f244b6d261940d38daddae7306cf2737d000742159586168203787730e441",
+          "metrics_sha256": "78df1a2cd7dc680fc38ed450aedf77ce6f4250c78cd142e7a79572666d9dbe47"
+        }
+      ]
+    },
+    {
+      "variant": "visual-person",
+      "delta": "",
+      "counts": {
+        "correct": 101,
+        "wrong": 1,
+        "unknown_same": 16,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 40,
+        "matched_observations": 209,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 29,
+          "observations": 6462,
+          "tracks_sha256": "1d78c1a67b008871fe0575761d2bce8c4c27805bdf6cb88c1a75f95c2a935f26",
+          "metrics_sha256": "8539b255d1d616e22cbab7af6dbf7d8dde5175519190e79302a1d11c77391a81"
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 52,
+          "observations": 7263,
+          "tracks_sha256": "3b11788e5463d815b47e756f70e91f989169362c948223e6265699fadf2c5e55",
+          "metrics_sha256": "19276c22739a0235a31a3f82393834c87eef120dc5674db660545723fd5a90b4"
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 75,
+          "observations": 6802,
+          "tracks_sha256": "7e1b04a722a5dc7e1bb692f8a964e161457697d136b4b9c26f1e7ab83d90ff61",
+          "metrics_sha256": "c0f60bdcab906a5506da4bb544e4e11c812a2cc0d40ee92791502ba005cef911"
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 40,
+          "observations": 7383,
+          "tracks_sha256": "45a355ef40b48b8f0d5fbd231f33218591aef0fdede993939b6128118097ef88",
+          "metrics_sha256": "e969553218598c99ec847060475a27ca82b4ca1b921d0ec1cce73dbf04453af6"
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 34,
+          "observations": 7261,
+          "tracks_sha256": "96908340a09744854a0fb63887b8ac770e9bfb2efd3166540a2afb8b43ea3f19",
+          "metrics_sha256": "7fb75002e423daa261738ef9951783eb077ca19bf6dad034aa5de75c411a001d"
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 41,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 24,
+          "observations": 6415,
+          "tracks_sha256": "f660b0837c4e4eec9630d6f8e543d2e815fdfee3fda97a03063f73cf470de27a",
+          "metrics_sha256": "2f5e37465be6846508a0c143219fd61f99b419d528e67a4712ea4847d42a9aec"
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 29,
+            "matched_observations": 42,
+            "reference_observations": 44
+          },
+          "fragments": 23,
+          "observations": 2993,
+          "tracks_sha256": "e6c8653bf721c48477c2f85b2e5d61ee0a596c76e4063f3571ba586c8a287155",
+          "metrics_sha256": "7f9e761ea83a1bfa561d86bc94b85ff5722d67c9405755603113c115208d3045"
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 6,
+            "wrong": 0,
+            "unknown_same": 6,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 10,
+            "matched_observations": 34,
+            "reference_observations": 35
+          },
+          "fragments": 45,
+          "observations": 8688,
+          "tracks_sha256": "9a2fa4f7433ba77705a1f24b42441efb289d68e02074913643f2cc95914ecd5a",
+          "metrics_sha256": "e04960bf216f47f5777c57bd23fe3a32c4b5c686b0c7d3afbd845ffb8a9b5297"
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 1,
+            "matched_observations": 57,
+            "reference_observations": 58
+          },
+          "fragments": 112,
+          "observations": 50480,
+          "tracks_sha256": "8f4181de2e400309f852ab745e92ed1e15d4924eb35b152af6ed759d702f1892",
+          "metrics_sha256": "b50cb96c07108301065238015b0045b9b7a2bc9f51bf62cf24242c18991b0a65"
+        }
+      ]
+    },
+    {
+      "variant": "visual-hockey",
+      "delta": "",
+      "counts": {
+        "correct": 103,
+        "wrong": 1,
+        "unknown_same": 16,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 1,
+        "matched_observations": 212,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 11,
+          "observations": 2434,
+          "tracks_sha256": "a2975078542e90676b7e52b6de97d36a56e8d0841b35eb755aace201d9ee15df",
+          "metrics_sha256": "36967f4b0a9775572ad6d003e2bd11d5fc73e6e78b5191790eb83f4734968375"
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 32,
+          "observations": 5940,
+          "tracks_sha256": "c565401dfe401c912db38622119a48e41245f38595b1658d928fe9b94a884436",
+          "metrics_sha256": "d59440b3139e25191d93dd5cbd926d87439309def15a114c9c4c7726cbb97784"
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 27,
+          "observations": 2668,
+          "tracks_sha256": "77c4f9c636797e335281907ff32944fd8fe5359a6a6c0d4d94f5092e0ef301c7",
+          "metrics_sha256": "cb53e0b047d86c0da74418df996df64cb456479c1964ed6fcf3e6da01ff0f6a8"
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 15,
+          "observations": 3351,
+          "tracks_sha256": "a823fdd5543568c07d4e31447b8d314fc3e0b097655f570eef04153c1136d663",
+          "metrics_sha256": "67316bb9f12377c1f33cf7cfd888fee271cca0dd6e146dec11ed72fa09d2118a"
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 17,
+          "observations": 3852,
+          "tracks_sha256": "783b777cf9ac7ec9653b39fcdeaf5eac8cd95f922db28dc98c42f6a456c7bddd",
+          "metrics_sha256": "91dfcd6d73380e545103e24af97f2d7ac43abef5bad6c75516e45dfc85faa65e"
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 41,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 17,
+          "observations": 4485,
+          "tracks_sha256": "f294a798fb8764ec66cf30c1c9c44543651e9676d02fdcdcd2f3c52889c40f31",
+          "metrics_sha256": "6b2ab707db4dbcd0c58d47ba0ffc22124e078a60fb970adc5b811feb7609cc58"
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 14,
+          "observations": 2891,
+          "tracks_sha256": "74958518fae317ced29865023d8a34252e15e0a4e53a3e0c9d716292648fb2f6",
+          "metrics_sha256": "3e6d90742b3707485a7eec9bc72b19fd870e8f257c30cfc54ddad0cef73d233b"
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 8,
+            "wrong": 0,
+            "unknown_same": 6,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 0,
+            "matched_observations": 35,
+            "reference_observations": 35
+          },
+          "fragments": 31,
+          "observations": 7137,
+          "tracks_sha256": "f2a289d39ab2304a55a1763eace00548a14ea6b67dd683284a7502d4428942ca",
+          "metrics_sha256": "247a52b762b3480c4b4fb1d76398153e9d27246e18da45a2293de33ee6d40bac"
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 1,
+            "matched_observations": 57,
+            "reference_observations": 58
+          },
+          "fragments": 46,
+          "observations": 24764,
+          "tracks_sha256": "4b6d431ad9458581f49a4594c858bb4c4c883c5cd680aba6f549e153041eafbf",
+          "metrics_sha256": "1741890a91f4c0d36b5a5534a95f2296ceedbbbc3874758106cf99f8c739003f"
+        }
+      ]
+    }
+  ],
+  "protocol_sha256": "4a89b4f9b5c4fa2b38915f8227726094b3014448d249f335c51407cad700c19c",
+  "development_sha256": "61ce7ae214d1cece40f60a84d27982bdb5c45261544eb6886379f320ca56c78d",
+  "frozen_at": "2026-10-24T03:17:54.541703+00:00",
+  "selection_uses_regression": false
+}

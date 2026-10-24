@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "url": "https://github.com/rhotter/hockey-tracking/releases/download/site-assets-v2/replay-assets-v2.tar.gz",
-  "sha256": "327ba1f47265991333ea476d9a706117e056ebadaf47880a89e7745372ed1017",
+  "url": "https://github.com/rhotter/hockey-tracking/releases/download/site-assets-v3/replay-assets-v3.tar.gz",
+  "sha256": "34f3905732ec3f59ad60e8f39887644ad18e1488dd8c430b2fe5d4527616bc7c",
   "files": {
     "data/reliability/consistency-example/a.jpg": "efb260155ca4d8024b9ac1877bec5040cad5d5367a5f34387dc9ac83c4c68fc2",
     "data/reliability/consistency-example/b.jpg": "17f0055a6566dd2b91cf78312438dc15a4a5a5ebfd51a2b9c5f1cb4532c77f5c",
@@ -316,6 +316,24 @@
     "media/sam3/body-review-1.jpg": "d3782985d84cb43bd8db397294180689b7b36173bc97cd88dd5b407c11dde8d3",
     "media/sam3/body-review-2.jpg": "de6c0292e93e7371b0aeb6a066cbba3e1b89ac93193cb78dd215117121db64f3",
     "media/sam3/body-review-3.jpg": "759a431374464cb59ff06ccf0fa0cc793f165423bb214d9fd300dd1b5d7d00a3",
-    "media/sam3/body-review-4.jpg": "924530a281cc7dbbc9dc838ad01f24177af0fcbf4f0d492c23a3683fed25b6b7"
+    "media/sam3/body-review-4.jpg": "924530a281cc7dbbc9dc838ad01f24177af0fcbf4f0d492c23a3683fed25b6b7",
+    "media/sam3-20261024/detection-review-1.jpg": "c5613663ecb419667c167aeab6718457eed509c9e89771a1486b1aeb4e731458",
+    "media/sam3-20261024/detection-review-2.jpg": "d7ed9072b25039d9a7e5c643d4e8d896ce97e9218a0f7ea1d3eeb587ca515aeb",
+    "media/sam3-20261024/detection-review-3.jpg": "56e5133ba44454ccf97853d71f725d37c44b3b9f1deaa8120204af1745b6769e",
+    "media/sam3-20261024/detection-review-4.jpg": "bdaa8000a190055602037efed64f2815465b1dad4f04a663a3f1b11d2674f313",
+    "media/sam3-20261024/detection-review-5.jpg": "fcce65d0c30ae16a53ce27b5076ba4f10ddef850b66c7478e603d62a7b210613",
+    "media/sam3-20261024/detection-review-6.jpg": "a2317595ba1c742891383f2ae2b8b41017226c2b09a82980af1012387086177a",
+    "media/sam3-20261024/fresh-detection-review-1.jpg": "83c05afb7644cdb5b91b0778ac05a13ef459aaf759530b0ca0f91c63586d90f4",
+    "media/sam3-20261024/fresh-detection-review-2.jpg": "0fc3104d21d9551ff6c7945c3e95862505231149a84c7114fbda267408f1211f",
+    "media/sam3-20261024/fresh-detection-review-3.jpg": "a563ee021389946832f011963ece8a17c6d51f38fb0ae4af558a47cbb7696b1c",
+    "media/sam3-20261024/fresh-detection-review-4.jpg": "cf2a2e776224357ad33cb9de6e3f22eb1bc034f582377897ddfeb48f12a6c10c",
+    "media/sam3-20261024/pittsburgh-sam3-20min.jpg": "73e9a39609a61e2095838130941ce0d805b5a313d320a99d34153dbfcffee35f",
+    "media/sam3-20261024/pittsburgh-sam3-20min.mp4": "b5c35f301f5d951cd6da2aa324b9ef2d986db71389635d0307538cec1ca3b270",
+    "media/sam3-20261024/rink-filter-review-1.jpg": "c43c5e926bba671a394090dffae54c677fe9694bc47e9f9a437b791f8b5d6ff5",
+    "media/sam3-20261024/rink-filter-review-2.jpg": "416f872fbb6e8750de96a780c95d5887b93df7455e8d80bba4e91949e8496b04",
+    "media/sam3-20261024/rink-filter-review-3.jpg": "6688e2656dc965c39e9e62095b3d252f02443d5b36f93f04987c1e5778caa085",
+    "media/sam3-20261024/rink-filter-review-4.jpg": "2271e358e27f1d1c41c841dd3ba3126b5c2ea82811daf7eef0846d881fd83cda",
+    "media/sam3-20261024/rink-filter-review-5.jpg": "090871f90d3b52d5390a5fea57f0fe70647192c0d53a71cd42791c3cad81c364",
+    "media/sam3-20261024/rink-filter-review-6.jpg": "7dd2f61e5ec74141d0cf771c7a41a92eab55f7b8a3faf359223a9e79579f4a39"
   }
 }

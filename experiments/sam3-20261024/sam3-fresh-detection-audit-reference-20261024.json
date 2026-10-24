@@ -1,0 +1,1098 @@
+{
+  "id": "nbhl-sam3-fresh-detection-reference-20261024-v1",
+  "protocol_sha256": "19fff869c01103e5a64aafaaefb2c6a4d46f9cc8685dcbf5b6135ddb8f2a2dfe",
+  "sealed_at": "2026-10-24T03:00:43.033743+00:00",
+  "sam3_predictions_seen": false,
+  "rink_filter_predictions_seen": false,
+  "assistant_reviewed": true,
+  "independent_human_ground_truth": false,
+  "proposal_assisted": true,
+  "training_eligible": false,
+  "frames": [
+    {
+      "id": "pittsburgh-fresh-detection-00",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2520,
+      "frame": 2025,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002026.jpg",
+      "sha256": "ecf31917d5c99ce52cf6323e307ddd0e29c5274095979d99ebf224f8e7e701b5",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            973,
+            468,
+            1058,
+            649
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            890,
+            639,
+            1142,
+            1080
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            3,
+            414,
+            96,
+            620
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            731,
+            459,
+            845,
+            619
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Four floor players. Two yellow upper bodies behind boards are bench players."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-03",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2523,
+      "frame": 2070,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002071.jpg",
+      "sha256": "fac62242e85fdcb6e5234017e60894e58b1cb01f9f9140ae86fa50eccb5c386b",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            259,
+            504,
+            469,
+            852
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1722,
+            431,
+            1806,
+            628
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1073,
+            418,
+            1158,
+            565
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            302,
+            351,
+            356,
+            527
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1425,
+            420,
+            1497,
+            621
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            68,
+            349,
+            146,
+            530
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            347,
+            362,
+            431,
+            545
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 6,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            0,
+            400,
+            65,
+            684
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 7,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Eight floor players. Left-edge proposals7,8,10 duplicate one cropped navy player; retain7. Proposal9 is on the bench."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-06",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2526,
+      "frame": 2115,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002116.jpg",
+      "sha256": "7e2e82953b054bacb69908494f7ff19dd5a4fffad06b2a32bbd20cbca474a68f",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            298,
+            484,
+            394,
+            672
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            564,
+            471,
+            641,
+            664
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1182,
+            568,
+            1314,
+            887
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1120,
+            452,
+            1218,
+            576
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            465,
+            452,
+            524,
+            589
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            961,
+            459,
+            1036,
+            568
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1472,
+            487,
+            1540,
+            677
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 6,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1512,
+            472,
+            1556,
+            639
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 7,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Eight floor players including navy goalie4. Proposal8 duplicates navy player7 behind yellow player6."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-09",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2529,
+      "frame": 2160,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002161.jpg",
+      "sha256": "084f5fa96c18a56259b526377234070702c7fb50e50ecee9cb409a650010680a",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            1140,
+            454,
+            1252,
+            720
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            911,
+            376,
+            995,
+            531
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            565,
+            375,
+            634,
+            491
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1249,
+            390,
+            1312,
+            531
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1204,
+            377,
+            1260,
+            490
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            977,
+            408,
+            1092,
+            511
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Six floor players including goalie5. Proposal6 is the near fence, not a person."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-12",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2532,
+      "frame": 2205,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002206.jpg",
+      "sha256": "61033d8105b3b6eae04574a4dfc1a00f840fa02483e150938f80a1f3317342d9",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            850,
+            447,
+            900,
+            589
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1153,
+            504,
+            1258,
+            741
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            591,
+            432,
+            639,
+            563
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1097,
+            470,
+            1183,
+            618
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1000,
+            481,
+            1133,
+            583
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1312,
+            469,
+            1398,
+            628
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1464,
+            727,
+            1663,
+            1080
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 6,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1338,
+            511,
+            1420,
+            674
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 7,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1173,
+            476,
+            1217,
+            531
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 8,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Nine floor players. Proposal8 is a distinct partially occluded navy upper body behind navy10, not a duplicate; checked on enlarged raw pixels. Goalie4 included."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-15",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2535,
+      "frame": 2250,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002251.jpg",
+      "sha256": "7598d9fb8bef176579071c847e8c8b66b57364978e993d0029e4a37a55b0a487",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            1568,
+            476,
+            1668,
+            672
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1217,
+            633,
+            1395,
+            1037
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            746,
+            497,
+            889,
+            743
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            559,
+            426,
+            616,
+            568
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            2,
+            442,
+            86,
+            602
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            713,
+            436,
+            780,
+            593
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1062,
+            426,
+            1111,
+            552
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 6,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            391,
+            431,
+            463,
+            593
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 7,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            460,
+            448,
+            544,
+            604
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 8,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Nine floor players. Proposal9 is behind the boards on the bench."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-18",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2538,
+      "frame": 2295,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002296.jpg",
+      "sha256": "498ba39316e497ef3d158a8652c02b4634d15360bc4e96e3c18efdd5f18cf716",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            1054,
+            532,
+            1170,
+            798
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            609,
+            475,
+            730,
+            719
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            820,
+            437,
+            900,
+            540
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            402,
+            422,
+            461,
+            582
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1100,
+            460,
+            1167,
+            592
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            880,
+            433,
+            945,
+            540
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            496,
+            447,
+            596,
+            619
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 6,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            67,
+            423,
+            120,
+            554
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 7,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            0,
+            417,
+            51,
+            582
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 8,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            31,
+            408,
+            92,
+            582
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 9,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Ten visible floor players. Left goalie7, navy9 and cropped yellow8 are distinct. Proposals10/11 are the bench player behind foreground navy1."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-21",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2541,
+      "frame": 2340,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002341.jpg",
+      "sha256": "863b52762fe5106a9f3cf457dc6002cc8c6d15de1d9b82eddcd4cb1f4773c118",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            362,
+            334,
+            441,
+            480
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            730,
+            355,
+            795,
+            494
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            414,
+            460,
+            568,
+            754
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1101,
+            377,
+            1179,
+            534
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            0,
+            410,
+            106,
+            612
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            55,
+            322,
+            103,
+            490
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Six floor players. Proposals6/7 are bench players."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-24",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2544,
+      "frame": 2385,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002386.jpg",
+      "sha256": "2b8dc73d9618efc98ea9073ab239605f8a7941d44b7fac98e54f0fe14ea6f45b",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            946,
+            493,
+            1048,
+            698
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 0,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            806,
+            453,
+            876,
+            569
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            614,
+            447,
+            676,
+            596
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            693,
+            472,
+            801,
+            681
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            729,
+            454,
+            786,
+            510
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Five visible floor players. Proposal4 is a partly occluded navy upper body; adjacent raw seconds23/25 confirm floor location. Proposal5 duplicates it. Yellow6/7 are bench players."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-27",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2547,
+      "frame": 2430,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002431.jpg",
+      "sha256": "a586cd1e672cd158b881629d237a30f87037e16bcb1af9ab941b9551d6b06b18",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            1548,
+            452,
+            1624,
+            593
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1142,
+            438,
+            1205,
+            587
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            893,
+            410,
+            952,
+            534
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1065,
+            421,
+            1116,
+            523
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            846,
+            417,
+            890,
+            534
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1011,
+            426,
+            1079,
+            528
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 6,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        }
+      ],
+      "review_note": "Six floor players including yellow goalie1. Red-shirt0 is behind the far fence outside the rink. Proposals7/8/9 are bench players."
+    },
+    {
+      "id": "pittsburgh-fresh-detection-30",
+      "source_id": "JlBtScHdcg4",
+      "source_time_s": 2550,
+      "frame": 2475,
+      "image": "/data/ball-hockey/reliability-20261018/tracking-four-hour-v1/long-cache-trial/pittsburgh-runtime-2385-315-absolute-gpu-bounds/frames/002476.jpg",
+      "sha256": "7263e444f0f53bab2d264be4c61e3952b59f3eeffe121135e0fa52bb2b6ce596",
+      "width": 1920,
+      "height": 1080,
+      "annotation_scope": "complete_visible_floor_players_and_goalies",
+      "players": [
+        {
+          "bbox": [
+            1640,
+            443,
+            1718,
+            584
+          ],
+          "role": "goalie",
+          "partial": false,
+          "proposal": 1,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            966,
+            408,
+            1037,
+            539
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 2,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            825,
+            402,
+            890,
+            536
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 3,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            898,
+            404,
+            963,
+            513
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 4,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            1277,
+            427,
+            1327,
+            582
+          ],
+          "role": "player",
+          "partial": false,
+          "proposal": 5,
+          "localization_source": "Visually reviewed and rounded YOLO proposal"
+        },
+        {
+          "bbox": [
+            924,
+            408,
+            970,
+            510
+          ],
+          "role": "player",
+          "partial": true,
+          "proposal": null,
+          "localization_source": "Manual box from enlarged raw pixels; distinguishable navy helmet, torso and right leg behind yellow player"
+        }
+      ],
+      "review_note": "Six visible floor players. Add the navy player partly behind yellow4, absent from proposals. Red-shirt0 is outside the far fence;6/7/8 are bench players."
+    }
+  ],
+  "counts": {
+    "frames": 11,
+    "players_and_goalies": 77,
+    "goalies": 7,
+    "manual_boxes": 1
+  },
+  "limits": "A correlated temporal sample from a reused tracking recording. YOLO proposals assist localization and can favor that baseline. Partial-player boxes describe visible extent, not inferred hidden body."
+}

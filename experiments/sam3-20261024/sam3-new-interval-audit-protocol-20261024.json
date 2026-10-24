@@ -1,0 +1,15 @@
+{
+  "id": "sam3-new-interval-audit-20261024-v1",
+  "registered_utc": "2026-10-24T01:52:01.833027+00:00",
+  "source_id": "JlBtScHdcg4",
+  "source_interval_s": [
+    2520,
+    2550
+  ],
+  "sampling": "31 one-second observations, including both endpoints. Existing cached NBHL recording, new temporal identity labels; not an independent recording.",
+  "context": "Use the identical 315-second window starting at2385seconds for native SAM3 and cached raw SAM2; the audit begins135seconds into their runs.",
+  "identity_selection": "At the first frame, enumerate clearly visible floor players excluding officials, goalies, bench and spectators, in increasing horizontal-center order. Choose up to four evenly spaced indices across this list. Track only these initial players. Record visible, out_of_view or uncertain at each sample; never force identity through an ambiguous crossing.",
+  "annotation": "Assistant visual review of raw video/frames and detector proposals only, without viewing candidate tracking IDs. Review proposal localization and manually refine a box if needed. Proposal assistance can bias localization; disclose this limitation.",
+  "metrics": "Existing one-second supplementary audit: box IoU0.5primary/0.3sensitivity, visible observation coverage and adjacent-visible identity changes/missing transitions. No tuning or model selection from this audit.",
+  "limits": "Short sparse identity sample within a reused recording, not full-game accuracy, TOI or a verified jersey roster."
+}

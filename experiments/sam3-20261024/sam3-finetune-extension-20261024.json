@@ -1,0 +1,14 @@
+{
+  "id": "nbhl-sam3-box-adaptation-extension-20261024-v1",
+  "registered_utc": "2026-10-24T01:27:00Z",
+  "reason": "Initial decoder adaptation improved development validation. Expand trainable capacity using training/validation evidence only, before any new detection regression scores.",
+  "base_protocol": "sam3-finetune-protocol-20261024.json",
+  "variants": [
+    {"id": "transformer-lr1e5", "trainable": "Full grounding transformer encoder+decoder and dot-product scoring; vision/text/segmentation/temporal tracker frozen", "lr": 0.00001, "epochs": 20},
+    {"id": "transformer-lr3e5", "trainable": "Full grounding transformer encoder+decoder and dot-product scoring; vision/text/segmentation/temporal tracker frozen", "lr": 0.00003, "epochs": 20},
+    {"id": "vision4-lr1e6", "trainable": "Attention qkv/proj in vision blocks28..31 plus grounding decoder and scoring. Other vision parameters, text, grounding encoder, segmentation and temporal tracker frozen.", "lr": 0.00001, "vision_lr": 0.000001, "epochs": 8}
+  ],
+  "vision_features": "Vision-adapted training recomputes image features with gradients for every sample; cached pretrained visual features cannot be reused. Validation also recomputes features.",
+  "selection": "Compare all six variant checkpoints with original using the original validation-only selection rule, then seal once before regression. Report this expanded search and all unsuccessful variants.",
+  "smoke": "Require finite gradients, falling fixed-four-frame loss and actual changes in selected vision tensors before the eight-epoch vision run."
+}

@@ -1,0 +1,5652 @@
+{
+  "phase": "development",
+  "protocol_sha256": "e450508b6fda745c291ca5d0b900a9438b8150a63f481e0ce8cb00a5199155c5",
+  "fine_tune_selection_sha256": "07cc969bd0ecf6dc09832961c2dcaecf15531d36716cc81e812a897db487feb1",
+  "input_predictions_sha256": "0d891a07005aa1267c13686f4dce36c5a712054e122b0ed744aaf44bf47d21c7",
+  "results": [
+    {
+      "setting": {
+        "key": "unchanged",
+        "prompt": null,
+        "mask_threshold": null,
+        "dilation": null
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 163,
+        "fp": 9,
+        "fn": 15,
+        "precision": 0.9476744186046512,
+        "recall": 0.9157303370786517,
+        "f1": 0.9314285714285714,
+        "false_positives_per_frame": 0.391304347826087,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9543786543602318,
+      "frames": []
+    },
+    {
+      "setting": {
+        "key": "playing surface-0.3-0",
+        "prompt": "playing surface",
+        "mask_threshold": 0.3,
+        "dilation": 0
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 42,
+        "fp": 0,
+        "fn": 136,
+        "precision": 1.0,
+        "recall": 0.23595505617977527,
+        "f1": 0.38181818181818183,
+        "false_positives_per_frame": 0.0,
+        "goalies": 19,
+        "goalie_hits": 2,
+        "goalie_recall": 0.10526315789473684
+      },
+      "ap50": 0.2993835814109621,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.486079617031998,
+          "removed": 166,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5175579491055682,
+          "removed": 166,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4097694633408919,
+          "removed": 171,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4926933736457546,
+          "removed": 186,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5600907029478458,
+          "removed": 183,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.48815822625346433,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": false,
+          "surface_fraction": 0.8694255479969766,
+          "removed": 126,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5775541698160745,
+          "removed": 166,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5286123708742756,
+          "removed": 188,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.5277305366591081,
+          "removed": 188,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6091427311665407,
+          "removed": 161,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5219513731418494,
+          "removed": 191,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.550705467372134,
+          "removed": 177,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46305744520030234,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5413359788359788,
+          "removed": 172,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5574924414210128,
+          "removed": 187,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.544469639707735,
+          "removed": 172,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.40262030738221216,
+          "removed": 189,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9093285462333082,
+          "removed": 86,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5866087175610986,
+          "removed": 144,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.545367220962459,
+          "removed": 155,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6267006802721088,
+          "removed": 125,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.45737276392038295,
+          "removed": 193,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "playing surface-0.3-0.01",
+        "prompt": "playing surface",
+        "mask_threshold": 0.3,
+        "dilation": 0.01
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 151,
+        "fp": 2,
+        "fn": 27,
+        "precision": 0.9869281045751634,
+        "recall": 0.848314606741573,
+        "f1": 0.9123867069486404,
+        "false_positives_per_frame": 0.08695652173913043,
+        "goalies": 19,
+        "goalie_hits": 13,
+        "goalie_recall": 0.6842105263157895
+      },
+      "ap50": 0.8897416538385141,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.486079617031998,
+          "removed": 126,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5175579491055682,
+          "removed": 131,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4097694633408919,
+          "removed": 126,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4926933736457546,
+          "removed": 159,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5600907029478458,
+          "removed": 143,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.48815822625346433,
+          "removed": 161,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": false,
+          "surface_fraction": 0.8694255479969766,
+          "removed": 97,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5775541698160745,
+          "removed": 148,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5286123708742756,
+          "removed": 140,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.5277305366591081,
+          "removed": 139,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6091427311665407,
+          "removed": 142,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5219513731418494,
+          "removed": 175,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.550705467372134,
+          "removed": 158,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46305744520030234,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5413359788359788,
+          "removed": 135,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5574924414210128,
+          "removed": 160,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.544469639707735,
+          "removed": 135,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.40262030738221216,
+          "removed": 137,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9093285462333082,
+          "removed": 23,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5866087175610986,
+          "removed": 101,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.545367220962459,
+          "removed": 118,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6267006802721088,
+          "removed": 76,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.45737276392038295,
+          "removed": 131,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "playing surface-0.3-0.025",
+        "prompt": "playing surface",
+        "mask_threshold": 0.3,
+        "dilation": 0.025
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 157,
+        "fp": 3,
+        "fn": 21,
+        "precision": 0.98125,
+        "recall": 0.8820224719101124,
+        "f1": 0.9289940828402367,
+        "false_positives_per_frame": 0.13043478260869565,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9271651641044837,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.486079617031998,
+          "removed": 111,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5175579491055682,
+          "removed": 109,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4097694633408919,
+          "removed": 111,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4926933736457546,
+          "removed": 140,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5600907029478458,
+          "removed": 125,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.48815822625346433,
+          "removed": 151,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": false,
+          "surface_fraction": 0.8694255479969766,
+          "removed": 62,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5775541698160745,
+          "removed": 139,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5286123708742756,
+          "removed": 119,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.5277305366591081,
+          "removed": 125,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6091427311665407,
+          "removed": 132,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5219513731418494,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.550705467372134,
+          "removed": 144,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46305744520030234,
+          "removed": 136,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5413359788359788,
+          "removed": 119,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5574924414210128,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.544469639707735,
+          "removed": 123,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.40262030738221216,
+          "removed": 122,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9093285462333082,
+          "removed": 12,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5866087175610986,
+          "removed": 84,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.545367220962459,
+          "removed": 107,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6267006802721088,
+          "removed": 61,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.45737276392038295,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "playing surface-0.5-0",
+        "prompt": "playing surface",
+        "mask_threshold": 0.5,
+        "dilation": 0
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 42,
+        "fp": 0,
+        "fn": 136,
+        "precision": 1.0,
+        "recall": 0.23595505617977527,
+        "f1": 0.38181818181818183,
+        "false_positives_per_frame": 0.0,
+        "goalies": 19,
+        "goalie_hits": 2,
+        "goalie_recall": 0.10526315789473684
+      },
+      "ap50": 0.2993835814109621,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.486079617031998,
+          "removed": 166,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5175579491055682,
+          "removed": 166,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4097694633408919,
+          "removed": 171,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4926933736457546,
+          "removed": 186,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5600907029478458,
+          "removed": 183,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.48815822625346433,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": false,
+          "surface_fraction": 0.8694255479969766,
+          "removed": 126,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5775541698160745,
+          "removed": 166,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5286123708742756,
+          "removed": 188,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.5277305366591081,
+          "removed": 188,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6091427311665407,
+          "removed": 161,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5219513731418494,
+          "removed": 191,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.550705467372134,
+          "removed": 177,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46305744520030234,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5413359788359788,
+          "removed": 172,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5574924414210128,
+          "removed": 187,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.544469639707735,
+          "removed": 172,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.40262030738221216,
+          "removed": 189,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9093285462333082,
+          "removed": 86,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5866087175610986,
+          "removed": 144,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.545367220962459,
+          "removed": 155,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6267006802721088,
+          "removed": 125,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.45737276392038295,
+          "removed": 193,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "playing surface-0.5-0.01",
+        "prompt": "playing surface",
+        "mask_threshold": 0.5,
+        "dilation": 0.01
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 151,
+        "fp": 2,
+        "fn": 27,
+        "precision": 0.9869281045751634,
+        "recall": 0.848314606741573,
+        "f1": 0.9123867069486404,
+        "false_positives_per_frame": 0.08695652173913043,
+        "goalies": 19,
+        "goalie_hits": 13,
+        "goalie_recall": 0.6842105263157895
+      },
+      "ap50": 0.8897416538385141,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.486079617031998,
+          "removed": 126,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5175579491055682,
+          "removed": 131,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4097694633408919,
+          "removed": 126,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4926933736457546,
+          "removed": 159,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5600907029478458,
+          "removed": 143,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.48815822625346433,
+          "removed": 161,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": false,
+          "surface_fraction": 0.8694255479969766,
+          "removed": 97,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5775541698160745,
+          "removed": 148,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5286123708742756,
+          "removed": 140,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.5277305366591081,
+          "removed": 139,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6091427311665407,
+          "removed": 142,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5219513731418494,
+          "removed": 175,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.550705467372134,
+          "removed": 158,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46305744520030234,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5413359788359788,
+          "removed": 135,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5574924414210128,
+          "removed": 160,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.544469639707735,
+          "removed": 135,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.40262030738221216,
+          "removed": 137,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9093285462333082,
+          "removed": 23,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5866087175610986,
+          "removed": 101,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.545367220962459,
+          "removed": 118,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6267006802721088,
+          "removed": 76,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.45737276392038295,
+          "removed": 131,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "playing surface-0.5-0.025",
+        "prompt": "playing surface",
+        "mask_threshold": 0.5,
+        "dilation": 0.025
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 157,
+        "fp": 3,
+        "fn": 21,
+        "precision": 0.98125,
+        "recall": 0.8820224719101124,
+        "f1": 0.9289940828402367,
+        "false_positives_per_frame": 0.13043478260869565,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9271651641044837,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.486079617031998,
+          "removed": 111,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5175579491055682,
+          "removed": 109,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4097694633408919,
+          "removed": 111,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4926933736457546,
+          "removed": 140,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5600907029478458,
+          "removed": 125,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.48815822625346433,
+          "removed": 151,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": false,
+          "surface_fraction": 0.8694255479969766,
+          "removed": 62,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5775541698160745,
+          "removed": 139,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5286123708742756,
+          "removed": 119,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.5277305366591081,
+          "removed": 125,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6091427311665407,
+          "removed": 132,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5219513731418494,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.550705467372134,
+          "removed": 144,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46305744520030234,
+          "removed": 136,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5413359788359788,
+          "removed": 119,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5574924414210128,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.544469639707735,
+          "removed": 123,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.40262030738221216,
+          "removed": 122,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9093285462333082,
+          "removed": 12,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5866087175610986,
+          "removed": 84,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.545367220962459,
+          "removed": 107,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6267006802721088,
+          "removed": 61,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.45737276392038295,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "hockey rink-0.3-0",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.3,
+        "dilation": 0
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 54,
+        "fp": 0,
+        "fn": 124,
+        "precision": 1.0,
+        "recall": 0.30337078651685395,
+        "f1": 0.46551724137931033,
+        "false_positives_per_frame": 0.0,
+        "goalies": 19,
+        "goalie_hits": 3,
+        "goalie_recall": 0.15789473684210525
+      },
+      "ap50": 0.37062864794931205,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.4905832703451751,
+          "removed": 164,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5232583774250441,
+          "removed": 162,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4139109347442681,
+          "removed": 167,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4961262282690854,
+          "removed": 185,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.565491937515747,
+          "removed": 182,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4901108591584782,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5817743764172335,
+          "removed": 164,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.533320735701688,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.531084656084656,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6128590325018897,
+          "removed": 159,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5236363063744016,
+          "removed": 189,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5540280927185689,
+          "removed": 175,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46734063995968755,
+          "removed": 182,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5444381456286218,
+          "removed": 170,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5606418493323255,
+          "removed": 186,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.547713529856387,
+          "removed": 167,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4052658100277148,
+          "removed": 186,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9156588561350466,
+          "removed": 79,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5900415721844293,
+          "removed": 142,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5486268581506677,
+          "removed": 153,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6286690602166792,
+          "removed": 123,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.46056941295036535,
+          "removed": 189,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "hockey rink-0.3-0.01",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.3,
+        "dilation": 0.01
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 154,
+        "fp": 2,
+        "fn": 24,
+        "precision": 0.9871794871794872,
+        "recall": 0.8651685393258427,
+        "f1": 0.9221556886227545,
+        "false_positives_per_frame": 0.08695652173913043,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9048603079822743,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.4905832703451751,
+          "removed": 120,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5232583774250441,
+          "removed": 126,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4139109347442681,
+          "removed": 117,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4961262282690854,
+          "removed": 156,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.565491937515747,
+          "removed": 138,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4901108591584782,
+          "removed": 161,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5817743764172335,
+          "removed": 147,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.533320735701688,
+          "removed": 135,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.531084656084656,
+          "removed": 136,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6128590325018897,
+          "removed": 141,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5236363063744016,
+          "removed": 164,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5540280927185689,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46734063995968755,
+          "removed": 154,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5444381456286218,
+          "removed": 132,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5606418493323255,
+          "removed": 160,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.547713529856387,
+          "removed": 134,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4052658100277148,
+          "removed": 134,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9156588561350466,
+          "removed": 22,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5900415721844293,
+          "removed": 99,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5486268581506677,
+          "removed": 115,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6286690602166792,
+          "removed": 73,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.46056941295036535,
+          "removed": 131,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "hockey rink-0.3-0.025",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.3,
+        "dilation": 0.025
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 160,
+        "fp": 3,
+        "fn": 18,
+        "precision": 0.9815950920245399,
+        "recall": 0.898876404494382,
+        "f1": 0.9384164222873901,
+        "false_positives_per_frame": 0.13043478260869565,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9399312702552058,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.4905832703451751,
+          "removed": 109,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5232583774250441,
+          "removed": 108,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4139109347442681,
+          "removed": 106,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4961262282690854,
+          "removed": 140,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.565491937515747,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4901108591584782,
+          "removed": 156,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5817743764172335,
+          "removed": 138,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.533320735701688,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.531084656084656,
+          "removed": 124,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6128590325018897,
+          "removed": 131,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5236363063744016,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5540280927185689,
+          "removed": 144,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46734063995968755,
+          "removed": 131,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5444381456286218,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5606418493323255,
+          "removed": 151,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.547713529856387,
+          "removed": 121,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4052658100277148,
+          "removed": 122,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9156588561350466,
+          "removed": 12,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5900415721844293,
+          "removed": 80,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5486268581506677,
+          "removed": 107,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6286690602166792,
+          "removed": 58,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.46056941295036535,
+          "removed": 112,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "hockey rink-0.5-0",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.5,
+        "dilation": 0
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 54,
+        "fp": 0,
+        "fn": 124,
+        "precision": 1.0,
+        "recall": 0.30337078651685395,
+        "f1": 0.46551724137931033,
+        "false_positives_per_frame": 0.0,
+        "goalies": 19,
+        "goalie_hits": 3,
+        "goalie_recall": 0.15789473684210525
+      },
+      "ap50": 0.37062864794931205,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.4905832703451751,
+          "removed": 164,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5232583774250441,
+          "removed": 162,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4139109347442681,
+          "removed": 167,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4961262282690854,
+          "removed": 185,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.565491937515747,
+          "removed": 182,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4901108591584782,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5817743764172335,
+          "removed": 164,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.533320735701688,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.531084656084656,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6128590325018897,
+          "removed": 159,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5236363063744016,
+          "removed": 189,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5540280927185689,
+          "removed": 175,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46734063995968755,
+          "removed": 182,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5444381456286218,
+          "removed": 170,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5606418493323255,
+          "removed": 186,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.547713529856387,
+          "removed": 167,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4052658100277148,
+          "removed": 186,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9156588561350466,
+          "removed": 79,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5900415721844293,
+          "removed": 142,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5486268581506677,
+          "removed": 153,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6286690602166792,
+          "removed": 123,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.46056941295036535,
+          "removed": 189,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "hockey rink-0.5-0.01",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.5,
+        "dilation": 0.01
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 154,
+        "fp": 2,
+        "fn": 24,
+        "precision": 0.9871794871794872,
+        "recall": 0.8651685393258427,
+        "f1": 0.9221556886227545,
+        "false_positives_per_frame": 0.08695652173913043,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9048603079822743,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.4905832703451751,
+          "removed": 120,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5232583774250441,
+          "removed": 126,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4139109347442681,
+          "removed": 117,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4961262282690854,
+          "removed": 156,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.565491937515747,
+          "removed": 138,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4901108591584782,
+          "removed": 161,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5817743764172335,
+          "removed": 147,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.533320735701688,
+          "removed": 135,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.531084656084656,
+          "removed": 136,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6128590325018897,
+          "removed": 141,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5236363063744016,
+          "removed": 164,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5540280927185689,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46734063995968755,
+          "removed": 154,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5444381456286218,
+          "removed": 132,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5606418493323255,
+          "removed": 160,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.547713529856387,
+          "removed": 134,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4052658100277148,
+          "removed": 134,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9156588561350466,
+          "removed": 22,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5900415721844293,
+          "removed": 99,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5486268581506677,
+          "removed": 115,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6286690602166792,
+          "removed": 73,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.46056941295036535,
+          "removed": 131,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "hockey rink-0.5-0.025",
+        "prompt": "hockey rink",
+        "mask_threshold": 0.5,
+        "dilation": 0.025
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 160,
+        "fp": 3,
+        "fn": 18,
+        "precision": 0.9815950920245399,
+        "recall": 0.898876404494382,
+        "f1": 0.9384164222873901,
+        "false_positives_per_frame": 0.13043478260869565,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9399312702552058,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": false,
+          "surface_fraction": 0.4905832703451751,
+          "removed": 109,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5232583774250441,
+          "removed": 108,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": false,
+          "surface_fraction": 0.4139109347442681,
+          "removed": 106,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4961262282690854,
+          "removed": 140,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.565491937515747,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4901108591584782,
+          "removed": 156,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.5817743764172335,
+          "removed": 138,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.533320735701688,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.531084656084656,
+          "removed": 124,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6128590325018897,
+          "removed": 131,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5236363063744016,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5540280927185689,
+          "removed": 144,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46734063995968755,
+          "removed": 131,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5444381456286218,
+          "removed": 115,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5606418493323255,
+          "removed": 151,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.547713529856387,
+          "removed": 121,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4052658100277148,
+          "removed": 122,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9156588561350466,
+          "removed": 12,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5900415721844293,
+          "removed": 80,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5486268581506677,
+          "removed": 107,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.6286690602166792,
+          "removed": 58,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.46056941295036535,
+          "removed": 112,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "floor-0.3-0",
+        "prompt": "floor",
+        "mask_threshold": 0.3,
+        "dilation": 0
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 58,
+        "fp": 0,
+        "fn": 120,
+        "precision": 1.0,
+        "recall": 0.3258426966292135,
+        "f1": 0.4915254237288136,
+        "false_positives_per_frame": 0.0,
+        "goalies": 19,
+        "goalie_hits": 4,
+        "goalie_recall": 0.21052631578947367
+      },
+      "ap50": 0.38441390459222613,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5228017132779037,
+          "removed": 159,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4964569160997732,
+          "removed": 185,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5633975812547242,
+          "removed": 183,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4909297052154195,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.581144494834971,
+          "removed": 164,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5335884353741497,
+          "removed": 188,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.530801209372638,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6123866213151927,
+          "removed": 161,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5241402116402116,
+          "removed": 192,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5537918871252204,
+          "removed": 175,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46494708994708994,
+          "removed": 182,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5433673469387755,
+          "removed": 171,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5602009322247418,
+          "removed": 187,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.546705719324767,
+          "removed": 173,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4061633912824389,
+          "removed": 187,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9112181909800957,
+          "removed": 84,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5888133030990174,
+          "removed": 147,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5480442176870748,
+          "removed": 155,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.629220206601159,
+          "removed": 123,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.4608528596623835,
+          "removed": 191,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "floor-0.3-0.01",
+        "prompt": "floor",
+        "mask_threshold": 0.3,
+        "dilation": 0.01
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 154,
+        "fp": 2,
+        "fn": 24,
+        "precision": 0.9871794871794872,
+        "recall": 0.8651685393258427,
+        "f1": 0.9221556886227545,
+        "false_positives_per_frame": 0.08695652173913043,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9068750184496311,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5228017132779037,
+          "removed": 125,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4964569160997732,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5633975812547242,
+          "removed": 141,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4909297052154195,
+          "removed": 162,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.581144494834971,
+          "removed": 148,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5335884353741497,
+          "removed": 136,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.530801209372638,
+          "removed": 137,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6123866213151927,
+          "removed": 142,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5241402116402116,
+          "removed": 170,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5537918871252204,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46494708994708994,
+          "removed": 155,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5433673469387755,
+          "removed": 133,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5602009322247418,
+          "removed": 160,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.546705719324767,
+          "removed": 137,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4061633912824389,
+          "removed": 134,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9112181909800957,
+          "removed": 23,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5888133030990174,
+          "removed": 102,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5480442176870748,
+          "removed": 118,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.629220206601159,
+          "removed": 75,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.4608528596623835,
+          "removed": 133,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "floor-0.3-0.025",
+        "prompt": "floor",
+        "mask_threshold": 0.3,
+        "dilation": 0.025
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 158,
+        "fp": 3,
+        "fn": 20,
+        "precision": 0.9813664596273292,
+        "recall": 0.8876404494382022,
+        "f1": 0.9321533923303835,
+        "false_positives_per_frame": 0.13043478260869565,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9300772038822881,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5228017132779037,
+          "removed": 108,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4964569160997732,
+          "removed": 140,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5633975812547242,
+          "removed": 128,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": false,
+          "surface_fraction": 0.4909297052154195,
+          "removed": 156,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": false,
+          "surface_fraction": 0.581144494834971,
+          "removed": 138,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5335884353741497,
+          "removed": 116,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.530801209372638,
+          "removed": 125,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6123866213151927,
+          "removed": 131,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5241402116402116,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5537918871252204,
+          "removed": 145,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46494708994708994,
+          "removed": 138,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5433673469387755,
+          "removed": 117,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5602009322247418,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.546705719324767,
+          "removed": 123,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4061633912824389,
+          "removed": 122,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9112181909800957,
+          "removed": 14,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5888133030990174,
+          "removed": 82,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5480442176870748,
+          "removed": 107,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.629220206601159,
+          "removed": 59,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.4608528596623835,
+          "removed": 112,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "floor-0.5-0",
+        "prompt": "floor",
+        "mask_threshold": 0.5,
+        "dilation": 0
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 69,
+        "fp": 6,
+        "fn": 109,
+        "precision": 0.92,
+        "recall": 0.38764044943820225,
+        "f1": 0.5454545454545454,
+        "false_positives_per_frame": 0.2608695652173913,
+        "goalies": 19,
+        "goalie_hits": 4,
+        "goalie_recall": 0.21052631578947367
+      },
+      "ap50": 0.4328011182234696,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5228017132779037,
+          "removed": 159,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4964569160997732,
+          "removed": 185,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5633975812547242,
+          "removed": 183,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5335884353741497,
+          "removed": 188,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.530801209372638,
+          "removed": 184,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6123866213151927,
+          "removed": 161,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5241402116402116,
+          "removed": 192,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5537918871252204,
+          "removed": 175,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46494708994708994,
+          "removed": 182,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5433673469387755,
+          "removed": 171,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5602009322247418,
+          "removed": 187,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.546705719324767,
+          "removed": 173,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4061633912824389,
+          "removed": 187,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9112181909800957,
+          "removed": 84,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5888133030990174,
+          "removed": 147,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5480442176870748,
+          "removed": 155,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.629220206601159,
+          "removed": 123,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.4608528596623835,
+          "removed": 191,
+          "dilation_pixels": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "floor-0.5-0.01",
+        "prompt": "floor",
+        "mask_threshold": 0.5,
+        "dilation": 0.01
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 155,
+        "fp": 7,
+        "fn": 23,
+        "precision": 0.9567901234567902,
+        "recall": 0.8707865168539326,
+        "f1": 0.9117647058823529,
+        "false_positives_per_frame": 0.30434782608695654,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9079501112663529,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5228017132779037,
+          "removed": 125,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4964569160997732,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5633975812547242,
+          "removed": 141,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5335884353741497,
+          "removed": 136,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.530801209372638,
+          "removed": 137,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6123866213151927,
+          "removed": 142,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5241402116402116,
+          "removed": 170,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5537918871252204,
+          "removed": 157,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46494708994708994,
+          "removed": 155,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5433673469387755,
+          "removed": 133,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5602009322247418,
+          "removed": 160,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.546705719324767,
+          "removed": 137,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4061633912824389,
+          "removed": 134,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9112181909800957,
+          "removed": 23,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5888133030990174,
+          "removed": 102,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5480442176870748,
+          "removed": 118,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.629220206601159,
+          "removed": 75,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.4608528596623835,
+          "removed": 133,
+          "dilation_pixels": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "setting": {
+        "key": "floor-0.5-0.025",
+        "prompt": "floor",
+        "mask_threshold": 0.5,
+        "dilation": 0.025
+      },
+      "metrics": {
+        "confidence_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "frames": 23,
+        "targets": 178,
+        "tp": 159,
+        "fp": 8,
+        "fn": 19,
+        "precision": 0.9520958083832335,
+        "recall": 0.8932584269662921,
+        "f1": 0.9217391304347826,
+        "false_positives_per_frame": 0.34782608695652173,
+        "goalies": 19,
+        "goalie_hits": 14,
+        "goalie_recall": 0.7368421052631579
+      },
+      "ap50": 0.9321379800858542,
+      "frames": [
+        {
+          "id": "b8CM4rZexaY-00060000",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00177300",
+          "fallback": false,
+          "surface_fraction": 0.5228017132779037,
+          "removed": 108,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00294610",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00411910",
+          "fallback": false,
+          "surface_fraction": 0.4964569160997732,
+          "removed": 140,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00529220",
+          "fallback": false,
+          "surface_fraction": 0.5633975812547242,
+          "removed": 128,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-00763830",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00881130",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-00998430",
+          "fallback": true,
+          "surface_fraction": 0.0,
+          "removed": 0
+        },
+        {
+          "id": "b8CM4rZexaY-01115740",
+          "fallback": false,
+          "surface_fraction": 0.5335884353741497,
+          "removed": 116,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01233040",
+          "fallback": false,
+          "surface_fraction": 0.530801209372638,
+          "removed": 125,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01350350",
+          "fallback": false,
+          "surface_fraction": 0.6123866213151927,
+          "removed": 131,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01467650",
+          "fallback": false,
+          "surface_fraction": 0.5241402116402116,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01584960",
+          "fallback": false,
+          "surface_fraction": 0.5537918871252204,
+          "removed": 145,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01702260",
+          "fallback": false,
+          "surface_fraction": 0.46494708994708994,
+          "removed": 138,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01819570",
+          "fallback": false,
+          "surface_fraction": 0.5433673469387755,
+          "removed": 117,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-01936870",
+          "fallback": false,
+          "surface_fraction": 0.5602009322247418,
+          "removed": 154,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02054170",
+          "fallback": false,
+          "surface_fraction": 0.546705719324767,
+          "removed": 123,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02171480",
+          "fallback": false,
+          "surface_fraction": 0.4061633912824389,
+          "removed": 122,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02288780",
+          "fallback": false,
+          "surface_fraction": 0.9112181909800957,
+          "removed": 14,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02406090",
+          "fallback": false,
+          "surface_fraction": 0.5888133030990174,
+          "removed": 82,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02523390",
+          "fallback": false,
+          "surface_fraction": 0.5480442176870748,
+          "removed": 107,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02640700",
+          "fallback": false,
+          "surface_fraction": 0.629220206601159,
+          "removed": 59,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        },
+        {
+          "id": "b8CM4rZexaY-02758000",
+          "fallback": false,
+          "surface_fraction": 0.4608528596623835,
+          "removed": 112,
+          "dilation_pixels": [
+            4,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "surface_diagnostics": [
+    {
+      "id": "b8CM4rZexaY-00060000",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "559a8cb447ca103a66dcb819882417e8f1afa3ff25b80efcd00d2257a969b783"
+    },
+    {
+      "id": "b8CM4rZexaY-00060000",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "559a8cb447ca103a66dcb819882417e8f1afa3ff25b80efcd00d2257a969b783"
+    },
+    {
+      "id": "b8CM4rZexaY-00060000",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4905832703451751,
+      "frame_sha256": "559a8cb447ca103a66dcb819882417e8f1afa3ff25b80efcd00d2257a969b783"
+    },
+    {
+      "id": "b8CM4rZexaY-00060000",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4905832703451751,
+      "frame_sha256": "559a8cb447ca103a66dcb819882417e8f1afa3ff25b80efcd00d2257a969b783"
+    },
+    {
+      "id": "b8CM4rZexaY-00060000",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.486079617031998,
+      "frame_sha256": "559a8cb447ca103a66dcb819882417e8f1afa3ff25b80efcd00d2257a969b783"
+    },
+    {
+      "id": "b8CM4rZexaY-00060000",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.486079617031998,
+      "frame_sha256": "559a8cb447ca103a66dcb819882417e8f1afa3ff25b80efcd00d2257a969b783"
+    },
+    {
+      "id": "b8CM4rZexaY-00177300",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5228017132779037,
+      "frame_sha256": "00c5635b7f71ef96933ae7449070e593f59bd5e82df771a0cc1d4cc53a2b8e47"
+    },
+    {
+      "id": "b8CM4rZexaY-00177300",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5228017132779037,
+      "frame_sha256": "00c5635b7f71ef96933ae7449070e593f59bd5e82df771a0cc1d4cc53a2b8e47"
+    },
+    {
+      "id": "b8CM4rZexaY-00177300",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5232583774250441,
+      "frame_sha256": "00c5635b7f71ef96933ae7449070e593f59bd5e82df771a0cc1d4cc53a2b8e47"
+    },
+    {
+      "id": "b8CM4rZexaY-00177300",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5232583774250441,
+      "frame_sha256": "00c5635b7f71ef96933ae7449070e593f59bd5e82df771a0cc1d4cc53a2b8e47"
+    },
+    {
+      "id": "b8CM4rZexaY-00177300",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5175579491055682,
+      "frame_sha256": "00c5635b7f71ef96933ae7449070e593f59bd5e82df771a0cc1d4cc53a2b8e47"
+    },
+    {
+      "id": "b8CM4rZexaY-00177300",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5175579491055682,
+      "frame_sha256": "00c5635b7f71ef96933ae7449070e593f59bd5e82df771a0cc1d4cc53a2b8e47"
+    },
+    {
+      "id": "b8CM4rZexaY-00294610",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "5f72814b278fce1916f753a597ae602cedb078f1470da4fafa2973f5e1a18c9d"
+    },
+    {
+      "id": "b8CM4rZexaY-00294610",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "5f72814b278fce1916f753a597ae602cedb078f1470da4fafa2973f5e1a18c9d"
+    },
+    {
+      "id": "b8CM4rZexaY-00294610",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4139109347442681,
+      "frame_sha256": "5f72814b278fce1916f753a597ae602cedb078f1470da4fafa2973f5e1a18c9d"
+    },
+    {
+      "id": "b8CM4rZexaY-00294610",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4139109347442681,
+      "frame_sha256": "5f72814b278fce1916f753a597ae602cedb078f1470da4fafa2973f5e1a18c9d"
+    },
+    {
+      "id": "b8CM4rZexaY-00294610",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4097694633408919,
+      "frame_sha256": "5f72814b278fce1916f753a597ae602cedb078f1470da4fafa2973f5e1a18c9d"
+    },
+    {
+      "id": "b8CM4rZexaY-00294610",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4097694633408919,
+      "frame_sha256": "5f72814b278fce1916f753a597ae602cedb078f1470da4fafa2973f5e1a18c9d"
+    },
+    {
+      "id": "b8CM4rZexaY-00411910",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4964569160997732,
+      "frame_sha256": "3c8d504ad04b8537161fd8151c1143cde303b9156413bb503038bd2e8ec97b1c"
+    },
+    {
+      "id": "b8CM4rZexaY-00411910",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4964569160997732,
+      "frame_sha256": "3c8d504ad04b8537161fd8151c1143cde303b9156413bb503038bd2e8ec97b1c"
+    },
+    {
+      "id": "b8CM4rZexaY-00411910",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4961262282690854,
+      "frame_sha256": "3c8d504ad04b8537161fd8151c1143cde303b9156413bb503038bd2e8ec97b1c"
+    },
+    {
+      "id": "b8CM4rZexaY-00411910",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4961262282690854,
+      "frame_sha256": "3c8d504ad04b8537161fd8151c1143cde303b9156413bb503038bd2e8ec97b1c"
+    },
+    {
+      "id": "b8CM4rZexaY-00411910",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4926933736457546,
+      "frame_sha256": "3c8d504ad04b8537161fd8151c1143cde303b9156413bb503038bd2e8ec97b1c"
+    },
+    {
+      "id": "b8CM4rZexaY-00411910",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4926933736457546,
+      "frame_sha256": "3c8d504ad04b8537161fd8151c1143cde303b9156413bb503038bd2e8ec97b1c"
+    },
+    {
+      "id": "b8CM4rZexaY-00529220",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5633975812547242,
+      "frame_sha256": "a47c2720eea1a35bce19694b05d82862ead7870e113a675f0d2372655753714c"
+    },
+    {
+      "id": "b8CM4rZexaY-00529220",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5633975812547242,
+      "frame_sha256": "a47c2720eea1a35bce19694b05d82862ead7870e113a675f0d2372655753714c"
+    },
+    {
+      "id": "b8CM4rZexaY-00529220",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.565491937515747,
+      "frame_sha256": "a47c2720eea1a35bce19694b05d82862ead7870e113a675f0d2372655753714c"
+    },
+    {
+      "id": "b8CM4rZexaY-00529220",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.565491937515747,
+      "frame_sha256": "a47c2720eea1a35bce19694b05d82862ead7870e113a675f0d2372655753714c"
+    },
+    {
+      "id": "b8CM4rZexaY-00529220",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5600907029478458,
+      "frame_sha256": "a47c2720eea1a35bce19694b05d82862ead7870e113a675f0d2372655753714c"
+    },
+    {
+      "id": "b8CM4rZexaY-00529220",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5600907029478458,
+      "frame_sha256": "a47c2720eea1a35bce19694b05d82862ead7870e113a675f0d2372655753714c"
+    },
+    {
+      "id": "b8CM4rZexaY-00763830",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4909297052154195,
+      "frame_sha256": "56ffa67625409b71abc0574f5eb3754b8d5a0ea29744d03f813ddf546f773d59"
+    },
+    {
+      "id": "b8CM4rZexaY-00763830",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "56ffa67625409b71abc0574f5eb3754b8d5a0ea29744d03f813ddf546f773d59"
+    },
+    {
+      "id": "b8CM4rZexaY-00763830",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4901108591584782,
+      "frame_sha256": "56ffa67625409b71abc0574f5eb3754b8d5a0ea29744d03f813ddf546f773d59"
+    },
+    {
+      "id": "b8CM4rZexaY-00763830",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4901108591584782,
+      "frame_sha256": "56ffa67625409b71abc0574f5eb3754b8d5a0ea29744d03f813ddf546f773d59"
+    },
+    {
+      "id": "b8CM4rZexaY-00763830",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.48815822625346433,
+      "frame_sha256": "56ffa67625409b71abc0574f5eb3754b8d5a0ea29744d03f813ddf546f773d59"
+    },
+    {
+      "id": "b8CM4rZexaY-00763830",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.48815822625346433,
+      "frame_sha256": "56ffa67625409b71abc0574f5eb3754b8d5a0ea29744d03f813ddf546f773d59"
+    },
+    {
+      "id": "b8CM4rZexaY-00881130",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "2766bc7497ab5f24f8f37fba091e53b19e15d6cfae4274698228055763f1bab5"
+    },
+    {
+      "id": "b8CM4rZexaY-00881130",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "2766bc7497ab5f24f8f37fba091e53b19e15d6cfae4274698228055763f1bab5"
+    },
+    {
+      "id": "b8CM4rZexaY-00881130",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "2766bc7497ab5f24f8f37fba091e53b19e15d6cfae4274698228055763f1bab5"
+    },
+    {
+      "id": "b8CM4rZexaY-00881130",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "2766bc7497ab5f24f8f37fba091e53b19e15d6cfae4274698228055763f1bab5"
+    },
+    {
+      "id": "b8CM4rZexaY-00881130",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.8694255479969766,
+      "frame_sha256": "2766bc7497ab5f24f8f37fba091e53b19e15d6cfae4274698228055763f1bab5"
+    },
+    {
+      "id": "b8CM4rZexaY-00881130",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.8694255479969766,
+      "frame_sha256": "2766bc7497ab5f24f8f37fba091e53b19e15d6cfae4274698228055763f1bab5"
+    },
+    {
+      "id": "b8CM4rZexaY-00998430",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.581144494834971,
+      "frame_sha256": "3f49afc74bbf2cb7808b3e9a771787e7a85ad86129a33721a9378e119dbb0110"
+    },
+    {
+      "id": "b8CM4rZexaY-00998430",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 0,
+      "surface_fraction": 0.0,
+      "frame_sha256": "3f49afc74bbf2cb7808b3e9a771787e7a85ad86129a33721a9378e119dbb0110"
+    },
+    {
+      "id": "b8CM4rZexaY-00998430",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5817743764172335,
+      "frame_sha256": "3f49afc74bbf2cb7808b3e9a771787e7a85ad86129a33721a9378e119dbb0110"
+    },
+    {
+      "id": "b8CM4rZexaY-00998430",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5817743764172335,
+      "frame_sha256": "3f49afc74bbf2cb7808b3e9a771787e7a85ad86129a33721a9378e119dbb0110"
+    },
+    {
+      "id": "b8CM4rZexaY-00998430",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5775541698160745,
+      "frame_sha256": "3f49afc74bbf2cb7808b3e9a771787e7a85ad86129a33721a9378e119dbb0110"
+    },
+    {
+      "id": "b8CM4rZexaY-00998430",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5775541698160745,
+      "frame_sha256": "3f49afc74bbf2cb7808b3e9a771787e7a85ad86129a33721a9378e119dbb0110"
+    },
+    {
+      "id": "b8CM4rZexaY-01115740",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5335884353741497,
+      "frame_sha256": "1770f52c9eea4dfa12521117369bc7c1949208884febbf90cf11fcf2b61972d3"
+    },
+    {
+      "id": "b8CM4rZexaY-01115740",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5335884353741497,
+      "frame_sha256": "1770f52c9eea4dfa12521117369bc7c1949208884febbf90cf11fcf2b61972d3"
+    },
+    {
+      "id": "b8CM4rZexaY-01115740",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.533320735701688,
+      "frame_sha256": "1770f52c9eea4dfa12521117369bc7c1949208884febbf90cf11fcf2b61972d3"
+    },
+    {
+      "id": "b8CM4rZexaY-01115740",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.533320735701688,
+      "frame_sha256": "1770f52c9eea4dfa12521117369bc7c1949208884febbf90cf11fcf2b61972d3"
+    },
+    {
+      "id": "b8CM4rZexaY-01115740",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5286123708742756,
+      "frame_sha256": "1770f52c9eea4dfa12521117369bc7c1949208884febbf90cf11fcf2b61972d3"
+    },
+    {
+      "id": "b8CM4rZexaY-01115740",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5286123708742756,
+      "frame_sha256": "1770f52c9eea4dfa12521117369bc7c1949208884febbf90cf11fcf2b61972d3"
+    },
+    {
+      "id": "b8CM4rZexaY-01233040",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.530801209372638,
+      "frame_sha256": "e5c45a1f6bd4b2dfd48557988e0b29d76c56a5209665ac06cafe9cea1996fe63"
+    },
+    {
+      "id": "b8CM4rZexaY-01233040",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.530801209372638,
+      "frame_sha256": "e5c45a1f6bd4b2dfd48557988e0b29d76c56a5209665ac06cafe9cea1996fe63"
+    },
+    {
+      "id": "b8CM4rZexaY-01233040",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.531084656084656,
+      "frame_sha256": "e5c45a1f6bd4b2dfd48557988e0b29d76c56a5209665ac06cafe9cea1996fe63"
+    },
+    {
+      "id": "b8CM4rZexaY-01233040",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.531084656084656,
+      "frame_sha256": "e5c45a1f6bd4b2dfd48557988e0b29d76c56a5209665ac06cafe9cea1996fe63"
+    },
+    {
+      "id": "b8CM4rZexaY-01233040",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5277305366591081,
+      "frame_sha256": "e5c45a1f6bd4b2dfd48557988e0b29d76c56a5209665ac06cafe9cea1996fe63"
+    },
+    {
+      "id": "b8CM4rZexaY-01233040",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5277305366591081,
+      "frame_sha256": "e5c45a1f6bd4b2dfd48557988e0b29d76c56a5209665ac06cafe9cea1996fe63"
+    },
+    {
+      "id": "b8CM4rZexaY-01350350",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6123866213151927,
+      "frame_sha256": "eb07c9ace276e08fd544958db18e20d0fe932fbcc3b605b8a6e6180027339834"
+    },
+    {
+      "id": "b8CM4rZexaY-01350350",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6123866213151927,
+      "frame_sha256": "eb07c9ace276e08fd544958db18e20d0fe932fbcc3b605b8a6e6180027339834"
+    },
+    {
+      "id": "b8CM4rZexaY-01350350",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6128590325018897,
+      "frame_sha256": "eb07c9ace276e08fd544958db18e20d0fe932fbcc3b605b8a6e6180027339834"
+    },
+    {
+      "id": "b8CM4rZexaY-01350350",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6128590325018897,
+      "frame_sha256": "eb07c9ace276e08fd544958db18e20d0fe932fbcc3b605b8a6e6180027339834"
+    },
+    {
+      "id": "b8CM4rZexaY-01350350",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6091427311665407,
+      "frame_sha256": "eb07c9ace276e08fd544958db18e20d0fe932fbcc3b605b8a6e6180027339834"
+    },
+    {
+      "id": "b8CM4rZexaY-01350350",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6091427311665407,
+      "frame_sha256": "eb07c9ace276e08fd544958db18e20d0fe932fbcc3b605b8a6e6180027339834"
+    },
+    {
+      "id": "b8CM4rZexaY-01467650",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5241402116402116,
+      "frame_sha256": "23ede7c9994bd8c2f89920a138a76166a530f0c66e58832faa0797f390ff6a1a"
+    },
+    {
+      "id": "b8CM4rZexaY-01467650",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5241402116402116,
+      "frame_sha256": "23ede7c9994bd8c2f89920a138a76166a530f0c66e58832faa0797f390ff6a1a"
+    },
+    {
+      "id": "b8CM4rZexaY-01467650",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5236363063744016,
+      "frame_sha256": "23ede7c9994bd8c2f89920a138a76166a530f0c66e58832faa0797f390ff6a1a"
+    },
+    {
+      "id": "b8CM4rZexaY-01467650",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5236363063744016,
+      "frame_sha256": "23ede7c9994bd8c2f89920a138a76166a530f0c66e58832faa0797f390ff6a1a"
+    },
+    {
+      "id": "b8CM4rZexaY-01467650",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5219513731418494,
+      "frame_sha256": "23ede7c9994bd8c2f89920a138a76166a530f0c66e58832faa0797f390ff6a1a"
+    },
+    {
+      "id": "b8CM4rZexaY-01467650",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5219513731418494,
+      "frame_sha256": "23ede7c9994bd8c2f89920a138a76166a530f0c66e58832faa0797f390ff6a1a"
+    },
+    {
+      "id": "b8CM4rZexaY-01584960",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5537918871252204,
+      "frame_sha256": "f3b86abbdc322ab6bc298f6dc3a955bdfdc3a53d970b656668af883da14d0f7d"
+    },
+    {
+      "id": "b8CM4rZexaY-01584960",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5537918871252204,
+      "frame_sha256": "f3b86abbdc322ab6bc298f6dc3a955bdfdc3a53d970b656668af883da14d0f7d"
+    },
+    {
+      "id": "b8CM4rZexaY-01584960",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5540280927185689,
+      "frame_sha256": "f3b86abbdc322ab6bc298f6dc3a955bdfdc3a53d970b656668af883da14d0f7d"
+    },
+    {
+      "id": "b8CM4rZexaY-01584960",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5540280927185689,
+      "frame_sha256": "f3b86abbdc322ab6bc298f6dc3a955bdfdc3a53d970b656668af883da14d0f7d"
+    },
+    {
+      "id": "b8CM4rZexaY-01584960",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.550705467372134,
+      "frame_sha256": "f3b86abbdc322ab6bc298f6dc3a955bdfdc3a53d970b656668af883da14d0f7d"
+    },
+    {
+      "id": "b8CM4rZexaY-01584960",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.550705467372134,
+      "frame_sha256": "f3b86abbdc322ab6bc298f6dc3a955bdfdc3a53d970b656668af883da14d0f7d"
+    },
+    {
+      "id": "b8CM4rZexaY-01702260",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46494708994708994,
+      "frame_sha256": "39209a681f1ff3efa4e65a1d703e7cdae550913398a5188bb8e213022605480c"
+    },
+    {
+      "id": "b8CM4rZexaY-01702260",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46494708994708994,
+      "frame_sha256": "39209a681f1ff3efa4e65a1d703e7cdae550913398a5188bb8e213022605480c"
+    },
+    {
+      "id": "b8CM4rZexaY-01702260",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46734063995968755,
+      "frame_sha256": "39209a681f1ff3efa4e65a1d703e7cdae550913398a5188bb8e213022605480c"
+    },
+    {
+      "id": "b8CM4rZexaY-01702260",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46734063995968755,
+      "frame_sha256": "39209a681f1ff3efa4e65a1d703e7cdae550913398a5188bb8e213022605480c"
+    },
+    {
+      "id": "b8CM4rZexaY-01702260",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46305744520030234,
+      "frame_sha256": "39209a681f1ff3efa4e65a1d703e7cdae550913398a5188bb8e213022605480c"
+    },
+    {
+      "id": "b8CM4rZexaY-01702260",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46305744520030234,
+      "frame_sha256": "39209a681f1ff3efa4e65a1d703e7cdae550913398a5188bb8e213022605480c"
+    },
+    {
+      "id": "b8CM4rZexaY-01819570",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5433673469387755,
+      "frame_sha256": "592e519b860a17097dfc52edc1224df9730f767bad9b786216d7eca9af764a45"
+    },
+    {
+      "id": "b8CM4rZexaY-01819570",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5433673469387755,
+      "frame_sha256": "592e519b860a17097dfc52edc1224df9730f767bad9b786216d7eca9af764a45"
+    },
+    {
+      "id": "b8CM4rZexaY-01819570",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5444381456286218,
+      "frame_sha256": "592e519b860a17097dfc52edc1224df9730f767bad9b786216d7eca9af764a45"
+    },
+    {
+      "id": "b8CM4rZexaY-01819570",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5444381456286218,
+      "frame_sha256": "592e519b860a17097dfc52edc1224df9730f767bad9b786216d7eca9af764a45"
+    },
+    {
+      "id": "b8CM4rZexaY-01819570",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5413359788359788,
+      "frame_sha256": "592e519b860a17097dfc52edc1224df9730f767bad9b786216d7eca9af764a45"
+    },
+    {
+      "id": "b8CM4rZexaY-01819570",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5413359788359788,
+      "frame_sha256": "592e519b860a17097dfc52edc1224df9730f767bad9b786216d7eca9af764a45"
+    },
+    {
+      "id": "b8CM4rZexaY-01936870",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5602009322247418,
+      "frame_sha256": "ae2280f94cdcbce25a82b5753c9f1ae57bb5ce52d969720a76d2bafdf4c7c4fc"
+    },
+    {
+      "id": "b8CM4rZexaY-01936870",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5602009322247418,
+      "frame_sha256": "ae2280f94cdcbce25a82b5753c9f1ae57bb5ce52d969720a76d2bafdf4c7c4fc"
+    },
+    {
+      "id": "b8CM4rZexaY-01936870",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5606418493323255,
+      "frame_sha256": "ae2280f94cdcbce25a82b5753c9f1ae57bb5ce52d969720a76d2bafdf4c7c4fc"
+    },
+    {
+      "id": "b8CM4rZexaY-01936870",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5606418493323255,
+      "frame_sha256": "ae2280f94cdcbce25a82b5753c9f1ae57bb5ce52d969720a76d2bafdf4c7c4fc"
+    },
+    {
+      "id": "b8CM4rZexaY-01936870",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5574924414210128,
+      "frame_sha256": "ae2280f94cdcbce25a82b5753c9f1ae57bb5ce52d969720a76d2bafdf4c7c4fc"
+    },
+    {
+      "id": "b8CM4rZexaY-01936870",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5574924414210128,
+      "frame_sha256": "ae2280f94cdcbce25a82b5753c9f1ae57bb5ce52d969720a76d2bafdf4c7c4fc"
+    },
+    {
+      "id": "b8CM4rZexaY-02054170",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.546705719324767,
+      "frame_sha256": "82c3929429b65fd711cff90e9eb3ef0d4994cef58b7afd61750a2e5117d8d1af"
+    },
+    {
+      "id": "b8CM4rZexaY-02054170",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.546705719324767,
+      "frame_sha256": "82c3929429b65fd711cff90e9eb3ef0d4994cef58b7afd61750a2e5117d8d1af"
+    },
+    {
+      "id": "b8CM4rZexaY-02054170",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.547713529856387,
+      "frame_sha256": "82c3929429b65fd711cff90e9eb3ef0d4994cef58b7afd61750a2e5117d8d1af"
+    },
+    {
+      "id": "b8CM4rZexaY-02054170",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.547713529856387,
+      "frame_sha256": "82c3929429b65fd711cff90e9eb3ef0d4994cef58b7afd61750a2e5117d8d1af"
+    },
+    {
+      "id": "b8CM4rZexaY-02054170",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.544469639707735,
+      "frame_sha256": "82c3929429b65fd711cff90e9eb3ef0d4994cef58b7afd61750a2e5117d8d1af"
+    },
+    {
+      "id": "b8CM4rZexaY-02054170",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.544469639707735,
+      "frame_sha256": "82c3929429b65fd711cff90e9eb3ef0d4994cef58b7afd61750a2e5117d8d1af"
+    },
+    {
+      "id": "b8CM4rZexaY-02171480",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4061633912824389,
+      "frame_sha256": "89eebe313ddfb8b22b1f22dab21f5bf00cb337ea5c1f0fb150d51187fbbfd50d"
+    },
+    {
+      "id": "b8CM4rZexaY-02171480",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4061633912824389,
+      "frame_sha256": "89eebe313ddfb8b22b1f22dab21f5bf00cb337ea5c1f0fb150d51187fbbfd50d"
+    },
+    {
+      "id": "b8CM4rZexaY-02171480",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4052658100277148,
+      "frame_sha256": "89eebe313ddfb8b22b1f22dab21f5bf00cb337ea5c1f0fb150d51187fbbfd50d"
+    },
+    {
+      "id": "b8CM4rZexaY-02171480",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4052658100277148,
+      "frame_sha256": "89eebe313ddfb8b22b1f22dab21f5bf00cb337ea5c1f0fb150d51187fbbfd50d"
+    },
+    {
+      "id": "b8CM4rZexaY-02171480",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.40262030738221216,
+      "frame_sha256": "89eebe313ddfb8b22b1f22dab21f5bf00cb337ea5c1f0fb150d51187fbbfd50d"
+    },
+    {
+      "id": "b8CM4rZexaY-02171480",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.40262030738221216,
+      "frame_sha256": "89eebe313ddfb8b22b1f22dab21f5bf00cb337ea5c1f0fb150d51187fbbfd50d"
+    },
+    {
+      "id": "b8CM4rZexaY-02288780",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.9112181909800957,
+      "frame_sha256": "1ced1a67df160de238251d400dd2c1cb65b856570df58ee12ec04675451bf335"
+    },
+    {
+      "id": "b8CM4rZexaY-02288780",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.9112181909800957,
+      "frame_sha256": "1ced1a67df160de238251d400dd2c1cb65b856570df58ee12ec04675451bf335"
+    },
+    {
+      "id": "b8CM4rZexaY-02288780",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.9156588561350466,
+      "frame_sha256": "1ced1a67df160de238251d400dd2c1cb65b856570df58ee12ec04675451bf335"
+    },
+    {
+      "id": "b8CM4rZexaY-02288780",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.9156588561350466,
+      "frame_sha256": "1ced1a67df160de238251d400dd2c1cb65b856570df58ee12ec04675451bf335"
+    },
+    {
+      "id": "b8CM4rZexaY-02288780",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.9093285462333082,
+      "frame_sha256": "1ced1a67df160de238251d400dd2c1cb65b856570df58ee12ec04675451bf335"
+    },
+    {
+      "id": "b8CM4rZexaY-02288780",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.9093285462333082,
+      "frame_sha256": "1ced1a67df160de238251d400dd2c1cb65b856570df58ee12ec04675451bf335"
+    },
+    {
+      "id": "b8CM4rZexaY-02406090",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5888133030990174,
+      "frame_sha256": "c0f2db774a9ef21fdaa3f8e150fc5546072f01fa5218fafe4fe0a57d15c00169"
+    },
+    {
+      "id": "b8CM4rZexaY-02406090",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5888133030990174,
+      "frame_sha256": "c0f2db774a9ef21fdaa3f8e150fc5546072f01fa5218fafe4fe0a57d15c00169"
+    },
+    {
+      "id": "b8CM4rZexaY-02406090",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5900415721844293,
+      "frame_sha256": "c0f2db774a9ef21fdaa3f8e150fc5546072f01fa5218fafe4fe0a57d15c00169"
+    },
+    {
+      "id": "b8CM4rZexaY-02406090",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5900415721844293,
+      "frame_sha256": "c0f2db774a9ef21fdaa3f8e150fc5546072f01fa5218fafe4fe0a57d15c00169"
+    },
+    {
+      "id": "b8CM4rZexaY-02406090",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5866087175610986,
+      "frame_sha256": "c0f2db774a9ef21fdaa3f8e150fc5546072f01fa5218fafe4fe0a57d15c00169"
+    },
+    {
+      "id": "b8CM4rZexaY-02406090",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5866087175610986,
+      "frame_sha256": "c0f2db774a9ef21fdaa3f8e150fc5546072f01fa5218fafe4fe0a57d15c00169"
+    },
+    {
+      "id": "b8CM4rZexaY-02523390",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5480442176870748,
+      "frame_sha256": "eb518243674f644f2010a97e1ce6b2b8d374963d041fe3cd416eeb9495d314c4"
+    },
+    {
+      "id": "b8CM4rZexaY-02523390",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5480442176870748,
+      "frame_sha256": "eb518243674f644f2010a97e1ce6b2b8d374963d041fe3cd416eeb9495d314c4"
+    },
+    {
+      "id": "b8CM4rZexaY-02523390",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5486268581506677,
+      "frame_sha256": "eb518243674f644f2010a97e1ce6b2b8d374963d041fe3cd416eeb9495d314c4"
+    },
+    {
+      "id": "b8CM4rZexaY-02523390",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.5486268581506677,
+      "frame_sha256": "eb518243674f644f2010a97e1ce6b2b8d374963d041fe3cd416eeb9495d314c4"
+    },
+    {
+      "id": "b8CM4rZexaY-02523390",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.545367220962459,
+      "frame_sha256": "eb518243674f644f2010a97e1ce6b2b8d374963d041fe3cd416eeb9495d314c4"
+    },
+    {
+      "id": "b8CM4rZexaY-02523390",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.545367220962459,
+      "frame_sha256": "eb518243674f644f2010a97e1ce6b2b8d374963d041fe3cd416eeb9495d314c4"
+    },
+    {
+      "id": "b8CM4rZexaY-02640700",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.629220206601159,
+      "frame_sha256": "d9c5a0ad0857e111c7239f029e7d900ad100a62a6a3eaf6a9e30a3ff2480ece6"
+    },
+    {
+      "id": "b8CM4rZexaY-02640700",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.629220206601159,
+      "frame_sha256": "d9c5a0ad0857e111c7239f029e7d900ad100a62a6a3eaf6a9e30a3ff2480ece6"
+    },
+    {
+      "id": "b8CM4rZexaY-02640700",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6286690602166792,
+      "frame_sha256": "d9c5a0ad0857e111c7239f029e7d900ad100a62a6a3eaf6a9e30a3ff2480ece6"
+    },
+    {
+      "id": "b8CM4rZexaY-02640700",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6286690602166792,
+      "frame_sha256": "d9c5a0ad0857e111c7239f029e7d900ad100a62a6a3eaf6a9e30a3ff2480ece6"
+    },
+    {
+      "id": "b8CM4rZexaY-02640700",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6267006802721088,
+      "frame_sha256": "d9c5a0ad0857e111c7239f029e7d900ad100a62a6a3eaf6a9e30a3ff2480ece6"
+    },
+    {
+      "id": "b8CM4rZexaY-02640700",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.6267006802721088,
+      "frame_sha256": "d9c5a0ad0857e111c7239f029e7d900ad100a62a6a3eaf6a9e30a3ff2480ece6"
+    },
+    {
+      "id": "b8CM4rZexaY-02758000",
+      "prompt": "floor",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4608528596623835,
+      "frame_sha256": "ec3000fe4818cd3903d66096c448b9650e23727131bd1ffa4c13edb805c1f6db"
+    },
+    {
+      "id": "b8CM4rZexaY-02758000",
+      "prompt": "floor",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.4608528596623835,
+      "frame_sha256": "ec3000fe4818cd3903d66096c448b9650e23727131bd1ffa4c13edb805c1f6db"
+    },
+    {
+      "id": "b8CM4rZexaY-02758000",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46056941295036535,
+      "frame_sha256": "ec3000fe4818cd3903d66096c448b9650e23727131bd1ffa4c13edb805c1f6db"
+    },
+    {
+      "id": "b8CM4rZexaY-02758000",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.46056941295036535,
+      "frame_sha256": "ec3000fe4818cd3903d66096c448b9650e23727131bd1ffa4c13edb805c1f6db"
+    },
+    {
+      "id": "b8CM4rZexaY-02758000",
+      "prompt": "playing surface",
+      "mask_threshold": 0.3,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.45737276392038295,
+      "frame_sha256": "ec3000fe4818cd3903d66096c448b9650e23727131bd1ffa4c13edb805c1f6db"
+    },
+    {
+      "id": "b8CM4rZexaY-02758000",
+      "prompt": "playing surface",
+      "mask_threshold": 0.5,
+      "masks_above_threshold": 1,
+      "surface_fraction": 0.45737276392038295,
+      "frame_sha256": "ec3000fe4818cd3903d66096c448b9650e23727131bd1ffa4c13edb805c1f6db"
+    }
+  ],
+  "mask_file_sha256": "0ec745b2e01c19cbf5a5b0439d05aa5d3cba299d78f44ef8cc5e390b0fba64bd",
+  "seconds": 13.048075260000001,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "prior_regression_results_seen": true,
+  "code_revision": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+  "weights_revision": "3c879f39826c281e95690f02c7821c4de09afae7"
+}

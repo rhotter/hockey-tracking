@@ -1,0 +1,8 @@
+{
+  "registered_utc": "2026-10-24T02:26:48.112170+00:00",
+  "purpose": "Separate the selected detector weight delta from changed prompt and thresholds in native video.",
+  "selection": "No control selection. After choosing the adapted video admission margin on all nine development clips, run the original checkpoint with exactly the same hockey-player prompt, detection/output threshold, admission margin and runtime settings on all five reused regression clips.",
+  "comparison": "Only the detector parameter delta differs between the adapted winner and matched original control.",
+  "new_adapted_regression_scores_seen": false,
+  "limits": "The original person-prompt pipeline remains a separate baseline. Reused sparse references do not establish continuous identity accuracy."
+}

@@ -1,0 +1,25 @@
+{
+  "registered_utc": "2026-10-24T02:30:29.240675+00:00",
+  "scope": "NBHL ball hockey",
+  "motivation": "After reviewing all36 regression frames, the adapted detector false positives mostly resemble bench players. This is an explicitly post-regression follow-up, not a fresh test.",
+  "detector": "Frozen transformer-lr1e5 epoch2 and validation-selected confidence0.5; no new weight training or confidence retuning.",
+  "surface_model": "Original pretrained SAM3 segmentation checkpoint, same pinned revision; no human rink polygon.",
+  "prompts": [
+    "playing surface",
+    "hockey rink",
+    "floor"
+  ],
+  "mask_thresholds": [
+    0.3,
+    0.5
+  ],
+  "dilation_image_height_fractions": [
+    0,
+    0.01,
+    0.025
+  ],
+  "filter": "Union predicted surface masks above mask confidence. Resize nearest-neighbor to252x252; dilate by the specified image-height fraction. Keep player if its bbox bottom-center at2% above bottom is inside the mask. If undilated mask covers <5% or >98% of image, fall back to no filter.",
+  "selection": "Compare18 filters and unchanged fine-tune on the same23 validation frames. Choose highest F1, then precision, preferring unchanged detector on a tie. Only run selected filter on reused36 regression frames if it improves validation F1.",
+  "prior_regression_results_seen": true,
+  "limits": "Post-test hypothesis with validation-based setting selection; not independent accuracy. A surface mask is not homography, metric rink calibration, or visibility proof."
+}

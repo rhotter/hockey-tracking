@@ -1,0 +1,44 @@
+{
+  "eager_and_lazy_tensor_checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "negative_index_equal": true,
+  "cache": {
+    "frames": 20,
+    "capacity": 4,
+    "loads": 9,
+    "hits": 2,
+    "max_decoded_bytes": 24385536
+  },
+  "output_frames": 300,
+  "frames_with_different_ids": [],
+  "maximum_box_coordinate_difference": 0.0,
+  "maximum_score_difference": 0.0,
+  "equivalent_ids_and_boxes": true,
+  "history_offload_checks": [
+    {
+      "clip": "gb-tracking-1800",
+      "frames": 300,
+      "exactly_equal_rows": true,
+      "different_frames": []
+    },
+    {
+      "clip": "gb-reid-long-0900",
+      "frames": 900,
+      "exactly_equal_rows": true,
+      "different_frames": []
+    },
+    {
+      "clip": "long-plDp2kPtk_g",
+      "status": "incomplete_original_or_optimized_run"
+    }
+  ]
+}

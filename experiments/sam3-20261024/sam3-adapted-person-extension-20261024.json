@@ -1,0 +1,10 @@
+{
+  "registered_utc": "2026-10-24T02:33:02.483710+00:00",
+  "variant": "adapt-person",
+  "change": "Load the frozen selected detector delta, retaining original native person prompt, detection threshold0.5, new-object threshold0.7 and output threshold0.5.",
+  "motivation": "The initial hockey-prompt variants show that detection gains need not transfer to identity tracking. Isolate weight transfer while retaining the original native prompt and settings.",
+  "selection": "Add this one candidate to the adapted video family before its selection; evaluate all nine development clips and use the existing correct-10*wrong, coverage, uncertain-join ordering. No new weights or thresholds are trained or tuned.",
+  "matched_control": "If selected, the existing original person-prompt default is the matched original control. Otherwise use the previously declared original hockey-prompt margin control.",
+  "new_adapted_regression_scores_seen": false,
+  "detection_regression_results_seen": true
+}

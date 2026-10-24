@@ -1,0 +1,634 @@
+{
+  "frozen_at": "2026-10-24T02:20:09.671490+00:00",
+  "protocol_sha256": "f21999fd5e8643a902358755b755eb43a4452cb37b82bd8449ca05f126a821ed",
+  "development_sha256": "8419e1d6caaa50e9a64343724e3dd5838b8324aab71a26648d4300bece95bfc8",
+  "selected_keys": [
+    "anchor-0.3",
+    "appearance-0.3-0.0-0.75",
+    "consensus-bonus-0.1",
+    "consensus-qwen-bonus-0.05"
+  ],
+  "winners": [
+    {
+      "key": "anchor-0.3",
+      "family": "anchor",
+      "setting": {
+        "iou": 0.3
+      },
+      "counts": {
+        "correct": 99,
+        "wrong": 1,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 55,
+        "matched_observations": 208,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 26,
+          "observations": 2841
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 45,
+          "observations": 3809
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 58,
+          "observations": 3266
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 35,
+          "observations": 3916
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 24,
+          "observations": 3674
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 25,
+            "matched_observations": 33,
+            "reference_observations": 35
+          },
+          "fragments": 35,
+          "observations": 4746
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 41,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 14,
+          "observations": 2397
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 29,
+            "matched_observations": 42,
+            "reference_observations": 44
+          },
+          "fragments": 13,
+          "observations": 2348
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 1,
+            "matched_observations": 57,
+            "reference_observations": 58
+          },
+          "fragments": 62,
+          "observations": 16335
+        }
+      ]
+    },
+    {
+      "key": "appearance-0.3-0.0-0.75",
+      "family": "appearance",
+      "setting": {
+        "iou": 0.3,
+        "split": 0.0,
+        "cosine": 0.75
+      },
+      "counts": {
+        "correct": 103,
+        "wrong": 1,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 55,
+        "matched_observations": 208,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 41,
+          "observations": 2841
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 72,
+          "observations": 3809
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 74,
+          "observations": 3266
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 64,
+          "observations": 3916
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 32,
+          "observations": 3674
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 8,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 25,
+            "matched_observations": 33,
+            "reference_observations": 35
+          },
+          "fragments": 71,
+          "observations": 4746
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 41,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 26,
+          "observations": 2397
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 35,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 29,
+            "matched_observations": 42,
+            "reference_observations": 44
+          },
+          "fragments": 19,
+          "observations": 2348
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 1,
+            "matched_observations": 57,
+            "reference_observations": 58
+          },
+          "fragments": 135,
+          "observations": 16335
+        }
+      ]
+    },
+    {
+      "key": "consensus-bonus-0.1",
+      "family": "consensus",
+      "setting": {
+        "mode": "bonus",
+        "bonus": 0.1
+      },
+      "counts": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 15,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 18,
+          "observations": 2345
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 36,
+          "observations": 3347
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 44,
+          "observations": 2912
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 26,
+          "observations": 3271
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 21,
+          "observations": 3238
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 8,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 8,
+            "matched_observations": 34,
+            "reference_observations": 35
+          },
+          "fragments": 46,
+          "observations": 4878
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          },
+          "fragments": 16,
+          "observations": 2385
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 37,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 19,
+          "observations": 2353
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 5,
+            "wrong": 0,
+            "unknown_same": 11,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 54,
+            "reference_observations": 58
+          },
+          "fragments": 91,
+          "observations": 15568
+        }
+      ]
+    },
+    {
+      "key": "consensus-qwen-bonus-0.05",
+      "family": "consensus-qwen",
+      "setting": {
+        "mode": "bonus",
+        "bonus": 0.05
+      },
+      "counts": {
+        "correct": 103,
+        "wrong": 0,
+        "unknown_same": 14,
+        "same_total": 111,
+        "different_total": 759,
+        "missing": 26,
+        "matched_observations": 207,
+        "reference_observations": 213
+      },
+      "clips": [
+        {
+          "clip": "game2_01m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 19,
+          "observations": 2345
+        },
+        {
+          "clip": "game2_06m",
+          "counts": {
+            "correct": 3,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 35,
+          "observations": 3347
+        },
+        {
+          "clip": "game2_24m",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 2,
+            "missing": 0,
+            "matched_observations": 4,
+            "reference_observations": 4
+          },
+          "fragments": 43,
+          "observations": 2912
+        },
+        {
+          "clip": "game2_33m",
+          "counts": {
+            "correct": 2,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 3,
+            "different_total": 6,
+            "missing": 0,
+            "matched_observations": 6,
+            "reference_observations": 6
+          },
+          "fragments": 26,
+          "observations": 3271
+        },
+        {
+          "clip": "game2_41m",
+          "counts": {
+            "correct": 4,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 5,
+            "different_total": 20,
+            "missing": 0,
+            "matched_observations": 10,
+            "reference_observations": 10
+          },
+          "fragments": 21,
+          "observations": 3238
+        },
+        {
+          "clip": "gb-reid-long-0900",
+          "counts": {
+            "correct": 8,
+            "wrong": 0,
+            "unknown_same": 4,
+            "same_total": 11,
+            "different_total": 144,
+            "missing": 8,
+            "matched_observations": 34,
+            "reference_observations": 35
+          },
+          "fragments": 45,
+          "observations": 4878
+        },
+        {
+          "clip": "gb-tracking-0600",
+          "counts": {
+            "correct": 40,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 41,
+            "different_total": 283,
+            "missing": 14,
+            "matched_observations": 43,
+            "reference_observations": 44
+          },
+          "fragments": 16,
+          "observations": 2385
+        },
+        {
+          "clip": "gb-tracking-1800",
+          "counts": {
+            "correct": 37,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 37,
+            "different_total": 286,
+            "missing": 0,
+            "matched_observations": 44,
+            "reference_observations": 44
+          },
+          "fragments": 19,
+          "observations": 2353
+        },
+        {
+          "clip": "long-plDp2kPtk_g",
+          "counts": {
+            "correct": 5,
+            "wrong": 0,
+            "unknown_same": 10,
+            "same_total": 6,
+            "different_total": 6,
+            "missing": 4,
+            "matched_observations": 54,
+            "reference_observations": 58
+          },
+          "fragments": 90,
+          "observations": 15568
+        }
+      ]
+    }
+  ],
+  "new_regression_scores_seen": false
+}

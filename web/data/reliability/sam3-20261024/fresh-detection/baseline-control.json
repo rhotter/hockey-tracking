@@ -1,0 +1,31 @@
+{
+  "variant": "yolo-frozen-detector",
+  "threshold": 0.65,
+  "metrics": {
+    "confidence_threshold": 0.65,
+    "iou_threshold": 0.5,
+    "frames": 11,
+    "targets": 77,
+    "tp": 74,
+    "fp": 7,
+    "fn": 3,
+    "precision": 0.9135802469135802,
+    "recall": 0.961038961038961,
+    "f1": 0.9367088607594937,
+    "false_positives_per_frame": 0.6363636363636364,
+    "goalies": 7,
+    "goalie_hits": 7,
+    "goalie_recall": 1.0
+  },
+  "ap50": 0.949037594694897,
+  "completed_at": "2026-10-24T03:12:23.118730+00:00",
+  "baseline_freeze_sha256": "4153cf1227e4b9a3fea11552e52d5cd9da762328c8c18b5affeaadaeea59537e",
+  "threshold_frozen_at": "2026-10-18T05:26:18.692391+00:00",
+  "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+  "predictions_sha256": "02e86fd0b4021130bf6cac960b45719f06f7f2673b8a03191d864e8ddeeeee29",
+  "reference_sha256": "06d787d24ddd24b4ef28b02d12326fb9c8bf3b854b95677df57c85191bb2833b",
+  "added_after_audit_results": true,
+  "threshold_selected_using_this_audit": false,
+  "reason": "The primary audit used the tracking proposal threshold0.1. Also show the detector confidence0.65 frozen on October18, avoiding an unfair comparison against only low-confidence proposals. No threshold search or new inference.",
+  "reference_bias": "The new boxes were assisted by YOLO proposals; this comparison is not independently annotated."
+}

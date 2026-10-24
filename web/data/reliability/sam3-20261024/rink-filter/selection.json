@@ -1,0 +1,261 @@
+{
+  "protocol_sha256": "e450508b6fda745c291ca5d0b900a9438b8150a63f481e0ce8cb00a5199155c5",
+  "development_sha256": "ed49cce4f59747abd8ecb18822f1a328d689519b300865a8e751e0bfd3a292d5",
+  "frozen_at": "2026-10-24T02:32:17.925944+00:00",
+  "best": {
+    "setting": {
+      "key": "hockey rink-0.3-0.025",
+      "prompt": "hockey rink",
+      "mask_threshold": 0.3,
+      "dilation": 0.025
+    },
+    "metrics": {
+      "confidence_threshold": 0.5,
+      "iou_threshold": 0.5,
+      "frames": 23,
+      "targets": 178,
+      "tp": 160,
+      "fp": 3,
+      "fn": 18,
+      "precision": 0.9815950920245399,
+      "recall": 0.898876404494382,
+      "f1": 0.9384164222873901,
+      "false_positives_per_frame": 0.13043478260869565,
+      "goalies": 19,
+      "goalie_hits": 14,
+      "goalie_recall": 0.7368421052631579
+    },
+    "ap50": 0.9399312702552058,
+    "frames": [
+      {
+        "id": "b8CM4rZexaY-00060000",
+        "fallback": false,
+        "surface_fraction": 0.4905832703451751,
+        "removed": 109,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-00177300",
+        "fallback": false,
+        "surface_fraction": 0.5232583774250441,
+        "removed": 108,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-00294610",
+        "fallback": false,
+        "surface_fraction": 0.4139109347442681,
+        "removed": 106,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-00411910",
+        "fallback": false,
+        "surface_fraction": 0.4961262282690854,
+        "removed": 140,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-00529220",
+        "fallback": false,
+        "surface_fraction": 0.565491937515747,
+        "removed": 115,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-00763830",
+        "fallback": false,
+        "surface_fraction": 0.4901108591584782,
+        "removed": 156,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-00881130",
+        "fallback": true,
+        "surface_fraction": 0.0,
+        "removed": 0
+      },
+      {
+        "id": "b8CM4rZexaY-00998430",
+        "fallback": false,
+        "surface_fraction": 0.5817743764172335,
+        "removed": 138,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01115740",
+        "fallback": false,
+        "surface_fraction": 0.533320735701688,
+        "removed": 115,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01233040",
+        "fallback": false,
+        "surface_fraction": 0.531084656084656,
+        "removed": 124,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01350350",
+        "fallback": false,
+        "surface_fraction": 0.6128590325018897,
+        "removed": 131,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01467650",
+        "fallback": false,
+        "surface_fraction": 0.5236363063744016,
+        "removed": 154,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01584960",
+        "fallback": false,
+        "surface_fraction": 0.5540280927185689,
+        "removed": 144,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01702260",
+        "fallback": false,
+        "surface_fraction": 0.46734063995968755,
+        "removed": 131,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01819570",
+        "fallback": false,
+        "surface_fraction": 0.5444381456286218,
+        "removed": 115,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-01936870",
+        "fallback": false,
+        "surface_fraction": 0.5606418493323255,
+        "removed": 151,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02054170",
+        "fallback": false,
+        "surface_fraction": 0.547713529856387,
+        "removed": 121,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02171480",
+        "fallback": false,
+        "surface_fraction": 0.4052658100277148,
+        "removed": 122,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02288780",
+        "fallback": false,
+        "surface_fraction": 0.9156588561350466,
+        "removed": 12,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02406090",
+        "fallback": false,
+        "surface_fraction": 0.5900415721844293,
+        "removed": 80,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02523390",
+        "fallback": false,
+        "surface_fraction": 0.5486268581506677,
+        "removed": 107,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02640700",
+        "fallback": false,
+        "surface_fraction": 0.6286690602166792,
+        "removed": 58,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      },
+      {
+        "id": "b8CM4rZexaY-02758000",
+        "fallback": false,
+        "surface_fraction": 0.46056941295036535,
+        "removed": 112,
+        "dilation_pixels": [
+          4,
+          7
+        ]
+      }
+    ]
+  },
+  "improves_validation_f1": true,
+  "prior_regression_results_seen": true,
+  "filter_regression_scores_seen": false
+}

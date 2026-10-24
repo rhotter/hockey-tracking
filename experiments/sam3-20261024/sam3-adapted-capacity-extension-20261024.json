@@ -1,0 +1,32 @@
+{
+  "id": "nbhl-sam3-adapted-capacity-controls-20261024-v1",
+  "registered_utc": "2026-10-24T03:07:55.131963+00:00",
+  "reason": "The grounding-transformer winner improves static detection but its first full hockey-prompt video development runs are worse. Hypothesis: frozen mask/temporal heads may transfer better from less extensive detector adaptation. This is an inference, not an established cause.",
+  "prior_evidence_seen": [
+    "All six detector validation results",
+    "Selected detector 36-frame regression",
+    "Three selected-detector video development settings"
+  ],
+  "new_adapted_tracking_regression_seen": false,
+  "fresh_detection_audit_predictions_seen": false,
+  "candidates": [
+    {
+      "variant": "adapt-heads-person",
+      "delta": "heads-lr1e4",
+      "checkpoint_selection": "Previously frozen best validation epoch6",
+      "prompt": "person",
+      "video_thresholds": "Unmodified native defaults, as in adapt-person"
+    },
+    {
+      "variant": "adapt-decoder-person",
+      "delta": "decoder-lr1e5",
+      "checkpoint_selection": "Previously frozen best validation epoch9",
+      "prompt": "person",
+      "video_thresholds": "Unmodified native defaults, as in adapt-person"
+    }
+  ],
+  "development": "All nine original development clips, same corrected references and objective. Expand adapted family to six candidates; seal one choice only after all complete.",
+  "selection": "Max correct-10*wrong, then matched observations, then fewer unverified joins. No regression-based selection.",
+  "control": "If one of these wins, compare original weights with the same native person prompt/settings. Existing native baseline is the matched control.",
+  "limits": "Further adaptive development search on reused clips. All candidates and unsuccessful results must be published. No temporal or mask-weight training."
+}
