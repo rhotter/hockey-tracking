@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-24",
+  "inference_finished": true,
+  "independent_human_ground_truth": false,
+  "reference_sha256": "d75c360c51a07a32c5369955cc3a4afc6190ae7c46822015a061808757dc12d1",
+  "reference_frame_count_short": 14,
+  "short_clip_results": [
+    {
+      "model": "gpt-6-astra",
+      "counts": {
+        "reference_observations": 96,
+        "matched_observations": 96,
+        "same_total": 69,
+        "different_total": 609,
+        "correct": 69,
+        "wrong": 0,
+        "unknown_same": 0,
+        "missing": 0
+      }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "counts": {
+        "reference_observations": 96,
+        "matched_observations": 96,
+        "same_total": 69,
+        "different_total": 609,
+        "correct": 69,
+        "wrong": 0,
+        "unknown_same": 0,
+        "missing": 0
+      }
+    }
+  ],
+  "short_clip_pipeline": {
+    "reference_observations": 96,
+    "matched_observations": 94,
+    "same_total": 69,
+    "different_total": 609,
+    "correct": 65,
+    "wrong": 0,
+    "unknown_same": 2,
+    "missing": 27
+  },
+  "long_clip_failures": [
+    {
+      "model": "gpt-6-astra",
+      "clip": "pittsburgh-stress-0900",
+      "status": "incomplete",
+      "reason": "max_output_tokens",
+      "output_tokens": 24576,
+      "seconds": 430.74874853000006
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "clip": "pittsburgh-stress-0900",
+      "status": "incomplete",
+      "reason": "max_output_tokens",
+      "output_tokens": 24576,
+      "seconds": 506.5873497550001
+    }
+  ],
+  "reconnection": [
+    {
+      "model": "gpt-6-astra",
+      "expected_requests": 130,
+      "expected_edges": 65,
+      "attempted_requests": 130,
+      "valid_responses": 129,
+      "missing_requests": 0,
+      "invalid_or_unfinished_requests": 1,
+      "forward_decisions": {
+        "different": 25,
+        "same": 14,
+        "uncertain": 26
+      },
+      "forward_missing_or_invalid": 0,
+      "valid_order_comparisons": 64,
+      "order_agreement": 51,
+      "order_disagreement": 13,
+      "direct_same_different_flips": 1,
+      "stable_decisive_edges": 34,
+      "symmetric_strict_same_edges": 9,
+      "order_table": {
+        "different / different": 23,
+        "same / same": 11,
+        "uncertain / different": 5,
+        "same / uncertain": 2,
+        "uncertain / uncertain": 17,
+        "same / different": 1,
+        "uncertain / same": 3,
+        "different / uncertain": 2
+      },
+      "identity_accuracy": null,
+      "conservative_list_cost_usd": 7.4883750000000004,
+      "total_inference_seconds": 3461.9018713320047,
+      "input_tokens": 53977,
+      "output_tokens": 132079,
+      "reasoning_tokens": 123338,
+      "returned_models": [
+        "gpt-6-astra"
+      ]
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "expected_requests": 130,
+      "expected_edges": 65,
+      "attempted_requests": 130,
+      "valid_responses": 130,
+      "missing_requests": 0,
+      "invalid_or_unfinished_requests": 0,
+      "forward_decisions": {
+        "different": 25,
+        "same": 15,
+        "uncertain": 25
+      },
+      "forward_missing_or_invalid": 0,
+      "valid_order_comparisons": 65,
+      "order_agreement": 50,
+      "order_disagreement": 15,
+      "direct_same_different_flips": 2,
+      "stable_decisive_edges": 32,
+      "symmetric_strict_same_edges": 10,
+      "order_table": {
+        "different / different": 20,
+        "same / uncertain": 3,
+        "uncertain / uncertain": 18,
+        "same / same": 12,
+        "uncertain / different": 5,
+        "different / same": 2,
+        "uncertain / same": 2,
+        "different / uncertain": 3
+      },
+      "identity_accuracy": null,
+      "conservative_list_cost_usd": 1.359985,
+      "total_inference_seconds": 3466.7578185940015,
+      "input_tokens": 54370,
+      "output_tokens": 122406,
+      "reasoning_tokens": 113726,
+      "returned_models": [
+        "gpt-6.1-sol"
+      ]
+    },
+    {
+      "model": "qwen-8b",
+      "expected_requests": 130,
+      "expected_edges": 65,
+      "attempted_requests": 130,
+      "valid_responses": 130,
+      "missing_requests": 0,
+      "invalid_or_unfinished_requests": 0,
+      "forward_decisions": {
+        "different": 37,
+        "same": 13,
+        "uncertain": 15
+      },
+      "forward_missing_or_invalid": 0,
+      "valid_order_comparisons": 65,
+      "order_agreement": 51,
+      "order_disagreement": 14,
+      "direct_same_different_flips": 7,
+      "stable_decisive_edges": 42,
+      "symmetric_strict_same_edges": 10,
+      "order_table": {
+        "different / different": 32,
+        "different / same": 4,
+        "same / same": 10,
+        "uncertain / uncertain": 9,
+        "same / different": 3,
+        "uncertain / same": 3,
+        "uncertain / different": 3,
+        "different / uncertain": 1
+      },
+      "identity_accuracy": null
+    },
+    {
+      "model": "qwen-235b",
+      "expected_requests": 130,
+      "expected_edges": 65,
+      "attempted_requests": 130,
+      "valid_responses": 130,
+      "missing_requests": 0,
+      "invalid_or_unfinished_requests": 0,
+      "forward_decisions": {
+        "different": 30,
+        "same": 26,
+        "uncertain": 9
+      },
+      "forward_missing_or_invalid": 0,
+      "valid_order_comparisons": 65,
+      "order_agreement": 51,
+      "order_disagreement": 14,
+      "direct_same_different_flips": 7,
+      "stable_decisive_edges": 46,
+      "symmetric_strict_same_edges": 19,
+      "order_table": {
+        "different / different": 27,
+        "same / different": 5,
+        "same / same": 19,
+        "same / uncertain": 2,
+        "uncertain / uncertain": 5,
+        "uncertain / same": 2,
+        "different / same": 2,
+        "uncertain / different": 2,
+        "different / uncertain": 1
+      },
+      "identity_accuracy": null
+    }
+  ],
+  "reconnection_accuracy_measured": false,
+  "event_and_stat_accuracy": null,
+  "cost_ceiling_usd": 16.48711,
+  "cost_note": "Conservative API estimate, including one unresolved reservation and cache-write premium; not an invoice. Modal charges excluded.",
+  "limitations": [
+    "Reused sparse assistant-reviewed reference; not independent or full-game identity accuracy.",
+    "No detection precision/false-positive count: references are not exhaustive.",
+    "OpenAI receives 1 / 0.5 fps; pipeline used 15 fps. This is a deployment baseline, not a sampling-matched ablation.",
+    "Direct model events and stats are unverified predictions, not established game statistics.",
+    "Native video/audio not supplied; clip statistics do not establish full-game totals.",
+    "Image-order consistency is not identity accuracy. Always show abstentions and stable decisive coverage beside agreement.",
+    "65 hash-selected candidate links across nine reused development clips; no held-out tracking outcome is measured.",
+    "Models see identical original crops and prompts but use different image processing and output/reasoning budgets.",
+    "Cost is a conservative standard-price token estimate, including a cache-write premium; not the provider invoice.",
+    "Unknown or interrupted requests are retained, never silently retried or treated as labeled negatives."
+  ],
+  "input_hashes": {
+    "reconnect/manifest.json": "6b317fcad5ad1c1fa8a0d77847459922913b14cee4dd8fd2fbdbfd7b21cb680c",
+    "reconnect/protocol.json": "134847723886eba7a8e73cd4250e23135f6f3b9fd31a235384c145ac0e63e77d",
+    "reconnect/ledger.json": "e627ef7785b847eb439f4dcba905eb062d0cde428d67e2b6d3a200baebdf53b9",
+    "reconnect/qwen-baselines.json": "f5b4e17644c9daa15683b7001554f6660febb8de47aa821f3bda143f02a912ec",
+    "reconnect/comparison.json": "a45dd73a868c4ce51b284fad92dce58974c8f14114e1b21882fc42cdfff80e1e",
+    "video/manifest.json": "1c2b152a2d21a8e381f7c16466cec0fc878a8e13a478524d91aa4e4ab6fb29bf",
+    "video/protocol.json": "cbbc78f4177d9845b676053f8adf1c13f9c44fc13cf011670fca64e0749e4367",
+    "video/ledger.json": "1ddd46f2d1e8205ed7ecd2ea316693c239824c95d35f584ef61c31cdb7ae5308",
+    "video/comparison.json": "0f41dc9ae407380115ef1221cf2b0ff269cd7b8c9ae3a84c29ce500c39f67d85"
+  }
+}

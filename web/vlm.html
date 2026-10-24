@@ -2,6 +2,37 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Image models for reconnecting tracks · Sport Scans</title><link rel="stylesheet" href="stats.css"><link rel="stylesheet" href="vlm.css"></head>
 <body class="research"><header><a href="./" class="brand">Sport Scans</a><span>NBHL ball hockey</span></header><main>
 <p><a href="tracking.html">← All measured results</a></p><h1>Image models for reconnecting tracks</h1>
+<section id="openai-results">
+<h2>OpenAI experiments · October 24</h2>
+<p><strong>The short-clip baseline is promising; a reliable full-game replacement is not established.</strong> GPT-6 Astra and GPT-6.1 Sol each matched all 69 selected same-player checks across two 30-second NBHL clips. Both five-minute answers stopped at the output limit. The existing SAM2 + OSNet + joint Qwen2B pipeline remains the tracking baseline.</p>
+<h3>Ask the model to do the whole task</h3>
+<p>Each request supplied only chronological full frames, timestamps and the task: track players, read jerseys, and estimate floor time, distance, events and possession. No tracker boxes, player crops, roster or reference answers were supplied. This was sampled video as images, without audio: 1 fps for the short clips and 0.5 fps for the five-minute clip. Requested track outputs were every 5 or 30 seconds, respectively.</p>
+<div class="table-wrap"><table id="openai-video-table"><caption>Completed subset: Pittsburgh and Maryland women, 30 seconds each</caption><thead><tr><th>Method</th><th>Reference appearances matched</th><th>Same-player checks matched</th><th>Wrong joins / different-player checks</th><th>Unverified joins</th></tr></thead><tbody>
+<tr><td>GPT-6 Astra</td><td>96 / 96</td><td>69 / 69</td><td>0 / 609</td><td>0</td></tr>
+<tr><td>GPT-6.1 Sol</td><td>96 / 96</td><td>69 / 69</td><td>0 / 609</td><td>0</td></tr>
+<tr><td>Existing pipeline</td><td>94 / 96</td><td>65 / 69</td><td>0 / 609</td><td>2</td></tr>
+</tbody></table></div>
+<p class="note"><strong>Reference labels are sparse and assistant-reviewed, with no independent human verification.</strong> These are 96 appearances in 14 sampled frames, not 96 different people. Pair checks share observations and are correlated. They do not establish full-game accuracy or detection precision. The existing pipeline used 15 fps, so the methods received different temporal detail.</p>
+<p><strong>Five-minute failure:</strong> both models exhausted the 24,576-token output allowance and returned no completed structured answer. Four of six direct-video requests completed. The long clip is excluded from the completed-subset table, and retained as a failure in the downloadable results. This shows a limit of this request setup, not that these models cannot analyze longer footage.</p>
+<p><strong>Game statistics remain unverified.</strong> The models proposed shots, a faceoff, possession intervals and some short-clip floor-time estimates. Neither produced metric distances. No independently checked TOI, miles, shot, goal or assist accuracy is established here; model assertions are not measured game statistics.</p>
+<details id="openai-reconnect"><summary>Reconnecting fragments · matched crop comparison</summary>
+<p>We also asked both OpenAI models to judge 65 existing candidate connections, with the same original crops and prompt as the archived Qwen experiments. Each connection was asked twice with the image groups reversed. These are reused development candidates, not a held-out tracking test.</p>
+<div class="table-wrap"><table id="openai-reconnect-table"><thead><tr><th>Model</th><th>Valid responses / 130</th><th>Same decision in both orders</th><th>Direct same ↔ different flips</th><th>Stable decisive / 65</th><th>Uncertain first answer / 65</th></tr></thead><tbody>
+<tr><td>GPT-6 Astra</td><td>129</td><td>51 / 64</td><td>1</td><td>34</td><td>26</td></tr>
+<tr><td>GPT-6.1 Sol</td><td>130</td><td>50 / 65</td><td>2</td><td>32</td><td>25</td></tr>
+<tr><td>Qwen3-VL 8B</td><td>130</td><td>51 / 65</td><td>7</td><td>42</td><td>15</td></tr>
+<tr><td>Qwen3-VL 235B</td><td>130</td><td>51 / 65</td><td>7</td><td>46</td><td>9</td></tr>
+</tbody></table></div>
+<p>OpenAI made fewer direct contradictions, while abstaining more often. Overall order agreement was similar. Stable decisive means the same non-uncertain answer in both orders. Agreement includes two uncertain answers and is not identity accuracy. Astra has one unresolved request reservation, excluded from its 64 paired comparisons; its billing allowance remains included.</p>
+<p>Visual inspection of all three OpenAI direct-flip cases found reasons for caution: lower-leg details change with view and occlusion, a crop group contains other people, and a complete jersey number is not readable in both groups despite a model claiming it is. No new identity labels were created from these responses. The pilot has not been applied to the full tracker or shown an accuracy gain.</p>
+</details>
+<details id="openai-reproducibility"><summary>Reference, costs and downloadable evidence</summary>
+<p>The frozen visual reference predates these requests and was not provided to either model. A one-to-one box match at intersection-over-union ≥ 0.5 connects each saved appearance to a prediction. Missing appearances remain missing; duplicate IDs within one frame are excluded. References are not exhaustive, so extra predicted players cannot be counted as false positives. <a href="tracking.html#tracking-audit">Inspect the reference boxes and existing pipeline failures</a>.</p>
+<p>Conservative API estimate: <strong>$16.49</strong> total ($8.85 reconnecting; $7.64 direct video), including the unresolved reservation and a cache-write premium, excluding Modal charges. This is not an invoice. Astra used about 58 minutes of summed generation time for reconnecting and 16 minutes for direct video; Sol used about 58 and 20 minutes. Both completed short clips; neither completed the five-minute answer. No failed request was retried by the runner.</p>
+<div class="downloads"><a href="data/reliability/openai-20261024/summary.json" download>Summary and hashes</a><a href="data/reliability/openai-20261024/video/comparison.json" download>Direct-video checks</a><a href="data/reliability/openai-20261024/video/ledger.json" download>Model outputs · unverified stats</a><a href="data/reliability/openai-20261024/video/protocol.json" download>Direct-video protocol</a><a href="data/reliability/openai-20261024/reconnect/comparison.json" download>Reconnection decisions</a><a href="data/reliability/openai-20261024/reconnect/protocol.json" download>Reconnection protocol</a><a href="https://github.com/rhotter/hockey-tracking/tree/main/experiments/openai-20261024">Experiment source and verification</a></div>
+</details>
+</section>
+<h2>Earlier tracking comparisons</h2>
 <p id="vlm-conclusion" role="status">Loading measured results…</p><p id="vlm-error" hidden></p>
 <p>Each comparison starts with the same detected boxes and SAM2 track fragments. The image model compares crops from two fragments; the linking step decides which fragments share an automatic ID.</p>
 <div class="table-wrap primary-comparison"><table><thead><tr><th>Method</th><th>Four short regression clips</th><th>Five-minute regression clip</th></tr></thead><tbody id="vlm-primary-table"></tbody></table></div>

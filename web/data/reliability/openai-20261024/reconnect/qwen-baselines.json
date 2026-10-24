@@ -1,0 +1,3448 @@
+{
+  "selection_uses_reference_labels": false,
+  "protocol_sha256": "134847723886eba7a8e73cd4250e23135f6f3b9fd31a235384c145ac0e63e77d",
+  "evidence_sha256": "2a3722454f671ad6e40fcdc2222c57039a3d91052d56a117b2df1e0a3df1c1f0",
+  "edges": 65,
+  "models": [
+    {
+      "model": "8b",
+      "model_spec": {
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+        "tensor_parallel": 1
+      },
+      "predictions_sha256": "5757e0ef8e1221e4f4ebc2b1650d9f0ab025ced818bd7f40f7cb2dbd9b6ef4bd",
+      "requests": 130,
+      "forward_decisions": {
+        "different": 37,
+        "same": 13,
+        "uncertain": 15
+      },
+      "forward_strict_same": 13,
+      "order_consistency": {
+        "different / different": 32,
+        "different / same": 4,
+        "same / same": 10,
+        "uncertain / uncertain": 9,
+        "same / different": 3,
+        "uncertain / same": 3,
+        "uncertain / different": 3,
+        "different / uncertain": 1
+      },
+      "order_agreement": 51,
+      "responses": [
+        {
+          "id": "game2_01m-edge-0004/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0004",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 7 visible; Group B player has jersey number 12 visible."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0006/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0006",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 7; Group B player has visible jersey number 12."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0008/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0008",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 7; Group B player has visible jersey number 11."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0011/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0011",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 94; Group B player has jersey number 12."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0012/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0012",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "The central player in both groups wears a red jersey with the number 94 clearly visible on the back."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0015/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0015",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry and low-resolution to discern any distinguishing features like jersey numbers, gloves, helmets, hair, shoes, socks, or pads. No clear uniform details are visible to confirm identity or differences between the groups."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0021/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0021",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with identical red helmet, bright yellow shoes, white gloves, and matching red and black uniform with white stripes on the shorts."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0022/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0022",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Player in group A has jersey number 12 visible on back; player in group B also has jersey number 12 visible on back."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0004/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0004",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 12 visible, while Group B player has jersey number 7 visible."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0006/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0006",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 12, while Group B player has jersey number 7."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0008/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0008",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "The player in group A has the number 7 visible on the back of their jersey, and the player in group B also has the number 7 visible on the back of their jersey."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0011/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0011",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 12, while Group B player has jersey number 94."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0012/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0012",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Player in group A has jersey number 94 visible on back, matching the number on the central player in group B."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0015/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0015",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry and obscured by fence to identify any distinguishing features or consistent details between the players in group A and group B."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0021/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0021",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with identical red helmet, maroon jersey with black trim, white gloves, bright yellow shoes, and black leg pads with white stripes."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0022/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0022",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 12 visible on back; Group B player has jersey number 9 visible on back."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0006/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0006",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has a red helmet and visible jersey number 3, while Group B player has a white helmet and no visible jersey number."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0007/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0007",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number 3, while Group B player has a visible jersey number 2."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0014/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0014",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images show players in nearly identical red uniforms with white helmets and black socks, but visible details like jersey numbers or distinctive markings are too blurry or obscured to confirm if they are the same person or different players."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0017/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0017",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number 11, while Group B player has a visible jersey number 5."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0020/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0020",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "All players in both groups wear nearly identical maroon jerseys with white stripes, white helmets, and white gloves, making it impossible to distinguish them by uniform details."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0022/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0022",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to discern any unique distinguishing features like jersey numbers, glove patterns, or specific hair or helmet details."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0036/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0036",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "Group A players wear light blue jerseys with dark shorts, while Group B players wear black and white striped jerseys with black pants."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0056/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0056",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 5 visible, while Group B player has jersey number 2 visible."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0006/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0006",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number '3' on the back, while Group B player has a visible jersey number '2' on the back."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0007/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0007",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 25 visible; Group B player has jersey number 2 visible."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0014/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0014",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Visible jersey number '11' on the back in group B images, matching the number visible on the front in group A images."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0017/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0017",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a clearly visible jersey number 5; Group B player has a jersey number that appears to be 11, visible on the front in the third image."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0020/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0020",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a light-colored helmet and has visible white gloves; Group B player wears a darker helmet and has darker gloves."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0022/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0022",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "Both groups show players in nearly identical maroon jerseys with white stripes and white helmets, but no distinct, visible identifying features like jersey numbers, glove patterns, or unique hair/shoe details are discernible to confirm or deny if they are the same person."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0036/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0036",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A players wear black and white striped jerseys with black pants, while Group B players wear light blue jerseys with dark shorts and distinctive black and white striped socks."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0056/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0056",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 2 visible, while Group B player has jersey number 5 visible."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0013/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0013",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A shows a goalie in full gear with a white helmet and large pads. Group B shows a field player in a red jersey with black shorts and a white helmet, holding a stick."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0019/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0019",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number '9' on the back; Group B player has a visible jersey number '22' on the front."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0020/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0020",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "All images show the same person from group A and group B wearing identical black hooded jackets, grey pants, and light blue Nike sneakers with white soles. No distinguishing details like jersey numbers, gloves, or helmet markings are visible to confirm or deny if they are the same person."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0030/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0030",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to discern any distinguishing details like jersey numbers, gloves, or other unique features."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0031/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0031",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to discern any distinguishing details like jersey numbers, gloves, or specific uniform features."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0034/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0034",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Player in group A has a visible jersey number '10' on the back, while player in group B has a visible jersey number '10' on the back, but the player in group B has a different pattern on their shorts (striped) and different gloves (white with black accents) compared to group A."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0038/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0038",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Player in group A has visible jersey number 12 in the second image, matching the number on the back of the player in group B."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0042/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0042",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with identical white helmet, red jersey with black and white stripes, black shorts with red stripes, black socks, white shoes, and black gloves."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0013/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0013",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A shows a forward in red jersey with black shorts and black gloves, while Group B shows a goalie in red jersey with white and black striped goalie pants and large goalie gloves."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0019/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0019",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has '32' visible on back; Group B player has '94' visible on back."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0020/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0020",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "The player in both groups wears the same green cap, black hooded jacket, grey joggers, and light blue Nike sneakers with white soles."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0030/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0030",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to discern any distinguishing details like jersey numbers, gloves, or other unique features."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0031/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0031",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "All images show a player in a red jersey with white stripes and white hair, but details are too blurry to confirm if it's the same person or different players."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0034/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0034",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number 10, while Group B player has a visible jersey number 8."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0038/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0038",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Player in group A has visible jersey number 12 in the third image, matching the number on the back of the player in group B in the fourth image."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0042/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0042",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with identical white helmet, red jersey with black and white stripes, black shorts with red and white stripes, black gloves, black socks, and white shoes."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0003/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0003",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player wears a white jersey with no visible number, while Group B player wears a red jersey with visible number 37."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0004/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0004",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Player in group A has visible white hair and a white helmet; player in group B has visible white hair and a white helmet. Both wear similar white jerseys with dark shorts and black gloves. No unique jersey numbers or other distinguishing features are visible to confirm or deny identity."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0005/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0005",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "The player in both groups has distinctive white hair and is wearing a white helmet, matching gloves, and black pads with white stripes, consistent across all images."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0008/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0008",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 84 visible on back; Group B player has no visible jersey number matching 84."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0009/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0009",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images show the same child from similar angles, but no distinguishing features like jersey numbers, gloves, or pads are visible to confirm or deny if they are different players."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0010/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0010",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images show the player wearing a red jersey with the number 87 clearly visible on the back."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0011/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0011",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "Group A players wear black and white striped referee jerseys, while Group B players wear white jerseys with dark team logos and dark pants."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0013/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0013",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has white hair and a white jersey with a visible number 10, while Group B player has dark hair and a white jersey with a visible number 9."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0003/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0003",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 27; Group B player has a different jersey number (appears to be 30 or 31) and a different jersey color (white vs. red)."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0004/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0004",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with distinctive white hair, wearing a white jersey with a dark number (appears to be 10 or 11), dark gloves, and dark pants with white stripes."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0005/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0005",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with distinctive platinum blonde hair, a white helmet, and a white jersey with a dark number (appears to be 2) on the sleeve, consistent across all frames."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0008/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0008",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B player clearly shows jersey number 84; Group A player's jersey number is obscured and cannot be confirmed."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0009/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0009",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images show a child with a shaved head wearing a pink sequined top and a pink headband with a blue pom-pom, but no distinguishing features like jersey numbers, gloves, or other equipment are visible to confirm if they are the same person or different individuals."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0010/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0010",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images in both groups show the player wearing a red jersey with the number 87 clearly visible on the back."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0011/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0011",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "Group A players wear white jerseys with dark accents and dark pants, while Group B players wear black and white striped referee uniforms."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0013/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0013",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Player in group A has dark hair, while player in group B has white hair."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0000/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0000",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 25 visible on back; Group B player has jersey number 93 visible on back."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0002/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0002",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a white helmet, while Group B player wears a red helmet."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0003/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0003",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a white jersey with dark blue accents and a dark helmet; Group B player wears a red jersey with white number 93 and a white helmet."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0007/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0007",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with identical white helmet, white jersey with black trim, black shorts, and pink shoes with black socks. The player's posture and equipment are consistent across all frames."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0009/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0009",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B's central player has a clearly visible jersey number 25, while Group A's central player has no visible jersey number."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0013/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0013",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 93 visible; Group B player has jersey number 25 visible."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0015/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0015",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "no",
+            "b_consistent": "no",
+            "evidence_type": "insufficient",
+            "evidence": "Group A shows a person in a black hoodie with no visible jersey number or team markings. Group B shows a person in a black hoodie with 'MYLES' and a large 'M' on the back, which is not visible in Group A. No other distinguishing details are visible to confirm if they are the same person or different."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0016/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0016",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has a visible jersey number '7' on the back, while Group B player has a visible jersey number '1' on the back."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0000/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0000",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 93; Group B player has visible jersey number 25."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0002/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0002",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a white helmet, while Group B player wears a red helmet."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0003/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0003",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a white jersey with blue accents and a white helmet; Group B player wears a white jersey with black accents and a black helmet."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0007/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0007",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number 10 on the back; Group B player has a visible jersey number 11 on the back."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0009/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0009",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 25, while Group B player has a different jersey number (appears to be 1 or 2) and a different helmet color (red vs white)."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0013/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0013",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 25 visible on back; Group B player has jersey number 93 visible on back."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0015/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0015",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A shows a person with a black hoodie featuring 'MYLES' and a large 'M' on the back, with hair in a bun. Group B shows a different person in a black hoodie with a circular 'OUTDOOR' logo, with hair down and holding a coffee cup."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0016/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0016",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has a visible jersey number '1' on the back, while Group B player has a visible jersey number '4' on the back."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0040/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0040",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Both players have the number 22 clearly visible on their jerseys."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0048/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0048",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a black jersey with red accents and black shorts; Group B player wears a blue jersey with white stripes and blue shorts."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0058/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0058",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to reliably compare jersey numbers, gloves, helmet, hair, shoes, socks, or pads across groups."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0068/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0068",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 76; Group B player has visible jersey number 7."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0070/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0070",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 76; Group B player has visible jersey number 23."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0072/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0072",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Both players clearly show jersey number 76 on the back."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0083/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0083",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A players wear dark jerseys with red accents, while Group B players wear blue jerseys with white stripes."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0085/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0085",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B player clearly shows jersey number 76 on back; Group A players show no visible jersey number or conflicting details."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0040/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0040",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images show the player wearing jersey number 22."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0048/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0048",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A players wear dark blue jerseys with white stripes, while Group B players wear black jerseys with red accents."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0058/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0058",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to reliably compare jersey numbers, gloves, helmet, hair, shoes, socks, or pads across groups."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0068/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0068",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 37 visible on back; Group B player has jersey number 76 visible on back."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0070/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0070",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number 23, while Group B player has a visible jersey number 76."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0072/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0072",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images in both groups show a player with the number 76 clearly visible on the back of the jersey."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0083/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0083",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A players wear dark blue jerseys with white stripes and white helmets; Group B players wear black jerseys with red accents and dark helmets."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0085/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0085",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Visible jersey number 76 on both group A and group B players."
+          }
+        },
+        {
+          "id": "gb-tracking-0600-edge-0000/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-0600-edge-0000",
+          "clip": "gb-tracking-0600",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has jersey number 11 visible; Group B player has jersey number 76 visible."
+          }
+        },
+        {
+          "id": "gb-tracking-0600-edge-0000/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-0600-edge-0000",
+          "clip": "gb-tracking-0600",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 76; Group B player has visible jersey number 33."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0000/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0000",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to discern any consistent distinguishing features like jersey numbers, glove patterns, or unique hair or shoe details."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0001/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0001",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a blue jersey with visible number 98, while Group B player wears a black jersey with red accents and no visible number."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0003/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0003",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Player in both groups wears jersey number 64 visible on back."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0007/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0007",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to discern any consistent distinguishing details like jersey numbers, glove patterns, or specific pad designs between the players in group A and group B."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0011/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0011",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a dark uniform with no visible red accents, while Group B player wears a dark uniform with prominent red pants and red socks."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0012/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0012",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a dark uniform with no visible red accents, while Group B player wears a black jersey with red socks and red accents on the shorts."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0014/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0014",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "no",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 43; Group B player's jersey number is obscured and cannot be confirmed as 43."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0018/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0018",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "uniform_only",
+            "evidence": "All players in both groups wear nearly identical black uniforms with red accents, yellow skates, and helmets, making visual distinction impossible without clearer views of unique identifiers."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0000/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0000",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B's central player has a clearly visible jersey number 98, while Group A's central player has no discernible jersey number."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0001/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0001",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has no visible jersey number, while Group B player has visible number 98."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0003/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0003",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B player has visible jersey number 64; Group A player's jersey number is not visible or discernible."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0007/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0007",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to discern any unique distinguishing features such as jersey numbers, glove patterns, helmet details, or specific pad markings."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0011/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0011",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has visible red socks and red pants, while Group B player has dark pants and dark socks, indicating different uniforms."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0012/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0012",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has red socks and black gloves; Group B player has white socks and black gloves."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0014/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0014",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B player clearly shows jersey number 43; Group A player's jersey number is obscured and indistinct."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0018/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0018",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to discern any consistent distinguishing details like jersey numbers, glove patterns, or specific pad designs."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0026/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0026",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number '1' on the back, while Group B player has a visible jersey number '8' on the back."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0056/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0056",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both players wear white helmets, white jerseys with a dark number '8' on the back, and dark shorts with white stripes. The player in group B also has a visible beard, which matches the player in group A."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0057/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0057",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number '4' on the back; Group B player has a visible jersey number '27' on the front."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0075/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0075",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has visible jersey number 17; Group B player has visible jersey number 8."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0122/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0122",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Visible jersey number '3' on back in group B matches the visible number '3' on the front in group A."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0164/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0164",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player's jersey number is not visible, while Group B player clearly shows number 93."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0180/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0180",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has a visible jersey number 10, while Group B player has a visible jersey number 11."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0190/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0190",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too low resolution to reliably compare jersey numbers, gloves, helmet, hair, shoes, socks, or pads for distinguishing details."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0026/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0026",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has a white helmet and dark shorts with a striped pattern; Group B player has a white helmet and dark shorts with solid color and different boot design."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0056/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0056",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "The player in group A and group B both have the number '2' visible on their jerseys."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0057/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0057",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a dark helmet and has visible dark hair; Group B player wears a white helmet and has visible light-colored hair."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0075/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0075",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All visible details (jersey number, gloves, helmet, hair, shoes, socks, pads) are too blurry or obscured to definitively confirm or deny if the central player in group A is the same as the central player in group B."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0122/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0122",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with distinctive white hair, white helmet, and red jersey with visible number 35 on the back."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0164/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0164",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images in both groups show the same player wearing jersey number 93."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0180/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0180",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show the same player with a white helmet, white jersey with a dark circular logo on the chest, dark pants, and dark gloves. The player's posture and equipment are consistent across all images."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0190/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0190",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too low resolution and lack clear distinguishing features like visible jersey digits, glove patterns, or specific pad markings to confirm if the players are the same or different."
+          }
+        }
+      ]
+    },
+    {
+      "model": "235b",
+      "model_spec": {
+        "model": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+        "revision": "7fbcd8c9e2ad011808ed8a57d64c462605c3e381",
+        "tensor_parallel": 2
+      },
+      "predictions_sha256": "b3da1cca7ce409b774bf2ca9a3428e79c0d12724723c1b1aedbf452e5bc761ae",
+      "requests": 130,
+      "forward_decisions": {
+        "different": 30,
+        "same": 26,
+        "uncertain": 9
+      },
+      "forward_strict_same": 26,
+      "order_consistency": {
+        "different / different": 27,
+        "same / different": 5,
+        "same / same": 19,
+        "same / uncertain": 2,
+        "uncertain / uncertain": 5,
+        "uncertain / same": 2,
+        "different / same": 2,
+        "uncertain / different": 2,
+        "different / uncertain": 1
+      },
+      "order_agreement": 51,
+      "responses": [
+        {
+          "id": "game2_01m-edge-0004/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0004",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 7; Group B player clearly shows jersey number 12."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0006/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0006",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "no",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A consistently shows jersey number 7; Group B shows conflicting numbers 12 and 9, indicating different players."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0008/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0008",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images in group A and group B show a player wearing jersey number 7, with consistent red jersey, black shorts, white helmet, and yellow shoes across all frames."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0011/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0011",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A consistently shows jersey number 94; Group B shows jersey number 12 in the last image, confirming different players."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0012/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0012",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 94; Group B player\u2019s jersey has no visible number and shows a different sleeve design."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0015/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0015",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a pinkish top; Group B player wears a light purple/white top \u2014 distinct color difference in visible upper garment."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0021/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0021",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with identical red helmet, maroon jersey with black/white stripes, white gloves, black shin pads, and bright yellow-green shoes; jersey number 11 is visible in group A and consistent with group B's sleeve marking."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0022/multi",
+          "task": "multi",
+          "edge_id": "game2_01m-edge-0022",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "no",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows players with jersey numbers 12 and 9; Group B shows players with jersey numbers 12 and an obscured number, but the central player in B is not consistently the same as any in A due to conflicting visible numbers and inconsistent tracking within each group."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0004/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0004",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows jersey number 12; Group B shows jersey number 7."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0006/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0006",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows conflicting jersey numbers (12 and 9 visible), while Group B consistently shows number 7."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0008/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0008",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player's jersey number is not visible; Group B player clearly shows number 7 on back."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0011/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0011",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows jersey number 12; Group B shows jersey number 94."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0012/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0012",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has no visible jersey number; Group B player clearly shows number 94 on back."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0015/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0015",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears a light-colored (white or light gray) jersey; Group B player wears a pink or light purple long-sleeve top \u2014 clearly different outerwear."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0021/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0021",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with identical bright yellow-green shoes, black shin pads, white gloves, red helmet, and matching jersey with visible number 3 on the sleeve and back; no conflicting distinguishing features across groups."
+          }
+        },
+        {
+          "id": "game2_01m-edge-0022/reverse",
+          "task": "reverse",
+          "edge_id": "game2_01m-edge-0022",
+          "clip": "game2_01m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "no",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A consistently shows jersey number 12; group B shows conflicting numbers 12 and 9, indicating at least one tracking error or different player."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0006/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0006",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears red helmet and has visible black knee pads; Group B player wears white helmet and has white leg pads with black markings, indicating different equipment and likely different players."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0007/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0007",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows partial digit '3' on jersey; Group B player clearly shows digit '2' on back of jersey."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0014/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0014",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with a red jersey, white helmet, black socks with white tops, and a visible beard under the helmet; consistent glove and stick handling across groups."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0017/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0017",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows jersey digit '1' on front; Group B player shows digit '5' on back."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0020/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0020",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with a white helmet, red jersey with white stripes on sleeves, and white gloves; consistent posture and equipment across all six images."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0022/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0022",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair, maroon jersey with white stripes, and consistent glove and stick positioning across both groups."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0036/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0036",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears white jersey with dark sleeves and light helmet; Group B player wears black-and-white striped referee shirt and dark pants, indicating different roles/teams."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0056/multi",
+          "task": "multi",
+          "edge_id": "game2_06m-edge-0056",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 5; Group B player shows jersey number 12, which are distinct and visible."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0006/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0006",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears white helmet and white leg pads with black markings; Group B player wears red helmet and black leg pads with white markings \u2014 distinct equipment differences."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0007/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0007",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 12; Group B player shows a different number, appearing as 23 or similar, on the back."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0014/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0014",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with a red jersey, white helmet, black socks with white tops, and a visible beard under the helmet; consistent gear and body features across both groups."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0017/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0017",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey digit 5 on back; Group B player\u2019s jersey front shows a different digit (appears to be 1 or 7), indicating different players."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0020/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0020",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are extremely low resolution and blurry; no jersey digits, glove patterns, helmet details, or other distinguishing features are legible to confirm or refute identity."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0022/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0022",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair, maroon jersey with white stripes on sleeves, and holding a stick; consistent appearance across groups despite low resolution."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0036/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0036",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears black-and-white striped referee jersey; Group B player wears white player jersey with dark sleeves and helmet, indicating different roles/teams."
+          }
+        },
+        {
+          "id": "game2_06m-edge-0056/reverse",
+          "task": "reverse",
+          "edge_id": "game2_06m-edge-0056",
+          "clip": "game2_06m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows jersey number 12; Group B player shows jersey number 5."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0013/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0013",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A shows a goalie with full leg pads, blocker, and catcher gloves; Group B shows a skater with no leg pads, standard gloves, and a different stance."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0019/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0019",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A and B show the same player: visible jersey number 99, identical red jersey with black/white stripes, same white gloves, helmet, and beard; consistent facial features and build across all images."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0020/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0020",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All six images show the same person from behind wearing identical black hooded jacket, gray sweatpants, light blue/white sneakers, and a green cap; posture, hand-in-pocket stance, and visible umbrella with white logo are consistent across all frames."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0030/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0030",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are extremely low resolution and blurry; no jersey digits, gloves, helmet, hair, shoes, socks, or pads are clearly visible to distinguish or confirm identity."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0031/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0031",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair/helmet, red jersey with two white stripes on the sleeve, and consistent posture and equipment despite low resolution."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0034/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0034",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows jersey digit '8' on back; Group B player shows digit '10' on back \u2014 conflicting visible numbers."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0038/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0038",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A image 2 clearly shows jersey number 12; all other images in both groups show a player with the same red jersey, white helmet, black shorts with red/white trim, and similar stance, consistent with the same player across fragments."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0042/multi",
+          "task": "multi",
+          "edge_id": "game2_24m-edge-0042",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with identical red jersey with black/white trim, white helmet, black shin pads, white shoes, and consistent glove and stick positioning; no conflicting distinguishing features across groups."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0013/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0013",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears skater gear (no leg pads, standard gloves, no blocker/catcher), while Group B player is a goalie with full leg pads, blocker, catcher, and different glove style."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0019/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0019",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows no visible jersey number; Group B player clearly shows number 89 on back."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0020/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0020",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All six images show the same person from behind wearing identical black hooded jacket, gray sweatpants, light blue/white sneakers, and a green cap; posture, hand-in-pocket stance, and visible umbrella are consistent across all frames."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0030/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0030",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to distinguish jersey digits, gloves, helmet, hair, shoes, socks, or pads; no clear matching or conflicting details visible."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0031/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0031",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair/helmet, red jersey with white stripes on sleeves, and similar posture; no conflicting distinguishing features observed."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0034/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0034",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 10; Group B player clearly shows jersey number 20."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0038/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0038",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player's jersey number is not visible; Group B player clearly shows number 12 on back."
+          }
+        },
+        {
+          "id": "game2_24m-edge-0042/reverse",
+          "task": "reverse",
+          "edge_id": "game2_24m-edge-0042",
+          "clip": "game2_24m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with identical red jersey with black/white trim, white helmet, black shin pads, and consistent glove and sock details; no conflicting distinguishing features across groups."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0003/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0003",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears white jersey with dark shorts; Group B player wears red jersey with black shorts and visible number 97 on back."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0004/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0004",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair, white jersey with dark sleeves, dark shorts, and matching knee pads and shoes; no conflicting distinguishing features across groups."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0005/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0005",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair, white jersey with dark shoulder panels, black shorts, and identical black knee pads with white trim; consistent glove and shoe appearance across all six images."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0008/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0008",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has red helmet and visible jersey number 84; Group B player has white helmet and no visible number, with different hair color and glove style."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0009/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0009",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "identical bald head, pink headband with blue pom-pom, and pink sequined top across all images"
+          }
+        },
+        {
+          "id": "game2_33m-edge-0010/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0010",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images show a player wearing jersey number 87 with consistent red jersey, black shorts, white helmet, and black-and-white shoes."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0011/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0011",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears a black-and-white striped referee jersey; Group B player wears a white player jersey with dark trim and visible number 9."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0013/multi",
+          "task": "multi",
+          "edge_id": "game2_33m-edge-0013",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with white hair, white jersey with black trim, black gloves, and black knee pads with visible red/orange accents on the lower legs; consistent across all six images despite varying angles and motion blur."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0003/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0003",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears red jersey with visible number 97; Group B player wears white jersey with no visible number, indicating different teams."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0004/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0004",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with white hair, white jersey with dark sleeves, black shorts, and matching knee pads and skates; visible jersey digit '2' in group B matches partial digit visibility in group A."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0005/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0005",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair, light jersey with dark shoulder panels, black shorts, and identical black knee pads with white trim; consistent glove and shoe appearance across all frames."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0008/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0008",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has no visible jersey number; Group B player clearly shows number 84 on back."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0009/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0009",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a bald child wearing a pink sequined top and a pink headband with a blue pom-pom, viewed from the back; no conflicting distinguishing features across groups."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0010/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0010",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images show a player wearing jersey number 87 with matching red jersey, black shorts, white helmet, and identical leg pads and gloves."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0011/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0011",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears white jersey with dark trim; Group B player wears black-and-white striped referee shirt with red shoulder accents."
+          }
+        },
+        {
+          "id": "game2_33m-edge-0013/reverse",
+          "task": "reverse",
+          "edge_id": "game2_33m-edge-0013",
+          "clip": "game2_33m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has dark hair and visible jersey digit '9'; Group B player has white hair and no visible jersey digit, with different glove and pad details."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0000/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0000",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows jersey number 95; Group B player shows jersey number 93 \u2014 conflicting visible digits."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0002/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0002",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "No clearly visible jersey digits or distinctive distinguishing details (gloves, helmet, hair, shoes, socks, pads) across groups to confirm or refute same identity; team colors and poses are similar but insufficient for identification."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0003/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0003",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "No clearly visible jersey digits or distinctive gear details in either group to confirm or refute identity; lighting and blur prevent reliable comparison of helmet, gloves, or socks."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0007/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0007",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with identical pink/purple shoes, black knee pads with tan straps, white helmet, and similar jersey pattern; no conflicting distinguishing features observed across views."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0009/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0009",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows a player with a white jersey and no visible number; Group B shows a player with a red jersey and visible number 26 on the back."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0013/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0013",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player's jersey number is not visible; Group B player clearly shows number 26 on back."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0015/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0015",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A and B show the same person wearing a black hoodie with 'MYLEC' and a large 'M' on the back, same hairstyle in a bun with a pink hair tie, and consistent body shape and posture across views."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0016/multi",
+          "task": "multi",
+          "edge_id": "game2_41m-edge-0016",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has visible jersey number 7 and black gloves; Group B player is a goalie with large white leg pads and blocker, different equipment and role."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0000/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0000",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player wears white jersey with dark sleeves and dark pants; Group B player wears maroon jersey with white stripes and bright orange shoes \u2014 distinct uniform and equipment details."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0002/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0002",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "No clearly visible jersey digits or unique distinguishing details (gloves, helmet, socks, pads) across groups to confirm or refute identity; lighting, blur, and occlusion prevent reliable comparison."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0003/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0003",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Central player in both groups wears white jersey with dark blue shoulder panel, black pants, and black gloves; consistent helmet/hair silhouette and stance across all images."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0007/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0007",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with identical pink/purple shoes, black knee pads, white helmet, and same jersey pattern; group B image 2 shows visible number 11 on back, consistent with group A player's build and gear."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0009/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0009",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears red jersey with visible number 26; Group B player wears white jersey with no visible number, indicating different teams."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0013/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0013",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey number 26; Group B player shows jersey number 93 or 11, conflicting with A."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0015/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0015",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has 'MYLEC' and a large 'M' logo on hoodie back; Group B player has a circular 'OUTDOOR' logo on front \u2014 different branding and placement."
+          }
+        },
+        {
+          "id": "game2_41m-edge-0016/reverse",
+          "task": "reverse",
+          "edge_id": "game2_41m-edge-0016",
+          "clip": "game2_41m",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player in a white jersey with dark sleeves and pants, wearing a dark helmet and similar leg pads; the player in group B has a visible number 7 on the back, and the posture and equipment match across groups despite different angles."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0040/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0040",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All six images show a player wearing jersey number 22 with matching blue uniform, gray socks, black gloves, and black helmet; no conflicting distinguishing details observed."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0048/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0048",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears all-black uniform with red accents; Group B player wears blue and white uniform with different trim and sleeve design."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0058/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0058",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to distinguish jersey digits, glove patterns, helmet details, or other unique identifiers; no conflicting visible features can be confirmed."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0068/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0068",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows jersey number 76; group B shows jersey number 77."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0070/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0070",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows jersey number 76; Group B shows jersey number 11, clearly visible in multiple frames."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0072/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0072",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Both central players in group A and group B clearly display jersey number 76 on their backs, with consistent uniform details including dark blue jersey with white trim, black socks, and pink shoes across clear frames."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0083/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0083",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears dark jersey with red/orange side panels; Group B player wears blue jersey with white stripes and different helmet design."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0085/multi",
+          "task": "multi",
+          "edge_id": "gb-reid-long-0900-edge-0085",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B clearly shows jersey number 76; group A is blurry but consistent with same number and uniform details."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0040/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0040",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All six images show a player wearing jersey number 22 with consistent uniform details including blue jersey with white trim, gray socks, black gloves, and black helmet."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0048/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0048",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears a blue jersey with white trim; Group B player wears a black jersey with red accents \u2014 distinct team colors and design."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0058/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0058",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to distinguish jersey digits, gloves, helmet, hair, shoes, socks, or pads; no clear distinguishing details visible across groups."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0068/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0068",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows jersey digit 7; Group B player clearly shows jersey number 76."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0070/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0070",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows partial digit '3' on jersey; Group B player clearly shows '76' on back."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0072/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0072",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All clear images in both groups show jersey number 76 on a dark blue uniform with white trim; consistent glove, sock, and shoe coloration across groups."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0083/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0083",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears a blue jersey with white trim; Group B player wears a dark red/black jersey with no visible white trim \u2014 distinct team colors and uniform design."
+          }
+        },
+        {
+          "id": "gb-reid-long-0900-edge-0085/reverse",
+          "task": "reverse",
+          "edge_id": "gb-reid-long-0900-edge-0085",
+          "clip": "gb-reid-long-0900",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows a player with visible jersey number 76 in multiple frames; Group B shows a player with the same visible jersey number 76, matching the number and uniform style despite motion blur."
+          }
+        },
+        {
+          "id": "gb-tracking-0600-edge-0000/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-0600-edge-0000",
+          "clip": "gb-tracking-0600",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows a player with visible jersey digit '2'; Group B shows a player with visible jersey digits '76'."
+          }
+        },
+        {
+          "id": "gb-tracking-0600-edge-0000/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-0600-edge-0000",
+          "clip": "gb-tracking-0600",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player clearly shows jersey digit '76' on back; Group B player shows different digit '11' on back."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0000/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0000",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "uncertain",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Images are too blurry to reliably distinguish jersey digits, gloves, helmet, or other unique equipment details; no clear matching or conflicting visible features."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0001/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0001",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears blue jersey with white stripes and visible number 98; Group B player wears all-black jersey with red accents and yellow shoes \u2014 distinct team colors and uniform design."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0003/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0003",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A shows a player with visible jersey number 64 in all three images; Group B shows a player with no visible jersey number, but identical yellow shoes, black gloves, helmet, and uniform style, suggesting same player despite obscured number in B."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0007/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0007",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to distinguish jersey digits, gloves, helmet, hair, shoes, socks, or pads; no visible conflicting or matching distinctive details."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0011/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0011",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A and B show the same player: black jersey with visible white number '2' on back, red socks, black helmet, and similar glove and pad configuration across all images despite motion blur and angle changes."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0012/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0012",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to distinguish jersey digits, gloves, helmet, hair, shoes, socks, or pads; no visible distinguishing details can be confirmed."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0014/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0014",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "uncertain",
+            "evidence_type": "insufficient",
+            "evidence": "Group A shows consistent jersey number 43; Group B images are too blurry to confirm jersey digits or other distinguishing details, preventing reliable comparison."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0018/multi",
+          "task": "multi",
+          "edge_id": "gb-tracking-1800-edge-0018",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player in black uniform with red shoulder accents, yellow shoes, and a dark helmet; consistent gear and posture across all frames despite motion blur."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0000/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0000",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B clearly shows jersey number 98 on the back; group A never shows a visible number, and the front view in A3 does not match the back view of B2, indicating different players."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0001/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0001",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "team_difference",
+            "evidence": "Group A player wears black jersey with red accents and yellow shoes; Group B player wears blue jersey with white stripes and number 98 visible, with different shoe color and sock style."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0003/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0003",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B clearly shows jersey number 64 on the back; group A images are too blurry to confirm digits, but no conflicting number is visible and all other visible gear (black jersey with red accents, yellow shoes, black helmet) matches across groups."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0007/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0007",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to distinguish jersey digits, gloves, helmet, hair, shoes, socks, or pads; no visible conflicting or matching distinctive details."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0011/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0011",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to distinguish jersey digits, gloves, helmet, hair, shoes, socks, or pads; no visible distinguishing details can be confirmed."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0012/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0012",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has red socks and visible black gloves; Group B player has dark pants with no visible red socks and appears to wear bulkier, lighter-colored gloves or pads, suggesting different equipment or role."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0014/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0014",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group B clearly shows jersey number 43; group A is blurry but the visible torso and sleeve pattern match group B\u2019s uniform, and no conflicting number is visible."
+          }
+        },
+        {
+          "id": "gb-tracking-1800-edge-0018/reverse",
+          "task": "reverse",
+          "edge_id": "gb-tracking-1800-edge-0018",
+          "clip": "gb-tracking-1800",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with a black jersey featuring a red patch on the upper left arm, black pants, yellow shoes, and a dark helmet; all visible gear and posture details match across groups despite motion blur."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0026/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0026",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "No clearly visible jersey digits or distinctive gear details in either group to confirm or refute identity; uniform colors and poses are similar but not sufficient for identification."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0056/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0056",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Both groups show a player with a white helmet, visible beard, white jersey with dark trim, and the same number '6' on the back; gloves, pads, and posture are consistent across all images."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0057/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0057",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has a white helmet and visible dark shorts under the jersey; Group B player has a dark helmet and full-length dark pants with no visible shorts, indicating different players."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0075/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0075",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images show a player with jersey number 8 visible on the back, consistent across both groups."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0122/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0122",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player has no visible jersey number; Group B player clearly shows number 5 on back."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0164/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0164",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "no",
+            "evidence_type": "jersey_number",
+            "evidence": "Group A player shows no visible jersey number; Group B includes one player with visible '99' and another with different helmet and gear, indicating at least two distinct players in B."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0180/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0180",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has dark hair visible under helmet and black socks; Group B player has white helmet with no visible hair and green accents on socks."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0190/multi",
+          "task": "multi",
+          "edge_id": "long-plDp2kPtk_g-edge-0190",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white helmet, white gloves, and a light-colored jersey with dark shoulder/upper arm markings; consistent posture and equipment across groups."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0026/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0026",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "All images are too blurry to confirm matching or conflicting jersey digits, gloves, helmet, hair, shoes, socks, or pads; no definitive distinguishing details visible."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0056/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0056",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "jersey_number",
+            "evidence": "All images show a player with visible jersey digit '6' on the back or side, consistent across both groups."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0057/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0057",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has dark hair visible under helmet and dark gloves; Group B player has white helmet, no visible hair, and white gloves."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0075/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0075",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with a white helmet, white jersey with dark trim, dark shorts, and striped socks; jersey number 8 is visible in multiple views across both groups."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0122/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0122",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "different",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A player has black shoes and black knee pads; Group B player has bright pink shoes and pink accents on socks/pads."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0164/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0164",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "no",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "Group A contains conflicting helmet types (white vs black) and jersey text visibility; Group B consistently shows white helmet, red jersey with black trim, and similar stance. The central player in Group B matches the white-helmeted player in Group A, suggesting tracking error in Group A."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0180/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0180",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "uncertain",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "insufficient",
+            "evidence": "No clearly visible jersey digits or distinctive gear details to confirm identity; uniform colors and poses are similar but not sufficient for identification."
+          }
+        },
+        {
+          "id": "long-plDp2kPtk_g-edge-0190/reverse",
+          "task": "reverse",
+          "edge_id": "long-plDp2kPtk_g-edge-0190",
+          "clip": "long-plDp2kPtk_g",
+          "parsed": {
+            "decision": "same",
+            "a_consistent": "yes",
+            "b_consistent": "yes",
+            "evidence_type": "distinctive_details",
+            "evidence": "All images show a player with white hair/helmet, white jersey with dark trim, and similar posture; no conflicting distinguishing features observed across groups."
+          }
+        }
+      ]
+    }
+  ],
+  "limits": "Matched development pilot; order consistency and model agreement are not accuracy. No new inference."
+}

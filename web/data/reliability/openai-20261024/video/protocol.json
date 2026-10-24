@@ -1,0 +1,26 @@
+{
+  "id": "nbhl-openai-direct-video-baseline-v1",
+  "status": "frozen_before_inference",
+  "scope": "NBHL ball hockey only; reused regression clips, not a new independent benchmark",
+  "models": [
+    {"id": "gpt-6-astra", "input_usd_per_million": 10, "output_usd_per_million": 50},
+    {"id": "gpt-6.1-sol", "input_usd_per_million": 2, "output_usd_per_million": 10}
+  ],
+  "reasoning_effort": "high",
+  "max_output_tokens": 24576,
+  "max_input_tokens": 250000,
+  "budget_usd": 10,
+  "budget_scope": "Separate new baseline authorized by the user's request; existing reconnection pilot remains unchanged at its prior cap.",
+  "budget_policy": "Exact input token count before generation; reserve 1.25x uncached input price and maximum output cost. No automatic retry, no model substitution, no limit escalation. Requests beyond the remaining budget are not sent.",
+  "clips": [
+    {"clip": "pittsburgh-0600", "source_id": "JlBtScHdcg4", "source_start_s": 600, "frame_count": 450, "input_step_frames": 15, "output_step_frames": 75, "max_width": null},
+    {"clip": "marylandwomen-0600", "source_id": "ILV4PoQFxGU", "source_start_s": 600, "frame_count": 450, "input_step_frames": 15, "output_step_frames": 75, "max_width": null},
+    {"clip": "pittsburgh-stress-0900", "source_id": "JlBtScHdcg4", "source_start_s": 900, "frame_count": 4500, "input_step_frames": 30, "output_step_frames": 450, "max_width": 1280}
+  ],
+  "input": "Chronological full frames with timestamps only. Short clips at 1 fps, long clip at 0.5 fps; include the final frame. Full image kept, no crops, detections, masks, tracks, identity labels, roster, scores, or prior model outputs supplied. Native video and audio are not supported by the selected models. Image detail original; long clip resized to width 1280, short clips retain native resolution; JPEG quality 92.",
+  "output": "Full task in a single request per clip: persistent IDs and boxes on a fixed 5-second short / 30-second long output grid plus final frame; jersey numbers, time on floor, distance, shots/on-goal/goals/assists, timestamps, scoreboard and possession. Unknown values allowed. No generated hidden positions or unsupported calibration.",
+  "comparison": "Score identical reference observations and pairs where the requested output grid includes the reference frame, using normalized boxes converted to source coordinates and IoU>=0.5 one-to-one matching. Report missing observations and incorrect links alongside correct pairs; do not treat unmatched predictions as false positives because reference labels are sparse. Compare with saved recommended pipeline predictions at the exact same frames. Baseline sees less temporal detail; this is an engineering baseline, not a controlled architecture-only ablation.",
+  "event_evaluation": "Event and statistical claims remain unverified until visually reviewed against original video. A structured JSON answer, non-null value, or self-reported certainty is not ground truth. No full-game stats follow from these clips.",
+  "documentation_checked": "2026-10-24",
+  "documentation": ["https://developers.openai.com/api/docs/models/gpt-6-astra", "https://developers.openai.com/api/docs/models/gpt-6.1-sol", "https://developers.openai.com/api/docs/guides/images-vision"]
+}

@@ -1,0 +1,4732 @@
+{
+  "protocol_sha256": "cbbc78f4177d9845b676053f8adf1c13f9c44fc13cf011670fca64e0749e4367",
+  "manifest_sha256": "1c2b152a2d21a8e381f7c16466cec0fc878a8e13a478524d91aa4e4ab6fb29bf",
+  "runner_sha256": "e61c4ac33183b8dc768472992b364fb031a04dd1bb09a3fb76afcd5920dbcd69",
+  "utility_sha256": "7fddfae2416283ef6373466e4b8451d8fee9662e8975407de3f514795df889eb",
+  "budget_usd": 10,
+  "requests": {
+    "gpt-6-astra/pittsburgh-0600": {
+      "clip": "pittsburgh-0600",
+      "model": "gpt-6-astra",
+      "status": "completed",
+      "counted_input_tokens": 77671,
+      "cost_ceiling_usd": 1.7391375,
+      "request_sha256": "ac028d0a284424378ac4f8fe082c26e06f39ee08f247779e862bda1a0f28510e",
+      "seconds": 274.754144328,
+      "response_id": "resp_002e3b51e9c78ea3016adcd126bd4087d08d61446ecd10f30e",
+      "returned_model": "gpt-6-astra",
+      "parsed": {
+        "summary": "Yellow/red advances into the navy/red defensive end, with one visually supported shot attempt by p06 around 14 s. Navy/red subsequently retrieves the ball and advances through center. Yellow/red p12 controls the near-side ball late in the clip. No goal, scorer, or assist is established from play. The readable scoreboard samples show HOME 1, GUEST 1; the complete game clock is not reliably legible. Thirteen player identities are retained, including both goalkeepers and one unresolved navy/red support runner.",
+        "players": [
+          {
+            "player_id": "p01",
+            "team": "navy_red",
+            "jersey_number": "32",
+            "identity_evidence": "Blue helmet, captain's C, white shoes; 32 clearly visible at 5, 14, 15 and 26 s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 0,
+                "evidence": "On floor beside the far-side boards."
+              },
+              {
+                "start_s": 3,
+                "end_s": 10,
+                "evidence": "Follows the yellow ball carrier, then challenges near center."
+              },
+              {
+                "start_s": 12,
+                "end_s": 21,
+                "evidence": "Partial right-edge appearance at 12 s connects to blue-helmeted player moving toward the near side."
+              },
+              {
+                "start_s": 25,
+                "end_s": 27,
+                "evidence": "Reappears in near foreground and challenges yellow p02."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera gaps and cropped appearances prevent complete shift timing; no exit is established.",
+            "distance_miles": null,
+            "distance_evidence": "Panning camera, missing trajectory portions and no metric floor calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No definite shot or scoring involvement identified; incomplete coverage prevents establishing zero clip totals."
+          },
+          {
+            "player_id": "p02",
+            "team": "yellow_red",
+            "jersey_number": "5",
+            "identity_evidence": "Black helmet, prominent beard, yellow shorts; back number 5 clear at 1\u20132 s and sleeve 5 at 27 s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 2,
+                "evidence": "Turns with the ball moving through the yellow defensive half."
+              },
+              {
+                "start_s": 27,
+                "end_s": 27,
+                "evidence": "Bearded yellow player contests p01 in front of the yellow goal."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Off camera for most of the clip; this is not evidence of leaving the floor.",
+            "distance_miles": null,
+            "distance_evidence": "Long visibility gap and uncalibrated moving view.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Opening stick action and late challenge do not establish a shot; other clip activity is unseen."
+          },
+          {
+            "player_id": "p03",
+            "team": "navy_red",
+            "jersey_number": "1",
+            "identity_evidence": "White helmet, navy shorts, red shoes; large back number 1 visible at 1\u20133 s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 3,
+                "evidence": "Near-side player, initially cropped at the lower-right edge."
+              },
+              {
+                "start_s": 9,
+                "end_s": 10,
+                "evidence": "White-helmeted player waits beside the center line on the right."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Only two visible runs; no substitution boundary observed.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete path, cropped feet in early samples and no metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No supported shooting or scoring event in visible samples; full clip totals are not established."
+          },
+          {
+            "player_id": "p04",
+            "team": "yellow_red",
+            "jersey_number": null,
+            "identity_evidence": "Yellow goalkeeper at the right-end net, black mask and black leg pads; number unreadable.",
+            "visible_intervals": [
+              {
+                "start_s": 1,
+                "end_s": 2,
+                "evidence": "Standing in the yellow goalmouth."
+              },
+              {
+                "start_s": 27,
+                "end_s": 27,
+                "evidence": "Same equipment and defended net on camera's return."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Presence at separated samples does not verify continuous floor time.",
+            "distance_miles": null,
+            "distance_evidence": "Goalkeeper movement is mostly off camera; no calibrated metric trajectory.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Visible goalmouth samples show no definite scoring event; most intervening activity is unseen."
+          },
+          {
+            "player_id": "p05",
+            "team": "yellow_red",
+            "jersey_number": null,
+            "identity_evidence": "Black helmet, blue gloves, conspicuous white shin guards and green/white shoes; jersey digits never reliably exposed.",
+            "visible_intervals": [
+              {
+                "start_s": 3,
+                "end_s": 8,
+                "evidence": "Carries along far side, contests p01, then runs rightward."
+              },
+              {
+                "start_s": 23,
+                "end_s": 27,
+                "evidence": "Matching gloves, guards and shoes; defends against p09 through center."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Long camera gap; no observed entry or exit.",
+            "distance_miles": null,
+            "distance_evidence": "Distinct visible path fragments cannot be converted to complete miles without calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Airborne release near 6 s leads toward p06 and is not classified as a shot. No confirmed scoring involvement."
+          },
+          {
+            "player_id": "p06",
+            "team": "yellow_red",
+            "jersey_number": "16",
+            "identity_evidence": "Back 16 clear at 4\u20137 and 15 s; black helmet, red shorts, long black shin protection.",
+            "visible_intervals": [
+              {
+                "start_s": 3,
+                "end_s": 10,
+                "evidence": "Initially cropped at left; receives and shields ball around the blue line and center."
+              },
+              {
+                "start_s": 12,
+                "end_s": 16,
+                "evidence": "Right-side attacking player; number and clothing connect the shot sequence."
+              },
+              {
+                "start_s": 18,
+                "end_s": 21,
+                "evidence": "Right-side yellow player retreats while navy retrieves the ball."
+              },
+              {
+                "start_s": 23,
+                "end_s": 23,
+                "evidence": "Black-helmeted yellow player near the far boards, behind p07."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Visible attacking sequence is substantial, but several camera gaps prevent full shift measurement.",
+            "distance_miles": null,
+            "distance_evidence": "Image-space motion includes camera panning; no measured rink scale or complete path.",
+            "shots": 1,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "One supported attempt toward the left goal around 14 s. Possible defensive contact and final ball trajectory are unresolved; additional sampled-out activity cannot be excluded."
+          },
+          {
+            "player_id": "p07",
+            "team": "yellow_red",
+            "jersey_number": "79",
+            "identity_evidence": "Back 79 visible at 4\u20135 s; white helmet and asymmetric white/black lower-leg equipment maintain identity.",
+            "visible_intervals": [
+              {
+                "start_s": 4,
+                "end_s": 25,
+                "evidence": "Moves from the attacking slot toward center; partly cropped at the left edge at 24\u201325 s."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Visible across these samples, but presence before 4 s and after 25 s is unresolved.",
+            "distance_miles": null,
+            "distance_evidence": "Long visible image-space track, but moving camera and unknown metric rink geometry prevent miles.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No definite shot or scoring touch identified; unobserved clip portions prevent exact zero totals."
+          },
+          {
+            "player_id": "p08",
+            "team": "navy_red",
+            "jersey_number": "13",
+            "identity_evidence": "Uniform number 13 visible on shorts around 8 s; black helmet and red shin guards distinguish the defensive player.",
+            "visible_intervals": [
+              {
+                "start_s": 4,
+                "end_s": 22,
+                "evidence": "Tracks the yellow attack, then remains beside the navy defensive goal area."
+              },
+              {
+                "start_s": 29.933333,
+                "end_s": 29.933333,
+                "evidence": "Matching red-shin-guard player to the right of the navy goal."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Beginning and late camera gaps prevent complete floor-time measurement.",
+            "distance_miles": null,
+            "distance_evidence": "No calibrated world coordinates; path also missing during the counterattack view.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Visible actions are defensive positioning; complete clip shooting and scoring totals remain unestablished."
+          },
+          {
+            "player_id": "p09",
+            "team": "navy_red",
+            "jersey_number": "10",
+            "identity_evidence": "Back 10 clearly visible at 9\u201311, 13\u201315 and 24 s; black helmet, black shin guards, pink/red shoe accents.",
+            "visible_intervals": [
+              {
+                "start_s": 4,
+                "end_s": 19,
+                "evidence": "Challenges p06, follows the shot sequence and runs out at the right edge."
+              },
+              {
+                "start_s": 23,
+                "end_s": 27,
+                "evidence": "Carries through center and contests p05."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera gaps do not reveal substitution or full shift limits.",
+            "distance_miles": null,
+            "distance_evidence": "Trajectory fragments and camera movement lack metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Challenges p06's shot lane near 14 s; center-line stick action at 24 s is not a demonstrated shot on goal."
+          },
+          {
+            "player_id": "p10",
+            "team": "navy_red",
+            "jersey_number": "36",
+            "identity_evidence": "36 clear on sleeve, shorts and back at 11\u201315 s; black cage helmet, white gloves and bright orange shoes.",
+            "visible_intervals": [
+              {
+                "start_s": 6,
+                "end_s": 6,
+                "evidence": "Partly cropped at the left edge; cage/equipment and orange shoe match later appearances."
+              },
+              {
+                "start_s": 11,
+                "end_s": 22,
+                "evidence": "Defends p12, retrieves the left-corner ball and sends it up floor."
+              },
+              {
+                "start_s": 29.933333,
+                "end_s": 29.933333,
+                "evidence": "Challenges p12 near the near-side blue line."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Substantial off-camera portions; observed visibility is not complete floor time.",
+            "distance_miles": null,
+            "distance_evidence": "No camera calibration or complete metric path.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Corner release around 22 s is an up-floor pass/clearance, not a demonstrated shot. Late airborne ball contact is unresolved."
+          },
+          {
+            "player_id": "p11",
+            "team": "navy_red",
+            "jersey_number": null,
+            "identity_evidence": "Navy goalkeeper with white mask and large black pads at the left-end goal; number unreadable.",
+            "visible_intervals": [
+              {
+                "start_s": 6,
+                "end_s": 6,
+                "evidence": "Part of white mask and padded goalkeeper visible at the extreme left behind the nearer player."
+              },
+              {
+                "start_s": 11,
+                "end_s": 22,
+                "evidence": "Guards the navy net during the yellow attack and subsequent retrieval."
+              },
+              {
+                "start_s": 29.933333,
+                "end_s": 29.933333,
+                "evidence": "Same masked goalkeeper visible in the navy goalmouth."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Goalkeeper is repeatedly off camera; continuous presence cannot be measured directly.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete goalkeeper path and no metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Reacts to the 14 s attack, but no definite save, ball crossing, or scoring contribution is visible."
+          },
+          {
+            "player_id": "p12",
+            "team": "yellow_red",
+            "jersey_number": "55",
+            "identity_evidence": "55 clear at 12, 15\u201322 and 28\u201329.933 s; white helmet, captain's C, black shin guards and white shoes.",
+            "visible_intervals": [
+              {
+                "start_s": 11,
+                "end_s": 12,
+                "evidence": "Controls the near-side ball and sends it across the attacking area."
+              },
+              {
+                "start_s": 15,
+                "end_s": 23,
+                "evidence": "Moves toward the near side; only arm/glove remains at the left edge at 23 s."
+              },
+              {
+                "start_s": 26,
+                "end_s": 26,
+                "evidence": "Partly visible at lower left beside p01."
+              },
+              {
+                "start_s": 28,
+                "end_s": 29.933333,
+                "evidence": "Close foreground appearance, then ball control and challenge by p10."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Cropped and absent samples prevent complete floor-time measurement; no exit established.",
+            "distance_miles": null,
+            "distance_evidence": "Near-camera cropping, moving viewpoint and incomplete path prevent metric distance.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "The 12 s release travels across toward p06, not demonstrably at goal. No goal exists to support an assist assignment; final challenge outcome is unseen."
+          },
+          {
+            "player_id": "p13",
+            "team": "navy_red",
+            "jersey_number": null,
+            "identity_evidence": "Black-helmeted/caged support runner near the far boards at 23\u201327 s. Digits are insufficiently exposed; not safely matched to an earlier track.",
+            "visible_intervals": [
+              {
+                "start_s": 23,
+                "end_s": 25,
+                "evidence": "Runs behind p09 along the far side."
+              },
+              {
+                "start_s": 27,
+                "end_s": 27,
+                "evidence": "Matching dark-helmeted support player at upper left."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Earlier identity and entry time unresolved; separate ID avoids an unsupported re-identification.",
+            "distance_miles": null,
+            "distance_evidence": "Short track fragment, unresolved earlier identity and no metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No supported shooting or scoring action in these appearances; no substitution is directly shown."
+          }
+        ],
+        "frames": [
+          {
+            "frame": 0,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  182,
+                  132,
+                  233,
+                  280
+                ],
+                "visible_floor_point": [
+                  207,
+                  275
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  823,
+                  339,
+                  918,
+                  689
+                ],
+                "visible_floor_point": [
+                  860,
+                  681
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  912,
+                  686,
+                  1000,
+                  1000
+                ],
+                "visible_floor_point": null
+              }
+            ]
+          },
+          {
+            "frame": 75,
+            "objects": [
+              {
+                "player_id": "p08",
+                "bbox": [
+                  243,
+                  294,
+                  274,
+                  469
+                ],
+                "visible_floor_point": [
+                  254,
+                  464
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  357,
+                  316,
+                  392,
+                  463
+                ],
+                "visible_floor_point": [
+                  374,
+                  459
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  370,
+                  333,
+                  431,
+                  515
+                ],
+                "visible_floor_point": [
+                  393,
+                  496
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  477,
+                  369,
+                  534,
+                  645
+                ],
+                "visible_floor_point": [
+                  509,
+                  639
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  594,
+                  328,
+                  618,
+                  454
+                ],
+                "visible_floor_point": [
+                  612,
+                  451
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  592,
+                  339,
+                  642,
+                  468
+                ],
+                "visible_floor_point": [
+                  625,
+                  464
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 150,
+            "objects": [
+              {
+                "player_id": "p08",
+                "bbox": [
+                  101,
+                  286,
+                  142,
+                  454
+                ],
+                "visible_floor_point": [
+                  109,
+                  450
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  166,
+                  286,
+                  198,
+                  444
+                ],
+                "visible_floor_point": [
+                  184,
+                  440
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  326,
+                  368,
+                  393,
+                  623
+                ],
+                "visible_floor_point": [
+                  350,
+                  619
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  542,
+                  412,
+                  612,
+                  603
+                ],
+                "visible_floor_point": [
+                  572,
+                  599
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  637,
+                  393,
+                  687,
+                  581
+                ],
+                "visible_floor_point": [
+                  668,
+                  577
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  843,
+                  441,
+                  906,
+                  670
+                ],
+                "visible_floor_point": [
+                  862,
+                  666
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 225,
+            "objects": [
+              {
+                "player_id": "p12",
+                "bbox": [
+                  23,
+                  450,
+                  117,
+                  785
+                ],
+                "visible_floor_point": [
+                  35,
+                  777
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  196,
+                  359,
+                  240,
+                  600
+                ],
+                "visible_floor_point": [
+                  217,
+                  594
+                ]
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  411,
+                  305,
+                  462,
+                  431
+                ],
+                "visible_floor_point": [
+                  447,
+                  426
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  564,
+                  304,
+                  604,
+                  432
+                ],
+                "visible_floor_point": [
+                  570,
+                  424
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  632,
+                  302,
+                  659,
+                  425
+                ],
+                "visible_floor_point": [
+                  646,
+                  421
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  566,
+                  438,
+                  630,
+                  744
+                ],
+                "visible_floor_point": [
+                  595,
+                  737
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  774,
+                  344,
+                  814,
+                  504
+                ],
+                "visible_floor_point": [
+                  787,
+                  493
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  856,
+                  346,
+                  899,
+                  501
+                ],
+                "visible_floor_point": [
+                  873,
+                  495
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 300,
+            "objects": [
+              {
+                "player_id": "p10",
+                "bbox": [
+                  65,
+                  177,
+                  106,
+                  346
+                ],
+                "visible_floor_point": [
+                  87,
+                  343
+                ]
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  504,
+                  231,
+                  546,
+                  358
+                ],
+                "visible_floor_point": [
+                  522,
+                  354
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  601,
+                  235,
+                  632,
+                  366
+                ],
+                "visible_floor_point": [
+                  616,
+                  361
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  781,
+                  302,
+                  831,
+                  472
+                ],
+                "visible_floor_point": [
+                  798,
+                  466
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  889,
+                  306,
+                  941,
+                  467
+                ],
+                "visible_floor_point": [
+                  898,
+                  460
+                ]
+              },
+              {
+                "player_id": "p12",
+                "bbox": [
+                  471,
+                  479,
+                  576,
+                  717
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  402,
+                  605,
+                  562,
+                  1000
+                ],
+                "visible_floor_point": null
+              }
+            ]
+          },
+          {
+            "frame": 375,
+            "objects": [
+              {
+                "player_id": "p07",
+                "bbox": [
+                  0,
+                  49,
+                  68,
+                  338
+                ],
+                "visible_floor_point": [
+                  50,
+                  319
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  478,
+                  70,
+                  532,
+                  288
+                ],
+                "visible_floor_point": [
+                  520,
+                  277
+                ]
+              },
+              {
+                "player_id": "p13",
+                "bbox": [
+                  547,
+                  9,
+                  584,
+                  185
+                ],
+                "visible_floor_point": [
+                  559,
+                  179
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  553,
+                  49,
+                  628,
+                  265
+                ],
+                "visible_floor_point": [
+                  599,
+                  260
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  499,
+                  785,
+                  639,
+                  1000
+                ],
+                "visible_floor_point": null
+              }
+            ]
+          },
+          {
+            "frame": 449,
+            "objects": [
+              {
+                "player_id": "p12",
+                "bbox": [
+                  77,
+                  358,
+                  191,
+                  784
+                ],
+                "visible_floor_point": [
+                  116,
+                  775
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  280,
+                  320,
+                  410,
+                  656
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  536,
+                  107,
+                  590,
+                  234
+                ],
+                "visible_floor_point": [
+                  575,
+                  228
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  890,
+                  190,
+                  942,
+                  403
+                ],
+                "visible_floor_point": [
+                  906,
+                  397
+                ]
+              }
+            ]
+          }
+        ],
+        "events": [
+          {
+            "type": "shot",
+            "time_s": 14,
+            "game_clock": null,
+            "team": "yellow_red",
+            "player_id": "p06",
+            "related_player_ids": [
+              "p09",
+              "p11"
+            ],
+            "certainty": "clear",
+            "evidence": "After the cross-floor feed, p06 swings toward the left goal under p09's challenge. The ball is visible beyond the challenge and players/goalkeeper track left/up. Release is approximately 13\u201314 s; a block, save or on-target trajectory is not resolved."
+          },
+          {
+            "type": "stoppage",
+            "time_s": 16,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [],
+            "certainty": "uncertain",
+            "evidence": "Players relax while p10 retrieves the corner ball; the referee approaches and later brings a hand near his mouth. This may be a stoppage, but no audible whistle or faceoff is available and ordinary slow retrieval is also possible."
+          }
+        ],
+        "possession": [
+          {
+            "team": "yellow_red",
+            "start_s": 3,
+            "end_s": 4,
+            "certainty": "clear",
+            "evidence": "p05 advances with the pink ball beside his blade along the far side."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 5,
+            "end_s": 7,
+            "certainty": "uncertain",
+            "evidence": "p05 and p01 contest the ball; an airborne ball travels toward p06, who receives it by 7 s. Intermediate touches are unresolved."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 7,
+            "end_s": 9,
+            "certainty": "clear",
+            "evidence": "p06 shields and carries the ball while p09 challenges from behind/alongside."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 9,
+            "end_s": 11,
+            "certainty": "uncertain",
+            "evidence": "Ball leaves p06's pressured area and reaches near-side p12; the intervening touch sequence is not fully sampled."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 11,
+            "end_s": 12,
+            "certainty": "clear",
+            "evidence": "p12 visibly controls the ball and releases it across the floor."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 12,
+            "end_s": 14,
+            "certainty": "uncertain",
+            "evidence": "Cross-floor release is followed by p06's attacking action; reception and possible defensive touches are incompletely visible."
+          },
+          {
+            "team": "navy_red",
+            "start_s": 17,
+            "end_s": 19,
+            "certainty": "uncertain",
+            "evidence": "p10 approaches the ball at the left corner; settled control becomes evident by 19 s. Live-play status is uncertain."
+          },
+          {
+            "team": "navy_red",
+            "start_s": 19,
+            "end_s": 22,
+            "certainty": "clear",
+            "evidence": "p10 holds the ball at his blade near the left boards, advances and releases it up floor. This describes ball control, not proof that play was live throughout."
+          },
+          {
+            "team": "navy_red",
+            "start_s": 23,
+            "end_s": 24,
+            "certainty": "clear",
+            "evidence": "p09 receives/controls the ball through center and reaches forward with his blade against p05."
+          },
+          {
+            "team": "navy_red",
+            "start_s": 25,
+            "end_s": 27,
+            "certainty": "uncertain",
+            "evidence": "Ball comes toward near-side p01 after the center challenge; p01 then contests p02. Sustained control and intervening touches are not fully visible."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 29,
+            "end_s": 29.933333,
+            "certainty": "uncertain",
+            "evidence": "p12 has the ball at his blade at 29 s; the last sample shows it airborne between p12 and challenging p10."
+          }
+        ],
+        "scoreboard": [
+          {
+            "time_s": 13,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "Physical board reads HOME 1, GUEST 1. Clock suffix appears :58; the minute digit is obstructed/too faint to establish. Bench HOME/GUEST labels associate navy with home and yellow with guest."
+          },
+          {
+            "time_s": 14,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "HOME 1 and GUEST 1 remain visible. Clock suffix appears :57; complete clock not reliably readable."
+          },
+          {
+            "time_s": 15,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "Score remains 1\u20131. Clock suffix appears :56; no complete clock transcription asserted."
+          },
+          {
+            "time_s": 16,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "Score remains 1\u20131. Clock suffix appears :55. No observed scoreboard increment follows the attacking sequence."
+          }
+        ],
+        "limitations": [
+          "Analysis uses all supplied chronological images, not native video or audio. One-second sampling can omit releases, deflections, saves, line crossings and substitutions.",
+          "Times are clip-relative. Event timing is approximate at the sampling resolution; frame 449 is at 29.933333 s.",
+          "The one reported shot is a supported observed attempt, not a guarantee that sampling captured every attempt. Null statistics are unestablished totals, not zeros.",
+          "No visible ball crossing, clear scoring celebration or confirmed goal signal establishes a goal. The unchanged readable scoreboard supports no scoring update during 13\u201316 s, but does not establish all players' full-clip zero totals.",
+          "Team names are not reliably readable; color labels are used. Jersey digits are not inferred from hidden portions.",
+          "p13 is a separate unresolved identity rather than a forced match to an earlier navy player. It may duplicate an earlier individual, but the available appearance evidence does not justify merging.",
+          "Visible intervals describe runs of supplied samples containing the player, not exact entry/exit times or uninterrupted verified presence.",
+          "Requested boxes and contact points are manually estimated in normalized image coordinates. Bench occupants, referees and stick-only appearances are excluded.",
+          "Floor points mark a visible shoe/pad contact, not an inferred body-center projection. They are null for cropped, occluded or uncertain airborne contact, including p10 in the final frame.",
+          "The camera pans, tilts and changes framing. No known metric rink dimensions or calibrated transformation are supplied, so image-space trajectory fragments cannot support distance in miles.",
+          "No player has sufficient full-clip visibility or observed substitution boundaries to establish exact time on floor. Off-camera intervals have not been counted as off-floor time.",
+          "Possession gaps remain unknown, and uncertain stoppage/live-play status is not converted into a definite restart or faceoff."
+        ]
+      },
+      "validation_errors": [],
+      "usage": {
+        "input_tokens": 77671,
+        "input_tokens_details": {
+          "cache_write_tokens": 77668,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15365,
+        "output_tokens_details": {
+          "reasoning_tokens": 8438
+        },
+        "total_tokens": 93036
+      },
+      "incomplete_details": null
+    },
+    "gpt-6.1-sol/pittsburgh-0600": {
+      "clip": "pittsburgh-0600",
+      "model": "gpt-6.1-sol",
+      "status": "completed",
+      "counted_input_tokens": 77671,
+      "cost_ceiling_usd": 0.3817775,
+      "request_sha256": "f033f25a83eac3322490de5e8d0bd198ca12dfd0853dc379de55a8e1163af66e",
+      "seconds": 365.30870982,
+      "response_id": "resp_0f91922419a0ed85016adcd248033887d0ac75f7b1a9f233cc",
+      "returned_model": "gpt-6.1-sol",
+      "parsed": {
+        "summary": "Yellow/red advances into the navy/red defensive end, followed by a navy/red breakout. One supported shot attempt by yellow/red #16 occurs around 14s; its on-goal status is unresolved. No goal is established from play. Readable scoreboard views show HOME 1, GUEST 1. Full-clip playing time and distance in miles cannot be established from the moving-camera, sampled views.",
+        "players": [
+          {
+            "player_id": "p01",
+            "team": "navy_red",
+            "jersey_number": "32",
+            "identity_evidence": "Blue helmet, captain's C, and clearly visible back number 32 at 5s and 26s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 0,
+                "evidence": "Near the far-side home gate."
+              },
+              {
+                "start_s": 3,
+                "end_s": 10,
+                "evidence": "Pursues the yellow carrier, then challenges #16."
+              },
+              {
+                "start_s": 12,
+                "end_s": 21,
+                "evidence": "Enters at the right edge, then moves through the near foreground."
+              },
+              {
+                "start_s": 25,
+                "end_s": 27,
+                "evidence": "Blue helmet enters foreground; back 32 visible during advance."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera gaps do not establish departures, substitutions, or full-clip floor presence.",
+            "distance_miles": null,
+            "distance_evidence": "No metric camera calibration; substantial camera motion and missing trajectory segments.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Receives or pursues the breakout ball at 25\u201327s; no attributable shot, goal, or assist established. Gaps preclude zero totals."
+          },
+          {
+            "player_id": "p02",
+            "team": "navy_red",
+            "jersey_number": "1",
+            "identity_evidence": "White helmet, red shoes, and large back number 1 visible at 1\u20133s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 3,
+                "evidence": "Initially cropped in near foreground, then follows play."
+              },
+              {
+                "start_s": 9,
+                "end_s": 10,
+                "evidence": "White-helmeted #1 stands near the center red line."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Off-camera intervals and shift boundaries are unobserved.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete trajectory and no calibrated image-to-floor metric mapping.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No attributable scoring action established; visibility is insufficient to establish zero clip totals."
+          },
+          {
+            "player_id": "p03",
+            "team": "yellow_red",
+            "jersey_number": "5",
+            "identity_evidence": "Back 5 visible at 1\u20132s; black helmet, beard, black leg protection and light shoes match the defender at 27s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 2,
+                "evidence": "In the yellow defensive half, preparing a stick play."
+              },
+              {
+                "start_s": 27,
+                "end_s": 27,
+                "evidence": "Challenges navy #32 near the defensive blue line."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Long off-camera interval does not establish whether he left the floor.",
+            "distance_miles": null,
+            "distance_evidence": "Long trajectory gap and no metric rink calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Early stick play and late defensive challenge are visible; no attributable shot, goal, or assist established."
+          },
+          {
+            "player_id": "p04",
+            "team": "yellow_red",
+            "jersey_number": null,
+            "identity_evidence": "Yellow goalkeeper at the right-end goal, black mask and black leg pads; number unreadable.",
+            "visible_intervals": [
+              {
+                "start_s": 1,
+                "end_s": 2,
+                "evidence": "Standing in front of the right-end net."
+              },
+              {
+                "start_s": 27,
+                "end_s": 27,
+                "evidence": "Same end, uniform and equipment behind the defensive play."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Goalkeeper is outside the camera view for most of the clip; continuous presence is not measured.",
+            "distance_miles": null,
+            "distance_evidence": "Sparse goalkeeper observations and no metric camera calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No attacking contribution established; off-camera activity precludes established zero totals."
+          },
+          {
+            "player_id": "p05",
+            "team": "yellow_red",
+            "jersey_number": null,
+            "identity_evidence": "Black helmet, blue gloves, conspicuous white shin protection and green/light footwear; jersey digits never reliably readable.",
+            "visible_intervals": [
+              {
+                "start_s": 3,
+                "end_s": 8,
+                "evidence": "Carries along the far side, contests with navy #32, then runs toward center."
+              },
+              {
+                "start_s": 23,
+                "end_s": 27,
+                "evidence": "Same equipment while defending against the navy breakout."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Off-camera interval and unobserved shift boundaries prevent a full-clip total.",
+            "distance_miles": null,
+            "distance_evidence": "No calibrated rink scale and a substantial trajectory gap.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Airborne ball after a raised-stick action around 6s could be a pass, deflection or shot; not counted as a confirmed shot."
+          },
+          {
+            "player_id": "p06",
+            "team": "yellow_red",
+            "jersey_number": "16",
+            "identity_evidence": "Back 16 clearly visible at 4\u20137s and 15s; black helmet, red shorts and long black leg protection.",
+            "visible_intervals": [
+              {
+                "start_s": 3,
+                "end_s": 10,
+                "evidence": "Initially clipped at left, then supports and controls the ball near the blue line."
+              },
+              {
+                "start_s": 12,
+                "end_s": 16,
+                "evidence": "Receives on the right side and makes a goal-directed striking action."
+              },
+              {
+                "start_s": 18,
+                "end_s": 21,
+                "evidence": "At the right edge, then moving away from the navy end."
+              },
+              {
+                "start_s": 23,
+                "end_s": 23,
+                "evidence": "Yellow black-helmeted #16 remains near the far side behind #79."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Observed intervals are not complete shift boundaries or proof of full-clip presence.",
+            "distance_miles": null,
+            "distance_evidence": "No metric homography or reliable continuous trajectory through camera gaps.",
+            "shots": 1,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "One supported goal-directed attempt around 14s, with navy #10 reaching across its path. Ball arrival at the net is not resolved; one is the observed count, not proof that sampling missed no additional attempt."
+          },
+          {
+            "player_id": "p07",
+            "team": "yellow_red",
+            "jersey_number": "79",
+            "identity_evidence": "Back 79 visible at 4\u20135s; white helmet and distinctive long white socks with colored bands.",
+            "visible_intervals": [
+              {
+                "start_s": 4,
+                "end_s": 25,
+                "evidence": "Moves through the slot, remains near the navy goal, then retreats through center; partially clipped at 24s."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Presence before 4s and after 25s is not established; visibility duration is not substituted for playing time.",
+            "distance_miles": null,
+            "distance_evidence": "Camera motion, perspective and absent metric calibration prevent a defensible mileage total.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Supporting and slot movement visible, but no attributable shot, goal, or assist established."
+          },
+          {
+            "player_id": "p08",
+            "team": "navy_red",
+            "jersey_number": "13",
+            "identity_evidence": "13 visible on shorts near 8s; black helmet and distinctive red lower-leg protection support continuity.",
+            "visible_intervals": [
+              {
+                "start_s": 4,
+                "end_s": 22,
+                "evidence": "Defends the slot and stays near the navy goal during retrieval."
+              },
+              {
+                "start_s": 29.933333,
+                "end_s": 29.933333,
+                "evidence": "Same red leg protection and uniform on the right side of the navy defensive end."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Clip-boundary and off-camera presence cannot be measured.",
+            "distance_miles": null,
+            "distance_evidence": "No calibrated floor coordinates; trajectory incomplete outside the defensive-end views.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Defensive positioning visible; no attributable scoring action established."
+          },
+          {
+            "player_id": "p09",
+            "team": "navy_red",
+            "jersey_number": "10",
+            "identity_evidence": "Back 10 clearly visible at 9\u201311s and 24s; black helmet, dark shin protection and red-accented shoes.",
+            "visible_intervals": [
+              {
+                "start_s": 4,
+                "end_s": 19,
+                "evidence": "Defends yellow #16, then stays on the right side; only an edge fragment remains at 19s."
+              },
+              {
+                "start_s": 23,
+                "end_s": 27,
+                "evidence": "Carries through center and challenges the white-shin-guard yellow defender."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera absence at 20\u201322s is not evidence of leaving the floor.",
+            "distance_miles": null,
+            "distance_evidence": "Moving camera and uncalibrated floor scale prevent metric reconstruction.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Challenges the 14s attempt and advances the ball at 23\u201325s; no confirmed shot, goal, or assist."
+          },
+          {
+            "player_id": "p10",
+            "team": "navy_red",
+            "jersey_number": null,
+            "identity_evidence": "Navy goalkeeper at the left-end net, white cage mask and large black leg pads; number unreadable.",
+            "visible_intervals": [
+              {
+                "start_s": 11,
+                "end_s": 22,
+                "evidence": "In or immediately in front of the navy crease."
+              },
+              {
+                "start_s": 29.933333,
+                "end_s": 29.933333,
+                "evidence": "Set in the same goal at the final supplied frame."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Not continuously in view; full-clip floor presence cannot be measured.",
+            "distance_miles": null,
+            "distance_evidence": "No metric calibration and incomplete goalkeeper trajectory.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Reacts during the 14\u201315s attack, but ball contact, a save and net crossing are not resolved. No attacking statistics established."
+          },
+          {
+            "player_id": "p11",
+            "team": "navy_red",
+            "jersey_number": "36",
+            "identity_evidence": "Back/sleeve 36 visible at 13\u201316s and final frame; black cage helmet, white gloves and bright orange shoes.",
+            "visible_intervals": [
+              {
+                "start_s": 11,
+                "end_s": 22,
+                "evidence": "Challenges yellow #55, retrieves in the left corner and plays the ball forward."
+              },
+              {
+                "start_s": 29.933333,
+                "end_s": 29.933333,
+                "evidence": "Challenges #55 again near the near-side blue line."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Earlier presence, later camera gap and substitutions are unobserved.",
+            "distance_miles": null,
+            "distance_evidence": "No metric floor calibration and missing trajectory segments.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Controls and distributes from the corner around 19\u201322s; no confirmed shot, goal or assist."
+          },
+          {
+            "player_id": "p12",
+            "team": "yellow_red",
+            "jersey_number": "55",
+            "identity_evidence": "White helmet, back 55 and sleeve 55 visible repeatedly; black shin protection and white shoes.",
+            "visible_intervals": [
+              {
+                "start_s": 11,
+                "end_s": 12,
+                "evidence": "Controls at the near boards, then sends the ball across the floor."
+              },
+              {
+                "start_s": 15,
+                "end_s": 23,
+                "evidence": "Near foreground during retrieval; only a matching arm/glove fragment remains at 23s."
+              },
+              {
+                "start_s": 26,
+                "end_s": 26,
+                "evidence": "White helmet and yellow 55 partly visible at lower left."
+              },
+              {
+                "start_s": 28,
+                "end_s": 29.933333,
+                "evidence": "Close foreground, controls ball at 29s and strikes it under challenge at the final frame."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Intermittent close views do not establish complete floor time or shift boundaries.",
+            "distance_miles": null,
+            "distance_evidence": "Severe camera motion, cropping and no metric floor calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "12s action is a cross-floor pass. Final airborne-ball action could be a shot or pass; no confirmed goal or assist follows within the clip."
+          },
+          {
+            "player_id": "p13",
+            "team": "navy_red",
+            "jersey_number": "9",
+            "identity_evidence": "9 visible on shorts at 27s; black helmet and dark shin guards. Far-side support track is not securely linked to an earlier player.",
+            "visible_intervals": [
+              {
+                "start_s": 23,
+                "end_s": 25,
+                "evidence": "Runs along the far side behind navy #10's breakout."
+              },
+              {
+                "start_s": 27,
+                "end_s": 27,
+                "evidence": "Far-left supporting navy player, number visible on shorts."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Entry and exit are not observed; earlier identity is not assumed.",
+            "distance_miles": null,
+            "distance_evidence": "Short partial trajectory with no metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Supporting movement only; no attributable scoring action established."
+          },
+          {
+            "player_id": "p14",
+            "team": "navy_red",
+            "jersey_number": null,
+            "identity_evidence": "Partial navy participant at the extreme left at 6s, with light-looking helmet and red/orange footwear. Insufficient evidence to merge securely with #1, #36 or the goalkeeper.",
+            "visible_intervals": [
+              {
+                "start_s": 6,
+                "end_s": 6,
+                "evidence": "Helmet, partial torso, equipment and a shoe visible at the left image boundary."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Single clipped observation with unresolved identity and role.",
+            "distance_miles": null,
+            "distance_evidence": "Single partial observation; no trajectory or metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No attributable action established; this unresolved ID may duplicate another navy track."
+          }
+        ],
+        "frames": [
+          {
+            "frame": 0,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  182,
+                  130,
+                  233,
+                  280
+                ],
+                "visible_floor_point": [
+                  207,
+                  275
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  910,
+                  685,
+                  1000,
+                  1000
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  823,
+                  339,
+                  917,
+                  690
+                ],
+                "visible_floor_point": [
+                  862,
+                  682
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 75,
+            "objects": [
+              {
+                "player_id": "p08",
+                "bbox": [
+                  242,
+                  294,
+                  275,
+                  468
+                ],
+                "visible_floor_point": [
+                  253,
+                  463
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  359,
+                  314,
+                  395,
+                  465
+                ],
+                "visible_floor_point": [
+                  373,
+                  457
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  370,
+                  331,
+                  430,
+                  512
+                ],
+                "visible_floor_point": [
+                  390,
+                  495
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  476,
+                  369,
+                  534,
+                  646
+                ],
+                "visible_floor_point": [
+                  488,
+                  637
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  591,
+                  326,
+                  623,
+                  457
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  592,
+                  338,
+                  643,
+                  470
+                ],
+                "visible_floor_point": [
+                  624,
+                  463
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 150,
+            "objects": [
+              {
+                "player_id": "p08",
+                "bbox": [
+                  100,
+                  285,
+                  142,
+                  454
+                ],
+                "visible_floor_point": [
+                  111,
+                  448
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  167,
+                  285,
+                  198,
+                  444
+                ],
+                "visible_floor_point": [
+                  183,
+                  437
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  326,
+                  368,
+                  394,
+                  624
+                ],
+                "visible_floor_point": [
+                  353,
+                  615
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  542,
+                  412,
+                  609,
+                  604
+                ],
+                "visible_floor_point": [
+                  565,
+                  597
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  638,
+                  390,
+                  686,
+                  581
+                ],
+                "visible_floor_point": [
+                  667,
+                  576
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  845,
+                  439,
+                  904,
+                  673
+                ],
+                "visible_floor_point": [
+                  861,
+                  663
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 225,
+            "objects": [
+              {
+                "player_id": "p12",
+                "bbox": [
+                  22,
+                  450,
+                  117,
+                  784
+                ],
+                "visible_floor_point": [
+                  35,
+                  775
+                ]
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  197,
+                  359,
+                  240,
+                  599
+                ],
+                "visible_floor_point": [
+                  218,
+                  590
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  411,
+                  301,
+                  463,
+                  431
+                ],
+                "visible_floor_point": [
+                  450,
+                  423
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  565,
+                  303,
+                  603,
+                  430
+                ],
+                "visible_floor_point": [
+                  598,
+                  424
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  634,
+                  300,
+                  660,
+                  427
+                ],
+                "visible_floor_point": [
+                  646,
+                  422
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  773,
+                  343,
+                  815,
+                  504
+                ],
+                "visible_floor_point": [
+                  787,
+                  491
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  854,
+                  344,
+                  899,
+                  501
+                ],
+                "visible_floor_point": [
+                  875,
+                  494
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  566,
+                  435,
+                  632,
+                  745
+                ],
+                "visible_floor_point": [
+                  602,
+                  736
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 300,
+            "objects": [
+              {
+                "player_id": "p11",
+                "bbox": [
+                  67,
+                  174,
+                  106,
+                  348
+                ],
+                "visible_floor_point": [
+                  85,
+                  341
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  503,
+                  229,
+                  546,
+                  359
+                ],
+                "visible_floor_point": [
+                  519,
+                  352
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  603,
+                  232,
+                  633,
+                  369
+                ],
+                "visible_floor_point": [
+                  614,
+                  362
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  783,
+                  303,
+                  830,
+                  472
+                ],
+                "visible_floor_point": [
+                  798,
+                  464
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  889,
+                  305,
+                  941,
+                  468
+                ],
+                "visible_floor_point": [
+                  918,
+                  460
+                ]
+              },
+              {
+                "player_id": "p12",
+                "bbox": [
+                  471,
+                  478,
+                  578,
+                  725
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  402,
+                  606,
+                  564,
+                  1000
+                ],
+                "visible_floor_point": null
+              }
+            ]
+          },
+          {
+            "frame": 375,
+            "objects": [
+              {
+                "player_id": "p07",
+                "bbox": [
+                  0,
+                  50,
+                  71,
+                  335
+                ],
+                "visible_floor_point": [
+                  52,
+                  317
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  477,
+                  69,
+                  533,
+                  288
+                ],
+                "visible_floor_point": [
+                  488,
+                  280
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  557,
+                  49,
+                  632,
+                  266
+                ],
+                "visible_floor_point": [
+                  596,
+                  257
+                ]
+              },
+              {
+                "player_id": "p13",
+                "bbox": [
+                  547,
+                  14,
+                  585,
+                  184
+                ],
+                "visible_floor_point": [
+                  559,
+                  174
+                ]
+              },
+              {
+                "player_id": "p01",
+                "bbox": [
+                  500,
+                  786,
+                  639,
+                  1000
+                ],
+                "visible_floor_point": null
+              }
+            ]
+          },
+          {
+            "frame": 449,
+            "objects": [
+              {
+                "player_id": "p12",
+                "bbox": [
+                  78,
+                  358,
+                  193,
+                  785
+                ],
+                "visible_floor_point": [
+                  113,
+                  777
+                ]
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  278,
+                  318,
+                  411,
+                  653
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  536,
+                  107,
+                  590,
+                  233
+                ],
+                "visible_floor_point": [
+                  574,
+                  229
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  892,
+                  190,
+                  941,
+                  405
+                ],
+                "visible_floor_point": [
+                  913,
+                  397
+                ]
+              }
+            ]
+          }
+        ],
+        "events": [
+          {
+            "type": "shot",
+            "time_s": 6,
+            "game_clock": null,
+            "team": "yellow_red",
+            "player_id": "p05",
+            "related_player_ids": [
+              "p01"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Ball is airborne after the yellow player's raised-stick action under #32's pressure. A pass or deflection cannot be distinguished from a shot; excluded from confirmed counts."
+          },
+          {
+            "type": "shot",
+            "time_s": 14,
+            "game_clock": null,
+            "team": "yellow_red",
+            "player_id": "p06",
+            "related_player_ids": [
+              "p09",
+              "p10"
+            ],
+            "certainty": "clear",
+            "evidence": "After receiving on the right side, #16 makes a goal-directed stroke; ball is visible ahead of the stick as #10 reaches across. Release is approximately within 13\u201314s; net arrival is not resolved."
+          },
+          {
+            "type": "stoppage",
+            "time_s": 15,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [],
+            "certainty": "uncertain",
+            "evidence": "Players slow to walking or stationary positions after the attempt, and the referee approaches during retrieval. No audio, decisive whistle signal or faceoff confirms a formal stoppage."
+          },
+          {
+            "type": "shot",
+            "time_s": 29.933333,
+            "game_clock": null,
+            "team": "yellow_red",
+            "player_id": "p12",
+            "related_player_ids": [
+              "p11",
+              "p10"
+            ],
+            "certainty": "uncertain",
+            "evidence": "#55 propels the ball airborne as #36 challenges. It could be a shot or pass; intended target and subsequent outcome are outside the supplied observations."
+          }
+        ],
+        "possession": [
+          {
+            "team": "yellow_red",
+            "start_s": 1,
+            "end_s": 2,
+            "certainty": "uncertain",
+            "evidence": "#5 prepares a stick play in his defensive half, but sustained ball contact is not resolved."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 3,
+            "end_s": 4,
+            "certainty": "clear",
+            "evidence": "White-shin-guard yellow carrier advances with the visible ball along the far side."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 7,
+            "end_s": 9,
+            "certainty": "clear",
+            "evidence": "#16 controls and shields the visible ball while navy #10 closes."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 11,
+            "end_s": 14,
+            "certainty": "clear",
+            "evidence": "#55 controls near the boards, passes across, and #16 receives before the attempt."
+          },
+          {
+            "team": "navy_red",
+            "start_s": 19,
+            "end_s": 24,
+            "certainty": "clear",
+            "evidence": "#36 has the ball at the left boards, distributes around 22s, and #10 controls the breakout through center."
+          },
+          {
+            "team": "navy_red",
+            "start_s": 25,
+            "end_s": 27,
+            "certainty": "uncertain",
+            "evidence": "Ball travels toward #32, who advances into #5's challenge; airborne travel and the contest prevent continuous control confirmation."
+          },
+          {
+            "team": "yellow_red",
+            "start_s": 29,
+            "end_s": 29.933333,
+            "certainty": "clear",
+            "evidence": "#55 has the ball at his blade at 29s and plays it under #36's challenge in the final frame."
+          }
+        ],
+        "scoreboard": [
+          {
+            "time_s": 13,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "HOME 1 and GUEST 1 visible. Clock seconds read :58; leading minute digit is not confidently legible through the fence. Bench HOME/GUEST signs support team mapping."
+          },
+          {
+            "time_s": 14,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "Score remains HOME 1, GUEST 1; visible clock seconds appear :57, with minute digit unresolved."
+          },
+          {
+            "time_s": 15,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "HOME 1, GUEST 1; clock seconds read :56. No scoreboard goal update established after the attempt."
+          },
+          {
+            "time_s": 16,
+            "game_clock": null,
+            "team_a": "navy_red",
+            "team_b": "yellow_red",
+            "score_a": 1,
+            "score_b": 1,
+            "evidence": "HOME 1, GUEST 1; clock seconds appear :55. Minute digit remains insufficiently clear for an exact clock string."
+          }
+        ],
+        "limitations": [
+          "All supplied chronological frames were used as context. Approximately one-second sampling can omit releases, contacts, saves, net crossings and substitutions; event times are sampled estimates.",
+          "Visible intervals group consecutive supplied observations, not continuously verified visibility or shift boundaries. Off-camera is not treated as off-floor.",
+          "The image-space trajectories are represented by requested-frame boxes and visible contact points. Metric trajectories and miles require a calibrated rink mapping and better coverage.",
+          "Boxes enclose visible person portions, excluding extended sticks. Contact points are null for cropping, occlusion or an unclear surface contact.",
+          "p14 is an unresolved left-edge navy fragment and may duplicate a named track; it is not evidence of an additional simultaneous floor player.",
+          "An isolated black helmet at the lower edge around 18s cannot be classified reliably as an on-floor player, referee or sideline person and is not assigned an on-floor track.",
+          "Known referees, people behind the boards and stick-only fragments are excluded from player boxes.",
+          "Team names are not securely readable; uniform labels and visible HOME/GUEST bench signs are used instead.",
+          "No goal or assist is visually established. The 1\u20131 scoreboard does not identify scorers or establish that either displayed goal occurred within this clip.",
+          "Null statistical counts mean unestablished, not zero. The single reported shot is a supported observed attempt; uncertain shot hypotheses are not included in that count."
+        ]
+      },
+      "validation_errors": [],
+      "usage": {
+        "input_tokens": 77671,
+        "input_tokens_details": {
+          "cache_write_tokens": 77668,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18760,
+        "output_tokens_details": {
+          "reasoning_tokens": 11912
+        },
+        "total_tokens": 96431
+      },
+      "incomplete_details": null
+    },
+    "gpt-6-astra/marylandwomen-0600": {
+      "clip": "marylandwomen-0600",
+      "model": "gpt-6-astra",
+      "status": "completed",
+      "counted_input_tokens": 35976,
+      "cost_ceiling_usd": 1.21185,
+      "request_sha256": "6e564e891b04ca59ef6a6d2f76828c922b393e255ed6cddd9533eff91a6efe49",
+      "seconds": 272.482416908,
+      "response_id": "resp_07b489ee4b08ef25016adcd3cd190487d0a71cad14f03c2a42",
+      "returned_model": "gpt-6-astra",
+      "parsed": {
+        "summary": "The clip begins during a stoppage, followed by a faceoff between 20 and 21 seconds. White attacks the purple goal. A possible white shot occurs around 24 seconds and a clear white shot around 27 seconds. Ball trajectories and the crowded goalmouth do not establish shots on goal, a goal, or assists. The scoreboard's score and clock are unreadable. Requested-frame boxes and visible contact points provide image-space tracks; metric distances cannot be recovered reliably.",
+        "players": [
+          {
+            "player_id": "p01",
+            "team": "purple",
+            "jersey_number": null,
+            "identity_evidence": "Goalkeeper at the left goal; purple jersey, cage mask and distinctive green/gold leg pads.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 14,
+                "evidence": "At the left goal; partially cropped at 14s."
+              },
+              {
+                "start_s": 16,
+                "end_s": 16,
+                "evidence": "Glove and padded body fragment visible at the left edge."
+              },
+              {
+                "start_s": 21,
+                "end_s": 22,
+                "evidence": "Partial goalkeeper at the left edge as the camera pans."
+              },
+              {
+                "start_s": 25,
+                "end_s": 29.933333,
+                "evidence": "Same goalkeeper in the crease, increasingly obscured by nearby players."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera excludes the crease for several intervals; those gaps are not evidence of leaving the floor.",
+            "distance_miles": null,
+            "distance_evidence": "Occlusion, camera movement and missing metric rink calibration prevent a reliable distance.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Remains at the defended goal during observed live play; no attacking contribution."
+          },
+          {
+            "player_id": "p02",
+            "team": "purple",
+            "jersey_number": "63",
+            "identity_evidence": "Black helmet and long dark lower-leg protection; continuous track from beside the goal. Back number 63 is readable near 28\u201329s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933333,
+                "evidence": "Moves from beside the crease into the slot, then returns to the goalmouth."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Identifiable on the floor throughout the supplied samples; full-clip presence supported.",
+            "distance_miles": null,
+            "distance_evidence": "Image-space movement is recoverable, but metric rink scale and pan-aware calibration are unavailable.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Continuously tracked defending during live play; no attacking shot or scoring involvement."
+          },
+          {
+            "player_id": "p03",
+            "team": "purple",
+            "jersey_number": "8",
+            "identity_evidence": "Black helmet; back number 8 visible at 1\u20134s. Track continues along the rear boards and back toward the crease.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933333,
+                "evidence": "Walks to the rear boards during the stoppage, then defends the slot and crease."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Identifiable on the floor throughout the supplied samples; full-clip presence supported.",
+            "distance_miles": null,
+            "distance_evidence": "No metric rink scale or camera calibration; camera pan cannot be treated as player travel.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Observed defending throughout live play without an attacking release or scoring involvement."
+          },
+          {
+            "player_id": "p04",
+            "team": "purple",
+            "jersey_number": "5",
+            "identity_evidence": "White helmet and light striped shin protection; number 5 readable during the later play, especially at 27s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933333,
+                "evidence": "Initially central, takes the faceoff, then closely marks p10 in the slot."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Stable identity and on-floor presence across all supplied samples.",
+            "distance_miles": null,
+            "distance_evidence": "Perspective and moving camera require an unavailable metric floor calibration.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Faceoff and defensive actions only; no attacking shot or scoring involvement."
+          },
+          {
+            "player_id": "p05",
+            "team": "purple",
+            "jersey_number": "19",
+            "identity_evidence": "White helmet; number 19 readable while facing the right boards at 0\u20132s. Distinct from p04 through continuous positioning.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 24,
+                "evidence": "Right-board player, partly behind the referee during setup; runs toward p12 after the faceoff."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Leaves the camera view after 24s; an actual floor exit is not shown.",
+            "distance_miles": null,
+            "distance_evidence": "Late off-camera movement and missing metric calibration prevent a clip-total distance.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No shot observed in the resolved track; late off-camera activity prevents complete individual totals."
+          },
+          {
+            "player_id": "p06",
+            "team": "purple",
+            "jersey_number": "4",
+            "identity_evidence": "Black helmet and dark ponytail; back number 4 clearly visible at 2\u20135s.",
+            "visible_intervals": [
+              {
+                "start_s": 1,
+                "end_s": 24,
+                "evidence": "Helmet first appears at the bottom edge; moves into the left slot, then runs across the foreground and exits the image."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "First and last appearances are camera-boundary crossings, not demonstrated substitutions.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete visibility and no calibrated rink coordinates.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No shot observed before leaving view; complete clip totals are not established."
+          },
+          {
+            "player_id": "p07",
+            "team": "white",
+            "jersey_number": "7",
+            "identity_evidence": "White helmet, long dark ponytail and pink/red stick blade; back number 7 readable during faceoff setup.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933333,
+                "evidence": "Moves from the slot to a faceoff wing, then toward the crease during the attack."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Stable on-floor track throughout the supplied samples.",
+            "distance_miles": null,
+            "distance_evidence": "No metric floor calibration; final movement also includes substantial camera pan.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "At the crowded crease following p10's shot; no separate release, touch or goal can be resolved."
+          },
+          {
+            "player_id": "p08",
+            "team": "white",
+            "jersey_number": "24",
+            "identity_evidence": "Black helmet, bright pink blade and pink-toned footwear; number 24 clear from 5\u201312s and at the end.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933333,
+                "evidence": "Walks from the foreground to the right-board faceoff wing, then follows the attack into the slot."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Identifiable on the playing surface throughout the supplied samples.",
+            "distance_miles": null,
+            "distance_evidence": "Only uncalibrated image-space positions are available.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": null,
+            "stats_evidence": "No shot release across the continuous track. An assist cannot be established because no goal or preceding pass sequence is confirmed."
+          },
+          {
+            "player_id": "p09",
+            "team": "white",
+            "jersey_number": null,
+            "identity_evidence": "Opening foreground player with black helmet, light ponytail and dark shin protection. Number unreadable; possible later match to p12 is unresolved.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 3,
+                "evidence": "Walks toward the camera and becomes cropped at the bottom edge."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Disappearance below the image does not establish leaving the playing surface.",
+            "distance_miles": null,
+            "distance_evidence": "Short, incomplete track without metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Only observed during the opening stoppage; identity during subsequent live play is unresolved."
+          },
+          {
+            "player_id": "p10",
+            "team": "white",
+            "jersey_number": "12",
+            "identity_evidence": "Black helmet, dark ponytail and light shin guards; back number 12 visible while approaching the faceoff at 13\u201317s.",
+            "visible_intervals": [
+              {
+                "start_s": 13,
+                "end_s": 29.933333,
+                "evidence": "Enters from the lower image, takes the faceoff, controls in the slot and shoots toward the left goal."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Earlier on-floor status is outside the camera view; first appearance is not a demonstrated substitution.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete clip trajectory and no metric rink calibration.",
+            "shots": 1,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "One clear shot around 27s after controlling the ball at 26s. Ball arrival and goal-line outcome are obscured."
+          },
+          {
+            "player_id": "p11",
+            "team": "white",
+            "jersey_number": "14",
+            "identity_evidence": "Black helmet and dark ponytail; large back number 14 clearly visible from 14s onward.",
+            "visible_intervals": [
+              {
+                "start_s": 14,
+                "end_s": 23,
+                "evidence": "Near-side high player; becomes increasingly cropped at the lower-right edge."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera entry and disappearance do not identify actual shift boundaries.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete track and no calibrated physical scale.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No release observed while visible; later attacking play occurs outside this player's resolved track."
+          },
+          {
+            "player_id": "p12",
+            "team": "white",
+            "jersey_number": null,
+            "identity_evidence": "Black-helmeted player at the far-right boards with dark shin protection. Number unreadable; not securely linked to opening player p09.",
+            "visible_intervals": [
+              {
+                "start_s": 14,
+                "end_s": 24,
+                "evidence": "Initially cropped at the right edge, then waits high by the boards and makes a shooting/passing swing as p05 closes."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Visible interval does not establish the player's full on-floor interval.",
+            "distance_miles": null,
+            "distance_evidence": "Unresolved earlier identity, off-camera intervals and missing metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Possible shot around 24s, but the sampled swing and subsequent goalkeeper reaction do not exclude a pass."
+          },
+          {
+            "player_id": "p13",
+            "team": "unknown",
+            "jersey_number": null,
+            "identity_evidence": "Tiny dark helmet fragment at the bottom-right edge at 26s; cannot securely distinguish p06, p11 or another on-floor track.",
+            "visible_intervals": [
+              {
+                "start_s": 26,
+                "end_s": 26,
+                "evidence": "Only the top of a helmet appears at the lower-right image boundary."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Single unresolved fragment provides no shift duration.",
+            "distance_miles": null,
+            "distance_evidence": "No visible floor contact, resolved trajectory or physical calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No action can be attributed to this fragment."
+          }
+        ],
+        "frames": [
+          {
+            "frame": 0,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  230,
+                  451,
+                  277,
+                  582
+                ],
+                "visible_floor_point": [
+                  252,
+                  575
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  192,
+                  486,
+                  229,
+                  629
+                ],
+                "visible_floor_point": [
+                  205,
+                  625
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  383,
+                  449,
+                  413,
+                  604
+                ],
+                "visible_floor_point": [
+                  389,
+                  597
+                ]
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  516,
+                  431,
+                  552,
+                  582
+                ],
+                "visible_floor_point": [
+                  530,
+                  576
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  741,
+                  453,
+                  788,
+                  608
+                ],
+                "visible_floor_point": [
+                  770,
+                  603
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  395,
+                  483,
+                  432,
+                  663
+                ],
+                "visible_floor_point": [
+                  416,
+                  661
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  309,
+                  583,
+                  350,
+                  774
+                ],
+                "visible_floor_point": [
+                  331,
+                  768
+                ]
+              },
+              {
+                "player_id": "p09",
+                "bbox": [
+                  353,
+                  628,
+                  414,
+                  886
+                ],
+                "visible_floor_point": [
+                  391,
+                  881
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 75,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  128,
+                  360,
+                  165,
+                  524
+                ],
+                "visible_floor_point": [
+                  144,
+                  518
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  350,
+                  432,
+                  391,
+                  576
+                ],
+                "visible_floor_point": [
+                  379,
+                  571
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  408,
+                  325,
+                  430,
+                  451
+                ],
+                "visible_floor_point": [
+                  417,
+                  447
+                ]
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  514,
+                  374,
+                  547,
+                  522
+                ],
+                "visible_floor_point": [
+                  524,
+                  517
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  612,
+                  342,
+                  645,
+                  474
+                ],
+                "visible_floor_point": [
+                  621,
+                  468
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  269,
+                  475,
+                  311,
+                  661
+                ],
+                "visible_floor_point": [
+                  278,
+                  654
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  480,
+                  443,
+                  512,
+                  626
+                ],
+                "visible_floor_point": [
+                  497,
+                  621
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  510,
+                  526,
+                  552,
+                  708
+                ],
+                "visible_floor_point": [
+                  539,
+                  701
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 150,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  102,
+                  346,
+                  149,
+                  507
+                ],
+                "visible_floor_point": [
+                  109,
+                  500
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  420,
+                  410,
+                  450,
+                  558
+                ],
+                "visible_floor_point": [
+                  439,
+                  553
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  460,
+                  286,
+                  487,
+                  401
+                ],
+                "visible_floor_point": [
+                  480,
+                  396
+                ]
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  531,
+                  347,
+                  564,
+                  497
+                ],
+                "visible_floor_point": [
+                  542,
+                  492
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  637,
+                  361,
+                  655,
+                  467
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  266,
+                  463,
+                  305,
+                  644
+                ],
+                "visible_floor_point": [
+                  285,
+                  637
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  470,
+                  414,
+                  502,
+                  594
+                ],
+                "visible_floor_point": [
+                  488,
+                  588
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  656,
+                  388,
+                  693,
+                  531
+                ],
+                "visible_floor_point": [
+                  666,
+                  526
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 225,
+            "objects": [
+              {
+                "player_id": "p02",
+                "bbox": [
+                  241,
+                  443,
+                  284,
+                  581
+                ],
+                "visible_floor_point": [
+                  264,
+                  575
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  293,
+                  300,
+                  318,
+                  417
+                ],
+                "visible_floor_point": [
+                  310,
+                  411
+                ]
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  353,
+                  367,
+                  392,
+                  510
+                ],
+                "visible_floor_point": [
+                  371,
+                  503
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  459,
+                  343,
+                  480,
+                  479
+                ],
+                "visible_floor_point": [
+                  473,
+                  474
+                ]
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  71,
+                  500,
+                  114,
+                  676
+                ],
+                "visible_floor_point": [
+                  89,
+                  669
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  315,
+                  422,
+                  355,
+                  597
+                ],
+                "visible_floor_point": [
+                  326,
+                  592
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  504,
+                  375,
+                  535,
+                  492
+                ],
+                "visible_floor_point": [
+                  522,
+                  483
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  532,
+                  510,
+                  586,
+                  713
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  756,
+                  725,
+                  835,
+                  1000
+                ],
+                "visible_floor_point": [
+                  762,
+                  983
+                ]
+              },
+              {
+                "player_id": "p12",
+                "bbox": [
+                  898,
+                  471,
+                  943,
+                  668
+                ],
+                "visible_floor_point": [
+                  924,
+                  662
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 300,
+            "objects": [
+              {
+                "player_id": "p02",
+                "bbox": [
+                  199,
+                  471,
+                  243,
+                  608
+                ],
+                "visible_floor_point": [
+                  213,
+                  600
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  255,
+                  354,
+                  288,
+                  443
+                ],
+                "visible_floor_point": [
+                  282,
+                  439
+                ]
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  344,
+                  425,
+                  380,
+                  550
+                ],
+                "visible_floor_point": [
+                  354,
+                  542
+                ]
+              },
+              {
+                "player_id": "p05",
+                "bbox": [
+                  421,
+                  417,
+                  444,
+                  497
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p06",
+                "bbox": [
+                  28,
+                  521,
+                  77,
+                  704
+                ],
+                "visible_floor_point": [
+                  43,
+                  696
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  275,
+                  469,
+                  319,
+                  622
+                ],
+                "visible_floor_point": [
+                  286,
+                  617
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  444,
+                  407,
+                  477,
+                  517
+                ],
+                "visible_floor_point": [
+                  469,
+                  511
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  391,
+                  465,
+                  437,
+                  567
+                ],
+                "visible_floor_point": [
+                  405,
+                  560
+                ]
+              },
+              {
+                "player_id": "p11",
+                "bbox": [
+                  678,
+                  754,
+                  737,
+                  1000
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p12",
+                "bbox": [
+                  800,
+                  490,
+                  847,
+                  651
+                ],
+                "visible_floor_point": [
+                  816,
+                  644
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 375,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  142,
+                  499,
+                  208,
+                  615
+                ],
+                "visible_floor_point": [
+                  155,
+                  608
+                ]
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  284,
+                  526,
+                  333,
+                  657
+                ],
+                "visible_floor_point": [
+                  289,
+                  650
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  355,
+                  463,
+                  395,
+                  600
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  548,
+                  539,
+                  592,
+                  696
+                ],
+                "visible_floor_point": [
+                  553,
+                  688
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  223,
+                  478,
+                  255,
+                  635
+                ],
+                "visible_floor_point": [
+                  231,
+                  629
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  681,
+                  504,
+                  722,
+                  636
+                ],
+                "visible_floor_point": [
+                  702,
+                  626
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  570,
+                  550,
+                  622,
+                  686
+                ],
+                "visible_floor_point": [
+                  595,
+                  679
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 449,
+            "objects": [
+              {
+                "player_id": "p01",
+                "bbox": [
+                  353,
+                  382,
+                  403,
+                  457
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "p02",
+                "bbox": [
+                  362,
+                  346,
+                  398,
+                  489
+                ],
+                "visible_floor_point": [
+                  381,
+                  482
+                ]
+              },
+              {
+                "player_id": "p03",
+                "bbox": [
+                  416,
+                  308,
+                  444,
+                  449
+                ],
+                "visible_floor_point": [
+                  431,
+                  443
+                ]
+              },
+              {
+                "player_id": "p04",
+                "bbox": [
+                  637,
+                  361,
+                  676,
+                  524
+                ],
+                "visible_floor_point": [
+                  652,
+                  517
+                ]
+              },
+              {
+                "player_id": "p07",
+                "bbox": [
+                  392,
+                  324,
+                  423,
+                  479
+                ],
+                "visible_floor_point": [
+                  411,
+                  474
+                ]
+              },
+              {
+                "player_id": "p08",
+                "bbox": [
+                  660,
+                  439,
+                  701,
+                  614
+                ],
+                "visible_floor_point": [
+                  672,
+                  608
+                ]
+              },
+              {
+                "player_id": "p10",
+                "bbox": [
+                  880,
+                  386,
+                  917,
+                  554
+                ],
+                "visible_floor_point": [
+                  891,
+                  546
+                ]
+              }
+            ]
+          }
+        ],
+        "events": [
+          {
+            "type": "stoppage",
+            "time_s": 0,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [],
+            "certainty": "clear",
+            "evidence": "Stoppage already underway at the clip's start; players walk into faceoff positions. Its original cause is not shown."
+          },
+          {
+            "type": "faceoff",
+            "time_s": 20.5,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [
+              "p04",
+              "p10"
+            ],
+            "certainty": "clear",
+            "evidence": "Opposing centers set their blades; referee lowers the raised arm at 20s, and the draw is contested at 21s. Drop time is bracketed by those samples."
+          },
+          {
+            "type": "shot",
+            "time_s": 24,
+            "game_clock": null,
+            "team": "white",
+            "player_id": "p12",
+            "related_player_ids": [
+              "p05",
+              "p01"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Right-board white player swings toward the attacking area as p05 closes; goalkeeper is down at 25s. Missing ball flight leaves a pass possible."
+          },
+          {
+            "type": "shot",
+            "time_s": 27,
+            "game_clock": null,
+            "team": "white",
+            "player_id": "p10",
+            "related_player_ids": [
+              "p04",
+              "p01"
+            ],
+            "certainty": "clear",
+            "evidence": "p10 controls near the blade at 26s, then makes a forceful goalward release/follow-through at 27s while marked by p04."
+          },
+          {
+            "type": "shot_on_goal",
+            "time_s": 27,
+            "game_clock": null,
+            "team": "white",
+            "player_id": "p10",
+            "related_player_ids": [
+              "p01",
+              "p07",
+              "p02"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Goalkeeper drops and players converge on the crease at 28s, but ball arrival, any block and the goal line are obscured."
+          },
+          {
+            "type": "stoppage",
+            "time_s": 29,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [
+              "p01",
+              "p02",
+              "p03",
+              "p07"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Players become upright around the low goalkeeper and the referee approaches. A whistle or exact reason cannot be established from sampled images."
+          }
+        ],
+        "possession": [
+          {
+            "team": "white",
+            "start_s": 23,
+            "end_s": 24,
+            "certainty": "uncertain",
+            "evidence": "p12 sets the stick at the right boards and then swings as purple closes; the small ball is not continuously resolved."
+          },
+          {
+            "team": "white",
+            "start_s": 26,
+            "end_s": 27,
+            "certainty": "clear",
+            "evidence": "p10 controls the ball by the blade in the slot, shields against p04 and follows with a shot."
+          }
+        ],
+        "scoreboard": [
+          {
+            "time_s": 0,
+            "game_clock": null,
+            "team_a": "HOME",
+            "team_b": "GUEST",
+            "score_a": null,
+            "score_b": null,
+            "evidence": "Wall board shows HOME/GUEST labels, but score and clock digits are dark or illegible. Jersey colors cannot be mapped to these labels."
+          },
+          {
+            "time_s": 25,
+            "game_clock": null,
+            "team_a": "HOME",
+            "team_b": "GUEST",
+            "score_a": null,
+            "score_b": null,
+            "evidence": "Scoreboard returns more fully into view; still no reliable score or clock reading and no readable update."
+          }
+        ],
+        "limitations": [
+          "All supplied chronological images were used. Approximately one-second sampling can hide releases, passes, touches, saves and goal-line crossings; no audio is available.",
+          "Event times identify sampled observations or explicitly bracketed estimates, not frame-exact release times.",
+          "No ball crossing the goal line, unambiguous scoring signal or readable scoreboard change establishes a goal. No scorer or assist is credited.",
+          "Purple and white are visual team labels, not established official team names.",
+          "p09 and p12 may be the same player, but the available views do not securely resolve that match. p13 is an unresolved fragment, not a claim of an additional distinct participant.",
+          "Visible intervals describe camera visibility, not substitutions. No actual bench crossing is established.",
+          "Only the purple goalkeeper is visible. An opposing goalkeeper's identity or on-floor track cannot be recovered from these images.",
+          "Boxes and contact points are manual image-space estimates. Occluded body positions and hidden floor contacts are not reconstructed.",
+          "Requested-frame contact points provide sparse image-space trajectories only. Rink dimensions, physical scale and pan-aware camera calibration are unavailable, so all distances remain null.",
+          "Null statistics are unestablished, not zero. Off-camera gaps and unresolved goalmouth action prevent complete totals for several tracks."
+        ]
+      },
+      "validation_errors": [],
+      "usage": {
+        "input_tokens": 35976,
+        "input_tokens_details": {
+          "cache_write_tokens": 35973,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15243,
+        "output_tokens_details": {
+          "reasoning_tokens": 8804
+        },
+        "total_tokens": 51219
+      },
+      "incomplete_details": null
+    },
+    "gpt-6.1-sol/marylandwomen-0600": {
+      "clip": "marylandwomen-0600",
+      "model": "gpt-6.1-sol",
+      "status": "completed",
+      "counted_input_tokens": 35976,
+      "cost_ceiling_usd": 0.26473,
+      "request_sha256": "6b556ffa9701a6923c20faaba62787b143efaeaee04352debc211cdd87350e3f",
+      "seconds": 324.26800704699997,
+      "response_id": "resp_0649fe3e75e2ca61016adcd4e5c73c87d0b94de9de4dacddcc",
+      "returned_model": "gpt-6.1-sol",
+      "parsed": {
+        "summary": "The clip opens during a stoppage, followed by a faceoff at approximately 20.5 s, a right-board contest, and a cream-team attack. One clear shot is identifiable at approximately 27 s; its on-goal status and any goal are not established. Twelve identity records are used, including two cream-player segments that may represent the same person. Team names, score digits, and game-clock digits are not readable.",
+        "players": [
+          {
+            "player_id": "P01",
+            "team": "purple",
+            "jersey_number": null,
+            "identity_evidence": "Goalkeeper at the left goal; purple jersey, mask, large green/light-colored pads and goalkeeper gloves.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 14,
+                "evidence": "At left goal; only a clipped portion remains visible at 14 s."
+              },
+              {
+                "start_s": 16,
+                "end_s": 16,
+                "evidence": "Goalkeeper glove visible at the left image edge."
+              },
+              {
+                "start_s": 21,
+                "end_s": 22,
+                "evidence": "Left-edge fragment at 21 s and clearer clipped goalkeeper view at 22 s."
+              },
+              {
+                "start_s": 25,
+                "end_s": 29.933,
+                "evidence": "Goalkeeper down or crouched at the left goal, partly occluded in the final scramble."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera excludes the goalkeeper during portions of the clip; no exit from the playing surface is established.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete visibility and no metric rink/camera calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "No purple scoring sequence occurs. Off-camera intervals prevent establishing the goalkeeper's shot total."
+          },
+          {
+            "player_id": "P02",
+            "team": "purple",
+            "jersey_number": "63",
+            "identity_evidence": "Black helmet and dark leg coverings; continuous track from beside the goal. Back number 63 is readable near the late crease sequence.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933,
+                "evidence": "Moves from beside the goal to the inner defensive position, then returns to the crease."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Clip-spanning identity visible in every supplied sample; no playing-surface exit.",
+            "distance_miles": null,
+            "distance_evidence": "Image trajectory is available, but rink dimensions and camera calibration are not.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Remains in the defensive end throughout; no attempt toward the opposing goal or purple scoring sequence."
+          },
+          {
+            "player_id": "P03",
+            "team": "purple",
+            "jersey_number": "8",
+            "identity_evidence": "Black helmet; number 8 readable during the opening walk toward the back boards. Continuous subsequent movement supports identity.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933,
+                "evidence": "Walks to the back boards, waits through the faceoff setup, then closes toward the goal."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Clip-spanning track in every supplied sample; no exit observed.",
+            "distance_miles": null,
+            "distance_evidence": "Perspective and camera panning are uncalibrated; no reliable conversion to miles.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Continuously remains in the defensive end without an opposing-goal attempt or scoring involvement."
+          },
+          {
+            "player_id": "P04",
+            "team": "purple",
+            "jersey_number": "5",
+            "identity_evidence": "White helmet and light segmented shin protection; back number 5 readable at 22 and 27 s.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933,
+                "evidence": "Moves from upper-middle defense to the faceoff, then marks P10 through the shot sequence."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Continuous clip-spanning track, including brief partial occlusions during setup.",
+            "distance_miles": null,
+            "distance_evidence": "No metric floor homography or known rink scale.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Faceoff and defensive checking only; no opposing-goal shot or purple scoring sequence."
+          },
+          {
+            "player_id": "P05",
+            "team": "purple",
+            "jersey_number": "19",
+            "identity_evidence": "White helmet; number 19 readable on the opening right-board player. Tracked behind the referee and then along the boards.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 24,
+                "evidence": "Right-board position during stoppage; runs along the boards after the faceoff and contests P12."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Leaves the camera view after 24 s, not demonstrably the playing surface.",
+            "distance_miles": null,
+            "distance_evidence": "Track becomes off-camera and physical rink scale is unavailable.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "Board-side play around 23\u201324 s does not establish a shot. No purple goal occurs."
+          },
+          {
+            "player_id": "P06",
+            "team": "cream",
+            "jersey_number": "7",
+            "identity_evidence": "White helmet, dark ponytail, light shoes and red/pink stick blade; number 7 readable during faceoff setup and near the crease.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933,
+                "evidence": "Moves from the slot to faceoff support, then stands and contests beside the left goal."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Identity remains visible across all supplied samples without an observed floor exit.",
+            "distance_miles": null,
+            "distance_evidence": "No calibrated rink scale; camera-relative floor points cannot establish miles.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "Late net-front contact is occluded. A tip, rebound attempt, goal, or assist cannot be resolved."
+          },
+          {
+            "player_id": "P07",
+            "team": "cream",
+            "jersey_number": "24",
+            "identity_evidence": "Black helmet, dark ponytail, pink blade and light/pink shoes; number 24 readable from 5 s onward.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 29.933,
+                "evidence": "Walks from the foreground toward the right boards, then supports the attack to P10's right."
+              }
+            ],
+            "time_on_floor_s": 30,
+            "time_on_floor_evidence": "Continuous clip-spanning identity; no observed playing-surface exit.",
+            "distance_miles": null,
+            "distance_evidence": "Perspective, moving camera, and unknown physical dimensions prevent a mile estimate.",
+            "shots": 0,
+            "shots_on_goal": 0,
+            "goals": 0,
+            "assists": null,
+            "stats_evidence": "No shooting release or scoring touch by P07 is visible. Any pass contributing to the unresolved final outcome is not established."
+          },
+          {
+            "player_id": "P08",
+            "team": "cream",
+            "jersey_number": null,
+            "identity_evidence": "Opening foreground player with black helmet, light ponytail, black socks and dark stick. May be later P11, but the off-camera gap prevents a secure match.",
+            "visible_intervals": [
+              {
+                "start_s": 0,
+                "end_s": 3,
+                "evidence": "Walks toward and through the lower image boundary; only an upper-body fragment remains at 3 s."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Exits the camera view without a visible playing-surface exit; later identity unresolved.",
+            "distance_miles": null,
+            "distance_evidence": "Short partial track, unresolved re-identification, and no physical calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No attempt during the visible opening segment; the remainder of this player's clip activity is unresolved."
+          },
+          {
+            "player_id": "P09",
+            "team": "purple",
+            "jersey_number": "4",
+            "identity_evidence": "Black helmet and long dark ponytail; number 4 clearly readable at 2\u20135 s.",
+            "visible_intervals": [
+              {
+                "start_s": 1,
+                "end_s": 24,
+                "evidence": "Helmet enters the lower edge at 1 s; waits left of the faceoff, then runs across the foreground toward the right."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Camera entry and exit are not demonstrated substitutions or floor boundaries.",
+            "distance_miles": null,
+            "distance_evidence": "Missing off-camera trajectory and unavailable metric calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": 0,
+            "assists": 0,
+            "stats_evidence": "No shot in the visible segment; later activity is off-camera. No purple scoring sequence occurs."
+          },
+          {
+            "player_id": "P10",
+            "team": "cream",
+            "jersey_number": "12",
+            "identity_evidence": "Black helmet and dark ponytail; number 12 readable while approaching from the foreground at 13\u201317 s. Continuous track through faceoff and shot.",
+            "visible_intervals": [
+              {
+                "start_s": 13,
+                "end_s": 29.933,
+                "evidence": "Enters from the lower-right view, takes the faceoff, gains shooting position, releases at about 27 s, then slows right of the goal."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "First camera appearance at 13 s does not establish when the player entered the playing surface.",
+            "distance_miles": null,
+            "distance_evidence": "Earlier position is unknown and no physical floor calibration is supplied.",
+            "shots": 1,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "One identifiable shot between 26 and 27 s. Ball flight, goalkeeper contact, and goal-line crossing are not resolved."
+          },
+          {
+            "player_id": "P11",
+            "team": "cream",
+            "jersey_number": "14",
+            "identity_evidence": "Black helmet, light ponytail and number 14 clearly readable in the lower-right foreground. Possibly opening P08; kept separate because the match is not secure.",
+            "visible_intervals": [
+              {
+                "start_s": 14,
+                "end_s": 23,
+                "evidence": "Waits in the foreground, then moves toward the right image boundary; partly clipped at 23 s."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Neither the initial appearance nor disappearance establishes a floor entry or exit.",
+            "distance_miles": null,
+            "distance_evidence": "Off-camera activity and identity gap to P08 are unresolved; rink scale unavailable.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "No attempt in the securely identified visible segment; off-camera activity cannot be counted."
+          },
+          {
+            "player_id": "P12",
+            "team": "cream",
+            "jersey_number": null,
+            "identity_evidence": "Black-helmeted right-wing player with green shorts accents and dark stick. Jersey digits are not reliably readable.",
+            "visible_intervals": [
+              {
+                "start_s": 14,
+                "end_s": 24,
+                "evidence": "Initially clipped at the right edge, then waits near the right-side marker and contests P05 along the boards."
+              }
+            ],
+            "time_on_floor_s": null,
+            "time_on_floor_evidence": "Visible interval is bounded by camera framing, not demonstrated substitutions.",
+            "distance_miles": null,
+            "distance_evidence": "Incomplete camera coverage and no metric rink/camera calibration.",
+            "shots": null,
+            "shots_on_goal": null,
+            "goals": null,
+            "assists": null,
+            "stats_evidence": "A sweeping action at about 24 s could be a shot or pass; release and outcome are not resolved."
+          }
+        ],
+        "frames": [
+          {
+            "frame": 0,
+            "objects": [
+              {
+                "player_id": "P01",
+                "bbox": [
+                  229,
+                  451,
+                  275,
+                  584
+                ],
+                "visible_floor_point": [
+                  254,
+                  575
+                ]
+              },
+              {
+                "player_id": "P02",
+                "bbox": [
+                  191,
+                  486,
+                  230,
+                  631
+                ],
+                "visible_floor_point": [
+                  210,
+                  624
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  384,
+                  449,
+                  417,
+                  599
+                ],
+                "visible_floor_point": [
+                  391,
+                  594
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  515,
+                  431,
+                  551,
+                  579
+                ],
+                "visible_floor_point": [
+                  530,
+                  573
+                ]
+              },
+              {
+                "player_id": "P05",
+                "bbox": [
+                  741,
+                  454,
+                  782,
+                  608
+                ],
+                "visible_floor_point": [
+                  761,
+                  602
+                ]
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  395,
+                  482,
+                  434,
+                  654
+                ],
+                "visible_floor_point": [
+                  409,
+                  650
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  312,
+                  582,
+                  350,
+                  769
+                ],
+                "visible_floor_point": [
+                  330,
+                  762
+                ]
+              },
+              {
+                "player_id": "P08",
+                "bbox": [
+                  355,
+                  626,
+                  417,
+                  883
+                ],
+                "visible_floor_point": [
+                  386,
+                  878
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 75,
+            "objects": [
+              {
+                "player_id": "P01",
+                "bbox": [
+                  130,
+                  361,
+                  164,
+                  522
+                ],
+                "visible_floor_point": [
+                  147,
+                  515
+                ]
+              },
+              {
+                "player_id": "P02",
+                "bbox": [
+                  349,
+                  432,
+                  388,
+                  575
+                ],
+                "visible_floor_point": [
+                  363,
+                  571
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  407,
+                  326,
+                  430,
+                  450
+                ],
+                "visible_floor_point": [
+                  419,
+                  444
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  513,
+                  374,
+                  546,
+                  515
+                ],
+                "visible_floor_point": [
+                  524,
+                  510
+                ]
+              },
+              {
+                "player_id": "P05",
+                "bbox": [
+                  611,
+                  342,
+                  645,
+                  469
+                ],
+                "visible_floor_point": [
+                  621,
+                  464
+                ]
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  481,
+                  443,
+                  510,
+                  624
+                ],
+                "visible_floor_point": [
+                  496,
+                  617
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  509,
+                  526,
+                  555,
+                  706
+                ],
+                "visible_floor_point": [
+                  540,
+                  697
+                ]
+              },
+              {
+                "player_id": "P09",
+                "bbox": [
+                  270,
+                  474,
+                  312,
+                  658
+                ],
+                "visible_floor_point": [
+                  285,
+                  651
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 150,
+            "objects": [
+              {
+                "player_id": "P01",
+                "bbox": [
+                  102,
+                  346,
+                  149,
+                  504
+                ],
+                "visible_floor_point": [
+                  120,
+                  499
+                ]
+              },
+              {
+                "player_id": "P02",
+                "bbox": [
+                  419,
+                  411,
+                  448,
+                  556
+                ],
+                "visible_floor_point": [
+                  434,
+                  550
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  461,
+                  289,
+                  487,
+                  396
+                ],
+                "visible_floor_point": [
+                  475,
+                  394
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  531,
+                  350,
+                  564,
+                  496
+                ],
+                "visible_floor_point": [
+                  542,
+                  489
+                ]
+              },
+              {
+                "player_id": "P05",
+                "bbox": [
+                  633,
+                  357,
+                  655,
+                  467
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  467,
+                  417,
+                  501,
+                  593
+                ],
+                "visible_floor_point": [
+                  484,
+                  586
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  656,
+                  390,
+                  691,
+                  526
+                ],
+                "visible_floor_point": [
+                  669,
+                  521
+                ]
+              },
+              {
+                "player_id": "P09",
+                "bbox": [
+                  267,
+                  465,
+                  304,
+                  639
+                ],
+                "visible_floor_point": [
+                  282,
+                  632
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 225,
+            "objects": [
+              {
+                "player_id": "P02",
+                "bbox": [
+                  241,
+                  444,
+                  284,
+                  578
+                ],
+                "visible_floor_point": [
+                  258,
+                  571
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  293,
+                  301,
+                  318,
+                  415
+                ],
+                "visible_floor_point": [
+                  307,
+                  410
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  352,
+                  368,
+                  391,
+                  508
+                ],
+                "visible_floor_point": [
+                  369,
+                  503
+                ]
+              },
+              {
+                "player_id": "P05",
+                "bbox": [
+                  459,
+                  344,
+                  480,
+                  476
+                ],
+                "visible_floor_point": [
+                  472,
+                  472
+                ]
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  312,
+                  421,
+                  356,
+                  593
+                ],
+                "visible_floor_point": [
+                  336,
+                  585
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  502,
+                  376,
+                  533,
+                  489
+                ],
+                "visible_floor_point": [
+                  520,
+                  482
+                ]
+              },
+              {
+                "player_id": "P09",
+                "bbox": [
+                  71,
+                  500,
+                  112,
+                  676
+                ],
+                "visible_floor_point": [
+                  89,
+                  667
+                ]
+              },
+              {
+                "player_id": "P10",
+                "bbox": [
+                  535,
+                  511,
+                  586,
+                  713
+                ],
+                "visible_floor_point": [
+                  558,
+                  706
+                ]
+              },
+              {
+                "player_id": "P11",
+                "bbox": [
+                  755,
+                  728,
+                  834,
+                  1000
+                ],
+                "visible_floor_point": [
+                  764,
+                  982
+                ]
+              },
+              {
+                "player_id": "P12",
+                "bbox": [
+                  898,
+                  472,
+                  941,
+                  665
+                ],
+                "visible_floor_point": [
+                  921,
+                  657
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 300,
+            "objects": [
+              {
+                "player_id": "P02",
+                "bbox": [
+                  198,
+                  471,
+                  243,
+                  601
+                ],
+                "visible_floor_point": [
+                  216,
+                  593
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  253,
+                  357,
+                  287,
+                  442
+                ],
+                "visible_floor_point": [
+                  259,
+                  441
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  343,
+                  425,
+                  382,
+                  547
+                ],
+                "visible_floor_point": [
+                  357,
+                  540
+                ]
+              },
+              {
+                "player_id": "P05",
+                "bbox": [
+                  419,
+                  419,
+                  444,
+                  499
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  272,
+                  472,
+                  316,
+                  625
+                ],
+                "visible_floor_point": [
+                  281,
+                  617
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  445,
+                  408,
+                  477,
+                  514
+                ],
+                "visible_floor_point": [
+                  467,
+                  507
+                ]
+              },
+              {
+                "player_id": "P09",
+                "bbox": [
+                  30,
+                  524,
+                  75,
+                  701
+                ],
+                "visible_floor_point": [
+                  46,
+                  694
+                ]
+              },
+              {
+                "player_id": "P10",
+                "bbox": [
+                  393,
+                  457,
+                  436,
+                  564
+                ],
+                "visible_floor_point": [
+                  404,
+                  560
+                ]
+              },
+              {
+                "player_id": "P11",
+                "bbox": [
+                  678,
+                  754,
+                  738,
+                  1000
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "P12",
+                "bbox": [
+                  800,
+                  489,
+                  848,
+                  653
+                ],
+                "visible_floor_point": [
+                  821,
+                  646
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 375,
+            "objects": [
+              {
+                "player_id": "P01",
+                "bbox": [
+                  141,
+                  499,
+                  209,
+                  614
+                ],
+                "visible_floor_point": [
+                  165,
+                  607
+                ]
+              },
+              {
+                "player_id": "P02",
+                "bbox": [
+                  284,
+                  531,
+                  331,
+                  656
+                ],
+                "visible_floor_point": [
+                  288,
+                  649
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  356,
+                  464,
+                  392,
+                  600
+                ],
+                "visible_floor_point": [
+                  363,
+                  593
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  548,
+                  543,
+                  594,
+                  689
+                ],
+                "visible_floor_point": [
+                  553,
+                  681
+                ]
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  222,
+                  478,
+                  252,
+                  633
+                ],
+                "visible_floor_point": [
+                  238,
+                  625
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  684,
+                  506,
+                  718,
+                  633
+                ],
+                "visible_floor_point": [
+                  695,
+                  628
+                ]
+              },
+              {
+                "player_id": "P10",
+                "bbox": [
+                  577,
+                  553,
+                  623,
+                  688
+                ],
+                "visible_floor_point": [
+                  602,
+                  679
+                ]
+              }
+            ]
+          },
+          {
+            "frame": 449,
+            "objects": [
+              {
+                "player_id": "P01",
+                "bbox": [
+                  351,
+                  340,
+                  421,
+                  454
+                ],
+                "visible_floor_point": null
+              },
+              {
+                "player_id": "P02",
+                "bbox": [
+                  362,
+                  350,
+                  398,
+                  485
+                ],
+                "visible_floor_point": [
+                  375,
+                  478
+                ]
+              },
+              {
+                "player_id": "P03",
+                "bbox": [
+                  419,
+                  306,
+                  447,
+                  447
+                ],
+                "visible_floor_point": [
+                  431,
+                  442
+                ]
+              },
+              {
+                "player_id": "P04",
+                "bbox": [
+                  634,
+                  363,
+                  674,
+                  524
+                ],
+                "visible_floor_point": [
+                  653,
+                  518
+                ]
+              },
+              {
+                "player_id": "P06",
+                "bbox": [
+                  394,
+                  324,
+                  424,
+                  478
+                ],
+                "visible_floor_point": [
+                  411,
+                  472
+                ]
+              },
+              {
+                "player_id": "P07",
+                "bbox": [
+                  656,
+                  440,
+                  703,
+                  610
+                ],
+                "visible_floor_point": [
+                  675,
+                  604
+                ]
+              },
+              {
+                "player_id": "P10",
+                "bbox": [
+                  880,
+                  389,
+                  918,
+                  550
+                ],
+                "visible_floor_point": [
+                  894,
+                  542
+                ]
+              }
+            ]
+          }
+        ],
+        "events": [
+          {
+            "type": "stoppage",
+            "time_s": 0,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [],
+            "certainty": "clear",
+            "evidence": "Play is already stopped at the opening sample; players walk into a prolonged faceoff setup. The stoppage's actual onset precedes or is outside the visible clip."
+          },
+          {
+            "type": "faceoff",
+            "time_s": 20.5,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [
+              "P04",
+              "P10"
+            ],
+            "certainty": "clear",
+            "evidence": "Referee lowers the raised arm around 20 s; opposing centers engage their sticks and players accelerate by 21 s. Drop time is bracketed by these samples."
+          },
+          {
+            "type": "shot",
+            "time_s": 24,
+            "game_clock": null,
+            "team": "cream",
+            "player_id": "P12",
+            "related_player_ids": [
+              "P05",
+              "P01"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Right-wing player makes a sweeping stick action while challenged by P05; goalkeeper is down in the next sample. Ball release is unresolved and the action could be a pass."
+          },
+          {
+            "type": "shot",
+            "time_s": 27,
+            "game_clock": null,
+            "team": "cream",
+            "player_id": "P10",
+            "related_player_ids": [
+              "P04",
+              "P01"
+            ],
+            "certainty": "clear",
+            "evidence": "P10 has the ball near the blade at 26 s, then shows a forward shooting swing and raised-leg follow-through toward the left goal at 27 s; camera follows toward the crease."
+          },
+          {
+            "type": "shot_on_goal",
+            "time_s": 27,
+            "game_clock": null,
+            "team": "cream",
+            "player_id": "P10",
+            "related_player_ids": [
+              "P01",
+              "P06",
+              "P02"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Goalkeeper drops and a crease scramble follows at 28\u201329 s, but the ball's flight and goalkeeper contact are not visible enough to distinguish a save, block, or miss."
+          },
+          {
+            "type": "stoppage",
+            "time_s": 29,
+            "game_clock": null,
+            "team": null,
+            "player_id": null,
+            "related_player_ids": [
+              "P01",
+              "P02",
+              "P06"
+            ],
+            "certainty": "uncertain",
+            "evidence": "Players slow and gather beside the goalkeeper while the referee approaches. A whistle, covered ball, or other reason cannot be confirmed without audio or clearer ball visibility."
+          }
+        ],
+        "possession": [
+          {
+            "team": "purple",
+            "start_s": 22,
+            "end_s": 23,
+            "certainty": "uncertain",
+            "evidence": "P05 advances along the right boards with the blade near the ball, but the preceding faceoff contest and small ball image prevent confirming uninterrupted control."
+          },
+          {
+            "team": "cream",
+            "start_s": 26,
+            "end_s": 27,
+            "certainty": "clear",
+            "evidence": "Ball is at P10's blade before the identifiable shooting release toward the left goal."
+          }
+        ],
+        "scoreboard": [
+          {
+            "time_s": 0,
+            "game_clock": null,
+            "team_a": "HOME",
+            "team_b": "GUEST",
+            "score_a": null,
+            "score_b": null,
+            "evidence": "HOME and GUEST labels are visible, but no reliable illuminated score or clock digits can be read. Uniform teams cannot be mapped to these labels."
+          },
+          {
+            "time_s": 25,
+            "game_clock": null,
+            "team_a": "HOME",
+            "team_b": "GUEST",
+            "score_a": null,
+            "score_b": null,
+            "evidence": "Scoreboard reappears at upper left; score and game-clock digits remain unreadable."
+          },
+          {
+            "time_s": 29,
+            "game_clock": null,
+            "team_a": "HOME",
+            "team_b": "GUEST",
+            "score_a": null,
+            "score_b": null,
+            "evidence": "Partially framed scoreboard provides no readable score or clock and no verifiable update."
+          }
+        ],
+        "limitations": [
+          "Analysis uses all supplied chronological samples, approximately one second apart, not native video or audio. Brief releases, touches, substitutions, and whistles can fall between samples.",
+          "No ball crossing the goal line is established. The late goalkeeper drop and crease scramble alone do not prove a goal, scorer, or assist.",
+          "P08 and P11 may be the same cream player, but their off-camera gap prevents a secure identity link; their records must not be summed as confirmed distinct people.",
+          "Visible intervals describe sampled visibility, not shifts. Off-camera disappearance is not treated as leaving the playing surface.",
+          "The 30-second floor totals represent supported clip-spanning tracks at sampling precision, not sub-second verified shift measurements.",
+          "Requested-frame boxes and visible contact points provide camera-relative trajectory samples only. Unknown rink dimensions, perspective, and camera movement prevent reliable distances in miles.",
+          "Goalkeeper and player overlaps obscure some body parts and surface contacts, especially in the final crease sequence; hidden contact points are null.",
+          "A tiny lower-right helmet fragment at 26 s cannot be securely linked to a tracked on-floor player or distinguished from peripheral off-floor activity.",
+          "Only identifiable clip events contribute established counts. Unresolved attempts and off-camera activity remain null rather than being assigned invented totals.",
+          "No readable team names or jersey-to-roster identities are supplied; purple and cream are visual team labels."
+        ]
+      },
+      "validation_errors": [],
+      "usage": {
+        "input_tokens": 35976,
+        "input_tokens_details": {
+          "cache_write_tokens": 35973,
+          "cached_tokens": 0
+        },
+        "output_tokens": 17479,
+        "output_tokens_details": {
+          "reasoning_tokens": 11042
+        },
+        "total_tokens": 53455
+      },
+      "incomplete_details": null
+    },
+    "gpt-6-astra/pittsburgh-stress-0900": {
+      "clip": "pittsburgh-stress-0900",
+      "model": "gpt-6-astra",
+      "status": "incomplete",
+      "counted_input_tokens": 171113,
+      "cost_ceiling_usd": 3.3677125,
+      "request_sha256": "fa33fbf075b4d097ba30b701e4d3c555d82c0c1682ff5e89eb8181c474571b38",
+      "seconds": 430.74874853000006,
+      "response_id": "resp_061e15559dfd89cf016adcd6b576cc87d0bce7db59e410c397",
+      "returned_model": "gpt-6-astra",
+      "parsed": null,
+      "validation_errors": [
+        "No completed structured answer"
+      ],
+      "usage": {
+        "input_tokens": 171113,
+        "input_tokens_details": {
+          "cache_write_tokens": 171110,
+          "cached_tokens": 0
+        },
+        "output_tokens": 24576,
+        "output_tokens_details": {
+          "reasoning_tokens": 10234
+        },
+        "total_tokens": 195689
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    },
+    "gpt-6.1-sol/pittsburgh-stress-0900": {
+      "clip": "pittsburgh-stress-0900",
+      "model": "gpt-6.1-sol",
+      "status": "incomplete",
+      "counted_input_tokens": 171113,
+      "cost_ceiling_usd": 0.6735425,
+      "request_sha256": "117e8e9a7f072ce8571e101706b310b504fdbbc78c1e932250a2875bdc990697",
+      "seconds": 506.5873497550001,
+      "response_id": "resp_0fe8fd03d9e745e3016adcd876749087d083047f01cfc199df",
+      "returned_model": "gpt-6.1-sol",
+      "parsed": null,
+      "validation_errors": [
+        "No completed structured answer"
+      ],
+      "usage": {
+        "input_tokens": 171113,
+        "input_tokens_details": {
+          "cache_write_tokens": 171110,
+          "cached_tokens": 0
+        },
+        "output_tokens": 24576,
+        "output_tokens_details": {
+          "reasoning_tokens": 13945
+        },
+        "total_tokens": 195689
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    }
+  },
+  "stop_reason": "all_attempted"
+}

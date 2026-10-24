@@ -1,0 +1,31 @@
+{
+  "id": "nbhl-openai-reconnect-pilot-v1",
+  "created_at": "2026-10-24T14:52:00Z",
+  "status": "frozen_before_openai_inference",
+  "scope": "NBHL ball hockey only",
+  "models": [
+    {"id": "gpt-6-astra", "input_usd_per_million": 10, "output_usd_per_million": 50},
+    {"id": "gpt-6.1-sol", "input_usd_per_million": 2, "output_usd_per_million": 10}
+  ],
+  "documentation_checked": "2026-10-24",
+  "documentation": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://developers.openai.com/api/docs/guides/token-counting",
+    "https://developers.openai.com/api/docs/guides/structured-outputs"
+  ],
+  "selection_salt": "nbhl-openai-v1/",
+  "edges_per_clip": 8,
+  "selection": "Eight candidate edges per development clip ranked by SHA256(salt + edge_id). No reference labels, Qwen answers, or known errors enter selection. No regression clips in this pilot.",
+  "tasks": ["multi", "reverse"],
+  "prompt": "Byte-identical PAIR_PROMPT and group-size suffix from nbhl_vlm_reconnect.requests. Up to three cached crop images per fragment, in original and reversed group order. No roster, labels, matching score, prior answer, or model-generated enhancement is provided.",
+  "image_detail": "original",
+  "reasoning_effort": "high",
+  "max_output_tokens": 4096,
+  "max_input_tokens": 20000,
+  "budget_usd": 40,
+  "budget_policy": "Count exact input tokens before generation. Reserve 1.25x uncached input price plus maximum output price, using the documented standard rates. Persist reservations before dispatch and retain them for interrupted/unknown-billing requests. Never automatically retry a dispatched request. Both models share one budget ledger. No paid tools. Budget is a conservative list-price estimate, not the provider invoice.",
+  "schedule": "Interleave the two models for every request, so a budget stop yields nearly equal coverage. Incomplete/refused/invalid outputs remain uncertain. No silent model substitution or output-token escalation.",
+  "metrics": ["valid responses", "same/different/uncertain decisions", "within-track consistency", "forward/reverse decision agreement", "matched-edge comparison with archived Qwen outputs", "latency", "input/output/reasoning tokens", "conservative cost"],
+  "interpretation": "This small development pilot checks visual judgment and cost. It does not establish a tracking improvement. Any promoted policy must be frozen on full development data before evaluation on reused regression clips. Never call these recordings an untouched benchmark. No validated player TOI, distance, goals or assists follows from this pilot."
+}

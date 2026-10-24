@@ -23,6 +23,14 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## OpenAI baseline and reconnection pilot — October 24, 2026
+
+[Completed results and limits](https://hockey-tracking-phi.vercel.app/vlm.html#openai-results) · [Experiment source](experiments/openai-20261024/)
+
+GPT-6 Astra and GPT-6.1 Sol each matched all 69 selected same-player checks and 96 reference appearances across two 30-second clips, compared with 65 checks and 94 appearances for the existing pipeline. Both five-minute requests hit the 24,576-token output limit without a completed structured answer. This was timestamped full-frame sampling, not native video, and the reference is sparse and assistant-reviewed without independent human verification. Game statistics remain unverified.
+
+On 65 matched crop reconnection candidates, reversing image order caused one direct same/different flip for Astra and two for Sol, versus seven each for the archived Qwen models. OpenAI abstained more; overall agreement was similar. This does not demonstrate a tracking accuracy gain. The current pipeline is retained. Conservative API cost for both experiments was $16.49, excluding Modal. Recompute saved reports with `python scripts/verify_openai_results.py`.
+
 ## SAM3 fine-tuning and longer replays — October 24, 2026
 
 [Results and evidence](https://hockey-tracking-phi.vercel.app/sam3-improvements.html) · [Complete 20m 15s replay](https://hockey-tracking-phi.vercel.app/tracking-replay.html?clip=pittsburgh-sam3-20min&method=sam3-long)

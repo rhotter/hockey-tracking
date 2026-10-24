@@ -1,0 +1,2971 @@
+{
+  "protocol_sha256": "cbbc78f4177d9845b676053f8adf1c13f9c44fc13cf011670fca64e0749e4367",
+  "inference_inputs": "full frames and timestamps only",
+  "native_video": false,
+  "audio_included": false,
+  "reference_labels_supplied": false,
+  "prompt_sha256": "b8fb03660bd1fd227f52b0ce4c79382d530fc2c2d1b0c0440446cacd34e9e344",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "summary": {
+        "type": "string"
+      },
+      "players": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "player_id": {
+              "type": "string"
+            },
+            "team": {
+              "type": "string"
+            },
+            "jersey_number": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "identity_evidence": {
+              "type": "string"
+            },
+            "visible_intervals": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "start_s": {
+                    "type": "number"
+                  },
+                  "end_s": {
+                    "type": "number"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "start_s",
+                  "end_s",
+                  "evidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "time_on_floor_s": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "time_on_floor_evidence": {
+              "type": "string"
+            },
+            "distance_miles": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "distance_evidence": {
+              "type": "string"
+            },
+            "shots": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "shots_on_goal": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "goals": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "assists": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "stats_evidence": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "player_id",
+            "team",
+            "jersey_number",
+            "identity_evidence",
+            "visible_intervals",
+            "time_on_floor_s",
+            "time_on_floor_evidence",
+            "distance_miles",
+            "distance_evidence",
+            "shots",
+            "shots_on_goal",
+            "goals",
+            "assists",
+            "stats_evidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "frames": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "frame": {
+              "type": "integer"
+            },
+            "objects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "player_id": {
+                    "type": "string"
+                  },
+                  "bbox": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "minItems": 4,
+                    "maxItems": 4
+                  },
+                  "visible_floor_point": {
+                    "type": [
+                      "array",
+                      "null"
+                    ],
+                    "items": {
+                      "type": "number"
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                },
+                "required": [
+                  "player_id",
+                  "bbox",
+                  "visible_floor_point"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "frame",
+            "objects"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "events": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "shot",
+                "shot_on_goal",
+                "goal",
+                "assist",
+                "substitution",
+                "faceoff",
+                "stoppage"
+              ]
+            },
+            "time_s": {
+              "type": "number"
+            },
+            "game_clock": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "team": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "player_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "related_player_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "certainty": {
+              "type": "string",
+              "enum": [
+                "clear",
+                "uncertain"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "time_s",
+            "game_clock",
+            "team",
+            "player_id",
+            "related_player_ids",
+            "certainty",
+            "evidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "possession": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "team": {
+              "type": "string"
+            },
+            "start_s": {
+              "type": "number"
+            },
+            "end_s": {
+              "type": "number"
+            },
+            "certainty": {
+              "type": "string",
+              "enum": [
+                "clear",
+                "uncertain"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "team",
+            "start_s",
+            "end_s",
+            "certainty",
+            "evidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "scoreboard": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "time_s": {
+              "type": "number"
+            },
+            "game_clock": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "team_a": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "team_b": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "score_a": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "score_b": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "evidence": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "time_s",
+            "game_clock",
+            "team_a",
+            "team_b",
+            "score_a",
+            "score_b",
+            "evidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "limitations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "summary",
+      "players",
+      "frames",
+      "events",
+      "possession",
+      "scoreboard",
+      "limitations"
+    ],
+    "additionalProperties": false
+  },
+  "clips": [
+    {
+      "clip": "pittsburgh-0600",
+      "source_id": "JlBtScHdcg4",
+      "source_start_s": 600,
+      "frame_count": 450,
+      "input_step_frames": 15,
+      "output_step_frames": 75,
+      "max_width": null,
+      "output_frames": [
+        0,
+        75,
+        150,
+        225,
+        300,
+        375,
+        449
+      ],
+      "images": [
+        {
+          "frame": 0,
+          "path": "pittsburgh-0600/000000.jpg",
+          "sha256": "80ae79a327cae42c888f2f760a09ee8abe81edcd7399afa4da905f3ec0b8c2b3",
+          "source_sha256": "4ec2ffb141f62eee8f49f789004f3b10f38de1e24b27866d9d59e6b758aa18eb",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 15,
+          "path": "pittsburgh-0600/000015.jpg",
+          "sha256": "cd3053076d8c0a940c19daeda5fc2a1fd0d177943b7af75bae5747b646391b47",
+          "source_sha256": "b2130eb8121580961cd3c55daadd16eb159b8a4bc123735b8dbbe5051e6674f5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 30,
+          "path": "pittsburgh-0600/000030.jpg",
+          "sha256": "6dcabc6c119bf6dff4bd17fd3dccde0f717fe8e3b9db5b8d9363471fe8b29051",
+          "source_sha256": "6cd22597bc1da3d39704fb41696a97c9a81d97e5ac962dabe9c8f106088f7115",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 45,
+          "path": "pittsburgh-0600/000045.jpg",
+          "sha256": "b90a2033add550fc313bb97387fcaeef79278bdbb5cdffe5e468f661a28394be",
+          "source_sha256": "1a342fb2a683cd5788ee850ced046f31686f2fd6597834fc58c703260d4f9b43",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 60,
+          "path": "pittsburgh-0600/000060.jpg",
+          "sha256": "ba6f840f4704d94c3797db64463d19d8397aa542e8b902487c9f41ecd4939038",
+          "source_sha256": "114cdc43ef4f10908ce818b059ea028461a7492f00db2fa7bc9e2a2f5151933d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 75,
+          "path": "pittsburgh-0600/000075.jpg",
+          "sha256": "f6a54b0418044cf15534aa34014973bb1c82941a6224f49238aca9ce3cecbe53",
+          "source_sha256": "b7dff6e828e37f9bf3341f6d4a944f0475a5785823b93c0a7c94238757b6c019",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 90,
+          "path": "pittsburgh-0600/000090.jpg",
+          "sha256": "c7d0b6dd8de1f9f3df2c578f8507b08bf48b19a7e738de0468eaac143e4777ca",
+          "source_sha256": "9368ceaeae0ce9941e3ecf6bdeb4d3b597a7c0982b4de80c1a3cdbfde1d7797b",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 105,
+          "path": "pittsburgh-0600/000105.jpg",
+          "sha256": "06342efa36222aaa21c12ae646b806751d8ca5fbb4accaf49a749442a88a914d",
+          "source_sha256": "280861b75b9d66f1402da9ae2a9744dd78101c3926daae166e99cb7cb4e9c96d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 120,
+          "path": "pittsburgh-0600/000120.jpg",
+          "sha256": "764fc72c61815a5596017179848d06f3f32e72721decc8fd461fbb4f3595218a",
+          "source_sha256": "b8e068fb116de11bf4ab4a8fe0965e3f1b6b5e48a4430788cf1959ff260c2670",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 135,
+          "path": "pittsburgh-0600/000135.jpg",
+          "sha256": "7dfb63b5fd3ecc969d2e8a24ba43738c378b2c08a86996b95d8d520e5de15dc5",
+          "source_sha256": "d976b592ed863b35437e0f6c87ab1a8f4d46f49d5ac0fb6eea5a0ed8d854c281",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 150,
+          "path": "pittsburgh-0600/000150.jpg",
+          "sha256": "d5814b7eba345ef9dec78fea0514b2941da8f194fabf8f9d1d4b9ed70883a93e",
+          "source_sha256": "a317e1e9635a028b905499635376ba74572d86c029bf30a1d552efc02ea3aadb",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 165,
+          "path": "pittsburgh-0600/000165.jpg",
+          "sha256": "0026eeff5df46269405774a540f86332ccff164af7d5821a0c0c5db29b66cee4",
+          "source_sha256": "894c8ad480d72ec26161b23172ee4aa6fb7488e62dd39bd655ab98456b0b39a9",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 180,
+          "path": "pittsburgh-0600/000180.jpg",
+          "sha256": "538a364c587ca1abf2084f73825993cf05fcff935b33c1ff734a748423c1e246",
+          "source_sha256": "a8f8fb47d553925535b81faac16c7d156a91fc700ce8b96aa1dc6799e38f7fac",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 195,
+          "path": "pittsburgh-0600/000195.jpg",
+          "sha256": "6d130937d33f29a0e0f3f7e9da1f8297a139e9ee3fb53359218cf8d4a0da1fae",
+          "source_sha256": "53fd271a155aebaf02393a0816294e8650742b0c46d5d311b14d2f4f4b45adcf",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 210,
+          "path": "pittsburgh-0600/000210.jpg",
+          "sha256": "06729b4dc663ab05408f7dbb97c2bb2f056ce11e3629555ea047026c4550dd77",
+          "source_sha256": "007f291c4ae2b7e6a47b36cf4eebc090b49d77e9fcc56494f39e8cd5b4358694",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 225,
+          "path": "pittsburgh-0600/000225.jpg",
+          "sha256": "db046ed2ee7826387918387db7f8c69799c086c12eab4b1d690c3b7c20364d4f",
+          "source_sha256": "f1a0e4360e6c6a74a2972bbd905e0130a53295915d32accf68a792ac621d4d5c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 240,
+          "path": "pittsburgh-0600/000240.jpg",
+          "sha256": "6cd3c2646cf92554064aceb9c022a20af92a0cd894fa8a81bedf0dd79902d78e",
+          "source_sha256": "b66fd813e35931792d56bcefbbbd639771bad74c05ce0f8a755cd681dd4794b5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 255,
+          "path": "pittsburgh-0600/000255.jpg",
+          "sha256": "d69b51e64523c3bcb58d7a5696d7d57e4661b87daa4d0262e59d3a674af00e1c",
+          "source_sha256": "1c68e2fdd79e3a3a590fb2918e4d81be3c5f5d33b6e679e6e3410e29704afc0f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 270,
+          "path": "pittsburgh-0600/000270.jpg",
+          "sha256": "9012de42bb12559bf185549ceed477c40c9c79fb95ecbfe454bc1387f2739ec4",
+          "source_sha256": "70a932431fabca1b37a30ab0ea98722b0de70503642c976f23dafce2cd527841",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 285,
+          "path": "pittsburgh-0600/000285.jpg",
+          "sha256": "605195c1a2458ad46a1a168ab23da7eccf9009056690147a68e6a083a13127f3",
+          "source_sha256": "5443650de5f000d9edb9e8042dff0b4681d8c732aec94fd062754e2a65a4be88",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 300,
+          "path": "pittsburgh-0600/000300.jpg",
+          "sha256": "4d94ae0328e35feb4822c756b3c0c8719d7adb4cf683afcac9e2555c859fdcfe",
+          "source_sha256": "863298f462ac2634910563516a23844467c30e588795eb3a6ea8bf8dd6eeba92",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 315,
+          "path": "pittsburgh-0600/000315.jpg",
+          "sha256": "6e07813fbe52ea9facafd4d521ad12fc304ca81ebd37174c65d7168806422e58",
+          "source_sha256": "535750f9019943ed6d5c287e5584e6f133957257acd88185720541efdd4618d6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 330,
+          "path": "pittsburgh-0600/000330.jpg",
+          "sha256": "e4bec1f5d54b8116660d102b8f3c780747b09ca33355441ef67f915fa4f60380",
+          "source_sha256": "d620924c50a916756db77fc5d4d3da04ce3af891c8ad1eb9cb11ffd48c35a582",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 345,
+          "path": "pittsburgh-0600/000345.jpg",
+          "sha256": "91a60feb4ce66ddfa0aae6d35e0dcff79e7e24b69a3d8b1a34529cc0c54d7d5f",
+          "source_sha256": "339d0e17ddf7f04786368065c8f850c7e57fd015877e955cbe0c378c60073644",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 360,
+          "path": "pittsburgh-0600/000360.jpg",
+          "sha256": "8b620f67fc774ded9f3b242574b7455d91be30f3764eaa7467a5279c2c8d6d6e",
+          "source_sha256": "450b7a231ba70639ff264517b7fda35628ffab682b22ea7090818ebaffb711e7",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 375,
+          "path": "pittsburgh-0600/000375.jpg",
+          "sha256": "6f2cc9303fd13c6d2b0537c7e45edf20ede5c52c249778294b8805316b460b87",
+          "source_sha256": "774a523d6e806b15321668136178a3cd739f41159216cd176e72174f455361af",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 390,
+          "path": "pittsburgh-0600/000390.jpg",
+          "sha256": "677df3800ced4e128f945a59d502d9079f7023446a888f03fadf591294058357",
+          "source_sha256": "b164c874345325ff233f828ed0219642224cc4a5b7dd976636aa611fcbdb0667",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 405,
+          "path": "pittsburgh-0600/000405.jpg",
+          "sha256": "a32d689d4be6e988de42056a47b0013d325a66454f027fa682c3faebcdf29132",
+          "source_sha256": "3e59340aa5d8d6bb29122237496fb51619a8c7971fd846bae11ef992edd8ca38",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 420,
+          "path": "pittsburgh-0600/000420.jpg",
+          "sha256": "5a47fab28465f1cfcc60fef9196fd2ff075147943de44f7764cb9c327b7f9679",
+          "source_sha256": "8caefff98459f3da7b402e2bec26a66b2cb3960c8cff310e544250d2ddec381f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 435,
+          "path": "pittsburgh-0600/000435.jpg",
+          "sha256": "fa6af2ba24738c33d1141b5e30ccdaa8c06e049fba45f02b206feb3707a5ce85",
+          "source_sha256": "67b24c419516e93cd3f259628d03396c5bc013b12542e44bc4eee38189e53f57",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "frame": 449,
+          "path": "pittsburgh-0600/000449.jpg",
+          "sha256": "8761cc93c155fc399a878d29b5bf3c2445b6ca5e6f7dbbe82c8b4ec60e4200eb",
+          "source_sha256": "4dd837fcbdc8df0e14b7b8035e519cfe75cecee1c89f6bfeb990413cb83fe0e2",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "source_id": "ILV4PoQFxGU",
+      "source_start_s": 600,
+      "frame_count": 450,
+      "input_step_frames": 15,
+      "output_step_frames": 75,
+      "max_width": null,
+      "output_frames": [
+        0,
+        75,
+        150,
+        225,
+        300,
+        375,
+        449
+      ],
+      "images": [
+        {
+          "frame": 0,
+          "path": "marylandwomen-0600/000000.jpg",
+          "sha256": "3e43bcfa4502e2af08c98d9d84a1d3bcc83b556d1c57a65fdb52a757bffeee94",
+          "source_sha256": "446e169762d060a46899238a2a26f77898974a4ac561975970964a96799ee97f",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 15,
+          "path": "marylandwomen-0600/000015.jpg",
+          "sha256": "74124a12f85850df7e1e0fdd1d8380df50381471913521e2dbf8a2af228e1878",
+          "source_sha256": "dedc8d822081dccc57f3516154abc2dd0c594e62dcb4893bcffa3dca1d6a859d",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 30,
+          "path": "marylandwomen-0600/000030.jpg",
+          "sha256": "3aa0946c379046ac791e0589405919e0e694191234912b81247d1acf67949637",
+          "source_sha256": "0bc028330d1d8595601d242f53288a2fc0718b13a81f4e6051536701ed9267e9",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 45,
+          "path": "marylandwomen-0600/000045.jpg",
+          "sha256": "c8c76edeb9ea74f7150cddd093350997d222c2dfcb797c9d18ec966a9cb6ea4a",
+          "source_sha256": "9ad233a61353538dc701ab129859bd49d59d714df25257ec85a898822236ee36",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 60,
+          "path": "marylandwomen-0600/000060.jpg",
+          "sha256": "ce2d28c8429ec8667207d0f938af1c2f291ccaf6f6ab7a8596932609d48e9b5c",
+          "source_sha256": "9afb384c15677ab4d003597717a213039dbcd2fb986d1603e97ccebfe68c04ec",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 75,
+          "path": "marylandwomen-0600/000075.jpg",
+          "sha256": "32016b11a506b4a32bf71ca0b353991295b866dd64bc7972b4f3acf3294a3b21",
+          "source_sha256": "6ef2fdd94f6f17752daee3abc75ebf84fa3716f65e2c6d3b38fcd7e9d8cdcabb",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 90,
+          "path": "marylandwomen-0600/000090.jpg",
+          "sha256": "776d3e3a22238a6bfe134098edabd773882b629606ce369898c4594b4b84e995",
+          "source_sha256": "2ea4574335717a6009386eece4191d159cc73da8df0839a4e36f0ee6652f6dd4",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 105,
+          "path": "marylandwomen-0600/000105.jpg",
+          "sha256": "26d19fddc9ec4bd6ceb4e913d5ce4f27ec26fad78c923c1cee0bd88c58adab9d",
+          "source_sha256": "f0df626aea28700c51305d1fca39d9108364a3759b7212cdc98fd071c644cf61",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 120,
+          "path": "marylandwomen-0600/000120.jpg",
+          "sha256": "1f414f1bc51f55de7a13765c383216335bbb778ecd85c7e3e030b390e270e61e",
+          "source_sha256": "a335b213390e6cfe1b29eb3db6d90efa1e2c0579c9a975e77ad2fb7886e8ec63",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 135,
+          "path": "marylandwomen-0600/000135.jpg",
+          "sha256": "d88f9c9fc8345b20412cb7d21abcf89c77998b114e168b34cef2ebb49f1c625a",
+          "source_sha256": "f88c1ade6e989723ff75da548315fdb866552af2612b0a90e4ca9e1e0f368259",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 150,
+          "path": "marylandwomen-0600/000150.jpg",
+          "sha256": "78838da53c6adca56961093b896cb4738882d54bcb97eba13ba44b0fda2d5ffb",
+          "source_sha256": "f0153ea771aa8a0775052f8f12f2c56a5015ed14065ace73a55bbb40f03522a8",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 165,
+          "path": "marylandwomen-0600/000165.jpg",
+          "sha256": "b38d86a295f41ce723d604f7ac918f9f4211d8fc64c1d688745cd2e06bec0314",
+          "source_sha256": "b79ea397769fab731b92c4342d7e9a54f2e43e387b486de35174f874a34c388a",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 180,
+          "path": "marylandwomen-0600/000180.jpg",
+          "sha256": "aa19dde44fc98e41da9780fc272e5b7f00af3b70ef3b7edca7efd2d13fc6c198",
+          "source_sha256": "36b6c9d93f82fd1bfe1cf65ef43df234743eeab8b2d9d3f3549629893c91f964",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 195,
+          "path": "marylandwomen-0600/000195.jpg",
+          "sha256": "11d859c11952375e19fa5cab926c1c44b05017c05d4816e60e35363b1fd22b75",
+          "source_sha256": "289d7974ba1cc80c895f10d47bb0d22aaa5ad26eb4e08a8d2884459696a450a3",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 210,
+          "path": "marylandwomen-0600/000210.jpg",
+          "sha256": "eddbcb1ddb94a708d9a869ba5215f0fcb18533a802786cda14c447000b44b7fe",
+          "source_sha256": "e3e58a04c9288fcaa3fa24bd713db22e5410cee279125492ef951802a420b7a1",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 225,
+          "path": "marylandwomen-0600/000225.jpg",
+          "sha256": "96736a0a80beefd604832e0b2cbbd99e987a05e1168278aa99c246575b9b0a3b",
+          "source_sha256": "646f1f34af72293cedb1c81e7d48f54c4fa94e50fed30133c86b29e7eae049f9",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 240,
+          "path": "marylandwomen-0600/000240.jpg",
+          "sha256": "537b486998f4e485a680d267ba55f2d79ce33f1f3994543180055fe57edab303",
+          "source_sha256": "14d37fbbd8001530b2e36c5642fca9acf23e98c86be84d020fa4501c593fb9ee",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 255,
+          "path": "marylandwomen-0600/000255.jpg",
+          "sha256": "bced2b5d4e9aa896c28929ad94f8be604e60df1ece42bc7cb31a863331dfc7ad",
+          "source_sha256": "73bdbbe356c39801145663f33c4c948f3ed909379d6b7479194d71e5ce4174e3",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 270,
+          "path": "marylandwomen-0600/000270.jpg",
+          "sha256": "e222af111223d5481175be5400a159a56b060d6cef50de0191ddd01f77f7860c",
+          "source_sha256": "4c9a5a97993d1710e827ebff951d871fef441d3471c62eb60f7ea95833741806",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 285,
+          "path": "marylandwomen-0600/000285.jpg",
+          "sha256": "36f4a52af1337e94a0a3e90a64777245481cb03ae802738a07266cd3b66622a9",
+          "source_sha256": "9a16c6c26ff6f6335c9bc9b3c9ea7429d6fbf8ce4f6b04515d5026f2e1d8fead",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 300,
+          "path": "marylandwomen-0600/000300.jpg",
+          "sha256": "7326c630f868df6f9710b5bf3dd16b642aadfc503c901a25fe1fb41b85a2966f",
+          "source_sha256": "bd188203309c0f908b826465a95bd37b6af2f91fc5939dffcb81a5481a26b57e",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 315,
+          "path": "marylandwomen-0600/000315.jpg",
+          "sha256": "09f5b8db8b6b0bb37ae42dea90a44ae86bab0239936514ad1f7f8868ce081471",
+          "source_sha256": "bb1ef7f96a03dab5920168ed808a1e2197a1ec22ac79802bcf8e4ef628f5f9ee",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 330,
+          "path": "marylandwomen-0600/000330.jpg",
+          "sha256": "10176717656414d2918398cb4bfbf54eb691f1c20058caae671d5621d5e7705c",
+          "source_sha256": "6b6de91f1f499500b5d986891f28756314072025da752fffa87612a285b148a0",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 345,
+          "path": "marylandwomen-0600/000345.jpg",
+          "sha256": "d8cb93057a9172e9a719647d4660f27fc7aaf913f4361121903c75c54c3c9e31",
+          "source_sha256": "61b21bf3bed0d5f54fea3794747f3a031f143baa01fea4880367c042b3267905",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 360,
+          "path": "marylandwomen-0600/000360.jpg",
+          "sha256": "9810ee05657cbbfdb5e89eb971d9c92b24928570ec730bcc782f9a0ee0474bf5",
+          "source_sha256": "558084245fd104c0261412ada2a5278cf6c94177f6eefa940e00ef0ad644ef57",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 375,
+          "path": "marylandwomen-0600/000375.jpg",
+          "sha256": "e1132e73f2432b4e899295a93b27f8df39bf5fc38f667107ef0b62b71c6bc775",
+          "source_sha256": "317d4df7fbeebc76e97e2f54f89b9b66fe22d59baf0313f6535b37a1d69737a8",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 390,
+          "path": "marylandwomen-0600/000390.jpg",
+          "sha256": "133ddc0b7bb73ce3d0751f6e8d2570711f0d6f5caa352699301e7f45b703434b",
+          "source_sha256": "ed1d402bf3c1b52df6a3db85d70c4ce164d5a94148a5e52032c5b77a32e55e39",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 405,
+          "path": "marylandwomen-0600/000405.jpg",
+          "sha256": "7ad63ccfb0259086c8c3fc3aa221af2c1579b495cf0c052fc51ccad836c9047c",
+          "source_sha256": "0f2a24b79eaca5ae63562c33eb93107b55aeab4d293e79d34afdc028d9f84e69",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 420,
+          "path": "marylandwomen-0600/000420.jpg",
+          "sha256": "9ad0d827530caec44c55d156beb25e4be3c35653d42ce31ed65b8d266564c8a3",
+          "source_sha256": "3c74f90fd0dec453555069f209af4e74ebe11a180ea500aff63fa3b42b8ff00a",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 435,
+          "path": "marylandwomen-0600/000435.jpg",
+          "sha256": "375123718858e35d1205a89fc41bb91fcfb2cf8a43426cdc95fbf379cc5738ba",
+          "source_sha256": "e931878d524845db038d947b97d5d4bbd9d2ef27187269e2813da31ecbf0538e",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 449,
+          "path": "marylandwomen-0600/000449.jpg",
+          "sha256": "fdc9de9718248e6b391e085fb8735632c833ae7a929a9c51b87784b08ebbefcc",
+          "source_sha256": "95fed5454b1f4c9f89641ab28f13b40563ff9705ce55edda6c354173b8c5b13d",
+          "source_dimensions": [
+            1280,
+            720
+          ],
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "source_id": "JlBtScHdcg4",
+      "source_start_s": 900,
+      "frame_count": 4500,
+      "input_step_frames": 30,
+      "output_step_frames": 450,
+      "max_width": 1280,
+      "output_frames": [
+        0,
+        450,
+        900,
+        1350,
+        1800,
+        2250,
+        2700,
+        3150,
+        3600,
+        4050,
+        4499
+      ],
+      "images": [
+        {
+          "frame": 0,
+          "path": "pittsburgh-stress-0900/000000.jpg",
+          "sha256": "f54da4a000f5f3dffb601ff4a7a345e23969f04ed241abbbac5fa618f58a80d3",
+          "source_sha256": "bc65e5c4e28bc5f261f60a86bbc077b6d8a1b48ba2abe94e016092f5d675a6ea",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 30,
+          "path": "pittsburgh-stress-0900/000030.jpg",
+          "sha256": "2fe94ddffb20d646d9acfc458d6bd96696247d1de9eab1ec4deeab0dc0524500",
+          "source_sha256": "3ef1015c212e2786747f3e078eee28fcd459bcd6ca75b55d31ca4061fd2c4a91",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 60,
+          "path": "pittsburgh-stress-0900/000060.jpg",
+          "sha256": "769642b88b7ee28c02427cd2d7bb34a91cc219b06e2b89328f6b070f5fe04f48",
+          "source_sha256": "b41d7984624dfde1a92dbca7d85fb718b487ba39a977cb23870556565a775f4f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 90,
+          "path": "pittsburgh-stress-0900/000090.jpg",
+          "sha256": "a553f28959f86f6f670a9a7847f1195420156adef08534256f4210633cf3b26f",
+          "source_sha256": "227dd5e2b9a5a866ff57fdbae1cacf878fe48da50e94a31efed1edcbd872f8b4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 120,
+          "path": "pittsburgh-stress-0900/000120.jpg",
+          "sha256": "683ad909010d7476fbc8f529cb5917f8498168504aa37ea35ac73293ae510b88",
+          "source_sha256": "6f689d541a87a565abcd82645b6ee94a60cec86716777d3f5688c7e507d39626",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 150,
+          "path": "pittsburgh-stress-0900/000150.jpg",
+          "sha256": "199acd5a8afa24834ffe0a0e06b2825284bfa8f5b301a2139da274dc190e4f5a",
+          "source_sha256": "1a4261eeac89cf357d35d1de3cc4b7909d363548f1467b3940cfa38e7b161cb8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 180,
+          "path": "pittsburgh-stress-0900/000180.jpg",
+          "sha256": "4c553c773cc2826c61cd8164785dfcb40d5b249cbaee0e1bfd72e6002cf1d3c2",
+          "source_sha256": "39967ff3b7aa86a1af802ef0f1952f5b5a1b51678578d24dc07f071037b7455c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 210,
+          "path": "pittsburgh-stress-0900/000210.jpg",
+          "sha256": "45d495501746c44c7b74703a074a3f00e65c593e0863707a04ce453c763d0f01",
+          "source_sha256": "d7e75a60e6f24cedb7446048cb6620a38e9892efec9720cb5c8c02395065d5f7",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 240,
+          "path": "pittsburgh-stress-0900/000240.jpg",
+          "sha256": "32120ef9cca4313b079a18e924755357c6920897983211f092b0baa2154f706b",
+          "source_sha256": "ce3f2b22779079e2e5fb0034ed0152f5d7d73d087c6dba290e2b2fd3b092f389",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 270,
+          "path": "pittsburgh-stress-0900/000270.jpg",
+          "sha256": "6d4614a578116495b0680adddd37638780576e0a604a8aa4b376c3d7c069b2e1",
+          "source_sha256": "9cc8476efed46fdfbfa4acab205a951e1720a1a7656fabfa130054edef52a7c1",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 300,
+          "path": "pittsburgh-stress-0900/000300.jpg",
+          "sha256": "2516ff07d6fbe83da4828993c4f53175f86c4579a493614a8d28783fc9122c10",
+          "source_sha256": "1269878e591a3fbec9de7ca596b155448aad7472a51233eefaa42d6cd9187bf2",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 330,
+          "path": "pittsburgh-stress-0900/000330.jpg",
+          "sha256": "8d232a15e6c430d8a495a706153090b6ca4e31e39994ce0bda7637fe3af6018a",
+          "source_sha256": "e39ec1497857111d3d5f30b6162fe0f6905020ecb42868fe0a686c53c014b2c3",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 360,
+          "path": "pittsburgh-stress-0900/000360.jpg",
+          "sha256": "47c38c36970f1285aef9e513ecf49a8b71d8a852fbe8b87c6dc44c21a31e905c",
+          "source_sha256": "eead6e159282b3e71125b7e17bf33df5286fe81585eb107d44b6503130e6302c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 390,
+          "path": "pittsburgh-stress-0900/000390.jpg",
+          "sha256": "a4e5ee51d6c6e15acea01cbd20e8a14b0fd66535882595cbc3d189cd8d910f91",
+          "source_sha256": "84d0ddeb696cbf32ebcfb7727d26df6dc24a1162957e04d688f7199c0d8052fc",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 420,
+          "path": "pittsburgh-stress-0900/000420.jpg",
+          "sha256": "5fc9676311fc15bed6ff1d06fa7d81d3fca4e0962a6ccff2a667b5a272b94b71",
+          "source_sha256": "ce4553cb767bf78304ec2d9aafffe144d39d348b76d3b17159e00d884d864858",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 450,
+          "path": "pittsburgh-stress-0900/000450.jpg",
+          "sha256": "5fdf1288625c2fbf5f860e422b1355eccb3fd2dec25f072555672861efbcf460",
+          "source_sha256": "e552f39f72dbe8a8b5bdc0fea0b8ddbd85bb0bcba0144f9a6a22abb23579d373",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 480,
+          "path": "pittsburgh-stress-0900/000480.jpg",
+          "sha256": "0941d7fbedc59906e6655354ce5750616dde90358bb8f078064fc2a22bfa6fe0",
+          "source_sha256": "d15d6744f420966ff2d89bb3a766655b0a79f163de82585e14928fe3a95e477a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 510,
+          "path": "pittsburgh-stress-0900/000510.jpg",
+          "sha256": "676b2fc4dc0544e546c21442ddf55176e920d036cade4c613a22c66d7168c10e",
+          "source_sha256": "d8b86d81347992e532e94f2a483b73a79816f30c6581a2d30e2dc82532d48bfc",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 540,
+          "path": "pittsburgh-stress-0900/000540.jpg",
+          "sha256": "e900bbecc91ebdb022455b9e1b802f73bbc675a4f245348aaa52b9ff80f7dea7",
+          "source_sha256": "ebf7cccdded116efaf3020afd4276db6488f1998de783000d84ed3bda09f27e6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 570,
+          "path": "pittsburgh-stress-0900/000570.jpg",
+          "sha256": "b8f0ea4012c9e76f791f4adefcad17922fe7e9ccd5f8c7b07e516818f14b2afd",
+          "source_sha256": "319da4199e6287219418c72dd4b71264001a37c91594081df41a2c8255b8dfe7",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 600,
+          "path": "pittsburgh-stress-0900/000600.jpg",
+          "sha256": "457a5f727dcad26cfde4ad3bfa09ecef81910f3797b68c6552edc674dfb04a5c",
+          "source_sha256": "e3d6b709e61e001692f9ab3dac1a4e7dec8ccd940f8eff1710fcfacd6d8fc095",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 630,
+          "path": "pittsburgh-stress-0900/000630.jpg",
+          "sha256": "f8d1adcb03e36b2cbb2df8af9d7fcc0244df83e80045e63e0025672dcc5abb4e",
+          "source_sha256": "cbd39ab0c2c196acdb5271396dc81bdb2c6a160f9e68e8ee98fddbdf59efd350",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 660,
+          "path": "pittsburgh-stress-0900/000660.jpg",
+          "sha256": "2cd68ac41b9ce1be0c53c5b41caef0e3c3d50a8f64aacad7d3091b9707ab0b97",
+          "source_sha256": "849b9f60f5a79776eb051f518856a33379332fbf1dd1f47ac9a5a00c3c814319",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 690,
+          "path": "pittsburgh-stress-0900/000690.jpg",
+          "sha256": "6cf9ff85cc101c946f6d4390780044a91d371b2960c6af0a1bc4f7ba40c49fa0",
+          "source_sha256": "16b737c35fe2cfa746cbf1f9b1ba47da247bd5e17b9894ded2792ab07fdfa472",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 720,
+          "path": "pittsburgh-stress-0900/000720.jpg",
+          "sha256": "d7d7e401630a483c6ada2fef541d23e8b51d144f6fe5e6f1271a06cd21e82400",
+          "source_sha256": "80cd7f0bf28dd95a99d03a4e727d30bcd4b2e01931ae030963ac8335f257494e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 750,
+          "path": "pittsburgh-stress-0900/000750.jpg",
+          "sha256": "61a94519aaa33c113d738846e706fddb6aa7c465522d3fd8222442528899c647",
+          "source_sha256": "681a5c291cf49c8fa15dec22f615d138037938db1dc6e72a2e1f13aec07fbad4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 780,
+          "path": "pittsburgh-stress-0900/000780.jpg",
+          "sha256": "97f9ba9d6eb6e7f3cf7c1d7cd37285f21b2193110d5f5ed1438652e86fc191ad",
+          "source_sha256": "4026f29645310f93270afe63f32537382d1c1d5f2db80fa936a5f6d5c49b21b5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 810,
+          "path": "pittsburgh-stress-0900/000810.jpg",
+          "sha256": "538936d1eddf073e6dfe5d100208c42887b8fb243ef684b213187a99ab5696c4",
+          "source_sha256": "895f57c91ac5c87c9eacf2aea67a473f0d8c89cfce883892a37a08e12d2edcb2",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 840,
+          "path": "pittsburgh-stress-0900/000840.jpg",
+          "sha256": "260e0555d8e4071e5a96d46ddecd0a7d48df218266a943e751c25307d1a2392f",
+          "source_sha256": "aa9d80086f6866a2710a608fcecb6abdcc3da817ab1b46641b0cb51f8dd0edc3",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 870,
+          "path": "pittsburgh-stress-0900/000870.jpg",
+          "sha256": "6710e970e2e744ffea18ebdffed09a6fae33610f3cedb651b27dadcc7e75ac51",
+          "source_sha256": "0591319e28d68aadad0557e16b3ad6cf902e05a2d1573b4a2f58bd14eb30233d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 900,
+          "path": "pittsburgh-stress-0900/000900.jpg",
+          "sha256": "7836a3eaa9916a95364ba4fc67f7af4cf1c745e9335a25ebeea81a0fb303c415",
+          "source_sha256": "4e0d90c886736e3de37c2a5dccfe72491d7304a19f188898cac251799442542a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 930,
+          "path": "pittsburgh-stress-0900/000930.jpg",
+          "sha256": "7605fb9da5f29ac36ae9696427e64bf5cb149a41a76f289bdbb5f7dd9c54831e",
+          "source_sha256": "22172f22d28cb563b3a0ee95b90efd320a88e48b600d2d051e4fe87bbe40546e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 960,
+          "path": "pittsburgh-stress-0900/000960.jpg",
+          "sha256": "fdf44ee5b7e670bf29f8ad6d21bc424fbec0074968304aea18831372aa52b3dc",
+          "source_sha256": "89d5c5360e6f67be5801553d47862cd1eda62f303e63c304fd1c13bfb6eb2b2c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 990,
+          "path": "pittsburgh-stress-0900/000990.jpg",
+          "sha256": "facce608ade788d40d99fec2b632bb74ddae83d60d8885ff2c332693343c458f",
+          "source_sha256": "35aa4829c5a73dc2cdc5ad4d1416edf07f2b269f8db2470e03ea369c4e01b91f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1020,
+          "path": "pittsburgh-stress-0900/001020.jpg",
+          "sha256": "aa68602d6841625cf50df5406d18bb0f3ae439a9a033884893fc7c63ae3e239b",
+          "source_sha256": "bd4c1889187168c0805f778ac8b41ed78749b8145fd3780ad197d690346c178c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1050,
+          "path": "pittsburgh-stress-0900/001050.jpg",
+          "sha256": "86cc6741475aaac88a9075d039cee5d19eef7381fa305e241cf3cdd1171a2e88",
+          "source_sha256": "38b2b31f568bac59c51dfcb17729221d4d8a1e0c41ce15d5d9a419f0f7a1d989",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1080,
+          "path": "pittsburgh-stress-0900/001080.jpg",
+          "sha256": "6d234e691e2899ff136114522cf14e68c6ce91e153f5b678be7bed05919ee117",
+          "source_sha256": "c8e2f7f8c7787c008744268f451f81bfabde2247c596dfae4b1b5bbd00b3bd1d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1110,
+          "path": "pittsburgh-stress-0900/001110.jpg",
+          "sha256": "881098bc22ed210b5af1b420014c1f0abc7c18085bb0b8e633ed867a249d77d4",
+          "source_sha256": "497b6a5af771a561a8981cc002727fbda4ac4a6d047dede3ca1c8ffd2be9c8d8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1140,
+          "path": "pittsburgh-stress-0900/001140.jpg",
+          "sha256": "5357d93a7f146deb2a69f864baf79baee613685baae38070e5d947247a644752",
+          "source_sha256": "f2267983f842229b0ccfa66a90f19df7ce2ee76746c5dec6b8cbf6cba07b1a81",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1170,
+          "path": "pittsburgh-stress-0900/001170.jpg",
+          "sha256": "a7e1b61b7f1a2240ae382fb90a46c01ef9ebf1bbb582bc21b61384532c902ecd",
+          "source_sha256": "92e42bb98a6edd0d60faa662becd302e919ccf250bdcffbbcf75f1e61ed5348a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1200,
+          "path": "pittsburgh-stress-0900/001200.jpg",
+          "sha256": "ed19a43f17112f91f6630b14efac62b5d87d81a333569b1ceb0e85ab7887448b",
+          "source_sha256": "50833945cba99eca268c9059e52735b83a22848585ac26cbb8cca07ace4f5894",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1230,
+          "path": "pittsburgh-stress-0900/001230.jpg",
+          "sha256": "fb6a78a5841c2c00594677e482ab9240fff76e9d94fe29b7cecb64ac3c5c910b",
+          "source_sha256": "6476eebd781e10b5ec58c95970ae23c9d19b86024976a3d1012c4c6ae1053a82",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1260,
+          "path": "pittsburgh-stress-0900/001260.jpg",
+          "sha256": "437a9ed05673ce10e77110966fdf0c303c68efad9f8bc95358ca2ccc5397bce0",
+          "source_sha256": "e7cb66870bdb13961a6053b8a2ac5f306f6305dba071ce57cb8ca32e821a8b98",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1290,
+          "path": "pittsburgh-stress-0900/001290.jpg",
+          "sha256": "ab4f68735ac78e0e53bc3d1026b175f684347b74718dce571fe655425d0addce",
+          "source_sha256": "f359817e9d3a0eb9d438ebb4f844096d3852363f9b92f2cd9f50920affd0b6f6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1320,
+          "path": "pittsburgh-stress-0900/001320.jpg",
+          "sha256": "ac851d9075872d7f4a2d1186acacf5149395bf8f3ff44c4298e1f3fe266cb7e0",
+          "source_sha256": "025d8b7a5f706102ae89d45ad34c224bd30475eb83b1e57539073e4bfbd0dbea",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1350,
+          "path": "pittsburgh-stress-0900/001350.jpg",
+          "sha256": "b3020087681e65c543544469be9bd18f799c83cc739c1a973f4d443dee616839",
+          "source_sha256": "2fd1d67df1187c59f231d7732f3ea4ee67bdd52866457800d6cb0add13afd377",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1380,
+          "path": "pittsburgh-stress-0900/001380.jpg",
+          "sha256": "b8d9e365110ab418730fcb0430ea34a40a5cddcba99352f22119908055aa96d3",
+          "source_sha256": "5db513bd42cf93b623ae4e5039f9ac7f1222cbde46ab36475403d58bbb4993c3",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1410,
+          "path": "pittsburgh-stress-0900/001410.jpg",
+          "sha256": "32cf1fda3cfc231813b81090a003b83d2dc27fc3ff1c0884e3ee386c2f0eaa53",
+          "source_sha256": "968ad0545553e0922aabd900072bcb1ef1e71138ef48739563cea9a5b9fa3288",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1440,
+          "path": "pittsburgh-stress-0900/001440.jpg",
+          "sha256": "f5b1b0fe9e1ba5bdcce399e14db214e9d603a470d91c332396372f4096612891",
+          "source_sha256": "2a38337b840e6c02bbf78c4ef9139c8654fdf2b67a663c723337ab0170544fde",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1470,
+          "path": "pittsburgh-stress-0900/001470.jpg",
+          "sha256": "3e008471d133b69947ea8257316bf0125308638cb9ef13fa45a30a5ae407e52b",
+          "source_sha256": "74a17e37219808616f9b9f1082e502a8dbca7769d600f840e5aa696157526105",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1500,
+          "path": "pittsburgh-stress-0900/001500.jpg",
+          "sha256": "080ff586f11eeca43efaecc6becfea093c7193dd15240e11b7f96420ed9206ba",
+          "source_sha256": "c539c3f78316a1a6fa42a1c1510e8dbbbe961c616a79b5856dd32e181eb9094d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1530,
+          "path": "pittsburgh-stress-0900/001530.jpg",
+          "sha256": "c0ece7c7db15c4942dd76d32845ff73a4cfdf9bcb77d2b79fcef7001fe7dcc3a",
+          "source_sha256": "b04a8405fbbe64cec21575a385967cbfb12f44cebde793ab49361f38547823ba",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1560,
+          "path": "pittsburgh-stress-0900/001560.jpg",
+          "sha256": "4095064f355a769cfede27e5906864b95d1c89cb5dffc3bfd5165edce13e974e",
+          "source_sha256": "cbcd834e40d7cebcc9c4ff38bebf19745110470572c267ee923419a9f98a42f8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1590,
+          "path": "pittsburgh-stress-0900/001590.jpg",
+          "sha256": "ee51d10147c4c5c534621f56acee5aa89d521b9c1bd705422c3fd962f072b003",
+          "source_sha256": "8ea37542c8f58594e8258aee393be21ac3dad024cdcd08c1eb692e957177396a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1620,
+          "path": "pittsburgh-stress-0900/001620.jpg",
+          "sha256": "be2d32320b682928e3c3bcbc9f840e02460bc1ca966edbf63a7c896c40f25800",
+          "source_sha256": "6cfd9d20f9e3e44944612e75bb4a9f4428a187e27ec910f4ad9d316dc9543e37",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1650,
+          "path": "pittsburgh-stress-0900/001650.jpg",
+          "sha256": "005c6fde52617faa9c5f81a80b9dc1507fb4e97da00d57ea54861e60a57f9555",
+          "source_sha256": "a41765d24605bf7b9519bdd6c1725ae5c8eccf6daa962c3254a4dacfce245980",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1680,
+          "path": "pittsburgh-stress-0900/001680.jpg",
+          "sha256": "68e37bcc564965f60f3a52746de331f617299a9ac9326c99e2c1dc978bd6615e",
+          "source_sha256": "6ace18f0ab97c7ce41deb73209e01f7073ed9961b34b0e61198a428c60f6a5ad",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1710,
+          "path": "pittsburgh-stress-0900/001710.jpg",
+          "sha256": "a28aee7daaa4518098a68d536b9f18f8eb09d34c5990c2a0c5c65345af04c849",
+          "source_sha256": "f39d4c26e64ebea6784b58cc11f25cdba4fa6ac3280bc5256b4770a335a7cfe8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1740,
+          "path": "pittsburgh-stress-0900/001740.jpg",
+          "sha256": "5d3c8df6fb35dae27a26f3847e4e08f5305d8b428b566fa02aec99d0cf6f4905",
+          "source_sha256": "87960250b4dae61847a08a03b6eb1de1b66ca64e4e0f6f5d4c16a832009d2ba6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1770,
+          "path": "pittsburgh-stress-0900/001770.jpg",
+          "sha256": "f68a98e7bb0263ce9e5a024914c19ae7cde1dfe2764c8c065fd33288ce97e8de",
+          "source_sha256": "2b02e0ea59c16177a56eca7c2302c6f8dfe74fb4f45d8b331674648f26897952",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1800,
+          "path": "pittsburgh-stress-0900/001800.jpg",
+          "sha256": "158ed9a01d2716a48d397456e2fa718bceb7f317c1d58bfe40fbbec14df3e89a",
+          "source_sha256": "a5223852d9b86007f76a1645bfce049184c8fdf2d1b1244eb5ee707341c6743e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1830,
+          "path": "pittsburgh-stress-0900/001830.jpg",
+          "sha256": "f9bf7d4b33d1c80d430978b92bd1ef203fb999fd0433f0d5645bc1c5f2c55ad8",
+          "source_sha256": "8468359ed4127b67d1f4ed0a6352168cd95ba749d003d51dfda783929d641c02",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1860,
+          "path": "pittsburgh-stress-0900/001860.jpg",
+          "sha256": "cb6e927dffe3d80e8131411bb880bbab5deec940233897a60cc6a40bdc8beb80",
+          "source_sha256": "2d917bb17c4223da6f86c990fbc5045c608bde2979c74828390040256f8d9cd8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1890,
+          "path": "pittsburgh-stress-0900/001890.jpg",
+          "sha256": "2fcf02b7aa5cf943f648e11b9a22de5414d079cc70007be9ca3edda5b9bb0e13",
+          "source_sha256": "20cd2b24bef1642900c27be476b3057039af6825314672892995de2953f330a3",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1920,
+          "path": "pittsburgh-stress-0900/001920.jpg",
+          "sha256": "535c404bb01b9238bb32146dd2e86ac0fc3f7bef968f890e5352c27fd7d04a25",
+          "source_sha256": "d992e85429faa9a88f4b62f6480d34eba42f55b9c41d56b155f268b71440bcc8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1950,
+          "path": "pittsburgh-stress-0900/001950.jpg",
+          "sha256": "27a6c158c6ab0f9d857be95c9ee62a53a24d5da51fe67a63ee89f94f92a1a7c5",
+          "source_sha256": "9954a4e9ac409010ca38f06e92e3f57967fe68426f62b066842c5029176f1864",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 1980,
+          "path": "pittsburgh-stress-0900/001980.jpg",
+          "sha256": "97f97dc4649427c305b89bfc483d90f7f39d7841ef877af3c1e811f033cf245f",
+          "source_sha256": "1f19d671ae43f58079436157521b55f3c62ab224b22bdd94a3a08fde1b74c88d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2010,
+          "path": "pittsburgh-stress-0900/002010.jpg",
+          "sha256": "80b68a42131b0ea324c6aad34e40040afe03614565956ca4016322eb7ff9e620",
+          "source_sha256": "7ce786c5d2b8ae4c6d127b68c66d6254438f7a21ae9475189410a7cc00938320",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2040,
+          "path": "pittsburgh-stress-0900/002040.jpg",
+          "sha256": "6c1e5ba3e7c56449c8464e81943feda3bbf9f220754ba92e112afe75424dd498",
+          "source_sha256": "e7480110c1fa1e6b32cc63bd94242f4bdaa873314cfd9a89d5726760fc7939b6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2070,
+          "path": "pittsburgh-stress-0900/002070.jpg",
+          "sha256": "1c63bb98964d0771bcff9dc05c26af43b3139997a35a6539b81867b61e43e82c",
+          "source_sha256": "5ea9e5136b2323692046bc68e160427d4b8f27ae68e7d62cc836ceca2fe94ffd",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2100,
+          "path": "pittsburgh-stress-0900/002100.jpg",
+          "sha256": "d028819764a2d2be8f04f58bbfc599c2bbae9daf1251c94727bcc031e17d1afb",
+          "source_sha256": "6e3ff461c2c9673767eac8ecbd733c8ee0d6e28a743b398b116b5fb74b5356f1",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2130,
+          "path": "pittsburgh-stress-0900/002130.jpg",
+          "sha256": "799891fdb440f50fc4b023133e2983d2e3ae41a491475618599bb0b897a98c02",
+          "source_sha256": "8258c182dae03337da2574da1c342b32900fa1baedd7046a5ab4cd49316969e1",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2160,
+          "path": "pittsburgh-stress-0900/002160.jpg",
+          "sha256": "b75a82348734a35779c3f578cd2dcb6ec709255b8df8dd1952b5733c9a893598",
+          "source_sha256": "3e7417c6fced1571f2217faac3ed5a7dc6a72d25fe7bf9d1ce29e7e0a3dd34a8",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2190,
+          "path": "pittsburgh-stress-0900/002190.jpg",
+          "sha256": "27a99650400e9e9142b9de42e5dd9184805f4b32d803cb5b33cdd45ab2c30755",
+          "source_sha256": "7c401d9b0e950c379ff44528bbc7838a1a6f07b801bfe972330cfe0dd4367d9e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2220,
+          "path": "pittsburgh-stress-0900/002220.jpg",
+          "sha256": "6cd4c7c24a665ba17f40e337e1826306adf3093d9c4d119e5691eea081e352cc",
+          "source_sha256": "d3b60b9612400b85b7c0fb5201303fde5746b101ccafc37d3f5ce2c8fd9a40dd",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2250,
+          "path": "pittsburgh-stress-0900/002250.jpg",
+          "sha256": "c681bb36580c6390b9179c09174ba154ad507baaf65ca32a646363440787c85d",
+          "source_sha256": "60f9edc7ade7f728a0863b6d58520e4f58716104107a8afe861f67a8fed9f562",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2280,
+          "path": "pittsburgh-stress-0900/002280.jpg",
+          "sha256": "2da1ce3fcfde39fc4a5f1f7cce564011b24da74fdef7eb0c72c985de61423f44",
+          "source_sha256": "53a4046e21053b1ac66743a13d4a6f1a3dc635c4839f07f7f278dbca65710d2d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2310,
+          "path": "pittsburgh-stress-0900/002310.jpg",
+          "sha256": "fc669b99733e780a50e644590aab29eaaea27738b0b76a0a97fb851459292269",
+          "source_sha256": "ea7ac5d6a021a83766131d1c79ca594db0faf1434a0a2ce55fe75885895b3d6a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2340,
+          "path": "pittsburgh-stress-0900/002340.jpg",
+          "sha256": "ade544803fb84ec25d76afe1650fcd90b91831904f606d36fd9cc269b629f102",
+          "source_sha256": "becb224403115db4b6ffa9bbed603701359997aa5eff2eaea958f57659fe59af",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2370,
+          "path": "pittsburgh-stress-0900/002370.jpg",
+          "sha256": "ccb7b3f3798acff343d2e4f0ee751100d67b6ff7f56406f3cce5d32a05c0da01",
+          "source_sha256": "01bf5df0584e19f500bb49580b8ac60045942c21737a09e8205e438eb83692ff",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2400,
+          "path": "pittsburgh-stress-0900/002400.jpg",
+          "sha256": "6ba727ceb260cbd01ebed54820bde9fe36fdb8e9d7fcef882797a0374abb7393",
+          "source_sha256": "8ae6b661c3b3d44692641df5abfc664ba8536e496003c10ca8bb201cc806b9a4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2430,
+          "path": "pittsburgh-stress-0900/002430.jpg",
+          "sha256": "abd1eb3895c9056d1edd0c8ecb633f318ca310d6fd70e8841cd74cefc56d4823",
+          "source_sha256": "def1635c2300227a1e6d93e1d48c17e2441b77440648970971c202be968e0d1e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2460,
+          "path": "pittsburgh-stress-0900/002460.jpg",
+          "sha256": "72581c365a90ea5f9b45962d49bc1047e98fd6cefe655a47d64ac6f5c0a7764e",
+          "source_sha256": "017ee7c40894b6d4c4d4c5f6e33659a2b1332d6f19c2484b02683b6b743c0f16",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2490,
+          "path": "pittsburgh-stress-0900/002490.jpg",
+          "sha256": "32111e457a566c093efe66b6fc0d8561feff080c67fa613a4ce99aa1e4ec9b04",
+          "source_sha256": "a4c1228bbbcebdd0890690787a315feb3c1e6bdacabdde22455de1533bf9bb9c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2520,
+          "path": "pittsburgh-stress-0900/002520.jpg",
+          "sha256": "a642482afc99c1b17e8ea787a27295c63f73b3c283a5e8b02ac3a9595305cf06",
+          "source_sha256": "dda55b61d927cf0381e3ee95d3b9dff736e1f841ab6809c319f4cb7d35260fa6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2550,
+          "path": "pittsburgh-stress-0900/002550.jpg",
+          "sha256": "aa4c358543411ac876bcc456dd57c976af60f22b16b290a370905b8bcd7f6243",
+          "source_sha256": "da86da7b22d8c4dcf3e7dfba09bb11893d6e0744176eefb77291790a1773bcf4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2580,
+          "path": "pittsburgh-stress-0900/002580.jpg",
+          "sha256": "13a16fbaf65a89a15edc2c79dcc345ba55468f045198d874c795bd791780b914",
+          "source_sha256": "97228e3a37dc2a18c3643d3f5fb33c0ef52c39e5f35ac22b1e6773748ed1d4c4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2610,
+          "path": "pittsburgh-stress-0900/002610.jpg",
+          "sha256": "2fdb3a4565fbf9b6e052040b4c5be6429e023e79fc43239a17a4dacb2d284770",
+          "source_sha256": "a3648679025b777571a5ff3821baeec2d954f32a7e17d8a66c861b6caa6c4f57",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2640,
+          "path": "pittsburgh-stress-0900/002640.jpg",
+          "sha256": "07a6d14e6f28130aa8c0514e79e0c7a94af6229a5c8b7f75809df535a619e97b",
+          "source_sha256": "10d0c12c9a6bdb2a78ba1f0d467254c3cc80b8a4aa9a850d2dc362f20187a97a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2670,
+          "path": "pittsburgh-stress-0900/002670.jpg",
+          "sha256": "e590f2e386366351152ca0f5782bf77cb1a85fc1ab2f835fc626511d65624246",
+          "source_sha256": "822895039d9f2cd82a44983215f801cd1880f10add1cf704232e22a00882a26e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2700,
+          "path": "pittsburgh-stress-0900/002700.jpg",
+          "sha256": "6b757d8a657a031e991bddff12f99260df07d388732c385270a778da896e1a6f",
+          "source_sha256": "67321ec54e3c7d6fe8aaf757b620edc10dbfe8e4a28659aaa27f7b4de205e07b",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2730,
+          "path": "pittsburgh-stress-0900/002730.jpg",
+          "sha256": "971c0b2c3bd47a51aa94d43137616c614dfc2660bab3e013f41bb91386c59500",
+          "source_sha256": "d27b92b0a42e95c7fd4c082332ff90826b2d6da409ba031f21399a1f5e8b4e18",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2760,
+          "path": "pittsburgh-stress-0900/002760.jpg",
+          "sha256": "b7bf8548480076bcdc0a098130274c00d102ed84215a7b6e71ba0addba9868f6",
+          "source_sha256": "796853c74f68e44434697a6d235f8b36dcc06a059f421bde1491b603e1dcc332",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2790,
+          "path": "pittsburgh-stress-0900/002790.jpg",
+          "sha256": "a2e846c114ed6dd066523c1b95eb09672440215cf007c3aad0c1fc51764d3fe2",
+          "source_sha256": "6d0676d86ff32970f7f2ca3a7cc01af559a65a820955c62f3036f33e63befc56",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2820,
+          "path": "pittsburgh-stress-0900/002820.jpg",
+          "sha256": "5a9bf1be1323b37d9739583e007934cd1d4581ef83783f028989c3aee9f3e149",
+          "source_sha256": "821e667f39244f88bf53c9ef74b494f844a6b64859edaa594c00c9a87dad25ed",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2850,
+          "path": "pittsburgh-stress-0900/002850.jpg",
+          "sha256": "d9016cb00dacbe3743f13851bbde7213fa25a28bb9d98b0fdfb8fc919cebd59e",
+          "source_sha256": "b03a9b1740043c6d5a39eb311f7f1a77ea0186a9eba6f580a0796f81f8f1598a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2880,
+          "path": "pittsburgh-stress-0900/002880.jpg",
+          "sha256": "3ece34c2ec79253053e8efbdb72d37041ec391583e9ad8af43ff475fbe0bdba0",
+          "source_sha256": "2496568a764ad335436761fda74cb29fad1f9cdb325c09e849096a02fe11d647",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2910,
+          "path": "pittsburgh-stress-0900/002910.jpg",
+          "sha256": "25237aaed9b0a4c0a2cd8e20d50f6e22bd8e5b6a7a53a539b58a8bbccf13999a",
+          "source_sha256": "77a126e3feed6b46290271962b1a307492303f2ecfb0b1152402b0fd36ab9bc5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2940,
+          "path": "pittsburgh-stress-0900/002940.jpg",
+          "sha256": "b6b02da0cda078106ec6dbcd01d11d101abdd8b6cda4f1a499ce4ea9abdc9a76",
+          "source_sha256": "51fa40f21845a4e838f71aa328e736b768bba8596e2fca203aa939ab79a6472f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 2970,
+          "path": "pittsburgh-stress-0900/002970.jpg",
+          "sha256": "ebcabdf0a6ec146eb509ee319f76b98e1124ebe3956811068d246676ec420cbf",
+          "source_sha256": "098d36c03df139eea25235b5ba06f7df6fb746cecf74a3b0170abb095e435f21",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3000,
+          "path": "pittsburgh-stress-0900/003000.jpg",
+          "sha256": "aa855051f02d431bc3662e9b32cb5568b3ecef5a08ed393c01d4ba54a60f9e08",
+          "source_sha256": "ad3b76467c029f462bde745fe0766890b5dd1f70ea1c1f29af081d573337fcc5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3030,
+          "path": "pittsburgh-stress-0900/003030.jpg",
+          "sha256": "2255951e042c227c55e4b7867c1382330d2b7f27d05bad9d318201dc6bd24331",
+          "source_sha256": "355cd8c2c5b2c027d4e318b08c387c4990805fc1a115a399feed021b2e54aa33",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3060,
+          "path": "pittsburgh-stress-0900/003060.jpg",
+          "sha256": "15e32fbdbfb7c0cc21722727c89fd50bdcc8be0e8e70596c5d29f606c0979515",
+          "source_sha256": "8e72ad5af266dfdf480b735da95663cfbb5c1b36f14dd03630e903e29372ffc0",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3090,
+          "path": "pittsburgh-stress-0900/003090.jpg",
+          "sha256": "dc2742e16a085f297323849ecd38c14c2d315cdf61a7bb35211a076b4337e8fe",
+          "source_sha256": "64fe348da18504ccef30433812205e9ca105b2fc1c90e54393787c29dfd13b8d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3120,
+          "path": "pittsburgh-stress-0900/003120.jpg",
+          "sha256": "f2deab9ea0acb6d287b086131915341e9f2c7733fa58f1181d2837db5a96db83",
+          "source_sha256": "aa07b832fb24a9ead9293aa1a6881a83a888273cbeec45dad82531b6fa9ebef2",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3150,
+          "path": "pittsburgh-stress-0900/003150.jpg",
+          "sha256": "d6735a010a2b7f04f82068a0b573e20da8ef330ed9657de03c67beccf8924bba",
+          "source_sha256": "f9043e7022a7d634123042240e0a977ed067d23d300c0e0f402a85193f6f1c81",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3180,
+          "path": "pittsburgh-stress-0900/003180.jpg",
+          "sha256": "c4e161710f73c192e76c9e7f9aecf0787ae36573fa10df82260057b6bc81916c",
+          "source_sha256": "d3d6860c472d84f2bc9558ad685c3ff13f53a895fc4229cab80d8b3e73c24e8e",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3210,
+          "path": "pittsburgh-stress-0900/003210.jpg",
+          "sha256": "ca8aa7fa2aaad51387990ce21bdf42a449e127afc95eabc5ac88012622a6dc75",
+          "source_sha256": "7778f3022403fd4a1607ca6978811e7608d1c30574d23f14614a18943655f70d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3240,
+          "path": "pittsburgh-stress-0900/003240.jpg",
+          "sha256": "a0a0f850e2485235eb674865572dbe3bef28c1f57ebc2ad73964cf5cc4143503",
+          "source_sha256": "bd6407aa6a1ac8b8ac3a6e36bb498f0e06647633d8f5ba61b85658dad51994b0",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3270,
+          "path": "pittsburgh-stress-0900/003270.jpg",
+          "sha256": "8276542dea2043079061a3c5ae4be03b959666531157f79e2833d71807e26a1b",
+          "source_sha256": "a4a0cd093343937dd0e51414595796e6e81c2a53224fded9e793f3d969ddf01f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3300,
+          "path": "pittsburgh-stress-0900/003300.jpg",
+          "sha256": "8b7475696315084b006d17f19a1f0560e045812db994f77bca031bcf74858e91",
+          "source_sha256": "16944b185e47ad38cd26d0e049410d8ab545b78d463fff9050dde0d83238b66f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3330,
+          "path": "pittsburgh-stress-0900/003330.jpg",
+          "sha256": "b7d142e32856c7a00eb4ae0add79ce1c7b72927201fc973f098888ce9f9d0358",
+          "source_sha256": "295c022d7e405060c39816794a9fd1442adc0822f0cf4754ff0e144f6299c2e3",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3360,
+          "path": "pittsburgh-stress-0900/003360.jpg",
+          "sha256": "6d3ae95671d9894de751318fb6eb0947d21841995911f5b1bc5e206bdfb295ac",
+          "source_sha256": "07ab94070184dd9a03ed1eb9e4cae86e5f9747d23242d1a7892cd83cdc34e248",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3390,
+          "path": "pittsburgh-stress-0900/003390.jpg",
+          "sha256": "b7b6726ff970dc9aafe8ad4f872f738ef3608be51537d78a8cda32778c72d49a",
+          "source_sha256": "a2afd587f68a3265bfd113a7e00dd12203ace1977b16438ec83f819842b304ad",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3420,
+          "path": "pittsburgh-stress-0900/003420.jpg",
+          "sha256": "d8c964184d173b26f9a1d1e15fa21fc927384539e3a7ca5d1f24838b7ede6244",
+          "source_sha256": "a0428707d6fcaa039e2009255eef780b52eeebb282a00a8ce6ba1f36372eada6",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3450,
+          "path": "pittsburgh-stress-0900/003450.jpg",
+          "sha256": "331cdd03c72a7e4456ac1ae850ce74bac1726fae70c738aa8c5b6ff2757918c4",
+          "source_sha256": "38a409dc70f8b95330f99f583c95b77a5f115e7b292ce1aecfd898bc556ac1e0",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3480,
+          "path": "pittsburgh-stress-0900/003480.jpg",
+          "sha256": "2e3d54700691eb5a74544580b08eddc366ccf60190501314783e94c69c838bd4",
+          "source_sha256": "727b6d046778068a560496ed141d5d99765878ab0d11c04396d7659e837f8c43",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3510,
+          "path": "pittsburgh-stress-0900/003510.jpg",
+          "sha256": "e439a98fc4fb56540ddfc976f35524a23ece8d0e5e979d5ffd671a71f7afe98b",
+          "source_sha256": "17d1b5725b15910c23c9f0ec31b08763e2eb5bd2994ab37deb7ed86846e6bc0f",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3540,
+          "path": "pittsburgh-stress-0900/003540.jpg",
+          "sha256": "c2bf0c8db158446f46d065f1c35d4e0a6b72341abc231b50dbf5df7d13619c20",
+          "source_sha256": "a8ec88a7587b6bc9a70bd07acd0512fc708c5ec2f841c9d2e71b8a20ebd069d2",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3570,
+          "path": "pittsburgh-stress-0900/003570.jpg",
+          "sha256": "6122da4002dc2a7cbdda125cf1ea268af966220181f6d63112391dad75d746dd",
+          "source_sha256": "9ce5e5748ec326f5eb0d8459e948f84bab329e04a737955fbfeb6471847097d4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3600,
+          "path": "pittsburgh-stress-0900/003600.jpg",
+          "sha256": "b8ab2fd8c07bfa72562882a3cfb8f003cad7fc85cabb12224012ada9ed206732",
+          "source_sha256": "9adc73b1a25514ae569dff1a10b36f1c3e81d3fe37d7eadda59aa64757a96ffa",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3630,
+          "path": "pittsburgh-stress-0900/003630.jpg",
+          "sha256": "e31605e048fad514b222f94e771f5e8604ba8d790d46d3e7a93fa10708163b6c",
+          "source_sha256": "38be06093f220ec28662aa8cd02163426486c516eb0ce352278ff34e0d85e1a4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3660,
+          "path": "pittsburgh-stress-0900/003660.jpg",
+          "sha256": "3cd7868fb9cad082129dc8d243cbe52ffcfa18c2c4b14f6ee81198ef65fd6a49",
+          "source_sha256": "174397c4af9eef409205b615e0a3359f4539d6accb3a5347a8807aef1ae69070",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3690,
+          "path": "pittsburgh-stress-0900/003690.jpg",
+          "sha256": "640f6cd4584033135e923b081763d6e9c4303f3abb791868f9a501ef81dde132",
+          "source_sha256": "703226bdf5ab22c33654491c1eac6c8ab47188d94c928c220c905de5ef5c6c5a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3720,
+          "path": "pittsburgh-stress-0900/003720.jpg",
+          "sha256": "06dcba54419298cf8cd487c6e3420a1c87bb9f0a5c6b409391d0bc932c03f066",
+          "source_sha256": "376f6da2d694b299b71b5d21ea0c77f8d39f8e34d4cfbde96ca13aa9db166f32",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3750,
+          "path": "pittsburgh-stress-0900/003750.jpg",
+          "sha256": "bda565b2e4231bc9908a4be8e4084858880390697548252e9cb35a1ffc5ccddd",
+          "source_sha256": "a2151ee69f40a1265bbb7e69cc386df921f1ee37abd244c0afc43fbc303b8471",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3780,
+          "path": "pittsburgh-stress-0900/003780.jpg",
+          "sha256": "bfb2d072fc0c4986cc0d47a4bee3d1d39cd69db21eb6921360d711a6c36e50af",
+          "source_sha256": "b1f3fbe566715663c420cc01e8a2dd46f1d4a3ff97cf54ba78576e8c502cc97c",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3810,
+          "path": "pittsburgh-stress-0900/003810.jpg",
+          "sha256": "132c07ccb2146f7ec7e91b88fe385eb1e83a64e3b777d4f5f4fb33ceef949a84",
+          "source_sha256": "48f88e1e3f01dba6e718ddbc2c4bb3bc91ee5719f68e887aa436459e3819b8b5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3840,
+          "path": "pittsburgh-stress-0900/003840.jpg",
+          "sha256": "efb4c56dbc80668f967dd2f8afb653fcdf500eb5fd666151ce0d1e243f8da3e8",
+          "source_sha256": "6517a85ba79773aeee947f2982647c7da4e295fd7837a1b227f6a7d8b5495996",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3870,
+          "path": "pittsburgh-stress-0900/003870.jpg",
+          "sha256": "a2a6bb027918fe45d39a8eb9e3b26302d333741ac4250cc697336a93c939b95a",
+          "source_sha256": "eef4710feb41f5d283809aa59f495d52567de17f5bfda87f846dfb6652757145",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3900,
+          "path": "pittsburgh-stress-0900/003900.jpg",
+          "sha256": "971e8b624465975bfae024f9caa82c18d9bea75e840c3c4826188fb8cf00f320",
+          "source_sha256": "3b284633fefaa224cba72cbf2220bf9d5698e4f3cbc0f5e6b9b96f4753eb38d9",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3930,
+          "path": "pittsburgh-stress-0900/003930.jpg",
+          "sha256": "aee5b3d9a7020d0ef1a2956db183839f9be7d3eaf9a56e151eab508f57f28f1b",
+          "source_sha256": "50207d11437a52d95756954ae74e05fd6aa5fefb6797a075afc6643aad962158",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3960,
+          "path": "pittsburgh-stress-0900/003960.jpg",
+          "sha256": "2f0c238fae3a580ada793640f6bdb125e1a32c3178e005215689dd5e5212469f",
+          "source_sha256": "150dcf31feb947bf6f44c4838482d265e9f8db8659a914780d397fc7153bcb51",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 3990,
+          "path": "pittsburgh-stress-0900/003990.jpg",
+          "sha256": "576f94b99e553a188c41670540f5ae40d1c88234e65474e899a27e63603b22e3",
+          "source_sha256": "74e28c5bebc53be7d0e2cab724400b4aad273271f3939a07b5d2ffa790760016",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4020,
+          "path": "pittsburgh-stress-0900/004020.jpg",
+          "sha256": "15f1b9f149b6413da36120740ef05c032bb558ace67c334dbffc1d0f0f976945",
+          "source_sha256": "efd8fe13c16cc394d749a59984b771c19ca5ad676708e2b49b51ed51676ccb97",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4050,
+          "path": "pittsburgh-stress-0900/004050.jpg",
+          "sha256": "61980f92eb0159f2b182c76019bc5780d608e2ed5a3b4199d82116495fa6a392",
+          "source_sha256": "1227d118c1fd9924f624592031138b0361d2aed6e9d9be06d253f5f811cd6f05",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4080,
+          "path": "pittsburgh-stress-0900/004080.jpg",
+          "sha256": "61c27bf2643d96bd7d41d162a328238ff76c8b3941eaa0cd1aa6d12588060466",
+          "source_sha256": "44aa15bd78035a2dcf0fbb02145550372d12d699d604ad0462e7c53f698636fe",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4110,
+          "path": "pittsburgh-stress-0900/004110.jpg",
+          "sha256": "1ac96b75a8d3febfeec6bcc60b3c739fd4adc78f3b548f88a7b02f97245f96b1",
+          "source_sha256": "7dd63f6df00798f254b38f0a2e6ca153c11697f63552f1bceeb4aff3b984f4f0",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4140,
+          "path": "pittsburgh-stress-0900/004140.jpg",
+          "sha256": "334ceba7abf335547f1d4f1753c070274b0722900bded672c53f465cd6724453",
+          "source_sha256": "d848fd325f31c4fc273376daa54b0cc1efed8dd7c310ece4b188d6c92acb2861",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4170,
+          "path": "pittsburgh-stress-0900/004170.jpg",
+          "sha256": "38a111e732d25e819a7bccd2b685386abc1cbdbb55da7dbe4b9e6a5e69c88b5d",
+          "source_sha256": "5fdb7c0e85a13b49b096b74ae2e9debc1257fdca1988f11369de310436f058d1",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4200,
+          "path": "pittsburgh-stress-0900/004200.jpg",
+          "sha256": "3bba69ce407f03fd59ea6b6b615d774a2d382d7f6d4ae80ee5b73637b7e41dfa",
+          "source_sha256": "e78af5b29d928fd235118398d22355df5206dd8bffbf276988a8f58bdd258d55",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4230,
+          "path": "pittsburgh-stress-0900/004230.jpg",
+          "sha256": "c0107c6ce3b2fce20789247f356a4a084c52fa3c6b2f27f6f2790cb35a2f34ed",
+          "source_sha256": "09e6389846bb326a34d8cf378fac3004dc433d2e3b358cfc3dfa56f8188a709a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4260,
+          "path": "pittsburgh-stress-0900/004260.jpg",
+          "sha256": "3e2f3a1255b51eacf502f0e17784577c82a3ad3a70d08354f28fbabec79fadbf",
+          "source_sha256": "27b59201af44c9a90df3b5557ee70bc075c1fe42a9ebf627ffe5d83880251ce5",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4290,
+          "path": "pittsburgh-stress-0900/004290.jpg",
+          "sha256": "335966c3687f1dec518e30dd9667372db6e2d1b52fd61af0609001ea8b1d2568",
+          "source_sha256": "363578c450f5cad1be14f22f9bab4f918dc7901f8d4728dabfec8c18100edab4",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4320,
+          "path": "pittsburgh-stress-0900/004320.jpg",
+          "sha256": "43c07568b8ce3dc1aaad202a33f1b4b7ceffbf81dbc2a4a1ce7abdf8810c44fa",
+          "source_sha256": "daf13fc7d30cf673affc3dcc23372e97b383fa2ccf1bbf3a2eb0726aace2fcd1",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4350,
+          "path": "pittsburgh-stress-0900/004350.jpg",
+          "sha256": "164304e312536b03fdba554ab9d9849293d0412d41f499bc6236785e2bd33553",
+          "source_sha256": "07a4a4f659473214046d4774700100936ae83abe5a7564f4fd1e0100e4b77ac3",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4380,
+          "path": "pittsburgh-stress-0900/004380.jpg",
+          "sha256": "ea2c517ed94c574f807ca5e486de51ad26a1a6ddf76da56315894a8edf824abb",
+          "source_sha256": "7c491658d3aaa62e9a38eac711e49df697f7e0477f4ec382d264221e826c56e7",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4410,
+          "path": "pittsburgh-stress-0900/004410.jpg",
+          "sha256": "3bc0e2d47145ea24b8d390bf9471c7e549f3ab206090e8cc15362978f5576536",
+          "source_sha256": "6473dc55b1cebc77b8110ac0d5f4443d92e54869972c023332288ce6513afbc7",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4440,
+          "path": "pittsburgh-stress-0900/004440.jpg",
+          "sha256": "6f8294d6a7dea84207ad37ce7706ce00ce520bbee7b16337e81dc9165789a371",
+          "source_sha256": "d687e86b0c20c1f498c2dcb8e61b10b9813914e721a9073ff3117ac371ec9a0d",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4470,
+          "path": "pittsburgh-stress-0900/004470.jpg",
+          "sha256": "c87480c2a28c2c3c752d96256fd7f0acddfb253dc73e9edafd81b0c139fc37b5",
+          "source_sha256": "e807f38c80265c7c6332639c7df65b1dca6416250042148b8980f8ef64718d1a",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "frame": 4499,
+          "path": "pittsburgh-stress-0900/004499.jpg",
+          "sha256": "6afa9575c5fc7aa066f8f59e3bea6a45c9eb86d6d33241054a373252e2390517",
+          "source_sha256": "f6cc5f5601b587cb2cc7b1a5bb37f18ba58fa9d46b6ee9355e6dd8266211b9bd",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    }
+  ]
+}
