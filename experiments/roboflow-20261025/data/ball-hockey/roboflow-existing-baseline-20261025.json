@@ -1,0 +1,88 @@
+{
+  "method": "existing",
+  "label": "Existing SAM2 + OSNet + Qwen joint 2B",
+  "counts": {
+    "correct": 111,
+    "wrong": 0,
+    "unknown_same": 4,
+    "same_total": 129,
+    "different_total": 1330,
+    "missing": 148,
+    "matched_observations": 222,
+    "reference_observations": 233
+  },
+  "clips": [
+    {
+      "clip": "pittsburgh-0600",
+      "counts": {
+        "correct": 18,
+        "wrong": 0,
+        "unknown_same": 1,
+        "same_total": 20,
+        "different_total": 191,
+        "missing": 9,
+        "matched_observations": 38,
+        "reference_observations": 39
+      },
+      "source_prediction_sha256": "eef286d513bd534d4f8729defacb8a64c5a9865255e419f309d9125340e69fca"
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "counts": {
+        "correct": 25,
+        "wrong": 0,
+        "unknown_same": 1,
+        "same_total": 32,
+        "different_total": 315,
+        "missing": 62,
+        "matched_observations": 43,
+        "reference_observations": 47
+      },
+      "source_prediction_sha256": "e5a1f8231a7e7d82255a42bbf3f37e42db7a83561f5ab094acd9095ea29f4d36"
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "counts": {
+        "correct": 47,
+        "wrong": 0,
+        "unknown_same": 1,
+        "same_total": 49,
+        "different_total": 418,
+        "missing": 18,
+        "matched_observations": 56,
+        "reference_observations": 57
+      },
+      "source_prediction_sha256": "952689ad2a16a1fcbab03cadf7a8b31325949a14c9720354aa0cfc7497c07021"
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "counts": {
+        "correct": 0,
+        "wrong": 0,
+        "unknown_same": 1,
+        "same_total": 2,
+        "different_total": 38,
+        "missing": 16,
+        "matched_observations": 20,
+        "reference_observations": 22
+      },
+      "source_prediction_sha256": "14094a3ff613c717adfdbb07ee9a12143d1073281b878aeee17ea872ae722e93"
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "counts": {
+        "correct": 21,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 26,
+        "different_total": 368,
+        "missing": 43,
+        "matched_observations": 65,
+        "reference_observations": 68
+      },
+      "source_prediction_sha256": "3f70bb7720841726832ebde3839d898ffed18324a28fba2f5d2d183f9dcd3c48"
+    }
+  ],
+  "reference_sha256": "d75c360c51a07a32c5369955cc3a4afc6190ae7c46822015a061808757dc12d1",
+  "source": "Previously published sampled predictions; independently recounted without rerunning inference."
+}

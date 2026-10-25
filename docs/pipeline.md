@@ -29,4 +29,6 @@ The output is a deep copy of the observations with connected IDs relabeled. `loc
 
 ## From tracks to stats
 
+The [Roboflow replacement experiment](../experiments/roboflow-20261025/) supplies an alternative detector/tracker adapter using RF-DETR and five upstream tracker implementations. Sports TeamClassifier and ViewTransformer can supply team clusters and coordinate projection, but they do not establish roster identity, camera calibration or game events. The tested Roboflow trackers and retained-OSNet hybrid underperformed the current pipeline on the reused identity checks, so the recommended path above is unchanged. The hybrid does not include Qwen embeddings. Team clustering also failed on many Maryland observations; its confidence gate is not a guarantee.
+
 Full-game player identity requires roster/jersey evidence and memory across camera cuts and shifts. Time on floor requires entry/exit evidence, not merely camera visibility. Distance requires verified rink dimensions, camera calibration and reliable floor positions. Shots and possession additionally need ball/event observations. None of these is supplied by the reconnection API.

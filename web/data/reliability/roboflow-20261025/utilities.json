@@ -1,0 +1,4648 @@
+{
+  "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+  "geometry": {
+    "calibration_sha256": "01bfa217b8979a08e6ea633db6679be81f963178d4651db1051032a2323b6d65",
+    "point_count": 4,
+    "maximum_difference_relative_units": 7.346412042743113e-16,
+    "source_points": [
+      [
+        487.8245544433594,
+        493.1050720214844
+      ],
+      [
+        999.9915771484375,
+        473.51397705078125
+      ],
+      [
+        1286.9512939453125,
+        612.9602661132812
+      ],
+      [
+        497.222900390625,
+        648.1779174804688
+      ]
+    ],
+    "target_points": [
+      [
+        0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "output_points": [
+      [
+        -5.509809032057335e-16,
+        -1.0
+      ],
+      [
+        1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        -0.0
+      ],
+      [
+        -3.5305842018996535e-16,
+        -0.0
+      ]
+    ],
+    "dimensions_verified": false,
+    "metric_distances_allowed": false,
+    "scope": "Numerical compatibility of the projection utility only. Manual correspondences, camera registration, visibility gating and dimensions remain external."
+  },
+  "ball": {
+    "confidence_threshold": 0.6,
+    "buffer_size": 10,
+    "counts": {
+      "all": {
+        "top_confidence": {
+          "reviewed_visible": 108,
+          "answered": 85,
+          "correct": 85
+        },
+        "sports_balltracker": {
+          "reviewed_visible": 108,
+          "answered": 85,
+          "correct": 85
+        }
+      },
+      "train": {
+        "top_confidence": {
+          "reviewed_visible": 92,
+          "answered": 74,
+          "correct": 74
+        },
+        "sports_balltracker": {
+          "reviewed_visible": 92,
+          "answered": 74,
+          "correct": 74
+        }
+      },
+      "validation": {
+        "top_confidence": {
+          "reviewed_visible": 16,
+          "answered": 11,
+          "correct": 11
+        },
+        "sports_balltracker": {
+          "reviewed_visible": 16,
+          "answered": 11,
+          "correct": 11
+        }
+      }
+    },
+    "rows": [
+      {
+        "clip": "ca-0180",
+        "frame": 4,
+        "split": "train",
+        "frame_sha256": "e6d2c42f336b38625a762b58c30b706a99acc08d55e925ec51cfd38c2e5d86aa",
+        "reference_center": [
+          1552,
+          982
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9245713871843328,
+          "bbox": [
+            1538.3,
+            967.514,
+            1567.548,
+            996.421
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9246425788696692,
+          "bbox": [
+            1538.300048828125,
+            967.5139770507812,
+            1567.5479736328125,
+            996.4210205078125
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 6,
+        "split": "train",
+        "frame_sha256": "b117c244407add51a0a887a595ef4f656443978ec2375632711b4f031e9b71d1",
+        "reference_center": [
+          1477,
+          931
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.43783101763126375,
+          "bbox": [
+            1460.941,
+            917.147,
+            1492.979,
+            945.725
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.4378088176240249,
+          "bbox": [
+            1460.9410400390625,
+            917.14697265625,
+            1492.97900390625,
+            945.7249755859375
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 8,
+        "split": "train",
+        "frame_sha256": "b0dad0456fda4775eb6c160be9d1434e27cbc5f5daad49f260a38103cf8dcb24",
+        "reference_center": [
+          1356,
+          874
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9346599649070447,
+          "bbox": [
+            1341.252,
+            860.871,
+            1372.402,
+            888.0
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9345686881630234,
+          "bbox": [
+            1341.251953125,
+            860.8709716796875,
+            1372.4019775390625,
+            888.0
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 10,
+        "split": "train",
+        "frame_sha256": "3ce4f7e104715807975db58c32d77619f23b3f854701263a41ac48f75fc69eec",
+        "reference_center": [
+          1250,
+          832
+        ],
+        "radius": 11.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.789239852562903,
+          "bbox": [
+            1239.408,
+            819.848,
+            1264.166,
+            844.331
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.7892260497519528,
+          "bbox": [
+            1239.407958984375,
+            819.8480224609375,
+            1264.166015625,
+            844.3309936523438
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 12,
+        "split": "train",
+        "frame_sha256": "8071bc8bc8a8aa3fac3f9ac93aef85e64748d34806a78385315a88c16bd70539",
+        "reference_center": [
+          1219,
+          817
+        ],
+        "radius": 11.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.48944279543168573,
+          "bbox": [
+            1207.158,
+            804.707,
+            1231.786,
+            829.034
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.48937373206216733,
+          "bbox": [
+            1207.157958984375,
+            804.7069702148438,
+            1231.7860107421875,
+            829.0339965820312
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 14,
+        "split": "train",
+        "frame_sha256": "d02038357397ada7805d75c82b36d330ccb38ac8ecd558dba7bc04485c60cb94",
+        "reference_center": [
+          1259,
+          804
+        ],
+        "radius": 11.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4886017768361552,
+          "bbox": [
+            1244.622,
+            792.108,
+            1276.288,
+            816.521
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4885489205578972,
+          "bbox": [
+            1244.6219482421875,
+            792.1079711914062,
+            1276.2879638671875,
+            816.52099609375
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 188,
+        "split": "train",
+        "frame_sha256": "3e45b5876be0397e092033d74f7081319b832612aa21a1f04757690a1b469140",
+        "reference_center": [
+          1033,
+          748
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.442772707396108,
+          "bbox": [
+            1021.16,
+            733.672,
+            1049.263,
+            760.253
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.4426951462254824,
+          "bbox": [
+            1021.1599731445312,
+            733.6719970703125,
+            1049.262939453125,
+            760.2529907226562
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 190,
+        "split": "train",
+        "frame_sha256": "8b11cd99a3c1cf88dabe0049f3e077898fbd91cc1d322d9e4062b47ca3053a74",
+        "reference_center": [
+          971,
+          703
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.2397259877047184,
+          "bbox": [
+            956.946,
+            691.033,
+            986.991,
+            719.006
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.23975669869972,
+          "bbox": [
+            956.9459838867188,
+            691.0330200195312,
+            986.9910278320312,
+            719.0059814453125
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 192,
+        "split": "train",
+        "frame_sha256": "e5cc8909ceb8f8ff9985ddcb099714474fced7645ac5d0a69ec6562760079a3d",
+        "reference_center": [
+          892,
+          685
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8029707342114257,
+          "bbox": [
+            874.894,
+            668.783,
+            907.724,
+            700.399
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8030034493703913,
+          "bbox": [
+            874.8939819335938,
+            668.7830200195312,
+            907.7239990234375,
+            700.3989868164062
+          ]
+        }
+      },
+      {
+        "clip": "ca-0180",
+        "frame": 194,
+        "split": "train",
+        "frame_sha256": "9445a467dee989eb01edc6a015ac702ef319e5de86031c4b6216a099fcc23972",
+        "reference_center": [
+          779,
+          697
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.5199312454546869,
+          "bbox": [
+            758.54,
+            678.215,
+            799.193,
+            714.78
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.5198861537616456,
+          "bbox": [
+            758.5399780273438,
+            678.2150268554688,
+            799.1929931640625,
+            714.780029296875
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 60,
+        "split": "train",
+        "frame_sha256": "8789c96b032986043a13ce19803a37f8ba7969519cd080e155425d154226dd9b",
+        "reference_center": [
+          1349,
+          518
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 64,
+        "split": "train",
+        "frame_sha256": "e66a157103a0c7e5658c1fa6942a1c54c9d7e4e484923c5dc549c4041408fd88",
+        "reference_center": [
+          1262,
+          531
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 68,
+        "split": "train",
+        "frame_sha256": "9149ecfb33241acd53cc381aeb595b061088b294bb13ffc57f48e994aca1dc4b",
+        "reference_center": [
+          1170,
+          554
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 70,
+        "split": "train",
+        "frame_sha256": "050665db3412ed7e2763441f6b389bd52444a4baca5b72ceb1e26d0b974f469c",
+        "reference_center": [
+          1122,
+          562
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7230707088522081,
+          "bbox": [
+            1114.316,
+            555.339,
+            1129.906,
+            570.09
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7230614119211669,
+          "bbox": [
+            1114.3160400390625,
+            555.3389892578125,
+            1129.906005859375,
+            570.0900268554688
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 72,
+        "split": "train",
+        "frame_sha256": "8c9d1dbc07f255e6c86e2fd5c3b83b2acc3df5fb5e7b5e9f8b50f0eced3efa92",
+        "reference_center": [
+          1075,
+          568
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.399294107755758,
+          "bbox": [
+            1067.595,
+            562.387,
+            1081.465,
+            576.249
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3992778288500418,
+          "bbox": [
+            1067.594970703125,
+            562.3870239257812,
+            1081.4649658203125,
+            576.2490234375
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 76,
+        "split": "train",
+        "frame_sha256": "2c42083e5e84fcc1b32dbd4d2bea0b3750b299ab6bc54d5db971ec493197c939",
+        "reference_center": [
+          980,
+          581
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 78,
+        "split": "train",
+        "frame_sha256": "b621714f74e97d31a2eb816d595255e49878de09b2e74be3a6bdd1d8505ed5af",
+        "reference_center": [
+          1014,
+          577
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 80,
+        "split": "train",
+        "frame_sha256": "f1494dd156fe7637663b5134c2f100bffa30c927ece281b8761ddabc52791631",
+        "reference_center": [
+          1062,
+          581
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.6214201337099803,
+          "bbox": [
+            1052.669,
+            574.653,
+            1070.454,
+            590.469
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.6214476417418722,
+          "bbox": [
+            1052.6689453125,
+            574.6530151367188,
+            1070.4539794921875,
+            590.468994140625
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 82,
+        "split": "train",
+        "frame_sha256": "5441b73c0531c5d0fb2e18c3968385fcfcf10784a472194c03b1b17806c3b339",
+        "reference_center": [
+          1104,
+          580
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 84,
+        "split": "train",
+        "frame_sha256": "58b03e018a5536e9485bd40a579c6b9899ee90db8d6561115ccb82c9f6404c19",
+        "reference_center": [
+          1141,
+          582
+        ],
+        "radius": 7.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3973185928770266,
+          "bbox": [
+            1130.149,
+            574.062,
+            1151.512,
+            592.712
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3972737035605787,
+          "bbox": [
+            1130.1490478515625,
+            574.06201171875,
+            1151.511962890625,
+            592.7119750976562
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 86,
+        "split": "train",
+        "frame_sha256": "f0d91a60a80162bce81e4fe7532b26e263f8fdfac195a8877af6bff6d5fc8b43",
+        "reference_center": [
+          1174,
+          583
+        ],
+        "radius": 8.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.979637971953473,
+          "bbox": [
+            1163.136,
+            574.747,
+            1186.659,
+            594.782
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.9796437646299636,
+          "bbox": [
+            1163.135986328125,
+            574.7470092773438,
+            1186.6590576171875,
+            594.781982421875
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 88,
+        "split": "train",
+        "frame_sha256": "297c4384d32894e17ccac1ce1ae16d06dbc352beba5b1c9b359efa6f67018634",
+        "reference_center": [
+          1198,
+          587
+        ],
+        "radius": 9.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4572619874270973,
+          "bbox": [
+            1184.256,
+            579.003,
+            1211.209,
+            597.862
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4572715305476,
+          "bbox": [
+            1184.2559814453125,
+            579.0029907226562,
+            1211.208984375,
+            597.8619995117188
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 90,
+        "split": "train",
+        "frame_sha256": "f44d4132c85e598e49cb9b16e00bcb5d5117b65aa49f3f274fe95e06057a3d5e",
+        "reference_center": [
+          1211,
+          591
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4067069701967914,
+          "bbox": [
+            1201.17,
+            583.806,
+            1219.043,
+            600.367
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4067786653515568,
+          "bbox": [
+            1201.1700439453125,
+            583.8060302734375,
+            1219.04296875,
+            600.3670043945312
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 92,
+        "split": "train",
+        "frame_sha256": "8dd2ed24a4cf81350108b723fabd3384db5e61ce71fad41d7996d164d9209155",
+        "reference_center": [
+          1220,
+          597
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2167912721580527,
+          "bbox": [
+            1211.42,
+            588.181,
+            1229.84,
+            603.737
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2168071679036627,
+          "bbox": [
+            1211.4200439453125,
+            588.1810302734375,
+            1229.8399658203125,
+            603.7369995117188
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 94,
+        "split": "train",
+        "frame_sha256": "24d2f40f163ec71ec7fd8e27361a63f0a3d715c6468e086f77ebc41a3221993a",
+        "reference_center": [
+          1227,
+          602
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4316184023685121,
+          "bbox": [
+            1217.989,
+            594.977,
+            1235.422,
+            611.825
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4316056990168833,
+          "bbox": [
+            1217.989013671875,
+            594.9769897460938,
+            1235.4219970703125,
+            611.8250122070312
+          ]
+        }
+      },
+      {
+        "clip": "ca-0340",
+        "frame": 96,
+        "split": "train",
+        "frame_sha256": "24057ba3ba02208669b40ddb2611de9799cd138cf5d497e6dbee2aa931baf91d",
+        "reference_center": [
+          1234,
+          609
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2857946958983597,
+          "bbox": [
+            1224.22,
+            599.418,
+            1245.036,
+            616.338
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2857151903090625,
+          "bbox": [
+            1224.219970703125,
+            599.4180297851562,
+            1245.0360107421875,
+            616.3380126953125
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 10,
+        "split": "train",
+        "frame_sha256": "aeb1dea7c99050c103b2150334157f3152ebce9a1a3a498cf798d1d99cae2de7",
+        "reference_center": [
+          1722,
+          714
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 14,
+        "split": "train",
+        "frame_sha256": "41d1e9ed2f3745cb77b010e0591f1876db15628b9a13583c312cbf602dabab4a",
+        "reference_center": [
+          1693,
+          716
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 16,
+        "split": "train",
+        "frame_sha256": "a294e78daa46eab51c25a9b122902ff12ec2449c43d3fca59272ae4f9306f9ba",
+        "reference_center": [
+          1691,
+          720
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 24,
+        "split": "train",
+        "frame_sha256": "bbd7cd3ec97fb1067809f330dacf4ac824bdfed8fbd42b692ebe7442b569f7c3",
+        "reference_center": [
+          1672,
+          719
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 26,
+        "split": "train",
+        "frame_sha256": "fcd1bd7da8ba54f669d08c70f2e7cf55a5636a476b60dd2b125d84dc1f6f96fc",
+        "reference_center": [
+          1669,
+          719
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 28,
+        "split": "train",
+        "frame_sha256": "e7999c6b57e6296be1ca5407759492ea34d1fd3e038f6b656721a28e73bb3cc1",
+        "reference_center": [
+          1665,
+          717
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.156820634637901,
+          "bbox": [
+            1656.363,
+            711.098,
+            1669.336,
+            722.572
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.156709899266502,
+          "bbox": [
+            1656.363037109375,
+            711.0980224609375,
+            1669.3360595703125,
+            722.572021484375
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 30,
+        "split": "train",
+        "frame_sha256": "0218ee1c9f6681a95b348a321d88c0bfc512ae4948fe5058fbb400a48be2c62f",
+        "reference_center": [
+          1661,
+          719
+        ],
+        "radius": 7.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 32,
+        "split": "train",
+        "frame_sha256": "78734e98244f42d4f728da0255f3ad97be0fdd41fbcea7fc5e377f38e56018e7",
+        "reference_center": [
+          1659,
+          713
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 36,
+        "split": "train",
+        "frame_sha256": "d4b43786ca2b7c9c2b320d99aa78f6e0ba684fdfb2dd6b7c71f50db00c72fba9",
+        "reference_center": [
+          1631,
+          698
+        ],
+        "radius": 5.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 94,
+        "split": "train",
+        "frame_sha256": "1cda0be57c0f67ece16f78002133a58bdf41a9af9e7b3f2401753cc3b0a3a1b0",
+        "reference_center": [
+          703,
+          593
+        ],
+        "radius": 9.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.369440455283398,
+          "bbox": [
+            692.153,
+            583.042,
+            714.106,
+            603.65
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.3694540489557901,
+          "bbox": [
+            692.1530151367188,
+            583.0419921875,
+            714.1060180664062,
+            603.6500244140625
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 96,
+        "split": "train",
+        "frame_sha256": "82bfc7e2f398c195d84e7ce2c91d2e1cfcc9c63e21776d08899a5000c41ad124",
+        "reference_center": [
+          715,
+          567
+        ],
+        "radius": 9.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8085598308102763,
+          "bbox": [
+            705.219,
+            556.322,
+            726.341,
+            578.104
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8085914372212971,
+          "bbox": [
+            705.218994140625,
+            556.322021484375,
+            726.3410034179688,
+            578.10400390625
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 98,
+        "split": "train",
+        "frame_sha256": "c65ae5c1db9de0def2286c704a8d0c877144a015cca66a7319fdc28401ba3320",
+        "reference_center": [
+          729,
+          552
+        ],
+        "radius": 10.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8747492497852988,
+          "bbox": [
+            719.236,
+            540.595,
+            740.353,
+            562.673
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8748114523228976,
+          "bbox": [
+            719.2360229492188,
+            540.594970703125,
+            740.35302734375,
+            562.6729736328125
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 100,
+        "split": "train",
+        "frame_sha256": "d31c682a6b77c333511ec35c00fe9fc6fc82a800bef9b087d4cde4f48f561882",
+        "reference_center": [
+          745,
+          559
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9206750240991831,
+          "bbox": [
+            735.95,
+            549.071,
+            755.079,
+            567.402
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9207310610430635,
+          "bbox": [
+            735.9500122070312,
+            549.0709838867188,
+            755.0789794921875,
+            567.4019775390625
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 102,
+        "split": "train",
+        "frame_sha256": "1d6baeb2fe92a83f7a30f8ac720f476a230ddc244f1436613d55873292a08083",
+        "reference_center": [
+          759,
+          582
+        ],
+        "radius": 10.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3752411606697037,
+          "bbox": [
+            748.265,
+            570.096,
+            770.783,
+            591.361
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3752449478534405,
+          "bbox": [
+            748.2650146484375,
+            570.0960083007812,
+            770.7830200195312,
+            591.3610229492188
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 104,
+        "split": "train",
+        "frame_sha256": "5bfe6e861aa3a756a513c2b3bd10c210a18adb1a3f8950dc460a5c6b17e91c1d",
+        "reference_center": [
+          779,
+          621
+        ],
+        "radius": 10.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.7033591811476334,
+          "bbox": [
+            768.135,
+            610.119,
+            790.314,
+            635.258
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.7033342749083853,
+          "bbox": [
+            768.135009765625,
+            610.1190185546875,
+            790.3140258789062,
+            635.2579956054688
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 106,
+        "split": "train",
+        "frame_sha256": "ed1d537a86a06da2e3a8f09714e99b5ca33904cf874ca2a581936e1ab2a8b86e",
+        "reference_center": [
+          806,
+          615
+        ],
+        "radius": 10.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.338597867172938,
+          "bbox": [
+            795.455,
+            601.738,
+            818.589,
+            626.533
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3385782521315743,
+          "bbox": [
+            795.4550170898438,
+            601.7379760742188,
+            818.5889892578125,
+            626.5330200195312
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 108,
+        "split": "train",
+        "frame_sha256": "f2d96ed8a42632a78f9ff9c89115dff9bc63a65f25fcbb3f2589c9840a630478",
+        "reference_center": [
+          834,
+          628
+        ],
+        "radius": 11.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6898914769729524,
+          "bbox": [
+            821.781,
+            616.349,
+            846.744,
+            638.375
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6898965733264163,
+          "bbox": [
+            821.781005859375,
+            616.3489990234375,
+            846.7440185546875,
+            638.375
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 110,
+        "split": "train",
+        "frame_sha256": "ec6bb50408c9b3f77f3d3817eb7858abdfd1d63b749b99a4d3b30f4bf6e1042c",
+        "reference_center": [
+          858,
+          649
+        ],
+        "radius": 9.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.1069771903702228,
+          "bbox": [
+            845.882,
+            638.103,
+            872.283,
+            660.36
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.1069976172254645,
+          "bbox": [
+            845.8820190429688,
+            638.10302734375,
+            872.2830200195312,
+            660.3599853515625
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 112,
+        "split": "train",
+        "frame_sha256": "132940efc670443285fae6f9be561c34cb10782eb1ab0d01ff5df93bbd3748de",
+        "reference_center": [
+          885,
+          662
+        ],
+        "radius": 10.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 4.984409142516287,
+          "bbox": [
+            873.366,
+            650.977,
+            906.577,
+            673.74
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 4.984468085516967,
+          "bbox": [
+            873.3660278320312,
+            650.9769897460938,
+            906.5770263671875,
+            673.739990234375
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 114,
+        "split": "train",
+        "frame_sha256": "4cb1b7a3370c4dc3f50a40de54bd143c936622adaed01f423cd8c8f1e88df7f6",
+        "reference_center": [
+          875,
+          685
+        ],
+        "radius": 11.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6668240022674121,
+          "bbox": [
+            863.723,
+            672.167,
+            886.906,
+            696.657
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6668418754003548,
+          "bbox": [
+            863.7230224609375,
+            672.1669921875,
+            886.906005859375,
+            696.656982421875
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 116,
+        "split": "train",
+        "frame_sha256": "8513e24c6ab0bdb41946428410d74191c4b7ab98d783311d224ab90c34078c10",
+        "reference_center": [
+          862,
+          712
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8038286508952364,
+          "bbox": [
+            848.742,
+            701.437,
+            874.677,
+            724.062
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8038494597933183,
+          "bbox": [
+            848.7420043945312,
+            701.43701171875,
+            874.677001953125,
+            724.06201171875
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 124,
+        "split": "train",
+        "frame_sha256": "ddea872e9bbe67b1e3380394a8f83df3100b6abb684b0aa32a38637a66a2b79b",
+        "reference_center": [
+          688,
+          765
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8432640452432856,
+          "bbox": [
+            673.23,
+            751.658,
+            703.509,
+            779.858
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8432630904495224,
+          "bbox": [
+            673.22998046875,
+            751.6580200195312,
+            703.5089721679688,
+            779.8579711914062
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 126,
+        "split": "train",
+        "frame_sha256": "2f4b76acf6b6133b2c1016457ff47f8af6eb63f59a8ad0c9b1a598624ab0bb1d",
+        "reference_center": [
+          625,
+          765
+        ],
+        "radius": 12,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2996119613176516,
+          "bbox": [
+            612.513,
+            753.137,
+            638.42,
+            779.289
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.299620831023146,
+          "bbox": [
+            612.5130004882812,
+            753.1370239257812,
+            638.4199829101562,
+            779.2890014648438
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 130,
+        "split": "train",
+        "frame_sha256": "40ec67ca6f2d59f8386e6e663001fdcfa84d4aeb33fd804c000bdc5c87bc55ac",
+        "reference_center": [
+          474,
+          760
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.618189111321629,
+          "bbox": [
+            464.008,
+            750.259,
+            486.812,
+            771.329
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.6181654694136107,
+          "bbox": [
+            464.00799560546875,
+            750.2589721679688,
+            486.81201171875,
+            771.3289794921875
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 132,
+        "split": "train",
+        "frame_sha256": "cdcadec5bfa428aa116688519c8bef9b152881b5ef85b1c419cc789fb7bbc330",
+        "reference_center": [
+          417,
+          749
+        ],
+        "radius": 11.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.245107324691327,
+          "bbox": [
+            405.291,
+            738.731,
+            429.569,
+            761.606
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2451217501687617,
+          "bbox": [
+            405.2909851074219,
+            738.7310180664062,
+            429.5690002441406,
+            761.6060180664062
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 134,
+        "split": "train",
+        "frame_sha256": "518991ba1ddce4b9db43f08b6375b513d6ac3935f6da80fea9f9feb1d4b20142",
+        "reference_center": [
+          399,
+          741
+        ],
+        "radius": 10.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.6353611986347651,
+          "bbox": [
+            388.872,
+            730.866,
+            412.269,
+            752.046
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.635372228205976,
+          "bbox": [
+            388.87200927734375,
+            730.8660278320312,
+            412.2690124511719,
+            752.0460205078125
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 144,
+        "split": "train",
+        "frame_sha256": "9cd65a131113d68ec6975a5e365add0747b54ee92b690abe2da695ab44d0729a",
+        "reference_center": [
+          671,
+          668
+        ],
+        "radius": 8.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 150,
+        "split": "train",
+        "frame_sha256": "eb6ed1868d5ac30816b1383bdcf6243954ca361f4f0defcbe884f057170b9475",
+        "reference_center": [
+          606,
+          653
+        ],
+        "radius": 7.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 152,
+        "split": "train",
+        "frame_sha256": "6783d652c38d0ddda2a262ec147f76e5012d91d6c9297e988ff7015e31a76765",
+        "reference_center": [
+          566,
+          649
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.2574530449158745,
+          "bbox": [
+            556.474,
+            640.64,
+            575.99,
+            661.851
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.257435979269351,
+          "bbox": [
+            556.4739990234375,
+            640.6400146484375,
+            575.989990234375,
+            661.8510131835938
+          ]
+        }
+      },
+      {
+        "clip": "ca-0900",
+        "frame": 154,
+        "split": "train",
+        "frame_sha256": "850d4c96118dc6b602b89bb03857368433166b6903d1a374a1294bdc21cec34a",
+        "reference_center": [
+          531,
+          644
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.8989336481299544,
+          "bbox": [
+            521.728,
+            635.571,
+            539.972,
+            656.215
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.8989409310993806,
+          "bbox": [
+            521.72802734375,
+            635.5709838867188,
+            539.9719848632812,
+            656.2150268554688
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 0,
+        "split": "train",
+        "frame_sha256": "46c90d2ae94388b1b7cafe28aeb85b1a2f90f9690c562908a8cc8ae884c29e95",
+        "reference_center": [
+          439,
+          561
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6050392549248117,
+          "bbox": [
+            426.534,
+            551.605,
+            450.459,
+            569.724
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6050274686744942,
+          "bbox": [
+            426.53399658203125,
+            551.60498046875,
+            450.4590148925781,
+            569.7239990234375
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 2,
+        "split": "train",
+        "frame_sha256": "970501077e59148b5302b2ad5826055f11b3a6e2bc577de2a741f757f7c83a69",
+        "reference_center": [
+          428,
+          561
+        ],
+        "radius": 9.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.1897281202021763,
+          "bbox": [
+            416.285,
+            551.612,
+            439.021,
+            572.664
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.1897241725184335,
+          "bbox": [
+            416.2850036621094,
+            551.6119995117188,
+            439.02099609375,
+            572.6640014648438
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 4,
+        "split": "train",
+        "frame_sha256": "0ae634f628588f40d0588fc274770b58ba8d4fe6473d51a0612c0e6f9c004de8",
+        "reference_center": [
+          405,
+          561
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6152798143933795,
+          "bbox": [
+            394.977,
+            550.889,
+            416.094,
+            570.505
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.6152622224166931,
+          "bbox": [
+            394.97698974609375,
+            550.8889770507812,
+            416.093994140625,
+            570.5050048828125
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 6,
+        "split": "train",
+        "frame_sha256": "afb3e9e87f3606a9e01462758165e7d883bf6639b3a68fb0a3cd6a470268f1e0",
+        "reference_center": [
+          369,
+          563
+        ],
+        "radius": 9.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4817439893584265,
+          "bbox": [
+            355.375,
+            554.387,
+            380.335,
+            573.494
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4817919341352055,
+          "bbox": [
+            355.375,
+            554.3870239257812,
+            380.3349914550781,
+            573.4940185546875
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 10,
+        "split": "train",
+        "frame_sha256": "7c56da3707d892291edb9ac14d7370733f1e8f8a42dbfb9b2b09cb3376b6fadb",
+        "reference_center": [
+          236,
+          560
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8157035307021825,
+          "bbox": [
+            223.598,
+            550.886,
+            247.427,
+            567.806
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8156895800122561,
+          "bbox": [
+            223.59800720214844,
+            550.885986328125,
+            247.427001953125,
+            567.8060302734375
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 14,
+        "split": "train",
+        "frame_sha256": "22a03ceb9a81584ab35a0400a5af1d243b27301d1aaf419cabe940e108cec333",
+        "reference_center": [
+          48,
+          567
+        ],
+        "radius": 10.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.455518682478342,
+          "bbox": [
+            32.892,
+            559.039,
+            60.576,
+            579.169
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.4555214316387683,
+          "bbox": [
+            32.891998291015625,
+            559.0390014648438,
+            60.57600021362305,
+            579.1690063476562
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 156,
+        "split": "train",
+        "frame_sha256": "adc535a27b2133a13c2c6bf9b86fb8aff13ef80977d33bc77993e7ff6885e7ad",
+        "reference_center": [
+          821,
+          654
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.5606721412732456,
+          "bbox": [
+            813.933,
+            647.058,
+            828.834,
+            661.76
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.5606586265154261,
+          "bbox": [
+            813.9329833984375,
+            647.0579833984375,
+            828.833984375,
+            661.760009765625
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 158,
+        "split": "train",
+        "frame_sha256": "648b4c78da90d5cb41eff3ff274e3fa09fed3e31ccc36809c92665ebe4a285e5",
+        "reference_center": [
+          915,
+          638
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2972682837408116,
+          "bbox": [
+            908.854,
+            629.872,
+            922.112,
+            643.72
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.297261249519925,
+          "bbox": [
+            908.85400390625,
+            629.8720092773438,
+            922.1119995117188,
+            643.719970703125
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 160,
+        "split": "train",
+        "frame_sha256": "347d3a41005c1c4454c3e0a093bd1b97f7d08b60ecd8a9e5981c057908e456a6",
+        "reference_center": [
+          990,
+          625
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.4929241828111293,
+          "bbox": [
+            982.428,
+            617.447,
+            997.456,
+            631.574
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.4929241692264152,
+          "bbox": [
+            982.427978515625,
+            617.447021484375,
+            997.4559936523438,
+            631.573974609375
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 162,
+        "split": "train",
+        "frame_sha256": "d915cfad69ad694172efd4930067adb844e1375628bfdde1ad24f33ab8fb1dce",
+        "reference_center": [
+          1050,
+          614
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.28617650421703,
+          "bbox": [
+            1042.598,
+            605.889,
+            1057.008,
+            619.569
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2861759349455606,
+          "bbox": [
+            1042.5980224609375,
+            605.8889770507812,
+            1057.008056640625,
+            619.5689697265625
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 164,
+        "split": "train",
+        "frame_sha256": "b2c352869ceb38aaa229f8e49e8a77c703eb48b3527fec4541ffb1b308ad7ba9",
+        "reference_center": [
+          1101,
+          604
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7703278522810959,
+          "bbox": [
+            1093.673,
+            597.56,
+            1106.979,
+            609.694
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7704137785840063,
+          "bbox": [
+            1093.6729736328125,
+            597.5599975585938,
+            1106.97900390625,
+            609.6939697265625
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 166,
+        "split": "train",
+        "frame_sha256": "d5ac51eacf5fb9686940297d5c4597a6aec3f0fa4485e308516043fafe1e08d7",
+        "reference_center": [
+          1145,
+          594
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.32512843616016457,
+          "bbox": [
+            1138.675,
+            587.431,
+            1151.84,
+            600.172
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.3251742336097285,
+          "bbox": [
+            1138.675048828125,
+            587.4310302734375,
+            1151.8399658203125,
+            600.1719970703125
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 168,
+        "split": "train",
+        "frame_sha256": "20242365beebf5b8578f8d2cc88eb05793715d1b74978d14e5f688a8a0f468f8",
+        "reference_center": [
+          1185,
+          587
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.49039218998679684,
+          "bbox": [
+            1177.815,
+            580.301,
+            1192.632,
+            592.826
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.4903623254379284,
+          "bbox": [
+            1177.81494140625,
+            580.301025390625,
+            1192.6319580078125,
+            592.8259887695312
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 170,
+        "split": "train",
+        "frame_sha256": "8d76e9e140bed32e1ff58bb4a0b58bbd0c2c71d15eb84c03144e03f0f4a50342",
+        "reference_center": [
+          1221,
+          580
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.6472058918059889,
+          "bbox": [
+            1214.189,
+            574.613,
+            1229.361,
+            588.294
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.647152191699906,
+          "bbox": [
+            1214.18896484375,
+            574.6129760742188,
+            1229.3609619140625,
+            588.2940063476562
+          ]
+        }
+      },
+      {
+        "clip": "ca-1500",
+        "frame": 172,
+        "split": "train",
+        "frame_sha256": "ed890446b782d717e976e0714de612704e437f88edf5d62b562e14262200b8fa",
+        "reference_center": [
+          1253,
+          575
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.0268215521696218,
+          "bbox": [
+            1246.042,
+            567.841,
+            1260.977,
+            580.376
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.0268144077829189,
+          "bbox": [
+            1246.0419921875,
+            567.8410034179688,
+            1260.97705078125,
+            580.3759765625
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 104,
+        "split": "train",
+        "frame_sha256": "a6b29d156a3b39dc20b75223569e5c4a8552dea8d09302538fa06317a4128eba",
+        "reference_center": [
+          861,
+          682
+        ],
+        "radius": 8.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9184478754943479,
+          "bbox": [
+            851.065,
+            671.544,
+            872.566,
+            693.301
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9184328995758493,
+          "bbox": [
+            851.0650024414062,
+            671.5440063476562,
+            872.5659790039062,
+            693.301025390625
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 106,
+        "split": "train",
+        "frame_sha256": "646e15e2278ae3db3fd30f39a229400c5d4a3f3f3a6d31a7c808498b7727c7cf",
+        "reference_center": [
+          842,
+          681
+        ],
+        "radius": 8.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3645096188740558,
+          "bbox": [
+            832.159,
+            670.937,
+            854.146,
+            692.524
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3644640199415763,
+          "bbox": [
+            832.1589965820312,
+            670.93701171875,
+            854.14599609375,
+            692.5239868164062
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 108,
+        "split": "train",
+        "frame_sha256": "ca2e14f7237d8fd27c8f7f1d912a2d3f08ac073a8183c3651dcc0b13e3fe8366",
+        "reference_center": [
+          800,
+          685
+        ],
+        "radius": 10.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3098383488048966,
+          "bbox": [
+            785.116,
+            674.737,
+            813.893,
+            697.688
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.3098546685891468,
+          "bbox": [
+            785.1160278320312,
+            674.7369995117188,
+            813.8930053710938,
+            697.68798828125
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 110,
+        "split": "train",
+        "frame_sha256": "226a84bbd3c8dc2a42df44381b7539582c9c3d16f9bd6c6a4ce2fccd39e15a37",
+        "reference_center": [
+          753,
+          693
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.47102016941955677,
+          "bbox": [
+            741.632,
+            683.017,
+            763.632,
+            702.395
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.4709711577988161,
+          "bbox": [
+            741.6320190429688,
+            683.0170288085938,
+            763.6320190429688,
+            702.39501953125
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 138,
+        "split": "train",
+        "frame_sha256": "1d09a8f002d7388bb5b152a47f757a1039d7cb06b6b53f6ebcca7ab38f50c77a",
+        "reference_center": [
+          933,
+          566
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.1693178567011258,
+          "bbox": [
+            924.768,
+            560.378,
+            941.633,
+            573.926
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.1692958121474282,
+          "bbox": [
+            924.7680053710938,
+            560.3779907226562,
+            941.6329956054688,
+            573.926025390625
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 140,
+        "split": "train",
+        "frame_sha256": "8e2ea62ee358deba726205987e4249197b50c038ea2201390c98fcd4cc9e78fb",
+        "reference_center": [
+          920,
+          565
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4341443441997068,
+          "bbox": [
+            912.824,
+            557.601,
+            927.89,
+            569.621
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4341798943134103,
+          "bbox": [
+            912.823974609375,
+            557.6010131835938,
+            927.8900146484375,
+            569.6209716796875
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 142,
+        "split": "train",
+        "frame_sha256": "9482d7496af82b814d92db77d76e70bf13f89c0273f88b4edc1011b7ef44d771",
+        "reference_center": [
+          915,
+          562
+        ],
+        "radius": 5.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7995100061913722,
+          "bbox": [
+            909.589,
+            556.039,
+            922.01,
+            567.969
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7995096601061552,
+          "bbox": [
+            909.5889892578125,
+            556.0390014648438,
+            922.010009765625,
+            567.968994140625
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 144,
+        "split": "train",
+        "frame_sha256": "be1bb241a860cbd74f04b189b117dd2b2bb3136b34cb8bd1ec57dccfaccac79d",
+        "reference_center": [
+          908,
+          558
+        ],
+        "radius": 5.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7885519957492558,
+          "bbox": [
+            900.334,
+            551.04,
+            914.165,
+            564.476
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7885421911768679,
+          "bbox": [
+            900.333984375,
+            551.0399780273438,
+            914.1649780273438,
+            564.4760131835938
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 146,
+        "split": "train",
+        "frame_sha256": "8f0f2dda70bc30fa641ef5772c5901f349fc1adfbbc3a2add20d0336d6daa316",
+        "reference_center": [
+          903,
+          558
+        ],
+        "radius": 5.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7613923101791786,
+          "bbox": [
+            896.823,
+            550.597,
+            909.95,
+            564.091
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.7613844700451219,
+          "bbox": [
+            896.822998046875,
+            550.5969848632812,
+            909.9500122070312,
+            564.0910034179688
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 148,
+        "split": "train",
+        "frame_sha256": "ebc04ef3fe34cef43cd7962a820f156eb293dfec9cdf94fffd0cbea068730e92",
+        "reference_center": [
+          895,
+          554
+        ],
+        "radius": 4.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.287915855170725,
+          "bbox": [
+            890.034,
+            549.924,
+            901.081,
+            560.398
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.2879234251937006,
+          "bbox": [
+            890.0339965820312,
+            549.9240112304688,
+            901.0809936523438,
+            560.3980102539062
+          ]
+        }
+      },
+      {
+        "clip": "ga-0900",
+        "frame": 150,
+        "split": "train",
+        "frame_sha256": "b8c1a71936618d9e251a990e994d042c35bde37b3f54e002d1941f24c58d7a2f",
+        "reference_center": [
+          884,
+          549
+        ],
+        "radius": 4,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.095523276795185,
+          "bbox": [
+            876.976,
+            543.886,
+            888.882,
+            553.653
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.0955009494919494,
+          "bbox": [
+            876.9760131835938,
+            543.885986328125,
+            888.8820190429688,
+            553.6530151367188
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 174,
+        "split": "train",
+        "frame_sha256": "a97be027525bed0447efecc6d1623334b03f7c502bd4924d2ec8ac0f8448cd7f",
+        "reference_center": [
+          1241,
+          636
+        ],
+        "radius": 6.5,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 176,
+        "split": "train",
+        "frame_sha256": "e478f3138b80eb663432a519403010df7d0d259d8b1540a57a0c56b5ec642b8c",
+        "reference_center": [
+          1214,
+          638
+        ],
+        "radius": 6.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.064968038493461,
+          "bbox": [
+            1206.322,
+            627.865,
+            1224.002,
+            644.721
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.064986727495236,
+          "bbox": [
+            1206.322021484375,
+            627.864990234375,
+            1224.001953125,
+            644.7210083007812
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 178,
+        "split": "train",
+        "frame_sha256": "96730245d1e8ed0094c6120becb9756be6e7f323b73a37299d3e736a9cc60c57",
+        "reference_center": [
+          1194,
+          635
+        ],
+        "radius": 7.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 180,
+        "split": "train",
+        "frame_sha256": "b45a110d8cabc5f6036384113dd9f2529c4db2b8bcceeea3c5dace512a08ec6c",
+        "reference_center": [
+          1167,
+          637
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.0835388779364172,
+          "bbox": [
+            1158.232,
+            630.06,
+            1177.423,
+            645.339
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.083526108933292,
+          "bbox": [
+            1158.2320556640625,
+            630.0599975585938,
+            1177.4229736328125,
+            645.3389892578125
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 182,
+        "split": "train",
+        "frame_sha256": "ee660551b1c8223f00390e6bab568ba060261b0fa7e519d36ba636aa51603a40",
+        "reference_center": [
+          1140,
+          638
+        ],
+        "radius": 6.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.747930562121852,
+          "bbox": [
+            1132.021,
+            629.493,
+            1151.46,
+            646.829
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.7479101585756553,
+          "bbox": [
+            1132.02099609375,
+            629.4929809570312,
+            1151.4599609375,
+            646.8289794921875
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 184,
+        "split": "train",
+        "frame_sha256": "6172a05be8e987c2a145caccc5ef778e84258cf4fdb162f4f7f8b1708450a400",
+        "reference_center": [
+          1110,
+          639
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.0325077481549747,
+          "bbox": [
+            1099.125,
+            629.697,
+            1122.94,
+            648.311
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.032478561605989,
+          "bbox": [
+            1099.125,
+            629.697021484375,
+            1122.93994140625,
+            648.3109741210938
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 186,
+        "split": "train",
+        "frame_sha256": "3958edeb3a88732a94bef3b053cc21d63995510044fc25ee5a576358de047649",
+        "reference_center": [
+          1081,
+          638
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.7592030155726264,
+          "bbox": [
+            1070.974,
+            631.147,
+            1090.421,
+            648.319
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.759172956856784,
+          "bbox": [
+            1070.9739990234375,
+            631.14697265625,
+            1090.4210205078125,
+            648.3189697265625
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 188,
+        "split": "train",
+        "frame_sha256": "064c52cc1c66487580442148740514cab2fee3087c0f4124f0a3ab7521a4a88c",
+        "reference_center": [
+          1057,
+          639
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9015077648028952,
+          "bbox": [
+            1047.472,
+            631.573,
+            1066.041,
+            648.163
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9015234071001069,
+          "bbox": [
+            1047.4720458984375,
+            631.572998046875,
+            1066.041015625,
+            648.1630249023438
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 190,
+        "split": "train",
+        "frame_sha256": "6efd563ff1b245a8728fe971681ddb5d4dda6106247a67ff4ec36335a27a8c92",
+        "reference_center": [
+          1036,
+          637
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.1724194461476642,
+          "bbox": [
+            1025.387,
+            630.143,
+            1043.018,
+            646.297
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.1724918779280604,
+          "bbox": [
+            1025.386962890625,
+            630.1430053710938,
+            1043.0179443359375,
+            646.2969970703125
+          ]
+        }
+      },
+      {
+        "clip": "ga-1500",
+        "frame": 192,
+        "split": "train",
+        "frame_sha256": "d29aa5be5f4b011dbddf070a315e56f50af4d8179e521bfdae6adaff08ba0dbe",
+        "reference_center": [
+          1020,
+          638
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9141686113623566,
+          "bbox": [
+            1011.418,
+            627.733,
+            1029.661,
+            646.791
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.9142285383655944,
+          "bbox": [
+            1011.4180297851562,
+            627.7329711914062,
+            1029.6610107421875,
+            646.791015625
+          ]
+        }
+      },
+      {
+        "clip": "nj-0900",
+        "frame": 188,
+        "split": "validation",
+        "frame_sha256": "e8f09ad03c7c03530b59f3351bd883b55761cc239b3bf44c8a566787e72298d9",
+        "reference_center": [
+          774,
+          668
+        ],
+        "radius": 6.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.5734255622685267,
+          "bbox": [
+            764.938,
+            658.604,
+            782.398,
+            674.32
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.5733968373398024,
+          "bbox": [
+            764.93798828125,
+            658.60400390625,
+            782.3980102539062,
+            674.3200073242188
+          ]
+        }
+      },
+      {
+        "clip": "nj-0900",
+        "frame": 190,
+        "split": "validation",
+        "frame_sha256": "ab343f9efa15f896f2cb27245e91165873ed2c53daa47e073b5356acc1214059",
+        "reference_center": [
+          736,
+          672
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.464213515505542,
+          "bbox": [
+            728.239,
+            661.0,
+            745.469,
+            678.377
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.464236854282087,
+          "bbox": [
+            728.239013671875,
+            661.0,
+            745.468994140625,
+            678.3770141601562
+          ]
+        }
+      },
+      {
+        "clip": "nj-0900",
+        "frame": 192,
+        "split": "validation",
+        "frame_sha256": "eda341301e0cf095309502156d0e652931de6ff46c3bae22576e6abd8d7252ef",
+        "reference_center": [
+          704,
+          679
+        ],
+        "radius": 6.5,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.5285189835158866,
+          "bbox": [
+            695.766,
+            669.67,
+            710.546,
+            683.563
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.5285593732411016,
+          "bbox": [
+            695.7659912109375,
+            669.6699829101562,
+            710.5460205078125,
+            683.56298828125
+          ]
+        }
+      },
+      {
+        "clip": "nj-0900",
+        "frame": 194,
+        "split": "validation",
+        "frame_sha256": "74707ca5d83d2fa612bb1c14397afb6789c2dc6597673fa896d023fd114f5acd",
+        "reference_center": [
+          674,
+          681
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.5600164550251816,
+          "bbox": [
+            666.424,
+            670.761,
+            681.88,
+            686.128
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 2.5600570396405526,
+          "bbox": [
+            666.4240112304688,
+            670.760986328125,
+            681.8800048828125,
+            686.1279907226562
+          ]
+        }
+      },
+      {
+        "clip": "nj-0900",
+        "frame": 196,
+        "split": "validation",
+        "frame_sha256": "31b0b638660e530018ccfa0406d392f5f223c8262508879264a5526edcf0d5aa",
+        "reference_center": [
+          666,
+          679
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.3349029710229431,
+          "bbox": [
+            658.359,
+            671.209,
+            674.305,
+            686.879
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.3349347841156622,
+          "bbox": [
+            658.3590087890625,
+            671.208984375,
+            674.3049926757812,
+            686.8790283203125
+          ]
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 100,
+        "split": "validation",
+        "frame_sha256": "126882a19549197c4684c8c80d002b5e3d79bfc24486931228e0e38e80d38399",
+        "reference_center": [
+          694,
+          584
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 110,
+        "split": "validation",
+        "frame_sha256": "554f1e8353c929d8aba2b114de2e42fd42c74cb60511d6f932a4ed73e1db9ec6",
+        "reference_center": [
+          704,
+          600
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 114,
+        "split": "validation",
+        "frame_sha256": "38ae18f7ff04b3063e774bc052b85429c9eb45ee10157b360b89348eca245f07",
+        "reference_center": [
+          775,
+          612
+        ],
+        "radius": 7.5,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 120,
+        "split": "validation",
+        "frame_sha256": "aab475feb8bc7e8c7407800212dc31bec64fcd6fe7357cbc0cda0f6a23139439",
+        "reference_center": [
+          892,
+          618
+        ],
+        "radius": 6.0,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 130,
+        "split": "validation",
+        "frame_sha256": "15c5f2695ae83be29322e8cd6ae7a603af55b7b21d7841d9b2e6d857268d06db",
+        "reference_center": [
+          656,
+          644
+        ],
+        "radius": 9.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8190775299078953,
+          "bbox": [
+            645.925,
+            634.636,
+            666.919,
+            651.96
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 0.8190986189579443,
+          "bbox": [
+            645.9249877929688,
+            634.635986328125,
+            666.9190063476562,
+            651.9600219726562
+          ]
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 132,
+        "split": "validation",
+        "frame_sha256": "582382315b6c4a708ed35f2239ad1edcecd35352456ef651bc204121bf619e4c",
+        "reference_center": [
+          584,
+          652
+        ],
+        "radius": 10.5,
+        "candidate_count": 0,
+        "top_confidence": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        },
+        "sports_balltracker": {
+          "answered": false,
+          "correct": false,
+          "error_pixels": null,
+          "bbox": null
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 150,
+        "split": "validation",
+        "frame_sha256": "03ba68ff871a865991105c729cb154020c354293ceb633926106787d8514baeb",
+        "reference_center": [
+          1375,
+          721
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.494705071243238,
+          "bbox": [
+            1356.332,
+            705.127,
+            1395.586,
+            734.58
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.494683061258567,
+          "bbox": [
+            1356.33203125,
+            705.1270141601562,
+            1395.5860595703125,
+            734.5800170898438
+          ]
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 152,
+        "split": "validation",
+        "frame_sha256": "ebe9282fa68101fd5235d444283cf7a1b50621c6d02339f708225710c2470040",
+        "reference_center": [
+          1480,
+          725
+        ],
+        "radius": 11.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.8747075105198678,
+          "bbox": [
+            1467.692,
+            715.374,
+            1489.595,
+            732.038
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.8746301922096382,
+          "bbox": [
+            1467.6920166015625,
+            715.3740234375,
+            1489.594970703125,
+            732.0380249023438
+          ]
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 154,
+        "split": "validation",
+        "frame_sha256": "556e9ef73fc24583c40a25b9b5551e6535d3fe7d905dcd3a0055fddb2caadabb",
+        "reference_center": [
+          1558,
+          741
+        ],
+        "radius": 8.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 5.707867049082374,
+          "bbox": [
+            1550.684,
+            726.539,
+            1570.255,
+            745.169
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 5.707855922221572,
+          "bbox": [
+            1550.6839599609375,
+            726.5390014648438,
+            1570.2550048828125,
+            745.1690063476562
+          ]
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 158,
+        "split": "validation",
+        "frame_sha256": "843d4d79fba8891178c9e21c8ee31d09b041d1fb6a42bc7c8b6fcfeee41a2114",
+        "reference_center": [
+          1651,
+          738
+        ],
+        "radius": 7.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4824494089175304,
+          "bbox": [
+            1642.349,
+            728.758,
+            1659.231,
+            744.307
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 1.4824728774794873,
+          "bbox": [
+            1642.3489990234375,
+            728.7579956054688,
+            1659.23095703125,
+            744.3070068359375
+          ]
+        }
+      },
+      {
+        "clip": "nj-2400",
+        "frame": 160,
+        "split": "validation",
+        "frame_sha256": "3f2216548a7dfea517c00ea8e371fc612fbae35e40c20b18c78fbadc60c8361f",
+        "reference_center": [
+          1669,
+          736
+        ],
+        "radius": 6.0,
+        "candidate_count": 1,
+        "top_confidence": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 4.516700039852168,
+          "bbox": [
+            1661.188,
+            723.209,
+            1678.306,
+            739.882
+          ]
+        },
+        "sports_balltracker": {
+          "answered": true,
+          "correct": true,
+          "error_pixels": 4.516679886422336,
+          "bbox": [
+            1661.18798828125,
+            723.208984375,
+            1678.3060302734375,
+            739.8820190429688
+          ]
+        }
+      }
+    ],
+    "inputs": [
+      {
+        "clip": "ca-0180",
+        "sha256": "306a1d47e7c403b3b8bb934cd3bbea6e59fc9e3822871c2c5f34a38b4dc12d79",
+        "frames": 200
+      },
+      {
+        "clip": "ca-0340",
+        "sha256": "16e0e32d891ef964c108d663a19d0ca95f15c0240ac72bbb030e4292a1e03bfe",
+        "frames": 200
+      },
+      {
+        "clip": "ca-0900",
+        "sha256": "a75b0ef801912d0672693b4e8cd223dcfbea088f8a71d53315c19130490d61c2",
+        "frames": 200
+      },
+      {
+        "clip": "ca-1500",
+        "sha256": "887ca3ab645905dafd1f069fad41ea5d0f7afd17237f119ac7b28698b8b42d57",
+        "frames": 200
+      },
+      {
+        "clip": "ga-0180",
+        "sha256": "2ddf65806a68037550043a97245954495a520f931e1eef6e5409fd2ef0a98911",
+        "frames": 200
+      },
+      {
+        "clip": "ga-0900",
+        "sha256": "305e756d5bd0e04296f6fecdfb79bb6f20fbc893315f024d18ec2b60125a6408",
+        "frames": 200
+      },
+      {
+        "clip": "ga-1500",
+        "sha256": "719fcd6d55acdc934bcecbfd3036f40c25be953a2930378e04349224bc7535e5",
+        "frames": 200
+      },
+      {
+        "clip": "ga-2400",
+        "sha256": "5d89e365657fdc0d71c1c08f9aa8e2a6c21d60fc9d391846fa8c9b08ac14dcb6",
+        "frames": 200
+      },
+      {
+        "clip": "nj-0180",
+        "sha256": "2c25103ec2e0f20d002597882badb71f572b1f5ded78247fff07479e9b24abe7",
+        "frames": 200
+      },
+      {
+        "clip": "nj-0900",
+        "sha256": "c866f758df99eb8db81e233cb67b301296fe3d0c5dcbfc9cbd8783305b0eb232",
+        "frames": 200
+      },
+      {
+        "clip": "nj-1500",
+        "sha256": "1ca92558b4923f17c59c4fa721cd4ae4ad3883797589d7321c49048f6319aa66",
+        "frames": 200
+      },
+      {
+        "clip": "nj-2400",
+        "sha256": "d3ad63662d6fd7350d1002a781e2d0ad31bd198493d2080835b7f4d41fb02f01",
+        "frames": 200
+      }
+    ],
+    "unknown_visibility_excluded": true,
+    "independent_human_ground_truth": false,
+    "scope": "Existing ball detector; conditional localization on 108 correlated assistant-reviewed visible frames. No shot, possession or goal accuracy claim."
+  },
+  "jersey": {
+    "counts": {
+      "readable": 36,
+      "correct": 30,
+      "wrong": 3,
+      "abstained": 3,
+      "invalid": 0,
+      "unknown": 61,
+      "unsupported_readings": 13,
+      "unknown_abstained": 48,
+      "accuracy_when_answered_on_readable_crops": 0.9090909090909091,
+      "recall_on_readable_crops": 0.8333333333333334,
+      "errors": [
+        {
+          "id": "validation_03m-60-0",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+          "status": "readable",
+          "number": 42,
+          "location": "back",
+          "prediction": 12
+        },
+        {
+          "id": "validation_10m-180-1",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+          "status": "readable",
+          "number": 44,
+          "location": "back",
+          "prediction": 14
+        },
+        {
+          "id": "validation_40m-120-3",
+          "source_id": "Z-tFHtxODsE",
+          "split": "development_regression",
+          "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+          "status": "readable",
+          "number": 42,
+          "location": "sleeve",
+          "prediction": 12
+        }
+      ]
+    },
+    "rows": [
+      {
+        "id": "validation_03m-0-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "96fd384bcea634bf6b698cff6ca0c60c2f8136d2bda5ff6ed0ff82f82e91a3fe",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_03m-60-1",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "00ca431d44d698a61bfd6b5d95f3d21900611b4188431a22b86a2d2963b4bc19",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_03m-180-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "15d23b3480e8013ceb15acc7e2b11fdd4dec0aeb9e7936110660996dcc0c07f2",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_03m-60-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "af49cd185c5e632b1c37a54c560b3edd36c234ceb832afb40487094d0a24f9cf",
+        "status": "readable",
+        "number": 42,
+        "location": "back",
+        "prediction": 12
+      },
+      {
+        "id": "validation_03m-120-1",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "ca1147d25917ee47d2ac6cc6b76a814d2b62ecf71271aee5eda45b3cf8169825",
+        "status": "readable",
+        "number": 42,
+        "location": "back",
+        "prediction": 42
+      },
+      {
+        "id": "validation_03m-60-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "fcbe5deca2f39230b683ddb0acde03c2b971661330162f06f53e662ae6fa8230",
+        "status": "readable",
+        "number": 17,
+        "location": "back",
+        "prediction": 17
+      },
+      {
+        "id": "validation_03m-120-3",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "98a300e7d0ef265bdc8942daa031dc16acb7f7f68594dd8e042630414d7ece54",
+        "status": "readable",
+        "number": 17,
+        "location": "back",
+        "prediction": null
+      },
+      {
+        "id": "validation_03m-60-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "3a2a103932864f20bab4978f8a9d8ad5bbf89c2c890c75aff32cbf6a8ce4761f",
+        "status": "readable",
+        "number": 44,
+        "location": "back",
+        "prediction": 44
+      },
+      {
+        "id": "validation_03m-120-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "d3c261aedb4cdf3b073a17b4cf2d567e28e52854ab2835f68b8614c9e3246ab9",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_10m-0-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "05c46ca1bbcf9abe46e8e7e49d1463df04b9e9c99a10cd95b814deb125ee3902",
+        "status": "readable",
+        "number": 9,
+        "location": "back",
+        "prediction": null
+      },
+      {
+        "id": "validation_10m-120-5",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "10c2c6cc682f731a1bda862ff166c5f7c0e0ab4784c9082f483329c6d356bc29",
+        "status": "readable",
+        "number": 9,
+        "location": "back",
+        "prediction": 9
+      },
+      {
+        "id": "validation_10m-180-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "be278c6e40a3443ebeeeb09a211338b93289f944ef79654add804690d39ea179",
+        "status": "readable",
+        "number": 9,
+        "location": "back",
+        "prediction": 9
+      },
+      {
+        "id": "validation_10m-120-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "b1a791f5b298d0c22400c6082bd73d214a4ef57db8231b6801e8d1feec97014d",
+        "status": "readable",
+        "number": 4,
+        "location": "back",
+        "prediction": 4
+      },
+      {
+        "id": "validation_10m-180-3",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "6d9bf9218117899f095586566e70092c5e35e27441f3d39da934583b3e63aad0",
+        "status": "readable",
+        "number": 4,
+        "location": "back",
+        "prediction": null
+      },
+      {
+        "id": "validation_10m-0-6",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "dc3458cbe6457542fc769aa6cbff375b3045472a823cefaecb83c6614dd8da92",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_10m-60-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "a75b9d46d59c8d2870b719830cd81fcab575de411ed8de09f951ef1bed4b84cc",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_10m-120-3",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "c9a26733115aeef245bf4a2c9ba59ab956c2d2d343ee65824ccc890628f7d4eb",
+        "status": "readable",
+        "number": 44,
+        "location": "back",
+        "prediction": 44
+      },
+      {
+        "id": "validation_10m-180-1",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "7a369cacabf2db5146bb56ca6cc1d0b66b0b89b48d7040b64c0a553f4a8757f3",
+        "status": "readable",
+        "number": 44,
+        "location": "back",
+        "prediction": 14
+      },
+      {
+        "id": "validation_15m-0-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "b74491c61aa407e0ba7e38f6302c70e31717e534d8f4c66a98d39419e1d1c907",
+        "status": "readable",
+        "number": 5,
+        "location": "back",
+        "prediction": 5
+      },
+      {
+        "id": "validation_15m-60-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "03fd1297f55448f2e9c971ea6890f34f85eaebe9cc366b82c51644fb381a9a4b",
+        "status": "readable",
+        "number": 5,
+        "location": "back",
+        "prediction": 5
+      },
+      {
+        "id": "validation_15m-120-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "1bcce3864b898656870a5dddedc8e831b18336e6b1b3204ba14af343f127397f",
+        "status": "readable",
+        "number": 5,
+        "location": "back",
+        "prediction": 5
+      },
+      {
+        "id": "validation_15m-180-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "b49f38b3034c3944ac0f4e6373625f5362545cdae9710cac1be405a821daa655",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_15m-60-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "6c423b96bdd2b3704720ed8406a18f05ab4bcf195c76d8658f6147ebed271ee3",
+        "status": "readable",
+        "number": 4,
+        "location": "back",
+        "prediction": 4
+      },
+      {
+        "id": "validation_15m-120-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "ceeb1c1c0f1a78a4c4be34396f9557cc697b99b004aa3012de4bafa3c0f946c3",
+        "status": "readable",
+        "number": 4,
+        "location": "back",
+        "prediction": 4
+      },
+      {
+        "id": "validation_25m-0-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "cbcbbfda78566f5891e07a822fa2fa43a9b5701cc47749414019fb04a308e30a",
+        "status": "readable",
+        "number": 7,
+        "location": "back",
+        "prediction": 7
+      },
+      {
+        "id": "validation_25m-60-1",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "b667652b4f8f64ae4a6a6817fad69ce559b30f96899bde2def18805efafea373",
+        "status": "readable",
+        "number": 7,
+        "location": "back",
+        "prediction": 7
+      },
+      {
+        "id": "validation_25m-120-8",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "5ab56f95a2eaa241ba19f9499116d44cb139f07171e5f2d76e4249d3203dbb4d",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_25m-180-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "11655d8a5f91dc47dc886b581e8a84d88d4aa45679c1e9d048c23a3a8bc73ac4",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_40m-0-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "161b2188fb4ee0e807c8dffa0a9c4d4e6fa7cdc952d6680d2333ffb3dcc9cc68",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 33
+      },
+      {
+        "id": "validation_40m-60-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "00719679941b3ffeea7af72ec6909fa4d74907c9209eb5762bd250e6d29fbc82",
+        "status": "readable",
+        "number": 33,
+        "location": "shorts",
+        "prediction": 33
+      },
+      {
+        "id": "validation_40m-180-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "abf44580a77b2c75cf21c9bc4c9db607587e15a12dec65ad8139c13327ed70c2",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 33
+      },
+      {
+        "id": "validation_40m-0-5",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "ea6232048603c50e6196338097ffa736d165f0c9c3c41761ed4f1b113b20532b",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": null
+      },
+      {
+        "id": "validation_40m-60-6",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "8cc5a8b5f59ef0694693aeb7eda2b8fa2856eb09ab265d3f44a06b1c8a4df4c3",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": 7
+      },
+      {
+        "id": "validation_40m-120-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "b8a3bfe33d1d910909d24e772bc7ae2d4eacd8d13d281fe179dbd128dadeec4c",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": 7
+      },
+      {
+        "id": "validation_40m-180-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "447ea33c4154c3a27cc41f1238f89b051e55843656c20add8632b63b65b24f4e",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": 7
+      },
+      {
+        "id": "validation_40m-0-6",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "f036aa0ea17b9c8b1012a5a1d42ff6aae5f9558e97e59fb48c1ead3e759cfd31",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_40m-60-7",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "8307b41639fd9dc8e5ae3d5e16fbcb19b97f2690294cd40f416e2665239ff7e0",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_40m-120-3",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "3f9a6439d67f20cd8838b585020dd840b31b0e22d69bf5b90b626e5073fa236b",
+        "status": "readable",
+        "number": 42,
+        "location": "sleeve",
+        "prediction": 12
+      },
+      {
+        "id": "validation_40m-180-5",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "0b30429f3eb36511068024f4cf9fa7ccae1ed042e13f3be37c73a2a37ca87b48",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 42
+      },
+      {
+        "id": "validation_40m-0-10",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "73f42e4b4ec919409c9a83f9c8111f17fd5c3d0c1db64ae55be63a91fa48029b",
+        "status": "readable",
+        "number": 40,
+        "location": "back",
+        "prediction": 40
+      },
+      {
+        "id": "validation_40m-60-10",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "b2cbd5f78cb24e7264e6b9d541194b6b1980b58f3d74e35b92bea88b2a3f5582",
+        "status": "readable",
+        "number": 40,
+        "location": "back",
+        "prediction": 40
+      },
+      {
+        "id": "validation_40m-120-6",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "613cdef3832dc55dc183f370bbecf3ca4e30b91e3078b8bc0db4ef951c802e74",
+        "status": "readable",
+        "number": 40,
+        "location": "back",
+        "prediction": 40
+      },
+      {
+        "id": "validation_40m-180-9",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "311269debdc2bbc83715e2db0490c984b45e7d73c1b8bc2a72242f107a8f2abb",
+        "status": "readable",
+        "number": 40,
+        "location": "back",
+        "prediction": 40
+      },
+      {
+        "id": "validation_40m-0-11",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "3c7de7842c722d9ba95bd620f3bcd80c3c086e235bb01d83bde09ccfc1507fb3",
+        "status": "readable",
+        "number": 69,
+        "location": "shorts",
+        "prediction": 69
+      },
+      {
+        "id": "validation_40m-60-11",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "1c07a9e0f7d83358bd1974b584529c937e036034e736c8cdc546541dd7e7164a",
+        "status": "readable",
+        "number": 69,
+        "location": "shorts",
+        "prediction": 69
+      },
+      {
+        "id": "validation_40m-120-8",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "57d23cc6249bf21258e37af6953edbda15c6a68a76dede643f4e4e50a2de1072",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 63
+      },
+      {
+        "id": "validation_40m-180-10",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "3f7d2fc787d677129d78e8376b7c17fab4f4ad257903b499b90deb1557abcee2",
+        "status": "readable",
+        "number": 69,
+        "location": "back",
+        "prediction": 69
+      },
+      {
+        "id": "validation_40m-0-12",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "6fdc348084fc778f50727e14a839f54a0bc3a76d05c6adb897354aa35637b8f6",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": null
+      },
+      {
+        "id": "validation_40m-60-12",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "176b3401258ae9307998dce33a89cc239321c00cbb1872279b417a677f6dc6fe",
+        "status": "readable",
+        "number": 4,
+        "location": "shorts",
+        "prediction": 4
+      },
+      {
+        "id": "validation_40m-120-9",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "5580ad01a535223fd8578f59d8cf2312c523410291a105579dfe5b1cc25b05d7",
+        "status": "readable",
+        "number": 4,
+        "location": "shorts",
+        "prediction": 4
+      },
+      {
+        "id": "validation_40m-180-11",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "d066d4fcaf27dd970160c7d1b66527cc44b48eefa65abf897821ec9a717ffe80",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": 4
+      },
+      {
+        "id": "validation_40m-0-7",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "1b16226b4c50a0f3b6a312d504b07379ba5296eb5324a420131c6da74ca86e1b",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_40m-60-8",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "aef0c79ddb4d98952f430b5e86e3593fd5d17c03eabc180ce902782820be60f5",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 81
+      },
+      {
+        "id": "validation_40m-120-4",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "8623ae9902ed93c38a4a99ed8c63e5ba0fc8776ab8adf4e13ddeb93d4d5db1a6",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 81
+      },
+      {
+        "id": "validation_40m-180-6",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "6dff7d0972828b04ec4296d93d83b70b1257e9ee0f76ca6e163353103e93bbf8",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-0-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "4abf53b50f4b97f18bc64b3421a4f2455eda42900b16f84b936e25a263314d9e",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-60-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "03b722da53ad0e79756cded10c48c65471933451af9cd66e3b6883b97d89383a",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-120-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "5246c1e403868728b2d64d583ba96a4e9775a99344e630b42f23a482630c2281",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-180-0",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "7fade65773dac7cb2051125db269d56b251c1241028b385a0b5e97d3bc1e3daa",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-0-10",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "6a87c371c10abe66a574bdf2b199616360fe8ccee4b4f923c0cc97807d99c422",
+        "status": "readable",
+        "number": 33,
+        "location": "back",
+        "prediction": 33
+      },
+      {
+        "id": "validation_46m-60-8",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "8d84ec493ea8957d96f8eefeeef8368fae5172f4e8c7cc082d765fe01cd12ed0",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-120-2",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "d4466364afe50574a31163c5dbd8c9c0377adb8ec895dd38dad0c3e6c9577a8f",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-0-11",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "659cdd5b48ab92ca80c25d9e15362b56b410e4ca34fbab62a097521db0edda7b",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-60-11",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "d20d1b66e03f79550e95169d49bec4bb12c9179ff248c3b1761568611774cb80",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "validation_46m-120-10",
+        "source_id": "Z-tFHtxODsE",
+        "split": "development_regression",
+        "crop_sha256": "41f62dc217e54f8b4280beae74d019126ae39762b6b23838a2874335f5fad52d",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_01m-060-19",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "f22fee13fb8b1db29ae30ea0b6a78beb73812afc2c27b9f4c6686ec0236277db",
+        "status": "readable",
+        "number": 3,
+        "location": "back",
+        "prediction": 3
+      },
+      {
+        "id": "game2_01m-180-17",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "6c5a48552621ff353b75a26abb0ee388fba069dffbb772e8c57cfb33e9f51f26",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_01m-060-17",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "3e639ae774af8482dd423a12bfae6740aa1ad19efe19ee7ca80363e8ffe81001",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_01m-180-20",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "9014e640991b19a239744283305816e64b9408ee4fc1b190893bbd71efe357fa",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_01m-060-18",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "826c258bfee1ec8cfe0f814466d382630aef6ec6ccbd0a39363282b996e9709e",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_01m-180-21",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "d26307df0e5c6cbb8def731610c177a211805cb3061d563fa17faca145074c0c",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_06m-060-23",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "f8d782aa4a2de7f5e36eecd1b5de81c86c982b5672cba96f1a9df0812585870c",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_06m-180-16",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "84e42c75481c95d067d30f6ea9716a77c6c633f4e73537fc8ffac34f3204512a",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": 22
+      },
+      {
+        "id": "game2_06m-060-21",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "6c0cdcd9286e43bd0bb427b9ee76a0bc6e0496b9e1351d2d761186b4d16d3ddd",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_06m-180-15",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "d3a8049547ec54b0a83eac15beca6a63f44c80fd590a257a5cc7c5790552c377",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_06m-060-09",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "fd8c29018ac2e94505881bc8c4d807ac9846c3b5a3ccb099bedd95e4d57367c0",
+        "status": "readable",
+        "number": 3,
+        "location": "back",
+        "prediction": 3
+      },
+      {
+        "id": "game2_06m-180-14",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "5e693f86429d80468bd2312d8e55a96f728c361d4447f4e72a34a6925114556a",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_24m-060-12",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "ba8812d0aaf8f99286961b4256a97fadf0743ee3bff367dbd2594f6e907b7247",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_24m-180-17",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "30c3068c0b9a1660cb55f73a4690de06575c01019e45d8616a507661cb0d1c53",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": 95
+      },
+      {
+        "id": "game2_24m-060-19",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "e6e055435d4d067c6e134ec3d983714bbec8f046ec9fcefa0b786adbf3d5d7df",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_24m-180-01",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "2de07a43443c973f58699346c2ee93dabc3ff1480bc8bd488ccef0d758398c6f",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_33m-060-04",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "cfba5952637bf215d73b4acd664acb218c86bb69ee32d6a5717bd63db9479196",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_33m-180-09",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "1006e8e02edaf824b6ddff60c3c02fb356b9594876df336f28423715bcedf5d0",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_33m-060-10",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "1777aa8d4bbfc1a6d93be3e363b1b4617342eee776aa8b1c0c65b6e4b51d20d8",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_33m-180-08",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "955479ad0960bfdfe4e3bf6f84fcfea07b4c333452723bb9d938d61cf4e1f4b7",
+        "status": "readable",
+        "number": 94,
+        "location": "back",
+        "prediction": 94
+      },
+      {
+        "id": "game2_33m-060-09",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "e8cca0199e33864532b68b429913d464edc2c5ee177d80eff44198560bf9385e",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_33m-180-11",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "564455b0de164151a0f98aa24c490dfe329b5ded4f51700d7a8615f3c8b58c5f",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-060-10",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "d91c80efc4209301eb2a0d3813e0a1d4c6f516be9ecba258b13a239ef7e8afc4",
+        "status": "readable",
+        "number": 93,
+        "location": "back",
+        "prediction": 93
+      },
+      {
+        "id": "game2_41m-180-22",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "455020b9c279909c2541b4f821af3ffbf13ec66ef059226ef722c2d7065b74c3",
+        "status": "readable",
+        "number": 93,
+        "location": "back",
+        "prediction": 93
+      },
+      {
+        "id": "game2_41m-060-22",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "3f747b26ae8a8d60709b08256270ad32f356cb19c0616ed82ae6627b0e465eed",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": 86
+      },
+      {
+        "id": "game2_41m-180-10",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "f66f2a1de24f98e742a27d95cd0e577f04ff9ad52e92ad09b11105dc425b40be",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "review_note": "Enlarged second pass could not distinguish all digits confidently; original draft reading withdrawn.",
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-060-24",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "5050b42f2ae1cb49af8491a79223e12f3e81bbf5f7e0a8513977edcb44934912",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-180-13",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "670954c0045c15e70ff7b35b980cc5252353f68f9c493cfab2a57c0aa6921a92",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-060-15",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "d5dc3d4ed62bce5577eef0064a5423d76d71c05a97fe131ca770f2782cccd7c6",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-180-14",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "7ad1a28ab3f4b3e9a0e7d071b39e02abb02a0b3383d585c76a9b696478783ff0",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-060-12",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "1387980eae391d9d44a131d90e23ce60667e7b9e9a28420377deae55d7670c4b",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      },
+      {
+        "id": "game2_41m-180-15",
+        "source_id": "plDp2kPtk_g",
+        "split": "transfer_regression",
+        "crop_sha256": "e4274347d54fd7e3fcaa497c499993486fa9834281cd3eaa79904f33ea871adb",
+        "status": "unknown",
+        "number": null,
+        "location": null,
+        "prediction": null
+      }
+    ],
+    "evidence_sha256": "4292d8bdfac0118edf5520ce4bfd5e81fca2eaf3b0526c6c07329a86beff7cbd",
+    "prediction_sha256": "d9ec1788316a71cdbbf7d993bcb39abfe5463165f36ab9db9fa9a5af845cbe58",
+    "new_model_inference": false,
+    "independent_human_ground_truth": false,
+    "scope": "Tutorial-style three consecutive readings applied to archived VLM outputs in chronological image order. Existing assistant labels are not blind; unknown crops are not negatives. This does not implement or validate Roboflow number detection or OCR."
+  }
+}

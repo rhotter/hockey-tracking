@@ -1,0 +1,31 @@
+{
+  "id": "roboflow-replacement-20261025-v1",
+  "scope": "NBHL ball hockey only; no new task training on other sports",
+  "sports_revision": "42c80c06b6b65a7f89455b89fe31cdf4c38ba227",
+  "trackers_revision": "54078229c1bf381bcdc41c431ca11097abfec16c",
+  "supervision_version": "0.27.0",
+  "siglip_model": "google/siglip-base-patch16-224",
+  "siglip_revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+  "seed": 17,
+  "development": ["game2_01m", "game2_06m", "game2_24m", "game2_33m", "game2_41m", "long-plDp2kPtk_g"],
+  "regression": ["pittsburgh-0600", "pittsburgh-1800", "marylandwomen-0600", "marylandwomen-1800", "pittsburgh-stress-0900"],
+  "detectors": ["yolo_cached", "rfdetr_nbhl"],
+  "rfdetr_weights": "training/rfdetr-medium-r960-s17-e80-88a1f5e8/checkpoint_best_total.pth",
+  "rfdetr_weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+  "rfdetr_revision": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+  "trackers": ["sports_bytetrack", "rf_bytetrack", "rf_ocsort", "rf_cbiou", "rf_botsort"],
+  "profiles": ["default", "long_buffer"],
+  "profile_definition": "Defaults with actual 15 fps; sports tutorial uses minimum_consecutive_frames=3. long_buffer changes only lost_track_buffer to 120 (four seconds at any fps). Scene cuts reset IDs with a unique scene prefix. Unassigned -1 outputs are excluded. Only current detection boxes are emitted.",
+  "selection": "For each detector, maximize summed development correct - 10*wrong, then more matched observations, fewer uncertain joins, fewer fragments, then default profile and lexical method ID. Freeze before scoring regression. Always retain the tutorial ByteTrack comparator and the existing pipeline.",
+  "team": {
+    "fit": "Per recording, deterministic uniform sampling of up to 512 automatic player crops at frames 7+15k with confidence>=0.65. No reference identities, team names or labels enter fit.",
+    "implementation": "Use sports.TeamClassifier with its original SigLIP features, UMAP 3D and two-cluster KMeans; fix random seeds and n_init=10 for reproducibility.",
+    "evaluation": "Classify automatic detections on frozen reference timestamps, match one-to-one IoU>=0.5 and align the two cluster names only for scoring. Report all assignments and a predeclared distance-margin>=0.2 plus training 95th-percentile distance gate. The gate may abstain.",
+    "limits": "Unsupervised per-recording adaptation; evaluation footage contributes unlabeled fitting samples. Team membership is not player identity."
+  },
+  "geometry": "Run sports.ViewTransformer on the existing New Jersey relative-coordinate correspondences; check numerical equivalence on real saved points. This is software replacement verification, not new calibration accuracy. Dimensions remain unverified and metric distances disabled.",
+  "ball": "Run sports.BallTracker on existing ball-only detector candidates where available, retaining unknown visibility and resetting between independent windows. Report conditional reviewed-visible localization separately from unsupported full-game event claims.",
+  "jersey": "Inspect and exercise the tutorial's repeated-reading consensus using archived per-image number predictions. This does not replace a trained number-region detector or establish a ball-hockey OCR model.",
+  "reference_policy": "Preserve all frozen references; reused sparse assistant-reviewed regression, no independent human ground truth, HOTA/IDF1, full-game identity, TOI or miles claim.",
+  "compute": {"provider":"Modal", "maximum_concurrent_containers":4, "new_llm_calls":false, "bounded_job_timeout_seconds":7200}
+}

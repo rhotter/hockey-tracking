@@ -1,0 +1,968 @@
+{
+  "id": "roboflow-replacement-20261025-v1",
+  "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+  "selection_sha256": "8b164928958e37f6e279ad5f7768709bcf4f10f4c62a1d806fbdbf95cf78b51f",
+  "hybrid_protocol_sha256": "1df8b561c0d4a0a231c02b7988ea6dab952ecf2429c989896230d283e797eb61",
+  "existing_pipeline": {
+    "method": "existing",
+    "label": "Existing SAM2 + OSNet + Qwen joint 2B",
+    "counts": {
+      "correct": 111,
+      "wrong": 0,
+      "unknown_same": 4,
+      "same_total": 129,
+      "different_total": 1330,
+      "missing": 148,
+      "matched_observations": 222,
+      "reference_observations": 233
+    },
+    "clips": [
+      {
+        "clip": "pittsburgh-0600",
+        "counts": {
+          "correct": 18,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 20,
+          "different_total": 191,
+          "missing": 9,
+          "matched_observations": 38,
+          "reference_observations": 39
+        },
+        "source_prediction_sha256": "eef286d513bd534d4f8729defacb8a64c5a9865255e419f309d9125340e69fca"
+      },
+      {
+        "clip": "pittsburgh-1800",
+        "counts": {
+          "correct": 25,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 32,
+          "different_total": 315,
+          "missing": 62,
+          "matched_observations": 43,
+          "reference_observations": 47
+        },
+        "source_prediction_sha256": "e5a1f8231a7e7d82255a42bbf3f37e42db7a83561f5ab094acd9095ea29f4d36"
+      },
+      {
+        "clip": "marylandwomen-0600",
+        "counts": {
+          "correct": 47,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 49,
+          "different_total": 418,
+          "missing": 18,
+          "matched_observations": 56,
+          "reference_observations": 57
+        },
+        "source_prediction_sha256": "952689ad2a16a1fcbab03cadf7a8b31325949a14c9720354aa0cfc7497c07021"
+      },
+      {
+        "clip": "marylandwomen-1800",
+        "counts": {
+          "correct": 0,
+          "wrong": 0,
+          "unknown_same": 1,
+          "same_total": 2,
+          "different_total": 38,
+          "missing": 16,
+          "matched_observations": 20,
+          "reference_observations": 22
+        },
+        "source_prediction_sha256": "14094a3ff613c717adfdbb07ee9a12143d1073281b878aeee17ea872ae722e93"
+      },
+      {
+        "clip": "pittsburgh-stress-0900",
+        "counts": {
+          "correct": 21,
+          "wrong": 0,
+          "unknown_same": 0,
+          "same_total": 26,
+          "different_total": 368,
+          "missing": 43,
+          "matched_observations": 65,
+          "reference_observations": 68
+        },
+        "source_prediction_sha256": "3f70bb7720841726832ebde3839d898ffed18324a28fba2f5d2d183f9dcd3c48"
+      }
+    ],
+    "reference_sha256": "d75c360c51a07a32c5369955cc3a4afc6190ae7c46822015a061808757dc12d1",
+    "source": "Previously published sampled predictions; independently recounted without rerunning inference."
+  },
+  "tracking": [
+    {
+      "method": "rfdetr_nbhl-rf_botsort-default",
+      "counts": {
+        "correct": 72,
+        "wrong": 3,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 166,
+        "matched_observations": 221,
+        "reference_observations": 233
+      },
+      "fragments": 426,
+      "tracking_seconds": 98.1346419889999,
+      "clips": [
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 14,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 21,
+            "matched_observations": 37,
+            "reference_observations": 39
+          },
+          "fragments": 35,
+          "observations": 2438,
+          "method": "rfdetr_nbhl-rf_botsort-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 7.640703378000026,
+          "shared_decode_and_tracking_seconds": 8.206877787,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "7c42fb14d212253423fb4cb172181a03c447baa0c6d16540f63b71b8fd0fc591"
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 15,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 92,
+            "matched_observations": 41,
+            "reference_observations": 47
+          },
+          "fragments": 43,
+          "observations": 2835,
+          "method": "rfdetr_nbhl-rf_botsort-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 11.515321061999998,
+          "shared_decode_and_tracking_seconds": 12.526229139999998,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "562da0036a3e79ac0fb2758a1807b8382cafcc6247b3f7b2ebf96ec08f118a00"
+        },
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 43,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 0,
+            "matched_observations": 57,
+            "reference_observations": 57
+          },
+          "fragments": 25,
+          "observations": 3937,
+          "method": "rfdetr_nbhl-rf_botsort-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 4.903441481000044,
+          "shared_decode_and_tracking_seconds": 5.588261523999996,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "bfe09c26b834de949cbe8df72cf25849b9a7bd71568e968c9facc641cea3346a"
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 0,
+            "matched_observations": 22,
+            "reference_observations": 22
+          },
+          "fragments": 36,
+          "observations": 1536,
+          "method": "rfdetr_nbhl-rf_botsort-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 4.693594599999997,
+          "shared_decode_and_tracking_seconds": 5.116003535000004,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "b6322ac8fda1f8e4be5fab4c1eac114ad52f8e8c52dcc6db293022e3659aaafc"
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 0,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 53,
+            "matched_observations": 64,
+            "reference_observations": 68
+          },
+          "fragments": 287,
+          "observations": 30446,
+          "method": "rfdetr_nbhl-rf_botsort-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 69.38158146799984,
+          "shared_decode_and_tracking_seconds": 76.06635793999999,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "7d98ddf39ac0e20a2ec155b2d6e403af0d4b3e6e0829b824e7d5317ae3193ae5"
+        }
+      ]
+    },
+    {
+      "method": "rfdetr_nbhl-sports_bytetrack-default",
+      "counts": {
+        "correct": 33,
+        "wrong": 8,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 564,
+        "matched_observations": 186,
+        "reference_observations": 233
+      },
+      "fragments": 479,
+      "tracking_seconds": 6.331487765999697,
+      "clips": [
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 9,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 62,
+            "matched_observations": 32,
+            "reference_observations": 39
+          },
+          "fragments": 37,
+          "observations": 2081,
+          "method": "rfdetr_nbhl-sports_bytetrack-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.39036373199996177,
+          "shared_decode_and_tracking_seconds": 8.243748264,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "6188531f6cfc2b5f211987953efda2f1cea7165caceadf92c99203c9857b2d76"
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 6,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 222,
+            "matched_observations": 32,
+            "reference_observations": 47
+          },
+          "fragments": 48,
+          "observations": 2524,
+          "method": "rfdetr_nbhl-sports_bytetrack-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.7193274629999848,
+          "shared_decode_and_tracking_seconds": 12.664948683999995,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "117607dfb5209b2679915cc294dd8cc5fb9f0716756f2e3c1ab1683ca0ea28f9"
+        },
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 18,
+            "wrong": 5,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 112,
+            "matched_observations": 49,
+            "reference_observations": 57
+          },
+          "fragments": 34,
+          "observations": 3718,
+          "method": "rfdetr_nbhl-sports_bytetrack-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.46655048699991397,
+          "shared_decode_and_tracking_seconds": 5.644149393999996,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "20bb36bfb03fc5e816d76d74b13f03341b0b84754ec7d29d5145482b7baef1bc"
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 17,
+            "matched_observations": 20,
+            "reference_observations": 22
+          },
+          "fragments": 39,
+          "observations": 1137,
+          "method": "rfdetr_nbhl-sports_bytetrack-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.2979044279999101,
+          "shared_decode_and_tracking_seconds": 5.137704294000002,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "9960f0d5a6850dd9b5e06f06de3328c981d81ebf6c8099ee2651ff3bfc06a8f6"
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 151,
+            "matched_observations": 53,
+            "reference_observations": 68
+          },
+          "fragments": 321,
+          "observations": 28074,
+          "method": "rfdetr_nbhl-sports_bytetrack-default",
+          "detector": "rfdetr_nbhl",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 4.457341655999926,
+          "shared_decode_and_tracking_seconds": 76.60619068999998,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "a616e91bfcfd4a14d92db384a173a7466665243ed636c5bb6ad2c4ba2cd7248c"
+        }
+      ]
+    },
+    {
+      "method": "yolo_cached-rf_botsort-default",
+      "counts": {
+        "correct": 69,
+        "wrong": 4,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 145,
+        "matched_observations": 223,
+        "reference_observations": 233
+      },
+      "fragments": 488,
+      "tracking_seconds": 137.3785824639993,
+      "clips": [
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 12,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 20,
+            "matched_observations": 37,
+            "reference_observations": 39
+          },
+          "fragments": 40,
+          "observations": 2456,
+          "method": "yolo_cached-rf_botsort-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 12.604574523000004,
+          "shared_decode_and_tracking_seconds": 17.685155059,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "1b6da56cafa74e7445075266830bb27b4d8208b9d1d808a7a41e33f34b3ad451"
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 16,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 51,
+            "matched_observations": 44,
+            "reference_observations": 47
+          },
+          "fragments": 50,
+          "observations": 3075,
+          "method": "yolo_cached-rf_botsort-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 30.502739453000018,
+          "shared_decode_and_tracking_seconds": 47.198517748,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "4441f84013106a5ce08d16002cb3e174dfca4e93b9d8f650bee276d57887210e"
+        },
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 41,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 35,
+            "matched_observations": 55,
+            "reference_observations": 57
+          },
+          "fragments": 27,
+          "observations": 3822,
+          "method": "yolo_cached-rf_botsort-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 5.728911863999997,
+          "shared_decode_and_tracking_seconds": 8.605156904000005,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "362d6c7f8c40de345cafb76a6e18a9a7755c38082f73968d1f6b3a364a3a72a0"
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 8,
+            "matched_observations": 21,
+            "reference_observations": 22
+          },
+          "fragments": 36,
+          "observations": 1503,
+          "method": "yolo_cached-rf_botsort-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 4.958674378999923,
+          "shared_decode_and_tracking_seconds": 7.170573572999999,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "fbd1bb094b331052d4c0013e21b2bd0c9ca54ef8e06b8276577c747026754298"
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 31,
+            "matched_observations": 66,
+            "reference_observations": 68
+          },
+          "fragments": 335,
+          "observations": 30539,
+          "method": "yolo_cached-rf_botsort-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "rf_botsort",
+            "default"
+          ],
+          "tracking_seconds": 83.58368224499935,
+          "shared_decode_and_tracking_seconds": 94.02059676,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "7b943593b499cde4b9b8d489a3afaf37a224d6bd24e204ecd102794897dfbf88"
+        }
+      ]
+    },
+    {
+      "method": "yolo_cached-sports_bytetrack-default",
+      "counts": {
+        "correct": 29,
+        "wrong": 5,
+        "unknown_same": 0,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 592,
+        "matched_observations": 184,
+        "reference_observations": 233
+      },
+      "fragments": 487,
+      "tracking_seconds": 8.304161378000249,
+      "clips": [
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 9,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 68,
+            "matched_observations": 31,
+            "reference_observations": 39
+          },
+          "fragments": 39,
+          "observations": 2028,
+          "method": "yolo_cached-sports_bytetrack-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.581603944999979,
+          "shared_decode_and_tracking_seconds": 17.728480388999998,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "d603ed7015b4c7d3a11ce6ee878a8680822a54ab9577ec61be62269625f83bde"
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 5,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 201,
+            "matched_observations": 34,
+            "reference_observations": 47
+          },
+          "fragments": 50,
+          "observations": 2653,
+          "method": "yolo_cached-sports_bytetrack-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 1.7246611280000081,
+          "shared_decode_and_tracking_seconds": 47.272381065,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "5ec9c78670414358e071d870020b17eb7fdc2e3e170ec0599d2b379f4363845f"
+        },
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 15,
+            "wrong": 4,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 147,
+            "matched_observations": 47,
+            "reference_observations": 57
+          },
+          "fragments": 37,
+          "observations": 3571,
+          "method": "yolo_cached-sports_bytetrack-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.582089385999943,
+          "shared_decode_and_tracking_seconds": 8.658715448000002,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "a93f68d1f16bfbf21f1997db23529a24db2a3b269bcfffae5371bb5b16aefcc5"
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 25,
+            "matched_observations": 19,
+            "reference_observations": 22
+          },
+          "fragments": 35,
+          "observations": 1150,
+          "method": "yolo_cached-sports_bytetrack-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 0.4396837299999703,
+          "shared_decode_and_tracking_seconds": 7.193134798999999,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "d79824e4cc3fa70c0ff78260779412339e1e7357a12e3de8978801c250ef5f78"
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 0,
+            "wrong": 0,
+            "unknown_same": 0,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 151,
+            "matched_observations": 53,
+            "reference_observations": 68
+          },
+          "fragments": 326,
+          "observations": 27542,
+          "method": "yolo_cached-sports_bytetrack-default",
+          "detector": "yolo_cached",
+          "setting": [
+            "sports_bytetrack",
+            "default"
+          ],
+          "tracking_seconds": 4.976123189000347,
+          "shared_decode_and_tracking_seconds": 94.584227025,
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "tracks_sha256": "7cdee97f9ef1b9226c0bb1caff68f9e281e861520af38b666135d7e9721a4d71"
+        }
+      ]
+    },
+    {
+      "method": "yolo_cached-rf_botsort-default-appearance",
+      "counts": {
+        "correct": 94,
+        "wrong": 14,
+        "unknown_same": 3,
+        "same_total": 129,
+        "different_total": 1330,
+        "missing": 145,
+        "matched_observations": 223,
+        "reference_observations": 233
+      },
+      "fragments": 251,
+      "tracking_seconds": 11.280543736999999,
+      "clips": [
+        {
+          "clip": "pittsburgh-0600",
+          "counts": {
+            "correct": 16,
+            "wrong": 2,
+            "unknown_same": 0,
+            "same_total": 20,
+            "different_total": 191,
+            "missing": 20,
+            "matched_observations": 37,
+            "reference_observations": 39
+          },
+          "fragments": 24,
+          "observations": 2456,
+          "method": "yolo_cached-rf_botsort-default-appearance",
+          "detector": "yolo_cached",
+          "setting": [
+            "existing_osnet_global_links",
+            "global-005"
+          ],
+          "base_method": "yolo_cached-rf_botsort-default",
+          "tracking_seconds": 0.7948463509999999,
+          "links": 16,
+          "feature_sha256": "ae27d1aba99e5299c7393ba7a76a51b746aa7435a4a767a19b7ae03b72562e94",
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "hybrid_protocol_sha256": "1df8b561c0d4a0a231c02b7988ea6dab952ecf2429c989896230d283e797eb61",
+          "tracks_sha256": "940a9a697ae4f53073f31887305b429a2a36592ba5a335c45474e30a25350885"
+        },
+        {
+          "clip": "pittsburgh-1800",
+          "counts": {
+            "correct": 23,
+            "wrong": 1,
+            "unknown_same": 1,
+            "same_total": 32,
+            "different_total": 315,
+            "missing": 51,
+            "matched_observations": 44,
+            "reference_observations": 47
+          },
+          "fragments": 31,
+          "observations": 3075,
+          "method": "yolo_cached-rf_botsort-default-appearance",
+          "detector": "yolo_cached",
+          "setting": [
+            "existing_osnet_global_links",
+            "global-005"
+          ],
+          "base_method": "yolo_cached-rf_botsort-default",
+          "tracking_seconds": 1.3777555059999997,
+          "links": 19,
+          "feature_sha256": "af98e24635c8f299683636ed0edf9c1dee281170f7da64249f68683900b91a76",
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "hybrid_protocol_sha256": "1df8b561c0d4a0a231c02b7988ea6dab952ecf2429c989896230d283e797eb61",
+          "tracks_sha256": "de240a23c457f1ca46f3c51a6fcdf24e29bdce0fda9d7f4616ad331a815edfc6"
+        },
+        {
+          "clip": "marylandwomen-0600",
+          "counts": {
+            "correct": 42,
+            "wrong": 1,
+            "unknown_same": 0,
+            "same_total": 49,
+            "different_total": 418,
+            "missing": 35,
+            "matched_observations": 55,
+            "reference_observations": 57
+          },
+          "fragments": 22,
+          "observations": 3822,
+          "method": "yolo_cached-rf_botsort-default-appearance",
+          "detector": "yolo_cached",
+          "setting": [
+            "existing_osnet_global_links",
+            "global-005"
+          ],
+          "base_method": "yolo_cached-rf_botsort-default",
+          "tracking_seconds": 1.2765674639999993,
+          "links": 5,
+          "feature_sha256": "11a480307422f7134dc490194db2f32c6fc3c48a6813602e8565c3ee0bbbb4c2",
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "hybrid_protocol_sha256": "1df8b561c0d4a0a231c02b7988ea6dab952ecf2429c989896230d283e797eb61",
+          "tracks_sha256": "33c37042f98a4181c10d45232b4ee086bb4a39877ee0ceb7258c474d9b0b08a7"
+        },
+        {
+          "clip": "marylandwomen-1800",
+          "counts": {
+            "correct": 1,
+            "wrong": 0,
+            "unknown_same": 1,
+            "same_total": 2,
+            "different_total": 38,
+            "missing": 8,
+            "matched_observations": 21,
+            "reference_observations": 22
+          },
+          "fragments": 22,
+          "observations": 1503,
+          "method": "yolo_cached-rf_botsort-default-appearance",
+          "detector": "yolo_cached",
+          "setting": [
+            "existing_osnet_global_links",
+            "global-005"
+          ],
+          "base_method": "yolo_cached-rf_botsort-default",
+          "tracking_seconds": 0.303927152,
+          "links": 14,
+          "feature_sha256": "17c6a750b318a395816c273a2fb910f3333fd428e715a69ab2ed4d5161b798d7",
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "hybrid_protocol_sha256": "1df8b561c0d4a0a231c02b7988ea6dab952ecf2429c989896230d283e797eb61",
+          "tracks_sha256": "ab700edcb2d64d769107c8d62404bf4c07c795d63e9ddb2094fd9614db9fff6d"
+        },
+        {
+          "clip": "pittsburgh-stress-0900",
+          "counts": {
+            "correct": 12,
+            "wrong": 10,
+            "unknown_same": 1,
+            "same_total": 26,
+            "different_total": 368,
+            "missing": 31,
+            "matched_observations": 66,
+            "reference_observations": 68
+          },
+          "fragments": 152,
+          "observations": 30539,
+          "method": "yolo_cached-rf_botsort-default-appearance",
+          "detector": "yolo_cached",
+          "setting": [
+            "existing_osnet_global_links",
+            "global-005"
+          ],
+          "base_method": "yolo_cached-rf_botsort-default",
+          "tracking_seconds": 7.527447264,
+          "links": 183,
+          "feature_sha256": "e6ad208dc15cf505cf65a181cd40b9adc30bbb07fa7e704e7b3b48ea03805a05",
+          "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+          "hybrid_protocol_sha256": "1df8b561c0d4a0a231c02b7988ea6dab952ecf2429c989896230d283e797eb61",
+          "tracks_sha256": "37fa51cff36d4bf81d86fe4a9ccfaabab58f9281c9e459ca31b51eeaa371f1a9"
+        }
+      ]
+    }
+  ],
+  "independent_human_ground_truth": false,
+  "total_regression_frames": 6300,
+  "detector_runs": [
+    {
+      "clip": "game2_01m",
+      "phase": "development",
+      "frames": 300,
+      "seconds": 27.561173500000002,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "58f52e332f099fce44fd6c1406f89370419fb2cb621ac79c2b03957b75defa4c",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "game2_06m",
+      "phase": "development",
+      "frames": 300,
+      "seconds": 24.826010765,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "fe28c204cb85339a1ede60372015896c53a1fd18d126f08bf9df77ebe4ea39d9",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "game2_24m",
+      "phase": "development",
+      "frames": 300,
+      "seconds": 21.750329301999997,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "4ae4d6bc335651c0289edef3a849d998e40da5e3de1d1f17a61cf488417c88d5",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "game2_33m",
+      "phase": "development",
+      "frames": 300,
+      "seconds": 26.408570193999992,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "cb4751e78c2ed899b7e09b545468e05f455a6b46583f3f6d29722a5701434d35",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "game2_41m",
+      "phase": "development",
+      "frames": 300,
+      "seconds": 24.617348211000007,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "a98a06f2158272caae52fa4ac0d3e8f2ef76cc5cadbd6b6f653ac4d9ccb9a6c2",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "long-plDp2kPtk_g",
+      "phase": "development",
+      "frames": 1800,
+      "seconds": 95.18199723400001,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "9ceded54dc96940c7cab12af3918180283c7eefc4f09ee08b4093c0dd78ed1c4",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "pittsburgh-0600",
+      "phase": "regression",
+      "frames": 450,
+      "seconds": 86.907603608,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "66fcb9570b5905277ebf61a73377c0270622a0c79dc8757270eb8533a4df53a9",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "pittsburgh-1800",
+      "phase": "regression",
+      "frames": 450,
+      "seconds": 116.599036711,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "4acdbf70e4a80e903a95c2b54d6a096063b0d11557efeb660d57c4cbdaef1af5",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "marylandwomen-0600",
+      "phase": "regression",
+      "frames": 450,
+      "seconds": 78.02808416600001,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "471fff0f4e170a5eeab1f6667a70b224cb2af6101f3ed734655de243e10cf93b",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "marylandwomen-1800",
+      "phase": "regression",
+      "frames": 450,
+      "seconds": 78.07244982699996,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "a6ddc8e3783da8c12ada796fcb1f080e92cef405fd2b84216e1e2df99520b782",
+      "class_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "clip": "pittsburgh-stress-0900",
+      "phase": "regression",
+      "frames": 4500,
+      "seconds": 216.88200825799998,
+      "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d",
+      "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+      "detections_sha256": "43fb4aaef0af5fb9c9c83ebdbdf63bb75053c9579cf3faa10e75ed3403365e73",
+      "class_ids": [
+        0,
+        1
+      ]
+    }
+  ]
+}

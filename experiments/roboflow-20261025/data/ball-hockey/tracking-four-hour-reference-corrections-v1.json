@@ -1,0 +1,83 @@
+{
+  "id": "nbhl-four-hour-reference-corrections-v1",
+  "created_at": "2026-10-18T16:54:15.998610+00:00",
+  "original_labels_preserved": true,
+  "trigger": "Failure investigation of an apparent tracker error; raw intervening frames contradicted endpoint-only label.",
+  "corrections": [
+    {
+      "pair_id": "plDp2kPtk_g-024",
+      "source_id": "plDp2kPtk_g",
+      "clip": "long-plDp2kPtk_g",
+      "sampling_set": "long-track-audit-v1",
+      "previous_truth": "different",
+      "truth": "same",
+      "evidence": "The isolated white-helmet red player walks continuously from x~190 to x~410 through six raw frames one second apart; no other player enters that trajectory. He turns from front/side to rear, changing visible shin-pad surfaces. Endpoint-only shin-color contrast was not an identity difference.",
+      "raw_frames": [
+        {
+          "frame": 1223,
+          "source_time_s": 681.5333333333333,
+          "path": "/data/ball-hockey/reliability-20261018/long-sam2-v1/plDp2kPtk_g/frames/001224.jpg",
+          "sha256": "abde8afd4fd6d13cc0934dfa3a82cc5fd85540962a257200a60807148e4a66b6"
+        },
+        {
+          "frame": 1238,
+          "source_time_s": 682.5333333333333,
+          "path": "/data/ball-hockey/reliability-20261018/long-sam2-v1/plDp2kPtk_g/frames/001239.jpg",
+          "sha256": "50b7533501b11d216f334393c2eb23c3cfff249ca9a6169a531b97a58a0d7c37"
+        },
+        {
+          "frame": 1253,
+          "source_time_s": 683.5333333333333,
+          "path": "/data/ball-hockey/reliability-20261018/long-sam2-v1/plDp2kPtk_g/frames/001254.jpg",
+          "sha256": "8824d9cda6c1c9a320d201b31d76fd85a93c4bac0b75917898e7a844830b6eae"
+        },
+        {
+          "frame": 1268,
+          "source_time_s": 684.5333333333333,
+          "path": "/data/ball-hockey/reliability-20261018/long-sam2-v1/plDp2kPtk_g/frames/001269.jpg",
+          "sha256": "d2ab9df2faeed55d22148eb5d85efeea73d6b6b528583642673cea13f96a458f"
+        },
+        {
+          "frame": 1283,
+          "source_time_s": 685.5333333333333,
+          "path": "/data/ball-hockey/reliability-20261018/long-sam2-v1/plDp2kPtk_g/frames/001284.jpg",
+          "sha256": "0da6b7c46ec0c91bed9cd2d3b072fc9cd5ee6cd2ddde0d34e6082af1ce89477e"
+        },
+        {
+          "frame": 1298,
+          "source_time_s": 686.5333333333333,
+          "path": "/data/ball-hockey/reliability-20261018/long-sam2-v1/plDp2kPtk_g/frames/001299.jpg",
+          "sha256": "5891919530ba5e8d159d43c4bdc7e0f2f99555f5258df0a7d662b9edbaf63ed2"
+        }
+      ]
+    },
+    {
+      "pair_id": "sam2-plDp2kPtk_g-001",
+      "source_id": "plDp2kPtk_g",
+      "clip": "long-plDp2kPtk_g",
+      "sampling_set": "sam2-long-audit-v1",
+      "previous_truth": "different",
+      "truth": "uncertain",
+      "evidence": "The first crop hides the lower legs behind the board; its apparent dark protection is not enough to contradict the second front view. No common readable number."
+    },
+    {
+      "pair_id": "plDp2kPtk_g-010",
+      "source_id": "plDp2kPtk_g",
+      "clip": null,
+      "sampling_set": "long-track-audit-v1",
+      "previous_truth": "different",
+      "truth": "uncertain",
+      "evidence": "Dark side-view shin pads versus green rear-view pads may be different surfaces of the same equipment. No shared readable number; endpoint-only evidence is insufficient."
+    },
+    {
+      "pair_id": "plDp2kPtk_g-011",
+      "source_id": "plDp2kPtk_g",
+      "clip": "long-plDp2kPtk_g",
+      "sampling_set": "long-track-audit-v1",
+      "previous_truth": "different",
+      "truth": "uncertain",
+      "evidence": "Small partially visible lower-leg regions and a change in body angle do not support a confident identity difference; no shared readable number."
+    }
+  ],
+  "limitations": "Assistant temporal review, not independent-human annotation. Original and corrected metrics must both remain available; no final-test labels used."
+}

@@ -15,6 +15,7 @@ jobs:
       - run: python scripts/verify_sam3_results.py
       - run: python scripts/verify_sam3_improvements.py
       - run: python scripts/verify_openai_results.py
+      - run: python scripts/verify_roboflow_results.py
       - run: python scripts/verify_release.py
       - run: python -m unittest discover -s tests -v
       - run: python -m unittest discover -s experiments/openai-20261024 -p 'test_*.py' -v

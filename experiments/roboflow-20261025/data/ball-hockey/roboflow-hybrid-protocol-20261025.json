@@ -1,0 +1,10 @@
+{
+  "id": "roboflow-existing-appearance-hybrid-20261025",
+  "declared_before_new_roboflow_regression_tracking_scores": true,
+  "input": "Development-selected Roboflow tracker on the fixed YOLO detection stream; same current boxes and scene cuts. No RF-DETR hybrid is claimed because its boxes need new appearance extraction.",
+  "appearance": "Existing cached generic OSNet body-region descriptors, osnet_parts_generic. Recover exact detection indices by box equality; verify feature cache hash.",
+  "linking": {"solver":"global_assignment","pooling":"mean","cosine":0.75,"margin":0.0,"gap":300,"gap_penalty":0.001,"motion_base":1.0,"motion_per_frame":0.12,"min_support":10,"id":"global-005"},
+  "selection": "Reuse the prior SAM2 + generic body-region global-005 setting unchanged. No new linking parameter search. Score all five regression clips, retain the raw tracker comparator.",
+  "scope": "Tests replacing the SAM2 tracking stage while retaining custom appearance aggregation and reconnecting. Does not use Qwen embeddings or establish an entirely Roboflow pipeline.",
+  "independent_human_ground_truth": false
+}

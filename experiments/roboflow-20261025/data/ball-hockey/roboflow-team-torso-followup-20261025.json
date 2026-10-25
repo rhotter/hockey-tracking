@@ -1,0 +1,11 @@
+{
+  "id": "roboflow-team-torso-followup-20261025",
+  "status": "declared after stock team-classifier regression scores were seen",
+  "motivation": "Stock full-box clustering scored 136/147 in Pittsburgh and 38/75 in Maryland women. Test whether focusing the image representation on the torso reduces background and shorts interference.",
+  "change": "Crop x=15%-85%, y=12%-55% inside each automatic player detection before the same upstream TeamClassifier. Keep sampling, SigLIP revision, UMAP, KMeans, seeds, gate and evaluation unchanged.",
+  "sources": ["JlBtScHdcg4", "ILV4PoQFxGU"],
+  "selection": "One fixed follow-up; no threshold search. Report both recordings, including failures. Reused regression, not independent validation.",
+  "reference_labels_used_for_fit": false,
+  "fit_uses_unlabeled_evaluation_video": true,
+  "independent_human_ground_truth": false
+}

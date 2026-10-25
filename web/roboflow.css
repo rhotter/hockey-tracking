@@ -1,0 +1,13 @@
+.roboflow h2{margin-top:24px;margin-bottom:8px}
+.roboflow .table-wrap{margin:12px 0 18px}
+.roboflow th:not(:first-child),.roboflow td:not(:first-child){width:auto}
+#roboflow-components{table-layout:fixed;min-width:640px}
+#roboflow-components th,#roboflow-components td{text-align:left;vertical-align:top}
+#roboflow-components th:first-child{width:21%}
+#roboflow-components th:nth-child(2){width:20%}
+#roboflow-components th:nth-child(3){width:59%}
+#roboflow-tracking{min-width:760px}
+#roboflow-tracking td:not(:first-child){white-space:nowrap}
+#roboflow-teams{min-width:720px}
+#roboflow-teams th:nth-child(2),#roboflow-teams td:nth-child(2){text-align:left}
+#roboflow-teams td:nth-child(n+3){white-space:nowrap}

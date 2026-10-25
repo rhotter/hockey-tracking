@@ -1,0 +1,430 @@
+{
+  "files": [
+    {
+      "name": "replays/marylandwomen-0600-roboflow-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "73730d44705077e32574411ce8a1897539efb549d122c97e48680dd15b19f64b",
+      "bytes": 97215
+    },
+    {
+      "name": "replays/marylandwomen-0600-roboflow-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "84e8f253b0b1f74ca1e202d2dbbd834e91d47465bfd3730246d07a0354569755",
+      "bytes": 92720
+    },
+    {
+      "name": "replays/marylandwomen-0600-roboflow-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "21919bf275785393a5823c44f37ebdea2dbf49cf26c9d8b86a23b9d8e23b09de",
+      "bytes": 94086
+    },
+    {
+      "name": "replays/marylandwomen-0600-roboflow-yolo_cached-rf_botsort-default.json",
+      "sha256": "14fa1e320920c77d737b910892c036eac1e8da5778e8bc3671e287317bc8e6e3",
+      "bytes": 94369
+    },
+    {
+      "name": "replays/marylandwomen-0600-roboflow-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "8bcf35a84aa6cb759e8739b24f816ada9ab74cbaff72352290f49d11237fbf83",
+      "bytes": 89203
+    },
+    {
+      "name": "replays/marylandwomen-1800-roboflow-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "762bccd97d87894ff0015dc3b396509eb1fc8a81986534b7007bc110105ffa2a",
+      "bytes": 39325
+    },
+    {
+      "name": "replays/marylandwomen-1800-roboflow-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "3208e2ce3f770d1f7cf387595e24ce7d27ac7a8d678f7bb3d648dad94699c9cd",
+      "bytes": 29682
+    },
+    {
+      "name": "replays/marylandwomen-1800-roboflow-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "42fd5a7e7cd9cdc1a8d64a7dda488376c571210514006458a8bdc75f1482e51c",
+      "bytes": 37841
+    },
+    {
+      "name": "replays/marylandwomen-1800-roboflow-yolo_cached-rf_botsort-default.json",
+      "sha256": "a76ccc52c13c1b0e0a97537ed920d00a5d05f325dd125d73e5eb7d37dd6d6ed0",
+      "bytes": 38465
+    },
+    {
+      "name": "replays/marylandwomen-1800-roboflow-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "045dbd4c5903144324ec202bc9b77851849ffdf486d6b6af05ed2358df4ae220",
+      "bytes": 29924
+    },
+    {
+      "name": "replays/pittsburgh-0600-roboflow-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "e3114c86a808572279b01229b39cf36c6f7f8422cae8ba8a003fa1eed123f877",
+      "bytes": 60983
+    },
+    {
+      "name": "replays/pittsburgh-0600-roboflow-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "751c2d85ad0b9c3615543241f28e959afb6e0edd4dcbcb242f97d3c13ed9371e",
+      "bytes": 52579
+    },
+    {
+      "name": "replays/pittsburgh-0600-roboflow-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "aa7ec66ce58bea38344137df03d86cbb7da031a10422850cdd546c6ab2600437",
+      "bytes": 61207
+    },
+    {
+      "name": "replays/pittsburgh-0600-roboflow-yolo_cached-rf_botsort-default.json",
+      "sha256": "079d9a2229e2e6a6057b064a845a5d380974db91819cd9c26e2a2a1eb874a14a",
+      "bytes": 61870
+    },
+    {
+      "name": "replays/pittsburgh-0600-roboflow-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "5a8e4fdbaf32e554471297e10fc407451748a6f1552de2c5fa17cd3875410cd3",
+      "bytes": 51661
+    },
+    {
+      "name": "replays/pittsburgh-1800-roboflow-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "51f9e985849f8661684c97138d7940a32515710f36a85d141f38e88ade5d0fa8",
+      "bytes": 71006
+    },
+    {
+      "name": "replays/pittsburgh-1800-roboflow-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "a43b397c9547fd745f00dc52f4a1c2b7efdc5e4a66c35c0108c2961e9469b49d",
+      "bytes": 63453
+    },
+    {
+      "name": "replays/pittsburgh-1800-roboflow-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "b63756bc32b7fd328dbafa9b20e153a51ac07d01c4c50173b6604fe91cce4cfe",
+      "bytes": 76113
+    },
+    {
+      "name": "replays/pittsburgh-1800-roboflow-yolo_cached-rf_botsort-default.json",
+      "sha256": "e4fdf28c3a403fe5186d84caaf590dd2bdf112465052e268264ec9437908b2cf",
+      "bytes": 77161
+    },
+    {
+      "name": "replays/pittsburgh-1800-roboflow-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "dbf01340c5d1159efd9ba24c7612263971d3ba124ed79c499149ca4aaa34b6df",
+      "bytes": 66712
+    },
+    {
+      "name": "replays/pittsburgh-stress-0900-roboflow-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "a64bd7ba092680b84c209d021b0eb5f6582e38b82739c321e74037c9934b7258",
+      "bytes": 789026
+    },
+    {
+      "name": "replays/pittsburgh-stress-0900-roboflow-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "a1c8126cb7dc2e2953f5add6bc825d8bc37e276488ff5f394d593def899adb64",
+      "bytes": 728537
+    },
+    {
+      "name": "replays/pittsburgh-stress-0900-roboflow-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "01974ad30e1a82470f46b9af25c40fd2e4bb1ed8a955e4dc919e5367617d2cf7",
+      "bytes": 774138
+    },
+    {
+      "name": "replays/pittsburgh-stress-0900-roboflow-yolo_cached-rf_botsort-default.json",
+      "sha256": "3c229517bc8d62fce1c6cfcc4991feaeea7b0b46dde83e2f739fdbb1dc099e1b",
+      "bytes": 794323
+    },
+    {
+      "name": "replays/pittsburgh-stress-0900-roboflow-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "4f92f0ba314d15f7796edbb3c27fa498e49e85679a67f9ed8151552cb2a50dbd",
+      "bytes": 715939
+    },
+    {
+      "name": "reports/detector-audit.json",
+      "sha256": "231fb0f01d2b750e2d245b8f2810e44a03535ad496643abb25861c783a7efdc4",
+      "bytes": 5952
+    },
+    {
+      "name": "reports/pairs/marylandwomen-0600-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "c0b7c2ea6928692aa93a7be0770e10a0b676be3ae1d8a649ec7e4303caf00a1a",
+      "bytes": 190483
+    },
+    {
+      "name": "reports/pairs/marylandwomen-0600-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "5676dc26c59a5482be8ec4c1af45cdbdbbf34cda8474c52c5b3b3ba86a300c78",
+      "bytes": 190457
+    },
+    {
+      "name": "reports/pairs/marylandwomen-0600-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "54c489dfb38b9b070adecd446bb56863ef1c0130e24bffc45f27aba3c1d56d2f",
+      "bytes": 190549
+    },
+    {
+      "name": "reports/pairs/marylandwomen-0600-yolo_cached-rf_botsort-default.json",
+      "sha256": "decae0a138d8334c5562316844e37e2cb94fe4dd158af434d9b8aa37ec12e685",
+      "bytes": 190379
+    },
+    {
+      "name": "reports/pairs/marylandwomen-0600-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "a6b65db5bd160983a262c2686ce589493c5f0bd0c2377eb72850ec134d2acb0c",
+      "bytes": 190388
+    },
+    {
+      "name": "reports/pairs/marylandwomen-1800-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "98bed1ce86a02bf6a4ed6b227c73a154f7b51d83008861c7cee9fd2e49274832",
+      "bytes": 25392
+    },
+    {
+      "name": "reports/pairs/marylandwomen-1800-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "3c999cb26592793624f0d5c1d65f7502d3024ad5f177ec957ad7c500e76f51dd",
+      "bytes": 25354
+    },
+    {
+      "name": "reports/pairs/marylandwomen-1800-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "1da591ce23c8e9e1d57c30727588018378209935ffbc62c68912d48852892efa",
+      "bytes": 25542
+    },
+    {
+      "name": "reports/pairs/marylandwomen-1800-yolo_cached-rf_botsort-default.json",
+      "sha256": "1956b64ef5654214e43703170bd1bee207fa74b7da8e75c91992b08f62f1a6a3",
+      "bytes": 25368
+    },
+    {
+      "name": "reports/pairs/marylandwomen-1800-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "f12452f0b2601db0a7ebb4fda55377d41a180683badf4fe1d2242743c8466470",
+      "bytes": 25330
+    },
+    {
+      "name": "reports/pairs/pittsburgh-0600-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "60eb84d71231c415fda3980e268828b2d5d6082e02936e78b2dce3387294f533",
+      "bytes": 88443
+    },
+    {
+      "name": "reports/pairs/pittsburgh-0600-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "655cf485e81ce43ce1b0110440b602c77884fb8c7863080c3e009d2ab57ca5a8",
+      "bytes": 88379
+    },
+    {
+      "name": "reports/pairs/pittsburgh-0600-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "bd7f0be43968655c9ebfe3e09c673908e5d5d9792876112a846f81549b6c2f40",
+      "bytes": 88620
+    },
+    {
+      "name": "reports/pairs/pittsburgh-0600-yolo_cached-rf_botsort-default.json",
+      "sha256": "768ffc932da9307306f94fe88a13a1ee4691d7621d5865e33a29d0c4e5eda1fb",
+      "bytes": 88496
+    },
+    {
+      "name": "reports/pairs/pittsburgh-0600-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "c08f47d8582a32d95a4f9fcde36f335474db94ffad6c317ddad97269b30d62d4",
+      "bytes": 88420
+    },
+    {
+      "name": "reports/pairs/pittsburgh-1800-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "0c2f0cac2e9016cdb47337c4c4f59e6292f3ed6b77aed43107e06e29c98527e1",
+      "bytes": 137637
+    },
+    {
+      "name": "reports/pairs/pittsburgh-1800-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "86beba7a7cd55ed44cfb3fd2fa3e9fd1db760b609a3588bfc3bfc366b9ee5c36",
+      "bytes": 137393
+    },
+    {
+      "name": "reports/pairs/pittsburgh-1800-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "12c48fdc4cfe1960408ea540a9269dfdf90ed5972403121924c99c58e06e2655",
+      "bytes": 137788
+    },
+    {
+      "name": "reports/pairs/pittsburgh-1800-yolo_cached-rf_botsort-default.json",
+      "sha256": "d58b5313868a8760d8ca76a97ee4e8759980294bd92171ea67e0cf7d7e9fa95e",
+      "bytes": 137752
+    },
+    {
+      "name": "reports/pairs/pittsburgh-1800-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "816c80f59b1e758848637cb4e97491083cc6f6933abf95284716fca277f71cd3",
+      "bytes": 137486
+    },
+    {
+      "name": "reports/pairs/pittsburgh-stress-0900-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "aa3ba6eae87042c3614ffac09d45dc106f08780c31d334e8edc3b22b1e66bfeb",
+      "bytes": 184335
+    },
+    {
+      "name": "reports/pairs/pittsburgh-stress-0900-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "c487e27fb01d2113852f43ba00e13369318195d2c0fc10e014b2189d90097b69",
+      "bytes": 184167
+    },
+    {
+      "name": "reports/pairs/pittsburgh-stress-0900-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "51aadaf12794ece23348d5d8dd2eda86d84474f3fcd7781e3bf71e44fedb5987",
+      "bytes": 184367
+    },
+    {
+      "name": "reports/pairs/pittsburgh-stress-0900-yolo_cached-rf_botsort-default.json",
+      "sha256": "494d4de3e605f20e58ae1f1e11486d10143e59bcf72bedb31f665579e15900b3",
+      "bytes": 184409
+    },
+    {
+      "name": "reports/pairs/pittsburgh-stress-0900-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "8e45fd2252e12487d53b98d6b9b563ce7308143d360948bd2c6174ff15ad9c2e",
+      "bytes": 184162
+    },
+    {
+      "name": "reports/prefetch-check.json",
+      "sha256": "62dd2f64feea40a06c6df3f1ab07a2a66bd19e43af545717a50e78f8a0fed52c",
+      "bytes": 102
+    },
+    {
+      "name": "reports/preflight.json",
+      "sha256": "7c01cf726838b8d5665cc7b0f023424e982d37801f6f6745d50a591c5cba8303",
+      "bytes": 6743
+    },
+    {
+      "name": "reports/results.json",
+      "sha256": "1597d9940f963c964d6a51def3a38b39b0e9ace03eb7d5806716ca35de653dd0",
+      "bytes": 33926
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-0600-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "906d66ea7e94767939a0f04e8e56a8866f8696272e73296a04572477f8a4b4ee",
+      "bytes": 14950
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-0600-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "53742c29e6bab55fc6297cdd80e487c7eaa8357ebd6780b081a36d8d7c08c25c",
+      "bytes": 12959
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-0600-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "9fb42fd7aeac6d4669c3e6e8e3c57c943e361cef48bc5970534271f28aa9f926",
+      "bytes": 20220
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-0600-yolo_cached-rf_botsort-default.json",
+      "sha256": "f09e1e11e088dad02eb3f5360b2c6e88cdedf1f2011733d84b45bd0f6d75a4ea",
+      "bytes": 14659
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-0600-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "71efd8d8856b13056e4ca977edbb414c6ad721bef4d7bb616b96d8a8ad5919ab",
+      "bytes": 12425
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-1800-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "b87876e42720c2c14af461df1e24a826bd6a5431c0943196819bd28c7112256a",
+      "bytes": 6252
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-1800-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "c504e2c3224483dd77bbadd18e9589914ca317fc934f0d8a5dad253b64a1501d",
+      "bytes": 5512
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-1800-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "0d3596568c1082f735acf4ca898c00e608118ad9041791a2fda5d94b38df1e52",
+      "bytes": 11387
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-1800-yolo_cached-rf_botsort-default.json",
+      "sha256": "6f386b8585ebaebe47d718e351c43322acab1f184aa59de1e91bac1b062aca90",
+      "bytes": 5734
+    },
+    {
+      "name": "reports/sampled-predictions/marylandwomen-1800-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "f9165f4079187b7f3f796ef29b97a00c6ad7c6178daf81f404d36bda6e7481d2",
+      "bytes": 5225
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-0600-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "3b02513f44be48d9d4faf4c246ea27851661fcb8f1efb2c6292695c01e81a4ef",
+      "bytes": 9735
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-0600-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "d9f42b2d220ffb713597038e5d19e09eb6ee510ee80aca299d1a4d779c2b33cf",
+      "bytes": 8464
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-0600-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "4f89a721511cd40294ec7114f99566f31e4e794a9e6955bf95209c5759f7d18a",
+      "bytes": 17257
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-0600-yolo_cached-rf_botsort-default.json",
+      "sha256": "e4262ddf4acc5506cdccbac7ef7b69e52275f6c3f7b01f41be172b144b38d9f0",
+      "bytes": 9895
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-0600-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "1a727d63d76a220e1dcba1bbf3441e33e6e35580579bc7e3043f62bd489bc0a8",
+      "bytes": 8431
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-1800-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "ce1d01185f52953724ad5a988a74d7f5911d7eccdaacde5d1e710ece319f683c",
+      "bytes": 11452
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-1800-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "a369f47ed5d8ced8c0b5139a3a8d6cfd5405973e8b68f80da2cc209f984edca7",
+      "bytes": 8721
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-1800-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "c1766f80b179f7e7370a668b3303b211b3e6d00cefea4387e3c1d4f62aa632e2",
+      "bytes": 21550
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-1800-yolo_cached-rf_botsort-default.json",
+      "sha256": "2e9088bb07fa26762bd93504fb9b9c1bb27b9ab9dd45cc0073668db3e3da50c6",
+      "bytes": 12615
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-1800-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "cfac225cdccf7fac687d3952758e9738fd0c73da74d9f172708bc009a7883339",
+      "bytes": 9145
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-stress-0900-rfdetr_nbhl-rf_botsort-default.json",
+      "sha256": "788021eb4873a7aa351dcc5fb9c492a6fb97c3a25108721905100bf93716ab81",
+      "bytes": 17944
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-stress-0900-rfdetr_nbhl-sports_bytetrack-default.json",
+      "sha256": "fa4a9d449234406b89051d24df8a441883acd7ed373386d8617cfd78636d488c",
+      "bytes": 14717
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-stress-0900-yolo_cached-rf_botsort-default-appearance.json",
+      "sha256": "1456b15762f7f63213c1775236366bc898412e0a2b36977cf8fccbb9fc3832bf",
+      "bytes": 73857
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-stress-0900-yolo_cached-rf_botsort-default.json",
+      "sha256": "f042dfb8375a049e430706c16f97a46ed8997c1eb36e5214aeaf8ae1714abc64",
+      "bytes": 17338
+    },
+    {
+      "name": "reports/sampled-predictions/pittsburgh-stress-0900-yolo_cached-sports_bytetrack-default.json",
+      "sha256": "7474ea7a5b497f32c63cf418dec1e1e9ec9fe4a6bb393b12bb5c473a2a5e4191",
+      "bytes": 13902
+    },
+    {
+      "name": "reports/selection.json",
+      "sha256": "8b164928958e37f6e279ad5f7768709bcf4f10f4c62a1d806fbdbf95cf78b51f",
+      "bytes": 10942
+    },
+    {
+      "name": "reports/teams-torso.json",
+      "sha256": "5b63bf5433654d4a681261cf2826c017bfb456195ce78ede75e8e80a3fb4a102",
+      "bytes": 241557
+    },
+    {
+      "name": "reports/teams.json",
+      "sha256": "d497ff48ebdbcd7c4cf5ccaa7b47b762cd6d1f2826953ffc55f92df3b4250015",
+      "bytes": 241803
+    },
+    {
+      "name": "reports/utilities.json",
+      "sha256": "145473786fcd90ab013ce8257be8e7e359121c2d45b58b205e012600c14caff7",
+      "bytes": 126308
+    },
+    {
+      "name": "review/marylandwomen-0600-teams.jpg",
+      "sha256": "209b3bb14456d11172f9ad1a98eebd42fea9995adf7c704b035cc71ab0d44a6f",
+      "bytes": 207947
+    },
+    {
+      "name": "review/pittsburgh-0600-teams.jpg",
+      "sha256": "8dd7eac599cfb20344c7b944d9112c64b6ac2fd3cd22f80453847fb42447a0fc",
+      "bytes": 224072
+    }
+  ],
+  "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4"
+}

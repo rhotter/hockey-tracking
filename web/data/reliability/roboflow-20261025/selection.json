@@ -1,0 +1,449 @@
+{
+  "protocol_sha256": "fc5924b7dd8f7629cbf66d4c1e48089147a0c2cd1e97b19c78419819933905f4",
+  "selection_uses_regression": false,
+  "frozen_at": "2026-10-25T19:17:16.068654+00:00",
+  "winners": {
+    "yolo_cached": {
+      "method": "yolo_cached-rf_botsort-default",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_botsort",
+        "default"
+      ],
+      "counts": {
+        "correct": 10,
+        "wrong": 1,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 397,
+      "tracking_seconds": 70.03067362699986
+    },
+    "rfdetr_nbhl": {
+      "method": "rfdetr_nbhl-rf_botsort-default",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_botsort",
+        "default"
+      ],
+      "counts": {
+        "correct": 9,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 302,
+      "tracking_seconds": 70.33603347799944
+    }
+  },
+  "development": [
+    {
+      "method": "yolo_cached-sports_bytetrack-default",
+      "detector": "yolo_cached",
+      "setting": [
+        "sports_bytetrack",
+        "default"
+      ],
+      "counts": {
+        "correct": 7,
+        "wrong": 2,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 3,
+        "matched_observations": 88,
+        "reference_observations": 90
+      },
+      "fragments": 389,
+      "tracking_seconds": 6.991587762998735
+    },
+    {
+      "method": "yolo_cached-sports_bytetrack-long_buffer",
+      "detector": "yolo_cached",
+      "setting": [
+        "sports_bytetrack",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 8,
+        "wrong": 2,
+        "unknown_same": 7,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 2,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "fragments": 351,
+      "tracking_seconds": 6.45667121000396
+    },
+    {
+      "method": "yolo_cached-rf_bytetrack-default",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_bytetrack",
+        "default"
+      ],
+      "counts": {
+        "correct": 8,
+        "wrong": 4,
+        "unknown_same": 5,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 454,
+      "tracking_seconds": 3.4275096539977383
+    },
+    {
+      "method": "yolo_cached-rf_bytetrack-long_buffer",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_bytetrack",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 8,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 443,
+      "tracking_seconds": 3.4182146500002633
+    },
+    {
+      "method": "yolo_cached-rf_ocsort-default",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_ocsort",
+        "default"
+      ],
+      "counts": {
+        "correct": 5,
+        "wrong": 4,
+        "unknown_same": 3,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 5,
+        "matched_observations": 85,
+        "reference_observations": 90
+      },
+      "fragments": 450,
+      "tracking_seconds": 4.655920845000297
+    },
+    {
+      "method": "yolo_cached-rf_ocsort-long_buffer",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_ocsort",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 6,
+        "wrong": 4,
+        "unknown_same": 3,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 7,
+        "matched_observations": 81,
+        "reference_observations": 90
+      },
+      "fragments": 397,
+      "tracking_seconds": 5.769479412997991
+    },
+    {
+      "method": "yolo_cached-rf_cbiou-default",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_cbiou",
+        "default"
+      ],
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 3,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 355,
+      "tracking_seconds": 4.600201084996565
+    },
+    {
+      "method": "yolo_cached-rf_cbiou-long_buffer",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_cbiou",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 3,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 335,
+      "tracking_seconds": 4.884509103997465
+    },
+    {
+      "method": "yolo_cached-rf_botsort-default",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_botsort",
+        "default"
+      ],
+      "counts": {
+        "correct": 10,
+        "wrong": 1,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 397,
+      "tracking_seconds": 70.03067362699986
+    },
+    {
+      "method": "yolo_cached-rf_botsort-long_buffer",
+      "detector": "yolo_cached",
+      "setting": [
+        "rf_botsort",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 10,
+        "wrong": 2,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 372,
+      "tracking_seconds": 72.01589274199605
+    },
+    {
+      "method": "rfdetr_nbhl-sports_bytetrack-default",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "sports_bytetrack",
+        "default"
+      ],
+      "counts": {
+        "correct": 4,
+        "wrong": 4,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 3,
+        "matched_observations": 88,
+        "reference_observations": 90
+      },
+      "fragments": 311,
+      "tracking_seconds": 6.494656151001529
+    },
+    {
+      "method": "rfdetr_nbhl-sports_bytetrack-long_buffer",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "sports_bytetrack",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 4,
+        "wrong": 5,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 2,
+        "matched_observations": 89,
+        "reference_observations": 90
+      },
+      "fragments": 285,
+      "tracking_seconds": 6.092814055001973
+    },
+    {
+      "method": "rfdetr_nbhl-rf_bytetrack-default",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_bytetrack",
+        "default"
+      ],
+      "counts": {
+        "correct": 8,
+        "wrong": 3,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 254,
+      "tracking_seconds": 3.3831433809931823
+    },
+    {
+      "method": "rfdetr_nbhl-rf_bytetrack-long_buffer",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_bytetrack",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 8,
+        "wrong": 3,
+        "unknown_same": 6,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 254,
+      "tracking_seconds": 3.328231201999195
+    },
+    {
+      "method": "rfdetr_nbhl-rf_ocsort-default",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_ocsort",
+        "default"
+      ],
+      "counts": {
+        "correct": 5,
+        "wrong": 4,
+        "unknown_same": 4,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 12,
+        "matched_observations": 85,
+        "reference_observations": 90
+      },
+      "fragments": 352,
+      "tracking_seconds": 4.07469700100151
+    },
+    {
+      "method": "rfdetr_nbhl-rf_ocsort-long_buffer",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_ocsort",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 4,
+        "wrong": 5,
+        "unknown_same": 4,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 17,
+        "matched_observations": 83,
+        "reference_observations": 90
+      },
+      "fragments": 319,
+      "tracking_seconds": 4.74862907000017
+    },
+    {
+      "method": "rfdetr_nbhl-rf_cbiou-default",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_cbiou",
+        "default"
+      ],
+      "counts": {
+        "correct": 8,
+        "wrong": 3,
+        "unknown_same": 5,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 271,
+      "tracking_seconds": 4.2401407779992795
+    },
+    {
+      "method": "rfdetr_nbhl-rf_cbiou-long_buffer",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_cbiou",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 7,
+        "wrong": 5,
+        "unknown_same": 5,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 254,
+      "tracking_seconds": 4.497020720998563
+    },
+    {
+      "method": "rfdetr_nbhl-rf_botsort-default",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_botsort",
+        "default"
+      ],
+      "counts": {
+        "correct": 9,
+        "wrong": 2,
+        "unknown_same": 5,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 302,
+      "tracking_seconds": 70.33603347799944
+    },
+    {
+      "method": "rfdetr_nbhl-rf_botsort-long_buffer",
+      "detector": "rfdetr_nbhl",
+      "setting": [
+        "rf_botsort",
+        "long_buffer"
+      ],
+      "counts": {
+        "correct": 10,
+        "wrong": 3,
+        "unknown_same": 4,
+        "same_total": 22,
+        "different_total": 46,
+        "missing": 0,
+        "matched_observations": 90,
+        "reference_observations": 90
+      },
+      "fragments": 287,
+      "tracking_seconds": 70.73769282499998
+    }
+  ]
+}

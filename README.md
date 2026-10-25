@@ -23,6 +23,14 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Roboflow replacement test — October 25, 2026
+
+[Results, reference images and five-minute replays](https://hockey-tracking-phi.vercel.app/roboflow.html) · [Experiment source](experiments/roboflow-20261025/)
+
+Twenty configurations compared the actual Roboflow Sports/Trackers implementations with cached YOLO and our existing NBHL-trained RF-DETR detector. Development selected BoT-SORT for both detectors. Across four short clips and a five-minute clip, RF-DETR + Roboflow BoT-SORT recovered 72/129 reviewed same-player connections with three wrong merges. The YOLO/Roboflow hybrid with existing OSNet reconnecting reached 94/129 but made 14 wrong merges. The current SAM2 + OSNet + Qwen pipeline remains preferred at 111/129 with zero known wrong merges.
+
+Sports TeamClassifier was useful on Pittsburgh but unreliable on Maryland women. A torso-crop follow-up reached 146/147 correct matched Pittsburgh observations and 43/75 on Maryland. ViewTransformer reproduced the existing relative-coordinate projection; calibration and metric distances remain external. BallTracker added no measured localization benefit. The jersey consensus check did not run a new Roboflow OCR model. These are reused sparse assistant-reviewed checks, with no independent human verification. Recount the published evidence with `python scripts/verify_roboflow_results.py`.
+
 ## OpenAI baseline and reconnection pilot — October 24, 2026
 
 [Completed results and limits](https://hockey-tracking-phi.vercel.app/vlm.html#openai-results) · [Experiment source](experiments/openai-20261024/)
@@ -75,6 +83,8 @@ python -m pip install .
 python scripts/verify_results.py
 python scripts/verify_sam3_results.py
 python scripts/verify_sam3_improvements.py
+python scripts/verify_openai_results.py
+python scripts/verify_roboflow_results.py
 python scripts/verify_release.py
 ```
 
@@ -101,6 +111,7 @@ The example uses explicitly synthetic data. `hockey_tracking.reconnect.reconnect
 - `experiments/reference/`: selected original source and frozen protocols, preserved byte-for-byte for auditing.
 - `experiments/sam3-20261023/`: SAM3, SAM 3.1 and SAM 3D Body experiment source and protocols; outputs are in `web/data/reliability/sam3/`.
 - `experiments/sam3-20261024/`: SAM3 weight adaptation, hybrid tracking, visual prompts, longer replays and independent result-recounting code.
+- `experiments/roboflow-20261025/`: Roboflow detector/tracker alternatives, team clustering, retained-appearance hybrid, utility checks and pinned protocols.
 - `experiments/provenance.json`: original source hashes and release origin.
 - `docs/`: pipeline, evaluation limits and external artifact requirements.
 - `tests/`: assignment, observation-preservation and original-solver equivalence checks.

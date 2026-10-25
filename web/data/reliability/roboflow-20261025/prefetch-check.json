@@ -1,0 +1,6 @@
+{
+  "ordered_frames_equal": 32,
+  "maximum_prefetch_frames": 16,
+  "threads": 8,
+  "frame_skips": 0
+}
