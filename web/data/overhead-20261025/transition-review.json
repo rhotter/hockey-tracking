@@ -1,0 +1,9 @@
+{
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "fps": 15,
+  "reviewer": "assistant",
+  "reviewed_frames": [465, 466, 467, 515, 516, 517],
+  "intervals": [{"first_frame": 466, "last_frame": 515, "reason": "Edited black graphic transition between game views. No floor coordinates emitted."}],
+  "tracker_resets": [466, 516]
+}

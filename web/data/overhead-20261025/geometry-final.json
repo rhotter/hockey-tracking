@@ -1,0 +1,1958 @@
+{
+  "refinement": {
+    "fit_frames": [
+      450,
+      1800,
+      2700
+    ],
+    "fit_points": 20,
+    "matrix": [
+      [
+        0.9645906823627877,
+        -0.0002537835909652119,
+        0.0012647368251851368
+      ],
+      [
+        0.010350047815805202,
+        1.0071561234124071,
+        -2.8340888344443837e-08
+      ],
+      [
+        -0.014444616138377666,
+        -0.011239292727480544,
+        1.0
+      ]
+    ],
+    "optimizer_success": true,
+    "base_registration_sha256": "c05abc9c0691f5184f1e5e96e1cace51a51947ee8c6afbb3e5a263d06d11237e",
+    "reference_sha256": "68c36ac460787b65159e702a43be19b6b239387d08e847ec2a38d2f8f6cdc342",
+    "assumptions": "Blue lines parallel and equally spaced about center; far board/floor edge is straight. Relative coordinate system only; center-circle origin retained.",
+    "method": "Robust global homography correction from raw paint/board marks on three frames. Other reference frames are withheld from the fit. Per-frame camera registration remains automatic."
+  },
+  "heldout": {
+    "methods": {
+      "background": {
+        "marked_points": 48,
+        "answered_points": 42,
+        "median_error_px": 4.545859903374511,
+        "p90_error_px": 18.341937436418693,
+        "maximum_error_px": 25.272450004133216,
+        "within_10px": 36,
+        "within_20px": 39,
+        "frames": [
+          {
+            "frame": 0,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  471
+                ],
+                "error_px": 0.7121516358751215
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  450,
+                  444
+                ],
+                "error_px": 4.4502066122772375
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  800,
+                  416
+                ],
+                "error_px": 7.192099436850875
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  190.0,
+                  604.12
+                ],
+                "error_px": 4.893901032984015
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  380.0,
+                  676.46
+                ],
+                "error_px": 5.27514699320954
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  550.0,
+                  741.19
+                ],
+                "error_px": 5.611838129956819
+              }
+            ]
+          },
+          {
+            "frame": 900,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  300,
+                  491
+                ],
+                "error_px": 1.2007760099999076
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  454
+                ],
+                "error_px": 1.9467993025263
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  435
+                ],
+                "error_px": 1.8203665934311013
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  198,
+                  620
+                ],
+                "error_px": 3.0265659779837453
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  211,
+                  800
+                ],
+                "error_px": 3.6749617581446836
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  215,
+                  900
+                ],
+                "error_px": 0.8205171193003201
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  551.87
+                ],
+                "error_px": 5.197849942519196
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1080.0,
+                  636.61
+                ],
+                "error_px": 5.412829973410419
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1235.0,
+                  709.57
+                ],
+                "error_px": 5.607496969388296
+              }
+            ]
+          },
+          {
+            "frame": 2250,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1110,
+                  455
+                ],
+                "error_px": 3.208265023679435
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  471
+                ],
+                "error_px": 2.0840693894427846
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  489
+                ],
+                "error_px": 6.114515367447014
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1340.0,
+                  845.16
+                ],
+                "error_px": 25.272450004133216
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1570.0,
+                  753.78
+                ],
+                "error_px": 22.58145660666153
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1820.0,
+                  654.45
+                ],
+                "error_px": 19.6600843986875
+              }
+            ]
+          },
+          {
+            "frame": 3150,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  453
+                ],
+                "error_px": 3.5275408559184283
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1150,
+                  469
+                ],
+                "error_px": 3.82329352336503
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1370,
+                  482
+                ],
+                "error_px": 2.775376816696563
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1200.0,
+                  726.0
+                ],
+                "error_px": 22.510452818651977
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1450.0,
+                  614.45
+                ],
+                "error_px": 18.637042507094947
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1640.0,
+                  529.68
+                ],
+                "error_px": 15.685991800332449
+              }
+            ]
+          },
+          {
+            "frame": 3600,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  120,
+                  497
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  760,
+                  457
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1250,
+                  425
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  653.48
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1040.0,
+                  716.91
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1300.0,
+                  834.72
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4050,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  502
+                ],
+                "error_px": 5.284729980548327
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  600,
+                  465
+                ],
+                "error_px": 4.153205914246553
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  426
+                ],
+                "error_px": 1.0268074327353107
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  470.0,
+                  553.04
+                ],
+                "error_px": 4.620851865385309
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  650.0,
+                  629.41
+                ],
+                "error_px": 4.880021219327109
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  850.0,
+                  714.27
+                ],
+                "error_px": 5.163898050039029
+              }
+            ]
+          },
+          {
+            "frame": 4499,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  200,
+                  500
+                ],
+                "error_px": 0.3312242285564127
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1000,
+                  474
+                ],
+                "error_px": 2.538211679993348
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1760,
+                  444
+                ],
+                "error_px": 0.6618585672238926
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  544,
+                  680
+                ],
+                "error_px": 1.0389581662639913
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  550,
+                  820
+                ],
+                "error_px": 2.9506082603334933
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  553,
+                  900
+                ],
+                "error_px": 4.470867941363714
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1120.0,
+                  501.07
+                ],
+                "error_px": 4.916562246085898
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1315.0,
+                  595.63
+                ],
+                "error_px": 5.786426374790072
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1430.0,
+                  651.39
+                ],
+                "error_px": 6.3049495020086646
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      },
+      "floor": {
+        "marked_points": 48,
+        "answered_points": 36,
+        "median_error_px": 4.43460080940018,
+        "p90_error_px": 17.817080869689754,
+        "maximum_error_px": 24.5317847268401,
+        "within_10px": 30,
+        "within_20px": 33,
+        "frames": [
+          {
+            "frame": 0,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  471
+                ],
+                "error_px": 0.9481387019488576
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  450,
+                  444
+                ],
+                "error_px": 3.2644570684142726
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  800,
+                  416
+                ],
+                "error_px": 6.481009925020299
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  190.0,
+                  604.12
+                ],
+                "error_px": 6.559553449683737
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  380.0,
+                  676.46
+                ],
+                "error_px": 6.5107621928970065
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  550.0,
+                  741.19
+                ],
+                "error_px": 6.462679615317991
+              }
+            ]
+          },
+          {
+            "frame": 900,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  300,
+                  491
+                ],
+                "error_px": 0.30858014829083036
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  454
+                ],
+                "error_px": 1.906609679479452
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  435
+                ],
+                "error_px": 2.2062054430918523
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  198,
+                  620
+                ],
+                "error_px": 3.8188005589310854
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  211,
+                  800
+                ],
+                "error_px": 2.4150341132660667
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  215,
+                  900
+                ],
+                "error_px": 1.5767847615110526
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  551.87
+                ],
+                "error_px": 6.877926646843372
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1080.0,
+                  636.61
+                ],
+                "error_px": 6.696704118316884
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1235.0,
+                  709.57
+                ],
+                "error_px": 6.55020564342222
+              }
+            ]
+          },
+          {
+            "frame": 2250,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1110,
+                  455
+                ],
+                "error_px": 4.348031067808037
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  471
+                ],
+                "error_px": 1.6937241854356473
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  489
+                ],
+                "error_px": 6.49971178414939
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1340.0,
+                  845.16
+                ],
+                "error_px": 24.5317847268401
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1570.0,
+                  753.78
+                ],
+                "error_px": 21.313222340901287
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1820.0,
+                  654.45
+                ],
+                "error_px": 17.818402407786337
+              }
+            ]
+          },
+          {
+            "frame": 3150,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  453
+                ],
+                "error_px": 1.6528200812259057
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1150,
+                  469
+                ],
+                "error_px": 1.8131983111274645
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1370,
+                  482
+                ],
+                "error_px": 0.6659761863941881
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1200.0,
+                  726.0
+                ],
+                "error_px": 22.10103436838644
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1450.0,
+                  614.45
+                ],
+                "error_px": 17.815759331593174
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1640.0,
+                  529.68
+                ],
+                "error_px": 14.551696501796973
+              }
+            ]
+          },
+          {
+            "frame": 3600,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  120,
+                  497
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  760,
+                  457
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1250,
+                  425
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  653.48
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1040.0,
+                  716.91
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1300.0,
+                  834.72
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4050,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  502
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  600,
+                  465
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  426
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  470.0,
+                  553.04
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  650.0,
+                  629.41
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  850.0,
+                  714.27
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4499,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  200,
+                  500
+                ],
+                "error_px": 0.909295047182058
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1000,
+                  474
+                ],
+                "error_px": 2.883088736235645
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1760,
+                  444
+                ],
+                "error_px": 0.5385697722545201
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  544,
+                  680
+                ],
+                "error_px": 0.6517424686678428
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  550,
+                  820
+                ],
+                "error_px": 2.8418444337076596
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  553,
+                  900
+                ],
+                "error_px": 4.521170550992324
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1120.0,
+                  501.07
+                ],
+                "error_px": 4.802176984360418
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1315.0,
+                  595.63
+                ],
+                "error_px": 5.8006689554062785
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1430.0,
+                  651.39
+                ],
+                "error_px": 6.395047920265959
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 788,
+        "total_keyframes": 901
+      },
+      "refined": {
+        "marked_points": 48,
+        "answered_points": 42,
+        "median_error_px": 1.7798973531462703,
+        "p90_error_px": 4.581735814895074,
+        "maximum_error_px": 6.507948902948134,
+        "within_10px": 42,
+        "within_20px": 42,
+        "frames": [
+          {
+            "frame": 0,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  471
+                ],
+                "error_px": 0.5463010675673656
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  450,
+                  444
+                ],
+                "error_px": 4.025238230896928
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  800,
+                  416
+                ],
+                "error_px": 6.507948902948134
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  190.0,
+                  604.12
+                ],
+                "error_px": 2.7537080774735845
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  380.0,
+                  676.46
+                ],
+                "error_px": 2.095814283086486
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  550.0,
+                  741.19
+                ],
+                "error_px": 1.5115938279410597
+              }
+            ]
+          },
+          {
+            "frame": 900,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  300,
+                  491
+                ],
+                "error_px": 1.5286680405629036
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  454
+                ],
+                "error_px": 1.6403812939642077
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  435
+                ],
+                "error_px": 1.1967750570713214
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  198,
+                  620
+                ],
+                "error_px": 4.102367549559271
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  211,
+                  800
+                ],
+                "error_px": 5.046269658392089
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  215,
+                  900
+                ],
+                "error_px": 2.3556383502032636
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  551.87
+                ],
+                "error_px": 2.1357659105160613
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1080.0,
+                  636.61
+                ],
+                "error_px": 1.818422496931414
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1235.0,
+                  709.57
+                ],
+                "error_px": 1.5356115746025836
+              }
+            ]
+          },
+          {
+            "frame": 2250,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1110,
+                  455
+                ],
+                "error_px": 4.634998955487942
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  471
+                ],
+                "error_px": 0.8108453282818566
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  489
+                ],
+                "error_px": 5.000150921026517
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1340.0,
+                  845.16
+                ],
+                "error_px": 0.7930193669121761
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1570.0,
+                  753.78
+                ],
+                "error_px": 0.27722994492076564
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1820.0,
+                  654.45
+                ],
+                "error_px": 0.279777210063947
+              }
+            ]
+          },
+          {
+            "frame": 3150,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  453
+                ],
+                "error_px": 2.1743067649227688
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1150,
+                  469
+                ],
+                "error_px": 2.6542058554719987
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1370,
+                  482
+                ],
+                "error_px": 1.7413722093611266
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1200.0,
+                  726.0
+                ],
+                "error_px": 1.2057774532437884
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1450.0,
+                  614.45
+                ],
+                "error_px": 0.08022095038265824
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1640.0,
+                  529.68
+                ],
+                "error_px": 0.7824942518313054
+              }
+            ]
+          },
+          {
+            "frame": 3600,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  120,
+                  497
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  760,
+                  457
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1250,
+                  425
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  653.48
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1040.0,
+                  716.91
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1300.0,
+                  834.72
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4050,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  502
+                ],
+                "error_px": 5.433771694234047
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  600,
+                  465
+                ],
+                "error_px": 3.91451640425661
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  426
+                ],
+                "error_px": 0.40027663331158336
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  470.0,
+                  553.04
+                ],
+                "error_px": 2.8437216449205858
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  650.0,
+                  629.41
+                ],
+                "error_px": 2.3981100468366727
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  850.0,
+                  714.27
+                ],
+                "error_px": 1.9070735048362764
+              }
+            ]
+          },
+          {
+            "frame": 4499,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  200,
+                  500
+                ],
+                "error_px": 1.0039816216051547
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1000,
+                  474
+                ],
+                "error_px": 2.573152507518885
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1760,
+                  444
+                ],
+                "error_px": 1.2329906188520938
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  544,
+                  680
+                ],
+                "error_px": 0.08478725920476321
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  550,
+                  820
+                ],
+                "error_px": 1.6048970736676746
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  553,
+                  900
+                ],
+                "error_px": 2.9983569605536835
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1120.0,
+                  501.07
+                ],
+                "error_px": 2.4879764255310133
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1315.0,
+                  595.63
+                ],
+                "error_px": 1.578253028324754
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1430.0,
+                  651.39
+                ],
+                "error_px": 1.0362236510456169
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      }
+    },
+    "reference_status": "development_reference_refined_from_raw_paint_after_v1_error_review",
+    "scope": "Assistant-marked image-to-line alignment on 7 development frames. Measures consistency with approximate rink template, not surveyed floor-position error, identity accuracy or out-of-game generalization."
+  },
+  "fit": {
+    "methods": {
+      "background": {
+        "marked_points": 21,
+        "answered_points": 21,
+        "median_error_px": 5.107543670252944,
+        "p90_error_px": 21.34589065291343,
+        "maximum_error_px": 23.272924680968842,
+        "within_10px": 17,
+        "within_20px": 18,
+        "frames": [
+          {
+            "frame": 450,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1350,
+                  456
+                ],
+                "error_px": 1.4821288727941728
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  464
+                ],
+                "error_px": 1.8643546740080315
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  475
+                ],
+                "error_px": 5.993950576257708
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1515.0,
+                  791.34
+                ],
+                "error_px": 23.272924680968842
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1660.0,
+                  733.99
+                ],
+                "error_px": 22.28892377394334
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1800.0,
+                  678.61
+                ],
+                "error_px": 21.34589065291343
+              }
+            ]
+          },
+          {
+            "frame": 1800,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  476
+                ],
+                "error_px": 2.515997034250743
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  451
+                ],
+                "error_px": 0.6581936190049587
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1770,
+                  436
+                ],
+                "error_px": 0.9768060097851275
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  451,
+                  600
+                ],
+                "error_px": 8.140292924190303
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  465,
+                  760
+                ],
+                "error_px": 4.038156792228703
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  477,
+                  900
+                ],
+                "error_px": 0.6983114395526162
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1095.0,
+                  525.56
+                ],
+                "error_px": 5.286963928254679
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1286.0,
+                  618.13
+                ],
+                "error_px": 5.195396485522724
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1478.0,
+                  711.18
+                ],
+                "error_px": 5.107543670252944
+              }
+            ]
+          },
+          {
+            "frame": 2700,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  504
+                ],
+                "error_px": 0.057913548469841446
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  750,
+                  457
+                ],
+                "error_px": 2.110558839470566
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  429
+                ],
+                "error_px": 0.5311573312891833
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  480.0,
+                  576.46
+                ],
+                "error_px": 10.158204748630084
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  620.0,
+                  635.2
+                ],
+                "error_px": 9.496413294068516
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  820.0,
+                  719.1
+                ],
+                "error_px": 8.564194085272977
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      },
+      "floor": {
+        "marked_points": 21,
+        "answered_points": 21,
+        "median_error_px": 4.2675392715855205,
+        "p90_error_px": 20.745104677579207,
+        "maximum_error_px": 23.165100118452667,
+        "within_10px": 17,
+        "within_20px": 18,
+        "frames": [
+          {
+            "frame": 450,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1350,
+                  456
+                ],
+                "error_px": 1.5115376325137357
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  464
+                ],
+                "error_px": 1.9165540353459134
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  475
+                ],
+                "error_px": 6.154974489200138
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1515.0,
+                  791.34
+                ],
+                "error_px": 23.165100118452667
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1660.0,
+                  733.99
+                ],
+                "error_px": 21.930296606437974
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1800.0,
+                  678.61
+                ],
+                "error_px": 20.745104677579207
+              }
+            ]
+          },
+          {
+            "frame": 1800,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  476
+                ],
+                "error_px": 2.6300315420221687
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  451
+                ],
+                "error_px": 0.7869098222569878
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1770,
+                  436
+                ],
+                "error_px": 1.3635642154204595
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  451,
+                  600
+                ],
+                "error_px": 12.4735062601244
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  465,
+                  760
+                ],
+                "error_px": 8.346432272480723
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  477,
+                  900
+                ],
+                "error_px": 4.984768688677924
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1095.0,
+                  525.56
+                ],
+                "error_px": 4.2675392715855205
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1286.0,
+                  618.13
+                ],
+                "error_px": 4.465373048482498
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1478.0,
+                  711.18
+                ],
+                "error_px": 4.668433870080301
+              }
+            ]
+          },
+          {
+            "frame": 2700,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  504
+                ],
+                "error_px": 5.308524286263918
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  750,
+                  457
+                ],
+                "error_px": 0.07862315208042699
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  429
+                ],
+                "error_px": 0.2957947149379816
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  480.0,
+                  576.46
+                ],
+                "error_px": 3.247684427330538
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  620.0,
+                  635.2
+                ],
+                "error_px": 1.7078133297408944
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  820.0,
+                  719.1
+                ],
+                "error_px": 0.5051189754843087
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 788,
+        "total_keyframes": 901
+      },
+      "refined": {
+        "marked_points": 21,
+        "answered_points": 21,
+        "median_error_px": 1.726886070824939,
+        "p90_error_px": 2.815976883506115,
+        "maximum_error_px": 7.1355777589687746,
+        "within_10px": 21,
+        "within_20px": 21,
+        "frames": [
+          {
+            "frame": 450,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1350,
+                  456
+                ],
+                "error_px": 2.815976883506115
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  464
+                ],
+                "error_px": 0.6078708251865944
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  475
+                ],
+                "error_px": 4.840631950714569
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1515.0,
+                  791.34
+                ],
+                "error_px": 0.33942945074512754
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1660.0,
+                  733.99
+                ],
+                "error_px": 0.028012661762084178
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1800.0,
+                  678.61
+                ],
+                "error_px": 0.3898453800926793
+              }
+            ]
+          },
+          {
+            "frame": 1800,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  476
+                ],
+                "error_px": 2.607332392293947
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  451
+                ],
+                "error_px": 1.0056698874682988
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1770,
+                  436
+                ],
+                "error_px": 1.6194259488715257
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  451,
+                  600
+                ],
+                "error_px": 7.1355777589687746
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  465,
+                  760
+                ],
+                "error_px": 2.777339675473222
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  477,
+                  900
+                ],
+                "error_px": 0.7865705998590713
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1095.0,
+                  525.56
+                ],
+                "error_px": 2.082236366150393
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1286.0,
+                  618.13
+                ],
+                "error_px": 2.1186237458651744
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1478.0,
+                  711.18
+                ],
+                "error_px": 2.1510081252742994
+              }
+            ]
+          },
+          {
+            "frame": 2700,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  504
+                ],
+                "error_px": 0.1725370471056178
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  750,
+                  457
+                ],
+                "error_px": 1.726886070824939
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  429
+                ],
+                "error_px": 0.12098295727079905
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  480.0,
+                  576.46
+                ],
+                "error_px": 2.689784694510392
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  620.0,
+                  635.2
+                ],
+                "error_px": 2.178572116515619
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  820.0,
+                  719.1
+                ],
+                "error_px": 1.4614601572202304
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      }
+    },
+    "reference_status": "development_reference_refined_from_raw_paint_after_v1_error_review",
+    "scope": "Assistant-marked image-to-line alignment on 3 development frames. Measures consistency with approximate rink template, not surveyed floor-position error, identity accuracy or out-of-game generalization."
+  }
+}

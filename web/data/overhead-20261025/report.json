@@ -1,0 +1,1589 @@
+{
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "duration_s": 300,
+  "fps": 15,
+  "frames": 4500,
+  "camera_method": "refined",
+  "camera_valid_frames": 4246,
+  "selected_player": "Red #50 \u00b7 reviewed identity",
+  "selected_observed_frames": 1459,
+  "selected_mapped_frames": 1092,
+  "selected_segments": 39,
+  "ball_emitted_frames": 106,
+  "geometry": {
+    "methods": {
+      "background": {
+        "marked_points": 48,
+        "answered_points": 42,
+        "median_error_px": 4.545859903374511,
+        "p90_error_px": 18.341937436418693,
+        "maximum_error_px": 25.272450004133216,
+        "within_10px": 36,
+        "within_20px": 39,
+        "frames": [
+          {
+            "frame": 0,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  471
+                ],
+                "error_px": 0.7121516358751215
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  450,
+                  444
+                ],
+                "error_px": 4.4502066122772375
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  800,
+                  416
+                ],
+                "error_px": 7.192099436850875
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  190.0,
+                  604.12
+                ],
+                "error_px": 4.893901032984015
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  380.0,
+                  676.46
+                ],
+                "error_px": 5.27514699320954
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  550.0,
+                  741.19
+                ],
+                "error_px": 5.611838129956819
+              }
+            ]
+          },
+          {
+            "frame": 900,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  300,
+                  491
+                ],
+                "error_px": 1.2007760099999076
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  454
+                ],
+                "error_px": 1.9467993025263
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  435
+                ],
+                "error_px": 1.8203665934311013
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  198,
+                  620
+                ],
+                "error_px": 3.0265659779837453
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  211,
+                  800
+                ],
+                "error_px": 3.6749617581446836
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  215,
+                  900
+                ],
+                "error_px": 0.8205171193003201
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  551.87
+                ],
+                "error_px": 5.197849942519196
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1080.0,
+                  636.61
+                ],
+                "error_px": 5.412829973410419
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1235.0,
+                  709.57
+                ],
+                "error_px": 5.607496969388296
+              }
+            ]
+          },
+          {
+            "frame": 2250,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1110,
+                  455
+                ],
+                "error_px": 3.208265023679435
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  471
+                ],
+                "error_px": 2.0840693894427846
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  489
+                ],
+                "error_px": 6.114515367447014
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1340.0,
+                  845.16
+                ],
+                "error_px": 25.272450004133216
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1570.0,
+                  753.78
+                ],
+                "error_px": 22.58145660666153
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1820.0,
+                  654.45
+                ],
+                "error_px": 19.6600843986875
+              }
+            ]
+          },
+          {
+            "frame": 3150,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  453
+                ],
+                "error_px": 3.5275408559184283
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1150,
+                  469
+                ],
+                "error_px": 3.82329352336503
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1370,
+                  482
+                ],
+                "error_px": 2.775376816696563
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1200.0,
+                  726.0
+                ],
+                "error_px": 22.510452818651977
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1450.0,
+                  614.45
+                ],
+                "error_px": 18.637042507094947
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1640.0,
+                  529.68
+                ],
+                "error_px": 15.685991800332449
+              }
+            ]
+          },
+          {
+            "frame": 3600,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  120,
+                  497
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  760,
+                  457
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1250,
+                  425
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  653.48
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1040.0,
+                  716.91
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1300.0,
+                  834.72
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4050,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  502
+                ],
+                "error_px": 5.284729980548327
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  600,
+                  465
+                ],
+                "error_px": 4.153205914246553
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  426
+                ],
+                "error_px": 1.0268074327353107
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  470.0,
+                  553.04
+                ],
+                "error_px": 4.620851865385309
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  650.0,
+                  629.41
+                ],
+                "error_px": 4.880021219327109
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  850.0,
+                  714.27
+                ],
+                "error_px": 5.163898050039029
+              }
+            ]
+          },
+          {
+            "frame": 4499,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  200,
+                  500
+                ],
+                "error_px": 0.3312242285564127
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1000,
+                  474
+                ],
+                "error_px": 2.538211679993348
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1760,
+                  444
+                ],
+                "error_px": 0.6618585672238926
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  544,
+                  680
+                ],
+                "error_px": 1.0389581662639913
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  550,
+                  820
+                ],
+                "error_px": 2.9506082603334933
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  553,
+                  900
+                ],
+                "error_px": 4.470867941363714
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1120.0,
+                  501.07
+                ],
+                "error_px": 4.916562246085898
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1315.0,
+                  595.63
+                ],
+                "error_px": 5.786426374790072
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1430.0,
+                  651.39
+                ],
+                "error_px": 6.3049495020086646
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      },
+      "floor": {
+        "marked_points": 48,
+        "answered_points": 36,
+        "median_error_px": 4.43460080940018,
+        "p90_error_px": 17.817080869689754,
+        "maximum_error_px": 24.5317847268401,
+        "within_10px": 30,
+        "within_20px": 33,
+        "frames": [
+          {
+            "frame": 0,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  471
+                ],
+                "error_px": 0.9481387019488576
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  450,
+                  444
+                ],
+                "error_px": 3.2644570684142726
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  800,
+                  416
+                ],
+                "error_px": 6.481009925020299
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  190.0,
+                  604.12
+                ],
+                "error_px": 6.559553449683737
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  380.0,
+                  676.46
+                ],
+                "error_px": 6.5107621928970065
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  550.0,
+                  741.19
+                ],
+                "error_px": 6.462679615317991
+              }
+            ]
+          },
+          {
+            "frame": 900,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  300,
+                  491
+                ],
+                "error_px": 0.30858014829083036
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  454
+                ],
+                "error_px": 1.906609679479452
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  435
+                ],
+                "error_px": 2.2062054430918523
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  198,
+                  620
+                ],
+                "error_px": 3.8188005589310854
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  211,
+                  800
+                ],
+                "error_px": 2.4150341132660667
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  215,
+                  900
+                ],
+                "error_px": 1.5767847615110526
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  551.87
+                ],
+                "error_px": 6.877926646843372
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1080.0,
+                  636.61
+                ],
+                "error_px": 6.696704118316884
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1235.0,
+                  709.57
+                ],
+                "error_px": 6.55020564342222
+              }
+            ]
+          },
+          {
+            "frame": 2250,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1110,
+                  455
+                ],
+                "error_px": 4.348031067808037
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  471
+                ],
+                "error_px": 1.6937241854356473
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  489
+                ],
+                "error_px": 6.49971178414939
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1340.0,
+                  845.16
+                ],
+                "error_px": 24.5317847268401
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1570.0,
+                  753.78
+                ],
+                "error_px": 21.313222340901287
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1820.0,
+                  654.45
+                ],
+                "error_px": 17.818402407786337
+              }
+            ]
+          },
+          {
+            "frame": 3150,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  453
+                ],
+                "error_px": 1.6528200812259057
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1150,
+                  469
+                ],
+                "error_px": 1.8131983111274645
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1370,
+                  482
+                ],
+                "error_px": 0.6659761863941881
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1200.0,
+                  726.0
+                ],
+                "error_px": 22.10103436838644
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1450.0,
+                  614.45
+                ],
+                "error_px": 17.815759331593174
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1640.0,
+                  529.68
+                ],
+                "error_px": 14.551696501796973
+              }
+            ]
+          },
+          {
+            "frame": 3600,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  120,
+                  497
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  760,
+                  457
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1250,
+                  425
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  653.48
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1040.0,
+                  716.91
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1300.0,
+                  834.72
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4050,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  502
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  600,
+                  465
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  426
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  470.0,
+                  553.04
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  650.0,
+                  629.41
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  850.0,
+                  714.27
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4499,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  200,
+                  500
+                ],
+                "error_px": 0.909295047182058
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1000,
+                  474
+                ],
+                "error_px": 2.883088736235645
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1760,
+                  444
+                ],
+                "error_px": 0.5385697722545201
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  544,
+                  680
+                ],
+                "error_px": 0.6517424686678428
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  550,
+                  820
+                ],
+                "error_px": 2.8418444337076596
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  553,
+                  900
+                ],
+                "error_px": 4.521170550992324
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1120.0,
+                  501.07
+                ],
+                "error_px": 4.802176984360418
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1315.0,
+                  595.63
+                ],
+                "error_px": 5.8006689554062785
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1430.0,
+                  651.39
+                ],
+                "error_px": 6.395047920265959
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 788,
+        "total_keyframes": 901
+      },
+      "refined": {
+        "marked_points": 48,
+        "answered_points": 42,
+        "median_error_px": 1.7798973531462703,
+        "p90_error_px": 4.581735814895074,
+        "maximum_error_px": 6.507948902948134,
+        "within_10px": 42,
+        "within_20px": 42,
+        "frames": [
+          {
+            "frame": 0,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  471
+                ],
+                "error_px": 0.5463010675673656
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  450,
+                  444
+                ],
+                "error_px": 4.025238230896928
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  800,
+                  416
+                ],
+                "error_px": 6.507948902948134
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  190.0,
+                  604.12
+                ],
+                "error_px": 2.7537080774735845
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  380.0,
+                  676.46
+                ],
+                "error_px": 2.095814283086486
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  550.0,
+                  741.19
+                ],
+                "error_px": 1.5115938279410597
+              }
+            ]
+          },
+          {
+            "frame": 900,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  300,
+                  491
+                ],
+                "error_px": 1.5286680405629036
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  454
+                ],
+                "error_px": 1.6403812939642077
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1500,
+                  435
+                ],
+                "error_px": 1.1967750570713214
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  198,
+                  620
+                ],
+                "error_px": 4.102367549559271
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  211,
+                  800
+                ],
+                "error_px": 5.046269658392089
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  215,
+                  900
+                ],
+                "error_px": 2.3556383502032636
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  551.87
+                ],
+                "error_px": 2.1357659105160613
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1080.0,
+                  636.61
+                ],
+                "error_px": 1.818422496931414
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1235.0,
+                  709.57
+                ],
+                "error_px": 1.5356115746025836
+              }
+            ]
+          },
+          {
+            "frame": 2250,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  1110,
+                  455
+                ],
+                "error_px": 4.634998955487942
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1400,
+                  471
+                ],
+                "error_px": 0.8108453282818566
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1700,
+                  489
+                ],
+                "error_px": 5.000150921026517
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1340.0,
+                  845.16
+                ],
+                "error_px": 0.7930193669121761
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1570.0,
+                  753.78
+                ],
+                "error_px": 0.27722994492076564
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1820.0,
+                  654.45
+                ],
+                "error_px": 0.279777210063947
+              }
+            ]
+          },
+          {
+            "frame": 3150,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  850,
+                  453
+                ],
+                "error_px": 2.1743067649227688
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1150,
+                  469
+                ],
+                "error_px": 2.6542058554719987
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1370,
+                  482
+                ],
+                "error_px": 1.7413722093611266
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1200.0,
+                  726.0
+                ],
+                "error_px": 1.2057774532437884
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1450.0,
+                  614.45
+                ],
+                "error_px": 0.08022095038265824
+              },
+              {
+                "line": "left_blue",
+                "pixel": [
+                  1640.0,
+                  529.68
+                ],
+                "error_px": 0.7824942518313054
+              }
+            ]
+          },
+          {
+            "frame": 3600,
+            "camera_valid": false,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  120,
+                  497
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  760,
+                  457
+                ],
+                "error_px": null
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1250,
+                  425
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  900.0,
+                  653.48
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1040.0,
+                  716.91
+                ],
+                "error_px": null
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1300.0,
+                  834.72
+                ],
+                "error_px": null
+              }
+            ]
+          },
+          {
+            "frame": 4050,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  100,
+                  502
+                ],
+                "error_px": 5.433771694234047
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  600,
+                  465
+                ],
+                "error_px": 3.91451640425661
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1100,
+                  426
+                ],
+                "error_px": 0.40027663331158336
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  470.0,
+                  553.04
+                ],
+                "error_px": 2.8437216449205858
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  650.0,
+                  629.41
+                ],
+                "error_px": 2.3981100468366727
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  850.0,
+                  714.27
+                ],
+                "error_px": 1.9070735048362764
+              }
+            ]
+          },
+          {
+            "frame": 4499,
+            "camera_valid": true,
+            "points": [
+              {
+                "line": "far",
+                "pixel": [
+                  200,
+                  500
+                ],
+                "error_px": 1.0039816216051547
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1000,
+                  474
+                ],
+                "error_px": 2.573152507518885
+              },
+              {
+                "line": "far",
+                "pixel": [
+                  1760,
+                  444
+                ],
+                "error_px": 1.2329906188520938
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  544,
+                  680
+                ],
+                "error_px": 0.08478725920476321
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  550,
+                  820
+                ],
+                "error_px": 1.6048970736676746
+              },
+              {
+                "line": "center",
+                "pixel": [
+                  553,
+                  900
+                ],
+                "error_px": 2.9983569605536835
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1120.0,
+                  501.07
+                ],
+                "error_px": 2.4879764255310133
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1315.0,
+                  595.63
+                ],
+                "error_px": 1.578253028324754
+              },
+              {
+                "line": "right_blue",
+                "pixel": [
+                  1430.0,
+                  651.39
+                ],
+                "error_px": 1.0362236510456169
+              }
+            ]
+          }
+        ],
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      }
+    },
+    "reference_status": "development_reference_refined_from_raw_paint_after_v1_error_review",
+    "scope": "Assistant-marked image-to-line alignment on 7 development frames. Measures consistency with approximate rink template, not surveyed floor-position error, identity accuracy or out-of-game generalization."
+  },
+  "identity_review": {
+    "id": "red-50",
+    "label": "Red #50 \u00b7 reviewed identity",
+    "short_label": "Red #50",
+    "reviewer": "assistant",
+    "independent_human_ground_truth": false,
+    "disclosure": "Red #50 combines three SAM2 fragments using assistant review of jersey numbers and chronological crops. The two joins are manual review decisions, not automatic reconnection results. Only accepted observed positions are drawn; gaps and the rest of the five-minute recording stay empty.",
+    "associations": [
+      {
+        "track_id": "97",
+        "first_frame": 1472,
+        "last_frame": 2612,
+        "reason": "Jersey 50 repeatedly readable at center and in the left zone; one-second crops and gap endpoints reviewed. Player leaves the left edge during a rapid pan."
+      },
+      {
+        "track_id": "146",
+        "first_frame": 2668,
+        "last_frame": 2884,
+        "reason": "Reappears at the left image edge after the pan. Jersey 50 readable at frames 2715 and 2850; same helmet, shorts and leg equipment. No positions filled during the gap."
+      },
+      {
+        "track_id": "167",
+        "first_frame": 2889,
+        "last_frame": 3045,
+        "reason": "Continuation at the same left image edge after a four-frame missing interval, then returns into view. Jersey 50 visible as the player runs toward the far side. Stop the reviewed association before the crowded overlap at the end of this fragment."
+      }
+    ],
+    "evidence": [
+      {
+        "frame": 1575,
+        "track_id": "97",
+        "caption": "Jersey 50 at center"
+      },
+      {
+        "frame": 1905,
+        "track_id": "97",
+        "caption": "Same number after the faceoff"
+      },
+      {
+        "frame": 2475,
+        "track_id": "97",
+        "caption": "Jersey 50 in the left zone"
+      },
+      {
+        "frame": 2715,
+        "track_id": "146",
+        "caption": "Number visible after the pan"
+      },
+      {
+        "frame": 2850,
+        "track_id": "146",
+        "caption": "Jersey 50 near the boards"
+      },
+      {
+        "frame": 2940,
+        "track_id": "167",
+        "caption": "Returning into the camera view"
+      },
+      {
+        "frame": 3015,
+        "track_id": "167",
+        "caption": "Moving toward the far side"
+      }
+    ],
+    "dense_review_frames": {
+      "97": [
+        1472,
+        1485,
+        1500,
+        1515,
+        1530,
+        1545,
+        1560,
+        1575,
+        1590,
+        1605,
+        1620,
+        1635,
+        1650,
+        1665,
+        1680,
+        1695,
+        1710,
+        1725,
+        1740,
+        1755,
+        1770,
+        1785,
+        1800,
+        1815,
+        1830,
+        1845,
+        1860,
+        1862,
+        1868,
+        1880,
+        1889,
+        1890,
+        1905,
+        1920,
+        1935,
+        1950,
+        1965,
+        1980,
+        1995,
+        2010,
+        2025,
+        2040,
+        2055,
+        2070,
+        2085,
+        2100,
+        2115,
+        2130,
+        2144,
+        2146,
+        2148,
+        2160,
+        2175,
+        2190,
+        2205,
+        2220,
+        2235,
+        2250,
+        2265,
+        2280,
+        2295,
+        2310,
+        2325,
+        2340,
+        2355,
+        2370,
+        2385,
+        2400,
+        2415,
+        2430,
+        2445,
+        2460,
+        2475,
+        2490,
+        2505,
+        2520,
+        2535,
+        2550,
+        2565,
+        2580,
+        2581,
+        2583,
+        2595,
+        2610,
+        2612
+      ],
+      "146": [
+        2668,
+        2670,
+        2685,
+        2700,
+        2715,
+        2730,
+        2734,
+        2736,
+        2745,
+        2754,
+        2757,
+        2758,
+        2760,
+        2773,
+        2776,
+        2778,
+        2780,
+        2790,
+        2805,
+        2820,
+        2827,
+        2840,
+        2850,
+        2865,
+        2880,
+        2884
+      ],
+      "167": [
+        2889,
+        2904,
+        2910,
+        2925,
+        2940,
+        2955,
+        2970,
+        2985,
+        3000,
+        3015,
+        3030,
+        3045
+      ]
+    },
+    "review_method": "Viewed chronological crops every second plus fragment endpoints and both sides of within-track detection gaps. Also viewed seven-sample contact sheets for other red players and dense alternatives T61, T140, T173. No claim of exhaustive per-frame identity ground truth.",
+    "exclusions": [
+      {
+        "track_id": "61",
+        "reason": "Earlier white-helmet player has insufficient readable number evidence for a confident join to 50."
+      },
+      {
+        "track_id": "140",
+        "reason": "Different simultaneous player; later fragment switches to goalie."
+      },
+      {
+        "track_id": "173",
+        "reason": "Different simultaneous white-helmet teammate."
+      },
+      {
+        "track_id": "167",
+        "first_frame": 3046,
+        "last_frame": 3087,
+        "reason": "Crowded overlap; excluded from the reviewed player identity."
+      }
+    ],
+    "inputs_sha256": {
+      "tracks-sam2.json": "dcb46ec90968671c080dc592a1ab650ac51890c74f2eace737b16d913a32d5bf",
+      "detections.json": "72509b06a7f0092a9c719d3149f4e413055b6bcf5bd7d03e99889f5a4ce44384"
+    },
+    "known_limits": "Unreviewed intervals are unknown, not proven bench time or absence from the floor. Identity review does not establish ankle or floor-position accuracy."
+  },
+  "selection": {
+    "source_id": "OLpK8enSjJs",
+    "start_s": 900,
+    "duration_s": 300,
+    "fps": 15,
+    "camera_method": "refined",
+    "selection_reason": "Background bank registration had better coverage than floor-only matching. A global floor correction fitted on three development frames reduced line error on the other seven marked frames.",
+    "identity_method": "SAM2 local mask association with explicit assistant-reviewed identity fragments for the selected player; other IDs remain automatic fragments.",
+    "foot_method": "Both pose ankles confident, bounding box not truncated at image bottom, ankle midpoint within current mask bounds. No bounding-box-bottom fallback.",
+    "camera_interpolation": "Only between valid adjacent 5-frame keyframes with a bounded mapping change. No interpolation across invalid camera keys or the edited transition.",
+    "coordinates": "Normalized relative rink coordinates. Rink extents and aspect ratio are approximate; metric distance and speed are disabled.",
+    "path_gaps": "Missing detection, unreviewed identity, hidden feet, invalid camera or abrupt displacement breaks the path. No interpolation across missing observations.",
+    "ball_method": "Existing NBHL ball detector, confidence and ambiguity gates, floor bounds and temporal support. Floor-projected estimates only; this segment's ball accuracy is unmeasured.",
+    "evaluation_scope": "Development demonstration on a previously used game. Floor labels were refined from raw paint after inspecting initial aggregate errors. Held out from the global fit does not mean blind or independent evaluation."
+  },
+  "inputs": {
+    "registration-final.json": "9ee2d1014562ab0b758c939a3813a590fb0e3b936a7d0aa998d4e6ff92366449",
+    "tracks-sam2.json": "dcb46ec90968671c080dc592a1ab650ac51890c74f2eace737b16d913a32d5bf",
+    "detections.json": "72509b06a7f0092a9c719d3149f4e413055b6bcf5bd7d03e99889f5a4ce44384",
+    "roles.json": "2f36faaa2b3e89320b642dbd219057a102b997e764ed2b1866218eea7085f408",
+    "ball.json": "03799f1dc2863794ecffec61fab0071bd8415ba67b410b8cbf5758ee2bb8a20e"
+  },
+  "display_summary": [
+    "Processed all 4,500 frames at 15 fps. Camera mapping accepted on 94.4% of this recording interval.",
+    "Floor-line check: 42/48 marked points answered; median 1.8 px and 90th percentile 4.6 px error in the 1920\u00d71080 source. These are image-to-line errors, not metre accuracy.",
+    "Red #50: 72.8 seconds of accepted floor positions in the five-minute recording. This is observed coverage, not time on floor.",
+    "Red #50 combines three SAM2 fragments using assistant review of jersey numbers and chronological crops. The two joins are manual review decisions, not automatic reconnection results. Only accepted observed positions are drawn; gaps and the rest of the five-minute recording stay empty.",
+    "Ball estimates appear on 106/4,500 frames after confidence, floor and temporal-support gates. This segment's ball accuracy has not been established."
+  ],
+  "independent_human_ground_truth": false
+}

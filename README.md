@@ -23,6 +23,14 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Five-minute overhead trajectory — October 25, 2026
+
+[Video and overhead replay](https://hockey-tracking-phi.vercel.app/overhead.html) · [Method and source](experiments/overhead-20261025/)
+
+A full five-minute NBHL interval now combines the existing person detector, SAM2 local tracks, ankle poses and camera registration into a synchronized overhead replay. One player's identity associations are explicitly assistant-reviewed; automatic fragments remain separate. Missing feet, invalid calibration and off-camera gaps have no interpolated trajectory. The page includes floor-alignment overlays, evidence photos, a coverage timeline, CSV and image downloads.
+
+On seven development frames excluded from fitting the global floor correction, median image-to-line error improved from 4.55 to 1.78 pixels, with 42 of 48 marked points answered. The reference was refined after initial error inspection, so this is not blind evaluation. Coordinates use approximate relative rink geometry; miles, speed, true time on floor and complete ball tracking are not established. No model fine-tuning was performed for this experiment.
+
 ## New recording test — October 25, 2026
 
 [New-game results, reference photos and replays](https://hockey-tracking-phi.vercel.app/new-games.html) · [Experiment source](experiments/new-games-20261025/)

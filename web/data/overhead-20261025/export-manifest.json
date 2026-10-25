@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "cdf1c4fe124e19d909fe3eaf2fb2177ed33a9ca23ce10f45b189e8de4ec53010",
+  "files": {
+    "data/overhead-20261025/calibration-v1.json": "01bfa217b8979a08e6ea633db6679be81f963178d4651db1051032a2323b6d65",
+    "data/overhead-20261025/floor-line-review-v1.json": "5ed79ae6d6a797eb9d5a72bf90fc5f23f0902089b1c893a4125d551a1e204bbe",
+    "data/overhead-20261025/floor-line-review-v2.json": "68c36ac460787b65159e702a43be19b6b239387d08e847ec2a38d2f8f6cdc342",
+    "data/overhead-20261025/geometry-final.json": "091c5796ff58648f47d08264fbf83b552d919dcd4ff5cfbda0fbd0044552be83",
+    "data/overhead-20261025/player-review.json": "be10275e14d67f7d015383c0567a3854ff6f9805c517824c9f37995b8ff9dfcc",
+    "data/overhead-20261025/replay.json": "c8adb035b269ba3562dc64dd504483c811107d753598ff344862b9650a5c8b93",
+    "data/overhead-20261025/report.json": "7e55fe530882f2a67bf15ec6fe3c00f273e6962e8b4040784f0b20cb14cd0820",
+    "data/overhead-20261025/selection.json": "093daefa3f47786b77faf5e7737aa25c34dbda2a8dc6b75c7c444ec8d72c2317",
+    "data/overhead-20261025/transition-review.json": "ca3f2eaa894d769836f7e631817f1c77988ee84fd669f987e159ff1919f39551",
+    "media/overhead-20261025/nj-0900-5min.mp4": "f7a5b9408108b51a2721ce0583fbd68dc21dfac20080f00ca66c27a6a4dd9a8c",
+    "media/overhead-20261025/player-1575.jpg": "3d8a2648c8ab60a6c55758a4ec04efe4c7638046d4c8db3e51874c59a26a5a1a",
+    "media/overhead-20261025/player-1905.jpg": "81dc5b5fd1ad9b070c5da466708662ed8370fc62648a52e24783b23c68b66583",
+    "media/overhead-20261025/player-2475.jpg": "abca74d8b025ffc9f23b36d77c6e4232881d0dd99f334b81a012020c4af60c5c",
+    "media/overhead-20261025/player-2715.jpg": "c646e7261c0a58c9675cf41b75459bf4f6f5dd4d3f82648c8562b48184b320d8",
+    "media/overhead-20261025/player-2850.jpg": "2a395a5c44fa2942a2352ed2cd69d77f084aed7cd6e923ff5ab45d32b50628f1",
+    "media/overhead-20261025/player-2940.jpg": "59a21af7c9e704768eeccae6f14dbad6affb3a0d6be069e97975f277e80526af",
+    "media/overhead-20261025/player-3015.jpg": "7f662a52ece79e041847985ae796c4808a3500230bae8eb62d9b49f7ee416a5b",
+    "media/overhead-20261025/player-trajectory.csv": "f9d83b8f45950006451eb9b0de9be14ec64b684fe59ffe8bdfccbc96c6df9f4b",
+    "media/overhead-20261025/player-trajectory.png": "b4f17d363818623dc87b4f8096d8542e265ef24a5e8524e23ab5709dc9a8adad"
+  }
+}

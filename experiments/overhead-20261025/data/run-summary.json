@@ -1,0 +1,169 @@
+{
+  "prepare": {
+    "source": "OLpK8enSjJs",
+    "start_s": 900,
+    "duration_s": 300,
+    "fps": 15,
+    "frames": 4500,
+    "raw_sha256": "c424740cfb977cbbe7f50c0ea592b7b9c1c90435b56a69f0d61937789efa092b",
+    "video_sha256": "f7a5b9408108b51a2721ce0583fbd68dc21dfac20080f00ca66c27a6a4dd9a8c",
+    "camera_bank_frames": 32
+  },
+  "detect": {
+    "summary": {
+      "clip": "nj-0900-5min"
+    },
+    "shape": [
+      1080,
+      1920
+    ],
+    "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3",
+    "pose_weights_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+    "seconds": 803.3715668799999,
+    "frames": 4500,
+    "scene_resets": [
+      466,
+      516
+    ]
+  },
+  "ball": {
+    "frames": 4500,
+    "candidate_frames": 804,
+    "seconds": 143.537237541,
+    "weights_sha256": "8a518ae35c0c2a910dc9aa550ff9d60d827010f85f2fa4b97b6ab48f19244d7b"
+  },
+  "sam": {
+    "clip": "nj-0900-5min",
+    "setting": {
+      "family": "sam2",
+      "size": "large",
+      "margin": 0.1
+    },
+    "config": {
+      "new_confidence": 0.65,
+      "continuation_confidence": 0.1,
+      "minimum_mask_iou": 0.3,
+      "margin": 0.1,
+      "retire_frames": 15,
+      "maximum_live": 24,
+      "scene_resets": true,
+      "output_requires_current_detection": true
+    },
+    "diagnostics": {
+      "ambiguous": 1264,
+      "retired": 231,
+      "rejected_seed": 0,
+      "suppressed_seed": 1104,
+      "capacity": 0,
+      "scene_resets": 2
+    },
+    "seconds": 669.113545744,
+    "raw_detection_sha256": "72509b06a7f0092a9c719d3149f4e413055b6bcf5bd7d03e99889f5a4ce44384",
+    "weights_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "code_sha256": "67984a232c61816bca33e7a69241aad9a5d3bdd7b4102cd86e5edb5971ddf237",
+    "labels_used_for_inference": false,
+    "frame_cache": [
+      {
+        "frames": 4500,
+        "decoded_loads": 4450,
+        "cache_hits": 1,
+        "capacity": 4,
+        "peak_cached_frames": 4,
+        "cached_tensor_bytes_upper_bound": 50331648,
+        "eager_tensor_bytes": 56623104000
+      }
+    ]
+  },
+  "refine": {
+    "refinement": {
+      "fit_frames": [
+        450,
+        1800,
+        2700
+      ],
+      "fit_points": 20,
+      "matrix": [
+        [
+          0.9645906823627877,
+          -0.0002537835909652119,
+          0.0012647368251851368
+        ],
+        [
+          0.010350047815805202,
+          1.0071561234124071,
+          -2.8340888344443837e-08
+        ],
+        [
+          -0.014444616138377666,
+          -0.011239292727480544,
+          1.0
+        ]
+      ],
+      "optimizer_success": true,
+      "base_registration_sha256": "c05abc9c0691f5184f1e5e96e1cace51a51947ee8c6afbb3e5a263d06d11237e",
+      "reference_sha256": "68c36ac460787b65159e702a43be19b6b239387d08e847ec2a38d2f8f6cdc342",
+      "assumptions": "Blue lines parallel and equally spaced about center; far board/floor edge is straight. Relative coordinate system only; center-circle origin retained.",
+      "method": "Robust global homography correction from raw paint/board marks on three frames. Other reference frames are withheld from the fit. Per-frame camera registration remains automatic."
+    },
+    "heldout": {
+      "background": {
+        "marked_points": 48,
+        "answered_points": 42,
+        "median_error_px": 4.545859903374511,
+        "p90_error_px": 18.341937436418693,
+        "maximum_error_px": 25.272450004133216,
+        "within_10px": 36,
+        "within_20px": 39,
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      },
+      "floor": {
+        "marked_points": 48,
+        "answered_points": 36,
+        "median_error_px": 4.43460080940018,
+        "p90_error_px": 17.817080869689754,
+        "maximum_error_px": 24.5317847268401,
+        "within_10px": 30,
+        "within_20px": 33,
+        "accepted_keyframes": 788,
+        "total_keyframes": 901
+      },
+      "refined": {
+        "marked_points": 48,
+        "answered_points": 42,
+        "median_error_px": 1.7798973531462703,
+        "p90_error_px": 4.581735814895074,
+        "maximum_error_px": 6.507948902948134,
+        "within_10px": 42,
+        "within_20px": 42,
+        "accepted_keyframes": 863,
+        "total_keyframes": 901
+      }
+    }
+  },
+  "roles": {
+    "classifier_sha256": "4edb569560c281438f04b10a77b254309e3851623c31e5b826c37bdfb18067fd",
+    "threshold": 0.583330529532393,
+    "method": "Frozen DINOv2 body/torso/legs linear role classifier; median of up to 15 equally spaced observations per automatic fragment.",
+    "seconds": 654.005452298,
+    "tracks": 250,
+    "kept": 223
+  },
+  "export": {
+    "source_id": "OLpK8enSjJs",
+    "start_s": 900,
+    "duration_s": 300,
+    "fps": 15,
+    "frames": 4500,
+    "camera_method": "refined",
+    "camera_valid_frames": 4246,
+    "selected_player": "Red #50 \u00b7 reviewed identity",
+    "selected_observed_frames": 1459,
+    "selected_mapped_frames": 1092,
+    "selected_segments": 39,
+    "ball_emitted_frames": 106,
+    "independent_human_ground_truth": false,
+    "archive_sha256": "cdf1c4fe124e19d909fe3eaf2fb2177ed33a9ca23ce10f45b189e8de4ec53010",
+    "bytes": 44265066
+  }
+}

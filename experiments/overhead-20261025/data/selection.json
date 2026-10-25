@@ -1,0 +1,15 @@
+{
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "duration_s": 300,
+  "fps": 15,
+  "camera_method": "refined",
+  "selection_reason": "Background bank registration had better coverage than floor-only matching. A global floor correction fitted on three development frames reduced line error on the other seven marked frames.",
+  "identity_method": "SAM2 local mask association with explicit assistant-reviewed identity fragments for the selected player; other IDs remain automatic fragments.",
+  "foot_method": "Both pose ankles confident, bounding box not truncated at image bottom, ankle midpoint within current mask bounds. No bounding-box-bottom fallback.",
+  "camera_interpolation": "Only between valid adjacent 5-frame keyframes with a bounded mapping change. No interpolation across invalid camera keys or the edited transition.",
+  "coordinates": "Normalized relative rink coordinates. Rink extents and aspect ratio are approximate; metric distance and speed are disabled.",
+  "path_gaps": "Missing detection, unreviewed identity, hidden feet, invalid camera or abrupt displacement breaks the path. No interpolation across missing observations.",
+  "ball_method": "Existing NBHL ball detector, confidence and ambiguity gates, floor bounds and temporal support. Floor-projected estimates only; this segment's ball accuracy is unmeasured.",
+  "evaluation_scope": "Development demonstration on a previously used game. Floor labels were refined from raw paint after inspecting initial aggregate errors. Held out from the global fit does not mean blind or independent evaluation."
+}

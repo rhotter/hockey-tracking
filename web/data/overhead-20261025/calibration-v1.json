@@ -1,0 +1,170 @@
+{
+  "id": "nj-relative-floor-v1",
+  "source_id": "OLpK8enSjJs",
+  "anchor_frame": "OLpK8enSjJs-01517550",
+  "anchor_sha256": "4a190f0e255c6f1bbba99b851bfbbee871b0ca086dd355a5b1a3052a01060ce3",
+  "camera_bank_sha256": "34bf0adc207e97f7ace8979340fe328df2ecff5f81b5aef7c33b85a862034b6b",
+  "manual_lines": {
+    "center_red": [
+      [
+        488,
+        496
+      ],
+      [
+        514,
+        925
+      ]
+    ],
+    "right_blue": [
+      [
+        1108,
+        526
+      ],
+      [
+        1606,
+        768
+      ]
+    ],
+    "far_board_floor_contact": [
+      [
+        20,
+        511
+      ],
+      [
+        1850,
+        441
+      ]
+    ],
+    "center_across_floor": [
+      [
+        120,
+        665
+      ],
+      [
+        860,
+        632
+      ]
+    ]
+  },
+  "image_to_relative_floor": [
+    [
+      -0.002305884304408334,
+      0.0001397504401435096,
+      1.0559553325439315
+    ],
+    [
+      -0.0003467365586224725,
+      -0.007775297181876613,
+      5.21218129249027
+    ],
+    [
+      -0.00011758688307607679,
+      -0.004363440089447327,
+      1.0
+    ]
+  ],
+  "source_points": [
+    [
+      487.8245544433594,
+      493.1050720214844
+    ],
+    [
+      999.9915771484375,
+      473.51397705078125
+    ],
+    [
+      1286.9512939453125,
+      612.9602661132812
+    ],
+    [
+      497.222900390625,
+      648.1779174804688
+    ]
+  ],
+  "target_points": [
+    [
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "relative_bounds": {
+    "left": -4.005,
+    "right": 3.632,
+    "far": -1,
+    "near": 1
+  },
+  "end_board_evidence": [
+    {
+      "frame": "OLpK8enSjJs-00515480",
+      "points": [
+        [
+          100,
+          493
+        ],
+        [
+          650,
+          439
+        ],
+        [
+          780,
+          427
+        ]
+      ],
+      "mapped_x": [
+        -4.06766,
+        -3.99202,
+        -3.95491
+      ]
+    },
+    {
+      "frame": "OLpK8enSjJs-00060000",
+      "points": [
+        [
+          1000,
+          382
+        ],
+        [
+          1170,
+          397
+        ],
+        [
+          1490,
+          417
+        ],
+        [
+          1615,
+          425
+        ]
+      ],
+      "mapped_x": [
+        3.64846,
+        3.60534,
+        3.63261,
+        3.63976
+      ]
+    }
+  ],
+  "coordinate_definition": "Schematic, anisotropic relative coordinates. Center red line x=0, right blue line x=1, transverse center y=0, far board floor contact y=-1. Near side y=1 uses symmetry about center. Ends estimated from observed floor/board contact after camera registration. No meters or feet.",
+  "dimensions_verified": false,
+  "metric_distances_allowed": false,
+  "review_status": "draft_needs_landmark_and_video_audit",
+  "limits": [
+    "Manual approximate floor lines, not surveyed landmarks.",
+    "Near side floor is partially hidden by boards; symmetric half-width assumption.",
+    "Image registration includes static background and assumes approximately fixed pan camera; parallax and distortion remain.",
+    "Physical aspect ratio and rink dimensions are not measured. Do not infer distances, speed or total floor time.",
+    "Only currently observed player feet may be projected; off-camera players remain missing."
+  ]
+}

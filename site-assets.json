@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "url": "https://github.com/rhotter/hockey-tracking/releases/download/site-assets-v4/replay-assets-v4.tar.gz",
-  "sha256": "19bb24af128019df87c30cf1c7a32010b7f4f73250eb28397d2e0509fdf43563",
+  "url": "https://github.com/rhotter/hockey-tracking/releases/download/site-assets-v5/replay-assets-v5.tar.gz",
+  "sha256": "2f2f6635a4ffc82f1e6980a10c9ba298bcf46c18c0d0899d6bc4149d01a14676",
   "files": {
     "data/reliability/consistency-example/a.jpg": "efb260155ca4d8024b9ac1877bec5040cad5d5367a5f34387dc9ac83c4c68fc2",
     "data/reliability/consistency-example/b.jpg": "17f0055a6566dd2b91cf78312438dc15a4a5a5ebfd51a2b9c5f1cb4532c77f5c",
@@ -366,6 +366,16 @@
     "media/new-games-20261025/southjersey-finals-1800-reference-0450.jpg": "d4ae7d8d47c93c1977838a6ab032e4ac0132b92652fcef08420670ec020014d3",
     "media/new-games-20261025/southjersey-finals-1800-reference-1335.jpg": "c4be3712cdd7c2f533f180ab004447436c511225f49eda18c7b07f4c2b83ded2",
     "media/new-games-20261025/southjersey-finals-1800.jpg": "fa30b2373e060ea8053d2d70b3be711da9579a0c4bee664c5a0ca482726368c9",
-    "media/new-games-20261025/southjersey-finals-1800.mp4": "32e85506c63856c34c3f246997df236f9193cf72f67e5727f13f0574cc0e0549"
+    "media/new-games-20261025/southjersey-finals-1800.mp4": "32e85506c63856c34c3f246997df236f9193cf72f67e5727f13f0574cc0e0549",
+    "media/overhead-20261025/nj-0900-5min.mp4": "f7a5b9408108b51a2721ce0583fbd68dc21dfac20080f00ca66c27a6a4dd9a8c",
+    "media/overhead-20261025/player-1575.jpg": "3d8a2648c8ab60a6c55758a4ec04efe4c7638046d4c8db3e51874c59a26a5a1a",
+    "media/overhead-20261025/player-1905.jpg": "81dc5b5fd1ad9b070c5da466708662ed8370fc62648a52e24783b23c68b66583",
+    "media/overhead-20261025/player-2475.jpg": "abca74d8b025ffc9f23b36d77c6e4232881d0dd99f334b81a012020c4af60c5c",
+    "media/overhead-20261025/player-2715.jpg": "c646e7261c0a58c9675cf41b75459bf4f6f5dd4d3f82648c8562b48184b320d8",
+    "media/overhead-20261025/player-2850.jpg": "2a395a5c44fa2942a2352ed2cd69d77f084aed7cd6e923ff5ab45d32b50628f1",
+    "media/overhead-20261025/player-2940.jpg": "59a21af7c9e704768eeccae6f14dbad6affb3a0d6be069e97975f277e80526af",
+    "media/overhead-20261025/player-3015.jpg": "7f662a52ece79e041847985ae796c4808a3500230bae8eb62d9b49f7ee416a5b",
+    "media/overhead-20261025/player-trajectory.csv": "f9d83b8f45950006451eb9b0de9be14ec64b684fe59ffe8bdfccbc96c6df9f4b",
+    "media/overhead-20261025/player-trajectory.png": "b4f17d363818623dc87b4f8096d8542e265ef24a5e8524e23ab5709dc9a8adad"
   }
 }

@@ -1,0 +1,684 @@
+{
+  "id": "overhead-floor-line-review-v2",
+  "created_at": "2026-10-25T21:17:58.698074+00:00",
+  "status": "development_reference_refined_from_raw_paint_after_v1_error_review",
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "fps": 15,
+  "reviewer": "assistant",
+  "independent_human_ground_truth": false,
+  "purpose": "Development comparison of image alignment against manually marked paint centerlines and straight floor/board contact. Not metric position accuracy.",
+  "line_definitions": {
+    "far": [
+      0,
+      1,
+      1
+    ],
+    "center": [
+      1,
+      0,
+      0
+    ],
+    "left_blue": [
+      1,
+      0,
+      1
+    ],
+    "right_blue": [
+      1,
+      0,
+      -1
+    ]
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "image_sha256": "ea9ccecd8936c0b96372832dc04296e48d65d495638b696ddcf99e685c60d868",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              100,
+              471
+            ],
+            [
+              450,
+              444
+            ],
+            [
+              800,
+              416
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              190.0,
+              604.12
+            ],
+            [
+              380.0,
+              676.46
+            ],
+            [
+              550.0,
+              741.19
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 241,
+            "x_span": 516.0,
+            "median_vertical_residual_px": 0.47557004097473055
+          },
+          "original_points": [
+            [
+              190,
+              612
+            ],
+            [
+              380,
+              685
+            ],
+            [
+              550,
+              752
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 450,
+      "image_sha256": "c8548558700e8027fa92a9afa8bb6666dd57afa85d4f860e67292825ebd405e0",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              1350,
+              456
+            ],
+            [
+              1500,
+              464
+            ],
+            [
+              1700,
+              475
+            ]
+          ]
+        },
+        {
+          "line": "left_blue",
+          "points": [
+            [
+              1515.0,
+              791.34
+            ],
+            [
+              1660.0,
+              733.99
+            ],
+            [
+              1800.0,
+              678.61
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 165,
+            "x_span": 328.0,
+            "median_vertical_residual_px": 0.6364273056743741
+          },
+          "original_points": [
+            [
+              1515,
+              780
+            ],
+            [
+              1660,
+              724
+            ],
+            [
+              1800,
+              669
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 900,
+      "image_sha256": "e662c3245bed16089d800d66af96407b4f226b2b98609fcac2471b04f493fe98",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              300,
+              491
+            ],
+            [
+              1100,
+              454
+            ],
+            [
+              1500,
+              435
+            ]
+          ]
+        },
+        {
+          "line": "center",
+          "points": [
+            [
+              198,
+              620
+            ],
+            [
+              211,
+              800
+            ],
+            [
+              215,
+              900
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              900.0,
+              551.87
+            ],
+            [
+              1080.0,
+              636.61
+            ],
+            [
+              1235.0,
+              709.57
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 227,
+            "x_span": 494.0,
+            "median_vertical_residual_px": 0.4430631351449392
+          },
+          "original_points": [
+            [
+              900,
+              568
+            ],
+            [
+              1080,
+              657
+            ],
+            [
+              1235,
+              732
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1800,
+      "image_sha256": "a0c8286be0cac7a08db7e77eb459f1b2aa745dc1ff614b950888e29120e0a8ff",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              850,
+              476
+            ],
+            [
+              1400,
+              451
+            ],
+            [
+              1770,
+              436
+            ]
+          ]
+        },
+        {
+          "line": "center",
+          "points": [
+            [
+              451,
+              600
+            ],
+            [
+              465,
+              760
+            ],
+            [
+              477,
+              900
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              1095.0,
+              525.56
+            ],
+            [
+              1286.0,
+              618.13
+            ],
+            [
+              1478.0,
+              711.18
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 238,
+            "x_span": 542.0,
+            "median_vertical_residual_px": 0.5039277573960703
+          },
+          "original_points": [
+            [
+              1095,
+              535
+            ],
+            [
+              1286,
+              639
+            ],
+            [
+              1478,
+              741
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2250,
+      "image_sha256": "f2b7a0698069daf592217e70044617d46716c7d1c7c80b380f46805d4bb104b4",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              1110,
+              455
+            ],
+            [
+              1400,
+              471
+            ],
+            [
+              1700,
+              489
+            ]
+          ]
+        },
+        {
+          "line": "left_blue",
+          "points": [
+            [
+              1340.0,
+              845.16
+            ],
+            [
+              1570.0,
+              753.78
+            ],
+            [
+              1820.0,
+              654.45
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 271,
+            "x_span": 592.0,
+            "median_vertical_residual_px": 0.7064568979327532
+          },
+          "original_points": [
+            [
+              1340,
+              837
+            ],
+            [
+              1570,
+              748
+            ],
+            [
+              1820,
+              651
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2700,
+      "image_sha256": "131f418fe899e31cfaff9e1f5ce2435c2c6eaea9d7db9a0d852b8845658295e9",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              100,
+              504
+            ],
+            [
+              750,
+              457
+            ],
+            [
+              1100,
+              429
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              480.0,
+              576.46
+            ],
+            [
+              620.0,
+              635.2
+            ],
+            [
+              820.0,
+              719.1
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 195,
+            "x_span": 496.0,
+            "median_vertical_residual_px": 0.37055534717728733
+          },
+          "original_points": [
+            [
+              480,
+              570
+            ],
+            [
+              620,
+              639
+            ],
+            [
+              820,
+              726
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3150,
+      "image_sha256": "dd50ae40365d3442ad9841dca82391906b8c08e088a03b3a92c34d997b1fb88d",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              850,
+              453
+            ],
+            [
+              1150,
+              469
+            ],
+            [
+              1370,
+              482
+            ]
+          ]
+        },
+        {
+          "line": "left_blue",
+          "points": [
+            [
+              1200.0,
+              726.0
+            ],
+            [
+              1450.0,
+              614.45
+            ],
+            [
+              1640.0,
+              529.68
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 277,
+            "x_span": 594.0,
+            "median_vertical_residual_px": 0.4393451434908684
+          },
+          "original_points": [
+            [
+              1200,
+              727
+            ],
+            [
+              1450,
+              617
+            ],
+            [
+              1640,
+              533
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3600,
+      "image_sha256": "7ca436776e8f1fa43098cd6ce134d6ff5b46c43852f950fa492ce177e9bc7777",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              120,
+              497
+            ],
+            [
+              760,
+              457
+            ],
+            [
+              1250,
+              425
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              900.0,
+              653.48
+            ],
+            [
+              1040.0,
+              716.91
+            ],
+            [
+              1300.0,
+              834.72
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 164,
+            "x_span": 378.0,
+            "median_vertical_residual_px": 0.4672497228514203
+          },
+          "original_points": [
+            [
+              900,
+              653
+            ],
+            [
+              1040,
+              718
+            ],
+            [
+              1300,
+              837
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4050,
+      "image_sha256": "41769784c8136e9a0b737179d3e8f8f2d0fb85a735cfa00555f3f47f10cc47f0",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              100,
+              502
+            ],
+            [
+              600,
+              465
+            ],
+            [
+              1100,
+              426
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              470.0,
+              553.04
+            ],
+            [
+              650.0,
+              629.41
+            ],
+            [
+              850.0,
+              714.27
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 269,
+            "x_span": 536.0,
+            "median_vertical_residual_px": 0.4661931975809921
+          },
+          "original_points": [
+            [
+              470,
+              558
+            ],
+            [
+              650,
+              641
+            ],
+            [
+              850,
+              731
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4499,
+      "image_sha256": "082cfaa872d623278e80eb50b5fced974dcb1e60af26a845d2b1ebf1a37bd57f",
+      "marks": [
+        {
+          "line": "far",
+          "points": [
+            [
+              200,
+              500
+            ],
+            [
+              1000,
+              474
+            ],
+            [
+              1760,
+              444
+            ]
+          ]
+        },
+        {
+          "line": "center",
+          "points": [
+            [
+              544,
+              680
+            ],
+            [
+              550,
+              820
+            ],
+            [
+              553,
+              900
+            ]
+          ]
+        },
+        {
+          "line": "right_blue",
+          "points": [
+            [
+              1120.0,
+              501.07
+            ],
+            [
+              1315.0,
+              595.63
+            ],
+            [
+              1430.0,
+              651.39
+            ]
+          ],
+          "paint_fit": {
+            "pixel_columns": 224,
+            "x_span": 446.0,
+            "median_vertical_residual_px": 0.5968839419176675
+          },
+          "original_points": [
+            [
+              1120,
+              531
+            ],
+            [
+              1315,
+              637
+            ],
+            [
+              1430,
+              698
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_samples": [
+    {
+      "frame": 1350,
+      "reason": "Close view of curved end and no confident straight long-side/paint landmark."
+    }
+  ],
+  "parent_sha256": "5ed79ae6d6a797eb9d5a72bf90fc5f23f0902089b1c893a4125d551a1e204bbe",
+  "correction": "Original manual blue-line points were approximate. V2 snaps blue marks to a robust paint-center fit within the manually identified corridor. No calibration matrix or model output is read by this script. All refined line overlays require visual review. Other marks are unchanged."
+}

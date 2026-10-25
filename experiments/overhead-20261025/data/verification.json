@@ -1,0 +1,22 @@
+{
+  "coordinate_artifact_check": {
+    "frames": 4500,
+    "camera_valid": 4246,
+    "selected_mapped": 1092,
+    "ball_estimates": 106,
+    "verified_export_files": 19
+  },
+  "browser_checks": [
+    "Complete 300-second video playback",
+    "Synchronized camera overlays and overhead map",
+    "Frame stepping and seeking",
+    "Edited transition with coordinates withheld",
+    "Path-window controls and player selection",
+    "All seven evidence photos load and seek to source time",
+    "4500-row CSV including missing states",
+    "PNG canvas download",
+    "390px mobile layout without horizontal overflow"
+  ],
+  "browser_errors": [],
+  "scope": "Application and artifact consistency checks; not independent tracking accuracy."
+}
