@@ -1,0 +1,1237 @@
+{
+  "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+  "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+  "source_review_sha256": "ef394fa3f0173ae67e62fb92a075705c32558ae3316f5166a28e7bc29e3e4bb2",
+  "sources": [
+    {
+      "id": "XLyHD1ZR5o4",
+      "title": "NBHL Pittsburgh Legends Tier Finals: Evans City Taboo vs. Bloomfield Muckers Game 2 (09/06/2026)",
+      "duration": 2771,
+      "channel_id": "UCdOzcElRDVkV0qzNONIeoWQ",
+      "upload_date": "20260919",
+      "webpage_url": "https://www.youtube.com/watch?v=XLyHD1ZR5o4",
+      "sport": "ball_hockey",
+      "league": "NBHL",
+      "training_eligible": false,
+      "role": "new_recording_test",
+      "visual_review": "pending"
+    },
+    {
+      "id": "nWo-KEsSLyo",
+      "title": "NBHL South Jersey East Tier 3 Finals: South Jersey Trash Pandas vs. Jersey Dinos Game 1 (08/30/2026)",
+      "duration": 3387,
+      "channel_id": "UCdOzcElRDVkV0qzNONIeoWQ",
+      "upload_date": "20260905",
+      "webpage_url": "https://www.youtube.com/watch?v=nWo-KEsSLyo",
+      "sport": "ball_hockey",
+      "league": "NBHL",
+      "training_eligible": false,
+      "role": "new_recording_test",
+      "visual_review": "pending"
+    }
+  ],
+  "clips": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 600,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 1800,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 600,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 1800,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    }
+  ],
+  "frames": 5400,
+  "methods": [
+    {
+      "method": "existing-sam2-osnet-qwen2b",
+      "counts": {
+        "correct": 116,
+        "wrong": 6,
+        "unknown_same": 88,
+        "same_total": 145,
+        "different_total": 2741,
+        "missing": 281,
+        "matched_observations": 169,
+        "reference_observations": 177
+      },
+      "up_to_2s": {
+        "same_total": 94,
+        "correct": 87,
+        "different_total": 1324,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 51,
+        "correct": 29,
+        "different_total": 1417,
+        "wrong": 6,
+        "unknown_same": 88
+      }
+    },
+    {
+      "method": "roboflow-rfdetr-botsort",
+      "counts": {
+        "correct": 96,
+        "wrong": 7,
+        "unknown_same": 16,
+        "same_total": 145,
+        "different_total": 2741,
+        "missing": 199,
+        "matched_observations": 172,
+        "reference_observations": 177
+      },
+      "up_to_2s": {
+        "same_total": 94,
+        "correct": 84,
+        "different_total": 1324,
+        "wrong": 5,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 51,
+        "correct": 12,
+        "different_total": 1417,
+        "wrong": 2,
+        "unknown_same": 16
+      }
+    },
+    {
+      "method": "roboflow-yolo-botsort",
+      "counts": {
+        "correct": 98,
+        "wrong": 5,
+        "unknown_same": 11,
+        "same_total": 145,
+        "different_total": 2741,
+        "missing": 254,
+        "matched_observations": 170,
+        "reference_observations": 177
+      },
+      "up_to_2s": {
+        "same_total": 94,
+        "correct": 83,
+        "different_total": 1324,
+        "wrong": 2,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 51,
+        "correct": 15,
+        "different_total": 1417,
+        "wrong": 3,
+        "unknown_same": 11
+      }
+    },
+    {
+      "method": "existing-sam2-local",
+      "counts": {
+        "correct": 108,
+        "wrong": 0,
+        "unknown_same": 23,
+        "same_total": 145,
+        "different_total": 2741,
+        "missing": 281,
+        "matched_observations": 169,
+        "reference_observations": 177
+      },
+      "up_to_2s": {
+        "same_total": 94,
+        "correct": 87,
+        "different_total": 1324,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 51,
+        "correct": 21,
+        "different_total": 1417,
+        "wrong": 0,
+        "unknown_same": 23
+      }
+    }
+  ],
+  "per_clip": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "counts": {
+        "correct": 33,
+        "wrong": 0,
+        "unknown_same": 10,
+        "same_total": 40,
+        "different_total": 704,
+        "missing": 45,
+        "matched_observations": 45,
+        "reference_observations": 46
+      },
+      "fragments": 70,
+      "observations": 9182,
+      "method": "existing-sam2-osnet-qwen2b",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "196fae061c2c25273452ac2009a68fdeab072204c8355dc339f838c79be21c2e",
+      "up_to_2s": {
+        "same_total": 24,
+        "correct": 24,
+        "different_total": 322,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 16,
+        "correct": 9,
+        "different_total": 382,
+        "wrong": 0,
+        "unknown_same": 10
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "counts": {
+        "correct": 22,
+        "wrong": 5,
+        "unknown_same": 4,
+        "same_total": 40,
+        "different_total": 704,
+        "missing": 89,
+        "matched_observations": 44,
+        "reference_observations": 46
+      },
+      "fragments": 103,
+      "observations": 9102,
+      "method": "roboflow-rfdetr-botsort",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "683312ea7b10db139ed398fff6e9b2652c9bcffe6e8c0759d96dc260cb033141",
+      "up_to_2s": {
+        "same_total": 24,
+        "correct": 19,
+        "different_total": 322,
+        "wrong": 3,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 16,
+        "correct": 3,
+        "different_total": 382,
+        "wrong": 2,
+        "unknown_same": 4
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "counts": {
+        "correct": 28,
+        "wrong": 1,
+        "unknown_same": 5,
+        "same_total": 40,
+        "different_total": 704,
+        "missing": 0,
+        "matched_observations": 46,
+        "reference_observations": 46
+      },
+      "fragments": 113,
+      "observations": 9021,
+      "method": "roboflow-yolo-botsort",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "23c72134dbfd399c25b0509e7238d77ad77bae4fd3f77a395bda8e3b02d6b494",
+      "up_to_2s": {
+        "same_total": 24,
+        "correct": 22,
+        "different_total": 322,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 16,
+        "correct": 6,
+        "different_total": 382,
+        "wrong": 1,
+        "unknown_same": 5
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "counts": {
+        "correct": 33,
+        "wrong": 0,
+        "unknown_same": 9,
+        "same_total": 40,
+        "different_total": 704,
+        "missing": 45,
+        "matched_observations": 45,
+        "reference_observations": 46
+      },
+      "fragments": 113,
+      "observations": 9182,
+      "method": "existing-sam2-local",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "e0337014b4ed707063cbe3811a59b111568dea22c50cd30ed7524ac3a1cafb67",
+      "up_to_2s": {
+        "same_total": 24,
+        "correct": 24,
+        "different_total": 322,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 16,
+        "correct": 9,
+        "different_total": 382,
+        "wrong": 0,
+        "unknown_same": 9
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "counts": {
+        "correct": 48,
+        "wrong": 3,
+        "unknown_same": 36,
+        "same_total": 60,
+        "different_total": 1021,
+        "missing": 0,
+        "matched_observations": 53,
+        "reference_observations": 53
+      },
+      "fragments": 72,
+      "observations": 11063,
+      "method": "existing-sam2-osnet-qwen2b",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "3af8d47b074853f8307c3e5bedf49a82c8dafde8765455023a2a735f3c7840ed",
+      "up_to_2s": {
+        "same_total": 28,
+        "correct": 28,
+        "different_total": 471,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 32,
+        "correct": 20,
+        "different_total": 550,
+        "wrong": 3,
+        "unknown_same": 36
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "counts": {
+        "correct": 37,
+        "wrong": 0,
+        "unknown_same": 3,
+        "same_total": 60,
+        "different_total": 1021,
+        "missing": 0,
+        "matched_observations": 53,
+        "reference_observations": 53
+      },
+      "fragments": 98,
+      "observations": 10356,
+      "method": "roboflow-rfdetr-botsort",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "a9a04b15e885a4bfb5f67ecbc1844e6a437601435f53a116dcf0ba478b763f8b",
+      "up_to_2s": {
+        "same_total": 28,
+        "correct": 28,
+        "different_total": 471,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 32,
+        "correct": 9,
+        "different_total": 550,
+        "wrong": 0,
+        "unknown_same": 3
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "counts": {
+        "correct": 37,
+        "wrong": 0,
+        "unknown_same": 3,
+        "same_total": 60,
+        "different_total": 1021,
+        "missing": 0,
+        "matched_observations": 53,
+        "reference_observations": 53
+      },
+      "fragments": 121,
+      "observations": 10521,
+      "method": "roboflow-yolo-botsort",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "66bb934527e5c28019c57e63890faab235c11c15b82ea6ebf86de06fda20b632",
+      "up_to_2s": {
+        "same_total": 28,
+        "correct": 28,
+        "different_total": 471,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 32,
+        "correct": 9,
+        "different_total": 550,
+        "wrong": 0,
+        "unknown_same": 3
+      }
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "counts": {
+        "correct": 40,
+        "wrong": 0,
+        "unknown_same": 6,
+        "same_total": 60,
+        "different_total": 1021,
+        "missing": 0,
+        "matched_observations": 53,
+        "reference_observations": 53
+      },
+      "fragments": 114,
+      "observations": 11063,
+      "method": "existing-sam2-local",
+      "source_id": "XLyHD1ZR5o4",
+      "tracks_sha256": "ce8e4e45c0f612a060dc103225ecb2b107700c7bd7fd6e5017fe8b040ef2b8a0",
+      "up_to_2s": {
+        "same_total": 28,
+        "correct": 28,
+        "different_total": 471,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 32,
+        "correct": 12,
+        "different_total": 550,
+        "wrong": 0,
+        "unknown_same": 6
+      }
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "counts": {
+        "correct": 23,
+        "wrong": 3,
+        "unknown_same": 25,
+        "same_total": 28,
+        "different_total": 610,
+        "missing": 41,
+        "matched_observations": 41,
+        "reference_observations": 42
+      },
+      "fragments": 45,
+      "observations": 11019,
+      "method": "existing-sam2-osnet-qwen2b",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "010c54d9d5a86581e4c770aca6214c69345035108e5797d18e7cb0d4b1801b25",
+      "up_to_2s": {
+        "same_total": 25,
+        "correct": 23,
+        "different_total": 335,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 3,
+        "correct": 0,
+        "different_total": 275,
+        "wrong": 3,
+        "unknown_same": 25
+      }
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "counts": {
+        "correct": 23,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 28,
+        "different_total": 610,
+        "missing": 41,
+        "matched_observations": 41,
+        "reference_observations": 42
+      },
+      "fragments": 125,
+      "observations": 11082,
+      "method": "roboflow-rfdetr-botsort",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "233ecb1fcf689eab0e40a4cf9354754a65dfbafa263bff8a1ca8beab60767adf",
+      "up_to_2s": {
+        "same_total": 25,
+        "correct": 23,
+        "different_total": 335,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 3,
+        "correct": 0,
+        "different_total": 275,
+        "wrong": 0,
+        "unknown_same": 0
+      }
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "counts": {
+        "correct": 21,
+        "wrong": 0,
+        "unknown_same": 0,
+        "same_total": 28,
+        "different_total": 610,
+        "missing": 120,
+        "matched_observations": 39,
+        "reference_observations": 42
+      },
+      "fragments": 131,
+      "observations": 10928,
+      "method": "roboflow-yolo-botsort",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "b0af5a0921f4b867974b8a0c82a1b6a97a23cab50e75eb76ae28758c52dad731",
+      "up_to_2s": {
+        "same_total": 25,
+        "correct": 21,
+        "different_total": 335,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 3,
+        "correct": 0,
+        "different_total": 275,
+        "wrong": 0,
+        "unknown_same": 0
+      }
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "counts": {
+        "correct": 23,
+        "wrong": 0,
+        "unknown_same": 3,
+        "same_total": 28,
+        "different_total": 610,
+        "missing": 41,
+        "matched_observations": 41,
+        "reference_observations": 42
+      },
+      "fragments": 99,
+      "observations": 11019,
+      "method": "existing-sam2-local",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "709e9384376242d1ee815f141244b0b209a7215a951613fd61e41d845811919e",
+      "up_to_2s": {
+        "same_total": 25,
+        "correct": 23,
+        "different_total": 335,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 3,
+        "correct": 0,
+        "different_total": 275,
+        "wrong": 0,
+        "unknown_same": 3
+      }
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "counts": {
+        "correct": 12,
+        "wrong": 0,
+        "unknown_same": 17,
+        "same_total": 17,
+        "different_total": 406,
+        "missing": 195,
+        "matched_observations": 30,
+        "reference_observations": 36
+      },
+      "fragments": 40,
+      "observations": 10287,
+      "method": "existing-sam2-osnet-qwen2b",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "51e9a7c135059ac39f2ecbfc33e61355d3ebeab37f2d2f1bcd3c9e1be0d00426",
+      "up_to_2s": {
+        "same_total": 17,
+        "correct": 12,
+        "different_total": 196,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 0,
+        "correct": 0,
+        "different_total": 210,
+        "wrong": 0,
+        "unknown_same": 17
+      }
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "counts": {
+        "correct": 14,
+        "wrong": 2,
+        "unknown_same": 9,
+        "same_total": 17,
+        "different_total": 406,
+        "missing": 69,
+        "matched_observations": 34,
+        "reference_observations": 36
+      },
+      "fragments": 103,
+      "observations": 10079,
+      "method": "roboflow-rfdetr-botsort",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "79926cc7c33acd0df36af977a95b4955173ea90ec9aac5b7a6dc45fe16b81391",
+      "up_to_2s": {
+        "same_total": 17,
+        "correct": 14,
+        "different_total": 196,
+        "wrong": 2,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 0,
+        "correct": 0,
+        "different_total": 210,
+        "wrong": 0,
+        "unknown_same": 9
+      }
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "counts": {
+        "correct": 12,
+        "wrong": 4,
+        "unknown_same": 3,
+        "same_total": 17,
+        "different_total": 406,
+        "missing": 134,
+        "matched_observations": 32,
+        "reference_observations": 36
+      },
+      "fragments": 113,
+      "observations": 10145,
+      "method": "roboflow-yolo-botsort",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "7455a5f22b18939f3effd5ce1574a40e0182fca42c2268b569c700ecc98538e5",
+      "up_to_2s": {
+        "same_total": 17,
+        "correct": 12,
+        "different_total": 196,
+        "wrong": 2,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 0,
+        "correct": 0,
+        "different_total": 210,
+        "wrong": 2,
+        "unknown_same": 3
+      }
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "counts": {
+        "correct": 12,
+        "wrong": 0,
+        "unknown_same": 5,
+        "same_total": 17,
+        "different_total": 406,
+        "missing": 195,
+        "matched_observations": 30,
+        "reference_observations": 36
+      },
+      "fragments": 80,
+      "observations": 10287,
+      "method": "existing-sam2-local",
+      "source_id": "nWo-KEsSLyo",
+      "tracks_sha256": "cf1bf7f407a8d5ecc42ed4ae8dc1741a0a1f1765933f77a7dd01e00a3ad56c0c",
+      "up_to_2s": {
+        "same_total": 17,
+        "correct": 12,
+        "different_total": 196,
+        "wrong": 0,
+        "unknown_same": 0
+      },
+      "over_2s": {
+        "same_total": 0,
+        "correct": 0,
+        "different_total": 210,
+        "wrong": 0,
+        "unknown_same": 5
+      }
+    }
+  ],
+  "reservations": [
+    {
+      "source_id": "XLyHD1ZR5o4",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "raw_sha256": "64343a9428c6fb988219052bb5fcd35444992793be7d39f1445b1c577c4d9d24",
+      "raw_bytes": 1433224734,
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30000/1001",
+        "duration": "2770.634533"
+      },
+      "clips": [
+        {
+          "clip": "pittsburgh-finals-0600",
+          "source_id": "XLyHD1ZR5o4",
+          "start_s": 600,
+          "duration_s": 90,
+          "fps": 15,
+          "reference_frames": [
+            0,
+            15,
+            30,
+            150,
+            450,
+            1335
+          ],
+          "width": 1920,
+          "height": 1080,
+          "frame_count": 1350,
+          "samples": [
+            {
+              "frame": 0,
+              "source_time_s": 600.0,
+              "sha256": "625b79a72499e43838930f2eba786130f4c64237c3c12ce4ee739614c868f6d0",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 15,
+              "source_time_s": 601.0,
+              "sha256": "19c98ee666f532b96751e7bccc59cfdd06908eb3429dbf4cb489466796079884",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 30,
+              "source_time_s": 602.0,
+              "sha256": "0bf6235762b904597765e5ef3c0a0576b9ac3036c1f25f115e3fba91c980c73e",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 150,
+              "source_time_s": 610.0,
+              "sha256": "349b829cb597ac1b8b15e49e0263c558a26db425365e97b3b3cc7bb8373d3e57",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 450,
+              "source_time_s": 630.0,
+              "sha256": "f8f722697278173c6e7245d2ab09682b392c4e266233163fa876ddf7e289e9ba",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 1335,
+              "source_time_s": 689.0,
+              "sha256": "b73cb0a71c5323835b658c37eab555472dea222f84a8bbeb102f8e8729eb6e3c",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "source_id": "XLyHD1ZR5o4",
+          "start_s": 1800,
+          "duration_s": 90,
+          "fps": 15,
+          "reference_frames": [
+            0,
+            15,
+            30,
+            150,
+            450,
+            1335
+          ],
+          "width": 1920,
+          "height": 1080,
+          "frame_count": 1350,
+          "samples": [
+            {
+              "frame": 0,
+              "source_time_s": 1800.0,
+              "sha256": "4512263bd970d015e4e981c0f991cd7891ad629b3022d654ecf4f28d4fabb78d",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 15,
+              "source_time_s": 1801.0,
+              "sha256": "1af576a2c7bb10a1b3b462999279f9e933a0738a1ee2260723c01d15c2f9b32a",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 30,
+              "source_time_s": 1802.0,
+              "sha256": "ba6aa8eddd719aa402164bd282db30d1575662f0d982cb3746cf43209732c57b",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 150,
+              "source_time_s": 1810.0,
+              "sha256": "2ac2273539cdbdbe7208baf7a08fe7b688b0a6e55849eb32adf474c0dc3321f6",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 450,
+              "source_time_s": 1830.0,
+              "sha256": "7ee4a9f81fd2f106794a3344a03f00ac94a26b9dc042bcc17ee5dca3ab591203",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 1335,
+              "source_time_s": 1889.0,
+              "sha256": "ba488c02e9725c3c07ea940c0d9ed99ca10c5baa0a2a6ec0501b847c68058129",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        }
+      ],
+      "inference_performed": false
+    },
+    {
+      "source_id": "nWo-KEsSLyo",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "raw_sha256": "7e15435ec6edb8d30b084a5d47ec917616448e3cea3a545887e9755318851f96",
+      "raw_bytes": 1240854611,
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "3386.733333"
+      },
+      "clips": [
+        {
+          "clip": "southjersey-finals-0600",
+          "source_id": "nWo-KEsSLyo",
+          "start_s": 600,
+          "duration_s": 90,
+          "fps": 15,
+          "reference_frames": [
+            0,
+            15,
+            30,
+            150,
+            450,
+            1335
+          ],
+          "width": 1920,
+          "height": 1080,
+          "frame_count": 1350,
+          "samples": [
+            {
+              "frame": 0,
+              "source_time_s": 600.0,
+              "sha256": "9137c1fb43eff5c163c2b9727da8fc73add0fb1a1de6651be21b3bbf2d35c823",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 15,
+              "source_time_s": 601.0,
+              "sha256": "61104eb97b6838227b9229381a2263c591315689385711e943234471b95100c2",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 30,
+              "source_time_s": 602.0,
+              "sha256": "c103b43f8de0854e8566557b0e32e6174279d6410e5259d7ce198bc58fc22a5b",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 150,
+              "source_time_s": 610.0,
+              "sha256": "7fb596b19d2e471ab770c21075377d84394e4a97acadc4f8b20b1522ab3c7999",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 450,
+              "source_time_s": 630.0,
+              "sha256": "c0a79d2f8e749e3a7afbcb80071512f26bfa211ad603700bdb508cba780059c7",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 1335,
+              "source_time_s": 689.0,
+              "sha256": "b4e884646aba36f71b935bfc25e56c07330a66f5ee5e144c8941a43959220642",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "source_id": "nWo-KEsSLyo",
+          "start_s": 1800,
+          "duration_s": 90,
+          "fps": 15,
+          "reference_frames": [
+            0,
+            15,
+            30,
+            150,
+            450,
+            1335
+          ],
+          "width": 1920,
+          "height": 1080,
+          "frame_count": 1350,
+          "samples": [
+            {
+              "frame": 0,
+              "source_time_s": 1800.0,
+              "sha256": "2e7dc2e19708c52c5f826eb167b20f231934e810f92666d4f0be1ce22c77a626",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 15,
+              "source_time_s": 1801.0,
+              "sha256": "d8c8a8af776c8992dbc73c034aa561d85ea25f3bb2311074981b66a2091befb3",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 30,
+              "source_time_s": 1802.0,
+              "sha256": "19822cb0e8cc4d04edfb1b2d2719b6b5badf2dcc929f242381dc1a004adb983f",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 150,
+              "source_time_s": 1810.0,
+              "sha256": "fdc968fc7efd532683cd472a5bef8717148a73f09e2e4ba31a41418857df3034",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 450,
+              "source_time_s": 1830.0,
+              "sha256": "5f5b06f26991cb299310ee48818cd99962c1a20221151fbd5a8b9fe14b00a8f0",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "frame": 1335,
+              "source_time_s": 1889.0,
+              "sha256": "07929b40985e5e4b180536a2c19a5ff9c2bd60525018943174ee3777f853ed2e",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        }
+      ],
+      "inference_performed": false
+    }
+  ],
+  "runtimes": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "method": "existing-sam2-osnet-qwen2b",
+      "seconds": 215.029918247,
+      "embedding_seconds": 312.854417428,
+      "embedding_tracks": 74,
+      "candidate_edges": 1796,
+      "selected_edges": 150
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "method": "roboflow-rfdetr-botsort",
+      "seconds": 106.596115225
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "method": "roboflow-yolo-botsort",
+      "seconds": 42.76394103700001
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "method": "existing-sam2-local",
+      "seconds": 215.029918247
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "method": "existing-sam2-osnet-qwen2b",
+      "seconds": 242.497353088,
+      "embedding_seconds": 377.854739322,
+      "embedding_tracks": 74,
+      "candidate_edges": 1777,
+      "selected_edges": 141
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "method": "roboflow-rfdetr-botsort",
+      "seconds": 107.754251558
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "method": "roboflow-yolo-botsort",
+      "seconds": 46.64402027999999
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "method": "existing-sam2-local",
+      "seconds": 242.497353088
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "method": "existing-sam2-osnet-qwen2b",
+      "seconds": 246.37801611099997,
+      "embedding_seconds": 401.26862777599996,
+      "embedding_tracks": 80,
+      "candidate_edges": 1665,
+      "selected_edges": 182
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "method": "roboflow-rfdetr-botsort",
+      "seconds": 126.836662587
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "method": "roboflow-yolo-botsort",
+      "seconds": 34.198353954
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "method": "existing-sam2-local",
+      "seconds": 246.37801611099997
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "method": "existing-sam2-osnet-qwen2b",
+      "seconds": 230.598930004,
+      "embedding_seconds": 293.433093354,
+      "embedding_tracks": 61,
+      "candidate_edges": 992,
+      "selected_edges": 122
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "method": "roboflow-rfdetr-botsort",
+      "seconds": 217.149629458
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "method": "roboflow-yolo-botsort",
+      "seconds": 33.867180228999985
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "method": "existing-sam2-local",
+      "seconds": 230.598930004
+    }
+  ],
+  "execution": [
+    {
+      "task": "detect",
+      "clip": "pittsburgh-finals-0600",
+      "started_at": "2026-10-25T19:57:07.224472+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "detect",
+      "clip": "pittsburgh-finals-1800",
+      "started_at": "2026-10-25T19:57:07.524197+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "detect",
+      "clip": "southjersey-finals-0600",
+      "started_at": "2026-10-25T20:12:52.438781+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "detect",
+      "clip": "southjersey-finals-1800",
+      "started_at": "2026-10-25T20:12:54.525008+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "embed",
+      "clip": "pittsburgh-finals-0600",
+      "started_at": "2026-10-25T20:19:12.028095+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "embed",
+      "clip": "pittsburgh-finals-1800",
+      "started_at": "2026-10-25T20:19:13.420135+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "embed",
+      "clip": "southjersey-finals-0600",
+      "started_at": "2026-10-25T20:36:29.342695+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "embed",
+      "clip": "southjersey-finals-1800",
+      "started_at": "2026-10-25T20:34:05.670647+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "sam",
+      "clip": "pittsburgh-finals-0600",
+      "started_at": "2026-10-25T20:13:46.704424+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "sam",
+      "clip": "pittsburgh-finals-1800",
+      "started_at": "2026-10-25T20:13:46.690838+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "sam",
+      "clip": "southjersey-finals-0600",
+      "started_at": "2026-10-25T20:28:36.748425+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "sam",
+      "clip": "southjersey-finals-1800",
+      "started_at": "2026-10-25T20:28:36.763707+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "track",
+      "clip": "pittsburgh-finals-0600",
+      "started_at": "2026-10-25T20:13:43.453658+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "track",
+      "clip": "pittsburgh-finals-1800",
+      "started_at": "2026-10-25T20:13:43.516752+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "track",
+      "clip": "southjersey-finals-0600",
+      "started_at": "2026-10-25T20:28:30.908886+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    },
+    {
+      "task": "track",
+      "clip": "southjersey-finals-1800",
+      "started_at": "2026-10-25T20:28:37.959640+00:00",
+      "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+      "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+      "adapter_sha256": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f"
+    }
+  ],
+  "limits": {
+    "reference": "Sparse assistant annotations from raw frames, sealed before prediction review. Not independent human ground truth. Unknown identities remain unknown.",
+    "same_pairs": "All same confirmed identities across sampled frames within each clip.",
+    "different_pairs": "Co-visible people, opposing teams, and distinct clearly identified same-team people.",
+    "matching_iou": 0.5,
+    "adaptation": "No model training, parameter selection, team fitting or test-driven changes.",
+    "selection": "Two first eligible full games in the first 35 official channel entries from different regions, excluding every prior registered source. Fixed 10:00 and30:00 intervals; no activity cherry-picking.",
+    "scope": "Recording-disjoint, not guaranteed venue- or team-disjoint. Six minutes total; not full games."
+  }
+}

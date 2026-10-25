@@ -52,7 +52,7 @@
    ctx.font='13px Arial';const width=ctx.measureText(object.id).width+6;ctx.fillStyle='rgba(255,255,255,.92)';ctx.fillRect(x,Math.max(0,y-17),width,17);ctx.fillStyle='#111';ctx.fillText(object.id,x+3,Math.max(13,y-4));
   }
   status.textContent=`Recording ${clock(data.start_s+frame/data.fps)} · ${objects.length} tracked observations · ${method.selectedOptions[0].textContent}`;
-  sourceLink.href=`https://www.youtube.com/watch?v=${sourceIds[data.clip.split('-')[0]]}&t=${Math.floor(data.start_s+frame/data.fps)}s`;sourceLink.hidden=false;
+  sourceLink.href=`https://www.youtube.com/watch?v=${data.source_id||catalog[data.clip]?.sourceId||sourceIds[data.clip.split('-')[0]]}&t=${Math.floor(data.start_s+frame/data.fps)}s`;sourceLink.hidden=false;
   document.body.dataset.trackingFrame=String(frame);document.body.dataset.trackingMethod=data.method;document.body.dataset.trackingClip=data.clip;
  }
  async function load(){

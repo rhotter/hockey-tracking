@@ -1,0 +1,19 @@
+{
+  "sealed_at": "2026-10-25T19:56:49.188261+00:00",
+  "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+  "reference_sha256": "cbb1681cd3f1cd76f861333ea3aa8df7c82145241637f61378e1d7b273257af5",
+  "code_sha256": {
+    "modal_campaign.py": "27322924961f58d9b6f9458310acd7e1606a5d49ea08c08f4ba431fc81ca9c21",
+    "modal_new_games.py": "bdbffc41a4236fc13f9c24939acf3f153ec0400d53a925681c1660f694542b4f",
+    "nbhl_detection_metrics.py": "c072493cdae824f2f65762b0f5ed4c337180d1ea1b553c6eafeac50314faee7b",
+    "nbhl_identity_contrastive.py": "b2812c32b02995a95f7af271b0e94c4e757ab297822bcac78e03b6070f409c17",
+    "nbhl_reid_learning.py": "5b0050c549f4149a0c4e4bff4a465c87a4cf2c7d2ae8eda78c671011f5eb4d08",
+    "nbhl_sam2_lazy_frames.py": "1747b6490229c736f5315740dae5e6ba525daf755d8a05829a0cee376fbbafa8",
+    "nbhl_sam2_tracking_v2.py": "36d693f1e26c7f3f182dc67b2141d316efef08df94bb2251203c80c21bd57673",
+    "nbhl_tracking_fourhour.py": "bcb1545f1d9d97c5a0806fae0e8aba2c443c5000b6e649b721e55f6cf71fa0ba",
+    "nbhl_tracking_global_links.py": "cd2260bd17f521fb45065979c3697e2fd92295da09006c65ee3ea18ce818b786",
+    "nbhl_vlm_reconnect.py": "02371ae2c851823e10f0a124ae0f292ecac7a7b7a53fa730dd9ef4bd4fd0aa6f",
+    "new_games.py": "525dc10e8e329921a6e67de063163facbe3c76e1a04f9d0e121f1f9c4ea67b6f",
+    "seal_reference.py": "4c1b4c145066a84e73dd0f505f45e693b1ad07067a2f4fef604104cf037d10ff"
+  }
+}

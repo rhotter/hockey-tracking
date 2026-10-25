@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-10-25T19:56:22.523287+00:00",
+  "protocol_sha256": "b949ffab9788d3391381d8f2a99cd47fcd699fd1a8b1b4cde6a79765eaeb853f",
+  "sources": [
+    {
+      "source_id": "XLyHD1ZR5o4",
+      "confirmed_ball_hockey": true,
+      "evidence": "Visual review of every reserved raw frame: running players in shoes on a hard rink surface, hockey sticks and ball. Official NBHL channel metadata.",
+      "raw_sha256": "64343a9428c6fb988219052bb5fcd35444992793be7d39f1445b1c577c4d9d24",
+      "raw_bytes": 1433224734,
+      "reservation_sha256": "da2bcb41a41ce8775646341023c5aaff043d5286910119e285fd96ba4c48ee92",
+      "reviewed_frames": 12
+    },
+    {
+      "source_id": "nWo-KEsSLyo",
+      "confirmed_ball_hockey": true,
+      "evidence": "Visual review of every reserved raw frame: running players in shoes on a hard rink surface, hockey sticks and ball. Official NBHL channel metadata.",
+      "raw_sha256": "7e15435ec6edb8d30b084a5d47ec917616448e3cea3a545887e9755318851f96",
+      "raw_bytes": 1240854611,
+      "reservation_sha256": "48e42d8a5ef12e58dd9bdc85d2134104c1ae8c9bdf9fd5868bbe13cc8367c417",
+      "reviewed_frames": 12
+    }
+  ],
+  "inference_performed": false,
+  "reviewer": "assistant; not independently human verified"
+}

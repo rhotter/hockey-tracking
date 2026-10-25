@@ -1,0 +1,149 @@
+{
+  "id": "nbhl-new-games-20261025-v1",
+  "frozen_at": "2026-10-25T19:41:03.880194+00:00",
+  "sources": [
+    {
+      "id": "XLyHD1ZR5o4",
+      "title": "NBHL Pittsburgh Legends Tier Finals: Evans City Taboo vs. Bloomfield Muckers Game 2 (09/06/2026)",
+      "duration": 2771,
+      "channel_id": "UCdOzcElRDVkV0qzNONIeoWQ",
+      "upload_date": "20260919",
+      "webpage_url": "https://www.youtube.com/watch?v=XLyHD1ZR5o4",
+      "sport": "ball_hockey",
+      "league": "NBHL",
+      "training_eligible": false,
+      "role": "new_recording_test",
+      "visual_review": "pending"
+    },
+    {
+      "id": "nWo-KEsSLyo",
+      "title": "NBHL South Jersey East Tier 3 Finals: South Jersey Trash Pandas vs. Jersey Dinos Game 1 (08/30/2026)",
+      "duration": 3387,
+      "channel_id": "UCdOzcElRDVkV0qzNONIeoWQ",
+      "upload_date": "20260905",
+      "webpage_url": "https://www.youtube.com/watch?v=nWo-KEsSLyo",
+      "sport": "ball_hockey",
+      "league": "NBHL",
+      "training_eligible": false,
+      "role": "new_recording_test",
+      "visual_review": "pending"
+    }
+  ],
+  "previous_source_ids": [
+    "1f0Y5BIr5Ps",
+    "3FNUq6K0Bcc",
+    "5Qw_g9E7EqE",
+    "ILV4PoQFxGU",
+    "JlBtScHdcg4",
+    "OLpK8enSjJs",
+    "PWxYa6OZEgo",
+    "WWX74oJC9co",
+    "X83xW6iQKoc",
+    "Z-tFHtxODsE",
+    "b8CM4rZexaY",
+    "plDp2kPtk_g",
+    "vPRRzE3ol2s",
+    "xbLtZLIiiyA"
+  ],
+  "clips": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 600,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 1800,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 600,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 1800,
+      "duration_s": 90,
+      "fps": 15,
+      "reference_frames": [
+        0,
+        15,
+        30,
+        150,
+        450,
+        1335
+      ]
+    }
+  ],
+  "methods": [
+    "existing-sam2-osnet-qwen2b",
+    "roboflow-rfdetr-botsort",
+    "roboflow-yolo-botsort",
+    "existing-sam2-local"
+  ],
+  "detector": {
+    "weights": "/data/ball-hockey/reliability-20261018/training/yolo11m-multi-s17-f10-e80-remap-v2-6f459b18/weights/best.pt",
+    "weights_sha256": "f6a5da194807cfe78ae46be40571a9da3bca9d9e94e9ba2311ea857f3ff75ac3"
+  },
+  "rfdetr": {
+    "weights": "/data/ball-hockey/reliability-20261018/training/rfdetr-medium-r960-s17-e80-88a1f5e8/checkpoint_best_total.pth",
+    "weights_sha256": "4d24ac8181ab494b3f94d821269df4ed057e247dd4f34d436bac3ba3d270d82d"
+  },
+  "sam2_weights": "/data/models/sam2.1_hiera_large.pt",
+  "sam2_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "osnet_sha256": "8a07e8da38946f7cee37f4561617bf8b6d2fe8f3a4027852893ea092e46d919f",
+  "qwen": {
+    "model": "Qwen/Qwen3-VL-Embedding-2B",
+    "revision": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+    "code_revision": "393e2978d27852b0d0230d6994f37f9c15bed73c",
+    "policy": "blend",
+    "representation": "joint",
+    "threshold": 0.75
+  },
+  "tracker": {
+    "family": "rf_botsort",
+    "profile": "default",
+    "frame_rate": 15
+  },
+  "evaluation": {
+    "reference": "Sparse assistant annotations from raw frames, sealed before prediction review. Not independent human ground truth. Unknown identities remain unknown.",
+    "same_pairs": "All same confirmed identities across sampled frames within each clip.",
+    "different_pairs": "Co-visible people, opposing teams, and distinct clearly identified same-team people.",
+    "matching_iou": 0.5,
+    "adaptation": "No model training, parameter selection, team fitting or test-driven changes.",
+    "selection": "Two first eligible full games in the first 35 official channel entries from different regions, excluding every prior registered source. Fixed 10:00 and30:00 intervals; no activity cherry-picking.",
+    "scope": "Recording-disjoint, not guaranteed venue- or team-disjoint. Six minutes total; not full games."
+  }
+}

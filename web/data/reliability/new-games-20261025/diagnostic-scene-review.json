@@ -1,0 +1,48 @@
+{
+  "reviewed_at": "2026-10-25T20:26:14.230342+00:00",
+  "scope": "Post-inference qualitative diagnosis only. No labels, model settings or predictions changed. Not an independent human review.",
+  "clip": "pittsburgh-finals-0600",
+  "source_id": "XLyHD1ZR5o4",
+  "metadata_sha256": "4dde84835bdba6b8e1101905e2c44de2b3aa4cfe1025c7b645422ad0fc3e9363",
+  "reset_frames": [
+    320,
+    325,
+    327,
+    328,
+    329,
+    330
+  ],
+  "reset_recording_seconds": [
+    621.3333333333334,
+    621.6666666666666,
+    621.8,
+    621.8666666666667,
+    621.9333333333333,
+    622.0
+  ],
+  "reviewed_frames": [
+    {
+      "frame": 319,
+      "sha256": "b65dbaee33bcaaff7083f23ed29bba1aa74fe0cd27d411dd93b1e29fa2cab4b9"
+    },
+    {
+      "frame": 327,
+      "sha256": "667a98fd78b5367d941d2bae519531cf8c34d10909314f52cae2911475d93fe0"
+    },
+    {
+      "frame": 331,
+      "sha256": "252f02225206b577b106212ca897931a419e008c8881de903f0355f9d84f403b"
+    }
+  ],
+  "known_same_pairs_crossing_reset": [
+    "pittsburgh-finals-0600/0000/00__pittsburgh-finals-0600/0450/01",
+    "pittsburgh-finals-0600/0000/03__pittsburgh-finals-0600/0450/00",
+    "pittsburgh-finals-0600/0015/00__pittsburgh-finals-0600/0450/01",
+    "pittsburgh-finals-0600/0015/03__pittsburgh-finals-0600/0450/00",
+    "pittsburgh-finals-0600/0030/00__pittsburgh-finals-0600/0450/01",
+    "pittsburgh-finals-0600/0030/03__pittsburgh-finals-0600/0450/00",
+    "pittsburgh-finals-0600/0150/03__pittsburgh-finals-0600/0450/00"
+  ],
+  "finding": "The sampled frames around these resets show continuous close-view play with the blue player numbered 96, not separate scenes. The repeated resets are undesirable. Fine patterned flooring and camera motion are possible triggers; their individual contributions were not measured.",
+  "consequence": "The frozen linker rejects candidates whose endpoints have different scene labels. Seven known same-person reference pairs cross this boundary. Some could also fail for other reasons, so this is not an isolated estimate of recoverable accuracy."
+}

@@ -1,0 +1,2064 @@
+{
+  "reviewer": "assistant",
+  "proposal_free": true,
+  "frames": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 0,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "625b79a72499e43838930f2eba786130f4c64237c3c12ce4ee739614c868f6d0",
+      "notes": "Eight selected players. Identity continuity reviewed across the first three one-second samples using uniform, helmet, equipment and movement; visible numbers corroborate B96, G10 and G9; Bred is identified by the red helmet and equipment. The heavily occluded goalie and referee are excluded.",
+      "observations": [
+        {
+          "bbox": [
+            630,
+            250,
+            710,
+            405
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            713,
+            259,
+            784,
+            406
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            876,
+            258,
+            955,
+            438
+          ],
+          "team": "green",
+          "identity": "G4"
+        },
+        {
+          "bbox": [
+            913,
+            315,
+            1015,
+            571
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1026,
+            295,
+            1123,
+            536
+          ],
+          "team": "green",
+          "identity": "G9"
+        },
+        {
+          "bbox": [
+            989,
+            232,
+            1049,
+            371
+          ],
+          "team": "green",
+          "identity": "G7"
+        },
+        {
+          "bbox": [
+            1102,
+            225,
+            1169,
+            341
+          ],
+          "team": "blue",
+          "identity": "Bwall"
+        },
+        {
+          "bbox": [
+            1211,
+            237,
+            1265,
+            354
+          ],
+          "team": "green",
+          "identity": "Gfar"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 15,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "19c98ee666f532b96751e7bccc59cfdd06908eb3429dbf4cb489466796079884",
+      "notes": "Eight selected players. Identity continuity reviewed across the first three one-second samples using uniform, helmet, equipment and movement; visible numbers corroborate B96, G10 and G9; Bred is identified by the red helmet and equipment. The heavily occluded goalie and referee are excluded.",
+      "observations": [
+        {
+          "bbox": [
+            899,
+            278,
+            949,
+            405
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            862,
+            259,
+            922,
+            390
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            960,
+            275,
+            1038,
+            445
+          ],
+          "team": "green",
+          "identity": "G4"
+        },
+        {
+          "bbox": [
+            805,
+            332,
+            929,
+            584
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1007,
+            307,
+            1101,
+            544
+          ],
+          "team": "green",
+          "identity": "G9"
+        },
+        {
+          "bbox": [
+            1016,
+            254,
+            1066,
+            375
+          ],
+          "team": "green",
+          "identity": "G7"
+        },
+        {
+          "bbox": [
+            1051,
+            244,
+            1107,
+            352
+          ],
+          "team": "blue",
+          "identity": "Bwall"
+        },
+        {
+          "bbox": [
+            1356,
+            255,
+            1423,
+            385
+          ],
+          "team": "green",
+          "identity": "Gfar"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 30,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "0bf6235762b904597765e5ef3c0a0576b9ac3036c1f25f115e3fba91c980c73e",
+      "notes": "Eight selected players. Identity continuity reviewed across the first three one-second samples using uniform, helmet, equipment and movement; visible numbers corroborate B96, G10 and G9; Bred is identified by the red helmet and equipment. The heavily occluded goalie and referee are excluded.",
+      "observations": [
+        {
+          "bbox": [
+            1097,
+            254,
+            1162,
+            396
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            1014,
+            259,
+            1092,
+            399
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            961,
+            285,
+            1088,
+            448
+          ],
+          "team": "green",
+          "identity": "G4"
+        },
+        {
+          "bbox": [
+            737,
+            356,
+            889,
+            570
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1049,
+            315,
+            1183,
+            545
+          ],
+          "team": "green",
+          "identity": "G9"
+        },
+        {
+          "bbox": [
+            1146,
+            243,
+            1202,
+            374
+          ],
+          "team": "green",
+          "identity": "G7"
+        },
+        {
+          "bbox": [
+            1189,
+            226,
+            1234,
+            351
+          ],
+          "team": "blue",
+          "identity": "Bwall"
+        },
+        {
+          "bbox": [
+            1702,
+            255,
+            1787,
+            415
+          ],
+          "team": "green",
+          "identity": "Gfar"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 150,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "349b829cb597ac1b8b15e49e0263c558a26db425365e97b3b3cc7bb8373d3e57",
+      "notes": "G9 has a visible 9 and the same asymmetric leg protection. Bred retains the red helmet; G10 retains the white helmet and bright blue shin guards. Other cross-time identities are uncertain.",
+      "observations": [
+        {
+          "bbox": [
+            460,
+            288,
+            617,
+            573
+          ],
+          "team": "green",
+          "identity": "G9"
+        },
+        {
+          "bbox": [
+            815,
+            202,
+            918,
+            396
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1025,
+            167,
+            1100,
+            321
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1084,
+            165,
+            1134,
+            284
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1112,
+            212,
+            1207,
+            322
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1255,
+            175,
+            1331,
+            344
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            1316,
+            174,
+            1384,
+            317
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1286,
+            565,
+            1718,
+            1080
+          ],
+          "team": "blue",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 450,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "f8f722697278173c6e7245d2ab09682b392c4e266233163fa876ddf7e289e9ba",
+      "notes": "Bred and B96 have a readable96 or the distinct red helmet and matching equipment. All other identities remain uncertain; foreground green player is partially outside the image. Bench players are excluded.",
+      "observations": [
+        {
+          "bbox": [
+            627,
+            255,
+            732,
+            453
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1261,
+            347,
+            1432,
+            687
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            1125,
+            268,
+            1281,
+            459
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            937,
+            220,
+            993,
+            353
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1691,
+            772,
+            1920,
+            1080
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1586,
+            228,
+            1663,
+            409
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1221,
+            241,
+            1280,
+            350
+          ],
+          "team": "blue",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1335,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "b73cb0a71c5323835b658c37eab555472dea222f84a8bbeb102f8e8729eb6e3c",
+      "notes": "Different lineup, with no supported connection to earlier reference identities. Goalkeeper behind other people and the referee are excluded.",
+      "observations": [
+        {
+          "bbox": [
+            650,
+            219,
+            731,
+            354
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            683,
+            212,
+            754,
+            349
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            796,
+            234,
+            857,
+            393
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            863,
+            226,
+            927,
+            382
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1090,
+            237,
+            1159,
+            414
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1355,
+            275,
+            1438,
+            481
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1411,
+            269,
+            1473,
+            473
+          ],
+          "team": "blue",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "frame": 0,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "4512263bd970d015e4e981c0f991cd7891ad629b3022d654ecf4f28d4fabb78d",
+      "notes": "Faceoff setup. Ten individually separable players matched through the three one-second samples by position, kit and visible numbers; Bwhite exits right by frame30. Bench players and referee excluded. Local identity groups apply only inside this clip.",
+      "observations": [
+        {
+          "bbox": [
+            115,
+            202,
+            211,
+            384
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            365,
+            295,
+            504,
+            559
+          ],
+          "team": "green",
+          "identity": "Gnear"
+        },
+        {
+          "bbox": [
+            522,
+            220,
+            627,
+            450
+          ],
+          "team": "green",
+          "identity": "G7"
+        },
+        {
+          "bbox": [
+            858,
+            153,
+            968,
+            335
+          ],
+          "team": "green",
+          "identity": "Gcenter"
+        },
+        {
+          "bbox": [
+            972,
+            187,
+            1086,
+            462
+          ],
+          "team": "green",
+          "identity": "G27"
+        },
+        {
+          "bbox": [
+            637,
+            177,
+            731,
+            357
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1061,
+            153,
+            1119,
+            348
+          ],
+          "team": "blue",
+          "identity": "B28"
+        },
+        {
+          "bbox": [
+            1308,
+            222,
+            1447,
+            510
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            1742,
+            171,
+            1846,
+            404
+          ],
+          "team": "blue",
+          "identity": "Bwhite"
+        },
+        {
+          "bbox": [
+            1301,
+            153,
+            1400,
+            282
+          ],
+          "team": "blue",
+          "identity": "Bbare"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "frame": 15,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "1af576a2c7bb10a1b3b462999279f9e933a0738a1ee2260723c01d15c2f9b32a",
+      "notes": "Faceoff setup. Ten individually separable players matched through the three one-second samples by position, kit and visible numbers; Bwhite exits right by frame30. Bench players and referee excluded. Local identity groups apply only inside this clip.",
+      "observations": [
+        {
+          "bbox": [
+            163,
+            195,
+            236,
+            377
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            357,
+            305,
+            499,
+            560
+          ],
+          "team": "green",
+          "identity": "Gnear"
+        },
+        {
+          "bbox": [
+            630,
+            202,
+            736,
+            427
+          ],
+          "team": "green",
+          "identity": "G7"
+        },
+        {
+          "bbox": [
+            852,
+            151,
+            955,
+            331
+          ],
+          "team": "green",
+          "identity": "Gcenter"
+        },
+        {
+          "bbox": [
+            1039,
+            189,
+            1157,
+            450
+          ],
+          "team": "green",
+          "identity": "G27"
+        },
+        {
+          "bbox": [
+            714,
+            169,
+            800,
+            336
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1145,
+            150,
+            1232,
+            354
+          ],
+          "team": "blue",
+          "identity": "B28"
+        },
+        {
+          "bbox": [
+            1306,
+            199,
+            1429,
+            473
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            1855,
+            158,
+            1920,
+            403
+          ],
+          "team": "blue",
+          "identity": "Bwhite"
+        },
+        {
+          "bbox": [
+            1362,
+            135,
+            1427,
+            285
+          ],
+          "team": "blue",
+          "identity": "Bbare"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "frame": 30,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "ba6aa8eddd719aa402164bd282db30d1575662f0d982cb3746cf43209732c57b",
+      "notes": "Faceoff setup. Ten individually separable players matched through the three one-second samples by position, kit and visible numbers; Bwhite exits right by frame30. Bench players and referee excluded. Local identity groups apply only inside this clip.",
+      "observations": [
+        {
+          "bbox": [
+            213,
+            211,
+            296,
+            396
+          ],
+          "team": "green",
+          "identity": "G10"
+        },
+        {
+          "bbox": [
+            360,
+            322,
+            501,
+            576
+          ],
+          "team": "green",
+          "identity": "Gnear"
+        },
+        {
+          "bbox": [
+            727,
+            208,
+            823,
+            420
+          ],
+          "team": "green",
+          "identity": "G7"
+        },
+        {
+          "bbox": [
+            850,
+            166,
+            957,
+            341
+          ],
+          "team": "green",
+          "identity": "Gcenter"
+        },
+        {
+          "bbox": [
+            1071,
+            197,
+            1201,
+            464
+          ],
+          "team": "green",
+          "identity": "G27"
+        },
+        {
+          "bbox": [
+            807,
+            168,
+            879,
+            328
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            1223,
+            155,
+            1289,
+            356
+          ],
+          "team": "blue",
+          "identity": "B28"
+        },
+        {
+          "bbox": [
+            1306,
+            206,
+            1426,
+            482
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            1431,
+            139,
+            1507,
+            294
+          ],
+          "team": "blue",
+          "identity": "Bbare"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "frame": 150,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "2ac2273539cdbdbe7208baf7a08fe7b688b0a6e55849eb32adf474c0dc3321f6",
+      "notes": "B28 and B96 are supported by visible numbers; G27 has the same blue helmet and back number. Bbare has distinctive uncovered legs and striped socks. Remaining identities uncertain.",
+      "observations": [
+        {
+          "bbox": [
+            699,
+            256,
+            793,
+            453
+          ],
+          "team": "blue",
+          "identity": "B28"
+        },
+        {
+          "bbox": [
+            1136,
+            279,
+            1282,
+            550
+          ],
+          "team": "blue",
+          "identity": "B96"
+        },
+        {
+          "bbox": [
+            1223,
+            202,
+            1278,
+            332
+          ],
+          "team": "green",
+          "identity": "G27"
+        },
+        {
+          "bbox": [
+            1135,
+            217,
+            1198,
+            333
+          ],
+          "team": "blue",
+          "identity": "Bbare"
+        },
+        {
+          "bbox": [
+            120,
+            303,
+            208,
+            551
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            651,
+            225,
+            712,
+            368
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1280,
+            220,
+            1373,
+            379
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1406,
+            210,
+            1485,
+            355
+          ],
+          "team": "blue",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "frame": 450,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "7ee4a9f81fd2f106794a3344a03f00ac94a26b9dc042bcc17ee5dca3ab591203",
+      "notes": "Red helmet blue player has visible89; Bbare retains unique bare legs and striped socks. G27 retains blue helmet and kit at right. Other identities not supported. Extremely clipped foreground/left-edge players excluded.",
+      "observations": [
+        {
+          "bbox": [
+            262,
+            391,
+            388,
+            594
+          ],
+          "team": "blue",
+          "identity": "Bred"
+        },
+        {
+          "bbox": [
+            450,
+            447,
+            570,
+            684
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1521,
+            379,
+            1644,
+            603
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1462,
+            349,
+            1532,
+            514
+          ],
+          "team": "blue",
+          "identity": "Bbare"
+        },
+        {
+          "bbox": [
+            1782,
+            354,
+            1920,
+            559
+          ],
+          "team": "green",
+          "identity": "G27"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1800",
+      "frame": 1335,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "ba488c02e9725c3c07ea940c0d9ed99ca10c5baa0a2a6ec0501b847c68058129",
+      "notes": "A stoppage and lineup changes. B28 is readable on the back, and G27 has the same distinctive blue helmet with27 visible on the sleeve. Other identity relations remain unknown; the blue goalie is included as an observation, without an assumed persistent identity.",
+      "observations": [
+        {
+          "bbox": [
+            171,
+            272,
+            258,
+            458
+          ],
+          "team": "blue",
+          "identity": "B28"
+        },
+        {
+          "bbox": [
+            710,
+            332,
+            847,
+            654
+          ],
+          "team": "green",
+          "identity": "G27"
+        },
+        {
+          "bbox": [
+            48,
+            292,
+            140,
+            483
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            344,
+            276,
+            410,
+            456
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            505,
+            281,
+            580,
+            459
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            955,
+            238,
+            1026,
+            381
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1061,
+            252,
+            1120,
+            415
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1395,
+            263,
+            1476,
+            452
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1543,
+            228,
+            1609,
+            390
+          ],
+          "team": "blue",
+          "identity": null
+        },
+        {
+          "bbox": [
+            816,
+            263,
+            885,
+            422
+          ],
+          "team": "green",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1719,
+            228,
+            1805,
+            403
+          ],
+          "team": "blue",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 0,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "9137c1fb43eff5c163c2b9727da8fc73add0fb1a1de6651be21b3bbf2d35c823",
+      "notes": "Continuous play across the three one-second samples. Separable players matched by motion, helmet and equipment. O17 and W16 have readable numbers. Boxes end at the boards when feet are hidden; no hidden body position is invented. Officials and outside spectators excluded.",
+      "observations": [
+        {
+          "bbox": [
+            475,
+            386,
+            563,
+            491
+          ],
+          "team": "orange",
+          "identity": "Oleft"
+        },
+        {
+          "bbox": [
+            686,
+            385,
+            751,
+            493
+          ],
+          "team": "white",
+          "identity": "Wleft"
+        },
+        {
+          "bbox": [
+            641,
+            423,
+            754,
+            582
+          ],
+          "team": "orange",
+          "identity": "O17"
+        },
+        {
+          "bbox": [
+            845,
+            367,
+            920,
+            483
+          ],
+          "team": "orange",
+          "identity": "Ogoal"
+        },
+        {
+          "bbox": [
+            1107,
+            373,
+            1158,
+            485
+          ],
+          "team": "orange",
+          "identity": "Oback"
+        },
+        {
+          "bbox": [
+            1141,
+            386,
+            1196,
+            482
+          ],
+          "team": "white",
+          "identity": "Wfar"
+        },
+        {
+          "bbox": [
+            1578,
+            405,
+            1661,
+            577
+          ],
+          "team": "orange",
+          "identity": "Orun"
+        },
+        {
+          "bbox": [
+            1125,
+            443,
+            1327,
+            694
+          ],
+          "team": "white",
+          "identity": "W16"
+        },
+        {
+          "bbox": [
+            1848,
+            381,
+            1920,
+            530
+          ],
+          "team": "orange",
+          "identity": "Oright"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 15,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "61104eb97b6838227b9229381a2263c591315689385711e943234471b95100c2",
+      "notes": "Continuous play across the three one-second samples. Separable players matched by motion, helmet and equipment. O17 and W16 have readable numbers. Boxes end at the boards when feet are hidden; no hidden body position is invented. Officials and outside spectators excluded.",
+      "observations": [
+        {
+          "bbox": [
+            270,
+            390,
+            335,
+            491
+          ],
+          "team": "orange",
+          "identity": "Oleft"
+        },
+        {
+          "bbox": [
+            451,
+            395,
+            512,
+            515
+          ],
+          "team": "white",
+          "identity": "Wleft"
+        },
+        {
+          "bbox": [
+            511,
+            418,
+            615,
+            553
+          ],
+          "team": "orange",
+          "identity": "O17"
+        },
+        {
+          "bbox": [
+            850,
+            369,
+            918,
+            482
+          ],
+          "team": "orange",
+          "identity": "Ogoal"
+        },
+        {
+          "bbox": [
+            1041,
+            373,
+            1100,
+            489
+          ],
+          "team": "orange",
+          "identity": "Oback"
+        },
+        {
+          "bbox": [
+            1190,
+            384,
+            1243,
+            489
+          ],
+          "team": "white",
+          "identity": "Wfar"
+        },
+        {
+          "bbox": [
+            1392,
+            425,
+            1465,
+            550
+          ],
+          "team": "orange",
+          "identity": "Orun"
+        },
+        {
+          "bbox": [
+            1043,
+            437,
+            1204,
+            675
+          ],
+          "team": "white",
+          "identity": "W16"
+        },
+        {
+          "bbox": [
+            1857,
+            381,
+            1920,
+            526
+          ],
+          "team": "orange",
+          "identity": "Oright"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 30,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "c103b43f8de0854e8566557b0e32e6174279d6410e5259d7ce198bc58fc22a5b",
+      "notes": "Continuous play across the three one-second samples. Separable players matched by motion, helmet and equipment. O17 and W16 have readable numbers. Boxes end at the boards when feet are hidden; no hidden body position is invented. Officials and outside spectators excluded.",
+      "observations": [
+        {
+          "bbox": [
+            245,
+            385,
+            314,
+            485
+          ],
+          "team": "orange",
+          "identity": "Oleft"
+        },
+        {
+          "bbox": [
+            360,
+            395,
+            421,
+            505
+          ],
+          "team": "white",
+          "identity": "Wleft"
+        },
+        {
+          "bbox": [
+            468,
+            424,
+            564,
+            535
+          ],
+          "team": "orange",
+          "identity": "O17"
+        },
+        {
+          "bbox": [
+            848,
+            369,
+            910,
+            478
+          ],
+          "team": "orange",
+          "identity": "Ogoal"
+        },
+        {
+          "bbox": [
+            1036,
+            372,
+            1100,
+            484
+          ],
+          "team": "orange",
+          "identity": "Oback"
+        },
+        {
+          "bbox": [
+            1345,
+            386,
+            1421,
+            507
+          ],
+          "team": "white",
+          "identity": "Wfar"
+        },
+        {
+          "bbox": [
+            1164,
+            424,
+            1235,
+            541
+          ],
+          "team": "orange",
+          "identity": "Orun"
+        },
+        {
+          "bbox": [
+            810,
+            430,
+            957,
+            627
+          ],
+          "team": "white",
+          "identity": "W16"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 150,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "7fb596b19d2e471ab770c21075377d84394e4a97acadc4f8b20b1522ab3c7999",
+      "notes": "O17 has a readable17. Other people are small or overlapping after a pan to the opposite goal; cross-time identities uncertain.",
+      "observations": [
+        {
+          "bbox": [
+            752,
+            471,
+            831,
+            648
+          ],
+          "team": "orange",
+          "identity": "O17"
+        },
+        {
+          "bbox": [
+            1013,
+            452,
+            1063,
+            560
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1247,
+            451,
+            1288,
+            554
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            839,
+            451,
+            885,
+            542
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            784,
+            456,
+            831,
+            544
+          ],
+          "team": "white",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 450,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "c0a79d2f8e749e3a7afbcb80071512f26bfa211ad603700bdb508cba780059c7",
+      "notes": "Selected visible players at the opposite end. Numbers are insufficiently clear to connect these people to earlier groups. Overlapped goalie and mostly hidden orange player excluded.",
+      "observations": [
+        {
+          "bbox": [
+            621,
+            472,
+            719,
+            654
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            524,
+            454,
+            568,
+            548
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            308,
+            475,
+            380,
+            568
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            948,
+            462,
+            996,
+            583
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            904,
+            464,
+            936,
+            560
+          ],
+          "team": "white",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1335,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "b4e884646aba36f71b935bfc25e56c07330a66f5ee5e144c8941a43959220642",
+      "notes": "Long gap back at the original end. Matching team colors or positions alone cannot establish identity, so all identities remain unknown.",
+      "observations": [
+        {
+          "bbox": [
+            270,
+            405,
+            353,
+            499
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            504,
+            402,
+            591,
+            554
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            807,
+            373,
+            880,
+            486
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1219,
+            376,
+            1273,
+            498
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1548,
+            462,
+            1666,
+            788
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1772,
+            394,
+            1866,
+            549
+          ],
+          "team": "white",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "frame": 0,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "2e7dc2e19708c52c5f826eb167b20f231934e810f92666d4f0be1ce22c77a626",
+      "notes": "Identity continuity over first three one-second samples based on equipment and motion. W5 has a visible 5. Wleft becomes heavily occluded behind Oleft and is omitted at frame30. Goalie omitted when mostly outside frame0. Referees, bench occupants and outside spectators excluded.",
+      "observations": [
+        {
+          "bbox": [
+            898,
+            410,
+            949,
+            513
+          ],
+          "team": "white",
+          "identity": "Wleft"
+        },
+        {
+          "bbox": [
+            1013,
+            413,
+            1062,
+            518
+          ],
+          "team": "orange",
+          "identity": "Oleft"
+        },
+        {
+          "bbox": [
+            947,
+            431,
+            1014,
+            583
+          ],
+          "team": "white",
+          "identity": "W5"
+        },
+        {
+          "bbox": [
+            1211,
+            433,
+            1277,
+            597
+          ],
+          "team": "orange",
+          "identity": "Ofront"
+        },
+        {
+          "bbox": [
+            1176,
+            426,
+            1223,
+            521
+          ],
+          "team": "orange",
+          "identity": "Oboard"
+        },
+        {
+          "bbox": [
+            1441,
+            428,
+            1509,
+            535
+          ],
+          "team": "white",
+          "identity": "Wfar"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "frame": 15,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "d8c8a8af776c8992dbc73c034aa561d85ea25f3bb2311074981b66a2091befb3",
+      "notes": "Identity continuity over first three one-second samples based on equipment and motion. W5 has a visible 5. Wleft becomes heavily occluded behind Oleft and is omitted at frame30. Goalie omitted when mostly outside frame0. Referees, bench occupants and outside spectators excluded.",
+      "observations": [
+        {
+          "bbox": [
+            905,
+            397,
+            941,
+            488
+          ],
+          "team": "white",
+          "identity": "Wleft"
+        },
+        {
+          "bbox": [
+            909,
+            411,
+            961,
+            495
+          ],
+          "team": "orange",
+          "identity": "Oleft"
+        },
+        {
+          "bbox": [
+            1105,
+            421,
+            1164,
+            568
+          ],
+          "team": "white",
+          "identity": "W5"
+        },
+        {
+          "bbox": [
+            1433,
+            429,
+            1514,
+            585
+          ],
+          "team": "orange",
+          "identity": "Ofront"
+        },
+        {
+          "bbox": [
+            1257,
+            414,
+            1330,
+            513
+          ],
+          "team": "orange",
+          "identity": "Oboard"
+        },
+        {
+          "bbox": [
+            1640,
+            420,
+            1717,
+            535
+          ],
+          "team": "white",
+          "identity": "Wfar"
+        },
+        {
+          "bbox": [
+            314,
+            391,
+            367,
+            503
+          ],
+          "team": "white",
+          "identity": "Wgoal"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "frame": 30,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "19822cb0e8cc4d04edfb1b2d2719b6b5badf2dcc929f242381dc1a004adb983f",
+      "notes": "Identity continuity over first three one-second samples based on equipment and motion. W5 has a visible 5. Wleft becomes heavily occluded behind Oleft and is omitted at frame30. Goalie omitted when mostly outside frame0. Referees, bench occupants and outside spectators excluded.",
+      "observations": [
+        {
+          "bbox": [
+            860,
+            390,
+            913,
+            474
+          ],
+          "team": "orange",
+          "identity": "Oleft"
+        },
+        {
+          "bbox": [
+            1122,
+            416,
+            1190,
+            543
+          ],
+          "team": "white",
+          "identity": "W5"
+        },
+        {
+          "bbox": [
+            1485,
+            418,
+            1562,
+            585
+          ],
+          "team": "orange",
+          "identity": "Ofront"
+        },
+        {
+          "bbox": [
+            1225,
+            410,
+            1303,
+            510
+          ],
+          "team": "orange",
+          "identity": "Oboard"
+        },
+        {
+          "bbox": [
+            1786,
+            416,
+            1874,
+            531
+          ],
+          "team": "white",
+          "identity": "Wfar"
+        },
+        {
+          "bbox": [
+            552,
+            387,
+            624,
+            490
+          ],
+          "team": "white",
+          "identity": "Wgoal"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "frame": 150,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "fdc968fc7efd532683cd472a5bef8717148a73f09e2e4ba31a41418857df3034",
+      "notes": "Bodies near the left boards are partially hidden. No hidden limbs inferred. White foreground28 visible, but no secure association with an earlier group. Identities across the pan remain uncertain.",
+      "observations": [
+        {
+          "bbox": [
+            307,
+            386,
+            364,
+            479
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            370,
+            397,
+            415,
+            493
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            454,
+            398,
+            513,
+            514
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            742,
+            384,
+            808,
+            485
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            870,
+            368,
+            913,
+            490
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            917,
+            381,
+            975,
+            485
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1576,
+            450,
+            1705,
+            786
+          ],
+          "team": "white",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "frame": 450,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "5f5b06f26991cb299310ee48818cd99962c1a20221151fbd5a8b9fe14b00a8f0",
+      "notes": "Opposite end of the rink. Four selected visible players, including orange goalie. Right player lower body partly hidden by boards and spectators. No supported identity connections to earlier samples.",
+      "observations": [
+        {
+          "bbox": [
+            347,
+            484,
+            410,
+            619
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            438,
+            478,
+            517,
+            598
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            585,
+            516,
+            664,
+            689
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            814,
+            498,
+            889,
+            621
+          ],
+          "team": "orange",
+          "identity": null
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1800",
+      "frame": 1335,
+      "native_size": [
+        1920,
+        1080
+      ],
+      "source_frame_sha256": "07929b40985e5e4b180536a2c19a5ff9c2bd60525018943174ee3777f853ed2e",
+      "notes": "At the white goal after a long gap. Orange81 and a red helmet are visible, but no earlier identity established for these players. Heavily occluded goalie excluded. All cross-time identities uncertain.",
+      "observations": [
+        {
+          "bbox": [
+            684,
+            377,
+            735,
+            494
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            783,
+            417,
+            865,
+            530
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            867,
+            401,
+            962,
+            525
+          ],
+          "team": "orange",
+          "identity": null
+        },
+        {
+          "bbox": [
+            946,
+            406,
+            1014,
+            541
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1145,
+            371,
+            1204,
+            491
+          ],
+          "team": "white",
+          "identity": null
+        },
+        {
+          "bbox": [
+            1773,
+            374,
+            1855,
+            506
+          ],
+          "team": "white",
+          "identity": null
+        }
+      ]
+    }
+  ]
+}
