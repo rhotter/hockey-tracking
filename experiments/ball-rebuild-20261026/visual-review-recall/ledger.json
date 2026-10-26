@@ -1,0 +1,5127 @@
+{
+  "protocol": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "max_output_tokens": 4096,
+    "budget_usd": 20,
+    "input_usd_per_million": 10,
+    "output_usd_per_million": 50,
+    "pricing_source": "Previously checked OpenAI protocol, 2026-10-24; estimates include 1.25x input cost and exclude Modal charges.",
+    "source_replay_sha256": "50b20ef20107beacf43c51ffc9d8edf65931ed89f9949e84990283b1b305708b",
+    "frozen_at_utc": "2026-10-26T22:43:49.080756+00:00",
+    "scope": "Additional visual proposals only: spatial verifier gate 0.01, path evidence floor 0.08, existing shape/pose filters. Exclude every frame already proposed by the conservative CV path. No inferred proposal is added in this pass. Same reused NBHL segment; no ground-truth labels enter inference.",
+    "application_rule": "Keep only locations whose nearest sampled frame in their episode is classified ball. Unknown/failed reviews withhold output. Floor coordinates require floor support. No extra positions generated.",
+    "limits": "The v4 output audit exposed shoe failures and motivated this review stage. This is development on a reused recording, not an independent final benchmark."
+  },
+  "requests": {
+    "000": {
+      "id": "000",
+      "frames": [
+        23,
+        24,
+        25
+      ],
+      "targets": [
+        23,
+        24,
+        25
+      ],
+      "images": [
+        {
+          "frame": 23,
+          "target": true,
+          "source_sha256": "0e55ce95e0535ea0256f11536267b1a5c088e274da2c97dbdd87198159c523d9"
+        },
+        {
+          "frame": 24,
+          "target": true,
+          "source_sha256": "ba17dfcbd75821265f0981a185935de9e7ca98566189f181e5392cad6ae00833"
+        },
+        {
+          "frame": 25,
+          "target": true,
+          "source_sha256": "6738aae103982f9876398fa3861f567a6fb460ac598ccb9984b0c31a1b234245"
+        }
+      ],
+      "sheet_sha256": "89c8881733a14471d2fa004ec15f7f4d08a7601556580eb3389147e2f834a6e8",
+      "reserved_usd": 0.2252875,
+      "input_tokens_counted": 1639,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 23,
+            "object": "other",
+            "support": "floor",
+            "evidence": "Marked center shows pale rink floor, separate from the shoes and stick above; no distinct pink/red ball is visible."
+          },
+          {
+            "frame": 24,
+            "object": "other",
+            "support": "floor",
+            "evidence": "Brackets enclose bare floor below the player's feet, with no discrete round object at the marked point."
+          },
+          {
+            "frame": 25,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked point remains on unobstructed pale floor; no identifiable pink/red ball appears inside the brackets."
+          }
+        ]
+      },
+      "response_id": "resp_052bd2034903bcb4016adfd7b4f9dc87d0be458920efe710c3",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1719,
+        "input_tokens_details": {
+          "cache_write_tokens": 1716,
+          "cached_tokens": 0
+        },
+        "output_tokens": 751,
+        "output_tokens_details": {
+          "reasoning_tokens": 623
+        },
+        "total_tokens": 2470
+      },
+      "seconds": 20.11938837,
+      "estimated_usd": 0.0590375
+    },
+    "002": {
+      "id": "002",
+      "frames": [
+        48
+      ],
+      "targets": [
+        48
+      ],
+      "images": [
+        {
+          "frame": 46,
+          "target": false,
+          "source_sha256": "7ed42a89a94c1dcbb86ccaa17d9ae1e2ed1eeaef36d66aa0e73d1a5238f784fa"
+        },
+        {
+          "frame": 48,
+          "target": true,
+          "source_sha256": "e68392d8b1a42b114f702006d0b5a2bfa64d5a812125b7fab928eaabbd87dd5d"
+        },
+        {
+          "frame": 50,
+          "target": false,
+          "source_sha256": "c5290c7af689d8cf3641981706af65bfd77e5081be2e4d24d21f5631ebd82d60"
+        }
+      ],
+      "sheet_sha256": "7c4c0843d5c31183fabdbe9ff1e9c01f9df7d810cc974d13ec4ae779171d184a",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 48,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small isolated, rounded dark spot on the court just below the yellow boards. It shifts right in the following frame, independently of the boards, and is separate from any shoe or stick."
+          }
+        ]
+      },
+      "response_id": "resp_009321a09e349dfc016adfd7b6917087d09e730138d3af87ad",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 835,
+        "output_tokens_details": {
+          "reasoning_tokens": 767
+        },
+        "total_tokens": 2548
+      },
+      "seconds": 23.216688147,
+      "estimated_usd": 0.0631625
+    },
+    "003": {
+      "id": "003",
+      "frames": [
+        213
+      ],
+      "targets": [
+        213
+      ],
+      "images": [
+        {
+          "frame": 211,
+          "target": false,
+          "source_sha256": "662b3bfd631c40805cda88bbdcc6c1e808f29e6285378deebe8106b67ab0d540"
+        },
+        {
+          "frame": 213,
+          "target": true,
+          "source_sha256": "2b5f24d5da8741244282975d5d68e5c52ef9777f7ebd3a83482649f04238bbd5"
+        },
+        {
+          "frame": 215,
+          "target": false,
+          "source_sha256": "075db42f66128641ce05360b1bcf3fce76747a5c6e4667f954cbc316e283161b"
+        }
+      ],
+      "sheet_sha256": "f3150143fed4d19badbc33efb887f079b1a6f146b11fc83731d818a77e725fa0",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 213,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A small, rounded pale-pink blur is visible on the court at the marked point, separate from the player's shoes and the nearby dark stick blade."
+          }
+        ]
+      },
+      "response_id": "resp_0fac0f8f4647890c016adfd7b7d3d087d0b1d87c35d74b57f8",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 420,
+        "output_tokens_details": {
+          "reasoning_tokens": 359
+        },
+        "total_tokens": 2133
+      },
+      "seconds": 12.280615642,
+      "estimated_usd": 0.0424125
+    },
+    "001": {
+      "id": "001",
+      "frames": [
+        43
+      ],
+      "targets": [
+        43
+      ],
+      "images": [
+        {
+          "frame": 41,
+          "target": false,
+          "source_sha256": "0b6072685cc3171c7314106553a5bfa1c85a61a8bc5a2dd4efbb4425de83e44f"
+        },
+        {
+          "frame": 43,
+          "target": true,
+          "source_sha256": "653883d7d92e83ad2a2b79675f0c94d042eddfbe00cac7442a9cfe5e33cc9157"
+        },
+        {
+          "frame": 45,
+          "target": false,
+          "source_sha256": "fd2b5a022bb010b214982770f6b637378b37013abfdb824bb7f1ac79d26347eb"
+        }
+      ],
+      "sheet_sha256": "0f0443f0083009a616c9c5e731dd2ebfe23bd4093998e291c7e806933b27b32d",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 43,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small isolated reddish-gray spot on the court just below the yellow boards. It shifts rightward across the context frames and is separate from players and sticks."
+          }
+        ]
+      },
+      "response_id": "resp_01e41caf3c2e3bd9016adfd7bac59487d099fec897faa073ea",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 840,
+        "output_tokens_details": {
+          "reasoning_tokens": 779
+        },
+        "total_tokens": 2553
+      },
+      "seconds": 23.700297016000004,
+      "estimated_usd": 0.0634125
+    },
+    "004": {
+      "id": "004",
+      "frames": [
+        219
+      ],
+      "targets": [
+        219
+      ],
+      "images": [
+        {
+          "frame": 217,
+          "target": false,
+          "source_sha256": "98d8b36a1ea01282589fcdfd80253d68fd0c63d1e8fbbb9912e4d7df45a4daf9"
+        },
+        {
+          "frame": 219,
+          "target": true,
+          "source_sha256": "1a0b94b01203465da89b98fda07dc2b59b3ec8b1b357bfb5864f37a10cdcacfb"
+        },
+        {
+          "frame": 221,
+          "target": false,
+          "source_sha256": "364694715831063f05abf12361c2aa19cced2100cc1dd93845bc343141ac8a1f"
+        }
+      ],
+      "sheet_sha256": "12479924933e80d8ab32c084f29345e0821c3078ff4d4f3ccd46905ef7f12d4e",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 219,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is a faint pink-gray blur separate from the nearby legs and stick. Its outline is too diffuse to confidently identify a ball or establish floor contact."
+          }
+        ]
+      },
+      "response_id": "resp_0c7a43aba21bf567016adfd7c772e087d09d101831a633e9b8",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 732,
+        "output_tokens_details": {
+          "reasoning_tokens": 667
+        },
+        "total_tokens": 2445
+      },
+      "seconds": 23.439432146,
+      "estimated_usd": 0.0580125
+    },
+    "005": {
+      "id": "005",
+      "frames": [
+        227
+      ],
+      "targets": [
+        227
+      ],
+      "images": [
+        {
+          "frame": 225,
+          "target": false,
+          "source_sha256": "fe1b6fef8f33ff37216d1a17f9ba5049abf1ed0cdada7ed004962c3616f1f236"
+        },
+        {
+          "frame": 227,
+          "target": true,
+          "source_sha256": "016eb8cc3c8ad3cc9767ff57269a4666c4505e8a0effaa33c890cc33a4ee5d05"
+        },
+        {
+          "frame": 229,
+          "target": false,
+          "source_sha256": "68480fedb184213e724d4d1536c16dd67a22c53c18d4994e2f2e915384686606"
+        }
+      ],
+      "sheet_sha256": "b904837e4b11a9e77569335e05b97cfa61bab96555bde35888ba0c3752b3b471",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 227,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked dark, elongated shape forms the stick blade, continuous with the diagonal shaft and consistent with the preceding frame. No distinct round pink/red ball is visible at the point."
+          }
+        ]
+      },
+      "response_id": "resp_0775763694857378016adfd7cdc3d887d08fe556412081be82",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 496,
+        "output_tokens_details": {
+          "reasoning_tokens": 429
+        },
+        "total_tokens": 2209
+      },
+      "seconds": 13.909375469999997,
+      "estimated_usd": 0.0462125
+    },
+    "006": {
+      "id": "006",
+      "frames": [
+        312
+      ],
+      "targets": [
+        312
+      ],
+      "images": [
+        {
+          "frame": 310,
+          "target": false,
+          "source_sha256": "9d354daefc5dc84da631f9050fa4e0dc8fc89f9cdc65fd3ede83b9c06fb95bff"
+        },
+        {
+          "frame": 312,
+          "target": true,
+          "source_sha256": "fe2a1e92f80d189b286a23a845223b2d90da936b5ed06fca529d22d35bc2b7e3"
+        },
+        {
+          "frame": 314,
+          "target": false,
+          "source_sha256": "48f167e4cba4f742f78121477cc4dabfead90306baaeea218c628fb4264d71b8"
+        }
+      ],
+      "sheet_sha256": "0f47c51006b82b6b56bb6e015e924e7d86652e6beb7f111d3ee0fb072219e6dc",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 312,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint pinkish blur appears just left of the black stick blade, but its outline is too indistinct to confirm a ball or resolve floor contact."
+          }
+        ]
+      },
+      "response_id": "resp_0bee4f5e1c2be076016adfd7d2469087d082384590e2039590",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 938,
+        "output_tokens_details": {
+          "reasoning_tokens": 875
+        },
+        "total_tokens": 2651
+      },
+      "seconds": 27.452219069,
+      "estimated_usd": 0.0683125
+    },
+    "007": {
+      "id": "007",
+      "frames": [
+        398
+      ],
+      "targets": [
+        398
+      ],
+      "images": [
+        {
+          "frame": 396,
+          "target": false,
+          "source_sha256": "07c35bc8930e1c3d333c8d58d260186f23343a32d0cbe3b6064046ec0969c211"
+        },
+        {
+          "frame": 398,
+          "target": true,
+          "source_sha256": "f4c38540a78eda363bb1e79b9564d3560a8b8ca346db6793edb9f5ce2ed15934"
+        },
+        {
+          "frame": 400,
+          "target": false,
+          "source_sha256": "f0e74a29aade84ec35d0275926c532d057e2779c00f2bf11b04fb45e3a96c4b0"
+        }
+      ],
+      "sheet_sha256": "24688aac7fe79fe1d17cba5912ef096289db38ea2dedc7b803df790403fa6872",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 398,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small rounded pink blur at the tip of the dark stick blade, distinct from the nearby white shoe. Earlier context shows the pink object separated from the blade on the court."
+          }
+        ]
+      },
+      "response_id": "resp_04522e8df284ec2d016adfd7d6257087d0a73793d2fae6b269",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 306,
+        "output_tokens_details": {
+          "reasoning_tokens": 241
+        },
+        "total_tokens": 2019
+      },
+      "seconds": 8.956148215999995,
+      "estimated_usd": 0.0367125
+    },
+    "008": {
+      "id": "008",
+      "frames": [
+        410
+      ],
+      "targets": [
+        410
+      ],
+      "images": [
+        {
+          "frame": 408,
+          "target": false,
+          "source_sha256": "8db952c1b8082b7402bf22e51998c4d4c7ea1a94f33c63902a7fdb3f9c323946"
+        },
+        {
+          "frame": 410,
+          "target": true,
+          "source_sha256": "99b370b6c1b34de128143f4f4dc920c51717f09474339c1d06e3ff08e4a0ef69"
+        },
+        {
+          "frame": 412,
+          "target": false,
+          "source_sha256": "65d0c0ce003712a4df00b88b33e8346371a62ee7935a036e08979eccc24b4e35"
+        }
+      ],
+      "sheet_sha256": "296db3c30b9ab8df76e62a59ee5f50fcc689f89cdf69aded4c04493006fa531e",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 410,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A small rounded, muted reddish spot lies on the court between the player's shoe and the approaching stick blade. It is separate from both and shifts across the court in the adjacent frames."
+          }
+        ]
+      },
+      "response_id": "resp_0d351ed3a433a49e016adfd7df5b8487d08435427157d62ee1",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "reasoning_tokens": 284
+        },
+        "total_tokens": 2064
+      },
+      "seconds": 10.723324026,
+      "estimated_usd": 0.0389625
+    },
+    "010": {
+      "id": "010",
+      "frames": [
+        752
+      ],
+      "targets": [
+        752
+      ],
+      "images": [
+        {
+          "frame": 750,
+          "target": false,
+          "source_sha256": "7d4777181d3a1747e8be6bfbf14cf066a984c45d0123f87c0ca64969ad7e1ae6"
+        },
+        {
+          "frame": 752,
+          "target": true,
+          "source_sha256": "ac69d527d06dfddff5bfb903567a93be5bff0ad80ed14ad0a77583942031bdff"
+        },
+        {
+          "frame": 754,
+          "target": false,
+          "source_sha256": "bbf09b00503fdb1b2e6b1e8f0978d66a390536e57a234bb52c117c6bf87c3cc4"
+        }
+      ],
+      "sheet_sha256": "3d5fbd86a40a00a9ba8aa6fdcbe5a9dc1393e7953a3f69b9ff4dee10e56fc68e",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 752,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is a tiny gray, vertically blurred speck against the court, left of the visible stick blade. Its shape and color are too unresolved to confirm a ball, and adjacent frames do not clarify it."
+          }
+        ]
+      },
+      "response_id": "resp_06c6c33616fc72dc016adfd7e5230487d094bd98ceed6c779a",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 758,
+        "output_tokens_details": {
+          "reasoning_tokens": 682
+        },
+        "total_tokens": 2471
+      },
+      "seconds": 23.672266394999994,
+      "estimated_usd": 0.0593125
+    },
+    "009": {
+      "id": "009",
+      "frames": [
+        531,
+        532,
+        533
+      ],
+      "targets": [
+        531,
+        532,
+        533
+      ],
+      "images": [
+        {
+          "frame": 531,
+          "target": true,
+          "source_sha256": "db2d31b765fc3c7b6c9108e0df21255eaba46deca09b2c11859caed5e8dc4567"
+        },
+        {
+          "frame": 532,
+          "target": true,
+          "source_sha256": "710dc2e9dc1d05d8129fb5343c9f21565a376758159add68340622f0b16b55b6"
+        },
+        {
+          "frame": 533,
+          "target": true,
+          "source_sha256": "948fbfa05b27bbfd51201c41a277edb5028358c70ccb5835a3e269ca073b7ff0"
+        }
+      ],
+      "sheet_sha256": "b1e783f3f0f711bdd3921deec1e5ba56979fad65753c22f6df311af5316173ce",
+      "reserved_usd": 0.2252875,
+      "input_tokens_counted": 1639,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 531,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A pale, heavily blurred patch sits at the stick tip; no distinct round pink/red object can be separated from the blade or floor detail."
+          },
+          {
+            "frame": 532,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked patch remains blended with the stick tip. Its blurred outline does not distinguish a ball from tape or background detail."
+          },
+          {
+            "frame": 533,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint light patch is visible immediately beside the dark blade, but neither its shape nor movement resolves an independent ball."
+          }
+        ]
+      },
+      "response_id": "resp_004759f1de7cd036016adfd7e6812c87d08dab39e27275988a",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1719,
+        "input_tokens_details": {
+          "cache_write_tokens": 1716,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1353,
+        "output_tokens_details": {
+          "reasoning_tokens": 1209
+        },
+        "total_tokens": 3072
+      },
+      "seconds": 35.65810167699999,
+      "estimated_usd": 0.0891375
+    },
+    "011": {
+      "id": "011",
+      "frames": [
+        867,
+        868
+      ],
+      "targets": [
+        867,
+        868
+      ],
+      "images": [
+        {
+          "frame": 867,
+          "target": true,
+          "source_sha256": "6d0f2c83f92f2bb7deb7c34506fdeda68a1bbad34e780dadd3c25915af9a6db1"
+        },
+        {
+          "frame": 868,
+          "target": true,
+          "source_sha256": "2866284ebcf5a4fa463279c8554d0f50ccca2aec0b0c2fe352a57b88af4ab5dc"
+        }
+      ],
+      "sheet_sha256": "844dfe5df6d9c519f9e52430285aaf621d1c35a61879d33d444c939ee5a6eebd",
+      "reserved_usd": 0.2194875,
+      "input_tokens_counted": 1175,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 867,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point contains a small gray-pink oval blur near the white court marking. Defocus prevents resolving a distinct ball outline or floor contact."
+          },
+          {
+            "frame": 868,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint pinkish smear appears at the marked point beside the white circle marking. It could be the same moving object, but its shape remains too blurred to identify reliably as a ball."
+          }
+        ]
+      },
+      "response_id": "resp_00a5e78654814103016adfd7ee6dd087d09d95d94094d25fc5",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1255,
+        "input_tokens_details": {
+          "cache_write_tokens": 1252,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1292,
+        "output_tokens_details": {
+          "reasoning_tokens": 1175
+        },
+        "total_tokens": 2547
+      },
+      "seconds": 41.460857527,
+      "estimated_usd": 0.0802875
+    },
+    "012": {
+      "id": "012",
+      "frames": [
+        947
+      ],
+      "targets": [
+        947
+      ],
+      "images": [
+        {
+          "frame": 945,
+          "target": false,
+          "source_sha256": "5c1e96861efee7104d930ae4c4ca828651cabd2bfcba8138c28cf5ae3bae0613"
+        },
+        {
+          "frame": 947,
+          "target": true,
+          "source_sha256": "7eea71cfe812ed23cf4c748bac2760256d87987d199df6d4ade20bfa41884b00"
+        },
+        {
+          "frame": 949,
+          "target": false,
+          "source_sha256": "fd69ff19ba8869de334ee5184db0056556ec03b58aed0932f1c19ba1798f7425"
+        }
+      ],
+      "sheet_sha256": "24e5525800ee0b197ece7642db26f21710d03017d2a0d9fd37e226b31a5c7e9d",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 947,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small pink rounded blur at the floor beside the stick blade\u2019s heel. The following context frame shows the pink ball more distinctly just left of the blade."
+          }
+        ]
+      },
+      "response_id": "resp_0c159dc1f3a52135016adfd7f2fc5087d0b7447b79bfc56d2c",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 673,
+        "output_tokens_details": {
+          "reasoning_tokens": 612
+        },
+        "total_tokens": 2386
+      },
+      "seconds": 17.957319718000008,
+      "estimated_usd": 0.0550625
+    },
+    "013": {
+      "id": "013",
+      "frames": [
+        975
+      ],
+      "targets": [
+        975
+      ],
+      "images": [
+        {
+          "frame": 973,
+          "target": false,
+          "source_sha256": "c8afd61260d067e8e6cc1a130a68feadd470d1c243d595a71c9b580b77c200c2"
+        },
+        {
+          "frame": 975,
+          "target": true,
+          "source_sha256": "05bd11b73b2bcf62050a34f4e189849c43c55c5d6f0b11d4e436f1be479dd917"
+        },
+        {
+          "frame": 977,
+          "target": false,
+          "source_sha256": "3b07233e02a896c6a4f363ffd173bed44624c3451b9ef2c8a8531057e5633007"
+        }
+      ],
+      "sheet_sha256": "3b83402643891d5d0aae75c33d020f63bcb7891346f762059ac9c8a3c9abb7d8",
+      "reserved_usd": 0.2252125,
+      "input_tokens_counted": 1633,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 975,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A small, faint pink/red rounded blur is visible on the open floor, separate from shoes and sticks. Its rightward movement across the neighboring frames is consistent with the ball."
+          }
+        ]
+      },
+      "response_id": "resp_013016db92c9a8c9016adfd801dca887d0b15af59d40585a81",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1713,
+        "input_tokens_details": {
+          "cache_write_tokens": 1710,
+          "cached_tokens": 0
+        },
+        "output_tokens": 377,
+        "output_tokens_details": {
+          "reasoning_tokens": 311
+        },
+        "total_tokens": 2090
+      },
+      "seconds": 9.827695644999991,
+      "estimated_usd": 0.0402625
+    },
+    "014": {
+      "id": "014",
+      "frames": [
+        1042,
+        1043
+      ],
+      "targets": [
+        1042,
+        1043
+      ],
+      "images": [
+        {
+          "frame": 1042,
+          "target": true,
+          "source_sha256": "c539f45af9f33c3e5de835f426b58c49d04cda88fee459d7fc8c54bbd1bf1edb"
+        },
+        {
+          "frame": 1043,
+          "target": true,
+          "source_sha256": "c8b56d0a844b4daf5cc8d259306c9b94f1f6f6d2a58453f1e1cbc0c942601d72"
+        }
+      ],
+      "sheet_sha256": "00f72d0abd61fb22d4178ccefb27b27ed33636df76c6252abd4f59a8db53fde0",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1042,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small, faint pink rounded spot on the rink surface, just right of the player's dark shoe and visibly separate from it."
+          },
+          {
+            "frame": 1043,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Compact pink/red spot remains beside the pale rink line as the player's shoe advances closer; it is distinct from the shoe and leg."
+          }
+        ]
+      },
+      "response_id": "resp_0a987ddcbf227893016adfd8089f2887d0afc913db8615d00a",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 409,
+        "output_tokens_details": {
+          "reasoning_tokens": 310
+        },
+        "total_tokens": 1666
+      },
+      "seconds": 12.005157468000007,
+      "estimated_usd": 0.0361625
+    },
+    "015": {
+      "id": "015",
+      "frames": [
+        1064
+      ],
+      "targets": [
+        1064
+      ],
+      "images": [
+        {
+          "frame": 1062,
+          "target": false,
+          "source_sha256": "8ab22778a205deec9ed93c9d6bc8b6ce2b4f3e6ce93a98b3f4f427add7ff9dcd"
+        },
+        {
+          "frame": 1064,
+          "target": true,
+          "source_sha256": "345bdd01a21f0910e6bac4c9b0b39fb69886f51c0d4167050dc08c7462bab572"
+        },
+        {
+          "frame": 1066,
+          "target": false,
+          "source_sha256": "7a938fce7dc2c73320a9206d14e9bfcd3ab5eb2bbd3e579455392f4e3fec1632"
+        }
+      ],
+      "sheet_sha256": "41d7a4d09055c49fb84c5dbcf218e753ded21d3595e59ba144a5021f4e26a0dd",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1064,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point below the stick is a faint, diffuse patch against the rink surface. No distinct pink/red ball outline or floor contact can be resolved."
+          }
+        ]
+      },
+      "response_id": "resp_0cc011d37b30ba16016adfd80f618087d0b1b68386c9597fb1",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 534,
+        "output_tokens_details": {
+          "reasoning_tokens": 470
+        },
+        "total_tokens": 2248
+      },
+      "seconds": 13.611937448999996,
+      "estimated_usd": 0.048125
+    },
+    "016": {
+      "id": "016",
+      "frames": [
+        1085
+      ],
+      "targets": [
+        1085
+      ],
+      "images": [
+        {
+          "frame": 1083,
+          "target": false,
+          "source_sha256": "9e314f88479e18c7a18d2be465d0aa672038ae3ab1ce2111d5832e06ed6027f0"
+        },
+        {
+          "frame": 1085,
+          "target": true,
+          "source_sha256": "5035427b50843b94375f5d6c061f6fb85bc5a824c7d72b38d360a35d1da204ee"
+        },
+        {
+          "frame": 1087,
+          "target": false,
+          "source_sha256": "fe69afe41a21eff6d8d586e33f5fa1e8b72ea1a2e082a174b37019d1403a00bd"
+        }
+      ],
+      "sheet_sha256": "0c607f0731781b524bcfeeca611e1f2a65b62f9f068595726d7492f7bfc030b0",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1085,
+            "object": "other",
+            "support": "held",
+            "evidence": "The mark encloses an elongated dark stick-blade blur, not a round pink/red ball. Across adjacent frames, it follows the white player's stick as it lowers toward the floor."
+          }
+        ]
+      },
+      "response_id": "resp_04d235aa5e2e37cd016adfd810fc6487d0893d3d3a9f4685f4",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 367,
+        "output_tokens_details": {
+          "reasoning_tokens": 299
+        },
+        "total_tokens": 2081
+      },
+      "seconds": 12.624295836000002,
+      "estimated_usd": 0.039775
+    },
+    "017": {
+      "id": "017",
+      "frames": [
+        1153,
+        1154,
+        1155,
+        1156
+      ],
+      "targets": [
+        1153,
+        1154,
+        1155,
+        1156
+      ],
+      "images": [
+        {
+          "frame": 1153,
+          "target": true,
+          "source_sha256": "c4fda32ae080f64291ea6401bcbf99cb045b64d90b0661a3fbcafdfd9f07752c"
+        },
+        {
+          "frame": 1154,
+          "target": true,
+          "source_sha256": "87a7089e931980d544b55a6a420654d80dae2ce28c28de1ef8bb2705b8a7c7f1"
+        },
+        {
+          "frame": 1155,
+          "target": true,
+          "source_sha256": "5a55e0740447a532ca7432163b7356e48b78b2edac5a3c09bb4f197081ee52f6"
+        },
+        {
+          "frame": 1156,
+          "target": true,
+          "source_sha256": "7790b090dd1ae592cb4f5d0fbe6ba3016df7cf6460b74e0ae1ddaa54e1990e69"
+        }
+      ],
+      "sheet_sha256": "55fc3e05bf5e08a3aaa4fa43dc73e225587c93edf651758e0485064eda89c496",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1153,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Isolated compact pink blur high above the rink, detached from players and equipment; subsequent frames show it descending relative to the fence."
+          },
+          {
+            "frame": 1154,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Small pink oval remains isolated against the dark background, slightly lower relative to the fence than before."
+          },
+          {
+            "frame": 1155,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Distinct pink, vertically blurred object continues downward toward the fence line, with no connection to a person, stick, or background fixture."
+          },
+          {
+            "frame": 1156,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Compact pink blur is now closer to the upper fence rail, continuing the same descending path while still well above the rink floor."
+          }
+        ]
+      },
+      "response_id": "resp_0ffbfd5632a2b877016adfd81855f487d081939fefffd36dc8",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 373,
+        "output_tokens_details": {
+          "reasoning_tokens": 190
+        },
+        "total_tokens": 2560
+      },
+      "seconds": 10.417710741000008,
+      "estimated_usd": 0.0459875
+    },
+    "018": {
+      "id": "018",
+      "frames": [
+        1189
+      ],
+      "targets": [
+        1189
+      ],
+      "images": [
+        {
+          "frame": 1187,
+          "target": false,
+          "source_sha256": "625c085aa85edd6789a45fac330910f700b22805317d4ca7953b656eb0ed6ae8"
+        },
+        {
+          "frame": 1189,
+          "target": true,
+          "source_sha256": "4b35f4c719ae715c7e02c2ce7916ab654d5370acfe0916b4af9a628608e6bd51"
+        },
+        {
+          "frame": 1191,
+          "target": false,
+          "source_sha256": "f60fc5bc2f7fe5aeab6075a7f6b6c7c751a43593c41954605c18dc4d15659d1b"
+        }
+      ],
+      "sheet_sha256": "d2aa900748a2f19ee3f55ef15ba5ca8b72c510f803fff37ae236946b0fb69a9a",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1189,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small rounded reddish-dark spot on the court, separate from the player's shoes and raised stick blade. The same compact spot is visible in adjacent frames."
+          }
+        ]
+      },
+      "response_id": "resp_01a5fcd7625b5b4e016adfd81c2c0887d0b573011fc158b510",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 709,
+        "output_tokens_details": {
+          "reasoning_tokens": 648
+        },
+        "total_tokens": 2423
+      },
+      "seconds": 21.301746401999992,
+      "estimated_usd": 0.056875
+    },
+    "020": {
+      "id": "020",
+      "frames": [
+        1277
+      ],
+      "targets": [
+        1277
+      ],
+      "images": [
+        {
+          "frame": 1275,
+          "target": false,
+          "source_sha256": "05a116fbaccc2cc694f3fb00ace6345446a8f6eb61dd019fb10c9b61795a483a"
+        },
+        {
+          "frame": 1277,
+          "target": true,
+          "source_sha256": "b44d23c5356e1fddc7c96d77331959b509c0124a4f1d13810c0c92bc0e23d303"
+        },
+        {
+          "frame": 1279,
+          "target": false,
+          "source_sha256": "dc3275a4eb8da5dd3fa369bafa3a253d161ecf4ec714a02afe1d98b378db17b4"
+        }
+      ],
+      "sheet_sha256": "4a9189e2964d02fc63b4a87dd832706520772a8366ed84780deeb22cc235e0fe",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1277,
+            "object": "other",
+            "support": "airborne",
+            "evidence": "The marked pink shape is the player's raised trailing shoe, attached to the black-clad leg. Its elongated shape and rotation through adjacent frames follow the walking step, not a separate ball."
+          }
+        ]
+      },
+      "response_id": "resp_0245ce21ecc33517016adfd822506c87d0b31e4fcc3d990bf6",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 191
+        },
+        "total_tokens": 1975
+      },
+      "seconds": 9.950015639,
+      "estimated_usd": 0.034475
+    },
+    "019": {
+      "id": "019",
+      "frames": [
+        1250,
+        1251,
+        1252,
+        1253
+      ],
+      "targets": [
+        1250,
+        1251,
+        1252,
+        1253
+      ],
+      "images": [
+        {
+          "frame": 1250,
+          "target": true,
+          "source_sha256": "04af88a48b69b8b530336f8185678c16bd6b3cc2c3f3b6d3361668ba098fef3d"
+        },
+        {
+          "frame": 1251,
+          "target": true,
+          "source_sha256": "5bf833b24ad3f5447dcf30b6a682749569149f53cf7e265ce37bf6fdd606af9d"
+        },
+        {
+          "frame": 1252,
+          "target": true,
+          "source_sha256": "9aa61741b76a37f6b547edc26fca89a7e1500fdb93b9c7500b93a4a61f558cf6"
+        },
+        {
+          "frame": 1253,
+          "target": true,
+          "source_sha256": "3c618eac78c96b35ec79fc0f5e57993c7b42abcb4cef3ee4ed7bd55db96f07e6"
+        }
+      ],
+      "sheet_sha256": "cc431dc3bad09d858f07719bb568952dd863ec1cf63986d66c9f81bc8f5a6e58",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1250,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Small isolated pink oval above the players, separate from the nearby helmet and stick."
+          },
+          {
+            "frame": 1251,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Pink rounded spot continues rightward relative to the nearby player, with no visible contact or support."
+          },
+          {
+            "frame": 1252,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Compact pink spot remains visibly separated above the player's helmet, consistent with the preceding motion."
+          },
+          {
+            "frame": 1253,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Distinct rounded pink/red spot with a bright center, now farther right of the helmet and still unsupported."
+          }
+        ]
+      },
+      "response_id": "resp_0822c41f4333eb1a016adfd8245e2c87d0a9e8cb18c76aa98d",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2009,
+        "output_tokens_details": {
+          "reasoning_tokens": 1850
+        },
+        "total_tokens": 4196
+      },
+      "seconds": 58.516611611,
+      "estimated_usd": 0.1277875
+    },
+    "021": {
+      "id": "021",
+      "frames": [
+        1288,
+        1289
+      ],
+      "targets": [
+        1288,
+        1289
+      ],
+      "images": [
+        {
+          "frame": 1288,
+          "target": true,
+          "source_sha256": "2a829a97721e379b3ab0830fca62b7a76b4800d57a1b2f9945db06c4dae2b738"
+        },
+        {
+          "frame": 1289,
+          "target": true,
+          "source_sha256": "956c74ad3698df4cf250a8e4d1b91e9970b6529ca7144216f750e697233cb38f"
+        }
+      ],
+      "sheet_sha256": "125d6f0f92d0bd57b5a5e358975f08c07a1210056bf110610883c3792c6a81a6",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1288,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Isolated pink, rounded motion-blurred object above the players, clearly separated from heads, clothing, and sticks."
+          },
+          {
+            "frame": 1289,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "The same compact pink object remains above the players and has shifted left relative to frame 1288, consistent with an airborne ball."
+          }
+        ]
+      },
+      "response_id": "resp_05d27e66d7fbdfdb016adfd827d61087d085df6fed9a895fbc",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 273,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 1530
+      },
+      "seconds": 9.311175234999993,
+      "estimated_usd": 0.0293625
+    },
+    "022": {
+      "id": "022",
+      "frames": [
+        1291,
+        1292,
+        1293
+      ],
+      "targets": [
+        1291,
+        1292,
+        1293
+      ],
+      "images": [
+        {
+          "frame": 1291,
+          "target": true,
+          "source_sha256": "9ab46829af42b1c2825be329c405475985a6aaaa8c778310b2c5906da7b5deb2"
+        },
+        {
+          "frame": 1292,
+          "target": true,
+          "source_sha256": "31182c086eb3e3cd722c3196a21e7b72ec9c328d9fbff2869a07e3116461301f"
+        },
+        {
+          "frame": 1293,
+          "target": true,
+          "source_sha256": "639d0ab4bb7f793bac92cc8a2b91d21b5c7f42727e24ebe155a53d5f5156e8ea"
+        }
+      ],
+      "sheet_sha256": "c03653ab84f499863ed70c4f8060b03cb3ee967ce4ad590a7f3f40ad3612bb6e",
+      "reserved_usd": 0.225325,
+      "input_tokens_counted": 1642,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1291,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Compact, rounded pink spot above the far boards, visibly separate from the person and structures below."
+          },
+          {
+            "frame": 1292,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Bright pink spot with slight horizontal blur; it shifts right relative to the fence and person, with no visible contact."
+          },
+          {
+            "frame": 1293,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Rounded pink spot continues right relative to the background, remaining above the boards and separate from nearby anatomy."
+          }
+        ]
+      },
+      "response_id": "resp_0a8547fccd74c5fe016adfd830333c87d08f0c8e62fd471d65",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1722,
+        "input_tokens_details": {
+          "cache_write_tokens": 1719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1398,
+        "output_tokens_details": {
+          "reasoning_tokens": 1267
+        },
+        "total_tokens": 3120
+      },
+      "seconds": 34.200477151,
+      "estimated_usd": 0.091425
+    },
+    "024": {
+      "id": "024",
+      "frames": [
+        1343,
+        1344
+      ],
+      "targets": [
+        1343,
+        1344
+      ],
+      "images": [
+        {
+          "frame": 1343,
+          "target": true,
+          "source_sha256": "d57588e67916d22914038db3b630b1d0a3e53e4372665b67a302fa7e2c8cd9a7"
+        },
+        {
+          "frame": 1344,
+          "target": true,
+          "source_sha256": "2313125dff4acb9d682a8b24c31416c47c8ac8303e133667353ca1c24d590d75"
+        }
+      ],
+      "sheet_sha256": "56fcaed182fab5d0e653df2a96842116a26675836f6b18882220e034576e1127",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1343,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Compact, rounded pink/red object beside the upper end of the raised gray stick, well above the floor."
+          },
+          {
+            "frame": 1344,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "The rounded pink/red object remains distinct beside the raised stick tip as the stick changes angle; it is above the goalie's head."
+          }
+        ]
+      },
+      "response_id": "resp_0ea2844b1858efce016adfd836225c87d0a7089b3a2c6a0805",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1328,
+        "output_tokens_details": {
+          "reasoning_tokens": 1230
+        },
+        "total_tokens": 2585
+      },
+      "seconds": 39.282343768000004,
+      "estimated_usd": 0.0821125
+    },
+    "023": {
+      "id": "023",
+      "frames": [
+        1296,
+        1297,
+        1298,
+        1299
+      ],
+      "targets": [
+        1296,
+        1297,
+        1298,
+        1299
+      ],
+      "images": [
+        {
+          "frame": 1296,
+          "target": true,
+          "source_sha256": "fb07d9b8ba6c966a5148cfbbb653c42d15c009fba0c5407c77978d5bf4fec460"
+        },
+        {
+          "frame": 1297,
+          "target": true,
+          "source_sha256": "5f292947dbe95493c6180c9c0179b01d9197d550abf76a74bb04ac6b54b2a912"
+        },
+        {
+          "frame": 1298,
+          "target": true,
+          "source_sha256": "cb47687d35c29e71bb93664d83f08fcd69371afe847f4c79e54f92d8dc84a777"
+        },
+        {
+          "frame": 1299,
+          "target": true,
+          "source_sha256": "590932e8a148c007f1baa724148125790c1a5a09d4a7295525fe363a2b550af2"
+        }
+      ],
+      "sheet_sha256": "38be6d3e397558b1d98c304fa81c71c339fa6642468cb1718674d86c9e5a8430",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1296,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Bright, horizontally elongated red glow with a white center beyond the boards; it stays aligned with the background across frames."
+          },
+          {
+            "frame": 1297,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked glow remains fixed relative to the fence/background and retains its light-like white core and red halo."
+          },
+          {
+            "frame": 1298,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Same background red light above the boards, with an elongated bright center rather than a distinct ball outline."
+          },
+          {
+            "frame": 1299,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The red/white glow keeps the same shape and background alignment throughout the sequence, indicating a background light rather than a ball."
+          }
+        ]
+      },
+      "response_id": "resp_082783fabb1b632c016adfd83767d087d0a30c7db9e65aebdf",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 415,
+        "output_tokens_details": {
+          "reasoning_tokens": 239
+        },
+        "total_tokens": 2602
+      },
+      "seconds": 12.84158167999999,
+      "estimated_usd": 0.0480875
+    },
+    "025": {
+      "id": "025",
+      "frames": [
+        1372
+      ],
+      "targets": [
+        1372
+      ],
+      "images": [
+        {
+          "frame": 1370,
+          "target": false,
+          "source_sha256": "8bd41210bf798ef7ecaa36cf8b0c853eb164dec3b913f16ac92a6b8bd380e223"
+        },
+        {
+          "frame": 1372,
+          "target": true,
+          "source_sha256": "d8797d95002a72f363439226b818338948a628bc65084eba40a8f7d77520c8b4"
+        },
+        {
+          "frame": 1374,
+          "target": false,
+          "source_sha256": "764f67c5ff302a4f8063255e8cf00e7cd188ce1ba8d71d8b4e838ff6c90a8d75"
+        }
+      ],
+      "sheet_sha256": "5a73407fe94b6606901602419ad9d5f81d763019878948a8e3b47f41ac9b8fda",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1372,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked point is a dark, upright cylindrical object on the rink railing, visible there in adjacent frames\u2014not a small round pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_0015b527b69c1395016adfd8494cc487d085d5bf6c7318e5bf",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 169,
+        "output_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "total_tokens": 1883
+      },
+      "seconds": 5.294487221999987,
+      "estimated_usd": 0.029875
+    },
+    "026": {
+      "id": "026",
+      "frames": [
+        1389,
+        1390,
+        1391
+      ],
+      "targets": [
+        1389,
+        1390,
+        1391
+      ],
+      "images": [
+        {
+          "frame": 1389,
+          "target": true,
+          "source_sha256": "bff456a4651340544e1b905f741048853b19223ce8c0d331f71d3db21af0a1f7"
+        },
+        {
+          "frame": 1390,
+          "target": true,
+          "source_sha256": "710c52d01f2eca0d8d128c8ef942c87f93f352792c950474b301a1e4bdeded3c"
+        },
+        {
+          "frame": 1391,
+          "target": true,
+          "source_sha256": "96078a7feea18815bd12237b38b154c95f87b36d642e20f53e67026c4c8c4f99"
+        }
+      ],
+      "sheet_sha256": "2a7daf76423efd9871053c0a906bad953ca5a62e75bc52b2fa79aa51e619dc33",
+      "reserved_usd": 0.225325,
+      "input_tokens_counted": 1642,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1389,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Small pink/red spot with slight blur, separate from the fence rails. It shifts relative to the bleacher background across the sequence."
+          },
+          {
+            "frame": 1390,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Compact, rounded pink spot above the rink boards, moving relative to the background rails with no visible attachment to a person or stick."
+          },
+          {
+            "frame": 1391,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "The rounded pink spot remains distinct from the rails and continues shifting relative to the background, consistent with an airborne ball."
+          }
+        ]
+      },
+      "response_id": "resp_0bedc27471919164016adfd8526bb887d09b5122a2e61c4c37",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1722,
+        "input_tokens_details": {
+          "cache_write_tokens": 1719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1696,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 3418
+      },
+      "seconds": 54.463578162000005,
+      "estimated_usd": 0.106325
+    },
+    "027": {
+      "id": "027",
+      "frames": [
+        1400,
+        1401,
+        1402,
+        1403
+      ],
+      "targets": [
+        1400,
+        1401,
+        1402,
+        1403
+      ],
+      "images": [
+        {
+          "frame": 1400,
+          "target": true,
+          "source_sha256": "11836b8b4e7fd36a256f1f35659d4c9a88747f821138802b117b50342c4e2c02"
+        },
+        {
+          "frame": 1401,
+          "target": true,
+          "source_sha256": "ffb8dcaa8e04f8a750af7414b359408d2fb622440a996dc9381b15b2af3a091e"
+        },
+        {
+          "frame": 1402,
+          "target": true,
+          "source_sha256": "16974edde0beb5ace45b89e7a1311514e35c03df5c4b50e8b928df724659c343"
+        },
+        {
+          "frame": 1403,
+          "target": true,
+          "source_sha256": "f029571b81b9a459d4519ccd44196578c8b74de4dc982903b2239b7067f52347"
+        }
+      ],
+      "sheet_sha256": "74c75225d0bcff2a4742a4341c3e4580362bbea18c1e191f3c2c6061c7d72a7d",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1400,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked pink feature is a broad, light-like patch behind the fence rails, not a distinct round ball."
+          },
+          {
+            "frame": 1401,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same blocky pink background feature persists, with a bright horizontal center and diffuse red surroundings."
+          },
+          {
+            "frame": 1402,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked feature retains the irregular, light-like appearance seen in adjacent frames rather than a separate spherical outline."
+          },
+          {
+            "frame": 1403,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "A second similar pink light-like patch is visible to the left, supporting that the marked patch belongs to background lights rather than a ball."
+          }
+        ]
+      },
+      "response_id": "resp_06f86d2873a5bb44016adfd855a30487d0b821ef359c86fa63",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1538,
+        "output_tokens_details": {
+          "reasoning_tokens": 1298
+        },
+        "total_tokens": 3725
+      },
+      "seconds": 47.089541277999984,
+      "estimated_usd": 0.1042375
+    },
+    "028": {
+      "id": "028",
+      "frames": [
+        1435,
+        1436
+      ],
+      "targets": [
+        1435,
+        1436
+      ],
+      "images": [
+        {
+          "frame": 1435,
+          "target": true,
+          "source_sha256": "b85de57536ce9d0438f8601b5bda4821bb3380d7444970b2f77740ff68effb14"
+        },
+        {
+          "frame": 1436,
+          "target": true,
+          "source_sha256": "f2c7480f6c773a032133170bca745922129fea88be8cab6d28afc81eefed8a4c"
+        }
+      ],
+      "sheet_sha256": "e67df2e587e4e248d2d0737883d0c0c211f4d8a1f9340f1e8c21d84fc373fba2",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1435,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Marked spot has a bright core and red halo, paired with another red light behind the bleacher rails; it appears to be a background light rather than a ball."
+          },
+          {
+            "frame": 1436,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The red spot remains fixed relative to the neighboring red light and background rails, consistent with a stationary background light."
+          }
+        ]
+      },
+      "response_id": "resp_0f7ef46fc8177cfa016adfd862acac87d0beaeaeb8984f7dea",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 241,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 1498
+      },
+      "seconds": 9.614934304000002,
+      "estimated_usd": 0.0277625
+    },
+    "029": {
+      "id": "029",
+      "frames": [
+        1528
+      ],
+      "targets": [
+        1528
+      ],
+      "images": [
+        {
+          "frame": 1526,
+          "target": false,
+          "source_sha256": "91498551ff54f7c6c0b96da3fae25db21bd4bef871038c02a927bf5b0f6a3e1d"
+        },
+        {
+          "frame": 1528,
+          "target": true,
+          "source_sha256": "0448738482368fd27411dc94c1bdd21b7ca4281a22214c16f901b8bd4aa77dc4"
+        },
+        {
+          "frame": 1530,
+          "target": false,
+          "source_sha256": "b3080520f3d6d0506f33427936614580e8215ef540728d445dfeeff0f2e46eef"
+        }
+      ],
+      "sheet_sha256": "5d8558f7da9a405e7c3bc3f5487c34e5b3ee8c78814474f1f8bcd01ae19a4acf",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1528,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pink/red fragment is a shoe exiting the left edge. In frame 1526 it is visibly attached to a dark trouser leg and has an elongated shoe shape, not a separate round ball."
+          }
+        ]
+      },
+      "response_id": "resp_018191e01b9b8934016adfd86462d487d08179cbb6a3d4649c",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 165,
+        "output_tokens_details": {
+          "reasoning_tokens": 92
+        },
+        "total_tokens": 1879
+      },
+      "seconds": 6.535926108000012,
+      "estimated_usd": 0.029675
+    },
+    "030": {
+      "id": "030",
+      "frames": [
+        1837
+      ],
+      "targets": [
+        1837
+      ],
+      "images": [
+        {
+          "frame": 1835,
+          "target": false,
+          "source_sha256": "d5f3747bc39182cf15b15b06c87a22169f839e59a635214bd70868d4c2d8f60c"
+        },
+        {
+          "frame": 1837,
+          "target": true,
+          "source_sha256": "5f5a785c740a6feb1375726110ae3b22a56a471059eb2cdd2a85cb47e14a5be7"
+        },
+        {
+          "frame": 1839,
+          "target": false,
+          "source_sha256": "bbc5a106cd886861f06a4de3052ada46ed6d4220ce2ec0b820926705b7b08e65"
+        }
+      ],
+      "sheet_sha256": "1c97bec223615da1ff05318d0d8feca96a638b86bf8a308dfc651175af0441d6",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1837,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A small rounded pink/red spot sits against the dark stick blade, separate from the player's feet. Adjacent frames show the pink spot shifting relative to the blade along the rink surface."
+          }
+        ]
+      },
+      "response_id": "resp_07fabca0800628a1016adfd870cbf087d084fc4b17e9819254",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 347,
+        "output_tokens_details": {
+          "reasoning_tokens": 279
+        },
+        "total_tokens": 2061
+      },
+      "seconds": 10.581479741999999,
+      "estimated_usd": 0.038775
+    },
+    "031": {
+      "id": "031",
+      "frames": [
+        1839
+      ],
+      "targets": [
+        1839
+      ],
+      "images": [
+        {
+          "frame": 1837,
+          "target": false,
+          "source_sha256": "5f5a785c740a6feb1375726110ae3b22a56a471059eb2cdd2a85cb47e14a5be7"
+        },
+        {
+          "frame": 1839,
+          "target": true,
+          "source_sha256": "bbc5a106cd886861f06a4de3052ada46ed6d4220ce2ec0b820926705b7b08e65"
+        },
+        {
+          "frame": 1841,
+          "target": false,
+          "source_sha256": "aa876e470d28a30f9cd12736932f5d7dc421ad0043ca94f274f482cee1b140f7"
+        }
+      ],
+      "sheet_sha256": "7e73d02695d5dbb0d367759a9062e979c243418d9066a9c09bd3a31566dfbb2d",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1839,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A small rounded pink blur sits on the court beside the dark stick blade, separate from the player's shoes. Adjacent frames show the pink spot moving with the play near the blade."
+          }
+        ]
+      },
+      "response_id": "resp_0e05633fde445905016adfd872498c87d0aa7bccbd082cec6a",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 278,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 1992
+      },
+      "seconds": 8.926998889000004,
+      "estimated_usd": 0.035325
+    },
+    "032": {
+      "id": "032",
+      "frames": [
+        1871,
+        1872
+      ],
+      "targets": [
+        1871,
+        1872
+      ],
+      "images": [
+        {
+          "frame": 1871,
+          "target": true,
+          "source_sha256": "2c43150c5e6f306a94045b4fbcfa013068a7c52f1c84ab8e4894f69970450a83"
+        },
+        {
+          "frame": 1872,
+          "target": true,
+          "source_sha256": "ef6a37d6c2435b7214e64108f312e08e5e3c97e48f888d20eae617b1af207e90"
+        }
+      ],
+      "sheet_sha256": "9f783e662c062588ab6f438dc10e64543739df15e52d144e24482d961e2f9569",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1871,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is a faint pink-gray blur left of the visible stick blade. Its outline is too indistinct to confirm a ball or establish floor contact."
+          },
+          {
+            "frame": 1872,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A similar isolated blur appears slightly farther left, separate from the players and stick. It remains too soft to resolve a definite ball shape or support."
+          }
+        ]
+      },
+      "response_id": "resp_0360ae02c90b64e2016adfd8800b3087d0a80c134e671deeb9",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1568,
+        "output_tokens_details": {
+          "reasoning_tokens": 1455
+        },
+        "total_tokens": 2825
+      },
+      "seconds": 47.281432174,
+      "estimated_usd": 0.0941125
+    },
+    "033": {
+      "id": "033",
+      "frames": [
+        1909
+      ],
+      "targets": [
+        1909
+      ],
+      "images": [
+        {
+          "frame": 1907,
+          "target": false,
+          "source_sha256": "5479b2159d8a1fc8154308c6b26e30003666757acc2c01d5729a60781e93e8fa"
+        },
+        {
+          "frame": 1909,
+          "target": true,
+          "source_sha256": "2cb17fcaddea3c0c6ec77e05a5a7ddff52194238f867fea3c1c4cc4e26d4a3a1"
+        },
+        {
+          "frame": 1911,
+          "target": false,
+          "source_sha256": "e3f829a544c61d59581fcb349891e80dbc11a52b25bd292e4d0c179604414b85"
+        }
+      ],
+      "sheet_sha256": "f0e57e9f61daed1165c96aa500f69a9560e41d983a467eca2076d7a890e030cd",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1909,
+            "object": "other",
+            "support": "held",
+            "evidence": "The pale marked blur lies along the red player's raised stick, continuous with the shaft leading from his hand. It is not a separate round pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_04979c798f82d205016adfd881f27887d0a06d06388e8d18c3",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 675,
+        "output_tokens_details": {
+          "reasoning_tokens": 612
+        },
+        "total_tokens": 2389
+      },
+      "seconds": 20.722425181000006,
+      "estimated_usd": 0.055175
+    },
+    "034": {
+      "id": "034",
+      "frames": [
+        1961
+      ],
+      "targets": [
+        1961
+      ],
+      "images": [
+        {
+          "frame": 1959,
+          "target": false,
+          "source_sha256": "3ad46e89293a649aee04e7521df78159f5ddea021875115436075f722aa8cd8e"
+        },
+        {
+          "frame": 1961,
+          "target": true,
+          "source_sha256": "f108297cc1e807b46ab7ca906a05c5557c9f9c320c40b6a462fc860429c0da60"
+        },
+        {
+          "frame": 1963,
+          "target": false,
+          "source_sha256": "8f97a0eaef52e195be187d844bd4411e0e69b4b97ac76f6d04c329777d941f76"
+        }
+      ],
+      "sheet_sha256": "ea9c98541576b0e53479e40233f7b30d1459256d099476efcab4af59a43e41f0",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1961,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is a faint, blurred patch below the player's shoe. No distinct round outline or pink/red color separates a ball from nearby stick or shadow blur."
+          }
+        ]
+      },
+      "response_id": "resp_0756e7b133cd8607016adfd888a3f487d08f4c2e55d863395f",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 789,
+        "output_tokens_details": {
+          "reasoning_tokens": 723
+        },
+        "total_tokens": 2503
+      },
+      "seconds": 26.045382882000013,
+      "estimated_usd": 0.060875
+    },
+    "035": {
+      "id": "035",
+      "frames": [
+        1986,
+        1987
+      ],
+      "targets": [
+        1986,
+        1987
+      ],
+      "images": [
+        {
+          "frame": 1986,
+          "target": true,
+          "source_sha256": "dc5521d957288d8d9d8d49db78fd81ac4a60328dca21e295dcf3368b9324ab74"
+        },
+        {
+          "frame": 1987,
+          "target": true,
+          "source_sha256": "c5cbb20828d3cea00b6b624811ebf7840d26a114908d0a9c90a77a7d65327c0b"
+        }
+      ],
+      "sheet_sha256": "a5863206f57facd680e303ef8159f6307b3af55691d9458770fb890da5a3add1",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 1986,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pink shape is the player's shoe, continuous with the black trouser leg and matching the other pink shoe; it is not a separate round ball."
+          },
+          {
+            "frame": 1987,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked shape remains attached to the player's foot as the legs move. Its elongated footwear shape and floor contact identify it as a shoe."
+          }
+        ]
+      },
+      "response_id": "resp_06a7be6284cb10b8016adfd88c423487d099588a235898d559",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 215,
+        "output_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "total_tokens": 1472
+      },
+      "seconds": 6.26070196400002,
+      "estimated_usd": 0.0264625
+    },
+    "036": {
+      "id": "036",
+      "frames": [
+        2046,
+        2047,
+        2048
+      ],
+      "targets": [
+        2046,
+        2047,
+        2048
+      ],
+      "images": [
+        {
+          "frame": 2046,
+          "target": true,
+          "source_sha256": "c33bca5ded2eba630362883f8da288f54d772ddfef314d8e65c77765ccb0b8c4"
+        },
+        {
+          "frame": 2047,
+          "target": true,
+          "source_sha256": "f247629476f86fb65b5b51b7a6e100716aba7a89d7c72d7ebf853cf7ddbcdb23"
+        },
+        {
+          "frame": 2048,
+          "target": true,
+          "source_sha256": "bdaa3a63a21cbecec377627cabbdb6856f9ce06f4d585e96454285c3f166d548"
+        }
+      ],
+      "sheet_sha256": "545dc2a1e17e18a7ad9504d16824dc93eed004740705d893a059ffa646c6f586",
+      "reserved_usd": 0.225325,
+      "input_tokens_counted": 1642,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2046,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale, hollow-looking ring aligned with a vertical fence wire above the crossbar; appears to be a fence fitting, not a pink/red ball."
+          },
+          {
+            "frame": 2047,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale ring remains fixed relative to the fence wire and horizontal rail, indicating a background fixture."
+          },
+          {
+            "frame": 2048,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Ring-shaped mark remains in the same position on the fence structure across all three frames; no independent ball movement."
+          }
+        ]
+      },
+      "response_id": "resp_065e293a51c364cf016adfd8967afc87d0b61ae49b58806a0f",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1722,
+        "input_tokens_details": {
+          "cache_write_tokens": 1719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 254,
+        "output_tokens_details": {
+          "reasoning_tokens": 113
+        },
+        "total_tokens": 1976
+      },
+      "seconds": 7.832600361999994,
+      "estimated_usd": 0.034225
+    },
+    "037": {
+      "id": "037",
+      "frames": [
+        2064,
+        2065,
+        2066
+      ],
+      "targets": [
+        2064,
+        2065,
+        2066
+      ],
+      "images": [
+        {
+          "frame": 2064,
+          "target": true,
+          "source_sha256": "47350031c2d84186c051015249a40201dba33303fb1ff9fa03b1796c20ebc844"
+        },
+        {
+          "frame": 2065,
+          "target": true,
+          "source_sha256": "03c11f19a3f58394c8875f22be277bdcb233f78d91e6994ca8c8787d22aa5f24"
+        },
+        {
+          "frame": 2066,
+          "target": true,
+          "source_sha256": "00a6e9fd66dd43317081ecebd158a075e433173dc7f96c0bf0c667b89a37d686"
+        }
+      ],
+      "sheet_sha256": "b051f91c5540a7dc5cf48b9cb798a85e42a8e8a422c3bec190e028d905fa18b9",
+      "reserved_usd": 0.225325,
+      "input_tokens_counted": 1642,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2064,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale ring-like spot aligned with a vertical fence wire; it stays fixed relative to the fence across all three frames."
+          },
+          {
+            "frame": 2065,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Same pale circular fence feature, unchanged in shape and position relative to the nearby crossbar."
+          },
+          {
+            "frame": 2066,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Ring-like spot remains on the same vertical fence wire above the crossbar, consistent with a stationary background feature rather than the ball."
+          }
+        ]
+      },
+      "response_id": "resp_0c9f482ebc835724016adfd899f59c87d08bbfce068d272573",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1722,
+        "input_tokens_details": {
+          "cache_write_tokens": 1719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 247,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 1969
+      },
+      "seconds": 6.979345197000015,
+      "estimated_usd": 0.033875
+    },
+    "038": {
+      "id": "038",
+      "frames": [
+        2185,
+        2186,
+        2187,
+        2188
+      ],
+      "targets": [
+        2185,
+        2186,
+        2187,
+        2188
+      ],
+      "images": [
+        {
+          "frame": 2185,
+          "target": true,
+          "source_sha256": "cb02e32bf51d4ca0ae1adceb6110edf87c0e934ac2298a9d3b5fe2dbbad780d2"
+        },
+        {
+          "frame": 2186,
+          "target": true,
+          "source_sha256": "d4b1966ad74547d457061fca043fcf963cfb1d6b4f1f294987f0181a4e1506c7"
+        },
+        {
+          "frame": 2187,
+          "target": true,
+          "source_sha256": "214e133de044557738fc7bc767dafdb6567f349814ceb2da388f2693fa2e481c"
+        },
+        {
+          "frame": 2188,
+          "target": true,
+          "source_sha256": "92e4d84154949623c38b9caee50d56444f4a5317b53fd821182a6e170b8fdd8e"
+        }
+      ],
+      "sheet_sha256": "bb462974031ef0c1a31410048e4e5b9d0c80da7a92a1b79c3f0a2f64e913f52d",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2185,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale ring-shaped feature centered on a vertical fence wire, stationary relative to the fence across frames; not a pink/red ball."
+          },
+          {
+            "frame": 2186,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale loop remains attached to the vertical fence wire at an unchanged location."
+          },
+          {
+            "frame": 2187,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Hollow-looking pale ring aligned with the fence wire; its fixed position identifies it as a background feature."
+          },
+          {
+            "frame": 2188,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked ring remains fixed on the fence, with the same shape and alignment as in preceding frames."
+          }
+        ]
+      },
+      "response_id": "resp_0de46bf0b15c5f57016adfd8a273b487d0b4565b18f9c9051a",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 60
+        },
+        "total_tokens": 2417
+      },
+      "seconds": 6.198884284000002,
+      "estimated_usd": 0.0388375
+    },
+    "040": {
+      "id": "040",
+      "frames": [
+        2280,
+        2281,
+        2282,
+        2283,
+        2284,
+        2285,
+        2286
+      ],
+      "targets": [
+        2280,
+        2282,
+        2283,
+        2284,
+        2286
+      ],
+      "images": [
+        {
+          "frame": 2280,
+          "target": true,
+          "source_sha256": "5f6cfd8c73c91e69b7a2a218761d05f69d5c3d3d7f2fe84f4d6f08a9c82c6a1f"
+        },
+        {
+          "frame": 2282,
+          "target": true,
+          "source_sha256": "c7ffd68e8d68601700d9ef552b3db78ecbd7fb5c4ab43fa36b2e0d0a078c564a"
+        },
+        {
+          "frame": 2283,
+          "target": true,
+          "source_sha256": "32e763f3884b0cfa277e4c856d57693d9e691d87f2054596f8be63558ff6d495"
+        },
+        {
+          "frame": 2284,
+          "target": true,
+          "source_sha256": "e511e8e55c1d1781e4859f0f6a996ec63e70a8efa6919e6b668f1cfe06858b6d"
+        },
+        {
+          "frame": 2286,
+          "target": true,
+          "source_sha256": "b827ab1469f995fe0cc9fb70bcba0ffa9b29fdb47fee1079f97ebceeb1dc9c16"
+        }
+      ],
+      "sheet_sha256": "ddeaf43a44793139fdc99a5b605eec9dea0f4a10d3f3b9347bb45beb7f7976d1",
+      "reserved_usd": 0.23695,
+      "input_tokens_counted": 2572,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2280,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale, hollow ring-like feature on a vertical fence line; remains fixed to the fence across frames."
+          },
+          {
+            "frame": 2282,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Same pale ring-like fence feature, unchanged in shape and position relative to the fence."
+          },
+          {
+            "frame": 2283,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Marked point is a hollow pale feature aligned with the vertical fence line, not a pink/red ball."
+          },
+          {
+            "frame": 2284,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Ring-like feature remains fixed on the fence while the players move; no independent ball motion."
+          },
+          {
+            "frame": 2286,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Same stationary pale ring-like fence feature seen throughout the sequence, not a ball."
+          }
+        ]
+      },
+      "response_id": "resp_0512623460bd0a5e016adfd8a861e487d0b340f47b77152f56",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2652,
+        "input_tokens_details": {
+          "cache_write_tokens": 2649,
+          "cached_tokens": 0
+        },
+        "output_tokens": 285,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 2937
+      },
+      "seconds": 7.2922763610000345,
+      "estimated_usd": 0.0474
+    },
+    "039": {
+      "id": "039",
+      "frames": [
+        2249,
+        2250,
+        2251
+      ],
+      "targets": [
+        2249,
+        2250,
+        2251
+      ],
+      "images": [
+        {
+          "frame": 2249,
+          "target": true,
+          "source_sha256": "2e26bdbf0d85628076361c2230c12244f34c4f699c1817f45aee3cd7da8c8438"
+        },
+        {
+          "frame": 2250,
+          "target": true,
+          "source_sha256": "f2b7a0698069daf592217e70044617d46716c7d1c7c80b380f46805d4bb104b4"
+        },
+        {
+          "frame": 2251,
+          "target": true,
+          "source_sha256": "47d3a1eca91294f75131b7103e608febda632747a65b789296095e5132b18054"
+        }
+      ],
+      "sheet_sha256": "cf1a9f4d368cecf954f347be6d6903d250349f1c24c1e32d6fd46516d7e9a491",
+      "reserved_usd": 0.225325,
+      "input_tokens_counted": 1642,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2249,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked patch is part of the player's red jersey sleeve beside the bent arm, not a distinct round ball."
+          },
+          {
+            "frame": 2250,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The point remains on the red shoulder/sleeve, continuous with the jersey and aligned with the player's arm."
+          },
+          {
+            "frame": 2251,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked red area follows the same sleeve and upper-arm outline across frames; no separate ball is visible there."
+          }
+        ]
+      },
+      "response_id": "resp_07b98a7ccf1c9d3f016adfd8a9c00487d08de9eede51c5cdde",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1722,
+        "input_tokens_details": {
+          "cache_write_tokens": 1719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 232,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 1954
+      },
+      "seconds": 6.611024545000021,
+      "estimated_usd": 0.033125
+    },
+    "041": {
+      "id": "041",
+      "frames": [
+        2400,
+        2401,
+        2402
+      ],
+      "targets": [
+        2400,
+        2401,
+        2402
+      ],
+      "images": [
+        {
+          "frame": 2400,
+          "target": true,
+          "source_sha256": "2c0ae9f56cbfe27e1a369ee8c7354d843865f9d91e536a952788de786885d685"
+        },
+        {
+          "frame": 2401,
+          "target": true,
+          "source_sha256": "cdb62385129129281956c9e1957407c18c2169dc7db1468c8528b52f2d1c45ff"
+        },
+        {
+          "frame": 2402,
+          "target": true,
+          "source_sha256": "aeee2161bbf369ba23ba16e37e9fef8b4e457cfe1e63e19c58755f9e023dca97"
+        }
+      ],
+      "sheet_sha256": "67ea260a4198ba9cba0ef6e8a4b7dcb56fdef671c5c693001dcde57f9e6125d1",
+      "reserved_usd": 0.225325,
+      "input_tokens_counted": 1642,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2400,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked point is a pale, hollow ring aligned with a vertical fence wire in the background, not a pink/red ball."
+          },
+          {
+            "frame": 2401,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale ring remains fixed on the vertical fence wire, consistent with a fence attachment rather than a ball."
+          },
+          {
+            "frame": 2402,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The hollow ring stays at the same location relative to the fence bars across all three frames; it is a background fixture."
+          }
+        ]
+      },
+      "response_id": "resp_0ab857043ead3210016adfd8ae021c87d0b240c8a33bc19db5",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1722,
+        "input_tokens_details": {
+          "cache_write_tokens": 1719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 201,
+        "output_tokens_details": {
+          "reasoning_tokens": 61
+        },
+        "total_tokens": 1923
+      },
+      "seconds": 5.171464664999974,
+      "estimated_usd": 0.031575
+    },
+    "042": {
+      "id": "042",
+      "frames": [
+        2459
+      ],
+      "targets": [
+        2459
+      ],
+      "images": [
+        {
+          "frame": 2457,
+          "target": false,
+          "source_sha256": "4637ad2f9363bba2489d819191e72d42d0ceae5f22258b639e3dc8a19dab3f10"
+        },
+        {
+          "frame": 2459,
+          "target": true,
+          "source_sha256": "3cedc28205b0019761801bf9face90f9773a2beb88f18a7e5c1312643c72bff2"
+        },
+        {
+          "frame": 2461,
+          "target": false,
+          "source_sha256": "46993e4f6f90628fe35ea9be59addebf0cad4da802e82695a75e359ce3840110"
+        }
+      ],
+      "sheet_sha256": "d701bdb7fe4a3a0d136f0fb07b76d9f4939be961ed174b49408aa1e70b3ae9b4",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2459,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pink shape is an elongated shoe at the end of a black-clad leg. Across adjacent frames it moves and rotates with the player's foot, rather than appearing as a separate ball."
+          }
+        ]
+      },
+      "response_id": "resp_0facdea6749f0822016adfd8b7f52887d095cf93941f808e0a",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 356,
+        "output_tokens_details": {
+          "reasoning_tokens": 286
+        },
+        "total_tokens": 2070
+      },
+      "seconds": 11.667692895000016,
+      "estimated_usd": 0.039225
+    },
+    "043": {
+      "id": "043",
+      "frames": [
+        2479,
+        2480,
+        2481,
+        2482,
+        2483,
+        2484,
+        2485,
+        2486,
+        2487
+      ],
+      "targets": [
+        2479,
+        2481,
+        2483,
+        2485,
+        2487
+      ],
+      "images": [
+        {
+          "frame": 2479,
+          "target": true,
+          "source_sha256": "44cb634f806714212083a827cb645bdc31e34b9b5988b12647abed201b6ce23c"
+        },
+        {
+          "frame": 2481,
+          "target": true,
+          "source_sha256": "5524f2e9ae7081afd311c7d38833e361dd6ba3b22d77f6a55c27838726c631ef"
+        },
+        {
+          "frame": 2483,
+          "target": true,
+          "source_sha256": "12a568d3b838409b078e06aab9900223dbf99e1523ff4609f3f69b7373a76cc5"
+        },
+        {
+          "frame": 2485,
+          "target": true,
+          "source_sha256": "427fdab206dba97d154068edeb65e394b306e9285bc891cda8ff492ddfc42cf6"
+        },
+        {
+          "frame": 2487,
+          "target": true,
+          "source_sha256": "65a0858ef235eaf7111e30b86da4583c54fead3b4a22d71e86989056c0c636a8"
+        }
+      ],
+      "sheet_sha256": "aa14b64b3f8e1673fd11afe8b87ad1a26a8142d5b0fdd149d82496db469c0399",
+      "reserved_usd": 0.23695,
+      "input_tokens_counted": 2572,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2479,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale, hollow ring-shaped feature aligned with a vertical fence member, not a pink/red ball."
+          },
+          {
+            "frame": 2481,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale ring remains fixed on the fence above the horizontal rail."
+          },
+          {
+            "frame": 2483,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Hollow gray-white feature stays at the same fence location across frames, consistent with a fence fitting."
+          },
+          {
+            "frame": 2485,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Marked ring remains attached to the vertical fence member with unchanged shape and placement."
+          },
+          {
+            "frame": 2487,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Same stationary, hollow fence feature; its position relative to the rails is unchanged."
+          }
+        ]
+      },
+      "response_id": "resp_02213a144ab31fc9016adfd8b9722c87d0a8fed58a3ecc9bb1",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2652,
+        "input_tokens_details": {
+          "cache_write_tokens": 2649,
+          "cached_tokens": 0
+        },
+        "output_tokens": 268,
+        "output_tokens_details": {
+          "reasoning_tokens": 78
+        },
+        "total_tokens": 2920
+      },
+      "seconds": 10.113616723999996,
+      "estimated_usd": 0.04655
+    },
+    "044": {
+      "id": "044",
+      "frames": [
+        2545,
+        2546,
+        2547,
+        2548
+      ],
+      "targets": [
+        2545,
+        2546,
+        2547,
+        2548
+      ],
+      "images": [
+        {
+          "frame": 2545,
+          "target": true,
+          "source_sha256": "18dcb6fccb213cdb50a4b4367ee5d42b67bd64ad54e8e9a902e9324f6eaacc10"
+        },
+        {
+          "frame": 2546,
+          "target": true,
+          "source_sha256": "c48079a76e5d6baf658f7f934f81d5ec22dd345edfc27cf2b8f619fea2b853c7"
+        },
+        {
+          "frame": 2547,
+          "target": true,
+          "source_sha256": "84417d88eaf84280d73962c9e85db3eb3f75ef98aa1837c56fd904f80b024183"
+        },
+        {
+          "frame": 2548,
+          "target": true,
+          "source_sha256": "ea6880dcd7f0d978095a47c00236b6d083123c83d1569781a838c2e20525b66f"
+        }
+      ],
+      "sheet_sha256": "243668153bcf9e6b8b2d5e55a239508467e2e7228a6570e6cc5a6f283c48f05a",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2545,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale ring-shaped background feature aligned with a vertical fence line, not a solid pink/red ball."
+          },
+          {
+            "frame": 2546,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale ring remains fixed relative to the fence, consistent with a fence fixture rather than a ball."
+          },
+          {
+            "frame": 2547,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Hollow-looking pale ring on the vertical fence line; its position relative to the fence is unchanged."
+          },
+          {
+            "frame": 2548,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked ring-shaped feature stays attached visually to the same fence location throughout the sequence."
+          }
+        ]
+      },
+      "response_id": "resp_0bdf315cc9e508db016adfd8bb576887d09ce1786090be7cac",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 229,
+        "output_tokens_details": {
+          "reasoning_tokens": 64
+        },
+        "total_tokens": 2416
+      },
+      "seconds": 7.437679493000019,
+      "estimated_usd": 0.0387875
+    },
+    "045": {
+      "id": "045",
+      "frames": [
+        2558
+      ],
+      "targets": [
+        2558
+      ],
+      "images": [
+        {
+          "frame": 2556,
+          "target": false,
+          "source_sha256": "6a02712f44f999d5e852d2270dbd3aefb3812f466f0165eda6b1ed6f0b9773de"
+        },
+        {
+          "frame": 2558,
+          "target": true,
+          "source_sha256": "77f80f81b9140a4c8bc0e55b4d905e8a3ccf8079d493394ed5f8aefa23e38a4d"
+        },
+        {
+          "frame": 2560,
+          "target": false,
+          "source_sha256": "67c36b754e168748685451328e1a3c1444223a3738ea5b284ad15463e6991254"
+        }
+      ],
+      "sheet_sha256": "17321164081543a5f3ab909a85b5858328c6b542294dec787cba6f6b12045fec",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2558,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pink shape is an elongated shoe at the end of the white-shirted player's dark leg. It matches the other pink shoe and moves with the foot across adjacent frames."
+          }
+        ]
+      },
+      "response_id": "resp_0464b94680309024016adfd8bd5a7887d0b13458c55e929bb9",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 438,
+        "output_tokens_details": {
+          "reasoning_tokens": 371
+        },
+        "total_tokens": 2152
+      },
+      "seconds": 12.602636022000013,
+      "estimated_usd": 0.043325
+    },
+    "048": {
+      "id": "048",
+      "frames": [
+        2603,
+        2604
+      ],
+      "targets": [
+        2603,
+        2604
+      ],
+      "images": [
+        {
+          "frame": 2603,
+          "target": true,
+          "source_sha256": "ada7b620c86d45de886ea5054b81fa10b60d4d6c82d36826c32e8566835c63df"
+        },
+        {
+          "frame": 2604,
+          "target": true,
+          "source_sha256": "f6035fa3a964e115c31cf32bf5aeb1150f8dd3a56079aa4cdc58b2b4a44cd064"
+        }
+      ],
+      "sheet_sha256": "d66473fd97fa4fc4a74d4799bd3ea2979013fe70e7132a878879abc3d08e26ef",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2603,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked center contains only a faint gray-pink blur. It is separate from the visible shoes, but no definite ball outline or floor contact is discernible."
+          },
+          {
+            "frame": 2604,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint pinkish smudge is visible within the brackets, but it remains too blurred to establish a discrete ball or determine its support."
+          }
+        ]
+      },
+      "response_id": "resp_07cbca0c97c98ec4016adfd8ca24d887d093eb80a97d355347",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 917,
+        "output_tokens_details": {
+          "reasoning_tokens": 805
+        },
+        "total_tokens": 2174
+      },
+      "seconds": 25.58348317299999,
+      "estimated_usd": 0.0615625
+    },
+    "047": {
+      "id": "047",
+      "frames": [
+        2601
+      ],
+      "targets": [
+        2601
+      ],
+      "images": [
+        {
+          "frame": 2599,
+          "target": false,
+          "source_sha256": "284370569e8cfa85356a366d6eb8953f1bc3c37b3920ba469fb6df87b2d58ab3"
+        },
+        {
+          "frame": 2601,
+          "target": true,
+          "source_sha256": "e2341df223f9b6e57574136ede9987d9c3567d630163c741ff50b32c9e0be287"
+        },
+        {
+          "frame": 2603,
+          "target": false,
+          "source_sha256": "ada7b620c86d45de886ea5054b81fa10b60d4d6c82d36826c32e8566835c63df"
+        }
+      ],
+      "sheet_sha256": "c5ba0dbbbfa68c25e9601964bdbfcffd13cf9d6b42ae7051e11b050f296c9973",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2601,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small, blurred pinkish round spot on the court, separate from the player's shoes and stick. Adjacent frames show a consistent displaced spot near and then away from the stick blade."
+          }
+        ]
+      },
+      "response_id": "resp_0397a4595ab0750e016adfd8cc9d6887d0be9c33eb8ab55cf4",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 974,
+        "output_tokens_details": {
+          "reasoning_tokens": 906
+        },
+        "total_tokens": 2688
+      },
+      "seconds": 28.77854326199997,
+      "estimated_usd": 0.070125
+    },
+    "046": {
+      "id": "046",
+      "frames": [
+        2565
+      ],
+      "targets": [
+        2565
+      ],
+      "images": [
+        {
+          "frame": 2563,
+          "target": false,
+          "source_sha256": "a0f7becb1efddf0c52fd4a0f1394c475b4d1b2f99551210d24d77ea9923ec3b3"
+        },
+        {
+          "frame": 2565,
+          "target": true,
+          "source_sha256": "b8415f319077c0001f43eb2b7ac82e9c597640b10d1f2e5318baca801ac83e61"
+        },
+        {
+          "frame": 2567,
+          "target": false,
+          "source_sha256": "5a069ca871c9a7cb3e377151af37cfa68236a7e4117e05396caa55cd0a2e20f7"
+        }
+      ],
+      "sheet_sha256": "eda732e574190a0e686fbe8ae8823531fd4e004bc39d707a01e6bb6430fcc5cf",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2565,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked spot is a dark, flattened equipment shape beside the kneeling white player's extended leg, also visible in adjacent frames\u2014not a distinct round pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_0c985fcde046ab22016adfd8ceaf9487d0af32bda3c3a8eab3",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 580,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 2294
+      },
+      "seconds": 20.41867779399996,
+      "estimated_usd": 0.050425
+    },
+    "049": {
+      "id": "049",
+      "frames": [
+        2606,
+        2607,
+        2608,
+        2609
+      ],
+      "targets": [
+        2606,
+        2607,
+        2608,
+        2609
+      ],
+      "images": [
+        {
+          "frame": 2606,
+          "target": true,
+          "source_sha256": "0b6b96328e12278faa4e499425824864f420b8c4139f17ef657590abee423838"
+        },
+        {
+          "frame": 2607,
+          "target": true,
+          "source_sha256": "44adb27aa43f4e075eb91d479c89bbea306bc949af0ba65ab78318544bd3bc35"
+        },
+        {
+          "frame": 2608,
+          "target": true,
+          "source_sha256": "09324061e95e06b596e7aea904f049d749231931c664aa08a64a1fbe47271e84"
+        },
+        {
+          "frame": 2609,
+          "target": true,
+          "source_sha256": "46cdb665781cef7d1af2fc925bf960f0886e3ac8970c2bc266eff31d472cb989"
+        }
+      ],
+      "sheet_sha256": "b85222b44380116e0fe02df24236418cca52d191cb6677ffd7b5f951f057f9ca",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2606,
+            "object": "ball",
+            "support": "unclear",
+            "evidence": "Small, isolated pink rounded blur at the mark, separate from the diagonal rink line and player. Floor contact is not resolved."
+          },
+          {
+            "frame": 2607,
+            "object": "ball",
+            "support": "unclear",
+            "evidence": "The same compact pink blur persists above-left of the helmet, with no connection to clothing or equipment. Its height is unclear."
+          },
+          {
+            "frame": 2608,
+            "object": "ball",
+            "support": "unclear",
+            "evidence": "Rounded pink object continues coherently across frames and remains visibly separate from the player's helmet. No clear contact or shadow establishes support."
+          },
+          {
+            "frame": 2609,
+            "object": "ball",
+            "support": "unclear",
+            "evidence": "Compact pink blur remains distinct above-left of the helmet, consistent with the preceding ball positions. The view does not resolve floor versus airborne support."
+          }
+        ]
+      },
+      "response_id": "resp_0d7fdc2f5c70242c016adfd8d2178c87d0a43d0fe7c521ea85",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1266,
+        "output_tokens_details": {
+          "reasoning_tokens": 1076
+        },
+        "total_tokens": 3453
+      },
+      "seconds": 32.15349075,
+      "estimated_usd": 0.0906375
+    },
+    "050": {
+      "id": "050",
+      "frames": [
+        2672
+      ],
+      "targets": [
+        2672
+      ],
+      "images": [
+        {
+          "frame": 2670,
+          "target": false,
+          "source_sha256": "44f8f481d08b85eef8fbec449c14c5690ffce2a1c08e74d00cb7ac18693c57a7"
+        },
+        {
+          "frame": 2672,
+          "target": true,
+          "source_sha256": "ae1dc9a6c5ed8d622dcc2c327758dc2fac1bd78047216a090731250b2aa600dc"
+        },
+        {
+          "frame": 2674,
+          "target": false,
+          "source_sha256": "250fcb967d97db32871a618c178da4f35179a1938fa52afb47655f35e62f80cb"
+        }
+      ],
+      "sheet_sha256": "2b641ee14eb47c63b88fb694881f1542e465c71814575a069c1f23ef9e484cde",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2672,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pink/red shape is an elongated shoe attached to the white-shirted player's dark trouser leg. The adjacent frame shows matching footwear moving with the player's stride, not a separate round ball."
+          }
+        ]
+      },
+      "response_id": "resp_0d320e6377a7042b016adfd8e8bb0887d0b3d202810d985a7d",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 371,
+        "output_tokens_details": {
+          "reasoning_tokens": 300
+        },
+        "total_tokens": 2085
+      },
+      "seconds": 14.593714020999982,
+      "estimated_usd": 0.039975
+    },
+    "051": {
+      "id": "051",
+      "frames": [
+        2729
+      ],
+      "targets": [
+        2729
+      ],
+      "images": [
+        {
+          "frame": 2727,
+          "target": false,
+          "source_sha256": "f3f0ca0a8e8031c4bb9511c14869e150eb2b4b25a90a042c7a821310aafb705d"
+        },
+        {
+          "frame": 2729,
+          "target": true,
+          "source_sha256": "e1e67e55a6aaae3120e5550c0cf5ac1615559c63d79ee36521b1f56de42ce2ca"
+        },
+        {
+          "frame": 2731,
+          "target": false,
+          "source_sha256": "8220b647490a0ba54241bab7866cd26af14520ff68cd80de150c6cab907ed59e"
+        }
+      ],
+      "sheet_sha256": "ee3d35270e156465d07be494bd75eab294ed3b3e1d05ce60d521b96c3a94923b",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2729,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is a faint, elongated gray blur on open court. Its movement into the following frame is compatible with a ball, but no distinct pink/red rounded center or surface contact is resolved."
+          }
+        ]
+      },
+      "response_id": "resp_0facffd6f8afff8b016adfd8ea548c87d080f3f7650c22672e",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1082,
+        "output_tokens_details": {
+          "reasoning_tokens": 1009
+        },
+        "total_tokens": 2796
+      },
+      "seconds": 31.67696289099996,
+      "estimated_usd": 0.075525
+    },
+    "052": {
+      "id": "052",
+      "frames": [
+        2735,
+        2736
+      ],
+      "targets": [
+        2735,
+        2736
+      ],
+      "images": [
+        {
+          "frame": 2735,
+          "target": true,
+          "source_sha256": "d04527893bcb2ea9ab149d591dfc68883d60c6031b403d1513eab4c4cfd7837f"
+        },
+        {
+          "frame": 2736,
+          "target": true,
+          "source_sha256": "a02655a721c52c030865272931ec0c06fb99e30441ca0f0dbbea55b8c861588b"
+        }
+      ],
+      "sheet_sha256": "77e71821775716e83e106e2a0c29703332a8fd2570a363ede9a7dff7ef040137",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2735,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point contains a small, isolated dark blur over the court. Its color and outline are too indistinct to confirm a pink/red ball or floor contact."
+          },
+          {
+            "frame": 2736,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint, smeared reddish-gray patch is visible at the marked point. The adjacent frame provides continuity, but neither clearly resolves a ball shape or its support."
+          }
+        ]
+      },
+      "response_id": "resp_0d5241654fcf87e3016adfd8ee246887d0a66c70acba96363e",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 623,
+        "output_tokens_details": {
+          "reasoning_tokens": 506
+        },
+        "total_tokens": 1880
+      },
+      "seconds": 17.467368439999973,
+      "estimated_usd": 0.0468625
+    },
+    "053": {
+      "id": "053",
+      "frames": [
+        2758,
+        2759
+      ],
+      "targets": [
+        2758,
+        2759
+      ],
+      "images": [
+        {
+          "frame": 2758,
+          "target": true,
+          "source_sha256": "d9bce608c59525dfd78b3a4069d08ca516ae195aa15d64f7e6e41760d2a019b4"
+        },
+        {
+          "frame": 2759,
+          "target": true,
+          "source_sha256": "3072cd0bcb461896d976a68cfa3df54ee1f668937047f1ab76e3afe37d1e6b3a"
+        }
+      ],
+      "sheet_sha256": "5f2e5faf3bb49892707f52a2d4f66e4828816e0a3c5388c49c57e4f35669206a",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2758,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pink shape appears to be the player's shoe, continuous with the dark trouser leg and elongated along the floor rather than a separate round ball."
+          },
+          {
+            "frame": 2759,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The pink shape remains at the end of the same player's leg, retaining a shoe-like toe and sole outline. No distinct ball is visible at the marked point."
+          }
+        ]
+      },
+      "response_id": "resp_059bbd9f3018a157016adfd8f6a8cc87d0872dbbafa268b08c",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 687,
+        "output_tokens_details": {
+          "reasoning_tokens": 576
+        },
+        "total_tokens": 1944
+      },
+      "seconds": 19.242458005000003,
+      "estimated_usd": 0.0500625
+    },
+    "054": {
+      "id": "054",
+      "frames": [
+        2762
+      ],
+      "targets": [
+        2762
+      ],
+      "images": [
+        {
+          "frame": 2760,
+          "target": false,
+          "source_sha256": "0d89b6dafb037b15c1439e96dac18096b3ae38818582396dee4552e401a7696c"
+        },
+        {
+          "frame": 2762,
+          "target": true,
+          "source_sha256": "71d1293bc283490fc8537e25ecb5f47ae7045c17c3ab20ff7aad47969696c1a2"
+        },
+        {
+          "frame": 2764,
+          "target": false,
+          "source_sha256": "99c61ba4e87c9a76a8b3345989a4149479d215eef5e8ba614898a2b9ec6c5092"
+        }
+      ],
+      "sheet_sha256": "17a2f7bff69eefb1032391ba068aa6a1018842bc03d696a23682f8d08b01f0dc",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2762,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pinkish shape is an elongated shoe at the end of the white-shirted player's dark trouser leg. It moves with that foot across the neighboring frames, rather than appearing as a separate round ball."
+          }
+        ]
+      },
+      "response_id": "resp_019dc8199f358b8a016adfd8fb53c487d0ad6ab463e8fcfcc7",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 485,
+        "output_tokens_details": {
+          "reasoning_tokens": 411
+        },
+        "total_tokens": 2199
+      },
+      "seconds": 16.607363752000026,
+      "estimated_usd": 0.045675
+    },
+    "055": {
+      "id": "055",
+      "frames": [
+        2767
+      ],
+      "targets": [
+        2767
+      ],
+      "images": [
+        {
+          "frame": 2765,
+          "target": false,
+          "source_sha256": "3a39f164b8d5089b09da16cf90dac832cc32b22dfa212a5fac533d7956733446"
+        },
+        {
+          "frame": 2767,
+          "target": true,
+          "source_sha256": "45ecf9aa6367e8a8bc3d3e954f3de6f88b9ff3852d61b09245dcb5ea4ecca5ff"
+        },
+        {
+          "frame": 2769,
+          "target": false,
+          "source_sha256": "3fc404b18fa58e44e6adbee522ed94f95387f29a6cd6c301e0ca397a03b72d7b"
+        }
+      ],
+      "sheet_sha256": "9edf38ff7721d1856140c95c06d3300835f20c57954ffac606aef7d892760e43",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2767,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked pale, elongated shape is the white-shirted player's shoe, connected to the dark trouser leg and moving with it across the neighboring frames\u2014not a separate pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_068a8037ee29a51e016adfd904420887d0b67a57d71a5eaf68",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 342,
+        "output_tokens_details": {
+          "reasoning_tokens": 274
+        },
+        "total_tokens": 2056
+      },
+      "seconds": 10.295372849999978,
+      "estimated_usd": 0.038525
+    },
+    "056": {
+      "id": "056",
+      "frames": [
+        2796
+      ],
+      "targets": [
+        2796
+      ],
+      "images": [
+        {
+          "frame": 2794,
+          "target": false,
+          "source_sha256": "4ddcd925ef0f142c588aabe9886c1daf55caf0d1ceed35b7f88f7926b995eb9a"
+        },
+        {
+          "frame": 2796,
+          "target": true,
+          "source_sha256": "7ec68cc27240addd2ac8eb26fe8b26258ca950d5a8eb90243f7b81fbda2a2ae8"
+        },
+        {
+          "frame": 2798,
+          "target": false,
+          "source_sha256": "bcf36618f4187eb0647f16533743ad05280f82cac02adb9c4589aa80831878ea"
+        }
+      ],
+      "sheet_sha256": "51b312036b2841e58bb0d7108709882582b2f6290077293400e9b87ca680ecd1",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2796,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point contains only a faint, diffuse pinkish blur against the rink. No distinct ball outline or clear continuation in adjacent frames is visible."
+          }
+        ]
+      },
+      "response_id": "resp_03231f613914e9a3016adfd910f45087d0af1731776fe417d4",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 468,
+        "output_tokens_details": {
+          "reasoning_tokens": 405
+        },
+        "total_tokens": 2182
+      },
+      "seconds": 14.39900478200002,
+      "estimated_usd": 0.044825
+    },
+    "057": {
+      "id": "057",
+      "frames": [
+        2803
+      ],
+      "targets": [
+        2803
+      ],
+      "images": [
+        {
+          "frame": 2801,
+          "target": false,
+          "source_sha256": "2945c08f2f5169a17b70da33f8a693437223bdd7d47609ca0ea099503e0b8e49"
+        },
+        {
+          "frame": 2803,
+          "target": true,
+          "source_sha256": "1da9603fbd10c43a98e5af7bd1155c5d59d624b326fba9647b94a6b17a96aa8d"
+        },
+        {
+          "frame": 2805,
+          "target": false,
+          "source_sha256": "c8852b8aaed925884dab04f099ad310f3fae0492e688f8d8151b93e9d0c5831b"
+        }
+      ],
+      "sheet_sha256": "ed137065670b8293b22e344d6ddef11be4f4c18143aa8922c9ac6c97de0d1d18",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2803,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked point lies along the elongated stick extending from the red player's hand toward its upturned blade. No distinct round pink/red ball is visible there."
+          }
+        ]
+      },
+      "response_id": "resp_09f01c93372abfae016adfd91414e887d0b23e42b16f2b4178",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 657,
+        "output_tokens_details": {
+          "reasoning_tokens": 594
+        },
+        "total_tokens": 2371
+      },
+      "seconds": 23.950878932000023,
+      "estimated_usd": 0.054275
+    },
+    "058": {
+      "id": "058",
+      "frames": [
+        2829
+      ],
+      "targets": [
+        2829
+      ],
+      "images": [
+        {
+          "frame": 2827,
+          "target": false,
+          "source_sha256": "9964d3799fc438fcbe0c7054ec6ec56812178910249b0399e3a7b17b1d311616"
+        },
+        {
+          "frame": 2829,
+          "target": true,
+          "source_sha256": "12c48b0b788043f23cfef238cda848a22c2a763b736152771201c05d8e9a9805"
+        },
+        {
+          "frame": 2831,
+          "target": false,
+          "source_sha256": "cfbc0f31c9860a6f655f096f87e238f47a175dddc836833ea2b94b4849c4e428"
+        }
+      ],
+      "sheet_sha256": "cae316a8053a16737fbde4ac05eaacf4464a435f37d674d75f56a07c3eda85eb",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2829,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A faint pink rounded spot sits just below the stick blade, separate from the player's shoes. The following frame shows a clearer pink ball farther ahead along the floor."
+          }
+        ]
+      },
+      "response_id": "resp_0c2e6a0ee6963b02016adfd91574ec87d0a6071e348ab07fb1",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 281,
+        "output_tokens_details": {
+          "reasoning_tokens": 217
+        },
+        "total_tokens": 1995
+      },
+      "seconds": 8.449760161999961,
+      "estimated_usd": 0.035475
+    },
+    "059": {
+      "id": "059",
+      "frames": [
+        2892
+      ],
+      "targets": [
+        2892
+      ],
+      "images": [
+        {
+          "frame": 2890,
+          "target": false,
+          "source_sha256": "4814fe3fb6f7f0465b5ff1a015814ac2689cbb24a2c1b1554cb7627c214a0c1c"
+        },
+        {
+          "frame": 2892,
+          "target": true,
+          "source_sha256": "73cf840e3752d3d7aa45ec568346db8ddf7837f8e7b1b4edcea6aa28de14daa7"
+        },
+        {
+          "frame": 2894,
+          "target": false,
+          "source_sha256": "d88e676a79d6c475f66ac01999d0e629a33131d28b12c8c8246b0e804b1f323e"
+        }
+      ],
+      "sheet_sha256": "dbec1c7574108f59a831ada4c770c6b6cd81d2862113ab8af3bfc26f75abfca7",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2892,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint pinkish blur appears above and right of the player's glove, but no distinct round outline is resolved. The blur is insufficient to confirm a ball or its support."
+          }
+        ]
+      },
+      "response_id": "resp_0f458384a650db17016adfd916e56087d0b9c1b4d602b7be28",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 470,
+        "output_tokens_details": {
+          "reasoning_tokens": 402
+        },
+        "total_tokens": 2184
+      },
+      "seconds": 14.38854483,
+      "estimated_usd": 0.044925
+    },
+    "061": {
+      "id": "061",
+      "frames": [
+        2898,
+        2899
+      ],
+      "targets": [
+        2898,
+        2899
+      ],
+      "images": [
+        {
+          "frame": 2898,
+          "target": true,
+          "source_sha256": "22f8cd58fba98b2062b1820954cea931dc09f7d5d411ee222f1ca866ab617b05"
+        },
+        {
+          "frame": 2899,
+          "target": true,
+          "source_sha256": "ddbbed66f9cb526d362832c78a47e310f207b3e1ace5208a92cab05109cc5792"
+        }
+      ],
+      "sheet_sha256": "32635114249122c5576a5c0de118daa044419319d21a86d53d330e33fe2570e3",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2898,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is an isolated dark, vertically blurred speck. Its outline is too indistinct to verify a ball or determine floor contact."
+          },
+          {
+            "frame": 2899,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "A faint pink-gray elongated blur appears at the marked point. It could be the moving ball, but neither a distinct ball outline nor its support is resolved."
+          }
+        ]
+      },
+      "response_id": "resp_0875f5800a837870016adfd923952c87d08acbc3baa38a2511",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1098,
+        "output_tokens_details": {
+          "reasoning_tokens": 986
+        },
+        "total_tokens": 2355
+      },
+      "seconds": 36.83414427500003,
+      "estimated_usd": 0.0706125
+    },
+    "060": {
+      "id": "060",
+      "frames": [
+        2894
+      ],
+      "targets": [
+        2894
+      ],
+      "images": [
+        {
+          "frame": 2892,
+          "target": false,
+          "source_sha256": "73cf840e3752d3d7aa45ec568346db8ddf7837f8e7b1b4edcea6aa28de14daa7"
+        },
+        {
+          "frame": 2894,
+          "target": true,
+          "source_sha256": "d88e676a79d6c475f66ac01999d0e629a33131d28b12c8c8246b0e804b1f323e"
+        },
+        {
+          "frame": 2896,
+          "target": false,
+          "source_sha256": "5b3c53d5257dcebdecd51b1ee070afd81ad794576a3178707dca1765c8856713"
+        }
+      ],
+      "sheet_sha256": "d82bb4cd9170b56246e73db9d8e723d71f7fd90057fad91d32656088f1b3570f",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2894,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked reddish patch is elongated and continuous with the white-shirted player's foot beneath the dark lower leg, consistent with a shoe rather than a distinct round ball."
+          }
+        ]
+      },
+      "response_id": "resp_00dbdaaa7b53306e016adfd9258bf087d0a182f8a9ddd9e8a2",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 243,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 1957
+      },
+      "seconds": 7.689471490000017,
+      "estimated_usd": 0.033575
+    },
+    "062": {
+      "id": "062",
+      "frames": [
+        2901
+      ],
+      "targets": [
+        2901
+      ],
+      "images": [
+        {
+          "frame": 2899,
+          "target": false,
+          "source_sha256": "ddbbed66f9cb526d362832c78a47e310f207b3e1ace5208a92cab05109cc5792"
+        },
+        {
+          "frame": 2901,
+          "target": true,
+          "source_sha256": "24525fd8294feedbf6759b7478f8a6a38e8bb887ccd9ca9ef46d124f75ff1c2b"
+        },
+        {
+          "frame": 2903,
+          "target": false,
+          "source_sha256": "405e70baeb46ee190f12751c6ae5e8fca84465bdd915bfb85992f6e37925bdae"
+        }
+      ],
+      "sheet_sha256": "3d0d3bd4abf912a06c6e0ee803400d1d01c7dd8620fb95caef66e2d4b15493cc",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2901,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The marked point is a faint pink-gray blur just beyond a dark stick-like line. Its outline is too blurred to confidently identify a ball or determine floor contact."
+          }
+        ]
+      },
+      "response_id": "resp_046908e3d8e5a853016adfd929d3b887d0955e5d2bb7d8f7c4",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1590,
+        "output_tokens_details": {
+          "reasoning_tokens": 1524
+        },
+        "total_tokens": 3304
+      },
+      "seconds": 51.48547284,
+      "estimated_usd": 0.100925
+    },
+    "064": {
+      "id": "064",
+      "frames": [
+        2995
+      ],
+      "targets": [
+        2995
+      ],
+      "images": [
+        {
+          "frame": 2993,
+          "target": false,
+          "source_sha256": "e3ee8185a4771c8915ef7af64a05eeac27d8ff998596d0eb4541258ae9566014"
+        },
+        {
+          "frame": 2995,
+          "target": true,
+          "source_sha256": "4ec1c000415fadfda7dcb12e7fd43e190ecdeda290448014e4bd6ed8b9b4280f"
+        },
+        {
+          "frame": 2997,
+          "target": false,
+          "source_sha256": "5c2608ac7d43d4ce8f7767d01f90e75e2cb866238b138093285ceec2e9c437b1"
+        }
+      ],
+      "sheet_sha256": "a14430c918dfe9ac28a12a62e11ff6a9f9214c6fab24d7a0319b078b57d314fd",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2995,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked point is on the rounded end of a dark stick blade, continuous with the blade and shaft across adjacent frames. No separate pink/red ball is distinguishable there."
+          }
+        ]
+      },
+      "response_id": "resp_04aca1c96a64102f016adfd931a70c87d0981b0c6b73125eb0",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 227,
+        "output_tokens_details": {
+          "reasoning_tokens": 161
+        },
+        "total_tokens": 1941
+      },
+      "seconds": 7.66796884300004,
+      "estimated_usd": 0.032775
+    },
+    "063": {
+      "id": "063",
+      "frames": [
+        2973
+      ],
+      "targets": [
+        2973
+      ],
+      "images": [
+        {
+          "frame": 2971,
+          "target": false,
+          "source_sha256": "ab49fc95e3aa2303c50c38341c7f718f6f5d698fcb998227a4f5e7bcfa48e203"
+        },
+        {
+          "frame": 2973,
+          "target": true,
+          "source_sha256": "132754b9b26c260ff96e95ff828f3010fc1dd88093f8adb8b93afe5e79f974aa"
+        },
+        {
+          "frame": 2975,
+          "target": false,
+          "source_sha256": "755d2d9d8ab71baccf4c75576aeae0d2511f7dc5534890ecc3520b974bade78e"
+        }
+      ],
+      "sheet_sha256": "e0c385c29ebd737291ce63cd34ff51f229bf444b5a62d8cf8c1f11b3f791bc95",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 2973,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked red patch follows the official\u2019s sleeve at the elbow and matches the red marking on the opposite sleeve. No distinct round ball is visible."
+          }
+        ]
+      },
+      "response_id": "resp_0af152f41d82bb6f016adfd9334f9087d09ba4f8dca1fbfaf2",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 168
+        },
+        "total_tokens": 1944
+      },
+      "seconds": 8.917689198000005,
+      "estimated_usd": 0.032925
+    },
+    "065": {
+      "id": "065",
+      "frames": [
+        3024,
+        3025
+      ],
+      "targets": [
+        3024,
+        3025
+      ],
+      "images": [
+        {
+          "frame": 3024,
+          "target": true,
+          "source_sha256": "7d21df744b09f5d11b74c6a2b38c1ce52e5c1ce1b15dc25dc313a7a5c03d1e80"
+        },
+        {
+          "frame": 3025,
+          "target": true,
+          "source_sha256": "9461dd6935f8cf5a3c53a9184568159e9dd5fa5b5659ac54e4c79a7609fc7dcb"
+        }
+      ],
+      "sheet_sha256": "3729d7bb58819a843a93431ead94111a1d4bf88ffab070eac0409682a2912f77",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3024,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked spot is a pale ring with a dark center aligned with a background fence upright, not a solid pink/red ball."
+          },
+          {
+            "frame": 3025,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale ring-like feature remains fixed on the fence upright relative to the horizontal rail, consistent with a background fixture."
+          }
+        ]
+      },
+      "response_id": "resp_01d972fdb92660b5016adfd93d468087d0a9d14c656ab57f6f",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 120
+        },
+        "total_tokens": 1477
+      },
+      "seconds": 5.971356525000033,
+      "estimated_usd": 0.0267125
+    },
+    "066": {
+      "id": "066",
+      "frames": [
+        3029,
+        3030,
+        3031,
+        3032
+      ],
+      "targets": [
+        3029,
+        3030,
+        3031,
+        3032
+      ],
+      "images": [
+        {
+          "frame": 3029,
+          "target": true,
+          "source_sha256": "e8935a25cd163df838ecc651515f77999161dd4a11f2ee8b1c4f66b0760437ec"
+        },
+        {
+          "frame": 3030,
+          "target": true,
+          "source_sha256": "00c1577f16091ec112a0879e937b6f2adfbe2a843527f21ce270d32b1229f9b9"
+        },
+        {
+          "frame": 3031,
+          "target": true,
+          "source_sha256": "c006b02337dda05cfe351c8c2fb5eb2bf900bea1cba4ecef2352f513de11e14b"
+        },
+        {
+          "frame": 3032,
+          "target": true,
+          "source_sha256": "1c3b12b369eb01302e4a979ef86135e0eaa0832ff36fb9083aed4c8718e62bb9"
+        }
+      ],
+      "sheet_sha256": "7c4e936d7a1bc1fd5ff319f8f5f784ba096da635f5be16005e319284cd4ed2cc",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3029,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Pale ring-shaped feature aligned with a vertical fence wire, well above the court; it stays fixed relative to the fence across frames."
+          },
+          {
+            "frame": 3030,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The same pale, hollow-centered ring remains fixed on the vertical fence wire, indicating a background fixture rather than a ball."
+          },
+          {
+            "frame": 3031,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Marked ring retains its shape and position relative to the fence while players move below."
+          },
+          {
+            "frame": 3032,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "Stationary pale ring on the fence, unchanged across all four frames; not the pink/red hockey ball."
+          }
+        ]
+      },
+      "response_id": "resp_0f47392066364484016adfd9415e8887d09e0e7b8222304467",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 247,
+        "output_tokens_details": {
+          "reasoning_tokens": 72
+        },
+        "total_tokens": 2434
+      },
+      "seconds": 8.967992123000045,
+      "estimated_usd": 0.0396875
+    },
+    "067": {
+      "id": "067",
+      "frames": [
+        3331
+      ],
+      "targets": [
+        3331
+      ],
+      "images": [
+        {
+          "frame": 3329,
+          "target": false,
+          "source_sha256": "b4bbe7f6fce09d469142a15f3da913cdef193da1f9dd451a7d105dba3c8fa9be"
+        },
+        {
+          "frame": 3331,
+          "target": true,
+          "source_sha256": "d392a8bbeea785572a7b903297d977e3ea24f938e48bfd1e640c64a47d6b1673"
+        },
+        {
+          "frame": 3333,
+          "target": false,
+          "source_sha256": "f46627fe592dbb14ff6119e5537cdf4e5e2ba12211e4b03941df50e88c1e8b11"
+        }
+      ],
+      "sheet_sha256": "605e87b4b38154a73c0f05c98fc7d41e88d45325f88bb422da1595c98f3ec1c5",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3331,
+            "object": "other",
+            "support": "held",
+            "evidence": "The marked dark, narrow segment is at the end of the player's stick and rises as the stick changes angle across the context frames. No separate round pink/red ball is visible there."
+          }
+        ]
+      },
+      "response_id": "resp_09fd1c4f7f96d400016adfd9477ea087d097da8dcb63a1105e",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1802,
+        "output_tokens_details": {
+          "reasoning_tokens": 1734
+        },
+        "total_tokens": 3516
+      },
+      "seconds": 59.504701563000026,
+      "estimated_usd": 0.111525
+    },
+    "068": {
+      "id": "068",
+      "frames": [
+        3522
+      ],
+      "targets": [
+        3522
+      ],
+      "images": [
+        {
+          "frame": 3520,
+          "target": false,
+          "source_sha256": "8ec025d37f140afc48996b801f52b0113440cfecd34df1339232f8005b2bdefe"
+        },
+        {
+          "frame": 3522,
+          "target": true,
+          "source_sha256": "57205c66b89cc4ed90fe9919ffae4a8ed3cda3d4967f6b5b2365922db6f03111"
+        },
+        {
+          "frame": 3524,
+          "target": false,
+          "source_sha256": "b553122d66acf2a3be1d9abd97ebd8f92e176869337967c12ffe44f1eb24247b"
+        }
+      ],
+      "sheet_sha256": "95a312cfa8100a74c9430162a18f0a5378d7a1bbd5c0cbadf6c08bf50bf860dd",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3522,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked gray patch lies along the pale stick shaft before the black blade and follows the shaft in adjacent frames, rather than forming a separate pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_0c2b0a6f51e89aec016adfd94d64f087d0b64bddc9408fede2",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 755,
+        "output_tokens_details": {
+          "reasoning_tokens": 691
+        },
+        "total_tokens": 2469
+      },
+      "seconds": 25.887722686000018,
+      "estimated_usd": 0.059175
+    },
+    "069": {
+      "id": "069",
+      "frames": [
+        3674
+      ],
+      "targets": [
+        3674
+      ],
+      "images": [
+        {
+          "frame": 3672,
+          "target": false,
+          "source_sha256": "f01ec4a266dd3840676a6f41ee48074cc7712f21599739325f0331510952ea67"
+        },
+        {
+          "frame": 3674,
+          "target": true,
+          "source_sha256": "1ecbd371d03cabc2c3f21e18531835f7e274d343006e5eb605ca1b70a9b96c45"
+        },
+        {
+          "frame": 3676,
+          "target": false,
+          "source_sha256": "d986a9410ff0eb0309ab4c5ce4c3a24465570fef218f18bc3e1e74d18a822425"
+        }
+      ],
+      "sheet_sha256": "c1172f33b7e280c4a393ef2b34ab1417e7ab1b79731140a2753c832e08301af3",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3674,
+            "object": "other",
+            "support": "airborne",
+            "evidence": "The marked dark shape is the raised stick blade, continuous with the shaft and moving with it across adjacent frames\u2014not a separate pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_0f6374e99fc4f3ef016adfd94fcedc87d0a2be0c194ae32acc",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 357,
+        "output_tokens_details": {
+          "reasoning_tokens": 296
+        },
+        "total_tokens": 2071
+      },
+      "seconds": 12.99448710300004,
+      "estimated_usd": 0.039275
+    },
+    "070": {
+      "id": "070",
+      "frames": [
+        3839,
+        3840
+      ],
+      "targets": [
+        3839,
+        3840
+      ],
+      "images": [
+        {
+          "frame": 3839,
+          "target": true,
+          "source_sha256": "99a0e71348cbf6d53390622fc19f1cdbe93f4da53e5ec7d76ad03543459977dc"
+        },
+        {
+          "frame": 3840,
+          "target": true,
+          "source_sha256": "f9455d7d30fce862e06de32effc8165839be00f6c31811256076f3055b461c3f"
+        }
+      ],
+      "sheet_sha256": "4bcb6d4f57103b8427a69a8938e8a725d7e0f3ef8028639453ca9dd483d9b1fa",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3839,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small, rounded gray-pink spot on the open rink, separate from the nearby spectator silhouettes and stick. Its movement into the next frame is consistent with a ball."
+          },
+          {
+            "frame": 3840,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "The same compact, rounded spot has shifted left and slightly downward across the rink surface; it is not attached to clothing, a shoe, or a stick."
+          }
+        ]
+      },
+      "response_id": "resp_0d01a4e1d68b94eb016adfd962501887d0bddcf6174029d4df",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1275,
+        "output_tokens_details": {
+          "reasoning_tokens": 1162
+        },
+        "total_tokens": 2532
+      },
+      "seconds": 37.083738332999985,
+      "estimated_usd": 0.0794625
+    },
+    "071": {
+      "id": "071",
+      "frames": [
+        3925,
+        3926,
+        3927,
+        3928,
+        3929,
+        3930
+      ],
+      "targets": [
+        3925,
+        3926,
+        3927,
+        3929,
+        3930
+      ],
+      "images": [
+        {
+          "frame": 3925,
+          "target": true,
+          "source_sha256": "aeebb02dcec4169284a085b10c90b6ef50f6cb35bba1aed53dc1c04b4da2c591"
+        },
+        {
+          "frame": 3926,
+          "target": true,
+          "source_sha256": "5fbf0f1227724b51bfa142ebe7ad745e2a76d97f64141e6cc5dfdc98ad79168e"
+        },
+        {
+          "frame": 3927,
+          "target": true,
+          "source_sha256": "b39785b7155b91996d79f4dc4a24c4dceef9e26560c440814a9b4d2fd984e879"
+        },
+        {
+          "frame": 3929,
+          "target": true,
+          "source_sha256": "f4eedd2748504d5cc7cd7366be2c45df98cb5a4d3ef03e0886afcde02c355a7a"
+        },
+        {
+          "frame": 3930,
+          "target": true,
+          "source_sha256": "11d184c66c024fcaeb10bbf840cc0c1645fc3be103a9af67da97339f911da8da"
+        }
+      ],
+      "sheet_sha256": "2869374ec4464eeb3668dc7a41b6b9a070425589e3539a507e19f4da5a0e3d73",
+      "reserved_usd": 0.23695,
+      "input_tokens_counted": 2572,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3925,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small, compact rounded spot on the court between the goalie pad and stick blade, separate from both."
+          },
+          {
+            "frame": 3926,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "The same rounded spot remains visible just left of the blade; it is not connected to the goalie\u2019s equipment."
+          },
+          {
+            "frame": 3927,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Distinct small round object beside the blade, consistent with the ball across adjacent frames."
+          },
+          {
+            "frame": 3929,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Compact rounded spot near the blade\u2019s toe, visually separate from the elongated stick and nearby pad."
+          },
+          {
+            "frame": 3930,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small rounded ball remains immediately above-left of the blade\u2019s toe on the court; no shoe or clothing structure at the marked point."
+          }
+        ]
+      },
+      "response_id": "resp_07bf548134bd27f7016adfd963caa887d0b68b84b6e4d174ab",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2652,
+        "input_tokens_details": {
+          "cache_write_tokens": 2649,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1519,
+        "output_tokens_details": {
+          "reasoning_tokens": 1316
+        },
+        "total_tokens": 4171
+      },
+      "seconds": 49.19555732200001,
+      "estimated_usd": 0.1091
+    },
+    "072": {
+      "id": "072",
+      "frames": [
+        3934
+      ],
+      "targets": [
+        3934
+      ],
+      "images": [
+        {
+          "frame": 3932,
+          "target": false,
+          "source_sha256": "38a7ecdf2c0078ec5ab73c830724c4ba6c198f7a18cc459758456eff1b0d843c"
+        },
+        {
+          "frame": 3934,
+          "target": true,
+          "source_sha256": "20e2873f8b0029b5d5a06fb567f306eed0401e4149ae1cc0fa862fcb4c3bd200"
+        },
+        {
+          "frame": 3936,
+          "target": false,
+          "source_sha256": "61e6b746b693c7079fac6a187194c5de4f7fbd20d95ba079307c1b9185add7bb"
+        }
+      ],
+      "sheet_sha256": "c1e8f97359be432ba9a7123b790ec0c7eb16c42b80428d07a7515a85a4eebb25",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3934,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small rounded reddish-gray spot beside the stick blade, distinct from its elongated shape. It shifts left relative to the blade in the following frame and appears on the rink surface."
+          }
+        ]
+      },
+      "response_id": "resp_0299e8f4f8e1a68c016adfd96b17c087d0915d8c99bea28c6c",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 997,
+        "output_tokens_details": {
+          "reasoning_tokens": 931
+        },
+        "total_tokens": 2711
+      },
+      "seconds": 30.27401044100003,
+      "estimated_usd": 0.071275
+    },
+    "073": {
+      "id": "073",
+      "frames": [
+        3958,
+        3959
+      ],
+      "targets": [
+        3958,
+        3959
+      ],
+      "images": [
+        {
+          "frame": 3958,
+          "target": true,
+          "source_sha256": "2f813fde899ac1b8417f9cebd829d441ce169e1cbe883df8c06e53fb624b3e7e"
+        },
+        {
+          "frame": 3959,
+          "target": true,
+          "source_sha256": "c812fbd6c2800cf69eb3c672c0222d90fc5f08f096ce84ff2cb29beb0efc365f"
+        }
+      ],
+      "sheet_sha256": "cc0c042e8e50a505c86a7f24e9636a4d2337d31cde33958c7d5fee3bcb1615f0",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3958,
+            "object": "uncertain",
+            "support": "floor",
+            "evidence": "The marked pink/red blur overlaps the stick blade at floor level. Its outline is too indistinct to separate a small ball from colored blade/tape."
+          },
+          {
+            "frame": 3959,
+            "object": "uncertain",
+            "support": "floor",
+            "evidence": "The reddish patch remains merged with the curved stick blade. No clearly separate round outline is resolved in this frame either."
+          }
+        ]
+      },
+      "response_id": "resp_0cfa87a035b479e4016adfd986a30887d0bda4eb8b63293579",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 984,
+        "output_tokens_details": {
+          "reasoning_tokens": 880
+        },
+        "total_tokens": 2241
+      },
+      "seconds": 31.951732241000002,
+      "estimated_usd": 0.0649125
+    },
+    "074": {
+      "id": "074",
+      "frames": [
+        3964,
+        3965,
+        3966,
+        3967
+      ],
+      "targets": [
+        3964,
+        3965,
+        3966,
+        3967
+      ],
+      "images": [
+        {
+          "frame": 3964,
+          "target": true,
+          "source_sha256": "8c466552dfa05bd935b0cfa69331d51bb6bb2591ff9ca90f65f15b822eb471b4"
+        },
+        {
+          "frame": 3965,
+          "target": true,
+          "source_sha256": "57636d299f8862ffbdf2fecb5c2dd188410df2c10c9464cb31ca53e030d46296"
+        },
+        {
+          "frame": 3966,
+          "target": true,
+          "source_sha256": "b31bdb1dd89d581eb4ce9adb3748522fa1030a5518e3db40eb65fd3f55e248d0"
+        },
+        {
+          "frame": 3967,
+          "target": true,
+          "source_sha256": "9f8ceeed4e9382a360f4aff4f197f2f4bb6ed5b485cdfa3c662a537fd69789d8"
+        }
+      ],
+      "sheet_sha256": "4f1bae7e1961a7f251d5bf4d0e968ac92a3bbd998dcef51bb6edbf9a1df9b9ea",
+      "reserved_usd": 0.2311375,
+      "input_tokens_counted": 2107,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 3964,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked reddish shape is elongated and continuous with the angled stick shaft, forming the blade rather than a separate round ball."
+          },
+          {
+            "frame": 3965,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The same flattened reddish blade remains at the marked point; its outline follows the stick, with no distinct ball visible."
+          },
+          {
+            "frame": 3966,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked patch retains the broad stick-blade shape and connection to the shaft seen in adjacent frames."
+          },
+          {
+            "frame": 3967,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The reddish feature remains an elongated part of the stick blade at floor level, not a separately identifiable spherical object."
+          }
+        ]
+      },
+      "response_id": "resp_010e7fb11f7e47eb016adfd98ed6ac87d09ac4783911cf84ca",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 2187,
+        "input_tokens_details": {
+          "cache_write_tokens": 2184,
+          "cached_tokens": 0
+        },
+        "output_tokens": 548,
+        "output_tokens_details": {
+          "reasoning_tokens": 376
+        },
+        "total_tokens": 2735
+      },
+      "seconds": 18.932879447999994,
+      "estimated_usd": 0.0547375
+    },
+    "075": {
+      "id": "075",
+      "frames": [
+        4005,
+        4006
+      ],
+      "targets": [
+        4005,
+        4006
+      ],
+      "images": [
+        {
+          "frame": 4005,
+          "target": true,
+          "source_sha256": "f6f3b9437945e3514aad729436202175d66e3207e401e351d75c5a909cf0b9b7"
+        },
+        {
+          "frame": 4006,
+          "target": true,
+          "source_sha256": "23d9b921b55ad68c67ca827b0a69f8e8008f8fb186186993ebc1ad84e516e47e"
+        }
+      ],
+      "sheet_sha256": "8b431a6cda99c02551baa300aac01703d91ae39c029e35157993d968415a9e72",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 4005,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "A small rounded reddish spot is visible against the left end of the stick blade, on the rink surface and away from the official\u2019s shoes."
+          },
+          {
+            "frame": 4006,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "The rounded reddish spot remains visible beside the stick blade, consistent with the ball in the preceding frame."
+          }
+        ]
+      },
+      "response_id": "resp_00370c8b517262e5016adfd98ec59c87d08d26eeb5c06bdb15",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 665,
+        "output_tokens_details": {
+          "reasoning_tokens": 568
+        },
+        "total_tokens": 1922
+      },
+      "seconds": 20.823931475999984,
+      "estimated_usd": 0.0489625
+    },
+    "076": {
+      "id": "076",
+      "frames": [
+        4010,
+        4011
+      ],
+      "targets": [
+        4010,
+        4011
+      ],
+      "images": [
+        {
+          "frame": 4010,
+          "target": true,
+          "source_sha256": "4fdaa48464483b449f19fc233cc7969cf8fa018717354f195b44c41f99ddf6ea"
+        },
+        {
+          "frame": 4011,
+          "target": true,
+          "source_sha256": "47cc2e042cc5ed537694efe899afd5ab69d96a720b6378c1d78397db95bbed17"
+        }
+      ],
+      "sheet_sha256": "3fc3d56daedf2c4e05d6fa2d296132f3e4eb9402780370662c73d07ca7811911",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 4010,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "Small rounded reddish object on the court, separate from the official\u2019s shoes and just left of the stick blade."
+          },
+          {
+            "frame": 4011,
+            "object": "ball",
+            "support": "floor",
+            "evidence": "The compact reddish object remains visible on the court beside the stick, distinct from the official\u2019s moving shoes."
+          }
+        ]
+      },
+      "response_id": "resp_053044c4d8b18ba1016adfd99926bc87d08aacb6e553bc6db3",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 243
+        },
+        "total_tokens": 1592
+      },
+      "seconds": 10.296951714999977,
+      "estimated_usd": 0.0324625
+    },
+    "077": {
+      "id": "077",
+      "frames": [
+        4100
+      ],
+      "targets": [
+        4100
+      ],
+      "images": [
+        {
+          "frame": 4098,
+          "target": false,
+          "source_sha256": "f9ff44f70f8c5bc9cda17221d2173fad73aaa4889d8122e072ad4b32330d938c"
+        },
+        {
+          "frame": 4100,
+          "target": true,
+          "source_sha256": "3eee0209adfe1cde75fdb6e7e137491e6b4d71bb579dcf8d8f7402b2b1ec8fed"
+        },
+        {
+          "frame": 4102,
+          "target": false,
+          "source_sha256": "0583cbf62f0ea888e850eb70012b7f38b655fc9777e3557a4671f91cc0e4294c"
+        }
+      ],
+      "sheet_sha256": "385b67705aeac9e6c9510df702844fbbf98b85e651acc123c786b27ffdf4ed80",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 4100,
+            "object": "other",
+            "support": "floor",
+            "evidence": "The marked gray blur is continuous with the diagonal stick shadow. Across the neighboring frames it follows the stick\u2019s movement, rather than appearing as a separate round pink/red ball."
+          }
+        ]
+      },
+      "response_id": "resp_09d0f17b67c51049016adfd9a3c7f887d0ac81974fe2b8b7f8",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 905,
+        "output_tokens_details": {
+          "reasoning_tokens": 839
+        },
+        "total_tokens": 2619
+      },
+      "seconds": 21.964634657999966,
+      "estimated_usd": 0.066675
+    },
+    "078": {
+      "id": "078",
+      "frames": [
+        4139
+      ],
+      "targets": [
+        4139
+      ],
+      "images": [
+        {
+          "frame": 4137,
+          "target": false,
+          "source_sha256": "5187e4caeffa3902c531687d4c403ed864125ef69a24e7ee57a534544ec1cc64"
+        },
+        {
+          "frame": 4139,
+          "target": true,
+          "source_sha256": "46de408460ffc56401fe4b97164cade14567a71df625c42774ece80d7f55565f"
+        },
+        {
+          "frame": 4141,
+          "target": false,
+          "source_sha256": "38b015e97000d6f24236897ddb421267f17fa1107b9d1c785d24a83058a1a44f"
+        }
+      ],
+      "sheet_sha256": "50ace5463e3a4e1a6569cb055f342f76848212c0e141613e0e41126f1956c862",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 4139,
+            "object": "uncertain",
+            "support": "unclear",
+            "evidence": "The brackets enclose a very faint, diffuse spot beside the official. No distinct round pink/red outline or clear floor contact is resolved."
+          }
+        ]
+      },
+      "response_id": "resp_0d09aba7000210d9016adfd9aabbe087d08eade3918198d351",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 676,
+        "output_tokens_details": {
+          "reasoning_tokens": 615
+        },
+        "total_tokens": 2390
+      },
+      "seconds": 22.545788988000027,
+      "estimated_usd": 0.055225
+    },
+    "079": {
+      "id": "079",
+      "frames": [
+        4304
+      ],
+      "targets": [
+        4304
+      ],
+      "images": [
+        {
+          "frame": 4302,
+          "target": false,
+          "source_sha256": "69c4ff405f8692d24b9aeabf1271f15f00255ad007e35117f32ad90fdfb60670"
+        },
+        {
+          "frame": 4304,
+          "target": true,
+          "source_sha256": "a1406e9d873209f867af2bd98a4eec625840919a5d61e07a5572db63d0918cad"
+        },
+        {
+          "frame": 4306,
+          "target": false,
+          "source_sha256": "6d9686734c83d1b575efbdb3b25cb8acb42f8f99bdb217b240aea6c12da825b9"
+        }
+      ],
+      "sheet_sha256": "f632f0c5232a29514c9c0949a8848d17df74853ea0c986a56d71fd99ef8a8820",
+      "reserved_usd": 0.225225,
+      "input_tokens_counted": 1634,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 4304,
+            "object": "other",
+            "support": "unclear",
+            "evidence": "The marked pinkish patch is the blue-shirted spectator\u2019s exposed arm/elbow resting at the railing. It remains attached to the sleeve across adjacent frames, with no distinct ball visible."
+          }
+        ]
+      },
+      "response_id": "resp_03f5ae1892607974016adfd9abf80887d0926c004ac2f65d7c",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1714,
+        "input_tokens_details": {
+          "cache_write_tokens": 1711,
+          "cached_tokens": 0
+        },
+        "output_tokens": 224,
+        "output_tokens_details": {
+          "reasoning_tokens": 154
+        },
+        "total_tokens": 1938
+      },
+      "seconds": 7.057183377000001,
+      "estimated_usd": 0.032625
+    },
+    "080": {
+      "id": "080",
+      "frames": [
+        4440,
+        4441
+      ],
+      "targets": [
+        4440,
+        4441
+      ],
+      "images": [
+        {
+          "frame": 4440,
+          "target": true,
+          "source_sha256": "eb5ab7eec1d57d7894a306798487a25968d2a72ac70b5de84829e29501eb8e30"
+        },
+        {
+          "frame": 4441,
+          "target": true,
+          "source_sha256": "34254909923d43a9c31a5cae05104678fd4c69ba618bf32817e1ee3e8c0a233d"
+        }
+      ],
+      "sheet_sha256": "19283829ddb855092b1d9a2f74822d070d1083cb1061cb9acdc3da2cfc7c86f1",
+      "reserved_usd": 0.2195125,
+      "input_tokens_counted": 1177,
+      "status": "completed",
+      "answer": {
+        "samples": [
+          {
+            "frame": 4440,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "Compact, rounded bright-pink object above the far boards, visibly separate from surrounding people and equipment."
+          },
+          {
+            "frame": 4441,
+            "object": "ball",
+            "support": "airborne",
+            "evidence": "The same rounded pink object has shifted slightly relative to the background and remains above the boards, with no visible hand or surface contact."
+          }
+        ]
+      },
+      "response_id": "resp_0b9dd49818126add016adfd9ad537487d0af11aea4b3547bf9",
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 1257,
+        "input_tokens_details": {
+          "cache_write_tokens": 1254,
+          "cached_tokens": 0
+        },
+        "output_tokens": 728,
+        "output_tokens_details": {
+          "reasoning_tokens": 631
+        },
+        "total_tokens": 1985
+      },
+      "seconds": 21.50909868599996,
+      "estimated_usd": 0.0521125
+    }
+  }
+}

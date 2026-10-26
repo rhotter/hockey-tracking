@@ -1,0 +1,262 @@
+{
+  "adapted": true,
+  "hard_mining": true,
+  "adaptation_labels_sha256": "b344720315b441234ba8f46b32b4011e2b02af2b2f8aacf5bfc6f8374f91c922",
+  "training_positive_frames": 115,
+  "training_negative_crops": 6144,
+  "validation_positive_frames": 16,
+  "validation_negative_crops": 113,
+  "selected_epoch": 18,
+  "operating_point": {
+    "threshold": 0.8,
+    "tp": 13,
+    "fp": 1,
+    "fn": 3,
+    "f1": 0.8666666666666667
+  },
+  "weights_sha256": "1ec425d91ea3eefd1f970cc008975f64396b1ee4f2b48cae819a10da277c44f9",
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.08672882385276766,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 13,
+        "fp": 8,
+        "fn": 3,
+        "f1": 0.7027027027027027
+      },
+      "seconds": 3.983883679
+    },
+    {
+      "epoch": 2,
+      "loss": 0.002497954536176456,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 12,
+        "fp": 3,
+        "fn": 4,
+        "f1": 0.7741935483870968
+      },
+      "seconds": 6.954615202000001
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0015789935483057475,
+      "validation": {
+        "threshold": 0.8,
+        "tp": 12,
+        "fp": 2,
+        "fn": 4,
+        "f1": 0.8
+      },
+      "seconds": 9.887936126000001
+    },
+    {
+      "epoch": 4,
+      "loss": 0.000977255785321838,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 12,
+        "fp": 3,
+        "fn": 4,
+        "f1": 0.7741935483870968
+      },
+      "seconds": 12.838006233
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0004001214304232483,
+      "validation": {
+        "threshold": 0.8,
+        "tp": 12,
+        "fp": 2,
+        "fn": 4,
+        "f1": 0.8
+      },
+      "seconds": 15.713408505000002
+    },
+    {
+      "epoch": 6,
+      "loss": 0.0012138240596290086,
+      "validation": {
+        "threshold": 0.1,
+        "tp": 13,
+        "fp": 2,
+        "fn": 3,
+        "f1": 0.8387096774193549
+      },
+      "seconds": 18.508825426
+    },
+    {
+      "epoch": 7,
+      "loss": 0.00033713997337062295,
+      "validation": {
+        "threshold": 0.6,
+        "tp": 12,
+        "fp": 1,
+        "fn": 4,
+        "f1": 0.8275862068965517
+      },
+      "seconds": 21.775683225999998
+    },
+    {
+      "epoch": 8,
+      "loss": 0.0025264237726580836,
+      "validation": {
+        "threshold": 0.6,
+        "tp": 12,
+        "fp": 1,
+        "fn": 4,
+        "f1": 0.8275862068965517
+      },
+      "seconds": 24.721262023999998
+    },
+    {
+      "epoch": 9,
+      "loss": 0.00041357961907289626,
+      "validation": {
+        "threshold": 0.8,
+        "tp": 12,
+        "fp": 2,
+        "fn": 4,
+        "f1": 0.8
+      },
+      "seconds": 27.505455702999996
+    },
+    {
+      "epoch": 10,
+      "loss": 0.0016126609238695396,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 11,
+        "fp": 0,
+        "fn": 5,
+        "f1": 0.8148148148148148
+      },
+      "seconds": 30.329799197999996
+    },
+    {
+      "epoch": 11,
+      "loss": 0.0003625160872450744,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 11,
+        "fp": 0,
+        "fn": 5,
+        "f1": 0.8148148148148148
+      },
+      "seconds": 33.077632877
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0007279339844734005,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 11,
+        "fp": 0,
+        "fn": 5,
+        "f1": 0.8148148148148148
+      },
+      "seconds": 35.930611573
+    },
+    {
+      "epoch": 13,
+      "loss": 0.00010957726457987023,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 11,
+        "fp": 0,
+        "fn": 5,
+        "f1": 0.8148148148148148
+      },
+      "seconds": 38.773157417
+    },
+    {
+      "epoch": 14,
+      "loss": 8.18855786002876e-05,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 11,
+        "fp": 0,
+        "fn": 5,
+        "f1": 0.8148148148148148
+      },
+      "seconds": 41.657581672
+    },
+    {
+      "epoch": 15,
+      "loss": 0.0001464534668478088,
+      "validation": {
+        "threshold": 0.9,
+        "tp": 11,
+        "fp": 0,
+        "fn": 5,
+        "f1": 0.8148148148148148
+      },
+      "seconds": 44.438858132
+    },
+    {
+      "epoch": 16,
+      "loss": 7.95244900886742e-05,
+      "validation": {
+        "threshold": 0.8,
+        "tp": 12,
+        "fp": 1,
+        "fn": 4,
+        "f1": 0.8275862068965517
+      },
+      "seconds": 47.397660437
+    },
+    {
+      "epoch": 17,
+      "loss": 0.0004946931969904902,
+      "validation": {
+        "threshold": 0.7,
+        "tp": 12,
+        "fp": 0,
+        "fn": 4,
+        "f1": 0.8571428571428571
+      },
+      "seconds": 50.478530801999995
+    },
+    {
+      "epoch": 18,
+      "loss": 0.002914609618611311,
+      "validation": {
+        "threshold": 0.8,
+        "tp": 13,
+        "fp": 1,
+        "fn": 3,
+        "f1": 0.8666666666666667
+      },
+      "seconds": 53.65422834
+    },
+    {
+      "epoch": 19,
+      "loss": 0.0010661030361337578,
+      "validation": {
+        "threshold": 0.8,
+        "tp": 12,
+        "fp": 1,
+        "fn": 4,
+        "f1": 0.8275862068965517
+      },
+      "seconds": 56.675079509
+    },
+    {
+      "epoch": 20,
+      "loss": 0.005465662265785134,
+      "validation": {
+        "threshold": 0.7,
+        "tp": 13,
+        "fp": 6,
+        "fn": 3,
+        "f1": 0.7428571428571429
+      },
+      "seconds": 59.526355769000006
+    }
+  ],
+  "labels_sha256": "2a809d5dcca5b4f94f62d37412198487783bd377549763cc90e70b47b45c460b",
+  "limits": "Correlated pilot. Crop-verification validation is not full-frame detection accuracy. Hard negatives are mined only where a visible active ball has a known different location, plus 11 reviewed development false objects."
+}

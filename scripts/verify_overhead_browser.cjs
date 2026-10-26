@@ -17,7 +17,8 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   const video=page.locator('#overhead-video');await video.evaluate(async v=>{if(v.readyState<1)await new Promise(r=>v.addEventListener('loadedmetadata',r,{once:true}));});
   assert(Math.abs(await video.evaluate(v=>v.duration)-300)<.1);
   const mapped=replay.frames.find(r=>r.objects.some(o=>o.player_id===replay.default_player&&o.xy));
-  async function seek(f){await video.evaluate((v,f)=>{v.currentTime=f/15+.00001;},f);await page.waitForFunction(f=>Number(document.body.dataset.overheadFrame)===f,f);}
+  async function decoded(f){await page.waitForFunction(f=>{const v=document.getElementById('overhead-video');return !v.seeking&&v.readyState>=2&&Number(document.body.dataset.overheadFrame)===f;},f);}
+  async function seek(f){await video.evaluate((v,f)=>{v.currentTime=f/15+.00001;},f);await decoded(f);}
   await seek(mapped.frame);assert((await page.locator('#selected-status').innerText()).includes('mapped now'));
   assert(await page.locator('#overhead-overlay').evaluate(c=>c.getContext('2d').getImageData(0,0,c.width,c.height).data.some((v,i)=>i%4===3&&v>0)));
   await page.locator('#frame-next').click();await page.waitForFunction(f=>Number(document.body.dataset.overheadFrame)===f+1,mapped.frame);
@@ -32,21 +33,43 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   const csv=await page.locator('#trajectory-csv').evaluate(async a=>(await fetch(a.href)).text());assert.equal(csv.trim().split('\n').length,4501);assert(csv.includes('not_tracked'));
   const response=await page.request.get(base+'/data/overhead-20261025/report.json');assert(response.ok());assert.deepEqual(await response.json(),report);
   result.checks.push('Complete 300-second video, synchronized boxes and map, frame stepping, cut withholding, path controls, evidence photos, 4,500-row CSV and PNG export');
-  const ballReport=JSON.parse(fs.readFileSync(path.join(root,'web/data/ball-context-20261026/report.json')));
-  const ballResponse=await page.request.get(base+'/data/ball-context-20261026/report.json');assert(ballResponse.ok());assert.deepEqual(await ballResponse.json(),ballReport);
-  await page.locator('[data-ball-seek="158"]').click();await page.waitForFunction(()=>document.body.dataset.overheadFrame==='158');
+  const ballFolder=path.join(root,'web/data/ball-rebuild-20261026');
+  const ballReport=JSON.parse(fs.readFileSync(path.join(ballFolder,'report.json'))),ballData=JSON.parse(fs.readFileSync(path.join(ballFolder,'replay.json')));
+  const ballResponse=await page.request.get(base+'/data/ball-rebuild-20261026/report.json');assert(ballResponse.ok());assert.deepEqual(await ballResponse.json(),ballReport);
+  await page.locator('[data-ball-seek="2850"]').click();await decoded(2850);
+  assert.equal(await page.locator('body').getAttribute('data-ball-state'),ballData.frames[2850].state);
+  assert.equal(ballData.frames[2850].state,'detected');
+  assert((await page.locator('#ball-status').innerText()).includes('assumed error radius'));
+  assert(await page.locator('#ball-zoom').evaluate(c=>new Set(c.getContext('2d').getImageData(0,0,c.width,c.height).data).size>50));
+  await page.screenshot({path:output.replace(/\.json$/,'-ball-rebuild.png'),fullPage:true});
+  await page.locator('#ball-mode').selectOption('baseline');await seek(158);
   assert.equal(await page.locator('body').getAttribute('data-ball-state'),'inferred');
-  assert((await page.locator('#ball-status').innerText()).includes('model radius'));
-  await page.screenshot({path:output.replace(/\.json$/,'-ball-context.png'),fullPage:true});
-  await page.locator('#ball-mode').selectOption('detector');assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
+  const oldCSV=await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text());
+  assert.equal(oldCSV.split(',detected,').length-1,106);assert.equal(oldCSV.split(',inferred,').length-1,62);
   await page.locator('#ball-mode').selectOption('off');assert.equal(await page.locator('body').getAttribute('data-ball-state'),'off');
-  await page.locator('[data-ball-seek="2847"]').click();await page.waitForFunction(()=>document.body.dataset.overheadFrame==='2847');
-  assert((await page.locator('#ball-status').innerText()).includes('possible player occlusion'));
-  await seek(150);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'detected');
+  await page.locator('#ball-mode').selectOption('context');
+  await page.locator('[data-ball-seek="425"]').click();await decoded(425);
+  assert.equal(await page.locator('body').getAttribute('data-ball-state'),'detected');
+  for(const f of [2533,2568,1250,1288,1291,1343]){
+   await seek(f);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
+  }
+  for(const [f,support] of [[2614,'airborne'],[3368,'held']]){
+   await seek(f);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'detected');
+   assert.equal(ballData.frames[f].xy,null);
+   assert((await page.locator('#ball-status').innerText()).includes(support));
+   assert((await page.locator('#ball-status').innerText()).includes('rink position unavailable'));
+   assert(await page.locator('#ball-zoom').evaluate(c=>new Set(c.getContext('2d').getImageData(0,0,c.width,c.height).data).size>50));
+  }
+  await seek(150);assert.equal(await page.locator('body').getAttribute('data-ball-state'),ballData.frames[150].state);
   await seek(480);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
   const ballCSV=await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text());
-  assert.equal(ballCSV.trim().split('\n').length,4501);assert.equal(ballCSV.split(',inferred,').length-1,62);assert.equal(ballCSV.split(',detected,').length-1,106);
-  result.checks.push('Ball detection/context/off modes, inferred uncertainty overlay, occlusion example, cut withholding, 4,500-row ball CSV and current ball report');
+  assert.equal(ballCSV.trim().split('\n').length,4501);
+  for(const state of ['detected','inferred','unknown'])assert.equal(ballCSV.split(','+state+',').length-1,ballReport.states[state]);
+  assert((await page.locator('#ball-quality').innerText()).includes(ballReport.review.improved.test.tp+'/'+(ballReport.review.improved.test.tp+ballReport.review.improved.test.fn)));
+  await page.getByText('Ball model comparisons and review points',{exact:true}).click();
+  assert.equal(await page.locator('#ball-comparisons tbody tr').count(),Object.keys(ballReport.regression).length);
+  assert.equal(await page.locator('#ball-review-points button').count(),ballReport.review_points.length);
+  result.checks.push('Improved/previous/off ball modes, decoded-frame synchronization after seeking, magnified video, recovered sequence, diagnosed shoes/lights withheld, held/airborne image-only detections, per-mode CSV, scoped evaluation and review links');
   if(replay.players.length>1){await page.locator('#trajectory-player').selectOption(replay.players[1].id);assert((await page.locator('#identity-note').innerText()).includes('Automatic track fragment'));await page.locator('#trajectory-player').selectOption(replay.default_player);}
   await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Mobile overflow');
   await video.evaluate(async v=>{v.muted=true;await v.play();});const before=Number(await page.locator('body').getAttribute('data-overhead-frame'));await page.waitForFunction(f=>Number(document.body.dataset.overheadFrame)>f+10,before);await video.evaluate(v=>v.pause());

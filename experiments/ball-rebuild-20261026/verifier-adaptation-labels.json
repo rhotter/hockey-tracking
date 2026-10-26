@@ -1,0 +1,312 @@
+{
+  "rows": [
+    {
+      "frame": 187,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000188.jpg",
+      "sha256": "0d199b145eadcacd8415e1af4c23197cb095b8bfa927e98d20aba8f8c7421589",
+      "ball": {
+        "center": [
+          1117,
+          696
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 1012,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/001013.jpg",
+      "sha256": "194e88319f972ce09ab093334c13c931bed4d065ccfa26466ade4161b53aeb4c",
+      "ball": {
+        "center": [
+          212,
+          581
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 150,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000151.jpg",
+      "sha256": "35fe7ead626892a3c026d1675278499c11027991cee1adc160172cc55f813ac8",
+      "ball": {
+        "center": [
+          699,
+          680
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 160,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000161.jpg",
+      "sha256": "bf61bc537005fd9923098813d2140f890c7daf367f8ef1b9e8eccb15cbe5cbca",
+      "ball": {
+        "center": [
+          813,
+          672
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 180,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000181.jpg",
+      "sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb",
+      "ball": {
+        "center": [
+          1005,
+          699
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 190,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000191.jpg",
+      "sha256": "f902058e10bec97d2b25adb1c28efa248a99588ad9f443edada94af392889ade",
+      "ball": {
+        "center": [
+          1210,
+          694
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 270,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000271.jpg",
+      "sha256": "d9cb1fb100831b908ac78b508e5e2b229473f7c1274f235d7608b49931e4e4f9",
+      "ball": {
+        "center": [
+          1460,
+          616
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 290,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000291.jpg",
+      "sha256": "019f708891a2aa2662a38a844c9333be0113b7b0f16f790b7d918d1797ed01bc",
+      "ball": {
+        "center": [
+          1650,
+          617
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 147,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000148.jpg",
+      "ball": {
+        "center": [
+          666.8102416992188,
+          680.4674072265625
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 155,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000156.jpg",
+      "ball": {
+        "center": [
+          839.02587890625,
+          677.7176208496094
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 164,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000165.jpg",
+      "ball": {
+        "center": [
+          747.1651000976562,
+          669.06298828125
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 186,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000187.jpg",
+      "ball": {
+        "center": [
+          1090.3883666992188,
+          695.8611755371094
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 291,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000292.jpg",
+      "ball": {
+        "center": [
+          1662.9287109375,
+          613.6572265625
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 396,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000397.jpg",
+      "ball": {
+        "center": [
+          668.6602172851562,
+          583.1691284179688
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 427,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000428.jpg",
+      "ball": {
+        "center": [
+          1193.6483154296875,
+          596.203369140625
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 439,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000440.jpg",
+      "ball": {
+        "center": [
+          987.6282653808594,
+          622.2911376953125
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 449,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000450.jpg",
+      "ball": {
+        "center": [
+          795.5977783203125,
+          643.6263427734375
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 964,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000965.jpg",
+      "ball": {
+        "center": [
+          405.42041015625,
+          552.2774047851562
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 980,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000981.jpg",
+      "ball": {
+        "center": [
+          744.7136840820312,
+          643.7631225585938
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 994,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/000995.jpg",
+      "ball": {
+        "center": [
+          549.6759338378906,
+          719.6973876953125
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 1011,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/001012.jpg",
+      "ball": {
+        "center": [
+          209.61305236816406,
+          595.2838745117188
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 1036,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/001037.jpg",
+      "ball": {
+        "center": [
+          499.9393615722656,
+          505.3063659667969
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    },
+    {
+      "frame": 1180,
+      "image": "/data/ball-hockey/reliability-20261018/overhead-20261025-v1/frames/001181.jpg",
+      "ball": {
+        "center": [
+          624.4137573242188,
+          499.6595764160156
+        ]
+      },
+      "split": "train",
+      "source_id": "OLpK8enSjJs",
+      "clip": "nj-overhead-development"
+    }
+  ],
+  "limits": "23 correlated, assistant-reviewed development ball positions from the current game. These become training data for the adapted crop verifier; development recall is therefore not a test metric. Reserved later frames are excluded."
+}

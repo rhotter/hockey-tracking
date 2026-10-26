@@ -1,0 +1,7670 @@
+[
+  {
+    "name": "verifier-v4",
+    "gate": 0.01,
+    "evidence": 0.08,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1383.827362087945,
+            632.5535049154018
+          ],
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 1,
+    "old_development": {
+      "tp": 13,
+      "fp": 2,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.8666666666666667,
+      "recall": 0.8125,
+      "f1": 0.8387096774193549,
+      "mean_correct_error_px": 2.055836381985526,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 1066.3242067981332,
+          "prediction": [
+            1769.416469607323,
+            556.0106797832038
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.6872449124535628,
+          "prediction": [
+            1375.5470981243047,
+            720.5840802816942
+          ],
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 480,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.01,
+    "evidence": 0.15,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1383.827362087945,
+            632.5535049154018
+          ],
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 1,
+    "old_development": {
+      "tp": 13,
+      "fp": 2,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.8666666666666667,
+      "recall": 0.8125,
+      "f1": 0.8387096774193549,
+      "mean_correct_error_px": 2.055836381985526,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 1066.3242067981332,
+          "prediction": [
+            1769.416469607323,
+            556.0106797832038
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.6872449124535628,
+          "prediction": [
+            1375.5470981243047,
+            720.5840802816942
+          ],
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 355,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.05,
+    "evidence": 0.08,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1383.827362087945,
+            632.5535049154018
+          ],
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 1,
+    "old_development": {
+      "tp": 12,
+      "fp": 2,
+      "fn": 4,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "mean_correct_error_px": 2.16988567111319,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 1066.3242067981332,
+          "prediction": [
+            1769.416469607323,
+            556.0106797832038
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 410,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.05,
+    "evidence": 0.15,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1383.827362087945,
+            632.5535049154018
+          ],
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 1,
+    "old_development": {
+      "tp": 12,
+      "fp": 2,
+      "fn": 4,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "mean_correct_error_px": 2.16988567111319,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 1066.3242067981332,
+          "prediction": [
+            1769.416469607323,
+            556.0106797832038
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 348,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.2,
+    "evidence": 0.08,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1383.827362087945,
+            632.5535049154018
+          ],
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 12,
+      "fp": 2,
+      "fn": 4,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "mean_correct_error_px": 2.16988567111319,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 1066.3242067981332,
+          "prediction": [
+            1769.416469607323,
+            556.0106797832038
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 390,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.2,
+    "evidence": 0.15,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1383.827362087945,
+            632.5535049154018
+          ],
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 12,
+      "fp": 2,
+      "fn": 4,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1": 0.8,
+      "mean_correct_error_px": 2.16988567111319,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 1066.3242067981332,
+          "prediction": [
+            1769.416469607323,
+            556.0106797832038
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 339,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.5,
+    "evidence": 0.08,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.9285714285714286,
+      "recall": 0.8125,
+      "f1": 0.8666666666666667,
+      "mean_correct_error_px": 2.3386878121713677,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.364313504869501,
+          "prediction": [
+            708.3223009643802,
+            599.3958917794766
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 371,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.5,
+    "evidence": 0.15,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 0.9285714285714286,
+      "recall": 0.8125,
+      "f1": 0.8666666666666667,
+      "mean_correct_error_px": 2.3386878121713677,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": 173.5150429220139,
+          "prediction": [
+            520.6342514266087,
+            576.80365774744
+          ],
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.364313504869501,
+          "prediction": [
+            708.3223009643802,
+            599.3958917794766
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 330,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.8,
+    "evidence": 0.08,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931,
+      "mean_correct_error_px": 2.3386878121713677,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.364313504869501,
+          "prediction": [
+            708.3223009643802,
+            599.3958917794766
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 350,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.8,
+    "evidence": 0.15,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931,
+      "mean_correct_error_px": 2.3386878121713677,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.364313504869501,
+          "prediction": [
+            708.3223009643802,
+            599.3958917794766
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 319,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.9,
+    "evidence": 0.08,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931,
+      "mean_correct_error_px": 2.3386878121713677,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.364313504869501,
+          "prediction": [
+            708.3223009643802,
+            599.3958917794766
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 337,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  },
+  {
+    "name": "verifier-v4",
+    "gate": 0.9,
+    "evidence": 0.15,
+    "appearance": "appearance-shape.json",
+    "shape_config": {
+      "min_area": 100,
+      "min_major_sigma": 7,
+      "min_axis_ratio": 2,
+      "max_distance": 3
+    },
+    "development": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "tn": 1,
+      "unknown_excluded": 26,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "mean_correct_error_px": 2.0302122941427574,
+      "details": [
+        {
+          "frame": 187,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.530497586731923,
+          "prediction": [
+            1118.4487579481947,
+            695.5065192298226
+          ],
+          "target": [
+            1117,
+            696
+          ]
+        },
+        {
+          "frame": 487,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": null
+        },
+        {
+          "frame": 1012,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.2518543515448386,
+          "prediction": [
+            213.22759095442726,
+            581.2452748786365
+          ],
+          "target": [
+            212,
+            581
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": null,
+          "hit": true,
+          "error_px": 1.7161370435452812,
+          "prediction": [
+            700.0995411056142,
+            678.6823749739425
+          ],
+          "target": [
+            699,
+            680
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.5384461400643312,
+          "prediction": [
+            813.1862263852747,
+            671.4947832354546
+          ],
+          "target": [
+            813,
+            672
+          ]
+        },
+        {
+          "frame": 180,
+          "clip": null,
+          "hit": true,
+          "error_px": 3.8880518364101984,
+          "prediction": [
+            1008.1877264342004,
+            696.7739390701706
+          ],
+          "target": [
+            1005,
+            699
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.6661300291461654,
+          "prediction": [
+            1212.3333785336858,
+            695.2898038420043
+          ],
+          "target": [
+            1210,
+            694
+          ]
+        },
+        {
+          "frame": 270,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1460,
+            616
+          ]
+        },
+        {
+          "frame": 290,
+          "clip": null,
+          "hit": true,
+          "error_px": 2.620369071556565,
+          "prediction": [
+            1649.3604537574097,
+            614.458875313024
+          ],
+          "target": [
+            1650,
+            617
+          ]
+        }
+      ]
+    },
+    "diagnostic_positive": {
+      "tp": 17,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1": 0.9714285714285714,
+      "mean_correct_error_px": 0.0,
+      "details": [
+        {
+          "frame": 1826,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            241.22697809058002,
+            734.0986051398223
+          ],
+          "target": [
+            241.22697809058002,
+            734.0986051398223
+          ]
+        },
+        {
+          "frame": 1833,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            302.76088249247005,
+            777.5700815617579
+          ],
+          "target": [
+            302.76088249247005,
+            777.5700815617579
+          ]
+        },
+        {
+          "frame": 1841,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            637.524691751202,
+            818.08030109984
+          ],
+          "target": [
+            637.524691751202,
+            818.08030109984
+          ]
+        },
+        {
+          "frame": 2572,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1077.5589766236976,
+            532.7555250444677
+          ],
+          "target": [
+            1077.5589766236976,
+            532.7555250444677
+          ]
+        },
+        {
+          "frame": 2579,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1209.4034388025384,
+            539.1673511018622
+          ],
+          "target": [
+            1209.4034388025384,
+            539.1673511018622
+          ]
+        },
+        {
+          "frame": 2606,
+          "clip": null,
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1383.827362087945,
+            632.5535049154018
+          ]
+        },
+        {
+          "frame": 2734,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1565.146145470767,
+            465.9081743512037
+          ],
+          "target": [
+            1565.146145470767,
+            465.9081743512037
+          ]
+        },
+        {
+          "frame": 2819,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1575.7492310401185,
+            486.01989706856966
+          ],
+          "target": [
+            1575.7492310401185,
+            486.01989706856966
+          ]
+        },
+        {
+          "frame": 2838,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            508.32632772018894,
+            614.3096039396403
+          ],
+          "target": [
+            508.32632772018894,
+            614.3096039396403
+          ]
+        },
+        {
+          "frame": 2849,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            794.7733496864165,
+            601.846415395934
+          ],
+          "target": [
+            794.7733496864165,
+            601.846415395934
+          ]
+        },
+        {
+          "frame": 2856,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            711.2030161224993,
+            577.2011093221165
+          ],
+          "target": [
+            711.2030161224993,
+            577.2011093221165
+          ]
+        },
+        {
+          "frame": 2864,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            600.9480710678044,
+            549.887013547205
+          ],
+          "target": [
+            600.9480710678044,
+            549.887013547205
+          ]
+        },
+        {
+          "frame": 2871,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            518.0836323587345,
+            539.8649052654914
+          ],
+          "target": [
+            518.0836323587345,
+            539.8649052654914
+          ]
+        },
+        {
+          "frame": 2879,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            445.996585733203,
+            520.2093277104741
+          ],
+          "target": [
+            445.996585733203,
+            520.2093277104741
+          ]
+        },
+        {
+          "frame": 2886,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            392.1652764070339,
+            504.40746450017195
+          ],
+          "target": [
+            392.1652764070339,
+            504.40746450017195
+          ]
+        },
+        {
+          "frame": 3847,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            751.7944331593819,
+            489.25381805965355
+          ],
+          "target": [
+            751.7944331593819,
+            489.25381805965355
+          ]
+        },
+        {
+          "frame": 3951,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1346.43996374979,
+            506.759029761388
+          ],
+          "target": [
+            1346.43996374979,
+            506.759029761388
+          ]
+        },
+        {
+          "frame": 3989,
+          "clip": null,
+          "hit": true,
+          "error_px": 0.0,
+          "prediction": [
+            1289.8294427337228,
+            498.50972136949775
+          ],
+          "target": [
+            1289.8294427337228,
+            498.50972136949775
+          ]
+        }
+      ]
+    },
+    "diagnostic_errors_repeated": 0,
+    "old_development": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 3,
+      "tn": 0,
+      "unknown_excluded": 0,
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1": 0.896551724137931,
+      "mean_correct_error_px": 2.3386878121713677,
+      "details": [
+        {
+          "frame": 188,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.612117101017844,
+          "prediction": [
+            773.3919461580062,
+            666.506952086291
+          ],
+          "target": [
+            774,
+            668
+          ]
+        },
+        {
+          "frame": 190,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.9777869132897168,
+          "prediction": [
+            737.0887746952561,
+            670.3488759170341
+          ],
+          "target": [
+            736,
+            672
+          ]
+        },
+        {
+          "frame": 192,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.5064946303405593,
+          "prediction": [
+            703.8436276756322,
+            676.4983879141446
+          ],
+          "target": [
+            704,
+            679
+          ]
+        },
+        {
+          "frame": 194,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 2.3143157956182465,
+          "prediction": [
+            674.4661115047309,
+            678.7331083689321
+          ],
+          "target": [
+            674,
+            681
+          ]
+        },
+        {
+          "frame": 196,
+          "clip": "nj-0900",
+          "hit": true,
+          "error_px": 1.1183826171291777,
+          "prediction": [
+            666.5469573759628,
+            679.9755087427474
+          ],
+          "target": [
+            666,
+            679
+          ]
+        },
+        {
+          "frame": 100,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            694,
+            584
+          ]
+        },
+        {
+          "frame": 110,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.364313504869501,
+          "prediction": [
+            708.3223009643802,
+            599.3958917794766
+          ],
+          "target": [
+            704,
+            600
+          ]
+        },
+        {
+          "frame": 114,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 0.8995740623698147,
+          "prediction": [
+            774.6624181521593,
+            612.8338297126494
+          ],
+          "target": [
+            775,
+            612
+          ]
+        },
+        {
+          "frame": 120,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            892,
+            618
+          ]
+        },
+        {
+          "frame": 130,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.2211974210485013,
+          "prediction": [
+            657.0073825409738,
+            643.3097076291044
+          ],
+          "target": [
+            656,
+            644
+          ]
+        },
+        {
+          "frame": 132,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7823311472056163,
+          "prediction": [
+            585.733415902114,
+            651.5853029677008
+          ],
+          "target": [
+            584,
+            652
+          ]
+        },
+        {
+          "frame": 150,
+          "clip": "nj-2400",
+          "hit": false,
+          "error_px": null,
+          "prediction": null,
+          "target": [
+            1375,
+            721
+          ]
+        },
+        {
+          "frame": 152,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7279976085319446,
+          "prediction": [
+            1478.707291704452,
+            723.8533173945186
+          ],
+          "target": [
+            1480,
+            725
+          ]
+        },
+        {
+          "frame": 154,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 5.006558486850842,
+          "prediction": [
+            1560.552943884943,
+            736.6932488575969
+          ],
+          "target": [
+            1558,
+            741
+          ]
+        },
+        {
+          "frame": 158,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 1.7893291561086464,
+          "prediction": [
+            1651.590175893754,
+            736.3108015974042
+          ],
+          "target": [
+            1651,
+            738
+          ]
+        },
+        {
+          "frame": 160,
+          "clip": "nj-2400",
+          "hit": true,
+          "error_px": 4.082543113847371,
+          "prediction": [
+            1669.322062532127,
+            731.930180102041
+          ],
+          "target": [
+            1669,
+            736
+          ]
+        }
+      ]
+    },
+    "outputs": 309,
+    "weights_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a"
+  }
+]

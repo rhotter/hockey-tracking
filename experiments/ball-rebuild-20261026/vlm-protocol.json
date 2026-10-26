@@ -1,0 +1,14 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "max_output_tokens": 4096,
+  "budget_usd": 20,
+  "input_usd_per_million": 10,
+  "output_usd_per_million": 50,
+  "pricing_source": "Previously checked OpenAI protocol, 2026-10-24; estimates include 1.25x input cost and exclude Modal charges.",
+  "source_replay_sha256": "d1fe2f463a648f9260a0d5132217a04b720a0881e2f7b0e86711c196476aa44a",
+  "frozen_at_utc": "2026-10-26T22:27:33.963668+00:00",
+  "scope": "NBHL only; five-minute reused New Jersey segment. Episode review receives visual proposals, not ground-truth labels or prior model answers.",
+  "application_rule": "Keep only locations whose nearest sampled frame in their episode is classified ball. Unknown/failed reviews withhold output. Floor coordinates require floor support. No extra positions generated.",
+  "limits": "The v4 output audit exposed shoe failures and motivated this review stage. This is development on a reused recording, not an independent final benchmark."
+}

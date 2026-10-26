@@ -1,0 +1,69 @@
+{
+  "sources": [
+    "full1280",
+    "full1920",
+    "tiles640"
+  ],
+  "person_context": "people-pose-tiled.json",
+  "appearance": "appearance-shape.json",
+  "path_config": {
+    "evidence_floor": 0.15,
+    "birth_cost": 0.8,
+    "motion_weight": 0.5,
+    "motion_scale_px": 55.0,
+    "max_displacement_px": 180.0,
+    "torso_penalty": 0.7,
+    "outside_penalty": 2.0
+  },
+  "excluded_frames": [
+    466,
+    516
+  ],
+  "frozen_at_utc": "2026-10-26T22:23:26.174154+00:00",
+  "selection_basis": "Follow-up development selection after the first prototype failed a broader output audit. Spatial verifier v4, crop gate 0.9, path evidence floor 0.15, and elongated-color rejection retain 17/18 diagnostic positive samples and repeat none of nine diagnosed errors; old development frame check 13/16 correct with zero wrong outputs. Same known-positive recall as less conservative gate 0.8 with fewer weak outputs. These diagnostics are reused for selection; they are not a final independent test. The nine-point temporal check is now reused, and 23 current-game development positives train the verifier. The 59 cross-game regression labels remain out of training and were not scored for verifier selection. A subsequent 36-point additional-position audit exposed two more shoes and a held-ball projection error. This motivated a separately recorded GPT-6 Astra review stage. Its conservative application rule was specified in vlm-protocol.json and clarified in vlm-application.json; review decisions do not create coordinates.",
+  "labels_sha256": {
+    "review-labels.json": "49825f11ca3a2d0d89b8583c7e186e08a71cb19838b3394d2c7d1e33115edfda",
+    "targeted-labels.json": "671f3040fcaeb6d76c53c429b6244d5910d83c6e86bac02f56b50beb0ece7a5e",
+    "development-audit.json": "081225583e163b130a3bd8385c5ae8ead4e40ba0f388f0d1e5d41c4f54ec2ffe",
+    "output-audit-v1.json": "361eca830609458a0a260fe54b17c494f9305bf3a10c818a5155bd7278b52f72",
+    "training-labels.json": "2a809d5dcca5b4f94f62d37412198487783bd377549763cc90e70b47b45c460b",
+    "verifier-adaptation-labels.json": "b344720315b441234ba8f46b32b4011e2b02af2b2f8aacf5bfc6f8374f91c922",
+    "output-audit-v4.json": "44bd201fb1077c303d89e530ebfebd20cb767a65530dae3f9f0bf0fc338eae92",
+    "vlm-protocol.json": "e7e16753a463ced2f5563611b35f9a77984a57b477a7e5fffbb6dbe19df5acce",
+    "vlm-application.json": "d08dc8f000274bdf2150e637f88100abd97252f2b563322f846962b1b7346e2b",
+    "vlm-recall-protocol.json": "1f6eab049b1b5a8e7478f612d600e776b550177fabf3688142fe48edd4599d1c",
+    "recall-development-audit.json": "6c5d62ec51fc966fef9bdc4a0d307108c4c05ef28196d560e0c522259d8645e8"
+  },
+  "verifier": "verifier-v4",
+  "verification_threshold": 0.9,
+  "shape_config": {
+    "min_area": 100,
+    "min_major_sigma": 7,
+    "min_axis_ratio": 2,
+    "max_distance": 3
+  },
+  "gap_seconds": 0.2,
+  "max_inferred_radius_px": 24,
+  "visual_review": "visual-review/ledger.json",
+  "visual_review_protocol": "vlm-protocol.json",
+  "visual_review_application": "vlm-application.json",
+  "visual_review_frozen_at_utc": "2026-10-26T22:27:33.963668+00:00",
+  "recall": {
+    "verification_threshold": 0.01,
+    "path_config": {
+      "evidence_floor": 0.08,
+      "birth_cost": 0.8,
+      "motion_weight": 0.5,
+      "motion_scale_px": 55.0,
+      "max_displacement_px": 180.0,
+      "torso_penalty": 0.7,
+      "outside_penalty": 2.0
+    },
+    "visual_review": "visual-review-recall/ledger.json",
+    "protocol": "vlm-recall-protocol.json",
+    "enabled": true,
+    "require_floor_support": true,
+    "selection_basis": "Additional visual candidates only, where the conservative CV pass was unknown. A diagnostic audit found red background lights accepted as airborne balls. Restrict this weaker recovery pass to reviewed floor support and valid floor projection; do not overwrite primary points or add interpolation. Fresh output audit follows this gate selection."
+  },
+  "recall_frozen_at_utc": "2026-10-26T22:53:17.706672+00:00"
+}

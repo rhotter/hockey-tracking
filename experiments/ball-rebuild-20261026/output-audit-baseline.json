@@ -1,0 +1,407 @@
+{
+  "sampling": "36 equally spaced quantiles of previous-tracker non-unknown outputs at frames >=1500. Native frame-2, frame, frame+2 crops.",
+  "counts": {
+    "visible_ball": 33,
+    "unclear": 3
+  },
+  "used_for_training": false,
+  "limits": "Assistant visual audit, not independently verified ground truth. Strongly correlated points concentrated in a few clear-ball sequences; unclear cases excluded from any precision calculation. Does not measure recall.",
+  "rows": [
+    {
+      "frame": 1822,
+      "pixel": [
+        347.60971069335903,
+        724.966369628906
+      ],
+      "state": "detected",
+      "source_sha256": "8eced40b347e6d71369cde58124fc56e7d17accacfbdf8ac1ff21fe3aea71c92",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1824,
+      "pixel": [
+        294.19143676757807,
+        728.4417114257811
+      ],
+      "state": "detected",
+      "source_sha256": "cb42b386798f47f879c66d445dfd137c57d90760a145fb68f67b94bfedfa720e",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1827,
+      "pixel": [
+        219.73994122060165,
+        743.9630942008021
+      ],
+      "state": "inferred",
+      "source_sha256": "92ae970fefb295b35c2cf45444fa8da0e3c63f1c53b4e55ff9f3c134f59bf839",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1829,
+      "pixel": [
+        197.93464660644528,
+        762.6929321289062
+      ],
+      "state": "detected",
+      "source_sha256": "be3489973b40012086f4a73c858da2c8b643422103384e67ac97cb325a77d7f2",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1831,
+      "pixel": [
+        223.159340998752,
+        774.6136113080314
+      ],
+      "state": "inferred",
+      "source_sha256": "1ae0c018b9c076e276c5a4d706b6594183fbe3495287c07367ab8aa7dab523ea",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1834,
+      "pixel": [
+        353.86276245117256,
+        777.068420410156
+      ],
+      "state": "detected",
+      "source_sha256": "eb5c20c3e3d6a2d3f031c3677312b2b15bc86f6288f175ec339f17740b08e0f4",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1836,
+      "pixel": [
+        433.4371032714851,
+        791.6161193847656
+      ],
+      "state": "detected",
+      "source_sha256": "61a83069fd6fa48c2304865ed7ef51f756df86ca09cf363840de8f09309d89ac",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 1839,
+      "pixel": [
+        546.9190625937584,
+        830.0263463143016
+      ],
+      "state": "inferred",
+      "source_sha256": "bbc5a106cd886861f06a4de3052ada46ed6d4220ce2ec0b820926705b7b08e65",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2665,
+      "pixel": [
+        599.9168090820333,
+        773.5202636718751
+      ],
+      "state": "detected",
+      "source_sha256": "adb1ab036c91db90fd8038c0f45409c67fdeb8c48a5de6a9ce62ca407608237b",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2667,
+      "pixel": [
+        614.0505676269512,
+        773.6145629882816
+      ],
+      "state": "detected",
+      "source_sha256": "94fc8a6c3735442bcb47f8bd10df366102011b652027974c83671600d72d263e",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2670,
+      "pixel": [
+        632.190251393523,
+        782.0285858077734
+      ],
+      "state": "inferred",
+      "source_sha256": "44f8f481d08b85eef8fbec449c14c5690ffce2a1c08e74d00cb7ac18693c57a7",
+      "verdict": "unclear",
+      "note": "Motion blur and stick overlap prevent a reliable position judgement."
+    },
+    {
+      "frame": 2672,
+      "pixel": [
+        615.5065673783348,
+        788.1979699175406
+      ],
+      "state": "inferred",
+      "source_sha256": "ae1dc9a6c5ed8d622dcc2c327758dc2fac1bd78047216a090731250b2aa600dc",
+      "verdict": "unclear",
+      "note": "Ball position is not resolved at the inferred center."
+    },
+    {
+      "frame": 2807,
+      "pixel": [
+        363.91365576573816,
+        876.7347640528208
+      ],
+      "state": "inferred",
+      "source_sha256": "60c0ecf23724e985dd13060eab6067c6b25a567b48380111d9a22d6485f41f72",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2809,
+      "pixel": [
+        360.4599304199185,
+        866.0057373046878
+      ],
+      "state": "detected",
+      "source_sha256": "f6bbb894dfaee061a66acc78bc78476f8410bacfbbe60dcccaaa5a142b128548",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2812,
+      "pixel": [
+        347.2907409667974,
+        848.7980346679693
+      ],
+      "state": "detected",
+      "source_sha256": "019b9407f137988a68bd8a237d489f695cdda553a5ffeae38834cb87e6187353",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2814,
+      "pixel": [
+        336.7282330952572,
+        840.3178963446758
+      ],
+      "state": "inferred",
+      "source_sha256": "74839328643f43f2e916502166c6709255156fa5f40c0f8d1088bde099afea80",
+      "verdict": "unclear",
+      "note": "Near-side boards obscure the expected position."
+    },
+    {
+      "frame": 2843,
+      "pixel": [
+        857.807647705079,
+        629.7345581054688
+      ],
+      "state": "detected",
+      "source_sha256": "5b32314c023884be90d1361faaf015148b700715b6cb8b24f073f47cc93dd8ae",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2846,
+      "pixel": [
+        844.5375906300683,
+        614.2745115451007
+      ],
+      "state": "inferred",
+      "source_sha256": "9e46f01577a282faa0e3218c35e1d70d007c66f00cd1dcc409a1a7bdab1a9597",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2848,
+      "pixel": [
+        811.0338060210353,
+        605.3549924240183
+      ],
+      "state": "inferred",
+      "source_sha256": "95f70f3679ddc4d48f7bf5c959dee9172dbc3b37f2cef5039ebc2df3586a1064",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2851,
+      "pixel": [
+        763.4042358398447,
+        588.6851806640622
+      ],
+      "state": "detected",
+      "source_sha256": "74fa7acb517f82536f174ea09a7d79a2a3ebc46925cef21a69c2c1727d760e69",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2853,
+      "pixel": [
+        737.452056884766,
+        579.5730590820312
+      ],
+      "state": "detected",
+      "source_sha256": "8ae8dc8824937a5c51f8c22e3c2a4966a3286d0c1df6f8a02666443116f58f75",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2855,
+      "pixel": [
+        722.0849818775483,
+        576.8600972811222
+      ],
+      "state": "inferred",
+      "source_sha256": "996818a6770ba35bf1f6f5eabb0a256e54b7f00a838cb7381545d412e87dd1a2",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2858,
+      "pixel": [
+        682.0421752929705,
+        572.3852233886718
+      ],
+      "state": "detected",
+      "source_sha256": "41d143125887392fcbd8f5d003afce5d338c2f7717e362b71584c3fd2331ede9",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2860,
+      "pixel": [
+        648.8538818359386,
+        568.299865722656
+      ],
+      "state": "detected",
+      "source_sha256": "729d4877532f2a013abaf32ce259e60a0fc29ba3bf01e22106456e84d1fe3d6b",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2863,
+      "pixel": [
+        611.1458129882798,
+        552.2656860351564
+      ],
+      "state": "detected",
+      "source_sha256": "f9caf74015c01835fd4372560c9a0327a8a7aca2fbe9375bd890bedb89a8bbe7",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2865,
+      "pixel": [
+        591.1489562988285,
+        547.8791198730468
+      ],
+      "state": "detected",
+      "source_sha256": "32d76a9dadc1826c957fa7d01363da5d7e9faddc97a89dceeb8965d91b5d4395",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2868,
+      "pixel": [
+        553.9174804687495,
+        545.3189392089844
+      ],
+      "state": "detected",
+      "source_sha256": "50a9a82bd43c07ebf125f330e5e2a305f55ddb0ba73034fb70908e84bc099884",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2870,
+      "pixel": [
+        529.6369116603121,
+        543.1487442266748
+      ],
+      "state": "inferred",
+      "source_sha256": "5d372e91fd8b4803b3d06189a74b2e0e4701149d6257a7579ded657908fbf241",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2872,
+      "pixel": [
+        508.646789550781,
+        535.8988647460938
+      ],
+      "state": "detected",
+      "source_sha256": "566806e95ee3f53c1a418490dc53948264882c871dec910dc9ce518892635661",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2875,
+      "pixel": [
+        481.5491638183578,
+        525.1522827148439
+      ],
+      "state": "detected",
+      "source_sha256": "2883e6a052e32b068acb5e6450af77a648e4295f91b12855d167eec7d4df6e82",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2877,
+      "pixel": [
+        464.15908813476517,
+        521.2895507812499
+      ],
+      "state": "detected",
+      "source_sha256": "ee0ca2433bc7b9c38ee90e7f71f0ab66470f5265f5d3469c9b3e718175d96219",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2880,
+      "pixel": [
+        437.0670776367199,
+        521.1775817871093
+      ],
+      "state": "detected",
+      "source_sha256": "c762fc88b7d69fdec8f782bf35417fbe1ae1766e1f748705be09fcf3ffd51c3e",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2882,
+      "pixel": [
+        415.4085083007833,
+        517.6896972656248
+      ],
+      "state": "detected",
+      "source_sha256": "d2a513783a5e8abc9b071abd00cedb90ec154564c020b152ab7fe8409056a868",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2884,
+      "pixel": [
+        395.3036095686548,
+        511.7830540629772
+      ],
+      "state": "inferred",
+      "source_sha256": "c88983ed8385d32e9d9995125d4ef64d0649e491d7a4a4a95d2b5d66ee8385f4",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2887,
+      "pixel": [
+        392.50964355468665,
+        502.6808166503906
+      ],
+      "state": "detected",
+      "source_sha256": "f25e357ce725bb1bc4abf17210a96496728c5f63c999490645e525a5fbff54ce",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    },
+    {
+      "frame": 2889,
+      "pixel": [
+        403.86759831328357,
+        497.4727735838401
+      ],
+      "state": "inferred",
+      "source_sha256": "05885947b7904861363afc88eaef7883b67c8dc49c1299e312f1021092f8d8e5",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or close to the proposed center in the native crop sequence."
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "sampling": "36 equally spaced quantiles of non-unknown outputs at frames >=1500, after first frozen selection. Native crops at frame-2,frame,frame+2; no overlays on pixels.",
+  "counts": {
+    "wrong_location": 9,
+    "visible_ball": 18,
+    "unclear": 9
+  },
+  "used_for_development_after_review": true,
+  "limits": "This audit exposed failures and informed the follow-up verifier and shorter gap limit. It is not an independent final accuracy estimate. Unclear samples remain unscored.",
+  "rows": [
+    {
+      "frame": 1818,
+      "pixel": [
+        460.52596893026396,
+        712.4883208173289
+      ],
+      "state": "inferred",
+      "source_sha256": "639d4addfaa310c94668922400dc27c55edd4ee8439fdb5386490d69bb2ef206",
+      "verdict": "wrong_location",
+      "note": "Inferred point drifted from the visible ball during a direction/camera change."
+    },
+    {
+      "frame": 1826,
+      "pixel": [
+        241.22697809058002,
+        734.0986051398223
+      ],
+      "state": "detected",
+      "source_sha256": "f834df09368ca1cf2458366ee8ce1bcadd69b3f69128140abbde763f39fb3b01",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1833,
+      "pixel": [
+        302.76088249247005,
+        777.5700815617579
+      ],
+      "state": "detected",
+      "source_sha256": "27c2ddcce7f06494b901a16d0e0770cfd03a7d1849420ea3cad4eb1c93af36c4",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1841,
+      "pixel": [
+        637.524691751202,
+        818.08030109984
+      ],
+      "state": "detected",
+      "source_sha256": "aa876e470d28a30f9cd12736932f5d7dc421ad0043ca94f274f482cee1b140f7",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1987,
+      "pixel": [
+        902.3171409159042,
+        551.1543851356698
+      ],
+      "state": "detected",
+      "source_sha256": "c5cbb20828d3cea00b6b624811ebf7840d26a114908d0a9c90a77a7d65327c0b",
+      "verdict": "wrong_location",
+      "note": "Pink official shoe."
+    },
+    {
+      "frame": 2572,
+      "pixel": [
+        1077.5589766236976,
+        532.7555250444677
+      ],
+      "state": "detected",
+      "source_sha256": "7bd6f85de6959b3bf76442735730b7bbdb19789df705269a465a740fd94158f7",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2579,
+      "pixel": [
+        1209.4034388025384,
+        539.1673511018622
+      ],
+      "state": "detected",
+      "source_sha256": "734a04196895f1c58fc0701b4901058c5cccdc9e32fee786c3ce9ace687c5b5e",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2606,
+      "pixel": [
+        1383.827362087945,
+        632.5535049154018
+      ],
+      "state": "detected",
+      "source_sha256": "0b6b96328e12278faa4e499425824864f420b8c4139f17ef657590abee423838",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2649,
+      "pixel": [
+        191.04266288594468,
+        546.0703422820171
+      ],
+      "state": "inferred",
+      "source_sha256": "6898dc40c29600c7d060c733401a8ab179892bcc4bb141f4c93b331f79e7b9ad",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 2670,
+      "pixel": [
+        555.4333536343889,
+        752.1332743562774
+      ],
+      "state": "inferred",
+      "source_sha256": "44f8f481d08b85eef8fbec449c14c5690ffce2a1c08e74d00cb7ac18693c57a7",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 2706,
+      "pixel": [
+        473.2537703743037,
+        534.3041704908815
+      ],
+      "state": "detected",
+      "source_sha256": "56988e4d635912fa10c44a047cefe8710c8cc2e7255fdb74a914b9c3f52bc7b9",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 2726,
+      "pixel": [
+        1614.7287038216625,
+        461.32654824527737
+      ],
+      "state": "inferred",
+      "source_sha256": "1c5c16ed15a865a3719bc9690b1a30e2d37789a2e9a31ef97e22cbc3a9c9f438",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 2734,
+      "pixel": [
+        1565.146145470767,
+        465.9081743512037
+      ],
+      "state": "detected",
+      "source_sha256": "3a409fa253cd6e126ef804ab78a08ecffef3eb2a23437a8d41c7af3100a08c2c",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2756,
+      "pixel": [
+        1012.9828411641297,
+        483.7427616578059
+      ],
+      "state": "detected",
+      "source_sha256": "7c29bc46929b287ff4396dae095e67aecae1244ee071257be6724725598014e3",
+      "verdict": "wrong_location",
+      "note": "Pink official shoe."
+    },
+    {
+      "frame": 2764,
+      "pixel": [
+        1158.3726831500287,
+        489.6091466085547
+      ],
+      "state": "inferred",
+      "source_sha256": "99c61ba4e87c9a76a8b3345989a4149479d215eef5e8ba614898a2b9ec6c5092",
+      "verdict": "wrong_location",
+      "note": "Inference follows a shoe hypothesis."
+    },
+    {
+      "frame": 2795,
+      "pixel": [
+        1478.1434705350546,
+        504.6182497330513
+      ],
+      "state": "inferred",
+      "source_sha256": "e8a4dc54ed6f51731a057e26ffc33105ac6979c83e7c124a8350a75d5c1c8622",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 2819,
+      "pixel": [
+        1575.7492310401185,
+        486.01989706856966
+      ],
+      "state": "detected",
+      "source_sha256": "b13a05b8366dd1a1505de879a9ad5c6ba17a61918d4a07982d412a57a812d6ac",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2838,
+      "pixel": [
+        508.32632772018894,
+        614.3096039396403
+      ],
+      "state": "detected",
+      "source_sha256": "39f2907f90a9a2b7d206bea1e1a379c32db4368997e9dc61c6d6239d6f593a70",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2849,
+      "pixel": [
+        794.7733496864165,
+        601.846415395934
+      ],
+      "state": "detected",
+      "source_sha256": "3f50ad2b9d8b21de65985f777ec422db7ad38925b33161a4e6e0318605821387",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2856,
+      "pixel": [
+        711.2030161224993,
+        577.2011093221165
+      ],
+      "state": "detected",
+      "source_sha256": "fd5f059082cb93bd65af569626e576175a2cb15a16143c3ef054530b53aff6ac",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2864,
+      "pixel": [
+        600.9480710678044,
+        549.887013547205
+      ],
+      "state": "detected",
+      "source_sha256": "7c4e6a03374c6c66353aaa22def578e065a5a75497970c50cb509e16c7e494d0",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2871,
+      "pixel": [
+        518.0836323587345,
+        539.8649052654914
+      ],
+      "state": "detected",
+      "source_sha256": "21ada48e3af8f954d5a2e9537fe6fb984d1b0a07ee9971e76fccc638b5e8e047",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2879,
+      "pixel": [
+        445.996585733203,
+        520.2093277104741
+      ],
+      "state": "detected",
+      "source_sha256": "75192ca2e7d44be1eddaf8f418875310b7f6f7a876c972bf605d3636e733e249",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2886,
+      "pixel": [
+        392.1652764070339,
+        504.40746450017195
+      ],
+      "state": "detected",
+      "source_sha256": "00391fe258bd58ea1af0f963449dd19359a0e574e9af2897aaf5b86b50741b77",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2901,
+      "pixel": [
+        245.77270993314036,
+        547.3195927855782
+      ],
+      "state": "detected",
+      "source_sha256": "24525fd8294feedbf6759b7478f8a6a38e8bb887ccd9ca9ef46d124f75ff1c2b",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 3597,
+      "pixel": [
+        1851.046690948678,
+        230.33416557958296
+      ],
+      "state": "detected",
+      "source_sha256": "ed3be8a47c70e3cbfd9db63cae993db7368380fc161570f2da3340d7c0b54bcc",
+      "verdict": "wrong_location",
+      "note": "Fence fitting in background."
+    },
+    {
+      "frame": 3847,
+      "pixel": [
+        751.7944331593819,
+        489.25381805965355
+      ],
+      "state": "detected",
+      "source_sha256": "347c5154b062000b2088e5def6e82459efa2f7ba29635e12d3f393945c0b5bcb",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 3951,
+      "pixel": [
+        1346.43996374979,
+        506.759029761388
+      ],
+      "state": "detected",
+      "source_sha256": "c1133003ed9d4fb73521c40592f37f4d3eea3f0b0a499da121ff20ed3f6f6d6f",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 3958,
+      "pixel": [
+        1322.6477820864434,
+        500.2863531379064
+      ],
+      "state": "detected",
+      "source_sha256": "2f813fde899ac1b8417f9cebd829d441ce169e1cbe883df8c06e53fb624b3e7e",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 3966,
+      "pixel": [
+        1304.8832109678374,
+        500.41922076700587
+      ],
+      "state": "detected",
+      "source_sha256": "b31bdb1dd89d581eb4ce9adb3748522fa1030a5518e3db40eb65fd3f55e248d0",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 3989,
+      "pixel": [
+        1289.8294427337228,
+        498.50972136949775
+      ],
+      "state": "detected",
+      "source_sha256": "d91aa52fd2d3fc3a99f262adc362c62d260933360abd10aeeab8a1d9b404a228",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 3997,
+      "pixel": [
+        1280.9073593911492,
+        497.36668905546173
+      ],
+      "state": "detected",
+      "source_sha256": "00e686db2fa0467e20f9359790c6ab42aa50f5fe91a3136bbf818d9f008c39bd",
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 4292,
+      "pixel": [
+        483.239297414729,
+        435.9605409232454
+      ],
+      "state": "detected",
+      "source_sha256": "e2546d868ef690e4d380880a909ea477604d02a4021f3d1b00178afb0c51bb3d",
+      "verdict": "wrong_location",
+      "note": "Helmet/head in background."
+    },
+    {
+      "frame": 4348,
+      "pixel": [
+        1490.1762412836956,
+        630.2455926108519
+      ],
+      "state": "detected",
+      "source_sha256": "3932019e443fa6db0ea49df1d5fdcc43237446729edfbc99d3404f7cbec60dd1",
+      "verdict": "wrong_location",
+      "note": "Pink tape on stick shaft."
+    },
+    {
+      "frame": 4355,
+      "pixel": [
+        1483.9199645140839,
+        633.8636175152405
+      ],
+      "state": "detected",
+      "source_sha256": "19dac779d357c569c189d9cc272fe77fd8674527df4d17d78ed63b9db02d8489",
+      "verdict": "wrong_location",
+      "note": "Pink tape on stick shaft."
+    },
+    {
+      "frame": 4363,
+      "pixel": [
+        1482.5953598412991,
+        630.7748984629152
+      ],
+      "state": "detected",
+      "source_sha256": "a311800b6202166150ba1874c0b237a33743393d780cf7b8a5b00f9dfaa98ebd",
+      "verdict": "wrong_location",
+      "note": "Pink tape on stick shaft."
+    }
+  ]
+}

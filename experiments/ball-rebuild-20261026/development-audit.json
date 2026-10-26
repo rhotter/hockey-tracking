@@ -1,0 +1,367 @@
+{
+  "sampling": "36 equally spaced quantiles of tiles640 path outputs in development frames [0,1500). Used for development, not an independent precision estimate.",
+  "review": "Assistant inspection of video crops centered on predictions. Unclear crops excluded from correct/incorrect decisions.",
+  "rows": [
+    {
+      "frame": 49,
+      "pixel": [
+        1335.1514892578125,
+        622.5148315429688
+      ],
+      "score": 0.10667278617620468,
+      "verdict": "wrong_object",
+      "note": "spectator head"
+    },
+    {
+      "frame": 71,
+      "pixel": [
+        1000.4644165039062,
+        619.9461669921875
+      ],
+      "score": 0.0752306580543518,
+      "verdict": "wrong_object",
+      "note": "spectator head"
+    },
+    {
+      "frame": 98,
+      "pixel": [
+        850.2667846679688,
+        619.4017333984375
+      ],
+      "score": 0.10566379129886627,
+      "verdict": "wrong_object",
+      "note": "spectator head"
+    },
+    {
+      "frame": 111,
+      "pixel": [
+        814.9655151367188,
+        619.42529296875
+      ],
+      "score": 0.12960699200630188,
+      "verdict": "wrong_object",
+      "note": "spectator head"
+    },
+    {
+      "frame": 147,
+      "pixel": [
+        666.8102416992188,
+        680.4674072265625
+      ],
+      "score": 0.742396354675293,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 155,
+      "pixel": [
+        839.02587890625,
+        677.7176208496094
+      ],
+      "score": 0.7260093688964844,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 164,
+      "pixel": [
+        747.1651000976562,
+        669.06298828125
+      ],
+      "score": 0.34490182995796204,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 186,
+      "pixel": [
+        1090.3883666992188,
+        695.8611755371094
+      ],
+      "score": 0.6507005095481873,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 215,
+      "pixel": [
+        1555.6351928710938,
+        609.5591430664062
+      ],
+      "score": 0.12331509590148926,
+      "verdict": "wrong_object",
+      "note": "red center line"
+    },
+    {
+      "frame": 227,
+      "pixel": [
+        1016.38427734375,
+        515.4405517578125
+      ],
+      "score": 0.2032032310962677,
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 291,
+      "pixel": [
+        1662.9287109375,
+        613.6572265625
+      ],
+      "score": 0.515028715133667,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 356,
+      "pixel": [
+        628.7003173828125,
+        492.9119873046875
+      ],
+      "score": 0.31555548310279846,
+      "verdict": "wrong_object",
+      "note": "goalie equipment"
+    },
+    {
+      "frame": 396,
+      "pixel": [
+        668.6602172851562,
+        583.1691284179688
+      ],
+      "score": 0.16119499504566193,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 427,
+      "pixel": [
+        1193.6483154296875,
+        596.203369140625
+      ],
+      "score": 0.6351906061172485,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 439,
+      "pixel": [
+        987.6282653808594,
+        622.2911376953125
+      ],
+      "score": 0.649153470993042,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 449,
+      "pixel": [
+        795.5977783203125,
+        643.6263427734375
+      ],
+      "score": 0.7192984819412231,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 531,
+      "pixel": [
+        18.710983276367188,
+        747.8082275390625
+      ],
+      "score": 0.1257728487253189,
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 671,
+      "pixel": [
+        1504.3084716796875,
+        619.2850341796875
+      ],
+      "score": 0.13627980649471283,
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 685,
+      "pixel": [
+        1876.589599609375,
+        620.19140625
+      ],
+      "score": 0.14257104694843292,
+      "verdict": "wrong_object",
+      "note": "person"
+    },
+    {
+      "frame": 857,
+      "pixel": [
+        1364.3370361328125,
+        513.8668060302734
+      ],
+      "score": 0.16417959332466125,
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 907,
+      "pixel": [
+        126.60270690917969,
+        630.0032958984375
+      ],
+      "score": 0.2170819640159607,
+      "verdict": "wrong_object",
+      "note": "red center line"
+    },
+    {
+      "frame": 964,
+      "pixel": [
+        405.42041015625,
+        552.2774047851562
+      ],
+      "score": 0.7057952880859375,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 980,
+      "pixel": [
+        744.7136840820312,
+        643.7631225585938
+      ],
+      "score": 0.541540265083313,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 994,
+      "pixel": [
+        549.6759338378906,
+        719.6973876953125
+      ],
+      "score": 0.355343759059906,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1011,
+      "pixel": [
+        209.61305236816406,
+        595.2838745117188
+      ],
+      "score": 0.718146800994873,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1036,
+      "pixel": [
+        499.9393615722656,
+        505.3063659667969
+      ],
+      "score": 0.5213823914527893,
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1047,
+      "pixel": [
+        231.6355438232422,
+        507.8611755371094
+      ],
+      "score": 0.10757006704807281,
+      "verdict": "wrong_object",
+      "note": "fallen player"
+    },
+    {
+      "frame": 1064,
+      "pixel": [
+        175.2982177734375,
+        561.21630859375
+      ],
+      "score": 0.19039112329483032,
+      "verdict": "unclear",
+      "note": ""
+    },
+    {
+      "frame": 1111,
+      "pixel": [
+        1033.2471618652344,
+        603.921875
+      ],
+      "score": 0.05127260461449623,
+      "verdict": "wrong_object",
+      "note": "spectator head"
+    },
+    {
+      "frame": 1180,
+      "pixel": [
+        624.4137573242188,
+        499.6595764160156
+      ],
+      "score": 0.33083316683769226,
+      "verdict": "visible_ball",
+      "note": "Corrected after native-resolution review: a separate ball on the floor, not the official shoe. Raw source frame verified."
+    },
+    {
+      "frame": 1222,
+      "pixel": [
+        1460.5377807617188,
+        647.1234741210938
+      ],
+      "score": 0.19367165863513947,
+      "verdict": "wrong_object",
+      "note": "spectator-side object"
+    },
+    {
+      "frame": 1265,
+      "pixel": [
+        147.1201934814453,
+        522.1370849609375
+      ],
+      "score": 0.5203145146369934,
+      "verdict": "wrong_object",
+      "note": "official shoe"
+    },
+    {
+      "frame": 1288,
+      "pixel": [
+        210.0612030029297,
+        532.5299987792969
+      ],
+      "score": 0.5540704131126404,
+      "verdict": "wrong_object",
+      "note": "official shoe"
+    },
+    {
+      "frame": 1299,
+      "pixel": [
+        180.43228149414062,
+        537.5640869140625
+      ],
+      "score": 0.3197669982910156,
+      "verdict": "wrong_object",
+      "note": "official shoe"
+    },
+    {
+      "frame": 1322,
+      "pixel": [
+        37.58595275878906,
+        552.6039733886719
+      ],
+      "score": 0.41969162225723267,
+      "verdict": "wrong_object",
+      "note": "official shoe"
+    },
+    {
+      "frame": 1481,
+      "pixel": [
+        462.79156494140625,
+        623.4605102539062
+      ],
+      "score": 0.6232120990753174,
+      "verdict": "wrong_object",
+      "note": "red center line beside player shoe"
+    }
+  ],
+  "review_correction": "Initial compressed collage mislabeled frame 1180 as a shoe. Native-frame review corrected it before selection/test scoring. Native crops also checked 1265,1288,1299,1322,1481."
+}

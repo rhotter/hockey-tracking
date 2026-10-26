@@ -1,6 +1,6 @@
 # Hockey tracking
 
-Player-track reconnection experiments on **NBHL ball hockey**. This release contains frozen inference source, baseline and alternative results, auditable pair outcomes, and new-recording evaluations.
+Player and ball tracking experiments on **NBHL ball hockey**. This release contains frozen inference source, baseline and alternative results, auditable pair outcomes, and new-recording evaluations.
 
 The previously highlighted candidate combines **SAM2 track fragments**, **OSNet appearance features**, and **Qwen3-VL Embedding 2B**. On two new recordings, reconnecting added eight correct pair connections but introduced six wrong pair joins. **SAM2 without reconnecting was safer on these new sparse checks.** The reconnecting component remains experimental.
 
@@ -22,6 +22,16 @@ npm start
 Python 3.10+ and Node.js 22+ are required. The App Router renders the research pages from trusted templates in `web/`, with server-rendered React content and the existing video/canvas controllers initialized after hydration. Existing `.html` links still work. `app/`, `components/` and `lib/` contain the Next.js integration.
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
+
+## Ball tracking rebuild — October 26, 2026
+
+[Review the improved ball tracker](https://hockey-tracking-phi.vercel.app/overhead.html?t=190) · [Methods, labels and results](experiments/ball-rebuild-20261026/)
+
+Native-resolution multi-view detection, a newly fine-tuned crop verifier, pose/shape rejection, camera-compensated temporal selection and GPT-6 Astra episode review replace the sparse ball overlay. On the five-minute replay, **284 visual detections + 20 short inferred positions** survive, compared with 106 + 62 previously. This is 2.68× as many visual detections; output coverage is still only 6.8% of frames and is not an accuracy score. The page includes magnified synchronized video, previous/improved comparison, review points and CSV.
+
+Four crop-verifier variants, two heatmap alternatives and two OpenAI review passes were tested on Modal. A final assistant audit of 48 added positions found 45 visible ball locations, three unclear cases and no clear wrong locations. These are correlated samples from the same development game, not independent human labels. The reused nine-point check locates 9/9 versus 8/9 before. Held/airborne balls retain image positions without unsupported floor projections; uncertain intervals remain empty. The full pipeline has not been validated on a fresh game, and the error ellipses are uncalibrated.
+
+See [experiment, training, failures and reproducibility](experiments/ball-rebuild-20261026/README.md).
 
 ## Ball context and uncertainty — October 26, 2026
 

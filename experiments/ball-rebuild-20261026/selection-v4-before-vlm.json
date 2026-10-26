@@ -1,0 +1,42 @@
+{
+  "sources": [
+    "full1280",
+    "full1920",
+    "tiles640"
+  ],
+  "person_context": "people-pose-tiled.json",
+  "appearance": "appearance-shape.json",
+  "path_config": {
+    "evidence_floor": 0.15,
+    "birth_cost": 0.8,
+    "motion_weight": 0.5,
+    "motion_scale_px": 55.0,
+    "max_displacement_px": 180.0,
+    "torso_penalty": 0.7,
+    "outside_penalty": 2.0
+  },
+  "excluded_frames": [
+    466,
+    516
+  ],
+  "frozen_at_utc": "2026-10-26T22:23:26.174154+00:00",
+  "selection_basis": "Follow-up development selection after the first prototype failed a broader output audit. Spatial verifier v4, crop gate 0.9, path evidence floor 0.15, and elongated-color rejection retain 17/18 diagnostic positive samples and repeat none of nine diagnosed errors; old development frame check 13/16 correct with zero wrong outputs. Same known-positive recall as less conservative gate 0.8 with fewer weak outputs. These diagnostics are reused for selection; they are not a final independent test. The nine-point temporal check is now reused, and 23 current-game development positives train the verifier. The 59 cross-game regression labels remain out of training and were not scored for verifier selection.",
+  "labels_sha256": {
+    "review-labels.json": "49825f11ca3a2d0d89b8583c7e186e08a71cb19838b3394d2c7d1e33115edfda",
+    "targeted-labels.json": "671f3040fcaeb6d76c53c429b6244d5910d83c6e86bac02f56b50beb0ece7a5e",
+    "development-audit.json": "081225583e163b130a3bd8385c5ae8ead4e40ba0f388f0d1e5d41c4f54ec2ffe",
+    "output-audit-v1.json": "361eca830609458a0a260fe54b17c494f9305bf3a10c818a5155bd7278b52f72",
+    "training-labels.json": "2a809d5dcca5b4f94f62d37412198487783bd377549763cc90e70b47b45c460b",
+    "verifier-adaptation-labels.json": "b344720315b441234ba8f46b32b4011e2b02af2b2f8aacf5bfc6f8374f91c922"
+  },
+  "verifier": "verifier-v4",
+  "verification_threshold": 0.9,
+  "shape_config": {
+    "min_area": 100,
+    "min_major_sigma": 7,
+    "min_axis_ratio": 2,
+    "max_distance": 3
+  },
+  "gap_seconds": 0.2,
+  "max_inferred_radius_px": 24
+}

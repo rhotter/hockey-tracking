@@ -1,0 +1,7 @@
+{
+  "rule": "Retain only an existing candidate position whose nearest reviewed sample in its <=30-frame episode is classified ball. Ties select the earlier sample. Failed, missing, other and uncertain reviews withhold output. Never add a position. Clear overhead coordinates unless the sampled review supports a floor ball. Inferred points additionally require both original visual anchors to remain accepted floor detections with valid overhead coordinates.",
+  "created_at_utc": "2026-10-26T22:32:54.412484+00:00",
+  "review_source": "GPT-6 Astra, sampled full-frame plus native-crop episodes",
+  "labels_are_ground_truth": false,
+  "implementation_sha256": "437af949632af85141667b03e78f3b7ed0538c22a6d8182c69868680152b5cc6"
+}

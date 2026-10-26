@@ -1,0 +1,409 @@
+{
+  "sampling": "36 quantiles of 42 eligible v4 output frames at >=1500 where the baseline was unknown, excluding +-3 frames around the prior 36-output audit. Native frame-2/frame/frame+2 crops.",
+  "counts": {
+    "unclear": 10,
+    "visible_ball": 24,
+    "wrong_location": 2
+  },
+  "used_for_development_after_review": true,
+  "replay_sha256": "d1fe2f463a648f9260a0d5132217a04b720a0881e2f7b0e86711c196476aa44a",
+  "limits": "Assistant review; not independent human labels. New shoe failures and unsupported held-ball projection motivated the subsequent OpenAI episode review. This is now reused diagnostic evidence, not a final independent test.",
+  "rows": [
+    {
+      "frame": 1845,
+      "pixel": [
+        766.1675521011723,
+        825.1390796188649
+      ],
+      "state": "detected",
+      "source_sha256": "606fb65043eda2742ebd0d2bd01b77494bd58df5c058f0e261099b9515ae561a",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 1876,
+      "pixel": [
+        612.4361200019514,
+        499.5854958672055
+      ],
+      "state": "detected",
+      "source_sha256": "7a36ee324ddce38f06b843f0672f325af22a36fd0e8b5cc16e3d1faa5cec1bb2",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 1912,
+      "pixel": [
+        1131.1341932712826,
+        468.41272140101347
+      ],
+      "state": "detected",
+      "source_sha256": "44dbd481c09e9398a24473dc01709ef46816b412b04d55fddeb4cc28eb0ba092",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2533,
+      "pixel": [
+        442.2369178337179,
+        505.39048072493756
+      ],
+      "state": "detected",
+      "source_sha256": "16f8b1b1e6e3c4348a2419a3e8a8f9c52bebc0a7f64ee42d2e08a10230e38da5",
+      "verdict": "wrong_location",
+      "note": "Pink shoe attached to an official/player leg."
+    },
+    {
+      "frame": 2568,
+      "pixel": [
+        857.9482211626521,
+        522.727597977801
+      ],
+      "state": "detected",
+      "source_sha256": "9a4b0973150db8f705d3c48efca6fdae5116f445183c085903e3b64110446e4e",
+      "verdict": "wrong_location",
+      "note": "Pink shoe; position remains attached to the foot."
+    },
+    {
+      "frame": 2583,
+      "pixel": [
+        1274.08361457343,
+        542.8128831725489
+      ],
+      "state": "detected",
+      "source_sha256": "70ee383b389bdc76a372575993729542a76e7b9111748ddbccefc28651d0f5d2",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2584,
+      "pixel": [
+        1288.3898950409298,
+        543.5985086275734
+      ],
+      "state": "detected",
+      "source_sha256": "4a08ff9788e36c2f405355b84c9409d77e682921d58d6e54587f4a43be84daed",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2610,
+      "pixel": [
+        1145.1940138642722,
+        715.4716779457135
+      ],
+      "state": "detected",
+      "source_sha256": "f8ccb5708e6bdd399114c32d6eec3d19f872b831702757a981bfd14c68cf889b",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2614,
+      "pixel": [
+        1143.7046429160257,
+        820.9671411461675
+      ],
+      "state": "detected",
+      "source_sha256": "10e4faf9093b7864eb2ebab0eddd5452b5c184cbd219fd86ae312fb11448fc7a",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2675,
+      "pixel": [
+        239.78635503972018,
+        651.3421280188627
+      ],
+      "state": "detected",
+      "source_sha256": "ca35bf37b83ecb608b3db997a74b70aafada82ea3bc6b78fa3f44de454becfbb",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2676,
+      "pixel": [
+        191.26767243879658,
+        634.0957266869652
+      ],
+      "state": "inferred",
+      "source_sha256": "b9401896cce302141bfc1188eaaf6bba23511be071d03ec13acd6678b7817499",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 2677,
+      "pixel": [
+        146.4074154767561,
+        618.0483146434343
+      ],
+      "state": "detected",
+      "source_sha256": "efb74343f051cd1902ee4749173bcf0ae55a6a3d1f9fdfe055ef0645ae7ab6b3",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2678,
+      "pixel": [
+        98.91489739878277,
+        605.443785855314
+      ],
+      "state": "inferred",
+      "source_sha256": "1244b1eb6d5daebc26004ba5b234b205d7d6bac39c5c3b76bc2b82d9d16f03a0",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 2679,
+      "pixel": [
+        54.32675242235386,
+        593.5126267703134
+      ],
+      "state": "inferred",
+      "source_sha256": "549adc5fd76bc8a362918a81fb7c5fa2165e7c6a23590b092812dab118745d6e",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 2680,
+      "pixel": [
+        12.398382978495647,
+        582.1980120747505
+      ],
+      "state": "detected",
+      "source_sha256": "ee14f21957e1ec5bc8eb7e286cd6eadccce8149dbefe15628208b7a19d698409",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 2730,
+      "pixel": [
+        1613.9995847416444,
+        464.208928271246
+      ],
+      "state": "detected",
+      "source_sha256": "577f2b58c5e80d668d84cc86d6cde028119c6d0b53cc52bf493494d5b01aadd6",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2760,
+      "pixel": [
+        666.6359567975924,
+        703.7310052063235
+      ],
+      "state": "detected",
+      "source_sha256": "0d89b6dafb037b15c1439e96dac18096b3ae38818582396dee4552e401a7696c",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2830,
+      "pixel": [
+        598.9252665273222,
+        596.8219873529647
+      ],
+      "state": "detected",
+      "source_sha256": "c468ede9da7a0f2c1fef8d7cbfe5c23b3c7cc7e5e2dd3b1e686df7fcb62ff9c2",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2831,
+      "pixel": [
+        585.451266981217,
+        606.0067728052773
+      ],
+      "state": "detected",
+      "source_sha256": "cfbc0f31c9860a6f655f096f87e238f47a175dddc836833ea2b94b4849c4e428",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2832,
+      "pixel": [
+        579.8877143766183,
+        608.5765816289208
+      ],
+      "state": "detected",
+      "source_sha256": "bc04393f061b8e1de4bf96d363547de3fd0098bc829f2075a62b8c5eb676b632",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2833,
+      "pixel": [
+        573.6557817302598,
+        609.2832835888895
+      ],
+      "state": "detected",
+      "source_sha256": "f53d49c8c5cdd18fcf1c4b0213dde7233990391b19088cac1a5b1ecb6ba84fa3",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 2842,
+      "pixel": [
+        847.3104424743688,
+        621.5012869402893
+      ],
+      "state": "detected",
+      "source_sha256": "59ca85c355fe582f8f86b251493ffbb48adda140d869811d6db015f27a89f065",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 2896,
+      "pixel": [
+        324.6227387292928,
+        522.5209341746811
+      ],
+      "state": "detected",
+      "source_sha256": "5b3c53d5257dcebdecd51b1ee070afd81ad794576a3178707dca1765c8856713",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 3368,
+      "pixel": [
+        537.6058342927095,
+        547.1309126632507
+      ],
+      "state": "detected",
+      "source_sha256": "6a06ba4615aa4ca40fd2561aaf0afb2eded0f1a9266262bcff51914931627128",
+      "verdict": "visible_ball",
+      "note": "Ball held in the official's hand; image location is visible but floor projection is unsupported."
+    },
+    {
+      "frame": 3554,
+      "pixel": [
+        429.79124202937726,
+        515.7300010106201
+      ],
+      "state": "detected",
+      "source_sha256": "391d5653f48b35f47126e33bda05e83c492c165c131d709270774c41efdacedc",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 3555,
+      "pixel": [
+        441.5584411621094,
+        514.93505859375
+      ],
+      "state": "detected",
+      "source_sha256": "f6ba43961beb5e7d3ebf2a7e53e5f5a37c254893bb6ac5df950752a8b3ba76e0",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 3603,
+      "pixel": [
+        1104.0909706557482,
+        359.5001199593148
+      ],
+      "state": "detected",
+      "source_sha256": "696c3cc74294de2608907bd1ee23bf037f2b590b4ee2002270e21ae52fa54f1c",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 3767,
+      "pixel": [
+        492.4753277562663,
+        482.6289610869012
+      ],
+      "state": "detected",
+      "source_sha256": "d7c940f1507a07ad9ee934338d6c4b70f67c45397d317b7bd711dc37fcb5aa5f",
+      "verdict": "unclear",
+      "note": "Blur/overlap or inadequate context prevents a confident exact-object judgement."
+    },
+    {
+      "frame": 3924,
+      "pixel": [
+        1412.6364212933258,
+        482.3839282614898
+      ],
+      "state": "detected",
+      "source_sha256": "dd83e6fc91fbd0f55acba4ee0550d6c1a06656e654dd3af804463e17c40f06de",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 3935,
+      "pixel": [
+        1411.551065412987,
+        492.27464028777683
+      ],
+      "state": "detected",
+      "source_sha256": "473516a9639297662ddba3a1e076a9054847e329af5d03c0ba0b33444e5aa881",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 3984,
+      "pixel": [
+        1289.2147393253636,
+        493.5243514026632
+      ],
+      "state": "detected",
+      "source_sha256": "4a6904161d2550d2a7980fda75fb56dd96e39379e70bc69e8520e1db2d592c96",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 3985,
+      "pixel": [
+        1286.50924914355,
+        498.92168501696324
+      ],
+      "state": "detected",
+      "source_sha256": "b4cec823f22609949474530b8faa1c772ccc112b4beac96b3116fc546dd397ab",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 3993,
+      "pixel": [
+        1288.215365234052,
+        497.80653149366356
+      ],
+      "state": "detected",
+      "source_sha256": "dbba80443b43839cf5a08d9be63c0c513d2b807e98d0c1bc5fa942529046a264",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 4002,
+      "pixel": [
+        1251.6190772862922,
+        498.5069530834271
+      ],
+      "state": "inferred",
+      "source_sha256": "bc6e22b3de7384e08fa77874c0a82696db24fb2cc04cbed37bba61b8e55ac61a",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 4003,
+      "pixel": [
+        1251.3533088129423,
+        498.7768869619636
+      ],
+      "state": "detected",
+      "source_sha256": "70bd9018efd545438f10ba3195ef0a043dcc2469fd0286c9174e0289354b12cd",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    },
+    {
+      "frame": 4446,
+      "pixel": [
+        997.6697800951521,
+        516.7346226448714
+      ],
+      "state": "detected",
+      "source_sha256": "b0547f8d0663c6607ef542ef8034903dca5293bdd0de09ef16a85cbe97d8783f",
+      "verdict": "visible_ball",
+      "note": "Visible ball at or near the proposed location across the native crop sequence."
+    }
+  ]
+}

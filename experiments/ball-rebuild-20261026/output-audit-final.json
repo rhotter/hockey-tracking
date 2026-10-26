@@ -1,0 +1,624 @@
+{
+  "sampling": "Two strata: 24 quantiles of added primary-pass positions and all 24 recovery positions not previously used for its six-frame diagnostic. See output-audit-primary.json and output-audit-recall.json. Sampling is conditional on accepted outputs; strata are not weighted to estimate overall precision.",
+  "counts": {
+    "visible_ball": 45,
+    "unclear": 3
+  },
+  "used_for_training": false,
+  "used_for_parameter_selection": false,
+  "replay_sha256": "ed7792a0bac0c6205cece6dd1c3595361054d7e64195bcccad859a6d33321906",
+  "selection_sha256": "762e3ca363dfeb0f517e890ae5f9483bc63ef4f33162d319f6a7861a29b45b12",
+  "limits": "Assistant review, not independent human ground truth or fresh-game validation. Strong temporal correlation and nearby development examples; cannot estimate full-game precision or recall. No per-frame manual override was applied after this audit.",
+  "strata": {
+    "primary": {
+      "visible_ball": 22,
+      "unclear": 2
+    },
+    "recovery": {
+      "visible_ball": 23,
+      "unclear": 1
+    }
+  },
+  "rows": [
+    {
+      "frame": 174,
+      "pixel": [
+        960.8726159973612,
+        679.3254642327623
+      ],
+      "state": "detected",
+      "source_sha256": "1d2deba7a8fcf491fcc597981db482057ada6d7bf3d48f2539e677b5b7a70f3a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 204,
+      "pixel": [
+        1448.5190393739208,
+        663.7112830966685
+      ],
+      "state": "detected",
+      "source_sha256": "882617e8195d6e36b9044b303d7d92336442890acfcad899b07f21236e54cbd0",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 367,
+      "pixel": [
+        265.3243929599544,
+        514.8840562367216
+      ],
+      "state": "detected",
+      "source_sha256": "33cfd7e5320924a6342e52cfdcdfb27cd6d2c363fdeb50fadc766861fec48c56",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 435,
+      "pixel": [
+        1054.703541041254,
+        612.206181904203
+      ],
+      "state": "detected",
+      "source_sha256": "49ad2087d4076c75fa5a9d901ea14cfcb32c682f51cd0b0884fe78355809252d",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 444,
+      "pixel": [
+        899.28962577691,
+        630.579719935666
+      ],
+      "state": "detected",
+      "source_sha256": "e14a2010a4343f79ee15efcb1c96308903a9a30b3061073339028f34d74bf3a8",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 445,
+      "pixel": [
+        877.2046786121282,
+        631.917576384304
+      ],
+      "state": "detected",
+      "source_sha256": "7f4bb2d98650d923dcd4cd6ddcb3993229de4fa5b342c8c6c4aadbf189379059",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 455,
+      "pixel": [
+        672.9513150798282,
+        669.3077434810949
+      ],
+      "state": "detected",
+      "source_sha256": "d687127578b024147fff76d9f66c527f046c3fc5f5034cb7b4fb5ebf2d80a20c",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 866,
+      "pixel": [
+        1337.4457900048021,
+        589.0737519173938
+      ],
+      "state": "detected",
+      "source_sha256": "317f964c3e79f4cad296d1f56efb57e3b5c11f2bbb8aef4949b2bd58d99424ec",
+      "verdict": "unclear",
+      "note": "Camera/motion blur or blade overlap prevents a confident exact-location judgement.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 949,
+      "pixel": [
+        664.2567294384061,
+        562.5912770930099
+      ],
+      "state": "detected",
+      "source_sha256": "fd69ff19ba8869de334ee5184db0056556ec03b58aed0932f1c19ba1798f7425",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 960,
+      "pixel": [
+        431.9682111391956,
+        552.4823427635972
+      ],
+      "state": "detected",
+      "source_sha256": "d4f5eae34b00423b56b59071e5b14e04f4c4c352edd9e695c623beafa0300637",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 970,
+      "pixel": [
+        480.26128315476666,
+        550.0744964249554
+      ],
+      "state": "detected",
+      "source_sha256": "f9f643c056a8b326b9aa7861f6fb2ebcea2245af186aab113a65066881499033",
+      "verdict": "unclear",
+      "note": "Camera/motion blur or blade overlap prevents a confident exact-location judgement.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 971,
+      "pixel": [
+        481.76936907464477,
+        550.859787381019
+      ],
+      "state": "detected",
+      "source_sha256": "222d0d2038865e5d4a17f990e6d5921e49a975651f9349843f935770416cb63a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1025,
+      "pixel": [
+        461.1888716551707,
+        518.1315198582213
+      ],
+      "state": "detected",
+      "source_sha256": "c6694be18521614131ad0a7c75a531b194990d90b7f126e933f6eb8e4a5a543a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1026,
+      "pixel": [
+        471.51500290795184,
+        515.6805217441075
+      ],
+      "state": "detected",
+      "source_sha256": "3576e24116bd47150e0f1bf5705d3236947b8b684f128fbeca8eef915a4aaab6",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1027,
+      "pixel": [
+        485.0602594118974,
+        514.0402289502666
+      ],
+      "state": "detected",
+      "source_sha256": "2e944327ca024fd54edc243a3142c38bebc1d91095c245173a93107b4a42ce67",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1040,
+      "pixel": [
+        488.46466592147937,
+        496.25873389290166
+      ],
+      "state": "detected",
+      "source_sha256": "f9df7d3b3172111488d1d327b42ea585aee08a932de0a696b3977d20e3d21823",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1041,
+      "pixel": [
+        489.4303445970885,
+        496.2622433309844
+      ],
+      "state": "detected",
+      "source_sha256": "cd5224793e417543295dc3c615a8311cb5e03a852caab52f25e9304a8a8a08e5",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1059,
+      "pixel": [
+        511.0814000015895,
+        470.6596257897771
+      ],
+      "state": "detected",
+      "source_sha256": "40a4817d8025c5950f9cea6190b3f5e6bdc49b33ef8a5db83e87bea12498c7d1",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1060,
+      "pixel": [
+        524.1430414905985,
+        468.88196705107737
+      ],
+      "state": "detected",
+      "source_sha256": "21cd33fcc97af4516071cc63dbc32dc976aae146a8eee03b7f73573792c03d61",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1184,
+      "pixel": [
+        611.4705757056406,
+        501.0840274090955
+      ],
+      "state": "detected",
+      "source_sha256": "216f76302257460d9e3c984b5e082fd11bcdad49719fd036183c35bc672bfafe",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1186,
+      "pixel": [
+        614.5749952562683,
+        500.59907189018884
+      ],
+      "state": "detected",
+      "source_sha256": "96adda4f744610b51cfb4d562ffc0575b68dd676dfdd4b9951c4849158d4f740",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1187,
+      "pixel": [
+        614.14480747213,
+        500.5389901651443
+      ],
+      "state": "detected",
+      "source_sha256": "625c085aa85edd6789a45fac330910f700b22805317d4ca7953b656eb0ed6ae8",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 1188,
+      "pixel": [
+        612.0805338276825,
+        501.3398002721272
+      ],
+      "state": "detected",
+      "source_sha256": "78bb495cb4c6d6730d0aa22cce6d5e98fae516c0e78333bb76d1f5458e9ee3c7",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 3609,
+      "pixel": [
+        976.2605926636179,
+        490.28756392998014
+      ],
+      "state": "detected",
+      "source_sha256": "7c7c5de7a6231d0a7b495238d415495dc5b12b1dbbc4c67bf901c3ceb113be2d",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops.",
+      "stratum": "primary"
+    },
+    {
+      "frame": 213,
+      "pixel": [
+        1303.884863956941,
+        597.7767101269487
+      ],
+      "state": "detected",
+      "source_sha256": "2b5f24d5da8741244282975d5d68e5c52ef9777f7ebd3a83482649f04238bbd5",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 398,
+      "pixel": [
+        724.5322547024705,
+        587.3538316166668
+      ],
+      "state": "detected",
+      "source_sha256": "f4c38540a78eda363bb1e79b9564d3560a8b8ca346db6793edb9f5ce2ed15934",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 410,
+      "pixel": [
+        1083.98775928246,
+        567.4699708621117
+      ],
+      "state": "detected",
+      "source_sha256": "99b370b6c1b34de128143f4f4dc920c51717f09474339c1d06e3ff08e4a0ef69",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 947,
+      "pixel": [
+        695.4187857738136,
+        561.381928767851
+      ],
+      "state": "detected",
+      "source_sha256": "7eea71cfe812ed23cf4c748bac2760256d87987d199df6d4ade20bfa41884b00",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 975,
+      "pixel": [
+        571.3565491229672,
+        584.6655403869595
+      ],
+      "state": "detected",
+      "source_sha256": "05bd11b73b2bcf62050a34f4e189849c43c55c5d6f0b11d4e436f1be479dd917",
+      "verdict": "unclear",
+      "note": "Motion blur prevents a confident visual judgment.",
+      "outside_prior_label_neighborhood": true,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 1042,
+      "pixel": [
+        495.70317077636724,
+        495.71775817871094
+      ],
+      "state": "detected",
+      "source_sha256": "c539f45af9f33c3e5de835f426b58c49d04cda88fee459d7fc8c54bbd1bf1edb",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 1043,
+      "pixel": [
+        502.49395751953125,
+        494.79847717285156
+      ],
+      "state": "detected",
+      "source_sha256": "c8b56d0a844b4daf5cc8d259306c9b94f1f6f6d2a58453f1e1cbc0c942601d72",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 1189,
+      "pixel": [
+        612.4822846026816,
+        500.2084425176103
+      ],
+      "state": "detected",
+      "source_sha256": "4b35f4c719ae715c7e02c2ce7916ab654d5370acfe0916b4af9a628608e6bd51",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 1837,
+      "pixel": [
+        468.6579507052979,
+        803.431699291776
+      ],
+      "state": "detected",
+      "source_sha256": "5f5a785c740a6feb1375726110ae3b22a56a471059eb2cdd2a85cb47e14a5be7",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 1839,
+      "pixel": [
+        545.0651334335121,
+        812.5736926157917
+      ],
+      "state": "detected",
+      "source_sha256": "bbc5a106cd886861f06a4de3052ada46ed6d4220ce2ec0b820926705b7b08e65",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 2829,
+      "pixel": [
+        628.4516736718317,
+        591.4104202401581
+      ],
+      "state": "detected",
+      "source_sha256": "12c48b0b788043f23cfef238cda848a22c2a763b736152771201c05d8e9a9805",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3839,
+      "pixel": [
+        900.6686731881653,
+        500.4408045847871
+      ],
+      "state": "detected",
+      "source_sha256": "99a0e71348cbf6d53390622fc19f1cdbe93f4da53e5ec7d76ad03543459977dc",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": true,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3840,
+      "pixel": [
+        873.259283017356,
+        500.002801089433
+      ],
+      "state": "detected",
+      "source_sha256": "f9455d7d30fce862e06de32effc8165839be00f6c31811256076f3055b461c3f",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": true,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3925,
+      "pixel": [
+        1416.813073934351,
+        483.53909303937473
+      ],
+      "state": "detected",
+      "source_sha256": "aeebb02dcec4169284a085b10c90b6ef50f6cb35bba1aed53dc1c04b4da2c591",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3926,
+      "pixel": [
+        1417.8151705013802,
+        486.525753387448
+      ],
+      "state": "detected",
+      "source_sha256": "5fbf0f1227724b51bfa142ebe7ad745e2a76d97f64141e6cc5dfdc98ad79168e",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3927,
+      "pixel": [
+        1419.54150390625,
+        486.84962463378906
+      ],
+      "state": "detected",
+      "source_sha256": "b39785b7155b91996d79f4dc4a24c4dceef9e26560c440814a9b4d2fd984e879",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3928,
+      "pixel": [
+        1425.6046142578125,
+        488.323486328125
+      ],
+      "state": "detected",
+      "source_sha256": "bef66d3b359eb3de69b62df4d464705851284c4eeada683c330b482b08b0db73",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": true,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3929,
+      "pixel": [
+        1426.209869680754,
+        490.6177993076244
+      ],
+      "state": "detected",
+      "source_sha256": "f4eedd2748504d5cc7cd7366be2c45df98cb5a4d3ef03e0886afcde02c355a7a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": true,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3930,
+      "pixel": [
+        1420.0211529547964,
+        491.53886624304755
+      ],
+      "state": "detected",
+      "source_sha256": "11d184c66c024fcaeb10bbf840cc0c1645fc3be103a9af67da97339f911da8da",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": true,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 3934,
+      "pixel": [
+        1416.2644700773544,
+        494.712899774609
+      ],
+      "state": "detected",
+      "source_sha256": "20e2873f8b0029b5d5a06fb567f306eed0401e4149ae1cc0fa862fcb4c3bd200",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 4005,
+      "pixel": [
+        1266.3782348632812,
+        497.642333984375
+      ],
+      "state": "detected",
+      "source_sha256": "f6f3b9437945e3514aad729436202175d66e3207e401e351d75c5a909cf0b9b7",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 4006,
+      "pixel": [
+        1264.6385566721506,
+        499.9385485214089
+      ],
+      "state": "detected",
+      "source_sha256": "23d9b921b55ad68c67ca827b0a69f8e8008f8fb186186993ebc1ad84e516e47e",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 4010,
+      "pixel": [
+        1257.153851620266,
+        500.5877503616051
+      ],
+      "state": "detected",
+      "source_sha256": "4fdaa48464483b449f19fc233cc7969cf8fa018717354f195b44c41f99ddf6ea",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    },
+    {
+      "frame": 4011,
+      "pixel": [
+        1257.2448872595307,
+        501.766362950843
+      ],
+      "state": "detected",
+      "source_sha256": "47cc2e042cc5ed537694efe899afd5ab69d96a720b6378c1d78397db95bbed17",
+      "verdict": "visible_ball",
+      "note": "Ball is visible near the proposed point in full-frame and adjacent native-crop context.",
+      "outside_prior_label_neighborhood": false,
+      "stratum": "recovery"
+    }
+  ]
+}

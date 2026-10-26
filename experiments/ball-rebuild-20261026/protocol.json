@@ -1,0 +1,14 @@
+{
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "duration_s": 300,
+  "fps": 15,
+  "scope": "NBHL ball hockey only",
+  "baseline": "Published 106 detected plus 62 inferred frames",
+  "review_sampling": "Every 75 frames starting at frame 37, fixed before new inference",
+  "development": "Sampled frames below 1500",
+  "test": "Sampled frames 1500 and above, reserved for scoring after parameter selection",
+  "labels": "Assistant raw-frame review without model overlays. Visible centers are approximate; ambiguous visibility is unknown, not a negative.",
+  "match_radius_native_px": 12,
+  "limitations": "Same reused recording; temporally separated development/test samples are not a fresh independent game or human ground truth. Cross-game existing annotations remain regression tests. No claim that output coverage is accuracy."
+}

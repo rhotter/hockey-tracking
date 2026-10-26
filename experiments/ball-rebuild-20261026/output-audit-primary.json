@@ -1,0 +1,278 @@
+{
+  "sampling": "24 quantiles of eligible primary-pass outputs where the old baseline was unknown. Excludes +-3 frames around all earlier raw-frame reviews, both output audits, the development audit and adaptation training points. Full-frame context plus native crops at frame-2/frame/frame+2.",
+  "counts": {
+    "visible_ball": 22,
+    "unclear": 2
+  },
+  "used_for_training": false,
+  "used_for_parameter_selection": false,
+  "replay_sha256": "343960cd247a981a1306f19e41186d8f9a7d9fb651204897cb05e3eaf532a8e6",
+  "selection_sha256": "29abafae035146a279ac427c5dac640b3c71d43c922aa737baac4ae52cce6db6",
+  "limits": "Assistant visual audit, not independently verified human ground truth or a fresh game. The samples are heavily temporally correlated, mostly early in the adapted recording. This conditional output audit does not measure recall or full-game precision.",
+  "rows": [
+    {
+      "frame": 174,
+      "pixel": [
+        960.8726159973612,
+        679.3254642327623
+      ],
+      "state": "detected",
+      "source_sha256": "1d2deba7a8fcf491fcc597981db482057ada6d7bf3d48f2539e677b5b7a70f3a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 204,
+      "pixel": [
+        1448.5190393739208,
+        663.7112830966685
+      ],
+      "state": "detected",
+      "source_sha256": "882617e8195d6e36b9044b303d7d92336442890acfcad899b07f21236e54cbd0",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 367,
+      "pixel": [
+        265.3243929599544,
+        514.8840562367216
+      ],
+      "state": "detected",
+      "source_sha256": "33cfd7e5320924a6342e52cfdcdfb27cd6d2c363fdeb50fadc766861fec48c56",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 435,
+      "pixel": [
+        1054.703541041254,
+        612.206181904203
+      ],
+      "state": "detected",
+      "source_sha256": "49ad2087d4076c75fa5a9d901ea14cfcb32c682f51cd0b0884fe78355809252d",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 444,
+      "pixel": [
+        899.28962577691,
+        630.579719935666
+      ],
+      "state": "detected",
+      "source_sha256": "e14a2010a4343f79ee15efcb1c96308903a9a30b3061073339028f34d74bf3a8",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 445,
+      "pixel": [
+        877.2046786121282,
+        631.917576384304
+      ],
+      "state": "detected",
+      "source_sha256": "7f4bb2d98650d923dcd4cd6ddcb3993229de4fa5b342c8c6c4aadbf189379059",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 455,
+      "pixel": [
+        672.9513150798282,
+        669.3077434810949
+      ],
+      "state": "detected",
+      "source_sha256": "d687127578b024147fff76d9f66c527f046c3fc5f5034cb7b4fb5ebf2d80a20c",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 866,
+      "pixel": [
+        1337.4457900048021,
+        589.0737519173938
+      ],
+      "state": "detected",
+      "source_sha256": "317f964c3e79f4cad296d1f56efb57e3b5c11f2bbb8aef4949b2bd58d99424ec",
+      "verdict": "unclear",
+      "note": "Camera/motion blur or blade overlap prevents a confident exact-location judgement."
+    },
+    {
+      "frame": 949,
+      "pixel": [
+        664.2567294384061,
+        562.5912770930099
+      ],
+      "state": "detected",
+      "source_sha256": "fd69ff19ba8869de334ee5184db0056556ec03b58aed0932f1c19ba1798f7425",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 960,
+      "pixel": [
+        431.9682111391956,
+        552.4823427635972
+      ],
+      "state": "detected",
+      "source_sha256": "d4f5eae34b00423b56b59071e5b14e04f4c4c352edd9e695c623beafa0300637",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 970,
+      "pixel": [
+        480.26128315476666,
+        550.0744964249554
+      ],
+      "state": "detected",
+      "source_sha256": "f9f643c056a8b326b9aa7861f6fb2ebcea2245af186aab113a65066881499033",
+      "verdict": "unclear",
+      "note": "Camera/motion blur or blade overlap prevents a confident exact-location judgement."
+    },
+    {
+      "frame": 971,
+      "pixel": [
+        481.76936907464477,
+        550.859787381019
+      ],
+      "state": "detected",
+      "source_sha256": "222d0d2038865e5d4a17f990e6d5921e49a975651f9349843f935770416cb63a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1025,
+      "pixel": [
+        461.1888716551707,
+        518.1315198582213
+      ],
+      "state": "detected",
+      "source_sha256": "c6694be18521614131ad0a7c75a531b194990d90b7f126e933f6eb8e4a5a543a",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1026,
+      "pixel": [
+        471.51500290795184,
+        515.6805217441075
+      ],
+      "state": "detected",
+      "source_sha256": "3576e24116bd47150e0f1bf5705d3236947b8b684f128fbeca8eef915a4aaab6",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1027,
+      "pixel": [
+        485.0602594118974,
+        514.0402289502666
+      ],
+      "state": "detected",
+      "source_sha256": "2e944327ca024fd54edc243a3142c38bebc1d91095c245173a93107b4a42ce67",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1040,
+      "pixel": [
+        488.46466592147937,
+        496.25873389290166
+      ],
+      "state": "detected",
+      "source_sha256": "f9df7d3b3172111488d1d327b42ea585aee08a932de0a696b3977d20e3d21823",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1041,
+      "pixel": [
+        489.4303445970885,
+        496.2622433309844
+      ],
+      "state": "detected",
+      "source_sha256": "cd5224793e417543295dc3c615a8311cb5e03a852caab52f25e9304a8a8a08e5",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1059,
+      "pixel": [
+        511.0814000015895,
+        470.6596257897771
+      ],
+      "state": "detected",
+      "source_sha256": "40a4817d8025c5950f9cea6190b3f5e6bdc49b33ef8a5db83e87bea12498c7d1",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1060,
+      "pixel": [
+        524.1430414905985,
+        468.88196705107737
+      ],
+      "state": "detected",
+      "source_sha256": "21cd33fcc97af4516071cc63dbc32dc976aae146a8eee03b7f73573792c03d61",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1184,
+      "pixel": [
+        611.4705757056406,
+        501.0840274090955
+      ],
+      "state": "detected",
+      "source_sha256": "216f76302257460d9e3c984b5e082fd11bcdad49719fd036183c35bc672bfafe",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1186,
+      "pixel": [
+        614.5749952562683,
+        500.59907189018884
+      ],
+      "state": "detected",
+      "source_sha256": "96adda4f744610b51cfb4d562ffc0575b68dd676dfdd4b9951c4849158d4f740",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1187,
+      "pixel": [
+        614.14480747213,
+        500.5389901651443
+      ],
+      "state": "detected",
+      "source_sha256": "625c085aa85edd6789a45fac330910f700b22805317d4ca7953b656eb0ed6ae8",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 1188,
+      "pixel": [
+        612.0805338276825,
+        501.3398002721272
+      ],
+      "state": "detected",
+      "source_sha256": "78bb495cb4c6d6730d0aa22cce6d5e98fae516c0e78333bb76d1f5458e9ee3c7",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    },
+    {
+      "frame": 3609,
+      "pixel": [
+        976.2605926636179,
+        490.28756392998014
+      ],
+      "state": "detected",
+      "source_sha256": "7c7c5de7a6231d0a7b495238d415495dc5b12b1dbbc4c67bf901c3ceb113be2d",
+      "verdict": "visible_ball",
+      "note": "Ball is visible at or near the proposed point, with full-frame context and adjacent native crops."
+    }
+  ]
+}

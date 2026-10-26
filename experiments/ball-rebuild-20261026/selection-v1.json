@@ -1,0 +1,29 @@
+{
+  "sources": [
+    "full1280",
+    "full1920",
+    "tiles640"
+  ],
+  "person_context": "people-pose-tiled.json",
+  "appearance": "appearance.json",
+  "path_config": {
+    "evidence_floor": 0.15,
+    "birth_cost": 0.8,
+    "motion_weight": 0.5,
+    "motion_scale_px": 55.0,
+    "max_displacement_px": 180.0,
+    "torso_penalty": 0.7,
+    "outside_penalty": 2.0
+  },
+  "excluded_frames": [
+    466,
+    516
+  ],
+  "frozen_at_utc": "2026-10-26T21:56:48.059691+00:00",
+  "selection_basis": "Development only: seven of eight raw-frame positives and all 15 visible-ball audit samples retained; one of 16 known false objects repeats. Same development recall as 0.08 with fewer weak proposals. The sole remaining audited false object is a spectator-side object. Reserved review labels not scored before this selection.",
+  "labels_sha256": {
+    "review-labels.json": "49825f11ca3a2d0d89b8583c7e186e08a71cb19838b3394d2c7d1e33115edfda",
+    "targeted-labels.json": "671f3040fcaeb6d76c53c429b6244d5910d83c6e86bac02f56b50beb0ece7a5e",
+    "development-audit.json": "081225583e163b130a3bd8385c5ae8ead4e40ba0f388f0d1e5d41c4f54ec2ffe"
+  }
+}

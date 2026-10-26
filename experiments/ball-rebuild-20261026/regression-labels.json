@@ -1,0 +1,1673 @@
+{
+  "sources": [
+    {
+      "file": "ball-annotations-v2.json",
+      "sha256": "c6ab3e44a7405b38846f366cadde8308312cca2b4f7a32bd554a2a11b8b7fb8b"
+    },
+    {
+      "file": "ball-transfer-annotations-v1.json",
+      "sha256": "28160fb3196cad230ef25abde0ac22d3066c3df61bf9b7e4424ef9cb4f9cab5d"
+    },
+    {
+      "file": "ball-transfer-annotations-v2.json",
+      "sha256": "5ff8701219be94791f1a68b8b65c0be66bd6372f3bdc39c558f87f33214f34f3"
+    },
+    {
+      "file": "ball-transfer-annotations-v3.json",
+      "sha256": "b433dadc2578f34b500fc4dff9c77179444c6410b1de4450e33e9512b72c43d4"
+    }
+  ],
+  "limits": "Existing assistant-reviewed sparse labels; not fresh independent human ground truth. Unknown frames excluded.",
+  "rows": [
+    {
+      "frame": 188,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-0900/frame-000189.jpg",
+      "sha256": "e8f09ad03c7c03530b59f3351bd883b55761cc239b3bf44c8a566787e72298d9",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          774,
+          668
+        ],
+        "bbox": [
+          768.0,
+          661.0,
+          780.0,
+          675.0
+        ]
+      },
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 190,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-0900/frame-000191.jpg",
+      "sha256": "ab343f9efa15f896f2cb27245e91165873ed2c53daa47e073b5356acc1214059",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          736,
+          672
+        ],
+        "bbox": [
+          730,
+          666,
+          742,
+          678
+        ]
+      },
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 192,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-0900/frame-000193.jpg",
+      "sha256": "eda341301e0cf095309502156d0e652931de6ff46c3bae22576e6abd8d7252ef",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          704,
+          679
+        ],
+        "bbox": [
+          698.0,
+          672.0,
+          710.0,
+          686.0
+        ]
+      },
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 194,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-0900/frame-000195.jpg",
+      "sha256": "74707ca5d83d2fa612bb1c14397afb6789c2dc6597673fa896d023fd114f5acd",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          674,
+          681
+        ],
+        "bbox": [
+          668.0,
+          673.0,
+          680.0,
+          689.0
+        ]
+      },
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 196,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-0900/frame-000197.jpg",
+      "sha256": "31b0b638660e530018ccfa0406d392f5f223c8262508879264a5526edcf0d5aa",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          666,
+          679
+        ],
+        "bbox": [
+          660.0,
+          671.0,
+          672.0,
+          687.0
+        ]
+      },
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000101.jpg",
+      "sha256": "126882a19549197c4684c8c80d002b5e3d79bfc24486931228e0e38e80d38399",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          694,
+          584
+        ],
+        "bbox": [
+          688,
+          578,
+          700,
+          590
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 110,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000111.jpg",
+      "sha256": "554f1e8353c929d8aba2b114de2e42fd42c74cb60511d6f932a4ed73e1db9ec6",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          704,
+          600
+        ],
+        "bbox": [
+          698,
+          594,
+          710,
+          606
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 114,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000115.jpg",
+      "sha256": "38ae18f7ff04b3063e774bc052b85429c9eb45ee10157b360b89348eca245f07",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          775,
+          612
+        ],
+        "bbox": [
+          767.0,
+          605.0,
+          783.0,
+          619.0
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 120,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000121.jpg",
+      "sha256": "aab475feb8bc7e8c7407800212dc31bec64fcd6fe7357cbc0cda0f6a23139439",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          892,
+          618
+        ],
+        "bbox": [
+          886,
+          612,
+          898,
+          624
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 130,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000131.jpg",
+      "sha256": "15c5f2695ae83be29322e8cd6ae7a603af55b7b21d7841d9b2e6d857268d06db",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          656,
+          644
+        ],
+        "bbox": [
+          647,
+          635,
+          665,
+          653
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 132,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000133.jpg",
+      "sha256": "582382315b6c4a708ed35f2239ad1edcecd35352456ef651bc204121bf619e4c",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          584,
+          652
+        ],
+        "bbox": [
+          572.0,
+          643.0,
+          596.0,
+          661.0
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 150,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000151.jpg",
+      "sha256": "03ba68ff871a865991105c729cb154020c354293ceb633926106787d8514baeb",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1375,
+          721
+        ],
+        "bbox": [
+          1367,
+          713,
+          1383,
+          729
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 152,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000153.jpg",
+      "sha256": "ebe9282fa68101fd5235d444283cf7a1b50621c6d02339f708225710c2470040",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1480,
+          725
+        ],
+        "bbox": [
+          1467.0,
+          716.0,
+          1493.0,
+          734.0
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 154,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000155.jpg",
+      "sha256": "556e9ef73fc24583c40a25b9b5551e6535d3fe7d905dcd3a0055fddb2caadabb",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1558,
+          741
+        ],
+        "bbox": [
+          1550.0,
+          733.0,
+          1566.0,
+          749.0
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 158,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000159.jpg",
+      "sha256": "843d4d79fba8891178c9e21c8ee31d09b041d1fb6a42bc7c8b6fcfeee41a2114",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1651,
+          738
+        ],
+        "bbox": [
+          1645.0,
+          730.0,
+          1657.0,
+          746.0
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 160,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/nj-2400/frame-000161.jpg",
+      "sha256": "3f2216548a7dfea517c00ea8e371fc612fbae35e40c20b18c78fbadc60c8361f",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1669,
+          736
+        ],
+        "bbox": [
+          1663,
+          730,
+          1675,
+          742
+        ]
+      },
+      "clip": "nj-2400",
+      "source_id": "OLpK8enSjJs",
+      "split": "development"
+    },
+    {
+      "frame": 0,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000001.jpg",
+      "sha256": "636527740e6fadc387af556923f82e3823cb8a5a84fa0166fbe2e034f325230f",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          611,
+          258
+        ],
+        "bbox": [
+          595.0,
+          251.0,
+          627.0,
+          265.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 10,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000011.jpg",
+      "sha256": "d3f532365dbf040e82a902a0aa062b844c2c966917c29397a370d5f0e306fb1f",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          235,
+          261
+        ],
+        "bbox": [
+          229.0,
+          255.0,
+          241.0,
+          267.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000021.jpg",
+      "sha256": "eaa4fd9bb6a17b9267e387543e1bfa7fcfeba0362d7aa0df805776a9ed39c494",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          172,
+          321
+        ],
+        "bbox": [
+          167.0,
+          316.0,
+          177.0,
+          326.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 50,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000051.jpg",
+      "sha256": "79ed5649a3508bb4cc07968de91b6642e979ed175005495fc384e5da040bd164",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          357,
+          407
+        ],
+        "bbox": [
+          349.0,
+          401.0,
+          365.0,
+          413.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 60,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000061.jpg",
+      "sha256": "35f9b97634987d1b251497062f9f7ffc72f4365c8ed6dcf272a882f3608feabe",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          228,
+          474
+        ],
+        "bbox": [
+          222.0,
+          468.0,
+          234.0,
+          480.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000101.jpg",
+      "sha256": "d1e1b96e4e6ce154e4915d194a546701b50ca969c72658d309c1b8bc4df5ff5d",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          826,
+          282
+        ],
+        "bbox": [
+          817.0,
+          277.0,
+          835.0,
+          287.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 110,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000111.jpg",
+      "sha256": "d6084442e54ae3e3a967057cd91357de913f6b8d4db8b4b9d9aa2e72d58703b5",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          482,
+          365
+        ],
+        "bbox": [
+          476.0,
+          361.0,
+          488.0,
+          369.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 120,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000121.jpg",
+      "sha256": "5fa8948c75ff2eca67c92e85161b9a3189c6cc3bd1cdc4fee72824417211a19a",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          363,
+          334
+        ],
+        "bbox": [
+          358.0,
+          329.0,
+          368.0,
+          339.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 130,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0180/frame-000131.jpg",
+      "sha256": "70741b38f7a9bc85e23179d470cf83a1c31d15218282ebfb3588659ca8ef6a2d",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          351,
+          261
+        ],
+        "bbox": [
+          346.0,
+          256.0,
+          356.0,
+          266.0
+        ]
+      },
+      "clip": "md-0180",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 40,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0900/frame-000041.jpg",
+      "sha256": "58e488b324843bcd7aced8ca2e1d0f47dd8a5f478723bc3eb4c7b6ca5fce8324",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1263,
+          631
+        ],
+        "bbox": [
+          1256.0,
+          624.0,
+          1270.0,
+          638.0
+        ]
+      },
+      "clip": "md-0900",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 50,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0900/frame-000051.jpg",
+      "sha256": "05fe76d0fc722148d5908a451ec6b551f2ed677c143f0837cdf18655f1eba692",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1177,
+          435
+        ],
+        "bbox": [
+          1172.0,
+          430.0,
+          1182.0,
+          440.0
+        ]
+      },
+      "clip": "md-0900",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 60,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0900/frame-000061.jpg",
+      "sha256": "118937a735c42fe0a051d5032af46cc54bd61fcee8d1a8e6d470f2493a19c5fd",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          976,
+          396
+        ],
+        "bbox": [
+          967.0,
+          391.0,
+          985.0,
+          401.0
+        ]
+      },
+      "clip": "md-0900",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 80,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0900/frame-000081.jpg",
+      "sha256": "4ee3ad238ecf164d43c6aafb769c516f08b10df5d2963fb133f780b6e8b2a5d2",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1082,
+          397
+        ],
+        "bbox": [
+          1077.0,
+          392.0,
+          1087.0,
+          402.0
+        ]
+      },
+      "clip": "md-0900",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 90,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0900/frame-000091.jpg",
+      "sha256": "90a44c4330925098c70e20aa9038ea42542cabeb727fa2faf542ae20ed13a2c1",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          998,
+          348
+        ],
+        "bbox": [
+          993.0,
+          343.0,
+          1003.0,
+          353.0
+        ]
+      },
+      "clip": "md-0900",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/md-0900/frame-000101.jpg",
+      "sha256": "699ebea075e9dbc53a07b790f8c06ea4203ffa90cdd3b9820306a0ef4041e5aa",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          980,
+          324
+        ],
+        "bbox": [
+          975.0,
+          319.0,
+          985.0,
+          329.0
+        ]
+      },
+      "clip": "md-0900",
+      "source_id": "1f0Y5BIr5Ps",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000021.jpg",
+      "sha256": "67efcfe8e3ea4906f9e86ee78f521c116c9b848652d692a56b9887e809e966d3",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          492,
+          299
+        ],
+        "bbox": [
+          488.0,
+          295.0,
+          496.0,
+          303.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 30,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000031.jpg",
+      "sha256": "633d2651bfcf1f7f009ea086b6a80783492a4157f449a368cf60343b00615282",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          540,
+          300
+        ],
+        "bbox": [
+          535.0,
+          296.0,
+          545.0,
+          304.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 40,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000041.jpg",
+      "sha256": "9ead0c50a9630b776884cecdabb96452583ba166c452589d3273bb92eb8aaf42",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          607,
+          334
+        ],
+        "bbox": [
+          601.0,
+          330.0,
+          613.0,
+          338.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 50,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000051.jpg",
+      "sha256": "718f02aba5b8ba331a5f160fb61742ffba25ccb09b1e2d494090a402782c84d4",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          553,
+          374
+        ],
+        "bbox": [
+          547.0,
+          369.0,
+          559.0,
+          379.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 60,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000061.jpg",
+      "sha256": "917f9113d240fe003e548453b852750e9c3b8293496bd71883d2458193113a87",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          490,
+          391
+        ],
+        "bbox": [
+          485.0,
+          386.0,
+          495.0,
+          396.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000101.jpg",
+      "sha256": "8afba32f53a7660d4aa14aa3392514b8b4eaa2326e3e5499c1ed5699e05062ad",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          852,
+          691
+        ],
+        "bbox": [
+          843.0,
+          682.0,
+          861.0,
+          700.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 130,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000131.jpg",
+      "sha256": "d3ca47a94cd17e8e6fc6b2c584543753783fff393bb78bc5e833fb795a8533c2",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          284,
+          407
+        ],
+        "bbox": [
+          279.0,
+          402.0,
+          289.0,
+          412.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 150,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-0180/frame-000151.jpg",
+      "sha256": "abe75e3edf5ed0d1aecec0dbf97ec94c7910c4342b75466889d8ea4225413549",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          407,
+          377
+        ],
+        "bbox": [
+          402.0,
+          372.0,
+          412.0,
+          382.0
+        ]
+      },
+      "clip": "hal-0180",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 140,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/hal-1800/frame-000141.jpg",
+      "sha256": "e55326da2f2f6e0b678cda76ae618b1aed741675d92813f30a121214765339b2",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          830,
+          364
+        ],
+        "bbox": [
+          826.0,
+          360.0,
+          834.0,
+          368.0
+        ]
+      },
+      "clip": "hal-1800",
+      "source_id": "5Qw_g9E7EqE",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0180/frame-000021.jpg",
+      "sha256": "d77b3ff07629ce930a8099529116bc7b0c76d89bf9c60a912dc04f6be2948fb9",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          702,
+          274
+        ],
+        "bbox": [
+          697.0,
+          270.0,
+          707.0,
+          278.0
+        ]
+      },
+      "clip": "buf-0180",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 40,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0180/frame-000041.jpg",
+      "sha256": "c0f3034ae6ec3e6f733a9c99c05c67efe03fe16e399d89c6af9c55a98b17ff1e",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          711,
+          291
+        ],
+        "bbox": [
+          705.0,
+          287.0,
+          717.0,
+          295.0
+        ]
+      },
+      "clip": "buf-0180",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 50,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0180/frame-000051.jpg",
+      "sha256": "3085ad463c8491bab804edbdef9441001d985cae71f0cd33ab9aeb832eb9c382",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          608,
+          290
+        ],
+        "bbox": [
+          603.0,
+          285.0,
+          613.0,
+          295.0
+        ]
+      },
+      "clip": "buf-0180",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 60,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0180/frame-000061.jpg",
+      "sha256": "fa7b6ba6f98f87753f0edd3a41a9161fec6798b3eeae8235f325b2733311a2b3",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          550,
+          284
+        ],
+        "bbox": [
+          545.0,
+          280.0,
+          555.0,
+          288.0
+        ]
+      },
+      "clip": "buf-0180",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0180/frame-000101.jpg",
+      "sha256": "a71cf8011f86b37973000778cef70f56f7714e907333147385f8446f9af13125",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          460,
+          257
+        ],
+        "bbox": [
+          454.0,
+          253.0,
+          466.0,
+          261.0
+        ]
+      },
+      "clip": "buf-0180",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 0,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0180/frame-000001.jpg",
+      "sha256": "d547e658bb4a6d19c12aaf887d366643a281a0e9be5f9a090e8473645a9c4a44",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1326.6,
+          477.5
+        ],
+        "bbox": [
+          1319.6,
+          470.5,
+          1333.6,
+          484.5
+        ]
+      },
+      "clip": "ns-0180",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 10,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0180/frame-000011.jpg",
+      "sha256": "d83d9781b4aa1d2dfcd03e8f0236f9e2c2e372446b6cc6cf8ccfb8c7e0969360",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1568,
+          580
+        ],
+        "bbox": [
+          1558.0,
+          569.0,
+          1578.0,
+          591.0
+        ]
+      },
+      "clip": "ns-0180",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0180/frame-000021.jpg",
+      "sha256": "d408998a92e6fa15cc7ef6dba37db69980c28ba69eb96f0ef2f0c85e52001959",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          839,
+          804
+        ],
+        "bbox": [
+          822.0,
+          787.0,
+          856.0,
+          821.0
+        ]
+      },
+      "clip": "ns-0180",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 0,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0900/frame-000001.jpg",
+      "sha256": "1fa768c533374d2b1fc536672e2fbdd65fb0dc45a934f3345375411609af9ff3",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          779,
+          584
+        ],
+        "bbox": [
+          764.0,
+          569.0,
+          794.0,
+          599.0
+        ]
+      },
+      "clip": "ns-0900",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000021.jpg",
+      "sha256": "ecfe21010bc6fe98d226ab2a0cd3acb643f300e764d61c8b8e5036ff8e70e9c6",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1044,
+          617
+        ],
+        "bbox": [
+          1032.0,
+          610.0,
+          1056.0,
+          624.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 30,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000031.jpg",
+      "sha256": "90896d961d36cc047516add8b271dd0b42f98e7b369e9572619a5fc064cd2318",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          687,
+          556
+        ],
+        "bbox": [
+          681.0,
+          550.0,
+          693.0,
+          562.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 70,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000071.jpg",
+      "sha256": "4e3f175cc8b76caffff113ced921bea06afe1d01b059af47cb172a102b248103",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1124,
+          443
+        ],
+        "bbox": [
+          1118.0,
+          438.0,
+          1130.0,
+          448.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 90,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000091.jpg",
+      "sha256": "c090bd91f7cf2708d704a999a3f7d1a3e75ea17fe9bdd9856515a38a6bcf50fc",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1121,
+          359
+        ],
+        "bbox": [
+          1116.0,
+          354.0,
+          1126.0,
+          364.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000101.jpg",
+      "sha256": "3afe36914ab8faac291a9f7a36e4289ab0dd19b88d5f95e191cb564ce9720934",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1139,
+          333
+        ],
+        "bbox": [
+          1135.0,
+          329.0,
+          1143.0,
+          337.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 110,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000111.jpg",
+      "sha256": "e4142bf69cb6e0a7daa7abdd60e54012c5cc2c101721be9bb2ab5feca295747e",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1144,
+          323
+        ],
+        "bbox": [
+          1140.0,
+          319.0,
+          1148.0,
+          327.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 130,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-0600/frame-000131.jpg",
+      "sha256": "ee5384c3c3d1baf68567e5472799c4b6298e2a6be68c7683b32c29809a946e5f",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1187,
+          315
+        ],
+        "bbox": [
+          1182.0,
+          311.0,
+          1192.0,
+          319.0
+        ]
+      },
+      "clip": "buf-0600",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1200/frame-000021.jpg",
+      "sha256": "f073ad9c4eb576ad728f621b28aec98b592b39b6c3d541ea8ce40f04f420fd62",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          421,
+          385
+        ],
+        "bbox": [
+          416.0,
+          379.0,
+          426.0,
+          391.0
+        ]
+      },
+      "clip": "buf-1200",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 60,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1200/frame-000061.jpg",
+      "sha256": "c7dd181cd320a42fcecac3859c014ac09ab442dc97a366b7ac91a1115515713d",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          974,
+          347
+        ],
+        "bbox": [
+          967.0,
+          343.0,
+          981.0,
+          351.0
+        ]
+      },
+      "clip": "buf-1200",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 70,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1200/frame-000071.jpg",
+      "sha256": "ccfee7dc1901c76e0225ac6cd32cb039e83cc5c505870931cb5986f159931431",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          633,
+          348
+        ],
+        "bbox": [
+          627.0,
+          343.0,
+          639.0,
+          353.0
+        ]
+      },
+      "clip": "buf-1200",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 100,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1200/frame-000101.jpg",
+      "sha256": "647b2dd16b0a2092952de959891aa3ba5be3e982dbfc676dc424994385e457eb",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1100,
+          328
+        ],
+        "bbox": [
+          1095.0,
+          323.0,
+          1105.0,
+          333.0
+        ]
+      },
+      "clip": "buf-1200",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 110,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1200/frame-000111.jpg",
+      "sha256": "ac25f4174a609b8a1faee652da93cd63fdb685cb2900cee4eeb4d9340d4b1472",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          1070,
+          315
+        ],
+        "bbox": [
+          1064.0,
+          310.0,
+          1076.0,
+          320.0
+        ]
+      },
+      "clip": "buf-1200",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 130,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1200/frame-000131.jpg",
+      "sha256": "b3316457d14ca07ce31a4a3a074859352bafa84f980ed753d42caa122d838890",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          997,
+          294
+        ],
+        "bbox": [
+          992.0,
+          289.0,
+          1002.0,
+          299.0
+        ]
+      },
+      "clip": "buf-1200",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 120,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1500/frame-000121.jpg",
+      "sha256": "b87ea8983c90df985677e137fb51d1fdd67f65e3e76531e8743991bbc715ac67",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          428,
+          393
+        ],
+        "bbox": [
+          422.0,
+          388.0,
+          434.0,
+          398.0
+        ]
+      },
+      "clip": "buf-1500",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 130,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1500/frame-000131.jpg",
+      "sha256": "e4ee4950a11fe0c8e2a6f8927821b02036d1a489f98b3b7624224f5437fdd1d7",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          503,
+          440
+        ],
+        "bbox": [
+          497.0,
+          435.0,
+          509.0,
+          445.0
+        ]
+      },
+      "clip": "buf-1500",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 140,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1500/frame-000141.jpg",
+      "sha256": "9416a5bbf36eb4747a21416518328abdc56c82ef6eda4e22c9f3eda7794682af",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          532,
+          476
+        ],
+        "bbox": [
+          526.0,
+          471.0,
+          538.0,
+          481.0
+        ]
+      },
+      "clip": "buf-1500",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 150,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/buf-1500/frame-000151.jpg",
+      "sha256": "d2ca1c52753544f4721dd105caffc3a6e06d2914f23744d01e6501609170b952",
+      "width": 1280,
+      "height": 720,
+      "ball": {
+        "center": [
+          488,
+          494
+        ],
+        "bbox": [
+          482.0,
+          489.0,
+          494.0,
+          499.0
+        ]
+      },
+      "clip": "buf-1500",
+      "source_id": "PWxYa6OZEgo",
+      "split": "regression"
+    },
+    {
+      "frame": 190,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0300/frame-000191.jpg",
+      "sha256": "7a7980089fb0ce4eeac893fdae56b715e60fae8b3d80d7adad6dc0a7f4c10970",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          940.5,
+          455
+        ],
+        "bbox": [
+          934.5,
+          448.0,
+          946.5,
+          462.0
+        ]
+      },
+      "clip": "ns-0300",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 20,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0600/frame-000021.jpg",
+      "sha256": "677ab8a3c887a97e1f9cb628d85dbe7a6f7810fd92893859dbdcd59943943485",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1321.5,
+          440.5
+        ],
+        "bbox": [
+          1315.5,
+          433.5,
+          1327.5,
+          447.5
+        ]
+      },
+      "clip": "ns-0600",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 40,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0600/frame-000041.jpg",
+      "sha256": "b5c21566c855756aa4572d852721c6642da0d598fdc4bbf0a3b74a34b815023a",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1361,
+          447.5
+        ],
+        "bbox": [
+          1354.0,
+          440.5,
+          1368.0,
+          454.5
+        ]
+      },
+      "clip": "ns-0600",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 50,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-0600/frame-000051.jpg",
+      "sha256": "596b719c5a9c0d95ba6b955c1693ad8d6a30e3ee19ddd22685a135172ad0f45d",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1319.5,
+          413
+        ],
+        "bbox": [
+          1312.5,
+          405.0,
+          1326.5,
+          421.0
+        ]
+      },
+      "clip": "ns-0600",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 0,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-1500/frame-000001.jpg",
+      "sha256": "c75b73c9815798e107617cfa222f64f73f925377525179c8e9dad42b22da2f15",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1770,
+          718
+        ],
+        "bbox": [
+          1760.0,
+          708.0,
+          1780.0,
+          728.0
+        ]
+      },
+      "clip": "ns-1500",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 70,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-1500/frame-000071.jpg",
+      "sha256": "5d8d4810ba7b4522377954d0936ba1d097c84473ea27d7ab93cb51fca1c36dc8",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          672,
+          966
+        ],
+        "bbox": [
+          660.0,
+          953.0,
+          684.0,
+          979.0
+        ]
+      },
+      "clip": "ns-1500",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 80,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-1500/frame-000081.jpg",
+      "sha256": "cda828c82c62155d0d5299d1ece84c4d52aa1f583f2a3e2d2d840a7b76b50959",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          677,
+          948
+        ],
+        "bbox": [
+          664.0,
+          934.0,
+          690.0,
+          962.0
+        ]
+      },
+      "clip": "ns-1500",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 170,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-2400/frame-000171.jpg",
+      "sha256": "7fc6cec91eb4bb83d3a6f20e2adbebbe6a4fd94ec7a759a47f03e552c8eb38a3",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1892.5,
+          247
+        ],
+        "bbox": [
+          1882.5,
+          236.0,
+          1902.5,
+          258.0
+        ]
+      },
+      "clip": "ns-2400",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    },
+    {
+      "frame": 180,
+      "image": "/data/ball-hockey/reliability-20261018/ball/frames/ns-2400/frame-000181.jpg",
+      "sha256": "f3c0ec1d43c17b2a23d80318b1ed4c0fe6a134d65dce2bd7869f1e60a3847ef8",
+      "width": 1920,
+      "height": 1080,
+      "ball": {
+        "center": [
+          1821,
+          261
+        ],
+        "bbox": [
+          1811.0,
+          251.0,
+          1831.0,
+          271.0
+        ]
+      },
+      "clip": "ns-2400",
+      "source_id": "vPRRzE3ol2s",
+      "split": "regression"
+    }
+  ]
+}

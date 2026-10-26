@@ -1,0 +1,77 @@
+{
+  "sampling": "Six diagnostic candidates selected to inspect weak positives and questionable airborne classifications. Selected after viewing model answers; not a random audit.",
+  "used_for_parameter_selection": true,
+  "used_for_training": false,
+  "counts": {
+    "visible_ball": 2,
+    "wrong_object": 4
+  },
+  "rows": [
+    {
+      "frame": 43,
+      "pixel": [
+        1496.8859387327848,
+        437.5864112278536
+      ],
+      "state": "detected",
+      "source_sha256": "653883d7d92e83ad2a2b79675f0c94d042eddfbe00cac7442a9cfe5e33cc9157",
+      "verdict": "visible_ball",
+      "note": "Small dark ball moving across floor."
+    },
+    {
+      "frame": 48,
+      "pixel": [
+        1601.7150035296495,
+        450.16472440319825
+      ],
+      "state": "detected",
+      "source_sha256": "e68392d8b1a42b114f702006d0b5a2bfa64d5a812125b7fab928eaabbd87dd5d",
+      "verdict": "visible_ball",
+      "note": "Small dark ball moving across floor."
+    },
+    {
+      "frame": 1250,
+      "pixel": [
+        682.8626229868854,
+        328.96937827421175
+      ],
+      "state": "detected",
+      "source_sha256": "04af88a48b69b8b530336f8185678c16bd6b3cc2c3f3b6d3361668ba098fef3d",
+      "verdict": "wrong_object",
+      "note": "Bright red background light beyond far boards; attached to background across adjacent frames, not an airborne ball."
+    },
+    {
+      "frame": 1288,
+      "pixel": [
+        1027.1983505688866,
+        281.55434287735034
+      ],
+      "state": "detected",
+      "source_sha256": "2a829a97721e379b3ab0830fca62b7a76b4800d57a1b2f9945db06c4dae2b738",
+      "verdict": "wrong_object",
+      "note": "Bright red background light beyond far boards; attached to background across adjacent frames, not an airborne ball."
+    },
+    {
+      "frame": 1291,
+      "pixel": [
+        1570.6097890077972,
+        313.7186127108912
+      ],
+      "state": "detected",
+      "source_sha256": "9ab46829af42b1c2825be329c405475985a6aaaa8c778310b2c5906da7b5deb2",
+      "verdict": "wrong_object",
+      "note": "Bright red background light beyond far boards; attached to background across adjacent frames, not an airborne ball."
+    },
+    {
+      "frame": 1343,
+      "pixel": [
+        410.6117085501851,
+        281.2565033698447
+      ],
+      "state": "detected",
+      "source_sha256": "d57588e67916d22914038db3b630b1d0a3e53e4372665b67a302fa7e2c8cd9a7",
+      "verdict": "wrong_object",
+      "note": "Bright red background light beyond far boards; attached to background across adjacent frames, not an airborne ball."
+    }
+  ]
+}

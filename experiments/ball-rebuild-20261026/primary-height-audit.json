@@ -1,0 +1,76 @@
+{
+  "sampling": "Diagnostic check of held/airborne and representative unclear-height outputs.",
+  "used_for_training": false,
+  "used_for_parameter_selection": false,
+  "counts": {
+    "visible_ball": 6
+  },
+  "rows": [
+    {
+      "frame": 2614,
+      "pixel": [
+        1143.7046429160257,
+        820.9671411461675
+      ],
+      "state": "detected",
+      "source_sha256": "10e4faf9093b7864eb2ebab0eddd5452b5c184cbd219fd86ae312fb11448fc7a",
+      "verdict": "visible_ball",
+      "note": "Visible ball in full-frame and adjacent-crop context; held at 3368, airborne at 2614/2616/4446, height difficult to establish at 2849/2870."
+    },
+    {
+      "frame": 2616,
+      "pixel": [
+        1191.8721766860706,
+        875.7360126574252
+      ],
+      "state": "detected",
+      "source_sha256": "76c5ab1e1d982e9374e7da139e26de8f874f82c5ab012feacc4fe33eec0171f5",
+      "verdict": "visible_ball",
+      "note": "Visible ball in full-frame and adjacent-crop context; held at 3368, airborne at 2614/2616/4446, height difficult to establish at 2849/2870."
+    },
+    {
+      "frame": 2849,
+      "pixel": [
+        794.7733496864165,
+        601.846415395934
+      ],
+      "state": "detected",
+      "source_sha256": "3f50ad2b9d8b21de65985f777ec422db7ad38925b33161a4e6e0318605821387",
+      "verdict": "visible_ball",
+      "note": "Visible ball in full-frame and adjacent-crop context; held at 3368, airborne at 2614/2616/4446, height difficult to establish at 2849/2870."
+    },
+    {
+      "frame": 2870,
+      "pixel": [
+        530.4882158590334,
+        542.9374176123488
+      ],
+      "state": "detected",
+      "source_sha256": "5d372e91fd8b4803b3d06189a74b2e0e4701149d6257a7579ded657908fbf241",
+      "verdict": "visible_ball",
+      "note": "Visible ball in full-frame and adjacent-crop context; held at 3368, airborne at 2614/2616/4446, height difficult to establish at 2849/2870."
+    },
+    {
+      "frame": 3368,
+      "pixel": [
+        537.6058342927095,
+        547.1309126632507
+      ],
+      "state": "detected",
+      "source_sha256": "6a06ba4615aa4ca40fd2561aaf0afb2eded0f1a9266262bcff51914931627128",
+      "verdict": "visible_ball",
+      "note": "Visible ball in full-frame and adjacent-crop context; held at 3368, airborne at 2614/2616/4446, height difficult to establish at 2849/2870."
+    },
+    {
+      "frame": 4446,
+      "pixel": [
+        997.6697800951521,
+        516.7346226448714
+      ],
+      "state": "detected",
+      "source_sha256": "b0547f8d0663c6607ef542ef8034903dca5293bdd0de09ef16a85cbe97d8783f",
+      "verdict": "visible_ball",
+      "note": "Visible ball in full-frame and adjacent-crop context; held at 3368, airborne at 2614/2616/4446, height difficult to establish at 2849/2870."
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "source_id": "OLpK8enSjJs",
+  "start_s": 900,
+  "fps": 15,
+  "native_size": [
+    1920,
+    1080
+  ],
+  "match_radius_px": 12,
+  "rows": [
+    {
+      "frame": 37,
+      "sha256": "a4b6564458a0a6a3dda763511853dbb0d307a595638e6e9912f47a32bd900812",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 112,
+      "sha256": "d4218b4d2d2ec56dd4a8dfe1bfb6479a36cea65402106bd0f852f3f5892479c1",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 187,
+      "sha256": "0d199b145eadcacd8415e1af4c23197cb095b8bfa927e98d20aba8f8c7421589",
+      "split": "development",
+      "visibility": "visible",
+      "center": [
+        1117,
+        696
+      ],
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 262,
+      "sha256": "9eacc1d0688acce6e72c87e9ac58f6be10b88fb4632e769a5e54bcc242ae3fe0",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 337,
+      "sha256": "c0578ecd5bb64438dbac48310f29957e4b06cce94a3581f40306e1f6062e2f49",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 412,
+      "sha256": "65d0c0ce003712a4df00b88b33e8346371a62ee7935a036e08979eccc24b4e35",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 487,
+      "sha256": "3c2ac07a8af57eef54613ac173a0365a6a9b8dcda99168c4f8fce59f3eeb6a6e",
+      "split": "development",
+      "visibility": "absent",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 562,
+      "sha256": "ad1a8d18c234d84f8b15544558d361b3d984a0c1ed0a4c4a67927a3a6b0017bc",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 637,
+      "sha256": "af63045baea0f8ecba6a050df30585e697f3c4efb8fd4262d981ba9d2a22f992",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 712,
+      "sha256": "fd3a97bccc27c762e561e1c0eb764498d5a261411d96ce42a088232e8639b7ee",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 787,
+      "sha256": "2911ac4bb9f263d7c7345fef7c701c0f5f980eae5c73e58e9104a1d46ab74624",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 862,
+      "sha256": "615a82f3e8f12ea41e692e59e39e03814af7d47c2099d422a5fd9a4237f55622",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 937,
+      "sha256": "49acdb554ed90f9d37ed7376194edd3434476be4d19e6164363e48709e040390",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1012,
+      "sha256": "194e88319f972ce09ab093334c13c931bed4d065ccfa26466ade4161b53aeb4c",
+      "split": "development",
+      "visibility": "visible",
+      "center": [
+        212,
+        581
+      ],
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1087,
+      "sha256": "fe69afe41a21eff6d8d586e33f5fa1e8b72ea1a2e082a174b37019d1403a00bd",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1162,
+      "sha256": "332eb0669e762c77b7d914e990d0205d208066c6ec94d767abedf83f9dbf5b83",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1237,
+      "sha256": "6f284184ffb9e4a848121de4580bfdf88b7ec61df4184b3687aa25a1f9218209",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1312,
+      "sha256": "62bc2ff3a5a1e9395779d782b334dd5aeb6494b3f95b7be341480a3453fd0c51",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1387,
+      "sha256": "65f3696d931be93229cc79284c95d752bf35930a7ae5a8fe42ab7265b06e4925",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1462,
+      "sha256": "f60ae4399a53fdf7a79cdf1fc927c6e0f7327ebfee41e1de7e087e196ff2613d",
+      "split": "development",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1537,
+      "sha256": "ddc74266d6369bb81ac5c0272a12f3bb57bdf08fb392a09d967ff269323d8ed6",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1612,
+      "sha256": "08ec99c7c558d61aa32489ded79ebfe1bfc0c0e96a2de828b877bad8adf11bbc",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1687,
+      "sha256": "4f35cc7355cfe2a9bffa7f84fde5170aa2a4ac23af1d760261ee7855e9463804",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1762,
+      "sha256": "fa3fb319067993c71af3fe8a163c65891aec7f193d98bf15207b84134c0f686b",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1837,
+      "sha256": "5f5a785c740a6feb1375726110ae3b22a56a471059eb2cdd2a85cb47e14a5be7",
+      "split": "test",
+      "visibility": "visible",
+      "center": [
+        474,
+        804
+      ],
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1912,
+      "sha256": "44dbd481c09e9398a24473dc01709ef46816b412b04d55fddeb4cc28eb0ba092",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 1987,
+      "sha256": "c5cbb20828d3cea00b6b624811ebf7840d26a114908d0a9c90a77a7d65327c0b",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2062,
+      "sha256": "3d76a7e3ec6457882a8b46df25346886b34cd5edbc5fad5b248c5a51da9e34e8",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2137,
+      "sha256": "e570d119e51800bef448a906c9d6f35023b018a51e83a224b9ef894d51f04ec1",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2212,
+      "sha256": "754548575c4a50e9724a88564d384272bba0eb59a6419171be7f8d6a4a6151b6",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2287,
+      "sha256": "4a52d34db9aea8c339e011b6c3f3ed00f7470f0287e51f4ec8d41f054124c71c",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2362,
+      "sha256": "7351db583680402b5119c91c64b025c8ef900c4fae1302011cbc634d1fcf9da6",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2437,
+      "sha256": "e59a94f27c9991baa7121f917352f27e2889c447096adb8e3ba96ddff56b6ea0",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2512,
+      "sha256": "6dff80973bd4c6abde7e578808934b37eba3dd755f0247ad9bd1f848401969dc",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2587,
+      "sha256": "4298d6b09e7c7b761a3d168809de296d748dd38cd3abe9cd45d8ea09a191c7c6",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2662,
+      "sha256": "4e481242086ccaea1cee7548c1bfd9b3ac663fb15778389ce8898778279dc6a0",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2737,
+      "sha256": "178d33c43178a5a14636f021a241ee5f0cbe31f513a203bdd75005a146fab9f8",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2812,
+      "sha256": "019b9407f137988a68bd8a237d489f695cdda553a5ffeae38834cb87e6187353",
+      "split": "test",
+      "visibility": "visible",
+      "center": [
+        346,
+        849
+      ],
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2887,
+      "sha256": "f25e357ce725bb1bc4abf17210a96496728c5f63c999490645e525a5fbff54ce",
+      "split": "test",
+      "visibility": "visible",
+      "center": [
+        393,
+        504
+      ],
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 2962,
+      "sha256": "0eeabda79c27ddeee3c69661fa2c691a1367b1f6446d508bd6462977f31b542d",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3037,
+      "sha256": "ad5ba875e6a261e7bc11e80728410e254d8e1fc2dcbfce24f7885b9b00768ff8",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3112,
+      "sha256": "31c1e0bf2874b3d47441ac9e403d3274b0f662b22d63d8fd82d8392644cfe0b0",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3187,
+      "sha256": "83ea9edcd543cb28c0ff6534836040d069fae7aeeb700403fc920cd1b82bceae",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3262,
+      "sha256": "8198ae03ae56a54fdd3b87d3e36065f28ae23ed13209bc5d701740e8ad92d95e",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3337,
+      "sha256": "1f419d448310b0be0fe4f918ef0b251bc5918109e0ff6d5ac11113282e99b91f",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3412,
+      "sha256": "643e9721a43abca5628848e50e5fdab9ab119f120590e5522b649dca5c208685",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3487,
+      "sha256": "31b41116ee563495ffc241d6c17c54511397d4d876e471b7b72ce6d675062d67",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3562,
+      "sha256": "4334c79b67a565df9d9826a5eeb92a79f501f0f4ffeaff6b3e35c59ec132298b",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3637,
+      "sha256": "a199349dcff58f0014f2dc6b6055ae2b826588bc8ba456a4d45c89bdfc42a8e0",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3712,
+      "sha256": "33b01023e93f20963f8bd1cf9e869792aad3745a3f204b4fd19efff2cdec12dd",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3787,
+      "sha256": "a8343d2a131163dd5044487f855e9599baf2e6811920d59c817e32b31298d44e",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3862,
+      "sha256": "607320f5fe1c26358cd703f1455fd38c6efa804b21e2cbb56a9b1cad7a1dd43d",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 3937,
+      "sha256": "ee1e929b03969e65837fab6ecf3343f4385ffcfb13368359b3de971d328cbd6b",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4012,
+      "sha256": "84c5c1fe7d398d00908bee87cedbbf67bfd76bcac5b898565574ef2ad378eac3",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4087,
+      "sha256": "710b27506b8d1fe8de1c9eebb8d657ee27e9055470cac826adac1869ce49162c",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4162,
+      "sha256": "6152ad0d4180eaa3c862a53ffbb6dc41f9d2fe09aa76b73fa0118bf0eebce41c",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4237,
+      "sha256": "f12c756d4f6fad7cce0d370a3771446fb4280dfa76205a5c50b6c0cef7b955d6",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4312,
+      "sha256": "83ec1309b28903b3cba59ae6dfaad078723b590954221b4a2b46c8a1898c1725",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4387,
+      "sha256": "2daba1e571920453be771326e6c0748e5ed0a7b4cdd95f9f67eecf8b2493541d",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    },
+    {
+      "frame": 4462,
+      "sha256": "30d3e2acb7fee6e58308954d3b484c329decbafd1e55de94ec729b49c3309c1d",
+      "split": "test",
+      "visibility": "unknown",
+      "center": null,
+      "reviewer": "assistant, prediction-free visual review"
+    }
+  ],
+  "limits": "Sparse assistant review; unknown is not a negative. Development/test portions of an already used recording."
+}
