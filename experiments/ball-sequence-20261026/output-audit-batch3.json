@@ -1,0 +1,768 @@
+{
+  "scope": "Systematically selected added context frames in later completed windows. Conditional assistant audit.",
+  "independent_human_review": false,
+  "reviewer": "assistant visual inspection of native chronological panels",
+  "counts": {
+    "visible_inside": 1,
+    "context_consistent_unverified": 9,
+    "unclear": 3
+  },
+  "rows": [
+    {
+      "frame": 195,
+      "state": "context",
+      "pixel": [
+        1319.04,
+        702.0
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1319.04,
+            702.0
+          ],
+          "radius_px": 60.0,
+          "weight": 0.86,
+          "carrier_track_id": "T12",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.5489253368236112,
+            0.6310205151277235
+          ],
+          "covariance": [
+            [
+              2.797353509410038e-05,
+              -0.00014686381739189306
+            ],
+            [
+              -0.00014686381739189306,
+              0.0021350506274005897
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "b1e448a1cb5a639b2ebc7a47c7c707fb1780583638310bf70518e42825d3da5d",
+      "verdict": "visible_inside",
+      "note": "Pink ball is visible beside the white player's blade/feet during the advance, inside the inferred region.",
+      "reviewed_ball_pixel": [
+        1323.04,
+        698.5
+      ]
+    },
+    {
+      "frame": 255,
+      "state": "context",
+      "pixel": [
+        1353.6,
+        623.1600000000001
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1353.6,
+            623.1600000000001
+          ],
+          "radius_px": 60.0,
+          "weight": 0.84,
+          "carrier_track_id": "T15",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.3807203995499733,
+            0.4809901981673149
+          ],
+          "covariance": [
+            [
+              9.800518384340084e-05,
+              0.0005621080998546118
+            ],
+            [
+              0.000562108099854612,
+              0.004576821155589346
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "8ccaec1961d3d9c7cf5284b1443523f1da30924e27b4ebe7906ef9a9e258d93c",
+      "verdict": "context_consistent_unverified",
+      "note": "White carrier and trailing red challenger converge near the blue line; ball is indistinct."
+    },
+    {
+      "frame": 1995,
+      "state": "context",
+      "pixel": [
+        835.1999999999999,
+        488.16
+      ],
+      "radius_px": 70.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            835.1999999999999,
+            488.16
+          ],
+          "radius_px": 70.0,
+          "weight": 0.82,
+          "carrier_track_id": "T117",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.006693828660979781,
+            0.4807624780539982
+          ],
+          "covariance": [
+            [
+              0.003986774327023882,
+              0.007236306619188915
+            ],
+            [
+              0.007236306619188915,
+              0.01380852328759529
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1225.0,
+              0.0
+            ],
+            [
+              0.0,
+              1225.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "a5096ae8fb75c2e55b30caffe6b519f837ebc5915cd6ef34f30cf856a906970d",
+      "verdict": "unclear",
+      "note": "Region covers the left-post area behind a white player. The ball may instead remain at the sprawled goalkeeper; target evidence is insufficient."
+    },
+    {
+      "frame": 2055,
+      "state": "context",
+      "pixel": [
+        840.9599999999999,
+        511.92
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            840.9599999999999,
+            511.92
+          ],
+          "radius_px": 60.0,
+          "weight": 0.82,
+          "carrier_track_id": "T113",
+          "support": "unclear",
+          "motion_source": "carrier_motion",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "3eec986022b56faf942198d57eaa89787dbee326ac546d83056946fac6f3048c",
+      "verdict": "context_consistent_unverified",
+      "note": "Goalkeeper covers or controls the ball in the crease; nearby frames show the same covered area."
+    },
+    {
+      "frame": 2295,
+      "state": "context",
+      "pixel": [
+        364.79999999999995,
+        537.8399999999999
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            364.79999999999995,
+            537.8399999999999
+          ],
+          "radius_px": 60.0,
+          "weight": 0.73,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "63a5c858c4dedd64405cd30326291e5875a28d4c40e6f6e0dfcd2bed9f1859f3",
+      "verdict": "context_consistent_unverified",
+      "note": "Official prepares the faceoff with a hand near the players; the held ball is not resolved."
+    },
+    {
+      "frame": 2355,
+      "state": "context",
+      "pixel": [
+        430.07999999999936,
+        542.1600000000002
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            430.07999999999936,
+            542.1600000000002
+          ],
+          "radius_px": 60.0,
+          "weight": 0.75,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "f3d60367f3bea4a5d30750f959fbd9eb84911a4b8cacf69f344e332220778d7d",
+      "verdict": "context_consistent_unverified",
+      "note": "Official's extended lower hand is consistent with preparing the drop, but the small ball is not individually resolved."
+    },
+    {
+      "frame": 2445,
+      "state": "context",
+      "pixel": [
+        558.7199999999999,
+        627.4800000000001
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            558.7199999999999,
+            627.4800000000001
+          ],
+          "radius_px": 60.0,
+          "weight": 0.55,
+          "carrier_track_id": "T135",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.17513420021785692,
+            0.7540609676288774
+          ],
+          "covariance": [
+            [
+              0.0005857077168734533,
+              0.0011039940836966096
+            ],
+            [
+              0.0011039940836966096,
+              0.002311611659569089
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            479.99999999999983,
+            637.2000000000002
+          ],
+          "radius_px": 60.0,
+          "weight": 0.29,
+          "carrier_track_id": "T97",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.17238924035733963,
+            0.7880425067651833
+          ],
+          "covariance": [
+            [
+              0.0005670380352996853,
+              0.0010037890533380683
+            ],
+            [
+              0.0010037890533380683,
+              0.001982875647162119
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "4958a8978c9948941125795f5363861a90f5f919ca0755d8fa9153c003f72543",
+      "verdict": "context_consistent_unverified",
+      "note": "Two floor hypotheses cover the contested stick cluster immediately after the faceoff."
+    },
+    {
+      "frame": 2505,
+      "state": "context",
+      "pixel": [
+        852.48,
+        503.28000000000003
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            852.48,
+            503.28000000000003
+          ],
+          "radius_px": 60.0,
+          "weight": 0.64,
+          "carrier_track_id": "T101",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.06878104646556162,
+            0.39821415470868937
+          ],
+          "covariance": [
+            [
+              0.0021271022760730946,
+              0.0048000446284538
+            ],
+            [
+              0.004800044628453801,
+              0.0114143507963955
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            766.0799999999999,
+            502.20000000000005
+          ],
+          "radius_px": 60.0,
+          "weight": 0.17,
+          "carrier_track_id": "T121",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.05134487063488536,
+            0.4278754498955691
+          ],
+          "covariance": [
+            [
+              0.0023050641892693176,
+              0.004859729685603904
+            ],
+            [
+              0.004859729685603904,
+              0.010787583784504414
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "f0e19d49ac8c33bbdf236aaa5d1a73e0fc2279257a9fa32933906f87a680a84c",
+      "verdict": "context_consistent_unverified",
+      "note": "Two crease/stick regions reflect an uncertain transfer near the goalkeeper; ball is not visible."
+    },
+    {
+      "frame": 2595,
+      "state": "context",
+      "pixel": [
+        1632.0,
+        534.6
+      ],
+      "radius_px": 65.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1632.0,
+            534.6
+          ],
+          "radius_px": 65.0,
+          "weight": 0.75,
+          "carrier_track_id": "T136",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.2551094327419843,
+            0.22129403000953243
+          ],
+          "covariance": [
+            [
+              0.000694285694289251,
+              0.003108029160703451
+            ],
+            [
+              0.0031080291607034514,
+              0.015310332323568699
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1056.25,
+              0.0
+            ],
+            [
+              0.0,
+              1056.25
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "246abe006cb35776295d1acc6f43c93f00220f1b3e94b669c2c1b36198df61e1",
+      "verdict": "unclear",
+      "note": "Rapid clearance and camera motion make the flight timing uncertain. The proposed region is not visually confirmed."
+    },
+    {
+      "frame": 2655,
+      "state": "context",
+      "pixel": [
+        835.2,
+        745.2000000000002
+      ],
+      "radius_px": 70.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            835.2,
+            745.2000000000002
+          ],
+          "radius_px": 70.0,
+          "weight": 0.8,
+          "carrier_track_id": "T135",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.6808401257631252,
+            0.8586013953336544
+          ],
+          "covariance": [
+            [
+              0.00014695945232138065,
+              -0.00037057992808205094
+            ],
+            [
+              -0.000370579928082051,
+              0.0011601606525621561
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1225.0,
+              0.0
+            ],
+            [
+              0.0,
+              1225.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "d30cbdd56c1212160b361d83e484472a5a7fba88c5d81829b3c2b9fa612c2f4e",
+      "verdict": "context_consistent_unverified",
+      "note": "Near-board receiving/challenging players are occluded by the official and spectators; the region follows the board-side play."
+    },
+    {
+      "frame": 2895,
+      "state": "context",
+      "pixel": [
+        623.9999999999998,
+        505.44000000000005
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            623.9999999999998,
+            505.44000000000005
+          ],
+          "radius_px": 60.0,
+          "weight": 0.57,
+          "carrier_track_id": "T164",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.6838237598063313,
+            0.1957315311327611
+          ],
+          "covariance": [
+            [
+              0.00038599964345004513,
+              -0.0021401447496586447
+            ],
+            [
+              -0.0021401447496586447,
+              0.013736751183479045
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            455.03999999999974,
+            525.96
+          ],
+          "radius_px": 65.0,
+          "weight": 0.21,
+          "carrier_track_id": "T161",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.640834412776014,
+            0.22072687260492638
+          ],
+          "covariance": [
+            [
+              0.00026448841998453896,
+              -0.0017218396741654927
+            ],
+            [
+              -0.001721839674165493,
+              0.013993799594592819
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1056.25,
+              0.0
+            ],
+            [
+              0.0,
+              1056.25
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "ca982753fdc8211d692a03f770dc780b2adc2dd60b16a08ee7af0abec44ea276",
+      "verdict": "unclear",
+      "note": "Strong pan blur during the breakout prevents resolving the ball or choosing between the two spatial hypotheses."
+    },
+    {
+      "frame": 2955,
+      "state": "context",
+      "pixel": [
+        650.88,
+        471.96000000000004
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            650.88,
+            471.96000000000004
+          ],
+          "radius_px": 60.0,
+          "weight": 0.45,
+          "carrier_track_id": "T172",
+          "support": "held",
+          "motion_source": "carrier_motion",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            420.4800000000009,
+            493.5600000000001
+          ],
+          "radius_px": 65.0,
+          "weight": 0.23,
+          "carrier_track_id": null,
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.02558354960748136,
+            0.4255509456219625
+          ],
+          "covariance": [
+            [
+              0.0030866009327230473,
+              0.006196509476739139
+            ],
+            [
+              0.00619650947673914,
+              0.01303704935712229
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1056.25,
+              0.0
+            ],
+            [
+              0.0,
+              1056.25
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "0beaf45d8a493ace7c2a4701a3082089448492ba2f3b6ed3773b168e436f06ce",
+      "verdict": "context_consistent_unverified",
+      "note": "Goal-mouth and goalkeeper alternatives fit the end of the rush; exact ball position is unresolved."
+    },
+    {
+      "frame": 3045,
+      "state": "context",
+      "pixel": [
+        963.8399999999993,
+        504.35999999999996
+      ],
+      "radius_px": 75.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            963.8399999999993,
+            504.35999999999996
+          ],
+          "radius_px": 75.0,
+          "weight": 0.45,
+          "carrier_track_id": null,
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.04680486399964771,
+            0.48327384963675296
+          ],
+          "covariance": [
+            [
+              0.003527659206403173,
+              0.006924244453001959
+            ],
+            [
+              0.00692424445300196,
+              0.014350863118265333
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1406.25,
+              0.0
+            ],
+            [
+              0.0,
+              1406.25
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            981.12,
+            446.04
+          ],
+          "radius_px": 60.0,
+          "weight": 0.2,
+          "carrier_track_id": "T172",
+          "support": "held",
+          "motion_source": "carrier_motion",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "f3b52cc35765207f376f87188a3d0f8efe4499e6859e8b89530f8f2159d098f4",
+      "verdict": "context_consistent_unverified",
+      "note": "Stoppage and goalkeeper handling are compatible with the floor/held alternatives, but target ball is not distinct."
+    }
+  ]
+}

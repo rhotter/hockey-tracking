@@ -1,0 +1,2243 @@
+{
+  "protocol": {
+    "source_id": "OLpK8enSjJs",
+    "source_start_s": 900,
+    "frames": 4500,
+    "fps": 15,
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "core_frames": 150,
+    "context_margin_frames": 45,
+    "sample_step_frames": 7.5,
+    "max_output_tokens": 16384,
+    "budget_usd": 8,
+    "input_usd_per_million": 10,
+    "output_usd_per_million": 50,
+    "pricing_basis": "Reuse the previously verified project pricing assumption; apply 1.25x input safety factor. Estimate only, excludes Modal.",
+    "pilot_starts": [
+      0,
+      300,
+      900,
+      1800,
+      2700,
+      3900
+    ],
+    "all_starts": [
+      0,
+      150,
+      300,
+      450,
+      600,
+      750,
+      900,
+      1050,
+      1200,
+      1350,
+      1500,
+      1650,
+      1800,
+      1950,
+      2100,
+      2250,
+      2400,
+      2550,
+      2700,
+      2850,
+      3000,
+      3150,
+      3300,
+      3450,
+      3600,
+      3750,
+      3900,
+      4050,
+      4200,
+      4350
+    ],
+    "excluded_frames": [
+      466,
+      516
+    ],
+    "input_sha256": {
+      "web/data/overhead-20261025/replay.json": "c8adb035b269ba3562dc64dd504483c811107d753598ff344862b9650a5c8b93",
+      "web/data/ball-rebuild-20261026/replay.json": "ed7792a0bac0c6205cece6dd1c3595361054d7e64195bcccad859a6d33321906"
+    },
+    "frozen_at_utc": "2026-10-26T23:18:50.760804+00:00",
+    "purpose": "Infer ball state over chronological 16-second context, including plausible possession and occluded location. Explicit multi-hypothesis regions, no claim of visible detection when inferred. Reused development game; no independent human ground truth.",
+    "transport": "server-sent events",
+    "socket_timeout_s": 900,
+    "prior_timeout_requests_reserved_usd": 5,
+    "transport_note": "Six initial non-streaming requests used a 180-second client. Their outcomes/cost reservations remain in the legacy ledger. This explicitly started streaming experiment reserves another $45, not an automatic retry loop.",
+    "prior_transport_experiments_reserved_usd": 10,
+    "output_amendment": "The original 8192-token cap exhausted before finishing the structured timeline (6732 reasoning tokens and a truncated answer in the first observed incomplete response). Increase output allowance; retain both earlier ledgers and reserve $10 for them within the overall $50 budget.",
+    "prior_experiments_reserved_usd": 42,
+    "repair_note": "One explicitly launched replacement request per failed window, after transport errors in the six-worker run. Separate ledger, three workers, no automatic retries. Earlier requests remain charged/reserved in their original ledgers."
+  },
+  "requests": {
+    "0750": {
+      "id": "0750",
+      "core": [
+        750,
+        900
+      ],
+      "context": [
+        705,
+        945
+      ],
+      "targets": [
+        750,
+        758,
+        765,
+        772,
+        780,
+        788,
+        795,
+        802,
+        810,
+        818,
+        825,
+        832,
+        840,
+        848,
+        855,
+        862,
+        870,
+        878,
+        885,
+        892
+      ],
+      "images": [
+        {
+          "frame": 705,
+          "source_sha256": "ff6040b07d5692d50e2dd88976490551fc8c2a958df6b84b28c607e0bf7fba08",
+          "render_sha256": "3c1c3fbdc420d7e4af3bc70eef3ae8001e49d9bdea367f92f3fed53ef4b6f7fc"
+        },
+        {
+          "frame": 712,
+          "source_sha256": "fd3a97bccc27c762e561e1c0eb764498d5a261411d96ce42a088232e8639b7ee",
+          "render_sha256": "b17265ec2ae6f67e891a0c7483927a2eaf62b59b4df186768500d688f220cf21"
+        },
+        {
+          "frame": 720,
+          "source_sha256": "f6858a45f3ed5de0403ef518365d76a4cc8db4b900c2f4806e89f413575068c3",
+          "render_sha256": "77ad33d87d0c4738333b91784dbe67965d8f6731e0cfe6d91972e0391069b00e"
+        },
+        {
+          "frame": 728,
+          "source_sha256": "b2f96d46a219eaf877f97d467eb8cc6a8c816fe4cb4c65b74e781ff1f7de53b7",
+          "render_sha256": "b3806a92d8f221ee0c8ebf596517979c72ed03352449b3d75f0c5e6935524f75"
+        },
+        {
+          "frame": 735,
+          "source_sha256": "0bff628f706d2fb6ee920784269bfeb28f07408979455b6fa15ba9cbc29c3d73",
+          "render_sha256": "4382563bea3a83093a205f0a4d3899907d26da749dce81009aa17f540be107d8"
+        },
+        {
+          "frame": 742,
+          "source_sha256": "db6a23a1fe1661f8568b02f16b53005a8972d711690e1ef325448581e64e26de",
+          "render_sha256": "05ae75fc7fad92fef1ab66665cec907432a66b4b10df47b34b554919d82c35a2"
+        },
+        {
+          "frame": 750,
+          "source_sha256": "7d4777181d3a1747e8be6bfbf14cf066a984c45d0123f87c0ca64969ad7e1ae6",
+          "render_sha256": "96e4c43159f47ba19282db85d39f28873100c3cfebf31653cfe2a27af7c9022e"
+        },
+        {
+          "frame": 758,
+          "source_sha256": "37e2fc2d46343bce6f1d5b3b380211014af0b320b2bc0d4a5009caeaddcd4744",
+          "render_sha256": "2b4d51866c3a74393ea879b920e55d6e4d6f9f4075bb339929d93d3db69bc6d1"
+        },
+        {
+          "frame": 765,
+          "source_sha256": "f3b640743cff7427fd8c9f3c298397612b4f5e52922a149ac01f34c8f036ea93",
+          "render_sha256": "a494e262fbf83e6fde90be42a53bee41d5e58f6abef170004b317be29c857eca"
+        },
+        {
+          "frame": 772,
+          "source_sha256": "07136d60c83be0d6c03dbf715dc8eee8f6e787d80107da21edbdc748a8773832",
+          "render_sha256": "adc02616b51cff9e46f930dc4b3b23e02efab18f5692a82a5954d9a21fcc638c"
+        },
+        {
+          "frame": 780,
+          "source_sha256": "73c422ff7d8349d8b0f739dd1db0d5b9d40201692657da91269a181d891aa3af",
+          "render_sha256": "b181cf3bc5e366bd6c10a7dd4908f3570c7386a6a503b4e84d2f6df9ef617c18"
+        },
+        {
+          "frame": 788,
+          "source_sha256": "14a76581eae01e957ec37547f0bfc73c3acc20f237ec74bc6f9c8dfd49798af7",
+          "render_sha256": "86091a063a7235374d31dbd56af4f8d913a87f8e4371011ed5944c6ee15e178c"
+        },
+        {
+          "frame": 795,
+          "source_sha256": "9ea785313588818da1698ba7d85dd2f45aee52356d4dd6d0c506db9ebb75766b",
+          "render_sha256": "59e5cc2139cc06de3d2cd7da735f9e7458b5cff8fdc98c8e3a91a58d539f82a5"
+        },
+        {
+          "frame": 802,
+          "source_sha256": "dde0955fe5dbf97776fc147dfc3bf5f29714bc9ecdb12a36872022e374577d20",
+          "render_sha256": "da1c5f3d3e5f722aa0e7acacfa2deca0967ca13279058cb86cfdb55b49eb8b48"
+        },
+        {
+          "frame": 810,
+          "source_sha256": "26dfcd4fca8543558972d7fc8a8e3a047a651eb5b3d711f027ef1999dd4d1eaa",
+          "render_sha256": "55829c58d2872fbf3f1333ebca0f75702f8fb9586d12a5173976e9d265ced9c3"
+        },
+        {
+          "frame": 818,
+          "source_sha256": "52870825bd751b5e6922ee1b5bf87bf02215aad82d7f12ab5c68ebb8e663aa61",
+          "render_sha256": "0e553a26fb0e7772f41900f9afd651deba912759e0ff509fdeafea970a773415"
+        },
+        {
+          "frame": 825,
+          "source_sha256": "66b85fe666f818a2aca905525a625b6eda0b657592e4a9c4ec08e972c6bf36ae",
+          "render_sha256": "7dcb457935981d019a9c6b0203b27f142d0539575b3647ac36798d0a0b3f641d"
+        },
+        {
+          "frame": 832,
+          "source_sha256": "8c40c1263339c7fc67d930372e55977664cbb733f91a7fcde3b841f52c2e762c",
+          "render_sha256": "ae9b303e18acf8703e8d2d9dbdfe536ad698279cda219b7588f9c0c28eaf8455"
+        },
+        {
+          "frame": 840,
+          "source_sha256": "af4dc92db4c1a6e30c241696f6523c1436f964986f505638f831fc62371e0b6e",
+          "render_sha256": "63e2adac68ecaa67dd15911f7c25106dcdc3b114b6f4eff34abe11923ce60ac1"
+        },
+        {
+          "frame": 848,
+          "source_sha256": "fadc13a6eafd4342be01c0d8e778ad23eab8a81823c489179c7e7b6742eab1ca",
+          "render_sha256": "3229688cb29a3105b2d46408f7d24e2d76318e16467b00843ef759f610ad4f8a"
+        },
+        {
+          "frame": 855,
+          "source_sha256": "5cf16a54b852c2c9c2496445b780f08c41c09d93cb404e238216d67cc5c95a85",
+          "render_sha256": "015d645c0e3c29439fe0c5ed9dca457c8bfe4210fb6248417ba2469125dd6a6f"
+        },
+        {
+          "frame": 862,
+          "source_sha256": "615a82f3e8f12ea41e692e59e39e03814af7d47c2099d422a5fd9a4237f55622",
+          "render_sha256": "3a81d3d99a3e934dc3e659e0719941cf1582879bbdd8947370b9044c3bc741f3"
+        },
+        {
+          "frame": 870,
+          "source_sha256": "d94ffbb14d1bc7a970918afdbca0b317ec14f2c82df032e6c322491841bf806b",
+          "render_sha256": "865e276dc873d7d0062149f424d41d501b30968ef986531952865fbe639a7a43"
+        },
+        {
+          "frame": 878,
+          "source_sha256": "7707dd806398dff21ab07b4df989e1a8b9fbc40d546f194aeb5fc3d41ed971fb",
+          "render_sha256": "f3bb070d52b9be912e51944cf88a5e6523d69e4647fbfb7bd5dcbfd037095afb"
+        },
+        {
+          "frame": 885,
+          "source_sha256": "5834d7a3dfed9c9b53cd54c1c49f05bd40e433e347587f60a9ead0bb2603c6fa",
+          "render_sha256": "056ee94bcbb6b09cdb5b203c2c7e40ba73fbcdd55df4999259821611a4d99f6d"
+        },
+        {
+          "frame": 892,
+          "source_sha256": "de6e904369b1a33bc4f68e2a09c8afa1e2c91828986e8d5168f288a336b8f739",
+          "render_sha256": "c332321c60ebaca27222ff6862c2b1be3d0352ae1584008dc6d3277bb7734b82"
+        },
+        {
+          "frame": 900,
+          "source_sha256": "e662c3245bed16089d800d66af96407b4f226b2b98609fcac2471b04f493fe98",
+          "render_sha256": "d3f1dad99d1a9dfce7094d52ba627448576fa452e0f95f65b98dde9ce4158bdc"
+        },
+        {
+          "frame": 908,
+          "source_sha256": "bb5eddf32e4f231ad3444171de86783ae5a61b833d529e1fd3845a81f854d915",
+          "render_sha256": "f480474d216275c9f7880b716aa8f36459e5c0c37cfc2d9839f040b61a9541a3"
+        },
+        {
+          "frame": 915,
+          "source_sha256": "b249fb5f2270fb17393c441b86278a3a66f7f79636052bdb97ee0f6834784ab2",
+          "render_sha256": "f5bb684c11c1a196bd61bff3687624dcc02b66fe4da128677f25ac12c7a9fbe8"
+        },
+        {
+          "frame": 922,
+          "source_sha256": "45a3c4dcf0e58720d3fe5b26602f631816cf40a1087d52da4df6853ed2dfbce7",
+          "render_sha256": "0cf2a532adc196bc2a93fac755d7d1d1ba867aef3f6decf3fbc0db72b63f3718"
+        },
+        {
+          "frame": 930,
+          "source_sha256": "db5ebbc84acfc853317034cabfdbff0e5725a7983097cd696a93680f8e9aafa0",
+          "render_sha256": "316949764eddfdc611c6fbfbaeb5d2ab4c469aeaa8d23d8edc487b6b1668a62d"
+        },
+        {
+          "frame": 938,
+          "source_sha256": "73989ee3c7a7f2676dec8202788e9bd838a24fc7de1924e9538616f695ccc41a",
+          "render_sha256": "1adf4c74b10c8dd5ffcc1ae309f401fec4d33f2c0d3744b85494f63cb82d033e"
+        }
+      ],
+      "input_tokens_counted": 21356,
+      "reserved_usd": 1.08615,
+      "status": "completed",
+      "response_id": "resp_06bcd95aa8f67fb8016adfe505f97887d291af809ac63448ed",
+      "answer": {
+        "sequence_summary": "Red retreats along the far boards into its own right-end corner under white pressure. T42 then appears to send an outlet left along the wall, leading to the T52/T53 contest around frames 780\u2013788. The subsequent leftward transfer is less certain: white T56 is the likely eventual receiver, with red T39 pursuing, but a brief red carry remains an alternative. Around 855\u2013870, play reverses rightward and white T58 receives or collects the ball in the middle lane. T58 advances toward the far-side blue line as red T55 and T61 close; later context supports white continuing the attack along the far wall. No clear stoppage, official-held ball, shot, or goal is established.",
+        "samples": [
+          {
+            "frame": 750,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  448,
+                  387
+                ],
+                "radius_px": 45,
+                "weight": 0.88,
+                "carrier_track_id": "T42",
+                "support": "floor",
+                "reason": "Likely at the extended blade ahead/right of T42 as he continues toward the end boards."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "The preceding corner retreat continues; T51 follows and T44 occupies the goal-front lane."
+          },
+          {
+            "frame": 758,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  365,
+                  383
+                ],
+                "radius_px": 75,
+                "weight": 0.74,
+                "carrier_track_id": "T42",
+                "support": "floor",
+                "reason": "Near the likely release area beside T42's low stick."
+              },
+              {
+                "xy_1000": [
+                  300,
+                  395
+                ],
+                "radius_px": 110,
+                "weight": 0.14,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "The outlet may already have departed left along the boards."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "T42 turns near the end boards; the following forechecker turn and leftward camera pan support an outlet, with uncertain release timing."
+          },
+          {
+            "frame": 765,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  218,
+                  397
+                ],
+                "radius_px": 180,
+                "weight": 0.62,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Probable leftward outlet corridor between the corner release and the later wall contest."
+              },
+              {
+                "xy_1000": [
+                  286,
+                  400
+                ],
+                "radius_px": 65,
+                "weight": 0.18,
+                "carrier_track_id": "T51",
+                "support": "floor",
+                "reason": "A touch near T51's left-facing blade is possible as he turns after the ball."
+              }
+            ],
+            "unknown_weight": 0.2,
+            "transition_evidence": "T42 remains beside the net while T51 turns left; subsequent play develops up the far wall rather than at the goalkeeper."
+          },
+          {
+            "frame": 772,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  170,
+                  424
+                ],
+                "radius_px": 180,
+                "weight": 0.72,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Likely approaching the far-wall receiving area now entering the left side of the image."
+              },
+              {
+                "xy_1000": [
+                  392,
+                  408
+                ],
+                "radius_px": 70,
+                "weight": 0.12,
+                "carrier_track_id": "T51",
+                "support": "floor",
+                "reason": "A delayed release or intervening touch by T51 remains possible."
+              }
+            ],
+            "unknown_weight": 0.16,
+            "transition_evidence": "The camera swings left toward the next board challenge; motion blur prevents precise transit timing."
+          },
+          {
+            "frame": 780,
+            "play_state": "contested",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  225,
+                  426
+                ],
+                "radius_px": 50,
+                "weight": 0.5,
+                "carrier_track_id": "T53",
+                "support": "floor",
+                "reason": "White's reaching blade is in the incoming ball's wall-side contact area."
+              },
+              {
+                "xy_1000": [
+                  250,
+                  425
+                ],
+                "radius_px": 50,
+                "weight": 0.38,
+                "carrier_track_id": "T52",
+                "support": "floor",
+                "reason": "Red may receive or shield it at the adjacent blade beside the boards."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "The outlet reaches a red-white board challenge; the next frame keeps both players engaged there."
+          },
+          {
+            "frame": 788,
+            "play_state": "contested",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  252,
+                  423
+                ],
+                "radius_px": 45,
+                "weight": 0.6,
+                "carrier_track_id": "T53",
+                "support": "floor",
+                "reason": "White's wall-side blade is the more likely contact as play begins moving left."
+              },
+              {
+                "xy_1000": [
+                  283,
+                  425
+                ],
+                "radius_px": 50,
+                "weight": 0.27,
+                "carrier_track_id": "T52",
+                "support": "floor",
+                "reason": "Red remains close enough to retain or knock the ball away."
+              }
+            ],
+            "unknown_weight": 0.13,
+            "transition_evidence": "T53 and T52 remain together at the wall while T39 accelerates left through the interior."
+          },
+          {
+            "frame": 795,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  244,
+                  432
+                ],
+                "radius_px": 150,
+                "weight": 0.52,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Likely leftward clearance or backpass from the wall contest toward the eventual T56 receiving area."
+              },
+              {
+                "xy_1000": [
+                  355,
+                  478
+                ],
+                "radius_px": 75,
+                "weight": 0.24,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "T39 may instead have collected the release near his forward blade."
+              }
+            ],
+            "unknown_weight": 0.24,
+            "transition_evidence": "The wall pair separates and play travels left. T39's sprint supports pursuit but does not by itself prove possession."
+          },
+          {
+            "frame": 802,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  215,
+                  444
+                ],
+                "radius_px": 180,
+                "weight": 0.5,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Estimated transit corridor toward the left-side receiver; pass speed and release time remain uncertain."
+              },
+              {
+                "xy_1000": [
+                  353,
+                  495
+                ],
+                "radius_px": 80,
+                "weight": 0.23,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "Alternative short carry near T39's forward stick-contact area."
+              }
+            ],
+            "unknown_weight": 0.27,
+            "transition_evidence": "T53 trails along the boards while T39 runs ahead. Later T56 positioning favors a ball sent farther left."
+          },
+          {
+            "frame": 810,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  142,
+                  459
+                ],
+                "radius_px": 200,
+                "weight": 0.48,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Likely leftward transfer corridor, potentially masked by the foreground overlap with T54."
+              },
+              {
+                "xy_1000": [
+                  278,
+                  507
+                ],
+                "radius_px": 65,
+                "weight": 0.22,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "If red collected the ball, it would be near T39's extended left-hand blade."
+              }
+            ],
+            "unknown_weight": 0.3,
+            "transition_evidence": "The camera continues left; the two plausible interpretations remain a longer transfer and a brief T39 carry."
+          },
+          {
+            "frame": 818,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  30,
+                  472
+                ],
+                "radius_px": 180,
+                "weight": 0.4,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "The transfer may be near the left edge on its way to T56; part of this uncertainty region lies outside the image."
+              },
+              {
+                "xy_1000": [
+                  220,
+                  505
+                ],
+                "radius_px": 65,
+                "weight": 0.2,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "Alternative possession at T39's leading blade rather than farther up the wall."
+              }
+            ],
+            "unknown_weight": 0.4,
+            "transition_evidence": "T56 is revealed farther left next. The ball may already be out of frame, so T39 is not treated as a certain carrier."
+          },
+          {
+            "frame": 825,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  107,
+                  485
+                ],
+                "radius_px": 55,
+                "weight": 0.72,
+                "carrier_track_id": "T56",
+                "support": "floor",
+                "reason": "T56's low blade to his right is the likely reception/control area."
+              },
+              {
+                "xy_1000": [
+                  353,
+                  476
+                ],
+                "radius_px": 75,
+                "weight": 0.15,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "A continuing red carry remains possible if the earlier leftward transfer interpretation is wrong."
+              }
+            ],
+            "unknown_weight": 0.13,
+            "transition_evidence": "T56 comes into view set near the far wall; the following retreat and rightward redistribution favor white control."
+          },
+          {
+            "frame": 832,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  190,
+                  458
+                ],
+                "radius_px": 60,
+                "weight": 0.78,
+                "carrier_track_id": "T56",
+                "support": "floor",
+                "reason": "Likely beside T56's low, wall-side stick as he moves back."
+              },
+              {
+                "xy_1000": [
+                  405,
+                  475
+                ],
+                "radius_px": 60,
+                "weight": 0.1,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "Lower-probability red control near the pursuer's extended blade."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "T56 retreats while the red pursuer closes, consistent with protecting a reception rather than an unrelated new play."
+          },
+          {
+            "frame": 840,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  273,
+                  463
+                ],
+                "radius_px": 50,
+                "weight": 0.82,
+                "carrier_track_id": "T56",
+                "support": "floor",
+                "reason": "Estimated at the blade/contact area just right of T56, not at his body center."
+              },
+              {
+                "xy_1000": [
+                  402,
+                  466
+                ],
+                "radius_px": 60,
+                "weight": 0.07,
+                "carrier_track_id": "T39",
+                "support": "floor",
+                "reason": "Residual alternative at red's approaching blade."
+              }
+            ],
+            "unknown_weight": 0.11,
+            "transition_evidence": "T56 remains the likely handler as the red pursuer approaches from the right."
+          },
+          {
+            "frame": 848,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  220,
+                  466
+                ],
+                "radius_px": 55,
+                "weight": 0.83,
+                "carrier_track_id": "T56",
+                "support": "floor",
+                "reason": "Likely protected on T56's left at the low blade."
+              },
+              {
+                "xy_1000": [
+                  359,
+                  458
+                ],
+                "radius_px": 65,
+                "weight": 0.07,
+                "carrier_track_id": "T42",
+                "support": "floor",
+                "reason": "The same red pursuer is now labeled T42; his blade is the less likely alternative."
+              }
+            ],
+            "unknown_weight": 0.1,
+            "transition_evidence": "The player motion continues through the track-label change; white appears to retain the left-side reset."
+          },
+          {
+            "frame": 855,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  313,
+                  475
+                ],
+                "radius_px": 70,
+                "weight": 0.77,
+                "carrier_track_id": "T56",
+                "support": "floor",
+                "reason": "Likely near T56's blade ahead/left as he prepares the next movement."
+              },
+              {
+                "xy_1000": [
+                  418,
+                  474
+                ],
+                "radius_px": 65,
+                "weight": 0.09,
+                "carrier_track_id": "T42",
+                "support": "floor",
+                "reason": "A red touch or brief turnover at the approaching blade cannot be excluded."
+              }
+            ],
+            "unknown_weight": 0.14,
+            "transition_evidence": "The gap closes before a rapid rightward change in play; the precise transfer is not directly resolved."
+          },
+          {
+            "frame": 862,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  720,
+                  500
+                ],
+                "radius_px": 280,
+                "weight": 0.5,
+                "carrier_track_id": null,
+                "support": "unclear",
+                "reason": "Possible rightward transit toward T58, constrained by the ensuing pan and reception but with uncertain release time and height."
+              },
+              {
+                "xy_1000": [
+                  420,
+                  470
+                ],
+                "radius_px": 100,
+                "weight": 0.3,
+                "carrier_track_id": "T56",
+                "support": "floor",
+                "reason": "The ball may still be at the left-side release/contact area if the pass occurs just after this frame."
+              }
+            ],
+            "unknown_weight": 0.2,
+            "transition_evidence": "The next view swings sharply right to T58; this bounds the transfer without establishing an exact mid-pass point."
+          },
+          {
+            "frame": 870,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  610,
+                  540
+                ],
+                "radius_px": 80,
+                "weight": 0.68,
+                "carrier_track_id": "T58",
+                "support": "floor",
+                "reason": "Likely arriving into T58's low receiving area before his subsequent controlled advance."
+              },
+              {
+                "xy_1000": [
+                  604,
+                  466
+                ],
+                "radius_px": 70,
+                "weight": 0.12,
+                "carrier_track_id": "T58",
+                "support": "unclear",
+                "reason": "The arrival may still be raised near the receiving stick; motion blur leaves height unresolved."
+              }
+            ],
+            "unknown_weight": 0.2,
+            "transition_evidence": "T58 is positioned at the end of the rightward transfer and becomes the apparent carrier in the following frames."
+          },
+          {
+            "frame": 878,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  490,
+                  546
+                ],
+                "radius_px": 50,
+                "weight": 0.85,
+                "carrier_track_id": "T58",
+                "support": "floor",
+                "reason": "Likely just ahead/right of T58 at the working blade."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "T58 advances rightward with T55 behind and T61 facing him; the next frames preserve that attacking movement."
+          },
+          {
+            "frame": 885,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  432,
+                  512
+                ],
+                "radius_px": 40,
+                "weight": 0.85,
+                "carrier_track_id": "T58",
+                "support": "floor",
+                "reason": "The forward blade and continued movement constrain the ball immediately ahead/right of T58."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "T58 angles toward the far-side blue line while T55 closes from behind and T61 holds the lane."
+          },
+          {
+            "frame": 892,
+            "play_state": "contested",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  438,
+                  491
+                ],
+                "radius_px": 50,
+                "weight": 0.73,
+                "carrier_track_id": "T58",
+                "support": "floor",
+                "reason": "Most likely still at T58's forward blade, partly obscured by the converging sticks."
+              },
+              {
+                "xy_1000": [
+                  426,
+                  495
+                ],
+                "radius_px": 55,
+                "weight": 0.15,
+                "carrier_track_id": "T55",
+                "support": "floor",
+                "reason": "T55 may make a checking touch in the adjacent contact area."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "Pressure tightens, but frames 900\u2013915 show T58 continuing toward the far wall, favoring retention rather than a clean red takeover."
+          }
+        ]
+      },
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 21556,
+        "input_tokens_details": {
+          "cache_write_tokens": 21553,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15610,
+        "output_tokens_details": {
+          "reasoning_tokens": 11284
+        },
+        "total_tokens": 37166
+      },
+      "seconds": 351.915043202,
+      "estimated_usd": 1.04995
+    },
+    "0150": {
+      "id": "0150",
+      "core": [
+        150,
+        300
+      ],
+      "context": [
+        105,
+        345
+      ],
+      "targets": [
+        150,
+        158,
+        165,
+        172,
+        180,
+        188,
+        195,
+        202,
+        210,
+        218,
+        225,
+        232,
+        240,
+        248,
+        255,
+        262,
+        270,
+        278,
+        285,
+        292
+      ],
+      "images": [
+        {
+          "frame": 105,
+          "source_sha256": "ef9ba027cd263535d00595108c86cd8af69b32a329c861a56a56a4565df23cfd",
+          "render_sha256": "b32de91f6561decd67861732d31fc739a09949d2642d190b08994d0b32f4d84f"
+        },
+        {
+          "frame": 112,
+          "source_sha256": "d4218b4d2d2ec56dd4a8dfe1bfb6479a36cea65402106bd0f852f3f5892479c1",
+          "render_sha256": "0f7852d10f233fc8fa7985aa1185e152fe6c138f77e36c133b9696d91ca1d448"
+        },
+        {
+          "frame": 120,
+          "source_sha256": "b70771fcc0daee658061c0329f738f284635cc2c9956d7cc35e9c1dfe6331b33",
+          "render_sha256": "98fd53f871f2b0f7438b1b7d91519765420a0f6442155aba89af55985eaf7853"
+        },
+        {
+          "frame": 128,
+          "source_sha256": "1aaa0534b78cc436f53a3f642e3008a3fba539a89e8f8c7dabaae3a13e0cad23",
+          "render_sha256": "58b0905644e2e837b102681de968c2cb2e0963498d108fac8153048bf429611a"
+        },
+        {
+          "frame": 135,
+          "source_sha256": "7ec052e8758b77462de3dcd017c7e76444d1a0981aae6dc12d30f6b977b03c1d",
+          "render_sha256": "946362be8d07ea293233eb4a78c9c043c10946813e8291552dcf5bfd23add4ca"
+        },
+        {
+          "frame": 142,
+          "source_sha256": "f85d408f81fb5ee36e4c6fe2d53b1ca5c64eaa3b3f1ba3b49954c51b38600c78",
+          "render_sha256": "ed81ebd60579741f11f41bed66143d1ee151516e85202ef7f5272552f334cdd1"
+        },
+        {
+          "frame": 150,
+          "source_sha256": "35fe7ead626892a3c026d1675278499c11027991cee1adc160172cc55f813ac8",
+          "render_sha256": "81feee4bf3d3246cac90f718b9c3d047a03d0f319092511e37c2d2e6673c589d"
+        },
+        {
+          "frame": 158,
+          "source_sha256": "ef1b29bd0e4baf2b3426760843f98bd677747fb5feacdebab6612b4b807dcfad",
+          "render_sha256": "728382f5b0a43e27c0562238c688bc74f50fd40447224d23f3dd1ea19a5395a1"
+        },
+        {
+          "frame": 165,
+          "source_sha256": "da8fc7232da3e7e4355d93c61b46c9147582855c61ac64a1a29e4187c998adcf",
+          "render_sha256": "2648292ff132269dbb1ba34ca33ee4a91f8bbd65f88e294d7c67f32b5593ad90"
+        },
+        {
+          "frame": 172,
+          "source_sha256": "e4d38239448a4d500dec81cd93cbdaa6041164db74ad71f70747dd3e38dd1b62",
+          "render_sha256": "6b5a4878f0d7eb0ef5511cf9804ccf18e1a292d3cb696db77c49d8b12fde18f0"
+        },
+        {
+          "frame": 180,
+          "source_sha256": "9512093551138181a0660781acb28de853b9b0a3b8ebd55fad6d8fabc8ade0bb",
+          "render_sha256": "18075e0b2786c1238c0820d9d9784f71273621852d42ac8441048fcc25f090d3"
+        },
+        {
+          "frame": 188,
+          "source_sha256": "a3a0271c215b157b6d1273c4509dc85e49483a7bf2eeb4f8c8e1bfe3f64c4c5d",
+          "render_sha256": "bb08db1df02ea75599b639f47c3562c9f5f1d56c0a25b630b0254ba5fdce46fc"
+        },
+        {
+          "frame": 195,
+          "source_sha256": "b1e448a1cb5a639b2ebc7a47c7c707fb1780583638310bf70518e42825d3da5d",
+          "render_sha256": "c7fa452e46feedb0d1527d769999fadadfba629cc75a77e0af99a882c757e14b"
+        },
+        {
+          "frame": 202,
+          "source_sha256": "7bebcb67caa59824a3fe8e56ae5acae91a3a77c1efeacdf743990d729bcf8c53",
+          "render_sha256": "d895181ae5a8a2ad11b186e814b4d8740c5dbb773cd5c495353db43eccb3f0f4"
+        },
+        {
+          "frame": 210,
+          "source_sha256": "3c217a8760e6fc4146347367eefa1ce63ad70aa2732283683637bc8cd84b25d4",
+          "render_sha256": "8b26505bb4cc664bb54014e898e7c3c508e9e5ebedb99f6f544d2c57e4f5a344"
+        },
+        {
+          "frame": 218,
+          "source_sha256": "bb871c7eddf4d6f3316cfb8afb675c293d454a9fa39af91b0f86469db8703f67",
+          "render_sha256": "da460dc32ef4b9b4a138c696c25304214befb2cf8b6f902a233fc0ae56cee387"
+        },
+        {
+          "frame": 225,
+          "source_sha256": "fe1b6fef8f33ff37216d1a17f9ba5049abf1ed0cdada7ed004962c3616f1f236",
+          "render_sha256": "69d5d455d302c5392a541c056afb71e668656d8f808afebc779c0992bd1f1bf7"
+        },
+        {
+          "frame": 232,
+          "source_sha256": "1941171075daefc6f6c40871743349cd0d1ea2bdaec959e354cbc2f3c3110b7c",
+          "render_sha256": "b7b164a1bf8639eda32256c5203649ab39626dfec420e2f756129cc6e55bdfb5"
+        },
+        {
+          "frame": 240,
+          "source_sha256": "a24682f02fe035531efd42c5ebd89f72da14166d31a7b50a4ba54d97acf6a08d",
+          "render_sha256": "ecb12311a06b2298981f02bc70b4d78a23d5d4c828de1afa3cec30d898f2d65e"
+        },
+        {
+          "frame": 248,
+          "source_sha256": "23e64ea8cb83633eda75e59ed5e9de4a3b31639d9d3c06437a14b687fe8ea857",
+          "render_sha256": "ea83b6f9fae7bd3b14da04a1a6becdeea822c7291b436060f5093d8b3786c180"
+        },
+        {
+          "frame": 255,
+          "source_sha256": "8ccaec1961d3d9c7cf5284b1443523f1da30924e27b4ebe7906ef9a9e258d93c",
+          "render_sha256": "bdc4b0da4d7a75b381c6a73c10623c2ce82296718a5b1eac5e81892507fcffe2"
+        },
+        {
+          "frame": 262,
+          "source_sha256": "9eacc1d0688acce6e72c87e9ac58f6be10b88fb4632e769a5e54bcc242ae3fe0",
+          "render_sha256": "670943d5ae533089495158097da51299eb259ac3d8749980274ef89310c4b3d3"
+        },
+        {
+          "frame": 270,
+          "source_sha256": "d9cb1fb100831b908ac78b508e5e2b229473f7c1274f235d7608b49931e4e4f9",
+          "render_sha256": "d12b37ebe0b6f58411f8780a44a600b98f6079cc7103a3ed1b7287d5fb1222c6"
+        },
+        {
+          "frame": 278,
+          "source_sha256": "ad59b65a544a562870229bddfe37591d57ed39cd96d38f793116274649708a34",
+          "render_sha256": "7d4bf67eba22277ad8dbd70420e103ad6dc3a17260e420f22fbb41b2387ca74b"
+        },
+        {
+          "frame": 285,
+          "source_sha256": "0e164b3ec380504b64a80ebb24e2d23bfcacaea067b9877714ad33a7f10a8b80",
+          "render_sha256": "29c6490d6cd793eca0cb105b93d946625c0fc08a34f0ef55489487b0fe01ee1b"
+        },
+        {
+          "frame": 292,
+          "source_sha256": "a1ac6dfe12324e162305c51fe0b8e0ef5b1ba4331d50042a53803d3bae78026c",
+          "render_sha256": "44d6a7d282f12ff4a04ec63e22411d7a17593e4d1292f26ed492af270190e02c"
+        },
+        {
+          "frame": 300,
+          "source_sha256": "27e7bf7dee9e8440c6334084c6671ef23fa5080a018cea8d8522ea53b5357de4",
+          "render_sha256": "a94434fec8bd90fccc48b97581652283fc885329f8cd7f19856ab498bdf7d28c"
+        },
+        {
+          "frame": 308,
+          "source_sha256": "f7449b698f567227665dbd1abac031c11c95ecb96951153e2e00f9372065e802",
+          "render_sha256": "7dcd36cdc96f954419505321ca3153e719ee034af4b88722ff1c134609c5b1c6"
+        },
+        {
+          "frame": 315,
+          "source_sha256": "1b64247c1a0e792008527110e087d60a986f62b4a6443c71c1731bfae3f7c0fd",
+          "render_sha256": "0fd7f6280d67d93b2ef9ea4bd887395b97b7bc5df1eab98c1d2163aa77de0c95"
+        },
+        {
+          "frame": 322,
+          "source_sha256": "8d441665e47fb1ee9545a88f0e10581d1a8b4a903ee7da62253b30cd9e27c43f",
+          "render_sha256": "b58b0124ec44690d9e6a78af4a189064d4c31d2cefd35475fba9255626ec01f1"
+        },
+        {
+          "frame": 330,
+          "source_sha256": "b5d8df5078715c79d6caaded3e49ae3c8c08e8a750712ee85a53c08fa96be472",
+          "render_sha256": "9a51ca2f4479d0404ee95c393407bf8fd8d9c8724fed897f6fab3e45d80e72dc"
+        },
+        {
+          "frame": 338,
+          "source_sha256": "aef7a4ab3d8fd4105732f90c154571813da2e124637ec2a967f61c2023105cfc",
+          "render_sha256": "8f6442ad4f152597bd957e71b956d2161b524c22d7993d7c2fa3f51ae7963c33"
+        }
+      ],
+      "input_tokens_counted": 21449,
+      "reserved_usd": 1.0873125,
+      "status": "completed",
+      "response_id": "resp_03e08e1058515c7f016adfe508785c87d29521018e6ee9bd19",
+      "answer": {
+        "sequence_summary": "A near-board contest in front of the right-hand goal sends the pink/red ball loose toward the left. White recover through the T1/T12 group, with T12 emerging as the carrier through center. A likely forward pass reaches T1 near the far boards; white then appear to move the ball inward to T15. T19 pressures T15, who shields the ball and works laterally right rather than immediately shooting. Subsequent context supports continued white possession and a developing chance at the left goal, where the goalkeeper drops to defend. No stoppage, official-held ball, or confirmed goal is established. Estimates account for the camera pan; several short transfers have uncertain release timing.",
+        "samples": [
+          {
+            "frame": 150,
+            "play_state": "loose",
+            "visibility": "visible",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  364.6,
+                  628.4
+                ],
+                "radius_px": 12,
+                "weight": 0.96,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Small pink/red point on open floor agrees with the proposal."
+              }
+            ],
+            "unknown_weight": 0.04,
+            "transition_evidence": "The ball has escaped the near-board contest and continues left ahead of the pursuing players."
+          },
+          {
+            "frame": 158,
+            "play_state": "loose",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  459,
+                  638
+                ],
+                "radius_px": 85,
+                "weight": 0.76,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Likely rolling-ball region between the earlier loose ball and the approaching white recovery."
+              },
+              {
+                "xy_1000": [
+                  530,
+                  659
+                ],
+                "radius_px": 55,
+                "weight": 0.14,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "An earlier touch near T1's extended blade is also possible."
+              }
+            ],
+            "unknown_weight": 0.1,
+            "transition_evidence": "T1 and T14 sprint after the ball while T12 turns into its path; camera panning shifts the apparent position rightward."
+          },
+          {
+            "frame": 165,
+            "play_state": "contested",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  393,
+                  622
+                ],
+                "radius_px": 30,
+                "weight": 0.68,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Likely contact near T12's reaching blade among the converging sticks."
+              },
+              {
+                "xy_1000": [
+                  329,
+                  613
+                ],
+                "radius_px": 55,
+                "weight": 0.2,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "T1's farther-left blade could still be making the recovery or a short touch."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "The chase compresses into a stick challenge; the following frames favor T12 emerging with control."
+          },
+          {
+            "frame": 172,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  470,
+                  634
+                ],
+                "radius_px": 40,
+                "weight": 0.86,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Estimated just ahead of T12's low, forward-reaching blade."
+              }
+            ],
+            "unknown_weight": 0.14,
+            "transition_evidence": "T1 continues ahead while T12 bends into a handling posture, leading directly to the visible contact area at 180."
+          },
+          {
+            "frame": 180,
+            "play_state": "carried",
+            "visibility": "visible",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  525.1,
+                  645.2
+                ],
+                "radius_px": 12,
+                "weight": 0.97,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Pink/red ball is resolved immediately ahead of T12's blade."
+              }
+            ],
+            "unknown_weight": 0.03,
+            "transition_evidence": "T12 has separated from the initial challenge and advances with the ball."
+          },
+          {
+            "frame": 188,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  598,
+                  644
+                ],
+                "radius_px": 24,
+                "weight": 0.9,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Ball is inferred at the low blade contact, not independently distinguishable from the colored stick detail."
+              }
+            ],
+            "unknown_weight": 0.1,
+            "transition_evidence": "T12 maintains the same handling lane while T13 retreats and T1 provides a forward option."
+          },
+          {
+            "frame": 195,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  687,
+                  650
+                ],
+                "radius_px": 36,
+                "weight": 0.86,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Likely at the blade drawn to T12's trailing/right side during the handling motion."
+              }
+            ],
+            "unknown_weight": 0.14,
+            "transition_evidence": "T12 changes the stick angle while continuing through center; T1 remains available farther left."
+          },
+          {
+            "frame": 202,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  766,
+                  608
+                ],
+                "radius_px": 55,
+                "weight": 0.82,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Estimated around the end of T12's handling sweep, with motion blur limiting precision."
+              }
+            ],
+            "unknown_weight": 0.18,
+            "transition_evidence": "White retain the advancing formation; the following stick motion suggests preparation for a forward transfer."
+          },
+          {
+            "frame": 210,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  724,
+                  568
+                ],
+                "radius_px": 50,
+                "weight": 0.48,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "Late-release possibility near T12's sweeping blade."
+              },
+              {
+                "xy_1000": [
+                  586,
+                  525
+                ],
+                "radius_px": 100,
+                "weight": 0.35,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "Earlier-release possibility along the low passing lane toward T1."
+              }
+            ],
+            "unknown_weight": 0.17,
+            "transition_evidence": "T12's sweep develops into a raised-stick follow-through by 218, followed by T1 handling near the far side."
+          },
+          {
+            "frame": 218,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  508,
+                  486
+                ],
+                "radius_px": 40,
+                "weight": 0.78,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "Likely reception near T1's lowered blade as T13 closes."
+              },
+              {
+                "xy_1000": [
+                  603,
+                  487
+                ],
+                "radius_px": 65,
+                "weight": 0.1,
+                "carrier_track_id": null,
+                "support": "floor",
+                "reason": "The pass could still be completing its final approach."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "T12 is following through rather than continuing the low carry; T1's subsequent blade position supports reception."
+          },
+          {
+            "frame": 225,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  497,
+                  483
+                ],
+                "radius_px": 24,
+                "weight": 0.89,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "Small colored contact area at the extended blade left of the overlapping T1/T13 bodies."
+              }
+            ],
+            "unknown_weight": 0.11,
+            "transition_evidence": "T1 appears to protect the reception while T13 approaches and T12 continues forward off the ball."
+          },
+          {
+            "frame": 232,
+            "play_state": "contested",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  691,
+                  472
+                ],
+                "radius_px": 45,
+                "weight": 0.63,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "Likely retained on T1's board-side blade as he turns away from pressure."
+              },
+              {
+                "xy_1000": [
+                  659,
+                  503
+                ],
+                "radius_px": 40,
+                "weight": 0.22,
+                "carrier_track_id": "T13",
+                "support": "floor",
+                "reason": "T13's checking blade could briefly intercept or pin the ball."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "T13 closes the previous handling lane; T1 moves toward the far boards rather than continuing straight toward goal."
+          },
+          {
+            "frame": 240,
+            "play_state": "carried",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  756,
+                  476
+                ],
+                "radius_px": 42,
+                "weight": 0.65,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "Most likely retained near T1's blade beside the far boards."
+              },
+              {
+                "xy_1000": [
+                  707,
+                  499
+                ],
+                "radius_px": 45,
+                "weight": 0.2,
+                "carrier_track_id": "T12",
+                "support": "floor",
+                "reason": "A short exchange with the crossing T12 cannot be excluded."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "T12 crosses the congested lane while T1 stays near the boards; subsequent play still favors white possession."
+          },
+          {
+            "frame": 248,
+            "play_state": "pass",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  748,
+                  528
+                ],
+                "radius_px": 55,
+                "weight": 0.57,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Likely inward feed arriving near T15's receiving blade."
+              },
+              {
+                "xy_1000": [
+                  775,
+                  476
+                ],
+                "radius_px": 40,
+                "weight": 0.28,
+                "carrier_track_id": "T1",
+                "support": "floor",
+                "reason": "If release is later, the ball remains at T1's board-side stick."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "T15 opens inside while T1 remains wide; the following shielding sequence supports a short transfer, with uncertain timing."
+          },
+          {
+            "frame": 255,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  705,
+                  577
+                ],
+                "radius_px": 60,
+                "weight": 0.84,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Estimated around T15's extended receiving/handling blade as T19 approaches."
+              }
+            ],
+            "unknown_weight": 0.16,
+            "transition_evidence": "T15 turns into the central lane and T19 closes directly on him; T1 remains near the boards."
+          },
+          {
+            "frame": 262,
+            "play_state": "contested",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  659,
+                  556
+                ],
+                "radius_px": 65,
+                "weight": 0.6,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Likely protected near T15's low blade during the turn."
+              },
+              {
+                "xy_1000": [
+                  745,
+                  544
+                ],
+                "radius_px": 45,
+                "weight": 0.24,
+                "carrier_track_id": "T19",
+                "support": "floor",
+                "reason": "Alternative at T19's extended checking blade if the ball is poked outward."
+              }
+            ],
+            "unknown_weight": 0.16,
+            "transition_evidence": "T19 closes the gap and the players' sticks overlap; later frames favor T15 retaining or recovering control."
+          },
+          {
+            "frame": 270,
+            "play_state": "contested",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  680,
+                  579
+                ],
+                "radius_px": 75,
+                "weight": 0.65,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Likely in the protected blade area beneath the close body-and-stick challenge."
+              },
+              {
+                "xy_1000": [
+                  755,
+                  570
+                ],
+                "radius_px": 45,
+                "weight": 0.2,
+                "carrier_track_id": "T19",
+                "support": "floor",
+                "reason": "An outward poke toward T19's blade remains plausible."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "T15 and T19 remain engaged, then T15 turns right with the next handling motion."
+          },
+          {
+            "frame": 278,
+            "play_state": "contested",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  767,
+                  565
+                ],
+                "radius_px": 38,
+                "weight": 0.8,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Likely on T15's outside/right blade, beyond the defender's body."
+              },
+              {
+                "xy_1000": [
+                  714,
+                  569
+                ],
+                "radius_px": 45,
+                "weight": 0.1,
+                "carrier_track_id": "T19",
+                "support": "floor",
+                "reason": "A brief trapped contact between the checking sticks is still possible."
+              }
+            ],
+            "unknown_weight": 0.1,
+            "transition_evidence": "T15 rotates away from T19, setting up the wider rightward reach visible at 285."
+          },
+          {
+            "frame": 285,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  832,
+                  593
+                ],
+                "radius_px": 35,
+                "weight": 0.87,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Estimated at the outer end of T15's extended blade, away from the low-reaching defender."
+              }
+            ],
+            "unknown_weight": 0.13,
+            "transition_evidence": "T19 drops low while T15 pulls the handling area farther right; this supports retained white control."
+          },
+          {
+            "frame": 292,
+            "play_state": "carried",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  870,
+                  566
+                ],
+                "radius_px": 30,
+                "weight": 0.9,
+                "carrier_track_id": "T15",
+                "support": "floor",
+                "reason": "Likely immediately beside T15's forward/right blade as he clears the closest challenge."
+              }
+            ],
+            "unknown_weight": 0.1,
+            "transition_evidence": "T15 continues laterally right with T19 trailing; later context shows white moving the attack back inside toward T1, not a stoppage."
+          }
+        ]
+      },
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 21649,
+        "input_tokens_details": {
+          "cache_write_tokens": 21646,
+          "cached_tokens": 0
+        },
+        "output_tokens": 12048,
+        "output_tokens_details": {
+          "reasoning_tokens": 8276
+        },
+        "total_tokens": 33697
+      },
+      "seconds": 288.726379667,
+      "estimated_usd": 0.8730125
+    },
+    "3300": {
+      "id": "3300",
+      "core": [
+        3300,
+        3450
+      ],
+      "context": [
+        3255,
+        3495
+      ],
+      "targets": [
+        3300,
+        3308,
+        3315,
+        3322,
+        3330,
+        3338,
+        3345,
+        3352,
+        3360,
+        3368,
+        3375,
+        3382,
+        3390,
+        3398,
+        3405,
+        3412,
+        3420,
+        3428,
+        3435,
+        3442
+      ],
+      "images": [
+        {
+          "frame": 3255,
+          "source_sha256": "2b332f463d4db640c5a776087dacb04323561692c85c1b9f25f8f21381760902",
+          "render_sha256": "19f5b6ca7d845a91f4dfa8094fc8f741c6df57a51afb7597187e08481037891a"
+        },
+        {
+          "frame": 3262,
+          "source_sha256": "8198ae03ae56a54fdd3b87d3e36065f28ae23ed13209bc5d701740e8ad92d95e",
+          "render_sha256": "4729ab1531ea6fac6469ec045992a3f5d8853c21dbe7ead37af6fed5161f21bc"
+        },
+        {
+          "frame": 3270,
+          "source_sha256": "a5a7e127b7fa418bcb9f691cf4bebe5e5ce121bffee2b72e9251b25363c95296",
+          "render_sha256": "3c112e1ade69c7e95d7f1a5b61181f7a0bd79b5eab184f300692e73637c96c5f"
+        },
+        {
+          "frame": 3278,
+          "source_sha256": "1c17495b7bed1a62ddf02039f0560681cb24ab318d83470f3bb1a2abddd165ec",
+          "render_sha256": "6543a498f3a688501ac2aa624ced369d91d060aab6289e0dba617c96c8875213"
+        },
+        {
+          "frame": 3285,
+          "source_sha256": "eceb0119365c16bd1ab1efe3fe1dcb0e891817f84ffd4c469f85fac05f78ccaa",
+          "render_sha256": "b7d2b4aa4bb78b51c412494433d0dee2322177593ec4279ccdf01e8fa3b55656"
+        },
+        {
+          "frame": 3292,
+          "source_sha256": "e128ad179ba9b6d3b5f7f5b1b7ab5ce924afc435aa5345929d8438d696460266",
+          "render_sha256": "5216a7f196d108cc708b787c9b4ad240001f101b2140c35be5bd45338a157a19"
+        },
+        {
+          "frame": 3300,
+          "source_sha256": "4eed9b6b3595292a0b05a9cba249f4df90a8540f197dcde5a2df333fa350e965",
+          "render_sha256": "9f04fc3c1f7ca6eaab99dc2909b26c85b3ab82128ffbc19ab627051fe8de8412"
+        },
+        {
+          "frame": 3308,
+          "source_sha256": "03932dc653240b2455730c9e57a6ba35aa1e7c9f17650f1ce1ced05f19d02c21",
+          "render_sha256": "c516109e2c0d80d01c9f4bf7fc4cd16a8e234eb42b2cb91bb3372da5916818c4"
+        },
+        {
+          "frame": 3315,
+          "source_sha256": "7ee9b5c2cd4cb5a77646b961324d1a5f6cac4e14d3a9f7024e43f8446cd31b75",
+          "render_sha256": "fd465ab918728345a4eb0f7f8c6ebc4444f077fdbae37e053a1ccd609c3cdcc9"
+        },
+        {
+          "frame": 3322,
+          "source_sha256": "c2f017077697bc5737c0c4ada9a406cf2889a2d38fc23ccfa7256f939cd20fa8",
+          "render_sha256": "3034ccf701965a29488d888876f3dd73080190bf0c74a9bb927da1e6a2ab37ac"
+        },
+        {
+          "frame": 3330,
+          "source_sha256": "cbbfce5d8c917563fe6db3a2dac79ef60062e6c603078cab9c1ccfbde8431417",
+          "render_sha256": "75204350db6cc8078aadff0b139097455e49e2414593ab55647e7385773fa9be"
+        },
+        {
+          "frame": 3338,
+          "source_sha256": "6e9b3eb02500ac06bd59a19565026eb0f123032e3915b4f6aef5890102c003bd",
+          "render_sha256": "06f270e36724d83e9da0c3b412b52a6921ba8abb492cf52fe0e47a07ce3167b0"
+        },
+        {
+          "frame": 3345,
+          "source_sha256": "a2cf4c820318abd820f6d6d41dde35043666c662fbeb1728bd875f8f4926cee9",
+          "render_sha256": "63085b7d8cdd7b0a69e839f04e9e9a62f4968e0bd61a3dd554716d2ff6ed316a"
+        },
+        {
+          "frame": 3352,
+          "source_sha256": "4d0f9610564dd2f2483d6139baadafc0aaf566f7a90ec4352afe5f05c2676866",
+          "render_sha256": "8ff20a056a32c591d9844b3417908dc8c803a02f50feb009787417600325cffc"
+        },
+        {
+          "frame": 3360,
+          "source_sha256": "18f510789ecd3bb677361466c9f4210c5ea499ed67793b24e346eebea109b50e",
+          "render_sha256": "a1265b66efe1193863593f86482e618ac70ef2712a6cc6afc3c7b611764729c2"
+        },
+        {
+          "frame": 3368,
+          "source_sha256": "6a06ba4615aa4ca40fd2561aaf0afb2eded0f1a9266262bcff51914931627128",
+          "render_sha256": "2c59ffab9bc9b579d89469813fad2a94dedbcf9a38aeb1de4db1d651410a55d6"
+        },
+        {
+          "frame": 3375,
+          "source_sha256": "b6bfe3fa7871604eb95b5aaa294f323c5c2194fa22d0878f8c0b3ca3d306f171",
+          "render_sha256": "7ac0f521f3ee04093c47613eb6bb41c4ab5ad07d58e98010bfd7cba97a3f7545"
+        },
+        {
+          "frame": 3382,
+          "source_sha256": "63fc5ed329746b39416535aacc991a4c4b9f7f75707fe74e900bd1aadd294df1",
+          "render_sha256": "9219e40ee5a46c9d8cf3bedf7c168e1f962c4a533bf71988891b29fd8294b856"
+        },
+        {
+          "frame": 3390,
+          "source_sha256": "47a737b15f6b71730833dbe6e22e09841fcd8233bbf84d2d925fec99b619a27f",
+          "render_sha256": "7364fa15277b5bbb97d5702e9e1275016a30d652cc7e7b6194d6b640644c4e31"
+        },
+        {
+          "frame": 3398,
+          "source_sha256": "f54fecd1e7480a9fbd7e91ee20602ef8ec56c34d3d891a2886f53b1ee6d7bdca",
+          "render_sha256": "79ef25ba4667ea1a9a10bab4119dd6ea2c931f64b7786ef2bece450ef733cdc5"
+        },
+        {
+          "frame": 3405,
+          "source_sha256": "ea7ecb4a6eb956bd2d65496c0c505fd1725a21d4b426b5f8f53a01ddd2458f4b",
+          "render_sha256": "b7b04ded4e37207ea29e50c10b29eeaa3b1c22777a07f36e15967f57adb2b322"
+        },
+        {
+          "frame": 3412,
+          "source_sha256": "643e9721a43abca5628848e50e5fdab9ab119f120590e5522b649dca5c208685",
+          "render_sha256": "2e776b42f663549ca275794353152776813b740f7ac21d1d54adafb7f78794c7"
+        },
+        {
+          "frame": 3420,
+          "source_sha256": "43114f54730ed7dc516927c1988fc97c1438b32ba762989c79be5739405214a8",
+          "render_sha256": "1ff5446f56375248ca665766ead68edc2ea508dd6e7aabc6a337e15ebe83469b"
+        },
+        {
+          "frame": 3428,
+          "source_sha256": "64b7f1c92def778bbf80a18dc64f240532359a795cdf7f809b79152e6eed0d4f",
+          "render_sha256": "d5645f3432c28c86f49f0b49c7e7b0a9bf10efbca9495c51ca5bf7ff45082435"
+        },
+        {
+          "frame": 3435,
+          "source_sha256": "59c90680a4badc007b99ba0e62bf20ddf1a2b94cd4c85e6d9cd4bf6cf8f4ec3f",
+          "render_sha256": "75128bb038e1434b0a66af0fd3c4b44fc7a332c0fa7d46060a432355083150a2"
+        },
+        {
+          "frame": 3442,
+          "source_sha256": "d21ca4d879fef3b968ff9b02fbc407d1b0a5138ece5a10e47f8f4c23f0befaf0",
+          "render_sha256": "637dca5dc2b23a05c7397a500c836b2cd0567aa9b534cba5f965c93674416844"
+        },
+        {
+          "frame": 3450,
+          "source_sha256": "8e6f854f1001741723d15290d0dda30258a78054e2190c3f40d6a333ca13d3e5",
+          "render_sha256": "455d58483eeba0bcc329fffd5f34876787bace0ffb3ba68349733e7f254786a3"
+        },
+        {
+          "frame": 3458,
+          "source_sha256": "3f8d2a06199c20a79270b973c4484e934bd582e6092374562fc1ac1215be4d49",
+          "render_sha256": "b95d5afabfe3b6013d805c82535abc6c4de007afa2c4951aa5f0d5adf9af99dd"
+        },
+        {
+          "frame": 3465,
+          "source_sha256": "65968920acab57e444857b302e6922af98b4c8fe236ee09ccf99b77904729962",
+          "render_sha256": "7ac374764b162657fa0de52ffbf0cbc2f46c583d13a9fd6fa981e8e880afba47"
+        },
+        {
+          "frame": 3472,
+          "source_sha256": "bd77a70f9e3e19112a3dde785f6c35e4b4c745938dd4e769ebdb43f62fadc779",
+          "render_sha256": "11680d0e2f08b2b8577d38b309c18709f37e76291881181c522e226c24ac6fad"
+        },
+        {
+          "frame": 3480,
+          "source_sha256": "f93d43d52315528e538fda0f1d5905c863cd98dec8c42f89705444972c46933f",
+          "render_sha256": "7eb2e424b592d4c4b2c5da1fca90bccc71d5808b37bcaeb89f491728c5ead757"
+        },
+        {
+          "frame": 3488,
+          "source_sha256": "d2af4c07665bb2e505cddf477a20bbff68080383acb75694f82aa892fae96bfc",
+          "render_sha256": "08fda53f1a4b7b5f113709963442c58dc2e82b96976dd84b628152703ea7d968"
+        }
+      ],
+      "input_tokens_counted": 21408,
+      "reserved_usd": 1.0868,
+      "status": "completed",
+      "response_id": "resp_03340e66ce70ca73016adfe68828ac87d0ac4e434ef12c3c89",
+      "answer": {
+        "sequence_summary": "This sequence shows a continuous stoppage and preparation for a center-court restart, not live stickhandling or a pass. The camera pans away from the waiting goalkeeper toward players gathering at center. A striped official walks toward the center line carrying the ball by hand; the held-ball observation at frame 3368 anchors the estimates before and after it. Players subsequently obscure the official's hands as they assemble for the faceoff. The later context remains consistent with restart preparation, with no demonstrated ball drop, shot, or goal. Estimated ball locations therefore follow the official's hand area, not players' stick blades or the floor.",
+        "samples": [
+          {
+            "frame": 3300,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  139,
+                  491
+                ],
+                "radius_px": 70,
+                "weight": 0.66,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely in the striped official's hand within the crowded group; later unobstructed movement identifies the ball-carrying official."
+              }
+            ],
+            "unknown_weight": 0.34,
+            "transition_evidence": "Camera finishes panning toward center; players are walking during a stoppage, not pursuing a moving ball."
+          },
+          {
+            "frame": 3308,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  198,
+                  489
+                ],
+                "radius_px": 42,
+                "weight": 0.78,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Estimated at the official's bent hand near his waist, consistent with his subsequent held-ball position."
+              }
+            ],
+            "unknown_weight": 0.22,
+            "transition_evidence": "The official emerges between the walking players and continues toward the center circle."
+          },
+          {
+            "frame": 3315,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  216,
+                  496
+                ],
+                "radius_px": 44,
+                "weight": 0.79,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "The official's likely carrying hand is partly screened by the nearby red player."
+              }
+            ],
+            "unknown_weight": 0.21,
+            "transition_evidence": "The same official continues walking; no release or player reception is evident."
+          },
+          {
+            "frame": 3322,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  207,
+                  500
+                ],
+                "radius_px": 44,
+                "weight": 0.8,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Ball inferred in the official's hand behind the crossing red player, rather than at that player's stick."
+              }
+            ],
+            "unknown_weight": 0.2,
+            "transition_evidence": "Player overlap and slight camera movement explain the apparent shift; the stoppage continues."
+          },
+          {
+            "frame": 3330,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  209,
+                  493
+                ],
+                "radius_px": 36,
+                "weight": 0.83,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely retained near the official's bent hands; the small ball is not separately resolved."
+              }
+            ],
+            "unknown_weight": 0.17,
+            "transition_evidence": "Players spread around center while the official advances without a throwing or dropping motion."
+          },
+          {
+            "frame": 3338,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  226,
+                  493
+                ],
+                "radius_px": 34,
+                "weight": 0.85,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Estimated in the official's hand area in front of his torso, supported by the later held-ball sighting."
+              }
+            ],
+            "unknown_weight": 0.15,
+            "transition_evidence": "The official walks along the left side of the center circle as players continue repositioning."
+          },
+          {
+            "frame": 3345,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  252,
+                  511
+                ],
+                "radius_px": 42,
+                "weight": 0.84,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely carried beside the official's waist; arm movement makes the precise hand location less certain."
+              }
+            ],
+            "unknown_weight": 0.16,
+            "transition_evidence": "The official continues toward center while nearby players pass him without engaging a floor ball."
+          },
+          {
+            "frame": 3352,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  261,
+                  518
+                ],
+                "radius_px": 38,
+                "weight": 0.86,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Estimated around the official's carrying hand, above the playing surface."
+              }
+            ],
+            "unknown_weight": 0.14,
+            "transition_evidence": "His hand moves with his walking stride; subsequent frames still show him retaining the ball."
+          },
+          {
+            "frame": 3360,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  279,
+                  500
+                ],
+                "radius_px": 28,
+                "weight": 0.9,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Hand-area estimate immediately preceding the clearer held-ball observation at 3368."
+              }
+            ],
+            "unknown_weight": 0.1,
+            "transition_evidence": "The official holds his arm bent beside his torso; there is no intervening release."
+          },
+          {
+            "frame": 3368,
+            "play_state": "dead_ball",
+            "visibility": "visible",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  280,
+                  506.6
+                ],
+                "radius_px": 14,
+                "weight": 0.96,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Small pink/red ball at the official's extended hand, consistent with the visual proposal and surrounding hand motion."
+              }
+            ],
+            "unknown_weight": 0.04,
+            "transition_evidence": "This held-ball observation anchors the continuous official possession during the stoppage."
+          },
+          {
+            "frame": 3375,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  311,
+                  509
+                ],
+                "radius_px": 28,
+                "weight": 0.92,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Ball follows the same official's hand as he walks rightward; it is not separately distinguishable from his fingers."
+              }
+            ],
+            "unknown_weight": 0.08,
+            "transition_evidence": "The hand remains at approximately the same height after the 3368 sighting, with no toss or drop."
+          },
+          {
+            "frame": 3382,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  341,
+                  509
+                ],
+                "radius_px": 30,
+                "weight": 0.91,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely still held near the official's forward hand as he approaches the white player at center."
+              }
+            ],
+            "unknown_weight": 0.09,
+            "transition_evidence": "The official closes the distance to the center line while the players settle into restart positions."
+          },
+          {
+            "frame": 3390,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  328,
+                  515
+                ],
+                "radius_px": 36,
+                "weight": 0.89,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely in the official's forward hand, becoming screened by white T192."
+              }
+            ],
+            "unknown_weight": 0.11,
+            "transition_evidence": "Camera movement shifts the group left in image space; the official continues the same approach."
+          },
+          {
+            "frame": 3398,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  344,
+                  513
+                ],
+                "radius_px": 40,
+                "weight": 0.88,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "The carrying hand is obscured where the official overlaps T192; no transfer to the player is indicated."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "The official passes behind the white player while the red players wait opposite."
+          },
+          {
+            "frame": 3405,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  364,
+                  520
+                ],
+                "radius_px": 44,
+                "weight": 0.87,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Ball inferred around the official's concealed waist-level hand, not at either nearby stick blade."
+              }
+            ],
+            "unknown_weight": 0.13,
+            "transition_evidence": "The official is largely screened as he reaches center; surrounding players remain upright and waiting."
+          },
+          {
+            "frame": 3412,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  377,
+                  532
+                ],
+                "radius_px": 42,
+                "weight": 0.88,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely retained in the official's hand beside the white player's torso, with the ball itself hidden."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "The official emerges onto the red center line; no faceoff drop or stick contest follows."
+          },
+          {
+            "frame": 3420,
+            "play_state": "dead_ball",
+            "visibility": "unclear",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  419,
+                  540
+                ],
+                "radius_px": 48,
+                "weight": 0.72,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Most likely at the official's hand extending image-right while he organizes the restart."
+              },
+              {
+                "xy_1000": [
+                  385,
+                  528
+                ],
+                "radius_px": 34,
+                "weight": 0.15,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Alternatively retained closer to his torso if the extended arm is only gesturing."
+              }
+            ],
+            "unknown_weight": 0.13,
+            "transition_evidence": "The official extends an arm but players remain waiting; the following frames do not establish a release."
+          },
+          {
+            "frame": 3428,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  390,
+                  541
+                ],
+                "radius_px": 46,
+                "weight": 0.87,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely back near the official's waist-level hand, partly concealed behind the white center."
+              }
+            ],
+            "unknown_weight": 0.13,
+            "transition_evidence": "The official remains between the opposing players; the arm gesture does not develop into live play."
+          },
+          {
+            "frame": 3435,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  386,
+                  544
+                ],
+                "radius_px": 44,
+                "weight": 0.88,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Ball inferred in the official's partially hidden hand beside his waist."
+              }
+            ],
+            "unknown_weight": 0.12,
+            "transition_evidence": "The opposing centers move closer while the official continues holding the restart position."
+          },
+          {
+            "frame": 3442,
+            "play_state": "dead_ball",
+            "visibility": "occluded",
+            "hypotheses": [
+              {
+                "xy_1000": [
+                  370,
+                  539
+                ],
+                "radius_px": 44,
+                "weight": 0.89,
+                "carrier_track_id": null,
+                "support": "held",
+                "reason": "Likely still in the official's hand above the floor, partly obscured by his body and the adjacent white player."
+              }
+            ],
+            "unknown_weight": 0.11,
+            "transition_evidence": "Later context shows continued faceoff preparation rather than a completed drop, supporting retained official possession."
+          }
+        ]
+      },
+      "returned_model": "gpt-6-astra",
+      "usage": {
+        "input_tokens": 21608,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 21605
+        },
+        "output_tokens": 7186,
+        "output_tokens_details": {
+          "reasoning_tokens": 4076
+        },
+        "total_tokens": 28794
+      },
+      "seconds": 138.057118422,
+      "estimated_usd": 0.6294
+    }
+  }
+}

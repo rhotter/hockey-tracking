@@ -6,6 +6,7 @@
 - Frozen prompts, selection records, model revisions and source hashes.
 - A portable global reconnection component and synthetic example.
 - Equivalence tests against the original global solver.
+- Sequence-level ball-state outputs, CoTracker3/TAPNext++ numeric point tracks, appearance scores, API failure/cost ledgers and deterministic reconstruction. `scripts/verify_ball_sequence.py` reproduces the current contextual overlay without model access.
 - SAM3 and SAM 3.1 sparse pair outcomes and compact replay boxes, plus SAM 3D Body numeric predictions and visibility references. `scripts/verify_sam3_results.py` checks these without model access.
 
 ## Reference source
@@ -20,6 +21,7 @@ Fresh end-to-end reproduction requires lawful access to the listed recordings, t
 
 These references identify dependencies, not an assertion that all use the same license. Check their own license files and model cards before use or redistribution.
 
+- [CoTracker3](https://github.com/facebookresearch/co-tracker) and [TAPNext++](https://github.com/google-deepmind/tapnet): learned video point trackers. Pinned revisions and checkpoint hashes are in `experiments/ball-sequence-20261026/`. No vendor code or weights are redistributed.
 - [Ultralytics](https://github.com/ultralytics/ultralytics): YOLO detector tooling; the private trained checkpoint is not included.
 - [SAM2](https://github.com/facebookresearch/sam2): mask propagation.
 - [SAM3 / SAM 3.1](https://github.com/facebookresearch/sam3): pretrained concept segmentation and multi-object tracking; pinned code `7f473cfd983d5eb43040ff608f66bff0d7bdcb53`. Checkpoints require their own access and are not redistributed.

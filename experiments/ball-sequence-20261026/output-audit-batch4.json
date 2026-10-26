@@ -1,0 +1,1147 @@
+{
+  "scope": "Systematically selected newly emitted estimates on the same five-minute NBHL recording. Conditional assistant visual audit, not independent invisible-ball ground truth. Approximate visible locations were inspected after predictions were frozen.",
+  "independent_human_review": false,
+  "reviewer": "assistant visual inspection of native chronological panels",
+  "replay_sha256": "3b0e8008dd2da280b9a2650b9f499050c9e65fb4dab66a60fe2c38f91a348c21",
+  "selection_protocol_sha256": "d958b844bfc29a227d66f1857c2e932fcef8ffab188224b2c893fabf448e56bb",
+  "counts": {
+    "unclear": 3,
+    "context_consistent_unverified": 17,
+    "visible_inside": 13,
+    "visible_outside": 2
+  },
+  "counts_by_state": {
+    "context": {
+      "unclear": 3,
+      "context_consistent_unverified": 12
+    },
+    "tracked": {
+      "visible_inside": 13,
+      "context_consistent_unverified": 5,
+      "visible_outside": 2
+    }
+  },
+  "rows": [
+    {
+      "frame": 164,
+      "state": "tracked",
+      "pixel": [
+        736.2354020189841,
+        666.5371324576674
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "9fe8065286567ebdc273c613c316f52307be6dbdf7eeee5b430a7319311f66b9",
+      "verdict": "visible_inside",
+      "note": "Pink ball is visible beside the converging blades.",
+      "reviewed_ball_pixel": [
+        746.2354020189841,
+        668.5371324576674
+      ]
+    },
+    {
+      "frame": 185,
+      "state": "tracked",
+      "pixel": [
+        1062.854525485339,
+        690.7784591222525
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "0d6c799881d777a6ac72deb8e9301cea6e9838fd5330e252c29099bc311aa50c",
+      "verdict": "context_consistent_unverified",
+      "note": "Tracker follows the white carrier blade; the ball itself is not distinct from blade and shadow."
+    },
+    {
+      "frame": 286,
+      "state": "tracked",
+      "pixel": [
+        1610.545073407163,
+        623.8512541531786
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "18ea7df35fdb808b42ecc88b76cc73cbcdd98e770ac661f4ffea70f5cc2bc62d",
+      "verdict": "visible_inside",
+      "note": "Pink ball blur is visible just ahead of the white carrier blade.",
+      "reviewed_ball_pixel": [
+        1602.545073407163,
+        628.8512541531786
+      ]
+    },
+    {
+      "frame": 795,
+      "state": "context",
+      "pixel": [
+        468.48000000000013,
+        466.56
+      ],
+      "radius_px": 150.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            468.48000000000013,
+            466.56
+          ],
+          "radius_px": 150.0,
+          "weight": 0.52,
+          "carrier_track_id": null,
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              5625.0,
+              0.0
+            ],
+            [
+              0.0,
+              5625.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            681.6000000000003,
+            516.2399999999999
+          ],
+          "radius_px": 75.0,
+          "weight": 0.24,
+          "carrier_track_id": "T39",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.6920212969931481,
+            0.27192218617566233
+          ],
+          "covariance": [
+            [
+              0.0005855351139182135,
+              -0.002943759349955002
+            ],
+            [
+              -0.0029437593499550014,
+              0.01699685381726158
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1406.25,
+              0.0
+            ],
+            [
+              0.0,
+              1406.25
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "9ea785313588818da1698ba7d85dd2f45aee52356d4dd6d0c506db9ebb75766b",
+      "verdict": "unclear",
+      "note": "Broad corner-exit region during a pan; no ball location is resolved."
+    },
+    {
+      "frame": 855,
+      "state": "context",
+      "pixel": [
+        600.9599999999999,
+        513.0
+      ],
+      "radius_px": 70.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            600.9599999999999,
+            513.0
+          ],
+          "radius_px": 70.0,
+          "weight": 0.77,
+          "carrier_track_id": "T56",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.2758182935494738,
+            0.1666052731406428
+          ],
+          "covariance": [
+            [
+              0.0007532101313448052,
+              0.00380594873043511
+            ],
+            [
+              0.00380594873043511,
+              0.02158705892057508
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1225.0,
+              0.0
+            ],
+            [
+              0.0,
+              1225.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "5cf16a54b852c2c9c2496445b780f08c41c09d93cb404e238216d67cc5c95a85",
+      "verdict": "context_consistent_unverified",
+      "note": "The far-board white carrier and stick fit the surrounding play, but the ball is indistinct."
+    },
+    {
+      "frame": 977,
+      "state": "tracked",
+      "pixel": [
+        645.6563489449148,
+        615.905341971423
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "3b07233e02a896c6a4f363ffd173bed44624c3451b9ef2c8a8531057e5633007",
+      "verdict": "visible_inside",
+      "note": "Small pink ball blur is visible on the open floor during the pass.",
+      "reviewed_ball_pixel": [
+        642.6563489449148,
+        608.905341971423
+      ]
+    },
+    {
+      "frame": 3345,
+      "state": "context",
+      "pixel": [
+        483.8399999999999,
+        551.88
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            483.8399999999999,
+            551.88
+          ],
+          "radius_px": 60.0,
+          "weight": 0.84,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "a2cf4c820318abd820f6d6d41dde35043666c662fbeb1728bd875f8f4926cee9",
+      "verdict": "context_consistent_unverified",
+      "note": "The official is holding the ball in surrounding frames; the hand is partly overlapped by a white player at the target."
+    },
+    {
+      "frame": 3360,
+      "state": "tracked",
+      "pixel": [
+        532.3558195969839,
+        541.1787333891592
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "18f510789ecd3bb677361466c9f4210c5ea499ed67793b24e346eebea109b50e",
+      "verdict": "visible_inside",
+      "note": "Pink ball is visible in the official hand.",
+      "reviewed_ball_pixel": [
+        532.3558195969839,
+        536.1787333891592
+      ]
+    },
+    {
+      "frame": 3367,
+      "state": "tracked",
+      "pixel": [
+        538.6769994465282,
+        555.3405066476437
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "7d4dee35df998e5999d68477619c67c4ef2051013498646b12db002b3132636d",
+      "verdict": "visible_inside",
+      "note": "Pink ball is visible in the official extended hand.",
+      "reviewed_ball_pixel": [
+        535.6769994465282,
+        552.3405066476437
+      ]
+    },
+    {
+      "frame": 3372,
+      "state": "tracked",
+      "pixel": [
+        555.9212647525677,
+        531.8274130594899
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "a123ff37f111520d8ede0a83116b78d42a4d57db30fd6be58d739fa98337ab6d",
+      "verdict": "visible_inside",
+      "note": "Pink ball is visible above the official palm.",
+      "reviewed_ball_pixel": [
+        553.9212647525677,
+        531.8274130594899
+      ]
+    },
+    {
+      "frame": 3389,
+      "state": "tracked",
+      "pixel": [
+        628.0393502246469,
+        553.1455755699511
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "fb9326cea08d0d26a73ca579c16cff5a9a73c6e2c4f1482284ce906ea5585368",
+      "verdict": "visible_inside",
+      "note": "Pink ball is visible in the official hand beside the white player.",
+      "reviewed_ball_pixel": [
+        628.0393502246469,
+        553.1455755699511
+      ]
+    },
+    {
+      "frame": 3405,
+      "state": "context",
+      "pixel": [
+        698.88,
+        561.6
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            698.88,
+            561.6
+          ],
+          "radius_px": 60.0,
+          "weight": 0.87,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "ea7ecb4a6eb956bd2d65496c0c505fd1725a21d4b426b5f8f53a01ddd2458f4b",
+      "verdict": "context_consistent_unverified",
+      "note": "Official holding position is partly blocked by a white player; no precise ball center is resolved."
+    },
+    {
+      "frame": 3495,
+      "state": "context",
+      "pixel": [
+        647.04,
+        557.28
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            647.04,
+            557.28
+          ],
+          "radius_px": 60.0,
+          "weight": 0.88,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "b9aef0de075d58d83dc49092c2e180ebd96f566034fb618624a486090c914193",
+      "verdict": "context_consistent_unverified",
+      "note": "Faceoff setup and the official hand position fit the held-ball hypothesis; the small ball is not separately resolved."
+    },
+    {
+      "frame": 3555,
+      "state": "context",
+      "pixel": [
+        437.76,
+        518.4000000000001
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            437.76,
+            518.4000000000001
+          ],
+          "radius_px": 60.0,
+          "weight": 0.8,
+          "carrier_track_id": "T203",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.48505179027916634,
+            0.1209628624719962
+          ],
+          "covariance": [
+            [
+              4.677005808145549e-05,
+              0.0001221877762076209
+            ],
+            [
+              0.0001221877762076209,
+              0.015398404218876945
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "f6ba43961beb5e7d3ebf2a7e53e5f5a37c254893bb6ac5df950752a8b3ba76e0",
+      "verdict": "context_consistent_unverified",
+      "note": "White player advances along the far boards after the faceoff; region follows the blade area, but the ball is indistinct."
+    },
+    {
+      "frame": 3645,
+      "state": "context",
+      "pixel": [
+        1255.68,
+        487.08000000000004
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1255.68,
+            487.08000000000004
+          ],
+          "radius_px": 60.0,
+          "weight": 0.82,
+          "carrier_track_id": "T198",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.9480110260493091,
+            0.8547891206534003
+          ],
+          "covariance": [
+            [
+              0.0015742995516758937,
+              -0.0018345823339878638
+            ],
+            [
+              -0.001834582333987864,
+              0.002365509910218905
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "7df357e53efe5a3c8171d2336c63a601137d50b53480782e3a5d5f2f55819d84",
+      "verdict": "context_consistent_unverified",
+      "note": "Near-board red carrier controls play; spectators and the board conceal the ball area."
+    },
+    {
+      "frame": 3705,
+      "state": "context",
+      "pixel": [
+        1226.8799999999987,
+        513.0
+      ],
+      "radius_px": 65.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1226.8799999999987,
+            513.0
+          ],
+          "radius_px": 65.0,
+          "weight": 0.55,
+          "carrier_track_id": "T192",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.911371458345922,
+            0.8519860110191876
+          ],
+          "covariance": [
+            [
+              0.0013894998702708148,
+              -0.001762836439120919
+            ],
+            [
+              -0.001762836439120919,
+              0.0024838878159835734
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              1056.25,
+              0.0
+            ],
+            [
+              0.0,
+              1056.25
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            1271.0399999999988,
+            505.44000000000005
+          ],
+          "radius_px": 60.0,
+          "weight": 0.25,
+          "carrier_track_id": "T198",
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.9239198159075047,
+            0.8574812600639373
+          ],
+          "covariance": [
+            [
+              0.001297923131858353,
+              -0.0015854326697953604
+            ],
+            [
+              -0.0015854326697953601,
+              0.0021498708783332953
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "48807a53acdf5a7c3b9e4e2fca22322dc59f6f06c36fe1fe3cc18c4420109f57",
+      "verdict": "context_consistent_unverified",
+      "note": "Two alternatives cover the close board battle. The ball is concealed behind the boards and players."
+    },
+    {
+      "frame": 3795,
+      "state": "context",
+      "pixel": [
+        1345.9199999999998,
+        465.48
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1345.9199999999998,
+            465.48
+          ],
+          "radius_px": 60.0,
+          "weight": 0.78,
+          "carrier_track_id": "T192",
+          "support": "floor",
+          "motion_source": "carrier_motion",
+          "xy": [
+            0.9850981283805774,
+            0.8322169956075713
+          ],
+          "covariance": [
+            [
+              0.002083392422737633,
+              -0.002349846089591983
+            ],
+            [
+              -0.002349846089591983,
+              0.002902787230589081
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "fee870e4261b9d234b56137370f154da13998f292467c994d1ba24eabe0b1933",
+      "verdict": "context_consistent_unverified",
+      "note": "White carrier approaches the right corner with the stick low; spectator and boards obstruct the ball."
+    },
+    {
+      "frame": 3855,
+      "state": "context",
+      "pixel": [
+        769.9200000000002,
+        479.52000000000004
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            769.9200000000002,
+            479.52000000000004
+          ],
+          "radius_px": 60.0,
+          "weight": 0.61,
+          "carrier_track_id": null,
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.9061084997676369,
+            0.5571156667190408
+          ],
+          "covariance": [
+            [
+              0.0015465696112247145,
+              -0.0030591023469313714
+            ],
+            [
+              -0.0030591023469313714,
+              0.006437497844863184
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            695.0400000000001,
+            497.8800000000001
+          ],
+          "radius_px": 60.0,
+          "weight": 0.25,
+          "carrier_track_id": null,
+          "support": "floor",
+          "motion_source": "camera_compensated_region",
+          "xy": [
+            0.8759959660463076,
+            0.5709972326181889
+          ],
+          "covariance": [
+            [
+              0.0012099366653665815,
+              -0.00252770387279321
+            ],
+            [
+              -0.00252770387279321,
+              0.005648189294722321
+            ]
+          ],
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "ee899264125cefa36808a8d22ba648d69c1ea5e5340c3a7341669ce7231da5f4",
+      "verdict": "unclear",
+      "note": "A shot reaches the goalkeeper and rebound area. Target-frame blur prevents choosing a ball location."
+    },
+    {
+      "frame": 3909,
+      "state": "tracked",
+      "pixel": [
+        1532.9245618004757,
+        497.07567723610794
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "155d914ad3dd9340d4621e22c6cdc5539f9c413e839207a167be49a6acab2b61",
+      "verdict": "context_consistent_unverified",
+      "note": "Track is near the red blade after the goal; the small ball is not distinct from the floor and shadow."
+    },
+    {
+      "frame": 3937,
+      "state": "tracked",
+      "pixel": [
+        1398.9347269346317,
+        494.8851237807248
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "ee1e929b03969e65837fab6ecf3343f4385ffcfb13368359b3de971d328cbd6b",
+      "verdict": "visible_inside",
+      "note": "Pink ball blur is visible just ahead of the red blade.",
+      "reviewed_ball_pixel": [
+        1391.9347269346317,
+        499.8851237807248
+      ]
+    },
+    {
+      "frame": 3941,
+      "state": "tracked",
+      "pixel": [
+        1380.33052769443,
+        495.9209233105905
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "64fbe1571c326c0fa075b856ea0f176fb7ab9c87b4ac5b0c8343c586bf0d7a8c",
+      "verdict": "visible_inside",
+      "note": "Ball is visible on the floor beside the red blade.",
+      "reviewed_ball_pixel": [
+        1375.33052769443,
+        502.9209233105905
+      ]
+    },
+    {
+      "frame": 3959,
+      "state": "tracked",
+      "pixel": [
+        1319.9908322626964,
+        500.27652067174995
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "c812fbd6c2800cf69eb3c672c0222d90fc5f08f096ce84ff2cb29beb0efc365f",
+      "verdict": "context_consistent_unverified",
+      "note": "Ball area overlaps the red blade; adjacent frames support the location but target localization is unresolved."
+    },
+    {
+      "frame": 3965,
+      "state": "tracked",
+      "pixel": [
+        1298.5445301662699,
+        498.7405391437277
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "57636d299f8862ffbdf2fecb5c2dd188410df2c10c9464cb31ca53e030d46296",
+      "verdict": "context_consistent_unverified",
+      "note": "The blade covers the ball area; a separate ball center is unresolved."
+    },
+    {
+      "frame": 3979,
+      "state": "tracked",
+      "pixel": [
+        1288.654098172891,
+        496.28705016772966
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "4b33037972a5198e1ffbd685c99d20f52ff6694f7d0b00a754702b9c99cebdf6",
+      "verdict": "context_consistent_unverified",
+      "note": "Ball and blade overlap during the stoppage; no separate target center is resolved."
+    },
+    {
+      "frame": 3983,
+      "state": "tracked",
+      "pixel": [
+        1290.0047375536215,
+        494.0533707554928
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "74d977799c07625e6ad08b47d873297d0bc52a7295090d6e13e7b695eb7d83e7",
+      "verdict": "visible_inside",
+      "note": "Pink ball protrudes below the blade and is distinct in following frames.",
+      "reviewed_ball_pixel": [
+        1288.0047375536215,
+        499.0533707554928
+      ]
+    },
+    {
+      "frame": 4012,
+      "state": "tracked",
+      "pixel": [
+        1270.2949567781445,
+        497.9988565613482
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "84c5c1fe7d398d00908bee87cedbbf67bfd76bcac5b898565574ef2ad378eac3",
+      "verdict": "visible_inside",
+      "note": "Stationary ball is visible near the approaching official.",
+      "reviewed_ball_pixel": [
+        1260.2949567781445,
+        500.9988565613482
+      ]
+    },
+    {
+      "frame": 4021,
+      "state": "tracked",
+      "pixel": [
+        1280.4645043980547,
+        495.41328639459823
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "1c66d872daa93619f3d63079d28626b51e9958e54582e10807d5a55bf5619b9c",
+      "verdict": "visible_outside",
+      "note": "The ball stays at the official feet while the tracker drifts toward the retreating blade; it falls outside the 24-pixel region.",
+      "reviewed_ball_pixel": [
+        1230.4645043980547,
+        502.41328639459823
+      ]
+    },
+    {
+      "frame": 4026,
+      "state": "tracked",
+      "pixel": [
+        1291.3858585922935,
+        496.46563900981926
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "f8eab2add25d262456fd547751388b1cdbaa19039634dbb143976db0a3639538",
+      "verdict": "visible_outside",
+      "note": "Tracker continues following the blade while the stationary ball remains by the official feet, outside the region.",
+      "reviewed_ball_pixel": [
+        1233.3858585922935,
+        504.46563900981926
+      ]
+    },
+    {
+      "frame": 4095,
+      "state": "context",
+      "pixel": [
+        1605.1200000000003,
+        478.44000000000017
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1605.1200000000003,
+            478.44000000000017
+          ],
+          "radius_px": 60.0,
+          "weight": 0.8,
+          "carrier_track_id": "T231",
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "7553f319804d01272858c21bac8693a3c488630994a4662a521087a85ae15d5b",
+      "verdict": "context_consistent_unverified",
+      "note": "The official walks away after the stoppage with a hand raised. Held-ball location fits context but is not resolved."
+    },
+    {
+      "frame": 4155,
+      "state": "context",
+      "pixel": [
+        216.95999999999998,
+        517.32
+      ],
+      "radius_px": 85.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            216.95999999999998,
+            517.32
+          ],
+          "radius_px": 85.0,
+          "weight": 0.65,
+          "carrier_track_id": "T235",
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              1806.25,
+              0.0
+            ],
+            [
+              0.0,
+              1806.25
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "120141c66da8cdbc3861392585ed3dd66b716ec753d5f91a14f7fdd853556923",
+      "verdict": "unclear",
+      "note": "Rapid camera pan severely blurs the official and held-ball region."
+    },
+    {
+      "frame": 4305,
+      "state": "context",
+      "pixel": [
+        1165.44,
+        473.0400000000001
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1165.44,
+            473.0400000000001
+          ],
+          "radius_px": 60.0,
+          "weight": 0.6,
+          "carrier_track_id": "T242",
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            1384.32,
+            885.5999999999999
+          ],
+          "radius_px": 80.0,
+          "weight": 0.15,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              1600.0,
+              0.0
+            ],
+            [
+              0.0,
+              1600.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "a86c161aea01aa1d96fff022bb5c5b3b36e577d598f71143e8bebb5c3c8405dc",
+      "verdict": "context_consistent_unverified",
+      "note": "Two official-hand alternatives are retained during the stoppage; the ball cannot be localized confidently."
+    },
+    {
+      "frame": 4395,
+      "state": "context",
+      "pixel": [
+        1077.1199999999997,
+        481.6799999999998
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1077.1199999999997,
+            481.6799999999998
+          ],
+          "radius_px": 60.0,
+          "weight": 0.66,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            1219.2,
+            789.4799999999999
+          ],
+          "radius_px": 75.0,
+          "weight": 0.2,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              1406.25,
+              0.0
+            ],
+            [
+              0.0,
+              1406.25
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "bc38cf75b73404b5d8c3d5d88529a49a4ecd0ac66f0b89a68c401dc03091c17f",
+      "verdict": "context_consistent_unverified",
+      "note": "Officials prepare the restart. Alternatives cover their hands, but possession is visually ambiguous."
+    },
+    {
+      "frame": 4438,
+      "state": "tracked",
+      "pixel": [
+        1021.7254874551284,
+        393.76668286766756
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "d18fcefd23b399e1027086c4d468b1e97029cf788342844f857aafc0b5490fca",
+      "verdict": "visible_inside",
+      "note": "Pink ball is clearly airborne between the officials.",
+      "reviewed_ball_pixel": [
+        1021.7254874551284,
+        392.76668286766756
+      ]
+    },
+    {
+      "frame": 4443,
+      "state": "tracked",
+      "pixel": [
+        1006.5818850534929,
+        421.35171533908783
+      ],
+      "radius_px": 24.0,
+      "hypotheses": [],
+      "source_sha256": "bdf88726cf487a74c8a9c914be01aef43a77e0401aab1ae518ddc42315e838cd",
+      "verdict": "visible_inside",
+      "note": "Pink vertical motion blur marks the airborne ball between officials.",
+      "reviewed_ball_pixel": [
+        1003.5818850534929,
+        426.35171533908783
+      ]
+    },
+    {
+      "frame": 4455,
+      "state": "context",
+      "pixel": [
+        1017.5999999999997,
+        592.92
+      ],
+      "radius_px": 60.0,
+      "hypotheses": [
+        {
+          "pixel": [
+            1017.5999999999997,
+            592.92
+          ],
+          "radius_px": 60.0,
+          "weight": 0.7,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        },
+        {
+          "pixel": [
+            1042.56,
+            471.96000000000004
+          ],
+          "radius_px": 60.0,
+          "weight": 0.17,
+          "carrier_track_id": null,
+          "support": "held",
+          "motion_source": "camera_compensated_region",
+          "xy": null,
+          "covariance": null,
+          "pixel_covariance": [
+            [
+              900.0,
+              0.0
+            ],
+            [
+              0.0,
+              900.0
+            ]
+          ]
+        }
+      ],
+      "source_sha256": "788da337bcafd3ec7544bf5821142e35d666fd0924a8711975b665e69f0e69df",
+      "verdict": "context_consistent_unverified",
+      "note": "Officials exchange or hold the ball before the restart; the target hand position is partly occluded."
+    }
+  ]
+}

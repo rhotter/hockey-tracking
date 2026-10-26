@@ -1,0 +1,65 @@
+{
+  "models": [
+    "cotracker3",
+    "tapnextpp512"
+  ],
+  "crop_native_size": [
+    768,
+    576
+  ],
+  "half_window_frames": 90,
+  "seed_selection": "Nearest already published visual anchor to six preselected pilot times; no annotation coordinates used.",
+  "pilot_seeds": [
+    {
+      "frame": 150,
+      "pixel": [
+        0.3646351776591741,
+        0.6284096064573542
+      ],
+      "evidence_score": 0.999
+    },
+    {
+      "frame": 425,
+      "pixel": [
+        0.6393650360866905,
+        0.5470215669540928
+      ],
+      "evidence_score": 0.34442830681800846
+    },
+    {
+      "frame": 1012,
+      "pixel": [
+        0.11105603695543086,
+        0.5381900693320708
+      ],
+      "evidence_score": 0.999
+    },
+    {
+      "frame": 1837,
+      "pixel": [
+        0.24409268265900932,
+        0.7439182400849778
+      ],
+      "evidence_score": 0.9073457717895508
+    },
+    {
+      "frame": 2812,
+      "pixel": [
+        0.18068230444088354,
+        0.7861635434866608
+      ],
+      "evidence_score": 0.999
+    },
+    {
+      "frame": 3989,
+      "pixel": [
+        0.6717861680904806,
+        0.46158307534212756
+      ],
+      "evidence_score": 0.6256305694580079
+    }
+  ],
+  "baseline_sha256": "ed7792a0bac0c6205cece6dd1c3595361054d7e64195bcccad859a6d33321906",
+  "camera_compensation": "Moving crop centered on seed point transformed by floor homographies; approximate for non-floor objects. Reject explicit edit range.",
+  "purpose": "Compare learned spatiotemporal point propagation against the sparse detector baseline; output proposals, not automatically accepted tracking."
+}

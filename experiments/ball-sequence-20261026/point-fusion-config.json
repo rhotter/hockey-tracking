@@ -1,0 +1,8 @@
+{
+  "appearance_threshold": 0.3,
+  "standalone_appearance_threshold": 0.9,
+  "standalone_seed_distance_frames": 12,
+  "minimum_run_frames": 3,
+  "maximum_step_px": 120.0,
+  "radius_px": 24.0
+}

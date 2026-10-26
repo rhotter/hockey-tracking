@@ -1,0 +1,10 @@
+{
+  "minimum_radius_px": 60.0,
+  "maximum_radius_px": 180.0,
+  "minimum_known_weight": 0.55,
+  "minimum_dominant_weight": 0.4,
+  "minimum_hypothesis_weight": 0.12,
+  "maximum_sample_gap_frames": 9,
+  "maximum_transition_px": 360.0,
+  "edge_hold_frames": 3
+}

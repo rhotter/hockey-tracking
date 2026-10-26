@@ -1,0 +1,7 @@
+{
+  "context_targets": {"window_starts": "range(0,4500,150)", "offsets": [45, 105], "search_radius_frames": 15},
+  "selection": "For each target, select the nearest new context-only frame that was unknown in the previous published tracker; ties use the earlier frame. Skip targets with no eligible estimate. Select at most 20 added tracked frames, evenly spaced in the chronological list of accepted tracked frames.",
+  "review": "Inspect full frame, preceding and following full frames, and native crops. Distinguish visibly contained ball, visibly outside region, plausible but unverified context, and unclear evidence. Do not call an invisible inferred position ground truth.",
+  "independent_human_review": false,
+  "limits": "Conditional audit of emitted estimates on the development recording. No unobserved-ball ground truth; no independent test game. Frozen before seeing the remaining 24 sequence windows."
+}
