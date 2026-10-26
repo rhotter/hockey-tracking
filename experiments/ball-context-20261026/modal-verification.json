@@ -1,0 +1,7 @@
+{
+  "frames": 4500,
+  "matching_states": true,
+  "max_absolute_numeric_difference": 3.183231456205249e-12,
+  "numpy_tolerance_rtol": 1e-09,
+  "numpy_tolerance_atol": 1e-11
+}

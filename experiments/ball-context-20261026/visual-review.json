@@ -1,0 +1,175 @@
+{
+  "reviewer": "assistant",
+  "independent_ground_truth": false,
+  "prediction_centered_crops": true,
+  "predicted_points_overlaid": false,
+  "selection": "12 evenly spaced inferred-frame indices, union all inferred frames with player-box overlap",
+  "native_frame_size": [
+    1920,
+    1080
+  ],
+  "reviewed_frames": [
+    {
+      "frame": 158,
+      "crop_sha256": "753047b289c1e932bd10b6dca9444882a1af4c54740378bc4ee9a962f14553a5",
+      "crop_origin_native": [
+        682,
+        574
+      ],
+      "status": "approximate_visible_center",
+      "pixel": [
+        853,
+        675
+      ],
+      "annotation_tolerance_px": 5
+    },
+    {
+      "frame": 166,
+      "crop_sha256": "e1d07e03c0b94846015444f434d0f13cb77bff4f8edafb8abbe8fa45e9ba8c62",
+      "crop_origin_native": [
+        532,
+        564
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 969,
+      "crop_sha256": "bcf83fe9e75697bcda40fc9a271b205cb883252c042126f52b28771c490a2ba9",
+      "crop_origin_native": [
+        267,
+        450
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 991,
+      "crop_sha256": "f0fd48cc59203bc84c151825190ef189f96111c2e7f0b0fd046b3e80c1b9bc2c",
+      "crop_origin_native": [
+        498,
+        608
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 1002,
+      "crop_sha256": "b585cc5a43a607c3e615afff3cfeb9eb1f542a0cdeddd303ff97a35dd9754f05",
+      "crop_origin_native": [
+        361,
+        611
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 1014,
+      "crop_sha256": "07873280083b28ef92a6a3ffae07113370b3a225bd2d43270902dd8ef41fe1e2",
+      "crop_origin_native": [
+        71,
+        456
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 1278,
+      "crop_sha256": "0b9ac9b7f965c3bfdf6e2bc204994718ba4511b8cce78e8fb2fc8160f2133f1b",
+      "crop_origin_native": [
+        107,
+        415
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 1827,
+      "crop_sha256": "ab3077979aad3efa41df7c59394989e93f7407433fb9814e16df5d9e6e14a524",
+      "crop_origin_native": [
+        59,
+        643
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 1839,
+      "crop_sha256": "90c6df4b3faa314dd2e720a7e92db67050c1bacfc134cedd52902feb2790c789",
+      "crop_origin_native": [
+        386,
+        730
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 2813,
+      "crop_sha256": "eca2560b13d303ef2b7713f4d738399c621bd1bfee8ce6e6bdc7eee8a73019ed",
+      "crop_origin_native": [
+        181,
+        744
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 2846,
+      "crop_sha256": "9b49046f4e1ae838e62d12cb7b0798e33451fcfa3ca7eed1e9dc8c43f7c54bec",
+      "crop_origin_native": [
+        684,
+        514
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 2847,
+      "crop_sha256": "fcab1822ad668ce1337cff5bdff3f6bc17e99ddf2998d51d8c0b37ab9ab712b4",
+      "crop_origin_native": [
+        667,
+        509
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    },
+    {
+      "frame": 2848,
+      "crop_sha256": "37108649925affac1b7441287183227889fcc9b5eced037ad0464c0ddb7622f6",
+      "crop_origin_native": [
+        651,
+        505
+      ],
+      "status": "approximate_visible_center",
+      "pixel": [
+        811,
+        603
+      ],
+      "annotation_tolerance_px": 5
+    },
+    {
+      "frame": 2881,
+      "crop_sha256": "dfe95d77413094608ca4c98d79679a56e9d3e608ca45390cd3efe9aa54a2aaa3",
+      "crop_origin_native": [
+        266,
+        419
+      ],
+      "status": "approximate_visible_center",
+      "pixel": [
+        427,
+        521
+      ],
+      "annotation_tolerance_px": 5
+    },
+    {
+      "frame": 2890,
+      "crop_sha256": "f44c4e6c84f36a9e7c166d3a9bffe0c5774dac38df6eb41cdf4d37d62ae76dff",
+      "crop_origin_native": [
+        249,
+        394
+      ],
+      "status": "unscored_blur_contact_or_occlusion",
+      "pixel": null
+    }
+  ]
+}

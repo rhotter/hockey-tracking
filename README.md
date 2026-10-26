@@ -23,6 +23,12 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Ball context and uncertainty — October 26, 2026
+
+[Review the ball overlay](https://hockey-tracking-phi.vercel.app/overhead.html?t=10.5334) · [Experiment and limitations](experiments/ball-context-20261026/)
+
+An experimental temporal layer bridges short ball-detection gaps and predicts briefly through possible player occlusion. The replay distinguishes detected, inferred and unknown positions and draws model uncertainty ellipses. On the existing five-minute NBHL segment it retains 106 detector anchors and adds 62 inferred frames; 4,332 frames remain unknown. Player-overlap context did not improve coverage over two-sided motion alone in this test. The ellipses are uncalibrated assumptions, and sparse detector-masking checks are not ground-truth accuracy. No possession, shots or goals are inferred from these paths.
+
 ## Five-minute overhead trajectory — October 25, 2026
 
 [Video and overhead replay](https://hockey-tracking-phi.vercel.app/overhead.html) · [Method and source](experiments/overhead-20261025/)

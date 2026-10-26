@@ -32,6 +32,21 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   const csv=await page.locator('#trajectory-csv').evaluate(async a=>(await fetch(a.href)).text());assert.equal(csv.trim().split('\n').length,4501);assert(csv.includes('not_tracked'));
   const response=await page.request.get(base+'/data/overhead-20261025/report.json');assert(response.ok());assert.deepEqual(await response.json(),report);
   result.checks.push('Complete 300-second video, synchronized boxes and map, frame stepping, cut withholding, path controls, evidence photos, 4,500-row CSV and PNG export');
+  const ballReport=JSON.parse(fs.readFileSync(path.join(root,'web/data/ball-context-20261026/report.json')));
+  const ballResponse=await page.request.get(base+'/data/ball-context-20261026/report.json');assert(ballResponse.ok());assert.deepEqual(await ballResponse.json(),ballReport);
+  await page.locator('[data-ball-seek="158"]').click();await page.waitForFunction(()=>document.body.dataset.overheadFrame==='158');
+  assert.equal(await page.locator('body').getAttribute('data-ball-state'),'inferred');
+  assert((await page.locator('#ball-status').innerText()).includes('model radius'));
+  await page.screenshot({path:output.replace(/\.json$/,'-ball-context.png'),fullPage:true});
+  await page.locator('#ball-mode').selectOption('detector');assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
+  await page.locator('#ball-mode').selectOption('off');assert.equal(await page.locator('body').getAttribute('data-ball-state'),'off');
+  await page.locator('[data-ball-seek="2847"]').click();await page.waitForFunction(()=>document.body.dataset.overheadFrame==='2847');
+  assert((await page.locator('#ball-status').innerText()).includes('possible player occlusion'));
+  await seek(150);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'detected');
+  await seek(480);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
+  const ballCSV=await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text());
+  assert.equal(ballCSV.trim().split('\n').length,4501);assert.equal(ballCSV.split(',inferred,').length-1,62);assert.equal(ballCSV.split(',detected,').length-1,106);
+  result.checks.push('Ball detection/context/off modes, inferred uncertainty overlay, occlusion example, cut withholding, 4,500-row ball CSV and current ball report');
   if(replay.players.length>1){await page.locator('#trajectory-player').selectOption(replay.players[1].id);assert((await page.locator('#identity-note').innerText()).includes('Automatic track fragment'));await page.locator('#trajectory-player').selectOption(replay.default_player);}
   await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Mobile overflow');
   await video.evaluate(async v=>{v.muted=true;await v.play();});const before=Number(await page.locator('body').getAttribute('data-overhead-frame'));await page.waitForFunction(f=>Number(document.body.dataset.overheadFrame)>f+10,before);await video.evaluate(v=>v.pause());
