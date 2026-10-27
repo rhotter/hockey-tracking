@@ -1,0 +1,110 @@
+{
+  "requests": [
+    {
+      "id": "nj-0900-max-recovery-0308",
+      "clip": "nj-0900",
+      "core": [
+        308,
+        368
+      ],
+      "range": [
+        278,
+        413
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "nj-0900-max-context-0308"
+    },
+    {
+      "id": "nj-0900-max-recovery-1020",
+      "clip": "nj-0900",
+      "core": [
+        1020,
+        1112
+      ],
+      "range": [
+        990,
+        1157
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "nj-0900-max-context-1020"
+    },
+    {
+      "id": "nj-0900-max-recovery-2024",
+      "clip": "nj-0900",
+      "core": [
+        2024,
+        2072
+      ],
+      "range": [
+        1994,
+        2117
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "nj-0900-max-context-2024"
+    },
+    {
+      "id": "nj-0900-max-recovery-3832",
+      "clip": "nj-0900",
+      "core": [
+        3832,
+        3900
+      ],
+      "range": [
+        3802,
+        3945
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "nj-0900-max-context-3832"
+    },
+    {
+      "id": "pittsburgh-finals-0600-max-recovery-0316",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        316,
+        376
+      ],
+      "range": [
+        286,
+        421
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "pittsburgh-finals-0600-max-context-0316"
+    },
+    {
+      "id": "pittsburgh-finals-0600-max-recovery-0460",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        460,
+        568
+      ],
+      "range": [
+        430,
+        613
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "pittsburgh-finals-0600-max-context-0460"
+    },
+    {
+      "id": "southjersey-finals-0600-max-recovery-0364",
+      "clip": "southjersey-finals-0600",
+      "core": [
+        364,
+        424
+      ],
+      "range": [
+        334,
+        469
+      ],
+      "stride": 3,
+      "width": 1280,
+      "parent_request_id": "southjersey-finals-0600-max-context-0364"
+    }
+  ],
+  "parent_ledger_sha256": "932b0e6b9a404ffc82d0fba41c512ffa1603f6e0d5498060d7018721a25f6c56"
+}

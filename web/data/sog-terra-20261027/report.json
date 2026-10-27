@@ -1,0 +1,1541 @@
+{
+  "scope": "8 minutes from the same three NBHL recordings; development model comparison.",
+  "model": "gpt-6.1-terra",
+  "method_summary": "Terra 6.1 scans chronological 20-second windows at 1.875 fps, then re-examines its own proposed attempts with full views at 2.5 fps, native goal crops at 7.5 fps and up to 30 seconds of aftermath. The shot-counting rules are frozen from the Astra experiment. No Astra event answers are supplied to this pipeline.",
+  "review_summary": "These are experimental model predictions on previously examined development clips. Agreement with Astra is not ground truth. The existing three New Jersey goals provide a limited sanity check; SOG precision and recall remain unmeasured.",
+  "definition": "SOG = a legal attacking shot, tip, or deflection that scores or would enter the goal if not stopped by the goalkeeper. Exclude wide/high attempts, post/crossbar-only attempts, skater blocks, harmless passes, goalie collection of wide balls, and disallowed goals. Count a distinct rebound shot separately. Unknown outcome or on-target path is not confirmed SOG.",
+  "clips": [
+    {
+      "id": "nj-0900",
+      "scanned_seconds": 300.0,
+      "scan_coverage": 1.0,
+      "totals": {
+        "sog": 2,
+        "needs_review": 8,
+        "not_sog": 0,
+        "teams": {
+          "white": {
+            "sog": 2,
+            "goals": 2,
+            "saves": 0,
+            "needs_review": 4
+          },
+          "red": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 4
+          }
+        }
+      },
+      "contextual_sog": 2
+    },
+    {
+      "id": "pittsburgh-finals-0600",
+      "scanned_seconds": 90.0,
+      "scan_coverage": 1.0,
+      "totals": {
+        "sog": 0,
+        "needs_review": 3,
+        "not_sog": 0,
+        "teams": {
+          "black": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 2
+          },
+          "green": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 1
+          }
+        }
+      },
+      "contextual_sog": 0
+    },
+    {
+      "id": "southjersey-finals-0600",
+      "scanned_seconds": 90.0,
+      "scan_coverage": 1.0,
+      "totals": {
+        "sog": 0,
+        "needs_review": 4,
+        "not_sog": 0,
+        "teams": {
+          "orange": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 4
+          }
+        }
+      },
+      "contextual_sog": 0
+    }
+  ],
+  "totals": {
+    "sog": 2,
+    "needs_review": 15,
+    "not_sog": 0,
+    "teams": {
+      "white": {
+        "sog": 2,
+        "goals": 2,
+        "saves": 0,
+        "needs_review": 4
+      },
+      "red": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 4
+      },
+      "black": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 2
+      },
+      "green": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 1
+      },
+      "orange": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 4
+      }
+    }
+  },
+  "phases": {
+    "scan": {
+      "requests": 25,
+      "statuses": {
+        "completed": 25
+      },
+      "estimated_usd_including_unresolved_reservations": 0.94861625,
+      "standard_rate_usd_for_reported_usage": 0.9485975,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 0.77012,
+      "unresolved_reserved_usd": 0,
+      "input_tokens": 713985,
+      "output_tokens": 11227,
+      "median_completed_api_seconds": 10.617474640000012
+    },
+    "matched-context": {
+      "requests": 23,
+      "statuses": {
+        "completed": 23
+      },
+      "estimated_usd_including_unresolved_reservations": 2.11578875,
+      "standard_rate_usd_for_reported_usage": 2.1157715,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 1.758558,
+      "unresolved_reserved_usd": 0,
+      "input_tokens": 1428923,
+      "output_tokens": 65927,
+      "median_completed_api_seconds": 40.123279373999935
+    },
+    "own-context": {
+      "requests": 12,
+      "statuses": {
+        "completed": 12
+      },
+      "estimated_usd_including_unresolved_reservations": 1.13285875,
+      "standard_rate_usd_for_reported_usage": 1.13284975,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 0.948032,
+      "unresolved_reserved_usd": 0,
+      "input_tokens": 739307,
+      "output_tokens": 41745,
+      "median_completed_api_seconds": 49.489815228
+    },
+    "max-context": {
+      "requests": 9,
+      "statuses": {
+        "incomplete": 7,
+        "completed": 2
+      },
+      "estimated_usd_including_unresolved_reservations": 1.49619125,
+      "standard_rate_usd_for_reported_usage": 1.4961845,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 1.340514,
+      "unresolved_reserved_usd": 0,
+      "input_tokens": 622709,
+      "output_tokens": 143561,
+      "median_completed_api_seconds": 167.15259284949997
+    },
+    "max-recovery": {
+      "requests": 7,
+      "statuses": {
+        "failed": 5,
+        "completed": 2
+      },
+      "estimated_usd_including_unresolved_reservations": 2.463435,
+      "standard_rate_usd_for_reported_usage": 0.38912599999999997,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 0.35205600000000004,
+      "unresolved_reserved_usd": 2.0743074999999997,
+      "input_tokens": 148286,
+      "output_tokens": 40754,
+      "median_completed_api_seconds": 230.42585774100002
+    }
+  },
+  "pipeline_estimated_usd": 2.081475,
+  "pipeline_usd_per_video_minute": 0.260184375,
+  "pipeline_standard_rate_usd_for_reported_usage": 2.08144725,
+  "estimated_usd_including_unresolved_reservations": 8.15689,
+  "campaign_budget_usd": 12,
+  "cost_scope": "Pipeline cost includes Terra scan and its own context pass. Matched-context and max experiments are additional evaluation expense, not pipeline cost. Conservative estimates include unresolved reservations and a 25% input-rate margin. Standard-rate totals are recomputed from reported ordinary input, cache reads and cache writes, using the default 30-minute cache-write rate when no lifetime breakdown is supplied. The raw ledger standard_rate_usd field is a legacy base-rate estimate that omits cache-write premiums; do not use it as billed cost. Neither estimate is an invoice. Modal compute/storage is excluded.",
+  "pricing_sources": [
+    "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "https://developers.openai.com/api/docs/guides/prompt-caching"
+  ],
+  "unprocessed_proposals": [],
+  "goal_sanity_check": {
+    "source": "web/data/stats/nbhl-752704.json",
+    "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+    "meaning": "Sanity check only: official goal events with previously assistant-reviewed video timing, using a2-second tolerance. These are development recordings. This does not measure save accuracy or full SOG precision/recall.",
+    "reference_goals": 3,
+    "matched": 2,
+    "rows": [
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166965,
+        "existing_reviewed_recording_interval_s": [
+          969.8,
+          972.2
+        ],
+        "matched_event": "nj-0900-1068"
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166966,
+        "existing_reviewed_recording_interval_s": [
+          1095.8,
+          1097.2
+        ],
+        "matched_event": null
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166967,
+        "existing_reviewed_recording_interval_s": [
+          1157.8,
+          1158.8
+        ],
+        "matched_event": "nj-0900-3852"
+      }
+    ]
+  },
+  "proposed_goal_sanity_check": {
+    "source": "web/data/stats/nbhl-752704.json",
+    "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+    "meaning": "Development diagnostic: match any predicted goal outcome before confidence/evidence counting rules. This does not make withheld goals counted SOG, and does not establish accuracy or recall.",
+    "reference_goals": 3,
+    "matched": 3,
+    "rows": [
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166965,
+        "existing_reviewed_recording_interval_s": [
+          969.8,
+          972.2
+        ],
+        "matched_event": "nj-0900-1068"
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166966,
+        "existing_reviewed_recording_interval_s": [
+          1095.8,
+          1097.2
+        ],
+        "matched_event": "nj-0900-2942"
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166967,
+        "existing_reviewed_recording_interval_s": [
+          1157.8,
+          1158.8
+        ],
+        "matched_event": "nj-0900-3852"
+      }
+    ]
+  },
+  "matched_context_goal_sanity_check": {
+    "source": "web/data/stats/nbhl-752704.json",
+    "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+    "meaning": "Sanity check only: official goal events with previously assistant-reviewed video timing, using a2-second tolerance. These are development recordings. This does not measure save accuracy or full SOG precision/recall.",
+    "reference_goals": 3,
+    "matched": 2,
+    "rows": [
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166965,
+        "existing_reviewed_recording_interval_s": [
+          969.8,
+          972.2
+        ],
+        "matched_event": "nj-0900-1068"
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166966,
+        "existing_reviewed_recording_interval_s": [
+          1095.8,
+          1097.2
+        ],
+        "matched_event": null
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166967,
+        "existing_reviewed_recording_interval_s": [
+          1157.8,
+          1158.8
+        ],
+        "matched_event": "nj-0900-3868"
+      }
+    ]
+  },
+  "matched_context_proposed_goal_sanity_check": {
+    "source": "web/data/stats/nbhl-752704.json",
+    "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+    "meaning": "Development diagnostic: match any predicted goal outcome before confidence/evidence counting rules. This does not make withheld goals counted SOG, and does not establish accuracy or recall.",
+    "reference_goals": 3,
+    "matched": 3,
+    "rows": [
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166965,
+        "existing_reviewed_recording_interval_s": [
+          969.8,
+          972.2
+        ],
+        "matched_event": "nj-0900-1068"
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166966,
+        "existing_reviewed_recording_interval_s": [
+          1095.8,
+          1097.2
+        ],
+        "matched_event": "nj-0900-2942"
+      },
+      {
+        "clip": "nj-0900",
+        "official_event_id": 5166967,
+        "existing_reviewed_recording_interval_s": [
+          1157.8,
+          1158.8
+        ],
+        "matched_event": "nj-0900-3868"
+      }
+    ]
+  },
+  "matched_context_totals": {
+    "sog": 3,
+    "needs_review": 18,
+    "not_sog": 0,
+    "teams": {
+      "white": {
+        "sog": 2,
+        "goals": 2,
+        "saves": 0,
+        "needs_review": 7
+      },
+      "red": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 4
+      },
+      "black": {
+        "sog": 1,
+        "goals": 0,
+        "saves": 1,
+        "needs_review": 2
+      },
+      "green": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 2
+      },
+      "orange": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 3
+      }
+    }
+  },
+  "paired_completed_context_cost_and_latency": {
+    "requests": 20,
+    "pairs": [
+      {
+        "terra_request": "nj-0900-matched-context-0014",
+        "astra_request": "nj-0900-context-0014",
+        "astra_conservative_usd": 0.92975,
+        "terra_conservative_usd": 0.08507625,
+        "astra_response_seconds": 123.906376142,
+        "terra_response_seconds": 35.939166027
+      },
+      {
+        "terra_request": "nj-0900-matched-context-0308",
+        "astra_request": "nj-0900-context-0308",
+        "astra_conservative_usd": 1.05655,
+        "terra_conservative_usd": 0.09818625,
+        "astra_response_seconds": 137.666910293,
+        "terra_response_seconds": 43.819342093000046
+      },
+      {
+        "terra_request": "nj-0900-matched-context-0388",
+        "astra_request": "nj-0900-context-0388",
+        "astra_conservative_usd": 1.1549375,
+        "terra_conservative_usd": 0.088265,
+        "astra_response_seconds": 214.358298304,
+        "terra_response_seconds": 31.551223415000038
+      },
+      {
+        "terra_request": "nj-0900-matched-context-1848",
+        "astra_request": "nj-0900-context-1848",
+        "astra_conservative_usd": 1.0117125,
+        "terra_conservative_usd": 0.1003025,
+        "astra_response_seconds": 131.09590777700004,
+        "terra_response_seconds": 58.00240682399999
+      },
+      {
+        "terra_request": "nj-0900-matched-context-2024",
+        "astra_request": "nj-0900-context-2024",
+        "astra_conservative_usd": 1.110875,
+        "terra_conservative_usd": 0.09172875,
+        "astra_response_seconds": 236.960197338,
+        "terra_response_seconds": 46.56851785499998
+      },
+      {
+        "terra_request": "nj-0900-matched-context-2440",
+        "astra_request": "nj-0900-context-2440",
+        "astra_conservative_usd": 1.046075,
+        "terra_conservative_usd": 0.09399875,
+        "astra_response_seconds": 136.288890365,
+        "terra_response_seconds": 65.63509167400002
+      },
+      {
+        "terra_request": "nj-0900-matched-context-2544",
+        "astra_request": "nj-0900-context-2544",
+        "astra_conservative_usd": 1.1042125,
+        "terra_conservative_usd": 0.0891425,
+        "astra_response_seconds": 193.839991635,
+        "terra_response_seconds": 33.39589491800007
+      },
+      {
+        "terra_request": "nj-0900-matched-context-2700",
+        "astra_request": "nj-0900-context-2700",
+        "astra_conservative_usd": 1.0535125,
+        "terra_conservative_usd": 0.0908625,
+        "astra_response_seconds": 153.10291944600004,
+        "terra_response_seconds": 38.30917659699992
+      },
+      {
+        "terra_request": "nj-0900-matched-context-2796",
+        "astra_request": "nj-0900-context-2796",
+        "astra_conservative_usd": 0.9384625,
+        "terra_conservative_usd": 0.0903825,
+        "astra_response_seconds": 111.15591520699996,
+        "terra_response_seconds": 36.16714540600003
+      },
+      {
+        "terra_request": "nj-0900-matched-context-2916",
+        "astra_request": "nj-0900-context-2916",
+        "astra_conservative_usd": 0.9232625,
+        "terra_conservative_usd": 0.0895225,
+        "astra_response_seconds": 97.44344313299996,
+        "terra_response_seconds": 35.68566856099994
+      },
+      {
+        "terra_request": "nj-0900-matched-context-3580",
+        "astra_request": "nj-0900-context-3580",
+        "astra_conservative_usd": 1.071875,
+        "terra_conservative_usd": 0.09573875,
+        "astra_response_seconds": 135.11840008399997,
+        "terra_response_seconds": 40.123279373999935
+      },
+      {
+        "terra_request": "nj-0900-matched-context-3832",
+        "astra_request": "nj-0900-context-3832",
+        "astra_conservative_usd": 1.1248,
+        "terra_conservative_usd": 0.11245625,
+        "astra_response_seconds": 154.73220482200009,
+        "terra_response_seconds": 62.68275392599992
+      },
+      {
+        "terra_request": "pittsburgh-finals-0600-matched-context-0102",
+        "astra_request": "pittsburgh-finals-0600-context-0102",
+        "astra_conservative_usd": 1.0255,
+        "terra_conservative_usd": 0.08208625,
+        "astra_response_seconds": 207.022053949,
+        "terra_response_seconds": 30.286214127999983
+      },
+      {
+        "terra_request": "pittsburgh-finals-0600-matched-context-0316",
+        "astra_request": "pittsburgh-finals-0600-context-0316",
+        "astra_conservative_usd": 0.9698,
+        "terra_conservative_usd": 0.09636625,
+        "astra_response_seconds": 100.08311819899995,
+        "terra_response_seconds": 43.714563305999945
+      },
+      {
+        "terra_request": "pittsburgh-finals-0600-matched-context-1140",
+        "astra_request": "pittsburgh-finals-0600-context-1140",
+        "astra_conservative_usd": 0.99445,
+        "terra_conservative_usd": 0.08305125,
+        "astra_response_seconds": 194.61162810899998,
+        "terra_response_seconds": 50.54573938300007
+      },
+      {
+        "terra_request": "pittsburgh-finals-0600-matched-context-1312",
+        "astra_request": "pittsburgh-finals-0600-context-1312",
+        "astra_conservative_usd": 0.4467,
+        "terra_conservative_usd": 0.04162625,
+        "astra_response_seconds": 43.52341497499992,
+        "terra_response_seconds": 16.448214341999915
+      },
+      {
+        "terra_request": "southjersey-finals-0600-matched-context-0262",
+        "astra_request": "southjersey-finals-0600-context-0262",
+        "astra_conservative_usd": 0.848325,
+        "terra_conservative_usd": 0.08006375,
+        "astra_response_seconds": 55.34022699999991,
+        "terra_response_seconds": 16.02494143299998
+      },
+      {
+        "terra_request": "southjersey-finals-0600-matched-context-0364",
+        "astra_request": "southjersey-finals-0600-context-0364",
+        "astra_conservative_usd": 1.1900875,
+        "terra_conservative_usd": 0.102515,
+        "astra_response_seconds": 200.66656898700012,
+        "terra_response_seconds": 54.77127033600004
+      },
+      {
+        "terra_request": "southjersey-finals-0600-matched-context-0476",
+        "astra_request": "southjersey-finals-0600-context-0476",
+        "astra_conservative_usd": 0.896275,
+        "terra_conservative_usd": 0.08436375,
+        "astra_response_seconds": 80.60341091700002,
+        "terra_response_seconds": 22.879379481
+      },
+      {
+        "terra_request": "southjersey-finals-0600-matched-context-0972",
+        "astra_request": "southjersey-finals-0600-context-0972",
+        "astra_conservative_usd": 0.8906375,
+        "terra_conservative_usd": 0.08511,
+        "astra_response_seconds": 108.721179183,
+        "terra_response_seconds": 37.30544166200002
+      }
+    ],
+    "astra_conservative_usd": 19.7878,
+    "terra_conservative_usd": 1.780845,
+    "astra_median_response_seconds": 135.70364522449998,
+    "terra_median_response_seconds": 37.80730912949997,
+    "meaning": "Same prompt, source frames, crops, sampling and reasoning/output settings; only requests completed by both original context passes. Timing excludes frame preparation and token-count requests. Separate, non-simultaneous runs; this is not a controlled latency benchmark."
+  },
+  "comparison": {
+    "matched-context": {
+      "meaning": "Prediction agreement, not accuracy. Maximum one-to-one timing alignment within the same team and clip; outcomes are not used to pick matches.",
+      "tolerance_seconds": 2,
+      "pairs": [
+        {
+          "reference_id": "nj-0900-1866",
+          "candidate_id": "nj-0900-1868",
+          "clip": "nj-0900",
+          "reference_seconds": 124.4,
+          "candidate_seconds": 124.53333333333333,
+          "timing_error_seconds": 0.13333333333332575,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2024",
+          "candidate_id": "nj-0900-2026",
+          "clip": "nj-0900",
+          "reference_seconds": 134.93333333333334,
+          "candidate_seconds": 135.06666666666666,
+          "timing_error_seconds": 0.13333333333332575,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2458",
+          "candidate_id": "nj-0900-2462",
+          "clip": "nj-0900",
+          "reference_seconds": 163.86666666666667,
+          "candidate_seconds": 164.13333333333333,
+          "timing_error_seconds": 0.2666666666666515,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2934",
+          "candidate_id": "nj-0900-2942",
+          "clip": "nj-0900",
+          "reference_seconds": 195.6,
+          "candidate_seconds": 196.13333333333333,
+          "timing_error_seconds": 0.5333333333333314,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-0328",
+          "candidate_id": "nj-0900-0332",
+          "clip": "nj-0900",
+          "reference_seconds": 21.866666666666667,
+          "candidate_seconds": 22.133333333333333,
+          "timing_error_seconds": 0.2666666666666657,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "nj-0900-0340",
+          "candidate_id": "nj-0900-0340",
+          "clip": "nj-0900",
+          "reference_seconds": 22.666666666666668,
+          "candidate_seconds": 22.666666666666668,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "nj-0900-1036",
+          "candidate_id": "nj-0900-1038",
+          "clip": "nj-0900",
+          "reference_seconds": 69.06666666666666,
+          "candidate_seconds": 69.2,
+          "timing_error_seconds": 0.13333333333333997,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "nj-0900-1066",
+          "candidate_id": "nj-0900-1068",
+          "clip": "nj-0900",
+          "reference_seconds": 71.06666666666666,
+          "candidate_seconds": 71.2,
+          "timing_error_seconds": 0.13333333333333997,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2718",
+          "candidate_id": "nj-0900-2718",
+          "clip": "nj-0900",
+          "reference_seconds": 181.2,
+          "candidate_seconds": 181.2,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2814",
+          "candidate_id": "nj-0900-2814",
+          "clip": "nj-0900",
+          "reference_seconds": 187.6,
+          "candidate_seconds": 187.6,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-3598",
+          "candidate_id": "nj-0900-3592",
+          "clip": "nj-0900",
+          "reference_seconds": 239.86666666666667,
+          "candidate_seconds": 239.46666666666667,
+          "timing_error_seconds": 0.4000000000000057,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-3852",
+          "candidate_id": "nj-0900-3852",
+          "clip": "nj-0900",
+          "reference_seconds": 256.8,
+          "candidate_seconds": 256.8,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-3868",
+          "candidate_id": "nj-0900-3868",
+          "clip": "nj-0900",
+          "reference_seconds": 257.8666666666667,
+          "candidate_seconds": 257.8666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0018",
+          "candidate_id": "pittsburgh-finals-0600-0006",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 1.2,
+          "candidate_seconds": 0.4,
+          "timing_error_seconds": 0.7999999999999999,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0330",
+          "candidate_id": "pittsburgh-finals-0600-0330",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 22.0,
+          "candidate_seconds": 22.0,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-1156",
+          "candidate_id": "pittsburgh-finals-0600-1156",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 77.06666666666666,
+          "candidate_seconds": 77.06666666666666,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0476",
+          "candidate_id": "pittsburgh-finals-0600-0476",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 31.733333333333334,
+          "candidate_seconds": 31.733333333333334,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0530",
+          "candidate_id": "pittsburgh-finals-0600-0532",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 35.333333333333336,
+          "candidate_seconds": 35.46666666666667,
+          "timing_error_seconds": 0.13333333333333286,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0380",
+          "candidate_id": "southjersey-finals-0600-0380",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 25.333333333333332,
+          "candidate_seconds": 25.333333333333332,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0496",
+          "candidate_id": "southjersey-finals-0600-0496",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 33.06666666666667,
+          "candidate_seconds": 33.06666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        }
+      ],
+      "matched": 20,
+      "same_count_category": 13,
+      "same_outcome": 17,
+      "reference_only": [
+        "nj-0900-0424",
+        "nj-0900-2044",
+        "nj-0900-2560",
+        "southjersey-finals-0600-0376",
+        "southjersey-finals-0600-0394"
+      ],
+      "candidate_only": [
+        "southjersey-finals-0600-0990"
+      ]
+    },
+    "own-context": {
+      "meaning": "Prediction agreement, not accuracy. Maximum one-to-one timing alignment within the same team and clip; outcomes are not used to pick matches.",
+      "tolerance_seconds": 2,
+      "pairs": [
+        {
+          "reference_id": "nj-0900-1866",
+          "candidate_id": "nj-0900-1868",
+          "clip": "nj-0900",
+          "reference_seconds": 124.4,
+          "candidate_seconds": 124.53333333333333,
+          "timing_error_seconds": 0.13333333333332575,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2024",
+          "candidate_id": "nj-0900-2026",
+          "clip": "nj-0900",
+          "reference_seconds": 134.93333333333334,
+          "candidate_seconds": 135.06666666666666,
+          "timing_error_seconds": 0.13333333333332575,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2044",
+          "candidate_id": "nj-0900-2044",
+          "clip": "nj-0900",
+          "reference_seconds": 136.26666666666668,
+          "candidate_seconds": 136.26666666666668,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "nj-0900-2934",
+          "candidate_id": "nj-0900-2942",
+          "clip": "nj-0900",
+          "reference_seconds": 195.6,
+          "candidate_seconds": 196.13333333333333,
+          "timing_error_seconds": 0.5333333333333314,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-0328",
+          "candidate_id": "nj-0900-0332",
+          "clip": "nj-0900",
+          "reference_seconds": 21.866666666666667,
+          "candidate_seconds": 22.133333333333333,
+          "timing_error_seconds": 0.2666666666666657,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "nj-0900-0340",
+          "candidate_id": "nj-0900-0340",
+          "clip": "nj-0900",
+          "reference_seconds": 22.666666666666668,
+          "candidate_seconds": 22.666666666666668,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "nj-0900-1036",
+          "candidate_id": "nj-0900-1052",
+          "clip": "nj-0900",
+          "reference_seconds": 69.06666666666666,
+          "candidate_seconds": 70.13333333333334,
+          "timing_error_seconds": 1.066666666666677,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-1066",
+          "candidate_id": "nj-0900-1068",
+          "clip": "nj-0900",
+          "reference_seconds": 71.06666666666666,
+          "candidate_seconds": 71.2,
+          "timing_error_seconds": 0.13333333333333997,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-2718",
+          "candidate_id": "nj-0900-2718",
+          "clip": "nj-0900",
+          "reference_seconds": 181.2,
+          "candidate_seconds": 181.2,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-3852",
+          "candidate_id": "nj-0900-3852",
+          "clip": "nj-0900",
+          "reference_seconds": 256.8,
+          "candidate_seconds": 256.8,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "save",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0330",
+          "candidate_id": "pittsburgh-finals-0600-0330",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 22.0,
+          "candidate_seconds": 22.0,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-1156",
+          "candidate_id": "pittsburgh-finals-0600-1158",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 77.06666666666666,
+          "candidate_seconds": 77.2,
+          "timing_error_seconds": 0.13333333333333997,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0476",
+          "candidate_id": "pittsburgh-finals-0600-0476",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 31.733333333333334,
+          "candidate_seconds": 31.733333333333334,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0376",
+          "candidate_id": "southjersey-finals-0600-0360",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 25.066666666666666,
+          "candidate_seconds": 24.0,
+          "timing_error_seconds": 1.0666666666666664,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0380",
+          "candidate_id": "southjersey-finals-0600-0380",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 25.333333333333332,
+          "candidate_seconds": 25.333333333333332,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "unknown",
+          "candidate_outcome": "unknown",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0394",
+          "candidate_id": "southjersey-finals-0600-0396",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 26.266666666666666,
+          "candidate_seconds": 26.4,
+          "timing_error_seconds": 0.13333333333333286,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "unknown",
+          "same_count_category": false,
+          "same_outcome": false
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0496",
+          "candidate_id": "southjersey-finals-0600-0496",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 33.06666666666667,
+          "candidate_seconds": 33.06666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        }
+      ],
+      "matched": 17,
+      "same_count_category": 9,
+      "same_outcome": 11,
+      "reference_only": [
+        "nj-0900-0424",
+        "nj-0900-2458",
+        "nj-0900-2560",
+        "nj-0900-2814",
+        "nj-0900-3598",
+        "nj-0900-3868",
+        "pittsburgh-finals-0600-0018",
+        "pittsburgh-finals-0600-0530"
+      ],
+      "candidate_only": []
+    }
+  },
+  "baseline_totals": {
+    "sog": 12,
+    "needs_review": 13,
+    "not_sog": 0,
+    "teams": {
+      "white": {
+        "sog": 6,
+        "goals": 2,
+        "saves": 4,
+        "needs_review": 4
+      },
+      "red": {
+        "sog": 2,
+        "goals": 1,
+        "saves": 1,
+        "needs_review": 4
+      },
+      "black": {
+        "sog": 1,
+        "goals": 0,
+        "saves": 1,
+        "needs_review": 2
+      },
+      "green": {
+        "sog": 1,
+        "goals": 1,
+        "saves": 0,
+        "needs_review": 1
+      },
+      "orange": {
+        "sog": 2,
+        "goals": 0,
+        "saves": 2,
+        "needs_review": 2
+      }
+    }
+  },
+  "baseline_events_sha256": "50ab8a94590a06ae663e8f5bbe2bcf52556de6b121df02b797f58bdb1cdb3523",
+  "baseline_report_sha256": "230abdb45e864662f0d4216f0521fc354776e1a6bf57cc66f8aa3e8141e1449b",
+  "baseline_sog_within_terra_proposal_cores": {
+    "covered": [
+      "nj-0900-0328",
+      "nj-0900-0340",
+      "nj-0900-1066",
+      "nj-0900-2044",
+      "nj-0900-2934",
+      "nj-0900-3852",
+      "nj-0900-3868",
+      "pittsburgh-finals-0600-0330",
+      "southjersey-finals-0600-0394",
+      "southjersey-finals-0600-0496"
+    ],
+    "outside": [
+      "nj-0900-1036",
+      "pittsburgh-finals-0600-0530"
+    ],
+    "meaning": "Whether each Astra-estimated SOG release falls within a Terra review core; proposal coverage of another model\u2019s predictions, not shot recall."
+  },
+  "baseline_campaign_usd_per_video_minute": 6.819278125,
+  "baseline_scan_plus_context_recovery_usd_per_video_minute": 4.4981703125,
+  "baseline_comparison_note": "Astra campaign includes its earlier strict verification and recovery experiments; its scan+context+recovery subtotal omits verification expense although one window used verifier fallback. Terra matched-context uses Astra proposals for a controlled diagnostic, not independent discovery.",
+  "input_sha256": {
+    "protocol.json": "0c1f80dc89f9504a9f3e6efcb1e959dd26076db63db1acf3b4b9ebae992ac80d",
+    "worker_terra.py": "11fa0953aeeaacb515bc9ed33b0690c4e09b5a9a575860c3467acab0b18cb547",
+    "modal_run.py": "d4ef59ef87a689e464303feb8532e1df37b4ddc458667700673464df09d7b020",
+    "max-protocol.json": "a7d9f8da29abaa37ad94c7990ad93b78fb5b1620a1259443330e537452bfd155",
+    "modal_max.py": "39fbd1fd8867a95413bf704e2d1512075056a8ef8fa00d927fb2036399a99776",
+    "max-recovery-protocol.json": "e95dce4808cadfa252eb1b674bda91cce20c66754468508d1821cabd4fd7fcf4",
+    "modal_max_recovery.py": "3d21b51dc25f5f1c055e6dec41b2f505c7eb778731096c0e688039b7a1a21921",
+    "results/matched-context-ledger.json": "a70aa852f35cb6a088067e67c16ee6ee46eeea1765ae9e030c338b00a69e3b18",
+    "results/max-context-ledger.json": "932b0e6b9a404ffc82d0fba41c512ffa1603f6e0d5498060d7018721a25f6c56",
+    "results/max-recovery-ledger.json": "201bbcd8b0a1c50b42064c69e1b09ed23bafe17ac030af2f7a95716ba8540c81",
+    "results/max-recovery-requests.json": "b430800561de2d45010445c0610dd4c456b0cae165d1ae9651acb9aec110910f",
+    "results/own-context-ledger.json": "cf7abca5e9c3cd78522d9d21321caddbbf360c76d6ee84e3bdf2b7050a750e56",
+    "results/own-requests.json": "8c57d7c0c118a1f829c9ff3f42564b42ed77fa213cc0ffc050b5952523916ebf",
+    "results/scan-ledger.json": "5d482f452f3be8103b231f2cc5abf5281e7de0ab9f49b2ac3b7827c3e2d5ac0d"
+  },
+  "count_policy_sha256": "3e9a7209bb16ea0be88d6078e851721b349bc2b51befbe4e4977202a2f5a1457",
+  "limitations": [
+    "No independent human SOG labels, precision or recall.",
+    "More counted events or agreement with Astra does not establish higher accuracy.",
+    "Initial scanning can miss attempts. Failed windows are missing, not zero.",
+    "Counts are estimates and shooter identities remain unverified.",
+    "Matched-context reuses Astra proposals; only own-context tests independent Terra discovery.",
+    "No ball/player tracking costs are included."
+  ],
+  "max_reasoning_diagnostic": {
+    "scope": "Additional development diagnostic after reading high-reasoning results. All nine frozen Astra windows containing its twelve estimated SOG; not independent discovery, ground truth or a full-game maximum-reasoning pipeline.",
+    "requests": 9,
+    "completed_windows": 4,
+    "missing_windows": [
+      "nj-0900-max-context-0308",
+      "nj-0900-max-context-2024",
+      "nj-0900-max-context-3832",
+      "pittsburgh-finals-0600-max-context-0460",
+      "southjersey-finals-0600-max-context-0364"
+    ],
+    "totals": {
+      "sog": 1,
+      "needs_review": 3,
+      "not_sog": 0,
+      "teams": {
+        "white": {
+          "sog": 1,
+          "goals": 1,
+          "saves": 0,
+          "needs_review": 0
+        },
+        "red": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 1
+        },
+        "black": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 1
+        },
+        "orange": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 1
+        }
+      }
+    },
+    "high_reasoning_same_windows_totals": {
+      "sog": 3,
+      "needs_review": 10,
+      "not_sog": 0,
+      "teams": {
+        "white": {
+          "sog": 2,
+          "goals": 2,
+          "saves": 0,
+          "needs_review": 4
+        },
+        "red": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 2
+        },
+        "black": {
+          "sog": 1,
+          "goals": 0,
+          "saves": 1,
+          "needs_review": 0
+        },
+        "green": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 2
+        },
+        "orange": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 2
+        }
+      }
+    },
+    "astra_same_windows_totals": {
+      "sog": 12,
+      "needs_review": 4,
+      "not_sog": 0,
+      "teams": {
+        "white": {
+          "sog": 6,
+          "goals": 2,
+          "saves": 4,
+          "needs_review": 0
+        },
+        "red": {
+          "sog": 2,
+          "goals": 1,
+          "saves": 1,
+          "needs_review": 1
+        },
+        "black": {
+          "sog": 1,
+          "goals": 0,
+          "saves": 1,
+          "needs_review": 0
+        },
+        "green": {
+          "sog": 1,
+          "goals": 1,
+          "saves": 0,
+          "needs_review": 1
+        },
+        "orange": {
+          "sog": 2,
+          "goals": 0,
+          "saves": 2,
+          "needs_review": 2
+        }
+      }
+    },
+    "estimated_usd": 3.9596262500000003,
+    "high_reasoning_same_windows_estimated_usd": 0.93562625,
+    "goal_sanity_check": {
+      "source": "web/data/stats/nbhl-752704.json",
+      "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+      "meaning": "Sanity check only: official goal events with previously assistant-reviewed video timing, using a2-second tolerance. These are development recordings. This does not measure save accuracy or full SOG precision/recall.",
+      "reference_goals": 3,
+      "matched": 1,
+      "rows": [
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166965,
+          "existing_reviewed_recording_interval_s": [
+            969.8,
+            972.2
+          ],
+          "matched_event": "nj-0900-1068"
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166966,
+          "existing_reviewed_recording_interval_s": [
+            1095.8,
+            1097.2
+          ],
+          "matched_event": null
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166967,
+          "existing_reviewed_recording_interval_s": [
+            1157.8,
+            1158.8
+          ],
+          "matched_event": null
+        }
+      ]
+    },
+    "proposed_goal_sanity_check": {
+      "source": "web/data/stats/nbhl-752704.json",
+      "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+      "meaning": "Development diagnostic: match any predicted goal outcome before confidence/evidence counting rules. This does not make withheld goals counted SOG, and does not establish accuracy or recall.",
+      "reference_goals": 3,
+      "matched": 2,
+      "rows": [
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166965,
+          "existing_reviewed_recording_interval_s": [
+            969.8,
+            972.2
+          ],
+          "matched_event": "nj-0900-1068"
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166966,
+          "existing_reviewed_recording_interval_s": [
+            1095.8,
+            1097.2
+          ],
+          "matched_event": "nj-0900-2942"
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166967,
+          "existing_reviewed_recording_interval_s": [
+            1157.8,
+            1158.8
+          ],
+          "matched_event": null
+        }
+      ]
+    },
+    "vs_high": {
+      "meaning": "Prediction agreement, not accuracy. Maximum one-to-one timing alignment within the same team and clip; outcomes are not used to pick matches.",
+      "tolerance_seconds": 2,
+      "pairs": [
+        {
+          "reference_id": "nj-0900-2942",
+          "candidate_id": "nj-0900-2942",
+          "clip": "nj-0900",
+          "reference_seconds": 196.13333333333333,
+          "candidate_seconds": 196.13333333333333,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-1068",
+          "candidate_id": "nj-0900-1068",
+          "clip": "nj-0900",
+          "reference_seconds": 71.2,
+          "candidate_seconds": 71.2,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0330",
+          "candidate_id": "pittsburgh-finals-0600-0330",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 22.0,
+          "candidate_seconds": 22.0,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0496",
+          "candidate_id": "southjersey-finals-0600-0496",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 33.06666666666667,
+          "candidate_seconds": 33.06666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": true,
+          "same_outcome": true
+        }
+      ],
+      "matched": 4,
+      "same_count_category": 3,
+      "same_outcome": 4,
+      "reference_only": [
+        "nj-0900-0332",
+        "nj-0900-0340",
+        "nj-0900-1038",
+        "nj-0900-2026",
+        "nj-0900-3852",
+        "nj-0900-3868",
+        "pittsburgh-finals-0600-0476",
+        "pittsburgh-finals-0600-0532",
+        "southjersey-finals-0600-0380"
+      ],
+      "candidate_only": []
+    },
+    "vs_astra": {
+      "meaning": "Prediction agreement, not accuracy. Maximum one-to-one timing alignment within the same team and clip; outcomes are not used to pick matches.",
+      "tolerance_seconds": 2,
+      "pairs": [
+        {
+          "reference_id": "nj-0900-2934",
+          "candidate_id": "nj-0900-2942",
+          "clip": "nj-0900",
+          "reference_seconds": 195.6,
+          "candidate_seconds": 196.13333333333333,
+          "timing_error_seconds": 0.5333333333333314,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-1066",
+          "candidate_id": "nj-0900-1068",
+          "clip": "nj-0900",
+          "reference_seconds": 71.06666666666666,
+          "candidate_seconds": 71.2,
+          "timing_error_seconds": 0.13333333333333997,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0330",
+          "candidate_id": "pittsburgh-finals-0600-0330",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 22.0,
+          "candidate_seconds": 22.0,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0496",
+          "candidate_id": "southjersey-finals-0600-0496",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 33.06666666666667,
+          "candidate_seconds": 33.06666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        }
+      ],
+      "matched": 4,
+      "same_count_category": 1,
+      "same_outcome": 4,
+      "reference_only": [
+        "nj-0900-0328",
+        "nj-0900-0340",
+        "nj-0900-1036",
+        "nj-0900-2024",
+        "nj-0900-2044",
+        "nj-0900-3852",
+        "nj-0900-3868",
+        "pittsburgh-finals-0600-0476",
+        "pittsburgh-finals-0600-0530",
+        "southjersey-finals-0600-0376",
+        "southjersey-finals-0600-0380",
+        "southjersey-finals-0600-0394"
+      ],
+      "candidate_only": []
+    },
+    "note": "Added after examining high-reasoning outputs. Maximum reasoning and an increased output allowance are changed together. Initial max calls allow 16384 tokens; known token-limited responses can receive a separately versioned 65536-token recovery with a 900-second timeout. Both costs remain included. Conditional development diagnostic, not a fresh accuracy test or a measured maximum-reasoning full pipeline."
+  }
+}

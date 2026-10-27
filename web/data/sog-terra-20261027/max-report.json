@@ -1,0 +1,501 @@
+{
+  "scope": "Maximum-reasoning diagnostic on nine Astra-selected candidate windows only. Not a complete independent scan.",
+  "model": "gpt-6.1-terra",
+  "coverage_note": "4 of nine Astra-selected play windows completed review across the recordings. These are not segment totals; missing answers do not mean zero shots.",
+  "method_summary": "Terra 6.1 at maximum reasoning examines the same frames and crops as the high-reasoning matched test. Initial calls allow 16,384 output tokens; known token-limited responses can receive a 65,536-token recovery. The nine windows were selected because Astra previously counted SOG there. No event labels are supplied to inference; this is a conditional diagnostic, not independent discovery.",
+  "review_summary": "These are experimental model predictions on previously examined development clips. Agreement with Astra is not ground truth. The existing three New Jersey goals provide a limited sanity check; SOG precision and recall remain unmeasured.",
+  "definition": "SOG = a legal attacking shot, tip, or deflection that scores or would enter the goal if not stopped by the goalkeeper. Exclude wide/high attempts, post/crossbar-only attempts, skater blocks, harmless passes, goalie collection of wide balls, and disallowed goals. Count a distinct rebound shot separately. Unknown outcome or on-target path is not confirmed SOG.",
+  "clips": [
+    {
+      "id": "nj-0900",
+      "totals": {
+        "sog": 1,
+        "needs_review": 1,
+        "not_sog": 0,
+        "teams": {
+          "white": {
+            "sog": 1,
+            "goals": 1,
+            "saves": 0,
+            "needs_review": 0
+          },
+          "red": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "pittsburgh-finals-0600",
+      "totals": {
+        "sog": 0,
+        "needs_review": 1,
+        "not_sog": 0,
+        "teams": {
+          "black": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "southjersey-finals-0600",
+      "totals": {
+        "sog": 0,
+        "needs_review": 1,
+        "not_sog": 0,
+        "teams": {
+          "orange": {
+            "sog": 0,
+            "goals": 0,
+            "saves": 0,
+            "needs_review": 1
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "sog": 1,
+    "needs_review": 3,
+    "not_sog": 0,
+    "teams": {
+      "white": {
+        "sog": 1,
+        "goals": 1,
+        "saves": 0,
+        "needs_review": 0
+      },
+      "red": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 1
+      },
+      "black": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 1
+      },
+      "orange": {
+        "sog": 0,
+        "goals": 0,
+        "saves": 0,
+        "needs_review": 1
+      }
+    }
+  },
+  "diagnostic_estimated_usd": 3.9596262500000003,
+  "diagnostic": {
+    "scope": "Additional development diagnostic after reading high-reasoning results. All nine frozen Astra windows containing its twelve estimated SOG; not independent discovery, ground truth or a full-game maximum-reasoning pipeline.",
+    "requests": 9,
+    "completed_windows": 4,
+    "missing_windows": [
+      "nj-0900-max-context-0308",
+      "nj-0900-max-context-2024",
+      "nj-0900-max-context-3832",
+      "pittsburgh-finals-0600-max-context-0460",
+      "southjersey-finals-0600-max-context-0364"
+    ],
+    "totals": {
+      "sog": 1,
+      "needs_review": 3,
+      "not_sog": 0,
+      "teams": {
+        "white": {
+          "sog": 1,
+          "goals": 1,
+          "saves": 0,
+          "needs_review": 0
+        },
+        "red": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 1
+        },
+        "black": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 1
+        },
+        "orange": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 1
+        }
+      }
+    },
+    "high_reasoning_same_windows_totals": {
+      "sog": 3,
+      "needs_review": 10,
+      "not_sog": 0,
+      "teams": {
+        "white": {
+          "sog": 2,
+          "goals": 2,
+          "saves": 0,
+          "needs_review": 4
+        },
+        "red": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 2
+        },
+        "black": {
+          "sog": 1,
+          "goals": 0,
+          "saves": 1,
+          "needs_review": 0
+        },
+        "green": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 2
+        },
+        "orange": {
+          "sog": 0,
+          "goals": 0,
+          "saves": 0,
+          "needs_review": 2
+        }
+      }
+    },
+    "astra_same_windows_totals": {
+      "sog": 12,
+      "needs_review": 4,
+      "not_sog": 0,
+      "teams": {
+        "white": {
+          "sog": 6,
+          "goals": 2,
+          "saves": 4,
+          "needs_review": 0
+        },
+        "red": {
+          "sog": 2,
+          "goals": 1,
+          "saves": 1,
+          "needs_review": 1
+        },
+        "black": {
+          "sog": 1,
+          "goals": 0,
+          "saves": 1,
+          "needs_review": 0
+        },
+        "green": {
+          "sog": 1,
+          "goals": 1,
+          "saves": 0,
+          "needs_review": 1
+        },
+        "orange": {
+          "sog": 2,
+          "goals": 0,
+          "saves": 2,
+          "needs_review": 2
+        }
+      }
+    },
+    "estimated_usd": 3.9596262500000003,
+    "high_reasoning_same_windows_estimated_usd": 0.93562625,
+    "goal_sanity_check": {
+      "source": "web/data/stats/nbhl-752704.json",
+      "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+      "meaning": "Sanity check only: official goal events with previously assistant-reviewed video timing, using a2-second tolerance. These are development recordings. This does not measure save accuracy or full SOG precision/recall.",
+      "reference_goals": 3,
+      "matched": 1,
+      "rows": [
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166965,
+          "existing_reviewed_recording_interval_s": [
+            969.8,
+            972.2
+          ],
+          "matched_event": "nj-0900-1068"
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166966,
+          "existing_reviewed_recording_interval_s": [
+            1095.8,
+            1097.2
+          ],
+          "matched_event": null
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166967,
+          "existing_reviewed_recording_interval_s": [
+            1157.8,
+            1158.8
+          ],
+          "matched_event": null
+        }
+      ]
+    },
+    "proposed_goal_sanity_check": {
+      "source": "web/data/stats/nbhl-752704.json",
+      "source_sha256": "3c1b6e667218dd62f85fabc91720448aa0c0dc7c6599a69bd009fbb0fd898604",
+      "meaning": "Development diagnostic: match any predicted goal outcome before confidence/evidence counting rules. This does not make withheld goals counted SOG, and does not establish accuracy or recall.",
+      "reference_goals": 3,
+      "matched": 2,
+      "rows": [
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166965,
+          "existing_reviewed_recording_interval_s": [
+            969.8,
+            972.2
+          ],
+          "matched_event": "nj-0900-1068"
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166966,
+          "existing_reviewed_recording_interval_s": [
+            1095.8,
+            1097.2
+          ],
+          "matched_event": "nj-0900-2942"
+        },
+        {
+          "clip": "nj-0900",
+          "official_event_id": 5166967,
+          "existing_reviewed_recording_interval_s": [
+            1157.8,
+            1158.8
+          ],
+          "matched_event": null
+        }
+      ]
+    },
+    "vs_high": {
+      "meaning": "Prediction agreement, not accuracy. Maximum one-to-one timing alignment within the same team and clip; outcomes are not used to pick matches.",
+      "tolerance_seconds": 2,
+      "pairs": [
+        {
+          "reference_id": "nj-0900-2942",
+          "candidate_id": "nj-0900-2942",
+          "clip": "nj-0900",
+          "reference_seconds": 196.13333333333333,
+          "candidate_seconds": 196.13333333333333,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-1068",
+          "candidate_id": "nj-0900-1068",
+          "clip": "nj-0900",
+          "reference_seconds": 71.2,
+          "candidate_seconds": 71.2,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0330",
+          "candidate_id": "pittsburgh-finals-0600-0330",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 22.0,
+          "candidate_seconds": 22.0,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0496",
+          "candidate_id": "southjersey-finals-0600-0496",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 33.06666666666667,
+          "candidate_seconds": 33.06666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "needs_review",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": true,
+          "same_outcome": true
+        }
+      ],
+      "matched": 4,
+      "same_count_category": 3,
+      "same_outcome": 4,
+      "reference_only": [
+        "nj-0900-0332",
+        "nj-0900-0340",
+        "nj-0900-1038",
+        "nj-0900-2026",
+        "nj-0900-3852",
+        "nj-0900-3868",
+        "pittsburgh-finals-0600-0476",
+        "pittsburgh-finals-0600-0532",
+        "southjersey-finals-0600-0380"
+      ],
+      "candidate_only": []
+    },
+    "vs_astra": {
+      "meaning": "Prediction agreement, not accuracy. Maximum one-to-one timing alignment within the same team and clip; outcomes are not used to pick matches.",
+      "tolerance_seconds": 2,
+      "pairs": [
+        {
+          "reference_id": "nj-0900-2934",
+          "candidate_id": "nj-0900-2942",
+          "clip": "nj-0900",
+          "reference_seconds": 195.6,
+          "candidate_seconds": 196.13333333333333,
+          "timing_error_seconds": 0.5333333333333314,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "nj-0900-1066",
+          "candidate_id": "nj-0900-1068",
+          "clip": "nj-0900",
+          "reference_seconds": 71.06666666666666,
+          "candidate_seconds": 71.2,
+          "timing_error_seconds": 0.13333333333333997,
+          "reference_status": "sog",
+          "candidate_status": "sog",
+          "reference_outcome": "goal",
+          "candidate_outcome": "goal",
+          "same_count_category": true,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "pittsburgh-finals-0600-0330",
+          "candidate_id": "pittsburgh-finals-0600-0330",
+          "clip": "pittsburgh-finals-0600",
+          "reference_seconds": 22.0,
+          "candidate_seconds": 22.0,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        },
+        {
+          "reference_id": "southjersey-finals-0600-0496",
+          "candidate_id": "southjersey-finals-0600-0496",
+          "clip": "southjersey-finals-0600",
+          "reference_seconds": 33.06666666666667,
+          "candidate_seconds": 33.06666666666667,
+          "timing_error_seconds": 0.0,
+          "reference_status": "sog",
+          "candidate_status": "needs_review",
+          "reference_outcome": "save",
+          "candidate_outcome": "save",
+          "same_count_category": false,
+          "same_outcome": true
+        }
+      ],
+      "matched": 4,
+      "same_count_category": 1,
+      "same_outcome": 4,
+      "reference_only": [
+        "nj-0900-0328",
+        "nj-0900-0340",
+        "nj-0900-1036",
+        "nj-0900-2024",
+        "nj-0900-2044",
+        "nj-0900-3852",
+        "nj-0900-3868",
+        "pittsburgh-finals-0600-0476",
+        "pittsburgh-finals-0600-0530",
+        "southjersey-finals-0600-0376",
+        "southjersey-finals-0600-0380",
+        "southjersey-finals-0600-0394"
+      ],
+      "candidate_only": []
+    },
+    "note": "Added after examining high-reasoning outputs. Maximum reasoning and an increased output allowance are changed together. Initial max calls allow 16384 tokens; known token-limited responses can receive a separately versioned 65536-token recovery with a 900-second timeout. Both costs remain included. Conditional development diagnostic, not a fresh accuracy test or a measured maximum-reasoning full pipeline."
+  },
+  "phases": {
+    "max-context": {
+      "requests": 9,
+      "statuses": {
+        "incomplete": 7,
+        "completed": 2
+      },
+      "estimated_usd_including_unresolved_reservations": 1.49619125,
+      "standard_rate_usd_for_reported_usage": 1.4961845,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 1.340514,
+      "unresolved_reserved_usd": 0,
+      "input_tokens": 622709,
+      "output_tokens": 143561,
+      "median_completed_api_seconds": 167.15259284949997
+    },
+    "max-recovery": {
+      "requests": 7,
+      "statuses": {
+        "failed": 5,
+        "completed": 2
+      },
+      "estimated_usd_including_unresolved_reservations": 2.463435,
+      "standard_rate_usd_for_reported_usage": 0.38912599999999997,
+      "legacy_base_rate_estimate_excluding_cache_writes_usd": 0.35205600000000004,
+      "unresolved_reserved_usd": 2.0743074999999997,
+      "input_tokens": 148286,
+      "output_tokens": 40754,
+      "median_completed_api_seconds": 230.42585774100002
+    }
+  },
+  "input_sha256": {
+    "protocol.json": "0c1f80dc89f9504a9f3e6efcb1e959dd26076db63db1acf3b4b9ebae992ac80d",
+    "worker_terra.py": "11fa0953aeeaacb515bc9ed33b0690c4e09b5a9a575860c3467acab0b18cb547",
+    "modal_run.py": "d4ef59ef87a689e464303feb8532e1df37b4ddc458667700673464df09d7b020",
+    "max-protocol.json": "a7d9f8da29abaa37ad94c7990ad93b78fb5b1620a1259443330e537452bfd155",
+    "modal_max.py": "39fbd1fd8867a95413bf704e2d1512075056a8ef8fa00d927fb2036399a99776",
+    "max-recovery-protocol.json": "e95dce4808cadfa252eb1b674bda91cce20c66754468508d1821cabd4fd7fcf4",
+    "modal_max_recovery.py": "3d21b51dc25f5f1c055e6dec41b2f505c7eb778731096c0e688039b7a1a21921",
+    "results/matched-context-ledger.json": "a70aa852f35cb6a088067e67c16ee6ee46eeea1765ae9e030c338b00a69e3b18",
+    "results/max-context-ledger.json": "932b0e6b9a404ffc82d0fba41c512ffa1603f6e0d5498060d7018721a25f6c56",
+    "results/max-recovery-ledger.json": "201bbcd8b0a1c50b42064c69e1b09ed23bafe17ac030af2f7a95716ba8540c81",
+    "results/max-recovery-requests.json": "b430800561de2d45010445c0610dd4c456b0cae165d1ae9651acb9aec110910f",
+    "results/own-context-ledger.json": "cf7abca5e9c3cd78522d9d21321caddbbf360c76d6ee84e3bdf2b7050a750e56",
+    "results/own-requests.json": "8c57d7c0c118a1f829c9ff3f42564b42ed77fa213cc0ffc050b5952523916ebf",
+    "results/scan-ledger.json": "5d482f452f3be8103b231f2cc5abf5281e7de0ab9f49b2ac3b7827c3e2d5ac0d"
+  },
+  "count_policy_sha256": "3e9a7209bb16ea0be88d6078e851721b349bc2b51befbe4e4977202a2f5a1457",
+  "limitations": [
+    "No independent human SOG labels, precision or recall.",
+    "More counted events or agreement with Astra does not establish higher accuracy.",
+    "Initial scanning can miss attempts. Failed windows are missing, not zero.",
+    "Counts are estimates and shooter identities remain unverified.",
+    "Matched-context reuses Astra proposals; only own-context tests independent Terra discovery.",
+    "No ball/player tracking costs are included."
+  ],
+  "cost_scope": "Cost of these nine contextual reviews only; excludes discovery, other experimental passes and Modal. Not a per-minute pipeline estimate."
+}

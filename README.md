@@ -23,6 +23,18 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Terra 6.1 cost comparison — October 27, 2026
+
+[Review Terra detections](https://hockey-tracking-phi.vercel.app/shots.html?model=terra) · [Protocols, raw outputs and comparison](experiments/sog-terra-20261027/)
+
+On the same eight minutes, Terra's independent scan plus high-reasoning context pass costs **$2.08, or $0.26 per video minute**, in conservative API estimates excluding Modal. It produces **2 counted SOG and 15 unresolved attempts** under the unchanged evidence rules. It proposes all three existing New Jersey goals, but only two pass the count gate. These are model outputs, not measured accuracy.
+
+On 20 identical contextual requests completed by both original models, Terra costs **$1.78 versus Astra's $19.79**, about 11.1 times less. Median response time is 38 versus 136 seconds, excluding frame preparation and token counting; runs were not simultaneous. A separate maximum-reasoning diagnostic uses nine Astra-selected play windows and is explicitly labeled as selected plays in the viewer. Astra remains the default while save accuracy is unvalidated.
+
+[Maximum-reasoning results](https://hockey-tracking-phi.vercel.app/shots.html?model=terra-max): only **4 of 9 windows** completed after token-limit recovery; five failed at the 15-minute response timeout. Its partial output is 1 counted SOG and 3 unresolved attempts, not segment totals. The complete Terra research campaign is estimated at **$8.16**, including $2.07 reserved for unanswered calls and excluding Modal.
+
+Reproduce the new reports with `python scripts/analyze_sog_terra.py` and `python scripts/verify_sog_terra.py`.
+
 ## Shots on goal — October 27, 2026
 
 [Open shot detections and replays](https://hockey-tracking-phi.vercel.app/shots.html) · [Experiment and evidence](experiments/sog-20261027/)

@@ -1,7 +1,8 @@
 (() => {
  'use strict';
- const $=id=>document.getElementById(id), video=$('shots-video'), picker=$('shots-clip'), filter=$('shots-filter');
- let dataset, report, clip, selected, ready=false, generation=0, loopEnd=null;
+ const $=id=>document.getElementById(id), video=$('shots-video'), picker=$('shots-clip'), filter=$('shots-filter'), modelPicker=$('shots-model');
+ const models={astra:{folder:'sog-20261027',prefix:''},terra:{folder:'sog-terra-20261027',prefix:''},'terra-max':{folder:'sog-terra-20261027',prefix:'max-'}};
+ let dataset, report, clip, selected, model='astra', ready=false, generation=0, loadGeneration=0, loopEnd=null;
  const statuses={sog:'Estimated SOG',needs_review:'Needs review',not_sog:'Not SOG'};
  const outcomes={goal:'Goal',save:'Saved',blocked:'Blocked',miss:'Missed',post:'Post / crossbar',unknown:'Outcome unclear',not_shot:'Not a shot',disallowed_goal:'Disallowed goal'};
  const time=s=>{const v=Math.max(0,Number(s)||0);return `${Math.floor(v/60)}:${(v%60).toFixed(1).padStart(4,'0')}`;};
@@ -9,7 +10,7 @@
  const team=e=>clip.team_labels[e.team_color]||'Unknown team';
  const events=()=>dataset.events.filter(e=>e.clip===clip.id);
  function error(message){$('shots-error').textContent=message;$('shots-error').hidden=false;}
- function setURL(){const q=new URLSearchParams({clip:clip.id});if(selected)q.set('event',selected.id);history.replaceState(null,'',`${location.pathname}?${q}`);}
+ function setURL(){const q=new URLSearchParams({clip:clip.id});if(model!=='astra')q.set('model',model);if(selected)q.set('event',selected.id);history.replaceState(null,'',`${location.pathname}?${q}`);}
  function seek(seconds,play=false){if(!ready)return;video.currentTime=Math.min(Math.max(0,seconds),Math.max(0,video.duration-1/15));if(play)video.play().catch(()=>{});}
  function replay(play=true){if(!selected)return;loopEnd=Math.min(clip.duration_s,selected.outcome_frame/15+3);seek(Math.max(0,selected.clip_seconds-3),play);}
  function detail(event){
@@ -45,21 +46,27 @@
   const token=++generation;clip=dataset.clips.find(c=>c.id===id)||dataset.clips[0];picker.value=clip.id;ready=false;loopEnd=null;video.pause();
   $('shots-error').hidden=true;
   for(const name of ['shots-back','shots-forward','shots-replay'])$(name).disabled=true;
-  $('shots-scope').textContent=`${clip.title} · Recording ${time(clip.start_s)}–${time(clip.start_s+clip.duration_s)}. Experimental segment counts; unresolved attempts are excluded and totals may undercount.`;
+  $('shots-scope').textContent=`${clip.title} · Recording ${time(clip.start_s)}–${time(clip.start_s+clip.duration_s)}. ${report.coverage_note||'Experimental segment counts; unresolved attempts are excluded and totals may undercount.'}`;
   totals();const initial=events().find(e=>e.id===eventId)||events().find(e=>e.automatic_status==='sog')||events()[0];if(initial&&initial.automatic_status!==filter.value&&filter.value!=='all')filter.value=initial.automatic_status==='not_sog'?'all':initial.automatic_status;
   detail(initial);renderList();const ok=await window.SportScansMedia.load(video,clip.video);if(token!==generation)return;if(!ok)return;
   const loaded=()=>{if(token!==generation)return;ready=true;video.playbackRate=Number($('shots-speed').value);$('shots-back').disabled=false;$('shots-forward').disabled=false;$('shots-replay').disabled=!selected;replay(false);};
   if(video.readyState>=1)loaded();else video.addEventListener('loadedmetadata',loaded,{once:true});
  }
  picker.addEventListener('change',()=>selectClip(picker.value));filter.addEventListener('change',renderList);
+ modelPicker.addEventListener('change',()=>loadModel(modelPicker.value,clip?.id));
  $('shots-speed').addEventListener('change',()=>{video.playbackRate=Number($('shots-speed').value);});
  $('shots-back').addEventListener('click',()=>{video.pause();seek(video.currentTime-1/15);});$('shots-forward').addEventListener('click',()=>{video.pause();seek(video.currentTime+1/15);});$('shots-replay').addEventListener('click',()=>replay());
  video.addEventListener('timeupdate',()=>{if(!clip)return;$('shots-clock').textContent=`Clip ${time(video.currentTime)} / ${time(clip.duration_s)} · Recording ${time(clip.start_s+video.currentTime)}`;if($('shots-loop').checked&&!video.paused&&loopEnd!==null&&video.currentTime>=loopEnd)replay();});
  video.addEventListener('error',()=>error('The video could not be played. The original recording link is available below the attempt.'));
- (async()=>{try{
-  const responses=await Promise.all(['events','report'].map(name=>fetch(`data/sog-20261027/${name}.json`)));for(const r of responses)if(!r.ok)throw Error('Results unavailable');[dataset,report]=await Promise.all(responses.map(r=>r.json()));
+ async function loadModel(id,clipId,eventId){const token=++loadGeneration;++generation;ready=false;video.pause();loopEnd=null;picker.disabled=true;for(const name of ['shots-back','shots-forward','shots-replay'])$(name).disabled=true;try{
+  const next=Object.hasOwn(models,id)?id:'astra',folder=models[next].folder,prefix=models[next].prefix;
+  const responses=await Promise.all(['events','report'].map(name=>fetch(`data/${folder}/${prefix}${name}.json`)));for(const r of responses)if(!r.ok)throw Error('Results unavailable');const loaded=await Promise.all(responses.map(r=>r.json()));if(token!==loadGeneration)return;[dataset,report]=loaded;model=next;modelPicker.value=model;
   picker.replaceChildren(...dataset.clips.map(c=>{const o=el('option',c.title);o.value=c.id;return o;}));picker.disabled=false;
   $('shots-method').textContent=report.method_summary;$('shots-review-note').textContent=report.review_summary;
-  const q=new URLSearchParams(location.search);await selectClip(q.get('clip'),q.get('event'));
- }catch(e){error('Shot results could not load. Please reload the page.');}})();
+  const unresolvedCost=Object.values(report.phases||{}).reduce((sum,phase)=>sum+(phase.unresolved_reserved_usd||0),0);
+  $('shots-cost').textContent=model==='terra-max'?`Maximum reasoning diagnostic: $${report.diagnostic_estimated_usd.toFixed(2)} estimated API cost for nine selected play windows.${unresolvedCost>0?' Includes reserved cost for unanswered calls.':''} Discovery and Modal costs are excluded. Accuracy is not established.`:model==='terra'?`Terra 6.1 scan + context: $${report.pipeline_usd_per_video_minute.toFixed(2)} per video minute, estimated API usage, excluding Modal. Experimental counts; accuracy is not established.`:'Astra experiment: $6.82 per video minute across multiple experimental passes, excluding Modal. Experimental counts; accuracy is not established.';
+  for(const [key,file]of [['shots-json','events.json'],['shots-csv','events.csv'],['shots-report','report.json']]){$(key).href=`data/${folder}/${prefix}${file}`;if(key!=='shots-report')$(key).download=`shots-${model}.${file.split('.').pop()}`;}$('shots-code').href=`https://github.com/rhotter/hockey-tracking/tree/main/experiments/${folder}`;
+  await selectClip(clipId,eventId);
+ }catch(e){if(token===loadGeneration){modelPicker.value=model;error('Shot results could not load. Please reload the page.');}}}
+ const q=new URLSearchParams(location.search);loadModel(q.get('model'),q.get('clip'),q.get('event'));
 })();

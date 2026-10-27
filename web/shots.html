@@ -5,7 +5,8 @@
 <h1>Shots on goal</h1>
 <p>Detected attempts, with the play before and after each shot.</p>
 <p id="shots-error" role="alert" hidden></p>
-<div class="toolbar"><label>Recording <select id="shots-clip" disabled><option>Loading…</option></select></label><label>Show <select id="shots-filter"><option value="sog">Estimated SOG</option><option value="needs_review">Needs review</option><option value="all">All attempts</option></select></label></div>
+<div class="toolbar"><label>Model <select id="shots-model"><option value="astra">Astra</option><option value="terra">Terra 6.1</option><option value="terra-max">Terra 6.1 max · selected plays</option></select></label><label>Recording <select id="shots-clip" disabled><option>Loading…</option></select></label><label>Show <select id="shots-filter"><option value="sog">Estimated SOG</option><option value="needs_review">Needs review</option><option value="all">All attempts</option></select></label></div>
+<p id="shots-cost" class="note"></p>
 <p id="shots-scope" class="note"></p>
 <div id="shots-totals" class="shots-totals" aria-live="polite"></div>
 <div class="nbhl-layout">
@@ -22,6 +23,6 @@
 <p>These are experimental automatic counts for the displayed segments. Unclear attempts stay in “Needs review.” The detector scans chronological video frames, then re-examines proposed plays at a denser sampling rate. It uses the surrounding play and visible ball evidence. Goalkeeper movement alone is insufficient.</p>
 <p id="shots-method"></p><p id="shots-review-note"></p>
 <p>Times refer to the clip and original recording, not the game clock. Player numbers are model readings when available, not verified player identities. No independently annotated full-game accuracy score is available.</p>
-<div class="downloads"><a href="data/sog-20261027/events.json" download>Event JSON</a><a href="data/sog-20261027/events.csv" download>Event CSV</a><a href="data/sog-20261027/report.json">Experiment report</a><a href="https://github.com/rhotter/hockey-tracking/tree/main/experiments/sog-20261027">Code and evidence</a></div>
+<div class="downloads"><a id="shots-json" href="data/sog-20261027/events.json" download>Event JSON</a><a id="shots-csv" href="data/sog-20261027/events.csv" download>Event CSV</a><a id="shots-report" href="data/sog-20261027/report.json">Experiment report</a><a id="shots-code" href="https://github.com/rhotter/hockey-tracking/tree/main/experiments/sog-20261027">Code and evidence</a></div>
 </details>
 </main><footer>Sport Scans · <a href="overhead.html">Player and ball replay</a> · <a href="new-games.html">Tracking tests</a></footer><script src="media.js"></script><script src="shots.js"></script></body></html>

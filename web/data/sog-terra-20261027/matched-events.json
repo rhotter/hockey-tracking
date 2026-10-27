@@ -1,0 +1,1284 @@
+{
+  "schema_version": 1,
+  "source_type": "automatic_sequence_model_estimates",
+  "model": "gpt-6.1-terra",
+  "fps": 15,
+  "clips": [
+    {
+      "id": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "start_s": 900,
+      "duration_s": 300,
+      "frames": 4500,
+      "team_colors": [
+        "red",
+        "white"
+      ],
+      "purpose": "development demonstration; previously examined ball/player replay",
+      "title": "Nights Watch / Hawks \u00b7 five minutes",
+      "video": "media/overhead-20261025/nj-0900-5min.mp4",
+      "team_labels": {
+        "red": "Hawks (red)",
+        "white": "Nights Watch (white)"
+      }
+    },
+    {
+      "id": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 600,
+      "duration_s": 90,
+      "frames": 1350,
+      "team_colors": [
+        "green",
+        "black"
+      ],
+      "purpose": "additional recording; previously used for ball localization, never SOG labels",
+      "title": "Pittsburgh finals \u00b7 90 seconds",
+      "video": "media/new-games-20261025/pittsburgh-finals-0600.mp4",
+      "team_labels": {
+        "green": "Green",
+        "black": "Light gray"
+      }
+    },
+    {
+      "id": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 600,
+      "duration_s": 90,
+      "frames": 1350,
+      "team_colors": [
+        "orange",
+        "white"
+      ],
+      "purpose": "additional recording; previously used for ball localization, never SOG labels",
+      "title": "South Jersey finals \u00b7 90 seconds",
+      "video": "media/new-games-20261025/southjersey-finals-0600.mp4",
+      "team_labels": {
+        "orange": "Orange",
+        "white": "White"
+      }
+    }
+  ],
+  "events": [
+    {
+      "release_frame": 332,
+      "outcome_frame": 336,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        590,
+        450
+      ],
+      "net_xy_1000": [
+        235,
+        440
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        320,
+        326,
+        328,
+        332,
+        334,
+        336
+      ],
+      "explanation": "The white slot attacker advances and directs the stick toward the crease as a defender slides. The ball and any contact with the keeper are obscured.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The play could be a pass to the white player beside the net, or the sliding defender could have disrupted it.",
+      "request_id": "nj-0900-matched-context-0308",
+      "request_event_index": 0,
+      "id": "nj-0900-0332",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 22.133333333333333,
+      "recording_seconds": 922.1333333333333,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-0308"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 340,
+      "outcome_frame": 344,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        275,
+        470
+      ],
+      "net_xy_1000": [
+        285,
+        440
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        338,
+        340,
+        342,
+        344,
+        350,
+        364,
+        368
+      ],
+      "explanation": "The net-front white player reaches toward the sprawled keeper's pads before moving behind the net. A close-range attempt is plausible, but a separate release and a save are not directly resolved.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The player may have been handling a pass or loose ball around the keeper rather than shooting; a rebound from the keeper is not established.",
+      "request_id": "nj-0900-matched-context-0308",
+      "request_event_index": 1,
+      "id": "nj-0900-0340",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 22.666666666666668,
+      "recording_seconds": 922.6666666666666,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-0308"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 1038,
+      "outcome_frame": 1056,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        219,
+        400
+      ],
+      "net_xy_1000": [
+        619,
+        385
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        1026,
+        1032,
+        1038,
+        1044,
+        1056,
+        1062
+      ],
+      "explanation": "The left-side attacker makes a possible shooting motion as a defender dives, and the keeper moves out before a loose ball appears near the attacker. Neither a release nor a keeper interception is resolved.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": "0-1",
+      "score_after": "0-1",
+      "alternative_explanation": "The attacker may have retained or recovered the ball through the challenge rather than taking an earlier shot.",
+      "request_id": "nj-0900-matched-context-1020",
+      "request_event_index": 0,
+      "id": "nj-0900-1038",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 69.2,
+      "recording_seconds": 969.2,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-1020"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 1068,
+      "outcome_frame": 1072,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        336,
+        370
+      ],
+      "net_xy_1000": [
+        500,
+        380
+      ],
+      "attempt": "clear",
+      "outcome": "goal",
+      "on_target": "yes",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": true,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        1062,
+        1064,
+        1066,
+        1068,
+        1072,
+        1092,
+        1352,
+        1502
+      ],
+      "explanation": "The left-side white attacker makes the final goalward stroke into the crowded crease. The crossing is obscured, but the subsequent stoppage, delayed 0-1 to 1-1 scoreboard update, and center restart establish one goal.",
+      "basis": "contextual",
+      "confidence": "high",
+      "cues": [
+        "shooting_motion",
+        "score_change",
+        "center_restart"
+      ],
+      "score_before": "0-1",
+      "score_after": "1-1",
+      "alternative_explanation": "A touch in the crowded crease cannot be ruled out, but no separate attacking release there is resolved.",
+      "request_id": "nj-0900-matched-context-1020",
+      "request_event_index": 1,
+      "id": "nj-0900-1068",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 71.2,
+      "recording_seconds": 971.2,
+      "automatic_status": "sog",
+      "count_reason": "Goal inferred from score/official evidence and the subsequent center restart.",
+      "supporting_requests": [
+        "nj-0900-matched-context-1020"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 1868,
+      "outcome_frame": 1880,
+      "team_color": "red",
+      "shooter_jersey": "50",
+      "shooter_xy_1000": [
+        490,
+        660
+      ],
+      "net_xy_1000": [
+        265,
+        430
+      ],
+      "attempt": "clear",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": true,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        1866,
+        1868,
+        1870,
+        1872,
+        1876,
+        1878,
+        1880,
+        1890,
+        1908
+      ],
+      "explanation": "Red 50 makes a shooting stroke from the near boards, with fragments of the ball's path visible toward the goal area. The white keeper drops and reaches as the play continues toward the far side. Contact with the keeper is not resolved, and no separate rebound shot is evident.",
+      "basis": "unresolved",
+      "confidence": "medium",
+      "cues": [
+        "shooting_motion",
+        "goalward_path_fragments"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The keeper may have deflected the shot, but it could also have gone wide or been a pass across the goal area.",
+      "request_id": "nj-0900-matched-context-1848",
+      "request_event_index": 0,
+      "id": "nj-0900-1868",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 124.53333333333333,
+      "recording_seconds": 1024.5333333333333,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-1848"
+      ],
+      "team_label": "Hawks (red)"
+    },
+    {
+      "release_frame": 2026,
+      "outcome_frame": 2050,
+      "team_color": "red",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        563,
+        445
+      ],
+      "net_xy_1000": [
+        428,
+        455
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        2022,
+        2024,
+        2026,
+        2028,
+        2032,
+        2046,
+        2050,
+        2312
+      ],
+      "explanation": "The red attacker sweeps his stick back toward the congested goal area as a defender closes. The keeper subsequently drops over the crease, and play restarts in the defensive zone. The ball is not resolved well enough to connect that cover conclusively to a shot.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion",
+        "defensive_zone_restart"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The right-side action could be a pass or a defensive poke, with the keeper later covering a loose ball. The net-front red player's contested movement does not show a distinct additional release.",
+      "request_id": "nj-0900-matched-context-2024",
+      "request_event_index": 0,
+      "id": "nj-0900-2026",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 135.06666666666666,
+      "recording_seconds": 1035.0666666666666,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-2024"
+      ],
+      "team_label": "Hawks (red)"
+    },
+    {
+      "release_frame": 2462,
+      "outcome_frame": 2482,
+      "team_color": "red",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        435,
+        480
+      ],
+      "net_xy_1000": [
+        360,
+        435
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        2456,
+        2460,
+        2462,
+        2464,
+        2470,
+        2476,
+        2482
+      ],
+      "explanation": "A red skater reaches into the congested scramble and moves toward the crease. A short attempt is possible, but the ball and any release are obscured; no interception or goalward path is resolved. White subsequently moves to the side of the net.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The stick action may have been an effort to gain possession rather than a shot, with the ball moving wide or being recovered by a defender.",
+      "request_id": "nj-0900-matched-context-2440",
+      "request_event_index": 0,
+      "id": "nj-0900-2462",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 164.13333333333333,
+      "recording_seconds": 1064.1333333333332,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-2440"
+      ],
+      "team_label": "Hawks (red)"
+    },
+    {
+      "release_frame": 2718,
+      "outcome_frame": 2730,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        315,
+        465
+      ],
+      "net_xy_1000": [
+        810,
+        410
+      ],
+      "attempt": "clear",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        2712,
+        2718,
+        2724,
+        2730,
+        2748
+      ],
+      "explanation": "The white point player makes a shooting stroke as a red defender drops into the lane. The keeper drops and the ball is later visible beyond the right side of the net; red subsequently recovers it. Contact with the keeper or a defender is not resolved. The net coordinate is from frame 2724, after the camera pans.",
+      "basis": "unresolved",
+      "confidence": "medium",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": null,
+      "score_after": "1-1",
+      "alternative_explanation": "The shot may have missed wide or been deflected by the keeper or a skater.",
+      "request_id": "nj-0900-matched-context-2700",
+      "request_event_index": 0,
+      "id": "nj-0900-2718",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 181.2,
+      "recording_seconds": 1081.2,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-2700"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 2814,
+      "outcome_frame": 2832,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        180,
+        650
+      ],
+      "net_xy_1000": [
+        595,
+        390
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        2808,
+        2814,
+        2826,
+        2832
+      ],
+      "explanation": "A white skater makes a forward sweeping motion near center. The camera pans toward the red end, where a red skater recovers the ball well in front of the net. Contact and the ball's intervening path are not resolved, and no keeper interception is visible.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": "1-1",
+      "score_after": null,
+      "alternative_explanation": "The sweep may have been a pass or dump into the zone rather than a shot.",
+      "request_id": "nj-0900-matched-context-2796",
+      "request_event_index": 0,
+      "id": "nj-0900-2814",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 187.6,
+      "recording_seconds": 1087.6,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-2796"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 2942,
+      "outcome_frame": 2946,
+      "team_color": "red",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        484,
+        400
+      ],
+      "net_xy_1000": [
+        208,
+        438
+      ],
+      "attempt": "clear",
+      "outcome": "goal",
+      "on_target": "yes",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        2934,
+        2940,
+        2942,
+        2944,
+        2946,
+        3058,
+        3208,
+        3298,
+        3388
+      ],
+      "explanation": "The red attacker releases under pressure on the breakaway; exact contact and the ball crossing are obscured. Red subsequently gathers in celebration and players return to center for a restart. The later board reads 1\u20132, but no prior score is visible for comparison.",
+      "basis": "contextual",
+      "confidence": "high",
+      "cues": [
+        "shooting_motion",
+        "center_restart"
+      ],
+      "score_before": null,
+      "score_after": "1-2",
+      "alternative_explanation": "A save followed by an unrelated stoppage is less consistent with the red celebration and center restart.",
+      "request_id": "nj-0900-matched-context-2916",
+      "request_event_index": 0,
+      "id": "nj-0900-2942",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 196.13333333333333,
+      "recording_seconds": 1096.1333333333332,
+      "automatic_status": "needs_review",
+      "count_reason": "The shot outcome lacks sufficient visible evidence.",
+      "supporting_requests": [
+        "nj-0900-matched-context-2916"
+      ],
+      "team_label": "Hawks (red)"
+    },
+    {
+      "release_frame": 3592,
+      "outcome_frame": 3628,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        237,
+        479
+      ],
+      "net_xy_1000": [
+        480,
+        405
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        3586,
+        3590,
+        3592,
+        3598,
+        3610,
+        3628,
+        3640
+      ],
+      "explanation": "A white skater makes a forward stick motion near the blue line, after which play moves into the red defensive zone. The ball's path and any goalkeeper contact are not resolved; a red skater goes toward the near-side corner. The net coordinate is from frame 3610, after the camera pans.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": null,
+      "score_after": "1-2",
+      "alternative_explanation": "The motion could be a forward pass or dump-in rather than a shot; a wide attempt or a deflection is also possible.",
+      "request_id": "nj-0900-matched-context-3580",
+      "request_event_index": 0,
+      "id": "nj-0900-3592",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 239.46666666666667,
+      "recording_seconds": 1139.4666666666667,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-3580"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 3852,
+      "outcome_frame": 3856,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        457,
+        420
+      ],
+      "net_xy_1000": [
+        365,
+        389
+      ],
+      "attempt": "clear",
+      "outcome": "save",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        3848,
+        3850,
+        3852,
+        3854,
+        3856,
+        3862
+      ],
+      "explanation": "The white attacker drives in and makes a short forward stick action as the keeper sprawls in front. The ball then appears loose to the left. A keeper stop is the likely outcome, but contact and the ball's precise goalward path are obscured.",
+      "basis": "contextual",
+      "confidence": "medium",
+      "cues": [
+        "shooting_motion",
+        "goalward_path_fragments",
+        "goalkeeper_interception",
+        "rebound_from_goalkeeper"
+      ],
+      "score_before": "1-2",
+      "score_after": "1-2",
+      "alternative_explanation": "The keeper may have poked the ball away during a deke before a shot was fully released.",
+      "request_id": "nj-0900-matched-context-3832",
+      "request_event_index": 0,
+      "id": "nj-0900-3852",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 256.8,
+      "recording_seconds": 1156.8,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "nj-0900-matched-context-3832"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 3868,
+      "outcome_frame": 3884,
+      "team_color": "white",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        125,
+        430
+      ],
+      "net_xy_1000": [
+        453,
+        383
+      ],
+      "attempt": "clear",
+      "outcome": "goal",
+      "on_target": "yes",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": true,
+        "official_goal_signal_visible": true,
+        "rebound_release_visible": true
+      },
+      "evidence_frames": [
+        3862,
+        3868,
+        3874,
+        3884,
+        3892,
+        4200,
+        4320
+      ],
+      "explanation": "A second white attacker makes a separate shooting action from the left after the loose ball comes out of the crease. The crossing is hidden, but the official points toward the goal, the score later changes from 1\u20132 to 2\u20132, and play resets at center.",
+      "basis": "contextual",
+      "confidence": "high",
+      "cues": [
+        "shooting_motion",
+        "rebound_from_goalkeeper",
+        "official_goal_signal",
+        "score_change",
+        "center_restart"
+      ],
+      "score_before": "1-2",
+      "score_after": "2-2",
+      "alternative_explanation": null,
+      "request_id": "nj-0900-matched-context-3832",
+      "request_event_index": 1,
+      "id": "nj-0900-3868",
+      "clip": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "clip_seconds": 257.8666666666667,
+      "recording_seconds": 1157.8666666666668,
+      "automatic_status": "sog",
+      "count_reason": "Goal inferred from score/official evidence and the subsequent center restart.",
+      "supporting_requests": [
+        "nj-0900-matched-context-3832"
+      ],
+      "team_label": "Nights Watch (white)"
+    },
+    {
+      "release_frame": 6,
+      "outcome_frame": 20,
+      "team_color": "black",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        570,
+        270
+      ],
+      "net_xy_1000": [
+        363,
+        317
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        0,
+        4,
+        6,
+        10,
+        14,
+        18,
+        20,
+        24
+      ],
+      "explanation": "The right-side gray attacker moves the stick toward the congested crease. The ball next appears traveling away to the left of the goal, but its passage through the traffic and any goalkeeper contact are obscured.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The play may have been a centering pass or a wide ball, possibly redirected by a skater, rather than a shot stopped by the goalkeeper.",
+      "request_id": "pittsburgh-finals-0600-matched-context-0000",
+      "request_event_index": 0,
+      "id": "pittsburgh-finals-0600-0006",
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "clip_seconds": 0.4,
+      "recording_seconds": 600.4,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "pittsburgh-finals-0600-matched-context-0000"
+      ],
+      "team_label": "Light gray"
+    },
+    {
+      "release_frame": 330,
+      "outcome_frame": 340,
+      "team_color": "black",
+      "shooter_jersey": "96",
+      "shooter_xy_1000": [
+        275,
+        783
+      ],
+      "net_xy_1000": [
+        282,
+        69
+      ],
+      "attempt": "clear",
+      "outcome": "save",
+      "on_target": "yes",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        328,
+        330,
+        334,
+        340,
+        344,
+        348,
+        356,
+        370,
+        382
+      ],
+      "explanation": "No. 96 plays the ball and follows through as the camera rises toward the green goal. The keeper is down square to the play, and the ball subsequently moves away from the goal area before green recovers it. The interception is contextual: exact contact and the incoming path are not resolved. Shooter coordinates are from frame 328 and net coordinates from frame 340.",
+      "basis": "contextual",
+      "confidence": "high",
+      "cues": [
+        "shooting_motion",
+        "goalkeeper_interception",
+        "rebound_from_goalkeeper",
+        "defensive_zone_restart"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": null,
+      "request_id": "pittsburgh-finals-0600-matched-context-0316",
+      "request_event_index": 0,
+      "id": "pittsburgh-finals-0600-0330",
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "clip_seconds": 22.0,
+      "recording_seconds": 622.0,
+      "automatic_status": "sog",
+      "count_reason": "Save inferred from the shooting motion, keeper interception and corroborating ball-path, rebound or defensive-zone restart evidence.",
+      "supporting_requests": [
+        "pittsburgh-finals-0600-matched-context-0316"
+      ],
+      "team_label": "Light gray"
+    },
+    {
+      "release_frame": 476,
+      "outcome_frame": 486,
+      "team_color": "green",
+      "shooter_jersey": "5",
+      "shooter_xy_1000": [
+        330,
+        240
+      ],
+      "net_xy_1000": [
+        755,
+        225
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        472,
+        474,
+        476,
+        478,
+        482,
+        486,
+        502
+      ],
+      "explanation": "Green 5 makes a forward stroke from the left side with a teammate at the crease. The keeper goes low, but the ball's path and any interception are obscured; play continues toward the corner.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The delivery could have been a pass, gone wide, or been intercepted by a defender rather than saved on target.",
+      "request_id": "pittsburgh-finals-0600-matched-context-0460",
+      "request_event_index": 0,
+      "id": "pittsburgh-finals-0600-0476",
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "clip_seconds": 31.733333333333334,
+      "recording_seconds": 631.7333333333333,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "pittsburgh-finals-0600-matched-context-0460"
+      ],
+      "team_label": "Green"
+    },
+    {
+      "release_frame": 532,
+      "outcome_frame": 536,
+      "team_color": "green",
+      "shooter_jersey": "5",
+      "shooter_xy_1000": [
+        405,
+        325
+      ],
+      "net_xy_1000": [
+        650,
+        345
+      ],
+      "attempt": "clear",
+      "outcome": "goal",
+      "on_target": "yes",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        526,
+        530,
+        532,
+        536,
+        544,
+        572,
+        586,
+        628,
+        928,
+        988
+      ],
+      "explanation": "Green 5 works the ball from the corner through traffic toward the net. The crossing is hidden, but the ball is subsequently visible at the back of the net, green players acknowledge the play, and the teams reset at center. The final contact is obscured.",
+      "basis": "contextual",
+      "confidence": "medium",
+      "cues": [
+        "center_restart"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "A crease deflection or defensive contact could have changed the final touch; the exact release and attribution are not resolved.",
+      "request_id": "pittsburgh-finals-0600-matched-context-0460",
+      "request_event_index": 1,
+      "id": "pittsburgh-finals-0600-0532",
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "clip_seconds": 35.46666666666667,
+      "recording_seconds": 635.4666666666667,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "pittsburgh-finals-0600-matched-context-0460"
+      ],
+      "team_label": "Green"
+    },
+    {
+      "release_frame": 1156,
+      "outcome_frame": 1162,
+      "team_color": "black",
+      "shooter_jersey": "93",
+      "shooter_xy_1000": [
+        793,
+        283
+      ],
+      "net_xy_1000": [
+        352,
+        270
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": true,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        1152,
+        1156,
+        1158,
+        1160,
+        1162,
+        1164,
+        1170
+      ],
+      "explanation": "Number 93 sweeps the ball from the right; it appears across the front of the net and continues toward the far boards. The view does not resolve a goalie or skater touch, and the play could have been a hard cross rather than a shot.",
+      "basis": "unresolved",
+      "confidence": "medium",
+      "cues": [
+        "shooting_motion",
+        "goalward_path_fragments",
+        "wide_path"
+      ],
+      "score_before": null,
+      "score_after": null,
+      "alternative_explanation": "The ball may have traveled wide without contact, or been directed across to the net-front teammate; a glancing touch in the crowded crease is also possible.",
+      "request_id": "pittsburgh-finals-0600-matched-context-1140",
+      "request_event_index": 0,
+      "id": "pittsburgh-finals-0600-1156",
+      "clip": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "clip_seconds": 77.06666666666666,
+      "recording_seconds": 677.0666666666666,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "pittsburgh-finals-0600-matched-context-1140"
+      ],
+      "team_label": "Light gray"
+    },
+    {
+      "release_frame": 380,
+      "outcome_frame": 384,
+      "team_color": "orange",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        252,
+        522
+      ],
+      "net_xy_1000": [
+        301,
+        531
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        376,
+        378,
+        380,
+        382,
+        384,
+        418,
+        424
+      ],
+      "explanation": "An orange skater makes a possible goalward stick motion from the left of the crease as the keeper drops. Players obscure the stick-ball contact and goalmouth. Play subsequently moves away without a visible goal signal.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "shooting_motion"
+      ],
+      "score_before": "0-3",
+      "score_after": "0-3",
+      "alternative_explanation": "The motion could be a contested poke or pass rather than a shot; the keeper may simply be reacting to the congestion. The attacking player on the other side of the crease could instead have been involved.",
+      "request_id": "southjersey-finals-0600-matched-context-0364",
+      "request_event_index": 0,
+      "id": "southjersey-finals-0600-0380",
+      "clip": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "clip_seconds": 25.333333333333332,
+      "recording_seconds": 625.3333333333334,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "southjersey-finals-0600-matched-context-0364"
+      ],
+      "team_label": "Orange"
+    },
+    {
+      "release_frame": 496,
+      "outcome_frame": 504,
+      "team_color": "orange",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        390,
+        510
+      ],
+      "net_xy_1000": [
+        766,
+        495
+      ],
+      "attempt": "clear",
+      "outcome": "save",
+      "on_target": "yes",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        494,
+        496,
+        498,
+        500,
+        502,
+        504,
+        512,
+        888
+      ],
+      "explanation": "The orange carrier makes a shooting stroke toward the net. The keeper reacts in front of the goal, play stops, and the subsequent faceoff is in the defensive zone. The ball and decisive keeper contact are not resolved.",
+      "basis": "contextual",
+      "confidence": "high",
+      "cues": [
+        "shooting_motion",
+        "goalkeeper_interception",
+        "defensive_zone_restart"
+      ],
+      "score_before": "Dinos 0\u20133 Trash Pandas",
+      "score_after": "Dinos 0\u20133 Trash Pandas",
+      "alternative_explanation": "A deflection or a shot out of play is possible, but no clear evidence of either is visible.",
+      "request_id": "southjersey-finals-0600-matched-context-0476",
+      "request_event_index": 0,
+      "id": "southjersey-finals-0600-0496",
+      "clip": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "clip_seconds": 33.06666666666667,
+      "recording_seconds": 633.0666666666667,
+      "automatic_status": "needs_review",
+      "count_reason": "The shot outcome lacks sufficient visible evidence.",
+      "supporting_requests": [
+        "southjersey-finals-0600-matched-context-0476"
+      ],
+      "team_label": "Orange"
+    },
+    {
+      "release_frame": 990,
+      "outcome_frame": 1002,
+      "team_color": "orange",
+      "shooter_jersey": null,
+      "shooter_xy_1000": [
+        430,
+        500
+      ],
+      "net_xy_1000": [
+        712,
+        485
+      ],
+      "attempt": "possible",
+      "outcome": "unknown",
+      "on_target": "unknown",
+      "evidence": {
+        "release_visible": false,
+        "ball_to_goal_visible": false,
+        "goalie_save_visible": false,
+        "goal_crossing_visible": false,
+        "score_change_visible": false,
+        "official_goal_signal_visible": false,
+        "rebound_release_visible": false
+      },
+      "evidence_frames": [
+        988,
+        990,
+        992,
+        994,
+        998,
+        1002,
+        1022,
+        1032
+      ],
+      "explanation": "An orange player reaches forward in the contested draw and the loose ball moves toward the defensive slot. A white defender retrieves it and takes play behind the net. The contact and intent are obscured, and neither a skater block nor a goalkeeper interception is resolved.",
+      "basis": "unresolved",
+      "confidence": "low",
+      "cues": [
+        "goalward_path_fragments"
+      ],
+      "score_before": "0-3",
+      "score_after": "0-3",
+      "alternative_explanation": "The movement may be an ordinary faceoff poke or a loose ball won by the defender rather than a shot.",
+      "request_id": "southjersey-finals-0600-matched-context-0972",
+      "request_event_index": 0,
+      "id": "southjersey-finals-0600-0990",
+      "clip": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "clip_seconds": 66.0,
+      "recording_seconds": 666.0,
+      "automatic_status": "needs_review",
+      "count_reason": "The temporal assessment is not sufficiently confident.",
+      "supporting_requests": [
+        "southjersey-finals-0600-matched-context-0972"
+      ],
+      "team_label": "Orange"
+    }
+  ]
+}

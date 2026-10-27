@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "created_at": "2026-10-27T22:39:41.906046+00:00",
+  "model": "gpt-6.1-terra",
+  "scope": "NBHL ball hockey only. Model substitution on frozen Astra proposals plus independent Terra discovery and context. Development comparison, not independent accuracy.",
+  "budget_usd": 12,
+  "max_concurrency": 3,
+  "fps": 15,
+  "clips": [
+    {
+      "id": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "start_s": 900,
+      "duration_s": 300,
+      "frames": 4500,
+      "frame_folder": "overhead-20261025-v1/frames",
+      "team_colors": [
+        "red",
+        "white"
+      ],
+      "purpose": "development demonstration; previously examined ball/player replay"
+    },
+    {
+      "id": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 600,
+      "duration_s": 90,
+      "frames": 1350,
+      "frame_folder": "new-games-20261025-v1/frames/pittsburgh-finals-0600",
+      "team_colors": [
+        "green",
+        "black"
+      ],
+      "purpose": "additional recording; previously used for ball localization, never SOG labels"
+    },
+    {
+      "id": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 600,
+      "duration_s": 90,
+      "frames": 1350,
+      "frame_folder": "new-games-20261025-v1/frames/southjersey-finals-0600",
+      "team_colors": [
+        "orange",
+        "white"
+      ],
+      "purpose": "additional recording; previously used for ball localization, never SOG labels"
+    }
+  ],
+  "definition": "SOG = a legal attacking shot, tip, or deflection that scores or would enter the goal if not stopped by the goalkeeper. Exclude wide/high attempts, post/crossbar-only attempts, skater blocks, harmless passes, goalie collection of wide balls, and disallowed goals. Count a distinct rebound shot separately. Unknown outcome or on-target path is not confirmed SOG.",
+  "input_usd_per_million": 1,
+  "cached_input_usd_per_million": 0.05,
+  "input_usd_per_million_conservative": 1.25,
+  "output_usd_per_million": 5,
+  "pricing_sources": [
+    "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+  ],
+  "pricing_checked_at": "2026-10-27T22:39:41.906058+00:00",
+  "scan": {
+    "reasoning": "medium",
+    "max_output_tokens": 8192,
+    "core_frames": 300,
+    "context_frames": 30,
+    "stride_frames": 8,
+    "width": 960
+  },
+  "context": {
+    "reasoning": "high",
+    "max_output_tokens": 8192,
+    "full_frame_width": 1280,
+    "full_frame_stride": 6,
+    "goal_crop_width": 960,
+    "goal_crop_stride": 2,
+    "after_context_seconds": 30,
+    "after_context_stride": 30
+  },
+  "baseline_sha256": {
+    "protocol.json": "33e7ca0782cb367747f0807076b1ed4d61d8cbd23499c6d72eae94d0bface92f",
+    "context-protocol.json": "d6aa933013fb73a7c1d271e488093d0fbdf0715ece17e809b386875e0267e901",
+    "count-policy.json": "54675a5fca46783c1245b32cfae0069b7f08c2a308c4cc9e0f12bd20603b739d",
+    "worker.py": "855cf1b34bbd06f590ce7c8f07be77a06605d43b8f0118433fdcc851025235d0",
+    "context_worker.py": "8305f11c078e3c394317c8640f42bfa563c45289d50de8144acedf0d2eeceb6d",
+    "verify-requests.json": "fe670ee58371d9040ad1de807664da89b6e986e1d862bab53f35da68e70e5873",
+    "results/scan-ledger.json": "fe4c5870cd90fa2521a64a169271173ebd91e50a691a32c4da420a8ebbd88e78",
+    "results/context-ledger.json": "3db477bcc32a7fc5099ec102a62c25609e631739d197a67a9addb665141ccc7f",
+    "results/context-recovery-ledger.json": "793faa87ea0a4b0613c66d77c8a1c320da035fba85bb8778eef85ea8d5c409a4"
+  },
+  "count_policy_sha256": "3e9a7209bb16ea0be88d6078e851721b349bc2b51befbe4e4977202a2f5a1457",
+  "evaluation": {
+    "event_match_tolerance_seconds": 2,
+    "match_requires_same_team": true,
+    "reference": "Published Astra predictions are a comparator, not ground truth. Existing official NJ goals with assistant-reviewed timestamps are a limited sanity check only.",
+    "no_labels_or_baseline_classifications_in_model_input": true,
+    "frozen_count_policy": true
+  },
+  "failure_policy": "Persist costs and statuses. No automatic retries of ambiguous requests. Missing windows are never counted as zero.",
+  "cost_scope": "API usage with standard rates and a separate conservative input multiplier of1.25 for comparison to previous reports. Modal compute/storage excluded. Matched-context evaluation cost is separate from independent pipeline cost."
+}
