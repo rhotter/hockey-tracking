@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-10-27T09:39:52.593920+00:00",
+  "purpose": "Exploratory exception to surface rejection for camera-aligned moving candidates; previously opened samples, not independent validation.",
+  "margin": 0.025,
+  "minimum_registration_quality": 0.35,
+  "midpoint_error_px": 12,
+  "minimum_displacement_px": 12,
+  "maximum_speed_px_per_frame": 140,
+  "offsets": [
+    -3,
+    3
+  ],
+  "fallback": "No exception when neighbors unavailable; existing surface mask remains unchanged."
+}

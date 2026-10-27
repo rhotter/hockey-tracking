@@ -233,6 +233,32 @@ def main():
         for row in model['audit_original_positions']:
             assert row['original_position_inside_surface']==surface_module.inside_surface(row['pixel'],bykey[(row['clip'],row['frame'])],model['margin'])
     runtime = read(EXP/'results/sam-state-ablation.json')
+    surface_motion=read(EXP/'results/surface-motion-evaluation.json')
+    assert surface_motion['protocol']==read(EXP/'surface-motion-protocol.json')
+    for name,digest in surface_motion['input_sha256'].items(): assert sha(EXP/name)==digest
+    motion_spec=importlib.util.spec_from_file_location('surface_motion',EXP/'score_surface_motion.py')
+    motion_exception=importlib.util.module_from_spec(motion_spec);motion_spec.loader.exec_module(motion_exception)
+    neighbors={(r['clip'],r['frame']):r for r in motion_inputs['rows']}
+    config=surface_motion['protocol']
+    def surface_decision(pixel,key):
+        inside=surface_module.inside_surface(pixel,bykey[key],config['margin'])
+        rescue=not inside and motion_exception.moving_exception(pixel,neighbors.get(key),operating,config)
+        return inside,rescue
+    frames=[{**r,'candidates':[c for c in r['candidates'] if any(surface_decision(c['pixel'],(r['clip'],r['frame'])))]}
+            for r in source_candidates['models']['original']['frames']]
+    for radius in [12,25]:
+        assert evaluation.evaluate(frames,labels,operating,radius)==surface_motion[f'at_{radius}px'];verified+=1
+    assert surface_motion['audit_counts']==dict(Counter(r['verdict']+('_accepted' if r['accepted'] else '_rejected') for r in surface_motion['audit']))
+    assert surface_motion['rescued_candidates']==[
+        {'clip':r['clip'],'frame':r['frame'],'pixel':c['pixel']}
+        for r in source_candidates['models']['original']['frames'] for c in r['candidates']
+        if surface_decision(c['pixel'],(r['clip'],r['frame']))[1]]
+    original_audit=read(EXP/'transfer-output-audit.json')['rows']
+    assert len(original_audit)==len(surface_motion['audit'])
+    for row,original in zip(surface_motion['audit'],original_audit):
+        assert {k:v for k,v in row.items() if k not in ('inside','rescued','accepted')}==original
+        assert (row['inside'],row['rescued'])==surface_decision(row['pixel'],(row['clip'],row['frame']))
+        assert row['accepted']==(row['inside'] or row['rescued'])
     for run in runtime['runs'].values():
         assert run['valid_seed_masks'] == sum(r['valid'] for r in run['rows'])
         assert run['seeds'] == len(run['rows'])
