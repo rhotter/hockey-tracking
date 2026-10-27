@@ -38,6 +38,7 @@ def main():
     parser.add_argument('--candidate',required=True)
     parser.add_argument('--tracker',default='sam3-box6')
     parser.add_argument('--audit',required=True)
+    parser.add_argument('--config',default='fusion-config-v2.json')
     parser.add_argument('--batches',default='dense-full-gpu,dense-discovery-gpu')
     args=parser.parse_args()
     candidate=BUILD/args.candidate
@@ -83,6 +84,7 @@ def main():
             f'{new_visual} detected or video-tracked frames, up from {old_visual}. Held-ball and gap estimates stay separate. '
             f'Separate-game checks still expose many false detections.'},
         'before_states':before,'after_states':after,
+        'isolated_observation_rejections':diagnostics['isolated_observation_rejections'],
         'estimated_coverage':(4500-after['unknown'])/4500,
         'visual_and_tracked_ratio':new_visual/old_visual,
         'output_audit':audit,
@@ -113,7 +115,8 @@ def main():
         'openai_cost_estimate_usd':read(HERE/'results/yolo-seed-verification.json')['total_openai_estimate_usd'],
         'cost_note':'Conservative estimate including reserved cost for incomplete pilot calls; not an invoice. Modal compute is separate.',
         'inputs':{'fusion_inputs_sha256':sha(input_path),'positions_sha256':sha(candidate/'positions.json'),
-            'config_sha256':sha(HERE/'fusion-config-v2.json'),'audit_sha256':sha(audit_path),
+            'config_file':args.config,'config_sha256':sha(HERE/args.config),
+            'audit_file':args.audit,'audit_sha256':sha(audit_path),
             'implementation_sha256':sha(ROOT/'hockey_tracking/ball_refinement.py')},
         'limits':['Sparse assistant review, not independent human ground truth.',
             'Policies and prompt choice were tuned using development checks.',

@@ -232,9 +232,13 @@ def main():
         assert sha(packed_path)==report['inputs']['fusion_inputs_sha256']
         assert sha(public/'positions.json')==report['inputs']['positions_sha256']
         assert sha(ROOT/'hockey_tracking/ball_refinement.py')==report['inputs']['implementation_sha256']
-        assert sha(EXP/'fusion-config-v2.json')==report['inputs']['config_sha256']
-        audit=read(EXP/'output-audit-final.json')
-        assert sha(EXP/'output-audit-final.json')==report['inputs']['audit_sha256']
+        assert sha(EXP/report['inputs']['config_file'])==report['inputs']['config_sha256']
+        audit=read(EXP/report['inputs']['audit_file'])
+        assert sha(EXP/report['inputs']['audit_file'])==report['inputs']['audit_sha256']
+        if 'carried_forward_from' in audit:
+            original=read(EXP/audit['carried_forward_from'])
+            assert sha(EXP/audit['carried_forward_from'])==audit['original_audit_sha256']
+            assert audit['rows']==original['rows'] and audit['counts']==original['counts']
         assert audit==report['output_audit']
         assert audit['candidate_positions_sha256']==sha(public/'positions.json')
         assert audit['counts']==dict(Counter(r['verdict'] for r in audit['rows']))
@@ -250,6 +254,7 @@ def main():
         assert rebuilt==published
         assert report['after_states']==diagnostics['after_states']
         assert report['before_states']==diagnostics['before_states']
+        assert report['isolated_observation_rejections']==diagnostics['isolated_observation_rejections']
         assert len(published['frames'])==4500
         for f,row in enumerate(published['frames']):
             assert row['frame']==f

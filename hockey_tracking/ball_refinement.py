@@ -30,6 +30,7 @@ class RefinementConfig:
     minimum_output_appearance: float = 0.
     held_as_context: bool = False
     prefer_appearance_center: bool = False
+    reject_isolated_spikes: bool = False
 
 
 def valid_mask(row):
@@ -179,12 +180,36 @@ def refine_sequence(rink, baseline, seed_streams, track_streams, detector_frames
                 evidence='SAM tracks restarted from distinct ball sightings agree here.' if bracketed else
                          'A recent sequence sighting, SAM mask, and local detector agree here.')
             changed[f] = 'mask_consensus' if bracketed else 'mask_detector'
+    # A corroborated detector may still latch onto a second pink object. Reject
+    # a new one-frame excursion only when observations on both sides agree on
+    # a plausible path. Context guesses cannot veto a visual observation.
+    isolated_rejections = []
+    if config.reject_isolated_spikes:
+        for f in sorted(changed):
+            if not 0 < f < n-1: continue
+            a, middle, b = result['frames'][f-1:f+2]
+            if any(r['state'] not in ('detected','tracked') for r in (a,middle,b)): continue
+            if any(not rink['frames'][j].get('camera_valid') or
+                   rink['frames'][j].get('image_to_floor') is None for j in (f-1,f,f+1)): continue
+            ap,mp,bp = [np.array(r['pixel'])*[1920,1080] for r in (a,middle,b)]
+            incoming = float(np.linalg.norm(camera_warp(rink,f-1,f,ap)-mp))
+            outgoing = float(np.linalg.norm(camera_warp(rink,f,f+1,mp)-bp))
+            bridge = float(np.linalg.norm(camera_warp(rink,f-1,f+1,ap)-bp)/2)
+            limit = config.maximum_camera_corrected_speed_px
+            if incoming > limit and outgoing > limit and bridge <= limit:
+                isolated_rejections.append({'frame':f,'pixel':middle['pixel'],
+                    'incoming_px':incoming,'outgoing_px':outgoing,'bridge_px_per_frame':bridge})
+        for rejection in isolated_rejections:
+            f=rejection['frame']
+            result['frames'][f]={'frame':f,'state':'unknown','reason':'isolated_observation_contradicts_neighbors'}
+            changed[f]='isolated_rejection'
     # Interpolation remains explicitly inferred, including when it replaces an
     # older possession guess that stayed on the passer after the release.
     observations = [f for f,r in enumerate(result['frames']) if r['state'] in ('detected','tracked')]
     for af,bf in zip(observations,observations[1:]):
         if bf-af <= 1 or bf-af > config.maximum_interpolation_gap: continue
-        if not any(f in changed for f in (af,bf)): continue
+        if not any(f in changed for f in (af,bf)) and not any(
+                af < rejection['frame'] < bf for rejection in isolated_rejections): continue
         if any(f in excluded for f in range(af,bf+1)): continue
         # A supported held-ball position must not be replaced by a straight path.
         if any(f in changed and result['frames'][f].get('review_support')=='held'
@@ -208,5 +233,6 @@ def refine_sequence(rink, baseline, seed_streams, track_streams, detector_frames
                    'before_states':dict(Counter(r['state'] for r in baseline['frames'])),
                    'after_states':dict(Counter(r['state'] for r in result['frames'])),
                    'changed_frames':sorted(changed),
+                   'isolated_observation_rejections':isolated_rejections,
                    'limits':'No review labels enter fusion. Corroboration is not calibrated confidence; inferred frames are not visual detections.'}
     return result,diagnostics

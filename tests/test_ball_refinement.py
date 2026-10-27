@@ -105,5 +105,47 @@ class BallRefinementTests(unittest.TestCase):
         self.assertEqual(result['frames'][0]['state'],'detected')
         self.assertEqual(result['frames'][2],self.baseline['frames'][2])
 
+    def isolated_spike(self, neighbor_state='detected'):
+        for row in self.rink['frames']:
+            row.update(camera_valid=True,image_to_floor=[[1,0,0],[0,1,0],[0,0,1]])
+        seeds,tracks=self.stream([4])
+        self.detector[4]['candidates']=[{'pixel':[108,200],'score':.9,'appearance_score':.9}]
+        for f in [3,5]:
+            self.baseline['frames'][f]={'frame':f,'state':neighbor_state,'pixel':[.6,.5]}
+        return seeds,tracks
+
+    def test_isolated_new_detection_is_replaced_by_explicit_inference(self):
+        seeds,tracks=self.isolated_spike()
+        result,report=self.run_fusion([seeds],[tracks],config=RefinementConfig(reject_isolated_spikes=True))
+        self.assertEqual([r['frame'] for r in report['isolated_observation_rejections']],[4])
+        # Old anchors are not changed. Their short gap is an estimate, not a detection.
+        self.assertEqual(result['frames'][3],self.baseline['frames'][3])
+        self.assertEqual(result['frames'][4]['state'],'inferred')
+        self.assertEqual(result['frames'][4]['pixel'],[.6,.5])
+
+    def test_context_neighbors_cannot_reject_a_visual_ball(self):
+        seeds,tracks=self.isolated_spike('context')
+        result,report=self.run_fusion([seeds],[tracks],config=RefinementConfig(reject_isolated_spikes=True))
+        self.assertEqual(report['isolated_observation_rejections'],[])
+        self.assertEqual(result['frames'][4]['state'],'detected')
+
+    def test_missing_camera_alignment_disables_spike_rejection(self):
+        seeds,tracks=self.isolated_spike();self.rink['frames'][4]['camera_valid']=False
+        result,report=self.run_fusion([seeds],[tracks],config=RefinementConfig(reject_isolated_spikes=True))
+        self.assertEqual(report['isolated_observation_rejections'],[])
+        self.assertEqual(result['frames'][4]['state'],'detected')
+
+    def test_fast_coherent_motion_is_not_an_isolated_spike(self):
+        seeds,tracks=self.isolated_spike()
+        seeds['seeds'][0]['pixel']=[1000,200]
+        tracks['tracks'][0]['seed_pixel']=[1000,200]
+        tracks['tracks'][0]['rows'][4]['pixel']=[1000,200]
+        self.detector[4]['candidates'][0]['pixel']=[1000,200]
+        self.baseline['frames'][3]['pixel']=[600/1920,200/1080]
+        self.baseline['frames'][5]['pixel']=[1400/1920,200/1080]
+        result,report=self.run_fusion([seeds],[tracks],config=RefinementConfig(reject_isolated_spikes=True))
+        self.assertEqual(report['isolated_observation_rejections'],[])
+        self.assertEqual(result['frames'][4]['state'],'detected')
+
 
 if __name__ == '__main__': unittest.main()

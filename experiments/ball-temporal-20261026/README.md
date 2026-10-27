@@ -108,9 +108,11 @@ More detections initially made tracking worse. Agreement among the new heatmap m
 
 Every additional seed is instead checked using a full target frame and chronological crops around the exact proposed point. GPT-6 Astra must distinguish a visible ball from a known non-ball or an uncertain image. Only a completed `visible_ball` verdict can enter SAM fusion; coordinates never move during this gate. Of the 142 heatmap seeds, 30 were retained, 97 rejected as non-ball, five uncertain, and ten withheld after an interrupted request. A separate YOLO proposal pass applies the same verification. These are automatic development filters, not new reference labels. Public verification reports preserve every verdict, source hash and retained coordinate. Incomplete or ambiguously interrupted requests are not silently retried.
 
-The YOLO pass proposed 59 additional seeds: three were retained, 52 identified as non-ball and four uncertain. The final replay contains **417 detected, 203 tracked, 2,796 context, 219 inferred and 865 unknown frames**. Detected/tracked coverage is 13.78% instead of 9.02%; total estimated coverage is 80.78% instead of 79.73%. A fixed audit of 60 changed, non-seed tracked outputs confirmed 41 visible balls and left 19 unresolved. None of those audit verdicts enters fusion. This is development evidence, not independent accuracy.
+The YOLO pass proposed 59 additional seeds: three were retained, 52 identified as non-ball and four uncertain. The final replay contains **416 detected, 203 tracked, 2,796 context, 220 inferred and 865 unknown frames**. Detected/tracked coverage is 13.76% instead of 9.02%; total estimated coverage is 80.78% instead of 79.73%. A fixed audit of 60 changed, non-seed tracked outputs confirmed 41 visible balls and left 19 unresolved. None of those audit verdicts enters fusion. This is development evidence, not independent accuracy.
 
 The 94 reused approximate reference points were also reviewed with adjacent frames: 72 confirmed, 21 unresolved, and one disputed non-ball at frame 1912, where the reference appears to follow a lifted shoe. The original references remain intact. `reference-quality-audit.json` records the dispute, and the saved agreement counts are historical agreement only. We do not filter the reference retrospectively to report a higher accuracy.
+
+A final no-label continuity check exposed one new isolated detection jumping 736 pixels away and 651 pixels back in successive frames. `fusion-config-v3.json` reuses the existing 140-pixel/frame camera-compensated speed limit: a new observation is rejected only when both observed neighbors contradict it and agree with a plausible bridge. Context guesses cannot veto a detection, and missing camera alignment disables the check. Exactly one frame (178) changes, from detected to explicitly inferred. All 60 previously audited output positions are unchanged; `output-audit-continuity.json` carries that audit forward with hashes, without claiming a fresh review. This removes the new isolated excursion, but does not solve older context jumps or establish physical ball speed.
 
 ## Distilling the sequence verifier
 
@@ -150,7 +152,7 @@ python experiments/ball-temporal-20261026/gate_detector_seeds.py
 python experiments/ball-temporal-20261026/gate_detector_seeds.py --source yolo
 python experiments/ball-temporal-20261026/derive.py --tracker sam3-box6 \
   --batches dense-full-gpu,dense-discovery-gpu,dense-wide-full-gpu,dense-wide-discovery-gpu,dense-detector-verified-gpu,dense-yolo-verified-gpu \
-  --config fusion-config-v2.json --name final
+  --config fusion-config-v3.json --name final-continuity
 python scripts/verify_ball_temporal_results.py
 ```
 

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "seed_mask_error_px": 12.0,
+    "seed_detector_radius_px": 12.0,
+    "detector_score": 0.05,
+    "detector_appearance": 0.1,
+    "cycle_error_px": 10.0,
+    "cycle_gap_frames": 6,
+    "track_agreement_px": 10.0,
+    "single_track_seed_distance": 2,
+    "maximum_interpolation_gap": 12,
+    "maximum_camera_corrected_speed_px": 140.0,
+    "preserve_visual_detections": true,
+    "minimum_output_appearance": 0.02,
+    "held_as_context": true,
+    "prefer_appearance_center": true,
+    "reject_isolated_spikes": true
+  },
+  "uses_review_labels": false,
+  "purpose": "Revised automatic fusion after the first output audit; no per-frame review labels enter inference.",
+  "limits": "Development-stage rules; detector and track agreement are not independent probabilities.",
+  "created_at": "2026-10-27T09:33:37.477149+00:00",
+  "revision": 3,
+  "reason": "A final no-label continuity diagnostic exposed a new isolated 650+px excursion. Reuse the existing 140px/frame speed bound to reject a new observation only when observed neighbors on both sides support a plausible bridge. Context neighbors cannot reject a detection. Not an independent test.",
+  "previous_config_sha256": "1bcf2cdb61a8bfdc22b770926c114e97d76f49fb721dc06257386973beee1e6c",
+  "audit_sha256": "c64f16ab1b0f7e24fc93ebffe60035c4a4fd913502661d9fea878005485cd6b1",
+  "policy_selected_with_development_audit": true
+}
