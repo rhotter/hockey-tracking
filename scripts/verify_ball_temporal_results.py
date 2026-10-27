@@ -4,6 +4,7 @@ from datetime import datetime
 import hashlib
 import importlib.util
 import json
+import math
 from pathlib import Path
 import sys
 
@@ -18,6 +19,21 @@ spec.loader.exec_module(evaluation)
 
 def read(path): return json.loads(path.read_text())
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def assert_numeric_equal(actual, expected, path='result'):
+    """Allow only roundoff from different BLAS CPUs, not different decisions."""
+    if isinstance(expected, float):
+        assert isinstance(actual, (float,int)) and not isinstance(actual,bool), path
+        assert math.isclose(actual,expected,rel_tol=1e-12,abs_tol=1e-12), (path,actual,expected)
+    elif isinstance(expected, dict):
+        assert actual.keys()==expected.keys(), path
+        for key,value in expected.items(): assert_numeric_equal(actual[key],value,f'{path}.{key}')
+    elif isinstance(expected, list):
+        assert len(actual)==len(expected), path
+        for i,(a,b) in enumerate(zip(actual,expected)): assert_numeric_equal(a,b,f'{path}[{i}]')
+    else:
+        assert actual==expected, (path,actual,expected)
 
 
 def recount(metrics, labels):
@@ -149,7 +165,7 @@ def main():
             point,reason=motion_module.rank_candidates(sample,operating,data['config'],motion['protocol']['maximum_candidates'])
             assert (sample['clip'],sample['frame'])==(row['clip'],row['frame'])
             assert point==row['pixel']
-            assert reason=={k:v for k,v in decision.items() if k not in ['clip','frame']}
+            assert_numeric_equal(reason,{k:v for k,v in decision.items() if k not in ['clip','frame']})
     labels=sum([read(EXP/f'{scope}-reference.json')['rows'] for scope in ['fresh','extra','final-check']],[])
     replay_training=read(EXP/'results/distillation-replay-report-evaluation.json')
     assert replay_training['protocol']==read(EXP/'distill-replay-protocol.json')
@@ -251,10 +267,10 @@ def main():
         rebuilt,diagnostics=refine_sequence(read(ROOT/'web/data/overhead-20261025/replay.json'),
             baseline,packed['seed_streams'],packed['track_streams'],packed['detector_frames'],
             RefinementConfig(**packed['config']),packed['excluded_frames'])
-        assert rebuilt==published
+        assert_numeric_equal(rebuilt,published)
         assert report['after_states']==diagnostics['after_states']
         assert report['before_states']==diagnostics['before_states']
-        assert report['isolated_observation_rejections']==diagnostics['isolated_observation_rejections']
+        assert_numeric_equal(report['isolated_observation_rejections'],diagnostics['isolated_observation_rejections'])
         assert len(published['frames'])==4500
         for f,row in enumerate(published['frames']):
             assert row['frame']==f
