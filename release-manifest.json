@@ -305,7 +305,7 @@
     "scripts/render_new_games.py": "9250c3fca3da4257d6e692ed77354d8d60860cc46a388108847d2ab765b51700",
     "scripts/render_roboflow_report.py": "f0c1fb2dda06bf5d11074ffa8c7f06835cfa1a447019c59650e72429940ecb66",
     "scripts/verify_ball_context.py": "f2fadf32b849df63d51e5bb08867de1fb2b9cc1d48166ecd17dd952ee2a054fe",
-    "scripts/verify_ball_rebuild.py": "7a61e3f77db7b7830a33e57cbf2566909fc47d520d3d759c48d6946a07f4e7d8",
+    "scripts/verify_ball_rebuild.py": "69ced2966d80144ee0d32f39abdcd83a98f644a4e1827de2c9eb0e089d02fedf",
     "scripts/verify_ball_sequence.py": "e359049acf2621c095b1d8fd3428ad9063762d15d63d4f1c192a8e29b8a8e31a",
     "scripts/verify_new_games.py": "172a190dd74ccc4611603185ff8cf040409ffedd24f8693bd7d7d9d8f8888e46",
     "scripts/verify_new_games_browser.cjs": "392943c3871803ddf1cb2d24be3c342ea8874518f553aad96a492752bb34f249",

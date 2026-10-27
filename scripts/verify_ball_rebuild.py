@@ -37,7 +37,9 @@ def main():
     if choice.get('visual_review'):
         ledger=json.loads((EXP/choice['visual_review']).read_text())
         assert digest(EXP/choice['visual_review'])==report['visual_review']['ledger_sha256']
-        assert hashlib.sha256((json.dumps(cv_result,separators=(',',':'))+'\n').encode()).hexdigest()==ledger['protocol']['source_replay_sha256']
+        # Hash the exact artifact the review consumed. Regenerated floating-point
+        # values are already compared above with the tight numerical tolerance.
+        assert digest(dest/'proposals-replay.json')==ledger['protocol']['source_replay_sha256']
         regenerated=apply_review(cv_result,ledger)
     primary_reviewed=regenerated
     if choice.get('recall'):
@@ -49,7 +51,7 @@ def main():
         equal(proposals,json.loads((dest/'recall-proposals-replay.json').read_text()))
         extra_ledger=json.loads((EXP/extra['visual_review']).read_text())
         assert digest(EXP/extra['visual_review'])==report['recall_review']['ledger_sha256']
-        assert hashlib.sha256((json.dumps(proposals,separators=(',',':'))+'\n').encode()).hexdigest()==extra_ledger['protocol']['source_replay_sha256']
+        assert digest(dest/'recall-proposals-replay.json')==extra_ledger['protocol']['source_replay_sha256']
         extra_reviewed=apply_review(proposals,extra_ledger)
         assert sum(r['state']=='detected'for r in extra_reviewed['frames'])==report['recall_review']['accepted_before_support_gate']
         if extra.get('require_floor_support'):extra_reviewed=require_floor_support(extra_reviewed)
