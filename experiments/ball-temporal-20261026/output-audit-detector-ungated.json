@@ -1,0 +1,1060 @@
+{
+  "created_at": "2026-10-27T08:20:46.906744+00:00",
+  "scope": "Post-prediction assistant review of60 fixed changed non-seed tracked outputs. Initial detector-consensus addition before sequence verification. Identifiable ball within approximately12native pixels; unresolved is excluded, not correct. Development diagnostic, not independent ground truth.",
+  "source_manifest_sha256": "962675cf7871ac48ff658bcec74fdc5809f1f92078542b69dfd6405584e1d2c7",
+  "candidate_positions_sha256": "2eb77ae13a1c40a2dfc6dfe5b8a83e64dcf2b09c4dd51d599d7d7df40c8ecf13",
+  "counts": {
+    "unresolved": 26,
+    "visible_ball": 22,
+    "wrong_object": 12
+  },
+  "rows": [
+    {
+      "frame": 121,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        390.7441541859427,
+        523.3598465485367
+      ],
+      "before_pixel": [
+        1178.750683009218,
+        566.0857084155546
+      ],
+      "change_px": 789.16398089395,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "5920eceaede6ce9c6ac61d77d5b63bab4f8d1b081e7bafadbfcbd6ffdcc952e6",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 128,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        407.54308950911906,
+        505.0990027918969
+      ],
+      "before_pixel": [
+        1071.3600000000001,
+        581.0400000000001
+      ],
+      "change_px": 668.1466348868485,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "1aaa0534b78cc436f53a3f642e3008a3fba539a89e8f8c7dabaae3a13e0cad23",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 164,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        745.322048490827,
+        669.1648945205202
+      ],
+      "before_pixel": [
+        736.2354020189841,
+        666.5371324576674
+      ],
+      "change_px": 9.458978674424772,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "9fe8065286567ebdc273c613c316f52307be6dbdf7eeee5b430a7319311f66b9",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 224,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        937.4545324886324,
+        521.7726058168565
+      ],
+      "before_pixel": [
+        956.6254141553999,
+        522.0203876125669
+      ],
+      "change_px": 19.172482877798803,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "4d488eccc6c8166d34078f3f1973477b87d833d8a383c0e9429a456b6902fa30",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 269,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1456.6093114039236,
+        616.9050993233445
+      ],
+      "before_pixel": [
+        1307.2525514218737,
+        622.4907556008477
+      ],
+      "change_px": 149.46116990170412,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "a8da98da3e8d421a592a262e36d0857a36d1d64f245a48145bc7c3acdf3613da",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 277,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1480.5723908930545,
+        620.490912693964
+      ],
+      "before_pixel": [
+        1469.0993277272596,
+        611.1401503789239
+      ],
+      "change_px": 14.800943695545023,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "3b24840cf8652605bec277114c328f4807ecb85a5ddaa238d54508035e6bafdb",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 293,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1665.4561995399017,
+        613.0296118005016
+      ],
+      "before_pixel": [
+        1659.4864831768775,
+        604.0901133641231
+      ],
+      "change_px": 10.749518396140912,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "b0056c4f335f1e16f414a30bbcecdafa659b6884c39fe048d77e3e1e73fac9e9",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 379,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        355.9034089236317,
+        537.7108394081228
+      ],
+      "before_pixel": [
+        378.6281142857143,
+        526.0556571428572
+      ],
+      "change_px": 25.53929340115006,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "28d0e3a89d7be1efdeeeb45c3be07a408fb587b3c62f085eea30c47a3370cd45",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 412,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1132.066313784233,
+        564.2932996519658
+      ],
+      "before_pixel": [
+        1109.7599999999998,
+        562.68
+      ],
+      "change_px": 22.36457847596744,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "65d0c0ce003712a4df00b88b33e8346371a62ee7935a036e08979eccc24b4e35",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 617,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1261.4206811852314,
+        475.4761615401646
+      ],
+      "before_pixel": [
+        1183.9817142857141,
+        459.56777142857146
+      ],
+      "change_px": 79.0561222828894,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c66235cdff2c9fce84c6235a48efe2523b464fc53337cecdd23ad33f56d023f7",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 622,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1209.652135753006,
+        476.58325325533156
+      ],
+      "before_pixel": [
+        1176.96,
+        474.12
+      ],
+      "change_px": 32.78480374644431,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "7db3ca558517bd3c2dada74300f9b067f51e0b981c138cd0678cea82fea8b383",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 709,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1080.657829465156,
+        441.55136435343263
+      ],
+      "before_pixel": [
+        1030.7053714285712,
+        453.8113714285714
+      ],
+      "change_px": 51.43496706890386,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "dfca6ee67196b7c10d408f33289151a0165ed4ece2c1c93e172302790473316e",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 719,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        974.248722685454,
+        429.4309071836965
+      ],
+      "before_pixel": [
+        971.8308,
+        419.42475
+      ],
+      "change_px": 10.294150363078732,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "68ada066f48e02337c0fe2da355dd49ef4af6d8fc74acfa919d5f245b129482d",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 730,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        975.9909280618801,
+        428.7479503482737
+      ],
+      "before_pixel": [
+        998.5714285714286,
+        422.8986857142858
+      ],
+      "change_px": 23.32579902211579,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "8df1dfb49a116fd4326352056b0ecdd00c9ff166eefbb7ba095ba6590498eb0a",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 841,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        537.3504986766782,
+        505.472084298143
+      ],
+      "before_pixel": [
+        532.1904000000002,
+        492.99435000000005
+      ],
+      "change_px": 13.50260980581556,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c18eba2bd57679cf28950f502b5d611eb18afe0b0f0083e086a94b8123940e09",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 886,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        808.5032961937732,
+        559.0084828478291
+      ],
+      "before_pixel": [
+        829.5429925046784,
+        550.1669447243913
+      ],
+      "change_px": 22.8219547200349,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "242b8fd0be71b2b69b37b56d2adc33a2f9be93d5549cb1af9cbc194a213fcdda",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 896,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        793.5189527971351,
+        520.3572729754173
+      ],
+      "before_pixel": [
+        828.390983914846,
+        505.909975379682
+      ],
+      "change_px": 37.746297329596935,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "b13a8fb74e68c9e316c7df3fc52e1fe908c32ecb89f265578b8ff23d8c98cc32",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 929,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        546.4282752622989,
+        477.9494203083277
+      ],
+      "before_pixel": [
+        536.2776,
+        482.18625000000003
+      ],
+      "change_px": 10.999406080188312,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "ae1e4eb60376e86fbb611159fd553ffd35597fc9fb695b94660cff9a9d3473a8",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 973,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        510.66256313929426,
+        566.1010961884157
+      ],
+      "before_pixel": [
+        550.9556940027653,
+        572.8170688928351
+      ],
+      "change_px": 40.848998569699475,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c8afd61260d067e8e6cc1a130a68feadd470d1c243d595a71c9b580b77c200c2",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 1138,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1008.2978999422902,
+        123.15667351941616
+      ],
+      "before_pixel": [
+        1008.936656647624,
+        138.1247775382677
+      ],
+      "change_px": 14.981727138343173,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d8ed672a2ac4eb26bb31f6438600bb52a08c0fee57dc9059ac441d43cba92182",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1153,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        835.9185690923772,
+        49.63782581757883
+      ],
+      "before_pixel": [
+        842.0988924239233,
+        71.52427571559551
+      ],
+      "change_px": 22.742319266531446,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c4fda32ae080f64291ea6401bcbf99cb045b64d90b0661a3fbcafdfd9f07752c",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1190,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        614.5495097179113,
+        500.4676003928055
+      ],
+      "before_pixel": [
+        617.6014628571428,
+        486.6251657142858
+      ],
+      "change_px": 14.174886800011818,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "05675b2f04f78b50a87c1e50b5466febd746330447dd5d365e995f1403766f7d",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1240,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1621.3541150780147,
+        492.82339719673774
+      ],
+      "before_pixel": [
+        963.8412768001532,
+        406.8450788057311
+      ],
+      "change_px": 663.110400863653,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "922fd8661a9ce4afe67979d16308af8a2abd2e225af2ccd3eba2fa7d30131fde",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 1244,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1589.260563593984,
+        491.0444153623664
+      ],
+      "before_pixel": [
+        956.1825139185677,
+        400.1876794217037
+      ],
+      "change_px": 639.5645107779357,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "52ad29caca205d88f4572c6500aaaed7ac612e3fd529143a4ac379766be85119",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 1279,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        252.72887370739463,
+        521.088329813003
+      ],
+      "before_pixel": [
+        1248.1431243791599,
+        359.37010635576087
+      ],
+      "change_px": 1008.4653262450813,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "dc3275a4eb8da5dd3fa369bafa3a253d161ecf4ec714a02afe1d98b378db17b4",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1389,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        513.6296058851967,
+        250.37788686175898
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "bff456a4651340544e1b905f741048853b19223ce8c0d331f71d3db21af0a1f7",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 1413,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        897.598968363004,
+        66.31232863877386
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "1f3a4c384d9e77fc491367a3984676ccf695ad72ecddd6ca5f86c8a920fe4645",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1417,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        891.0728248637599,
+        64.84416389541508
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "beadd756a1c28d3c47d228030d66c7e2b3c6d7d160edb4f7e4d785af1d42df9f",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1421,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        878.2734639577423,
+        66.83648260536555
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d9c4e7407f7c2b6b4dd76e268bec0496e0ab09d317db5face396016c25f3a26e",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1426,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        889.4072089617489,
+        65.12618962304259
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "281044fade2b49f2df67ef520a6cb123088ad7382eeb1a7909a294046e7a3292",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1430,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        897.3871796763036,
+        66.03635071282665
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "476ead9ae5b3eafdc9c7b4f96f549374eb7e42f820072f85483e0603ced3c26d",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1434,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        918.5264629627052,
+        66.10713871788874
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "73bee8ffef24bf7cd74238126714b17893453eec0f3aa994ac10965222daaf9e",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1440,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        909.2136817004633,
+        66.78581717868303
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "5076cadb7fbfb3b59010cac91e0b00bdebe2d17f09f686d8a49439fc3c2c7a28",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 1460,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        996.0556255840187,
+        392.55694097398197
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d53c0eb93aebcf069fc6659ce39b0d11e2a094cb0835c0484627642fab4ebc2c",
+      "verdict": "wrong_object",
+      "note": "Goalie clothing"
+    },
+    {
+      "frame": 1820,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        397.48909835838714,
+        718.2859247248745
+      ],
+      "before_pixel": [
+        380.7436203736297,
+        703.5846487153724
+      ],
+      "change_px": 22.28314495859049,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "9d0ebdf43847ea8efa018eda826e30e6a316f2c4916b7e809ef89e3b2ff112ff",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1873,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        707.5259060591625,
+        539.579530831365
+      ],
+      "before_pixel": [
+        573.0477865749558,
+        524.8835110471845
+      ],
+      "change_px": 135.2787404491393,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "f961b0ec55ddb605b80dc2fd3797c1453854d077ca37e7c1366c57f271c8e1a1",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 1978,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        787.6275223502532,
+        494.3515165967362
+      ],
+      "before_pixel": [
+        798.5447999999999,
+        467.1999
+      ],
+      "change_px": 29.264265497323137,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "fbea1ed48c0e9135d8fa04cf4f5a2078faa4ffaaefac8207e78940bfbfe1ef06",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 2020,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1037.0604839227658,
+        501.55387832518437
+      ],
+      "before_pixel": [
+        1018.5154490668206,
+        498.64090766058234
+      ],
+      "change_px": 18.772419021028046,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "31821f6a5b7cc266f26893d98d2eb37633bdddd5f795b645ebe12c1a1c3c8670",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2045,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        842.8223058173219,
+        521.644862261852
+      ],
+      "before_pixel": [
+        838.1840697219969,
+        514.3245156460453
+      ],
+      "change_px": 8.666066503987205,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c43136b341a8a30e2caf635823c954524c72519c3e6f0c3ba45559ca01e7b021",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 2266,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1269.8477004072652,
+        762.611719110087
+      ],
+      "before_pixel": [
+        426.2799685215846,
+        532.564480209888
+      ],
+      "change_px": 874.3730613441592,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "f03da37caa6622440f2b663acf30b9a6d30c37503add5f0647304ac9abae5812",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 2554,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        503.88422860023104,
+        499.67202589501926
+      ],
+      "before_pixel": [
+        784.8745933783146,
+        535.0208865826173
+      ],
+      "change_px": 283.20509714698227,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d824ae15b74c50162b568a5cbe6d906d4e5242c1e6868953f39dda3254b75fff",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 2602,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1577.50725,
+        569.4945
+      ],
+      "before_pixel": [
+        1718.3999999999999,
+        702.0
+      ],
+      "change_px": 193.41270520007836,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "a97d6f5eaf74a36a8286da431c6bcaf80c21cf9dedf2289a347983dae999b3cb",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 2608,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        1247.125,
+        670.41425
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "09324061e95e06b596e7aea904f049d749231931c664aa08a64a1fbe47271e84",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 2729,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1627.6103526889883,
+        462.33165832747295
+      ],
+      "before_pixel": [
+        1604.8924313783925,
+        461.9629321572861
+      ],
+      "change_px": 22.72091344253137,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "e1e67e55a6aaae3120e5550c0cf5ac1615559c63d79ee36521b1f56de42ce2ca",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 2837,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        516.7031093447004,
+        612.2057874585029
+      ],
+      "before_pixel": [
+        615.1859811963427,
+        622.4819224569806
+      ],
+      "change_px": 99.01754894287149,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "b6ed0f325ff2129d30f3ba3b4bc8ea89c78057f36bd94bd80e9cfaa70e4f4acf",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 3046,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1516.2318121667925,
+        551.4644841478032
+      ],
+      "before_pixel": [
+        962.7684378021219,
+        504.0679952653532
+      ],
+      "change_px": 555.4890943317534,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c00c6d76c53075fbe5ecb4756b572f42d5d8e2c45fba21702d1350c63f09793c",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 3215,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        1190.2984798385232,
+        68.6484205371475
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "b804f885e83be87b3ee057779b021b14dc6b76e8a8fdcfd281a71ef9b877993a",
+      "verdict": "wrong_object",
+      "note": "Scoreboard digit"
+    },
+    {
+      "frame": 3335,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        407.43816235753474,
+        494.4536590212905
+      ],
+      "before_pixel": [
+        423.71309914748576,
+        530.9128681913667
+      ],
+      "change_px": 39.9267767397303,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "91c50b81867ca42319300c653a72a209ca4b97b478ed3fd574a8c862d9976cfc",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 3365,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        533.5399082215565,
+        556.6034181275259
+      ],
+      "before_pixel": [
+        541.2198361858825,
+        545.6176202654723
+      ],
+      "change_px": 13.404068345212856,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "b2d2a77dfeae27b03f7b9dfecd64856cc2d4c445f359b2fe682281335f6d5333",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 3553,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        428.57851859580273,
+        517.0851021233966
+      ],
+      "before_pixel": [
+        412.87405714285705,
+        492.3133714285715
+      ],
+      "change_px": 29.33033840827613,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "c277643d24dd703a0c5e55e705bbfbf30b19fed79e744e7d5cce1564584c27fc",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 3790,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1183.837918551744,
+        460.14391098787695
+      ],
+      "before_pixel": [
+        1336.9138285714284,
+        462.6041142857143
+      ],
+      "change_px": 153.0956786738973,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "1e420405da06f872f37047cdb25626296604d91f0e85c7376ae3c4566eddedbd",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 3941,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1373.7933868489715,
+        502.76834255001125
+      ],
+      "before_pixel": [
+        1380.33052769443,
+        495.9209233105905
+      ],
+      "change_px": 9.466855902238633,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "64fbe1571c326c0fa075b856ea0f176fb7ab9c87b4ac5b0c8343c586bf0d7a8c",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 4009,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1255.0472102064368,
+        499.83229799352955
+      ],
+      "before_pixel": [
+        1264.9541163770614,
+        497.6283828071092
+      ],
+      "change_px": 10.149090206638878,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d772eb52bacd02fa8b9d27c9200bb50e4d17bf8335d4f1b60a01095b8290a269",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 4015,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1250.670667684758,
+        500.74569979425246
+      ],
+      "before_pixel": [
+        1277.969095705564,
+        497.7591501872263
+      ],
+      "change_px": 27.4613118944154,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "b784e51693551914612354eaafa1c079426facf67d221b897ed1067a6d69347e",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 4021,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1229.6263767335456,
+        502.30202153171956
+      ],
+      "before_pixel": [
+        1280.4645043980547,
+        495.41328639459823
+      ],
+      "change_px": 51.30272796082423,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "1c66d872daa93619f3d63079d28626b51e9958e54582e10807d5a55bf5619b9c",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 4025,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1234.6321691564015,
+        503.0038643202855
+      ],
+      "before_pixel": [
+        1296.1735837432097,
+        495.9859442599794
+      ],
+      "change_px": 61.94026889930545,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "50fc395c8c784ba784ff9d4434d58792bb89080e52966540d499b63737ab2d2c",
+      "verdict": "visible_ball",
+      "note": ""
+    },
+    {
+      "frame": 4100,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1683.8438570413184,
+        568.9559445280304
+      ],
+      "before_pixel": [
+        1581.997171283108,
+        475.95149183111124
+      ],
+      "change_px": 137.92235359572842,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "3eee0209adfe1cde75fdb6e7e137491e6b4d71bb579dcf8d8f7402b2b1ec8fed",
+      "verdict": "unresolved",
+      "note": ""
+    },
+    {
+      "frame": 4357,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1480.0506974705015,
+        638.2352272915864
+      ],
+      "before_pixel": [
+        1071.2639816561323,
+        475.0975633821613
+      ],
+      "change_px": 440.13688372155593,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "bdb0f1e7f05451f4f8efb702018c009d6a6c83b72406da35d24f5ce1eedf5c57",
+      "verdict": "wrong_object",
+      "note": "Pink stick shaft"
+    },
+    {
+      "frame": 4361,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1478.0600264111322,
+        639.2217094679361
+      ],
+      "before_pixel": [
+        1079.9534173995817,
+        475.02289878716266
+      ],
+      "change_px": 430.63920115063377,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "df8b4f0b59a29cea000057916145f9405f8f451b3c7800cc19ef648eaf99024e",
+      "verdict": "wrong_object",
+      "note": "Pink stick shaft"
+    },
+    {
+      "frame": 4468,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1510.0360517390272,
+        598.5683503481102
+      ],
+      "before_pixel": [
+        1008.4134927997062,
+        566.8745067858756
+      ],
+      "change_px": 502.62281221267705,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "cf3cdbfb092dc402812b62c8ac19dcec9bcd22caef78b25de41c666ab734ca67",
+      "verdict": "wrong_object",
+      "note": "Pink stick shaft"
+    }
+  ]
+}

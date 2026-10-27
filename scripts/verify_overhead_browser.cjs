@@ -41,6 +41,8 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   const ballResponse=await page.request.get(base+'/data/ball-sequence-20261026/report.json');assert(ballResponse.ok());assert.deepEqual(await ballResponse.json(),ballReport);
   const positionsResponse=await page.request.get(base+'/data/ball-sequence-20261026/positions.json');assert(positionsResponse.ok());assert.deepEqual(await positionsResponse.json(),ballData);
   const parseCSV=text=>{const rows=[];let row=[],cell='',quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(c==='"'){if(quoted&&text[i+1]==='"'){cell+='"';i++;}else quoted=!quoted;}else if(c===','&&!quoted){row.push(cell);cell='';}else if(c==='\n'&&!quoted){row.push(cell);rows.push(row);row=[];cell='';}else cell+=c;}return rows;};
+  assert.equal(await page.locator('#ball-mode').inputValue(),'temporal');
+  await page.locator('#ball-mode').selectOption('context');
   await page.locator('[data-ball-seek="2850"]').click();await decoded(2850);
   assert.equal(await page.locator('body').getAttribute('data-ball-state'),ballData.frames[2850].state);
   assert.equal(ballData.frames[2850].state,'detected');
@@ -120,6 +122,25 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   await seek(480);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
   await page.locator('#ball-mode').selectOption('context');
   result.checks.push('SAM3 numeric report matches deployed source, comparison table, selectable hybrid replay, decoded-frame state, single-position CSV, cut reset and coverage');
+  const temporalFolder=path.join(root,'web/data/ball-temporal-20261026');
+  const temporalData=JSON.parse(fs.readFileSync(path.join(temporalFolder,'positions.json'))),temporalReport=JSON.parse(fs.readFileSync(path.join(temporalFolder,'report.json')));
+  for(const [name,expected]of [['positions.json',temporalData],['report.json',temporalReport]]){const response=await page.request.get(base+'/data/ball-temporal-20261026/'+name);assert(response.ok());assert.deepEqual(await response.json(),expected);}
+  await page.locator('#ball-mode').selectOption('temporal');
+  assert.equal(await page.locator('#ball-latest-result').innerText(),temporalReport.decision.summary);
+  assert(await page.locator('#ball-latest-result').isVisible());
+  const temporalCSV=parseCSV(await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text()));assert.equal(temporalCSV.length,4501);
+  for(let f=0;f<4500;f++){
+   const r=temporalCSV[f+1],p=temporalData.frames[f],mapped=ballMap.position(p,replay.frames[f],replay.relative_bounds);
+   assert.equal(r.length,16);assert.equal(r[3],p.state);assert.equal(r[6],p.pixel?String(p.pixel[0]*1920):'');assert.equal(r[7],p.pixel?String(p.pixel[1]*1080):'');
+   assert.equal(r[13],mapped.xy?String(mapped.xy[0]):'');assert.equal(r[14],mapped.xy?String(mapped.xy[1]):'');assert.equal(r[15],mapped.method);
+   assert(!['hypotheses','model_radius_px','covariance','pixel_covariance'].some(k=>k in p));
+  }
+  for(const f of [480,620,1873,2819,3368,4021,4446])await checkMap(f,temporalData);
+  await page.locator('[data-ball-seek="1873"]').click();await decoded(1873);
+  assert.equal(await page.locator('body').getAttribute('data-ball-state'),temporalData.frames[1873].state);
+  assert((await page.locator('#ball-summary').innerText()).includes((temporalReport.estimated_coverage*100).toFixed(1)+'%'));
+  await page.screenshot({path:output.replace(/\.json$/,'-improved-ball.png'),fullPage:true});
+  result.checks.push('Improved replay is default; all 4,500 exported points and map methods match source; actual decoded ball positions, cut reset and held/airborne diagram checked');
   if(replay.players.length>1){await page.locator('#trajectory-player').selectOption(replay.players[1].id);assert((await page.locator('#identity-note').innerText()).includes('Automatic track fragment'));await page.locator('#trajectory-player').selectOption(replay.default_player);}
   await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Mobile overflow');
   await video.evaluate(async v=>{v.muted=true;await v.play();});const before=Number(await page.locator('body').getAttribute('data-overhead-frame'));await page.waitForFunction(f=>Number(document.body.dataset.overheadFrame)>f+10,before);await video.evaluate(v=>v.pause());
@@ -128,6 +149,10 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   await page.waitForFunction(()=>document.body.dataset.overheadReady==='true');await decoded(samFrame);
   assert.equal(await page.locator('#ball-mode').inputValue(),'sam');assert.equal(await page.locator('body').getAttribute('data-ball-state'),samData.frames[samFrame].state);
   result.checks.push('Direct SAM replay link restores method and decoded timestamp');
+  await page.goto(base+'/overhead.html?ball=temporal&t=124.86668',{waitUntil:'networkidle',timeout:120000});
+  await page.waitForFunction(()=>document.body.dataset.overheadReady==='true');await decoded(1873);
+  assert.equal(await page.locator('#ball-mode').inputValue(),'temporal');
+  result.checks.push('Improved replay deep link restores method and timestamp');
   assert(await page.locator('#overhead-error').isHidden());assert.deepEqual(result.errors,[]);
  }finally{fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,JSON.stringify(result,null,2)+'\n');await browser.close();}
  console.log(JSON.stringify(result));

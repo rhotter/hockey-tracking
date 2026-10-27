@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-27T08:36:42.838821+00:00",
+  "reference_labels_used": false,
+  "selection": "Fused YOLO score>=.4, crop verifier>=.5, no extended marking or elongated structure; first eligible candidate per frame; skip original visual anchors and all nearby existing proposals; rank score times verifier with6frame spacing.",
+  "input_sha256": {
+    "build/ball-rebuild-20261026/full1280.json": "223226c8fec544c2971a889c5f4823a1e6afeee659f2a436ac0d6f6510ade928",
+    "build/ball-rebuild-20261026/full1920.json": "ac2eccd05facd0603bcb399d8cb95e74b807946217893b4fcdedcee283618803",
+    "build/ball-rebuild-20261026/tiles640.json": "2a612e0bfc6b325c03d13eb31e28a7f1be08015aec74ab56069b9251efd1c58e",
+    "build/ball-rebuild-20261026/verifier-v4.json": "a0d14b3c46d307aa35b071e5047c36cda5c34a5aa8b20ac557ecce55d0ddd9cb",
+    "build/ball-rebuild-20261026/appearance-shape.json": "99f24e991c7b00ce7458bea31d6a0126da4ee225d977de812353db8ba8163c11"
+  },
+  "proposals": 112,
+  "seeds": 59,
+  "limits": "Exploratory development addition after comparing detector transfer; sequence verification is mandatory."
+}

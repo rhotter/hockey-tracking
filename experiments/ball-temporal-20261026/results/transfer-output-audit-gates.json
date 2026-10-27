@@ -1,0 +1,3972 @@
+{
+  "audit_sha256": "82d2ce6a447e949d6bb60373b2d620366258e0875f1495b9e57d85bf3a7b1dee",
+  "scope": "Rejection-only evaluation at exactly the original output coordinates. A wrong-object verdict is not a claim that no ball exists elsewhere. All classifier predictions were complete before this output audit. Post-prediction assistant review, not independent human ground truth.",
+  "models": {
+    "original": {
+      "threshold": 0.99,
+      "source_result_sha256": "2307438a869240932ab16463592ca6b0e788ba50a2c578074514c4767c0f57a6",
+      "counts": {
+        "wrong_object_retained": 31,
+        "wrong_object_rejected": 21,
+        "visible_ball_retained": 3,
+        "unresolved_retained": 1,
+        "unresolved_rejected": 4
+      },
+      "rows": [
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 338,
+          "pixel": [
+            193.40908813476562,
+            172.2649688720703
+          ],
+          "source_sha256": "75105df457e975755fa88f3c1f22c183bcf2b0f63d508224dbb73d66f7f62ad1",
+          "verdict": "wrong_object",
+          "note": "Painted pink floor marking.",
+          "accepted": true,
+          "verifier_score": 0.9981756210327148
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 383,
+          "pixel": [
+            1772.362548828125,
+            567.442138671875
+          ],
+          "source_sha256": "20f1e6aa6c60b2d741e22d4695eeddc755abf1fe3ad47f4ad935e55a65e90191",
+          "verdict": "wrong_object",
+          "note": "Orange shin pad.",
+          "accepted": true,
+          "verifier_score": 0.9999006986618042
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 563,
+          "pixel": [
+            1713.255126953125,
+            667.7374267578125
+          ],
+          "source_sha256": "3ae489e15739ada48a6fc82d9be6759d59501114412bc2a2ecc1da01dc15f480",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": true,
+          "verifier_score": 0.9926223754882812
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 653,
+          "pixel": [
+            1018.920166015625,
+            350.9635009765625
+          ],
+          "source_sha256": "1f666bffb55381dd07995332851a200205c20ea617cc8c2f9cae8e1a2759c6f3",
+          "verdict": "wrong_object",
+          "note": "Fixed mark on the rink board.",
+          "accepted": false,
+          "verifier_score": 0.980549156665802
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 878,
+          "pixel": [
+            73.56709289550781,
+            441.50262451171875
+          ],
+          "source_sha256": "7dfe6661fe03ad3d9b7e71eb3b676e1e21c77ea30caa3e39651024d0548a1ee1",
+          "verdict": "wrong_object",
+          "note": "Player knee.",
+          "accepted": false,
+          "verifier_score": 0.7930595278739929
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 923,
+          "pixel": [
+            1028.1226806640625,
+            560.33251953125
+          ],
+          "source_sha256": "e57354fbef6b9af2e8b636113a8df1fe1cd00dd57bab57c77f656ec3f3d89cc7",
+          "verdict": "wrong_object",
+          "note": "Referee red sleeve.",
+          "accepted": true,
+          "verifier_score": 0.9999545812606812
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 1148,
+          "pixel": [
+            491.68975830078125,
+            596.0553588867188
+          ],
+          "source_sha256": "f41fe2c271ab4712d910b34c2bef2141d6042cc975b343b0b972cbfdfcfc0ac8",
+          "verdict": "wrong_object",
+          "note": "Player ear beside helmet.",
+          "accepted": false,
+          "verifier_score": 0.8320154547691345
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 113,
+          "pixel": [
+            615.3179931640625,
+            296.211669921875
+          ],
+          "source_sha256": "970d38d175c53775ceb20969d882ac41043d2e6222ab11aca38984081bd468ab",
+          "verdict": "wrong_object",
+          "note": "Red goal crossbar.",
+          "accepted": false,
+          "verifier_score": 0.963755190372467
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 248,
+          "pixel": [
+            1699.423828125,
+            112.77392578125
+          ],
+          "source_sha256": "e2ef23b599a5dc795f0e3cb6031071017ee12d586a3084dea1c992da50106554",
+          "verdict": "visible_ball",
+          "note": "Separate pink ball moving upward against the dark building.",
+          "accepted": true,
+          "verifier_score": 0.9974428415298462
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 293,
+          "pixel": [
+            372.567626953125,
+            442.0975341796875
+          ],
+          "source_sha256": "5b15d2857c33476320700a2789eef69ccdf426044b367290c744b88215d6ab86",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.6694822907447815
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 473,
+          "pixel": [
+            320.23797607421875,
+            772.73876953125
+          ],
+          "source_sha256": "dd5e74c0bb41591503348d78bfbcbc212ddbc414eb0a2b2bebe80779da26d7c0",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking beside shorts.",
+          "accepted": true,
+          "verifier_score": 0.9999563694000244
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 518,
+          "pixel": [
+            10.471800804138184,
+            644.836669921875
+          ],
+          "source_sha256": "9f0d705304dd8f1d8156037e812c57595f1878bb0146a4e8623d4bd000b249f0",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": true,
+          "verifier_score": 0.999686598777771
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 878,
+          "pixel": [
+            611.0835571289062,
+            726.6417846679688
+          ],
+          "source_sha256": "511d754632f7fe3e0094e20486228966ba43f7bb24f4777c87a51370f0447d8d",
+          "verdict": "wrong_object",
+          "note": "Pink detail on the stick blade.",
+          "accepted": true,
+          "verifier_score": 0.9997054934501648
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1058,
+          "pixel": [
+            604.62841796875,
+            1073.6531982421875
+          ],
+          "source_sha256": "914d4eff189f260e28716d9a57dcdbe9be1c91cdb133bb27d7cd293c9de69ece",
+          "verdict": "visible_ball",
+          "note": "Pink ball at the lower image edge, moving laterally across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.999997615814209
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1193,
+          "pixel": [
+            264.73980712890625,
+            257.8301696777344
+          ],
+          "source_sha256": "e7bb15b40bed13b237ec0ac1b4c590f7878bc4c580c08a526203336144672e27",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": true,
+          "verifier_score": 0.9998434782028198
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1010.170166015625,
+            367.3885498046875
+          ],
+          "source_sha256": "a46f1fb424a4fae86318618a29272386f0e20b680562a7595939ec3badcaa77b",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": true,
+          "verifier_score": 0.9999996423721313
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 113,
+          "pixel": [
+            639.0995483398438,
+            557.640625
+          ],
+          "source_sha256": "2272e37960d102d30d345469c707157a13b25a66b6c6de2ebb87124602284761",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.9404919743537903
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 383,
+          "pixel": [
+            1041.408203125,
+            405.5820007324219
+          ],
+          "source_sha256": "8de3d75472c5d64cb5bc1c7fa3807143a361244c988bb67b7576275a45236ad4",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking below stick.",
+          "accepted": true,
+          "verifier_score": 0.9997254014015198
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 23,
+          "pixel": [
+            672.8892822265625,
+            974.729736328125
+          ],
+          "source_sha256": "318ee1b4f3d33a42a702f3335ae72b3d279399392314f6fd80acc930ffaa3589",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999761581420898
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 113,
+          "pixel": [
+            1419.731689453125,
+            1058.35302734375
+          ],
+          "source_sha256": "3beffd6ce168f2bf1b333160083d74510f0be08aa774fcfd6836c4f8a3fe5925",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": true,
+          "verifier_score": 0.9915195107460022
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 158,
+          "pixel": [
+            672.8353881835938,
+            974.8909301757812
+          ],
+          "source_sha256": "375def167d26cda0c2d230b3aa235dc32535ad373fb2482386b286adecd89d69",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999350309371948
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 248,
+          "pixel": [
+            672.68603515625,
+            974.890869140625
+          ],
+          "source_sha256": "689c12348dc49a7a886346a14d6b1f8906aafa83dade3fe133363e29e66cfc6c",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999222755432129
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 293,
+          "pixel": [
+            672.8898315429688,
+            974.8261108398438
+          ],
+          "source_sha256": "0c58fe746e5d981f2943d78c544afeb49328fa0b02515fd3afd86f13ae1102fc",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999725818634033
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 383,
+          "pixel": [
+            589.7047729492188,
+            906.0368041992188
+          ],
+          "source_sha256": "00ce8b2fda46bccbd40fd399d4d224d9f79f7cf31bbe3c8dcf4597994630bd9e",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.5300896763801575
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 428,
+          "pixel": [
+            672.9603271484375,
+            974.6702880859375
+          ],
+          "source_sha256": "23d09cb4b46b41dda8ffce81c5729ae6d1f9d77eaf443461661bdbaa780143f6",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9998815059661865
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 518,
+          "pixel": [
+            381.2273254394531,
+            978.1671142578125
+          ],
+          "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.7034670114517212
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 563,
+          "pixel": [
+            858.4658203125,
+            1035.6427001953125
+          ],
+          "source_sha256": "57fedc487aba057cd2e85296698fd28e54e34da502b8e88bd95ad3b89ced5978",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.983171284198761
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 653,
+          "pixel": [
+            858.8467407226562,
+            1035.656982421875
+          ],
+          "source_sha256": "ae92e91b5a19fda5e14e2a06e5901a9c61fcd011b174634dfd90e4cd94a3c7e1",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.820842981338501
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 698,
+          "pixel": [
+            859.1544189453125,
+            1035.6510009765625
+          ],
+          "source_sha256": "660c96b75138cc07b66022dca119ad017c66ea8ef48bcb9903c8633d2d9e307a",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.9310315251350403
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 788,
+          "pixel": [
+            1200.972412109375,
+            961.28759765625
+          ],
+          "source_sha256": "ac95ff123f7323439498046e0d97f77d59af9617e7c3dde4d929076f05088fa5",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9981637597084045
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 833,
+          "pixel": [
+            858.9680786132812,
+            1035.82080078125
+          ],
+          "source_sha256": "0570d774a6e6b0b29d708f9cfc49ef29ee6d45267d261adad8a699ef4a6f2ac3",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.9798405766487122
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 923,
+          "pixel": [
+            859.1015014648438,
+            1036.15625
+          ],
+          "source_sha256": "886258c5e18cb02026c891826cc25217448e103521e6eb0d9bc327d219350d9c",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.9084435105323792
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 968,
+          "pixel": [
+            672.7750244140625,
+            974.814697265625
+          ],
+          "source_sha256": "e6360f14eff83f49aa9c88adbdb312c27dc02b541d067363653bd485b68b2627",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999617338180542
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1058,
+          "pixel": [
+            382.5164794921875,
+            1026.510498046875
+          ],
+          "source_sha256": "85ea83b7e46b90cc4b53c03b18f7e7f7649403a3be1d8adf2e8533768a6385cb",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.9659517407417297
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1103,
+          "pixel": [
+            219.78579711914062,
+            459.34283447265625
+          ],
+          "source_sha256": "36bf5b49f3c93855ae8473947b30761e84376e5bfb64b0d219158160c75ab2a0",
+          "verdict": "unresolved",
+          "note": "Object near spectator hand cannot be resolved.",
+          "accepted": true,
+          "verifier_score": 0.9997465014457703
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1193,
+          "pixel": [
+            672.8212890625,
+            974.8770751953125
+          ],
+          "source_sha256": "cae1f76624ec72634bdd0336a37f4a41bf918d218356ff0040f23d4d5db65e3e",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.999743640422821
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1283,
+          "pixel": [
+            672.794921875,
+            974.805419921875
+          ],
+          "source_sha256": "65f2c417693cd8987739d9448de1ab81f8c24375044285ffb0cb10e23df5f294",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.999910831451416
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 23,
+          "pixel": [
+            672.7215576171875,
+            974.7830810546875
+          ],
+          "source_sha256": "e5e4c723acfbe1155addb591e84d766afdb746b3a98003348e5231ce07210537",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999892711639404
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 68,
+          "pixel": [
+            672.7747192382812,
+            974.7794189453125
+          ],
+          "source_sha256": "2b48427be31a281477a079e86f4557a5874e61f597d447a66c75bc8ccf7ff194",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999637603759766
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 203,
+          "pixel": [
+            244.8951873779297,
+            786.9058227539062
+          ],
+          "source_sha256": "49cf4ba631cda8f6803a930d6dd6f06624a33c2054d790aec9493622529fc43e",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.390888512134552
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 383,
+          "pixel": [
+            164.67234802246094,
+            792.1181640625
+          ],
+          "source_sha256": "15f1466a12a316ce573a682bed2e1f58f199a0a5263e6d802b72648ae3467688",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.6701449155807495
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 428,
+          "pixel": [
+            164.859619140625,
+            792.1287841796875
+          ],
+          "source_sha256": "f0eae8fcc86b2a70422ab01aeccb05b4bd898c16570e8dc603b425504e75b583",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.7651376724243164
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 518,
+          "pixel": [
+            164.1353759765625,
+            792.2396240234375
+          ],
+          "source_sha256": "a39fd1b74a080f64779c0a7dde39be9ad2deab8944585da66288cfabb9977ba0",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.5917443037033081
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 653,
+          "pixel": [
+            1622.33740234375,
+            587.3472900390625
+          ],
+          "source_sha256": "0a97cb8e676036e643e84cf16e5b1a00c4d19dda712f2540300c0bc4ccddc6c6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": true,
+          "verifier_score": 0.9990419745445251
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 788,
+          "pixel": [
+            1444.5009765625,
+            533.6595458984375
+          ],
+          "source_sha256": "328a83360b3415fa0fa9fab50cd299ce0f3e3735a30ed22629216932972d17a6",
+          "verdict": "wrong_object",
+          "note": "Red shoulder stripe.",
+          "accepted": true,
+          "verifier_score": 0.9999866485595703
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 833,
+          "pixel": [
+            483.2991943359375,
+            881.0640869140625
+          ],
+          "source_sha256": "a8c958cfd10b89e7c2deb5742b82159d9cf5f0cb5b0de2a59dbc4775e7833217",
+          "verdict": "wrong_object",
+          "note": "Board fastener.",
+          "accepted": false,
+          "verifier_score": 0.9441407918930054
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 923,
+          "pixel": [
+            1779.1920166015625,
+            594.8143310546875
+          ],
+          "source_sha256": "78b3d21de05c7f3869f51e18bdc73dc16e9f1cf786ae25ab7b1a3f5002028658",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.7047999501228333
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 968,
+          "pixel": [
+            1779.651123046875,
+            592.2674560546875
+          ],
+          "source_sha256": "e7fecad8baa7c1ff93037bc63dd0d14a2d33a462a3ce2d258f5ebf13f8ab44b6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.9306212663650513
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1103,
+          "pixel": [
+            1816.146728515625,
+            591.156982421875
+          ],
+          "source_sha256": "a4d06e5050ad33663522539afd355677799333668a5af60d82263cd7b1021329",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": true,
+          "verifier_score": 0.9993100166320801
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1148,
+          "pixel": [
+            1785.4052734375,
+            598.3409423828125
+          ],
+          "source_sha256": "75324121912181ca9a147afae7147dbce247dd95bb4dc02cb6ef435305438587",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": true,
+          "verifier_score": 0.9949749708175659
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1602.9171142578125,
+            557.35205078125
+          ],
+          "source_sha256": "edffc8d1258d516cf920ff238a09054cfbbc527d82115e2027e1a611d96fd4b0",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": true,
+          "verifier_score": 0.9990655779838562
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 23,
+          "pixel": [
+            1084.450927734375,
+            1018.4352416992188
+          ],
+          "source_sha256": "b9c90f6301e1947cfdc32f2d6226a4a8d1cbc689ae54907f58f71904cddd97f5",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.5373222231864929
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 203,
+          "pixel": [
+            672.759033203125,
+            974.9508666992188
+          ],
+          "source_sha256": "569ac326c2c6d2bf834b12c4d5e121b5d3351d83f1d34b94f434ba77b37cf1b0",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9999182224273682
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 293,
+          "pixel": [
+            1542.5968017578125,
+            1056.3271484375
+          ],
+          "source_sha256": "ebcd7a1f9e782c1951bef7a2ad18510f1e6c9abfdb63af3b524878e37a260a4b",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.7320581674575806
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 653,
+          "pixel": [
+            672.9384155273438,
+            974.8299560546875
+          ],
+          "source_sha256": "42da7ad75b03d470d2bb84ba5aaec72cbadf93911810f27d90b21aa49780d900",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.9998854398727417
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 743,
+          "pixel": [
+            827.1373291015625,
+            401.57830810546875
+          ],
+          "source_sha256": "980c0e8821286dfa65813e2c779f983cfd2b737b91b6f9a95cf7870c6a648f07",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.4002019464969635
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 923,
+          "pixel": [
+            1789.639404296875,
+            527.4466552734375
+          ],
+          "source_sha256": "237230cdff4e51001df1c691164685b78dba2ef409a222c3417df57f2ad15794",
+          "verdict": "visible_ball",
+          "note": "Separate ball visible on the floor with motion across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.9999992847442627
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1013,
+          "pixel": [
+            1498.835693359375,
+            592.3553466796875
+          ],
+          "source_sha256": "662735370c9af4963c204eecf1630327b453a523ac20fc9861d2498d1f3c83c7",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.9890123605728149
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1193,
+          "pixel": [
+            772.1484375,
+            1026.7080078125
+          ],
+          "source_sha256": "37c02155d3c98f978453c1153e109adc0d836a5082f1f5fb43bf2e95292b17f4",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": true,
+          "verifier_score": 0.9934021830558777
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1283,
+          "pixel": [
+            1508.734375,
+            978.229248046875
+          ],
+          "source_sha256": "046a799cb5696a411340bc446c07e24fb4616841860ea6338eacd8ac1b662e9f",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": true,
+          "verifier_score": 0.9991375207901001
+        }
+      ]
+    },
+    "image-head": {
+      "threshold": 0.8,
+      "source_result_sha256": "2307438a869240932ab16463592ca6b0e788ba50a2c578074514c4767c0f57a6",
+      "counts": {
+        "wrong_object_rejected": 51,
+        "visible_ball_rejected": 3,
+        "wrong_object_retained": 1,
+        "unresolved_retained": 1,
+        "unresolved_rejected": 4
+      },
+      "rows": [
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 338,
+          "pixel": [
+            193.40908813476562,
+            172.2649688720703
+          ],
+          "source_sha256": "75105df457e975755fa88f3c1f22c183bcf2b0f63d508224dbb73d66f7f62ad1",
+          "verdict": "wrong_object",
+          "note": "Painted pink floor marking.",
+          "accepted": false,
+          "verifier_score": 0.6883903741836548
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 383,
+          "pixel": [
+            1772.362548828125,
+            567.442138671875
+          ],
+          "source_sha256": "20f1e6aa6c60b2d741e22d4695eeddc755abf1fe3ad47f4ad935e55a65e90191",
+          "verdict": "wrong_object",
+          "note": "Orange shin pad.",
+          "accepted": false,
+          "verifier_score": 0.05757782980799675
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 563,
+          "pixel": [
+            1713.255126953125,
+            667.7374267578125
+          ],
+          "source_sha256": "3ae489e15739ada48a6fc82d9be6759d59501114412bc2a2ecc1da01dc15f480",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.42173364758491516
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 653,
+          "pixel": [
+            1018.920166015625,
+            350.9635009765625
+          ],
+          "source_sha256": "1f666bffb55381dd07995332851a200205c20ea617cc8c2f9cae8e1a2759c6f3",
+          "verdict": "wrong_object",
+          "note": "Fixed mark on the rink board.",
+          "accepted": false,
+          "verifier_score": 0.0571444071829319
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 878,
+          "pixel": [
+            73.56709289550781,
+            441.50262451171875
+          ],
+          "source_sha256": "7dfe6661fe03ad3d9b7e71eb3b676e1e21c77ea30caa3e39651024d0548a1ee1",
+          "verdict": "wrong_object",
+          "note": "Player knee.",
+          "accepted": false,
+          "verifier_score": 0.05062779784202576
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 923,
+          "pixel": [
+            1028.1226806640625,
+            560.33251953125
+          ],
+          "source_sha256": "e57354fbef6b9af2e8b636113a8df1fe1cd00dd57bab57c77f656ec3f3d89cc7",
+          "verdict": "wrong_object",
+          "note": "Referee red sleeve.",
+          "accepted": false,
+          "verifier_score": 0.0899408683180809
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 1148,
+          "pixel": [
+            491.68975830078125,
+            596.0553588867188
+          ],
+          "source_sha256": "f41fe2c271ab4712d910b34c2bef2141d6042cc975b343b0b972cbfdfcfc0ac8",
+          "verdict": "wrong_object",
+          "note": "Player ear beside helmet.",
+          "accepted": false,
+          "verifier_score": 0.0397496372461319
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 113,
+          "pixel": [
+            615.3179931640625,
+            296.211669921875
+          ],
+          "source_sha256": "970d38d175c53775ceb20969d882ac41043d2e6222ab11aca38984081bd468ab",
+          "verdict": "wrong_object",
+          "note": "Red goal crossbar.",
+          "accepted": false,
+          "verifier_score": 0.011452778242528439
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 248,
+          "pixel": [
+            1699.423828125,
+            112.77392578125
+          ],
+          "source_sha256": "e2ef23b599a5dc795f0e3cb6031071017ee12d586a3084dea1c992da50106554",
+          "verdict": "visible_ball",
+          "note": "Separate pink ball moving upward against the dark building.",
+          "accepted": false,
+          "verifier_score": 0.21257378160953522
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 293,
+          "pixel": [
+            372.567626953125,
+            442.0975341796875
+          ],
+          "source_sha256": "5b15d2857c33476320700a2789eef69ccdf426044b367290c744b88215d6ab86",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.0010091594886034727
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 473,
+          "pixel": [
+            320.23797607421875,
+            772.73876953125
+          ],
+          "source_sha256": "dd5e74c0bb41591503348d78bfbcbc212ddbc414eb0a2b2bebe80779da26d7c0",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking beside shorts.",
+          "accepted": true,
+          "verifier_score": 0.9256031513214111
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 518,
+          "pixel": [
+            10.471800804138184,
+            644.836669921875
+          ],
+          "source_sha256": "9f0d705304dd8f1d8156037e812c57595f1878bb0146a4e8623d4bd000b249f0",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.018737535923719406
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 878,
+          "pixel": [
+            611.0835571289062,
+            726.6417846679688
+          ],
+          "source_sha256": "511d754632f7fe3e0094e20486228966ba43f7bb24f4777c87a51370f0447d8d",
+          "verdict": "wrong_object",
+          "note": "Pink detail on the stick blade.",
+          "accepted": false,
+          "verifier_score": 0.04951109737157822
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1058,
+          "pixel": [
+            604.62841796875,
+            1073.6531982421875
+          ],
+          "source_sha256": "914d4eff189f260e28716d9a57dcdbe9be1c91cdb133bb27d7cd293c9de69ece",
+          "verdict": "visible_ball",
+          "note": "Pink ball at the lower image edge, moving laterally across neighboring frames.",
+          "accepted": false,
+          "verifier_score": 0.6492158770561218
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1193,
+          "pixel": [
+            264.73980712890625,
+            257.8301696777344
+          ],
+          "source_sha256": "e7bb15b40bed13b237ec0ac1b4c590f7878bc4c580c08a526203336144672e27",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.032985057681798935
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1010.170166015625,
+            367.3885498046875
+          ],
+          "source_sha256": "a46f1fb424a4fae86318618a29272386f0e20b680562a7595939ec3badcaa77b",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.5012825131416321
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 113,
+          "pixel": [
+            639.0995483398438,
+            557.640625
+          ],
+          "source_sha256": "2272e37960d102d30d345469c707157a13b25a66b6c6de2ebb87124602284761",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.018624262884259224
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 383,
+          "pixel": [
+            1041.408203125,
+            405.5820007324219
+          ],
+          "source_sha256": "8de3d75472c5d64cb5bc1c7fa3807143a361244c988bb67b7576275a45236ad4",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking below stick.",
+          "accepted": false,
+          "verifier_score": 0.540209174156189
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 23,
+          "pixel": [
+            672.8892822265625,
+            974.729736328125
+          ],
+          "source_sha256": "318ee1b4f3d33a42a702f3335ae72b3d279399392314f6fd80acc930ffaa3589",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.20431284606456757
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 113,
+          "pixel": [
+            1419.731689453125,
+            1058.35302734375
+          ],
+          "source_sha256": "3beffd6ce168f2bf1b333160083d74510f0be08aa774fcfd6836c4f8a3fe5925",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.27727875113487244
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 158,
+          "pixel": [
+            672.8353881835938,
+            974.8909301757812
+          ],
+          "source_sha256": "375def167d26cda0c2d230b3aa235dc32535ad373fb2482386b286adecd89d69",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.1745932698249817
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 248,
+          "pixel": [
+            672.68603515625,
+            974.890869140625
+          ],
+          "source_sha256": "689c12348dc49a7a886346a14d6b1f8906aafa83dade3fe133363e29e66cfc6c",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.026498885825276375
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 293,
+          "pixel": [
+            672.8898315429688,
+            974.8261108398438
+          ],
+          "source_sha256": "0c58fe746e5d981f2943d78c544afeb49328fa0b02515fd3afd86f13ae1102fc",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.1264035552740097
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 383,
+          "pixel": [
+            589.7047729492188,
+            906.0368041992188
+          ],
+          "source_sha256": "00ce8b2fda46bccbd40fd399d4d224d9f79f7cf31bbe3c8dcf4597994630bd9e",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.007704420015215874
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 428,
+          "pixel": [
+            672.9603271484375,
+            974.6702880859375
+          ],
+          "source_sha256": "23d09cb4b46b41dda8ffce81c5729ae6d1f9d77eaf443461661bdbaa780143f6",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.06744986772537231
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 518,
+          "pixel": [
+            381.2273254394531,
+            978.1671142578125
+          ],
+          "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.26221251487731934
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 563,
+          "pixel": [
+            858.4658203125,
+            1035.6427001953125
+          ],
+          "source_sha256": "57fedc487aba057cd2e85296698fd28e54e34da502b8e88bd95ad3b89ced5978",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.025296518579125404
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 653,
+          "pixel": [
+            858.8467407226562,
+            1035.656982421875
+          ],
+          "source_sha256": "ae92e91b5a19fda5e14e2a06e5901a9c61fcd011b174634dfd90e4cd94a3c7e1",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.010028041899204254
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 698,
+          "pixel": [
+            859.1544189453125,
+            1035.6510009765625
+          ],
+          "source_sha256": "660c96b75138cc07b66022dca119ad017c66ea8ef48bcb9903c8633d2d9e307a",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.011407648213207722
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 788,
+          "pixel": [
+            1200.972412109375,
+            961.28759765625
+          ],
+          "source_sha256": "ac95ff123f7323439498046e0d97f77d59af9617e7c3dde4d929076f05088fa5",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.0030398734379559755
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 833,
+          "pixel": [
+            858.9680786132812,
+            1035.82080078125
+          ],
+          "source_sha256": "0570d774a6e6b0b29d708f9cfc49ef29ee6d45267d261adad8a699ef4a6f2ac3",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.01890440843999386
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 923,
+          "pixel": [
+            859.1015014648438,
+            1036.15625
+          ],
+          "source_sha256": "886258c5e18cb02026c891826cc25217448e103521e6eb0d9bc327d219350d9c",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.011462997645139694
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 968,
+          "pixel": [
+            672.7750244140625,
+            974.814697265625
+          ],
+          "source_sha256": "e6360f14eff83f49aa9c88adbdb312c27dc02b541d067363653bd485b68b2627",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.1923942118883133
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1058,
+          "pixel": [
+            382.5164794921875,
+            1026.510498046875
+          ],
+          "source_sha256": "85ea83b7e46b90cc4b53c03b18f7e7f7649403a3be1d8adf2e8533768a6385cb",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.145610049366951
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1103,
+          "pixel": [
+            219.78579711914062,
+            459.34283447265625
+          ],
+          "source_sha256": "36bf5b49f3c93855ae8473947b30761e84376e5bfb64b0d219158160c75ab2a0",
+          "verdict": "unresolved",
+          "note": "Object near spectator hand cannot be resolved.",
+          "accepted": true,
+          "verifier_score": 0.8275207877159119
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1193,
+          "pixel": [
+            672.8212890625,
+            974.8770751953125
+          ],
+          "source_sha256": "cae1f76624ec72634bdd0336a37f4a41bf918d218356ff0040f23d4d5db65e3e",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.04605061560869217
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1283,
+          "pixel": [
+            672.794921875,
+            974.805419921875
+          ],
+          "source_sha256": "65f2c417693cd8987739d9448de1ab81f8c24375044285ffb0cb10e23df5f294",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.05628533661365509
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 23,
+          "pixel": [
+            672.7215576171875,
+            974.7830810546875
+          ],
+          "source_sha256": "e5e4c723acfbe1155addb591e84d766afdb746b3a98003348e5231ce07210537",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.12516379356384277
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 68,
+          "pixel": [
+            672.7747192382812,
+            974.7794189453125
+          ],
+          "source_sha256": "2b48427be31a281477a079e86f4557a5874e61f597d447a66c75bc8ccf7ff194",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.09693579375743866
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 203,
+          "pixel": [
+            244.8951873779297,
+            786.9058227539062
+          ],
+          "source_sha256": "49cf4ba631cda8f6803a930d6dd6f06624a33c2054d790aec9493622529fc43e",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.4247625172138214
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 383,
+          "pixel": [
+            164.67234802246094,
+            792.1181640625
+          ],
+          "source_sha256": "15f1466a12a316ce573a682bed2e1f58f199a0a5263e6d802b72648ae3467688",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.5026289224624634
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 428,
+          "pixel": [
+            164.859619140625,
+            792.1287841796875
+          ],
+          "source_sha256": "f0eae8fcc86b2a70422ab01aeccb05b4bd898c16570e8dc603b425504e75b583",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.5231237411499023
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 518,
+          "pixel": [
+            164.1353759765625,
+            792.2396240234375
+          ],
+          "source_sha256": "a39fd1b74a080f64779c0a7dde39be9ad2deab8944585da66288cfabb9977ba0",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.4964450001716614
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 653,
+          "pixel": [
+            1622.33740234375,
+            587.3472900390625
+          ],
+          "source_sha256": "0a97cb8e676036e643e84cf16e5b1a00c4d19dda712f2540300c0bc4ccddc6c6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.38425570726394653
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 788,
+          "pixel": [
+            1444.5009765625,
+            533.6595458984375
+          ],
+          "source_sha256": "328a83360b3415fa0fa9fab50cd299ce0f3e3735a30ed22629216932972d17a6",
+          "verdict": "wrong_object",
+          "note": "Red shoulder stripe.",
+          "accepted": false,
+          "verifier_score": 0.4096415340900421
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 833,
+          "pixel": [
+            483.2991943359375,
+            881.0640869140625
+          ],
+          "source_sha256": "a8c958cfd10b89e7c2deb5742b82159d9cf5f0cb5b0de2a59dbc4775e7833217",
+          "verdict": "wrong_object",
+          "note": "Board fastener.",
+          "accepted": false,
+          "verifier_score": 0.035937853157520294
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 923,
+          "pixel": [
+            1779.1920166015625,
+            594.8143310546875
+          ],
+          "source_sha256": "78b3d21de05c7f3869f51e18bdc73dc16e9f1cf786ae25ab7b1a3f5002028658",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.02942798286676407
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 968,
+          "pixel": [
+            1779.651123046875,
+            592.2674560546875
+          ],
+          "source_sha256": "e7fecad8baa7c1ff93037bc63dd0d14a2d33a462a3ce2d258f5ebf13f8ab44b6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.05589020997285843
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1103,
+          "pixel": [
+            1816.146728515625,
+            591.156982421875
+          ],
+          "source_sha256": "a4d06e5050ad33663522539afd355677799333668a5af60d82263cd7b1021329",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.3708869516849518
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1148,
+          "pixel": [
+            1785.4052734375,
+            598.3409423828125
+          ],
+          "source_sha256": "75324121912181ca9a147afae7147dbce247dd95bb4dc02cb6ef435305438587",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.1832781583070755
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1602.9171142578125,
+            557.35205078125
+          ],
+          "source_sha256": "edffc8d1258d516cf920ff238a09054cfbbc527d82115e2027e1a611d96fd4b0",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.21754463016986847
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 23,
+          "pixel": [
+            1084.450927734375,
+            1018.4352416992188
+          ],
+          "source_sha256": "b9c90f6301e1947cfdc32f2d6226a4a8d1cbc689ae54907f58f71904cddd97f5",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0014130849158391356
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 203,
+          "pixel": [
+            672.759033203125,
+            974.9508666992188
+          ],
+          "source_sha256": "569ac326c2c6d2bf834b12c4d5e121b5d3351d83f1d34b94f434ba77b37cf1b0",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.11097154021263123
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 293,
+          "pixel": [
+            1542.5968017578125,
+            1056.3271484375
+          ],
+          "source_sha256": "ebcd7a1f9e782c1951bef7a2ad18510f1e6c9abfdb63af3b524878e37a260a4b",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.12463687360286713
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 653,
+          "pixel": [
+            672.9384155273438,
+            974.8299560546875
+          ],
+          "source_sha256": "42da7ad75b03d470d2bb84ba5aaec72cbadf93911810f27d90b21aa49780d900",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.06507162004709244
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 743,
+          "pixel": [
+            827.1373291015625,
+            401.57830810546875
+          ],
+          "source_sha256": "980c0e8821286dfa65813e2c779f983cfd2b737b91b6f9a95cf7870c6a648f07",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.0009410030324943364
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 923,
+          "pixel": [
+            1789.639404296875,
+            527.4466552734375
+          ],
+          "source_sha256": "237230cdff4e51001df1c691164685b78dba2ef409a222c3417df57f2ad15794",
+          "verdict": "visible_ball",
+          "note": "Separate ball visible on the floor with motion across neighboring frames.",
+          "accepted": false,
+          "verifier_score": 0.6095513701438904
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1013,
+          "pixel": [
+            1498.835693359375,
+            592.3553466796875
+          ],
+          "source_sha256": "662735370c9af4963c204eecf1630327b453a523ac20fc9861d2498d1f3c83c7",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.07349244505167007
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1193,
+          "pixel": [
+            772.1484375,
+            1026.7080078125
+          ],
+          "source_sha256": "37c02155d3c98f978453c1153e109adc0d836a5082f1f5fb43bf2e95292b17f4",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.12375743687152863
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1283,
+          "pixel": [
+            1508.734375,
+            978.229248046875
+          ],
+          "source_sha256": "046a799cb5696a411340bc446c07e24fb4616841860ea6338eacd8ac1b662e9f",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.4823450744152069
+        }
+      ]
+    },
+    "temporal-head": {
+      "threshold": 0.9,
+      "source_result_sha256": "2307438a869240932ab16463592ca6b0e788ba50a2c578074514c4767c0f57a6",
+      "counts": {
+        "wrong_object_rejected": 52,
+        "visible_ball_rejected": 2,
+        "unresolved_rejected": 5,
+        "visible_ball_retained": 1
+      },
+      "rows": [
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 338,
+          "pixel": [
+            193.40908813476562,
+            172.2649688720703
+          ],
+          "source_sha256": "75105df457e975755fa88f3c1f22c183bcf2b0f63d508224dbb73d66f7f62ad1",
+          "verdict": "wrong_object",
+          "note": "Painted pink floor marking.",
+          "accepted": false,
+          "verifier_score": 0.7766007781028748
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 383,
+          "pixel": [
+            1772.362548828125,
+            567.442138671875
+          ],
+          "source_sha256": "20f1e6aa6c60b2d741e22d4695eeddc755abf1fe3ad47f4ad935e55a65e90191",
+          "verdict": "wrong_object",
+          "note": "Orange shin pad.",
+          "accepted": false,
+          "verifier_score": 0.3021886944770813
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 563,
+          "pixel": [
+            1713.255126953125,
+            667.7374267578125
+          ],
+          "source_sha256": "3ae489e15739ada48a6fc82d9be6759d59501114412bc2a2ecc1da01dc15f480",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.18733550608158112
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 653,
+          "pixel": [
+            1018.920166015625,
+            350.9635009765625
+          ],
+          "source_sha256": "1f666bffb55381dd07995332851a200205c20ea617cc8c2f9cae8e1a2759c6f3",
+          "verdict": "wrong_object",
+          "note": "Fixed mark on the rink board.",
+          "accepted": false,
+          "verifier_score": 0.08399952948093414
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 878,
+          "pixel": [
+            73.56709289550781,
+            441.50262451171875
+          ],
+          "source_sha256": "7dfe6661fe03ad3d9b7e71eb3b676e1e21c77ea30caa3e39651024d0548a1ee1",
+          "verdict": "wrong_object",
+          "note": "Player knee.",
+          "accepted": false,
+          "verifier_score": 0.0499148964881897
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 923,
+          "pixel": [
+            1028.1226806640625,
+            560.33251953125
+          ],
+          "source_sha256": "e57354fbef6b9af2e8b636113a8df1fe1cd00dd57bab57c77f656ec3f3d89cc7",
+          "verdict": "wrong_object",
+          "note": "Referee red sleeve.",
+          "accepted": false,
+          "verifier_score": 0.1941341608762741
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 1148,
+          "pixel": [
+            491.68975830078125,
+            596.0553588867188
+          ],
+          "source_sha256": "f41fe2c271ab4712d910b34c2bef2141d6042cc975b343b0b972cbfdfcfc0ac8",
+          "verdict": "wrong_object",
+          "note": "Player ear beside helmet.",
+          "accepted": false,
+          "verifier_score": 0.09628555923700333
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 113,
+          "pixel": [
+            615.3179931640625,
+            296.211669921875
+          ],
+          "source_sha256": "970d38d175c53775ceb20969d882ac41043d2e6222ab11aca38984081bd468ab",
+          "verdict": "wrong_object",
+          "note": "Red goal crossbar.",
+          "accepted": false,
+          "verifier_score": 0.01356557011604309
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 248,
+          "pixel": [
+            1699.423828125,
+            112.77392578125
+          ],
+          "source_sha256": "e2ef23b599a5dc795f0e3cb6031071017ee12d586a3084dea1c992da50106554",
+          "verdict": "visible_ball",
+          "note": "Separate pink ball moving upward against the dark building.",
+          "accepted": false,
+          "verifier_score": 0.594883143901825
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 293,
+          "pixel": [
+            372.567626953125,
+            442.0975341796875
+          ],
+          "source_sha256": "5b15d2857c33476320700a2789eef69ccdf426044b367290c744b88215d6ab86",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.0010615329956635833
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 473,
+          "pixel": [
+            320.23797607421875,
+            772.73876953125
+          ],
+          "source_sha256": "dd5e74c0bb41591503348d78bfbcbc212ddbc414eb0a2b2bebe80779da26d7c0",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking beside shorts.",
+          "accepted": false,
+          "verifier_score": 0.858656108379364
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 518,
+          "pixel": [
+            10.471800804138184,
+            644.836669921875
+          ],
+          "source_sha256": "9f0d705304dd8f1d8156037e812c57595f1878bb0146a4e8623d4bd000b249f0",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.20085342228412628
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 878,
+          "pixel": [
+            611.0835571289062,
+            726.6417846679688
+          ],
+          "source_sha256": "511d754632f7fe3e0094e20486228966ba43f7bb24f4777c87a51370f0447d8d",
+          "verdict": "wrong_object",
+          "note": "Pink detail on the stick blade.",
+          "accepted": false,
+          "verifier_score": 0.19248956441879272
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1058,
+          "pixel": [
+            604.62841796875,
+            1073.6531982421875
+          ],
+          "source_sha256": "914d4eff189f260e28716d9a57dcdbe9be1c91cdb133bb27d7cd293c9de69ece",
+          "verdict": "visible_ball",
+          "note": "Pink ball at the lower image edge, moving laterally across neighboring frames.",
+          "accepted": false,
+          "verifier_score": 0.7201868295669556
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1193,
+          "pixel": [
+            264.73980712890625,
+            257.8301696777344
+          ],
+          "source_sha256": "e7bb15b40bed13b237ec0ac1b4c590f7878bc4c580c08a526203336144672e27",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.0954122319817543
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1010.170166015625,
+            367.3885498046875
+          ],
+          "source_sha256": "a46f1fb424a4fae86318618a29272386f0e20b680562a7595939ec3badcaa77b",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.4933968484401703
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 113,
+          "pixel": [
+            639.0995483398438,
+            557.640625
+          ],
+          "source_sha256": "2272e37960d102d30d345469c707157a13b25a66b6c6de2ebb87124602284761",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.015774549916386604
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 383,
+          "pixel": [
+            1041.408203125,
+            405.5820007324219
+          ],
+          "source_sha256": "8de3d75472c5d64cb5bc1c7fa3807143a361244c988bb67b7576275a45236ad4",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking below stick.",
+          "accepted": false,
+          "verifier_score": 0.6996879577636719
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 23,
+          "pixel": [
+            672.8892822265625,
+            974.729736328125
+          ],
+          "source_sha256": "318ee1b4f3d33a42a702f3335ae72b3d279399392314f6fd80acc930ffaa3589",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.2878274917602539
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 113,
+          "pixel": [
+            1419.731689453125,
+            1058.35302734375
+          ],
+          "source_sha256": "3beffd6ce168f2bf1b333160083d74510f0be08aa774fcfd6836c4f8a3fe5925",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.246429443359375
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 158,
+          "pixel": [
+            672.8353881835938,
+            974.8909301757812
+          ],
+          "source_sha256": "375def167d26cda0c2d230b3aa235dc32535ad373fb2482386b286adecd89d69",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.1969379037618637
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 248,
+          "pixel": [
+            672.68603515625,
+            974.890869140625
+          ],
+          "source_sha256": "689c12348dc49a7a886346a14d6b1f8906aafa83dade3fe133363e29e66cfc6c",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.075129933655262
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 293,
+          "pixel": [
+            672.8898315429688,
+            974.8261108398438
+          ],
+          "source_sha256": "0c58fe746e5d981f2943d78c544afeb49328fa0b02515fd3afd86f13ae1102fc",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.30214548110961914
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 383,
+          "pixel": [
+            589.7047729492188,
+            906.0368041992188
+          ],
+          "source_sha256": "00ce8b2fda46bccbd40fd399d4d224d9f79f7cf31bbe3c8dcf4597994630bd9e",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0027249734848737717
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 428,
+          "pixel": [
+            672.9603271484375,
+            974.6702880859375
+          ],
+          "source_sha256": "23d09cb4b46b41dda8ffce81c5729ae6d1f9d77eaf443461661bdbaa780143f6",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.11368539929389954
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 518,
+          "pixel": [
+            381.2273254394531,
+            978.1671142578125
+          ],
+          "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0741223394870758
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 563,
+          "pixel": [
+            858.4658203125,
+            1035.6427001953125
+          ],
+          "source_sha256": "57fedc487aba057cd2e85296698fd28e54e34da502b8e88bd95ad3b89ced5978",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.020755253732204437
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 653,
+          "pixel": [
+            858.8467407226562,
+            1035.656982421875
+          ],
+          "source_sha256": "ae92e91b5a19fda5e14e2a06e5901a9c61fcd011b174634dfd90e4cd94a3c7e1",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.003537240670993924
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 698,
+          "pixel": [
+            859.1544189453125,
+            1035.6510009765625
+          ],
+          "source_sha256": "660c96b75138cc07b66022dca119ad017c66ea8ef48bcb9903c8633d2d9e307a",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.00807604007422924
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 788,
+          "pixel": [
+            1200.972412109375,
+            961.28759765625
+          ],
+          "source_sha256": "ac95ff123f7323439498046e0d97f77d59af9617e7c3dde4d929076f05088fa5",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.010731193237006664
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 833,
+          "pixel": [
+            858.9680786132812,
+            1035.82080078125
+          ],
+          "source_sha256": "0570d774a6e6b0b29d708f9cfc49ef29ee6d45267d261adad8a699ef4a6f2ac3",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.012737463228404522
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 923,
+          "pixel": [
+            859.1015014648438,
+            1036.15625
+          ],
+          "source_sha256": "886258c5e18cb02026c891826cc25217448e103521e6eb0d9bc327d219350d9c",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.006892545148730278
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 968,
+          "pixel": [
+            672.7750244140625,
+            974.814697265625
+          ],
+          "source_sha256": "e6360f14eff83f49aa9c88adbdb312c27dc02b541d067363653bd485b68b2627",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.22520919144153595
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1058,
+          "pixel": [
+            382.5164794921875,
+            1026.510498046875
+          ],
+          "source_sha256": "85ea83b7e46b90cc4b53c03b18f7e7f7649403a3be1d8adf2e8533768a6385cb",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.08005549758672714
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1103,
+          "pixel": [
+            219.78579711914062,
+            459.34283447265625
+          ],
+          "source_sha256": "36bf5b49f3c93855ae8473947b30761e84376e5bfb64b0d219158160c75ab2a0",
+          "verdict": "unresolved",
+          "note": "Object near spectator hand cannot be resolved.",
+          "accepted": false,
+          "verifier_score": 0.7677196264266968
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1193,
+          "pixel": [
+            672.8212890625,
+            974.8770751953125
+          ],
+          "source_sha256": "cae1f76624ec72634bdd0336a37f4a41bf918d218356ff0040f23d4d5db65e3e",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.0959869846701622
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1283,
+          "pixel": [
+            672.794921875,
+            974.805419921875
+          ],
+          "source_sha256": "65f2c417693cd8987739d9448de1ab81f8c24375044285ffb0cb10e23df5f294",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.44339266419410706
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 23,
+          "pixel": [
+            672.7215576171875,
+            974.7830810546875
+          ],
+          "source_sha256": "e5e4c723acfbe1155addb591e84d766afdb746b3a98003348e5231ce07210537",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.19891229271888733
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 68,
+          "pixel": [
+            672.7747192382812,
+            974.7794189453125
+          ],
+          "source_sha256": "2b48427be31a281477a079e86f4557a5874e61f597d447a66c75bc8ccf7ff194",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.1586395800113678
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 203,
+          "pixel": [
+            244.8951873779297,
+            786.9058227539062
+          ],
+          "source_sha256": "49cf4ba631cda8f6803a930d6dd6f06624a33c2054d790aec9493622529fc43e",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.14434637129306793
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 383,
+          "pixel": [
+            164.67234802246094,
+            792.1181640625
+          ],
+          "source_sha256": "15f1466a12a316ce573a682bed2e1f58f199a0a5263e6d802b72648ae3467688",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.25582587718963623
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 428,
+          "pixel": [
+            164.859619140625,
+            792.1287841796875
+          ],
+          "source_sha256": "f0eae8fcc86b2a70422ab01aeccb05b4bd898c16570e8dc603b425504e75b583",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.2748541533946991
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 518,
+          "pixel": [
+            164.1353759765625,
+            792.2396240234375
+          ],
+          "source_sha256": "a39fd1b74a080f64779c0a7dde39be9ad2deab8944585da66288cfabb9977ba0",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.20469072461128235
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 653,
+          "pixel": [
+            1622.33740234375,
+            587.3472900390625
+          ],
+          "source_sha256": "0a97cb8e676036e643e84cf16e5b1a00c4d19dda712f2540300c0bc4ccddc6c6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.8578974604606628
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 788,
+          "pixel": [
+            1444.5009765625,
+            533.6595458984375
+          ],
+          "source_sha256": "328a83360b3415fa0fa9fab50cd299ce0f3e3735a30ed22629216932972d17a6",
+          "verdict": "wrong_object",
+          "note": "Red shoulder stripe.",
+          "accepted": false,
+          "verifier_score": 0.37967318296432495
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 833,
+          "pixel": [
+            483.2991943359375,
+            881.0640869140625
+          ],
+          "source_sha256": "a8c958cfd10b89e7c2deb5742b82159d9cf5f0cb5b0de2a59dbc4775e7833217",
+          "verdict": "wrong_object",
+          "note": "Board fastener.",
+          "accepted": false,
+          "verifier_score": 0.016222044825553894
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 923,
+          "pixel": [
+            1779.1920166015625,
+            594.8143310546875
+          ],
+          "source_sha256": "78b3d21de05c7f3869f51e18bdc73dc16e9f1cf786ae25ab7b1a3f5002028658",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.010549369268119335
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 968,
+          "pixel": [
+            1779.651123046875,
+            592.2674560546875
+          ],
+          "source_sha256": "e7fecad8baa7c1ff93037bc63dd0d14a2d33a462a3ce2d258f5ebf13f8ab44b6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.031200498342514038
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1103,
+          "pixel": [
+            1816.146728515625,
+            591.156982421875
+          ],
+          "source_sha256": "a4d06e5050ad33663522539afd355677799333668a5af60d82263cd7b1021329",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.3109603822231293
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1148,
+          "pixel": [
+            1785.4052734375,
+            598.3409423828125
+          ],
+          "source_sha256": "75324121912181ca9a147afae7147dbce247dd95bb4dc02cb6ef435305438587",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.1321338415145874
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1602.9171142578125,
+            557.35205078125
+          ],
+          "source_sha256": "edffc8d1258d516cf920ff238a09054cfbbc527d82115e2027e1a611d96fd4b0",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.5230119228363037
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 23,
+          "pixel": [
+            1084.450927734375,
+            1018.4352416992188
+          ],
+          "source_sha256": "b9c90f6301e1947cfdc32f2d6226a4a8d1cbc689ae54907f58f71904cddd97f5",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0003483615582808852
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 203,
+          "pixel": [
+            672.759033203125,
+            974.9508666992188
+          ],
+          "source_sha256": "569ac326c2c6d2bf834b12c4d5e121b5d3351d83f1d34b94f434ba77b37cf1b0",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.20743371546268463
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 293,
+          "pixel": [
+            1542.5968017578125,
+            1056.3271484375
+          ],
+          "source_sha256": "ebcd7a1f9e782c1951bef7a2ad18510f1e6c9abfdb63af3b524878e37a260a4b",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.022540302947163582
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 653,
+          "pixel": [
+            672.9384155273438,
+            974.8299560546875
+          ],
+          "source_sha256": "42da7ad75b03d470d2bb84ba5aaec72cbadf93911810f27d90b21aa49780d900",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.11203590035438538
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 743,
+          "pixel": [
+            827.1373291015625,
+            401.57830810546875
+          ],
+          "source_sha256": "980c0e8821286dfa65813e2c779f983cfd2b737b91b6f9a95cf7870c6a648f07",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.0008288578246720135
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 923,
+          "pixel": [
+            1789.639404296875,
+            527.4466552734375
+          ],
+          "source_sha256": "237230cdff4e51001df1c691164685b78dba2ef409a222c3417df57f2ad15794",
+          "verdict": "visible_ball",
+          "note": "Separate ball visible on the floor with motion across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.9062488079071045
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1013,
+          "pixel": [
+            1498.835693359375,
+            592.3553466796875
+          ],
+          "source_sha256": "662735370c9af4963c204eecf1630327b453a523ac20fc9861d2498d1f3c83c7",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.054429519921541214
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1193,
+          "pixel": [
+            772.1484375,
+            1026.7080078125
+          ],
+          "source_sha256": "37c02155d3c98f978453c1153e109adc0d836a5082f1f5fb43bf2e95292b17f4",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.07699418067932129
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1283,
+          "pixel": [
+            1508.734375,
+            978.229248046875
+          ],
+          "source_sha256": "046a799cb5696a411340bc446c07e24fb4616841860ea6338eacd8ac1b662e9f",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.43764728307724
+        }
+      ]
+    },
+    "head-replay": {
+      "threshold": 0.5,
+      "source_result_sha256": "1317b29e7f2471ec5c6f671e3bb4002468771dc5c5743d41eb22c9e8be08691b",
+      "counts": {
+        "wrong_object_retained": 6,
+        "wrong_object_rejected": 46,
+        "visible_ball_rejected": 1,
+        "visible_ball_retained": 2,
+        "unresolved_retained": 1,
+        "unresolved_rejected": 4
+      },
+      "rows": [
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 338,
+          "pixel": [
+            193.40908813476562,
+            172.2649688720703
+          ],
+          "source_sha256": "75105df457e975755fa88f3c1f22c183bcf2b0f63d508224dbb73d66f7f62ad1",
+          "verdict": "wrong_object",
+          "note": "Painted pink floor marking.",
+          "accepted": true,
+          "verifier_score": 0.5969031453132629
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 383,
+          "pixel": [
+            1772.362548828125,
+            567.442138671875
+          ],
+          "source_sha256": "20f1e6aa6c60b2d741e22d4695eeddc755abf1fe3ad47f4ad935e55a65e90191",
+          "verdict": "wrong_object",
+          "note": "Orange shin pad.",
+          "accepted": false,
+          "verifier_score": 0.1710611879825592
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 563,
+          "pixel": [
+            1713.255126953125,
+            667.7374267578125
+          ],
+          "source_sha256": "3ae489e15739ada48a6fc82d9be6759d59501114412bc2a2ecc1da01dc15f480",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.40450742840766907
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 653,
+          "pixel": [
+            1018.920166015625,
+            350.9635009765625
+          ],
+          "source_sha256": "1f666bffb55381dd07995332851a200205c20ea617cc8c2f9cae8e1a2759c6f3",
+          "verdict": "wrong_object",
+          "note": "Fixed mark on the rink board.",
+          "accepted": false,
+          "verifier_score": 0.034100424498319626
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 878,
+          "pixel": [
+            73.56709289550781,
+            441.50262451171875
+          ],
+          "source_sha256": "7dfe6661fe03ad3d9b7e71eb3b676e1e21c77ea30caa3e39651024d0548a1ee1",
+          "verdict": "wrong_object",
+          "note": "Player knee.",
+          "accepted": false,
+          "verifier_score": 0.037326887249946594
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 923,
+          "pixel": [
+            1028.1226806640625,
+            560.33251953125
+          ],
+          "source_sha256": "e57354fbef6b9af2e8b636113a8df1fe1cd00dd57bab57c77f656ec3f3d89cc7",
+          "verdict": "wrong_object",
+          "note": "Referee red sleeve.",
+          "accepted": false,
+          "verifier_score": 0.3363310694694519
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 1148,
+          "pixel": [
+            491.68975830078125,
+            596.0553588867188
+          ],
+          "source_sha256": "f41fe2c271ab4712d910b34c2bef2141d6042cc975b343b0b972cbfdfcfc0ac8",
+          "verdict": "wrong_object",
+          "note": "Player ear beside helmet.",
+          "accepted": false,
+          "verifier_score": 0.026759283617138863
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 113,
+          "pixel": [
+            615.3179931640625,
+            296.211669921875
+          ],
+          "source_sha256": "970d38d175c53775ceb20969d882ac41043d2e6222ab11aca38984081bd468ab",
+          "verdict": "wrong_object",
+          "note": "Red goal crossbar.",
+          "accepted": false,
+          "verifier_score": 0.010013571009039879
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 248,
+          "pixel": [
+            1699.423828125,
+            112.77392578125
+          ],
+          "source_sha256": "e2ef23b599a5dc795f0e3cb6031071017ee12d586a3084dea1c992da50106554",
+          "verdict": "visible_ball",
+          "note": "Separate pink ball moving upward against the dark building.",
+          "accepted": false,
+          "verifier_score": 0.2146914303302765
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 293,
+          "pixel": [
+            372.567626953125,
+            442.0975341796875
+          ],
+          "source_sha256": "5b15d2857c33476320700a2789eef69ccdf426044b367290c744b88215d6ab86",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.000626334105618298
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 473,
+          "pixel": [
+            320.23797607421875,
+            772.73876953125
+          ],
+          "source_sha256": "dd5e74c0bb41591503348d78bfbcbc212ddbc414eb0a2b2bebe80779da26d7c0",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking beside shorts.",
+          "accepted": true,
+          "verifier_score": 0.9814534187316895
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 518,
+          "pixel": [
+            10.471800804138184,
+            644.836669921875
+          ],
+          "source_sha256": "9f0d705304dd8f1d8156037e812c57595f1878bb0146a4e8623d4bd000b249f0",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.03308597952127457
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 878,
+          "pixel": [
+            611.0835571289062,
+            726.6417846679688
+          ],
+          "source_sha256": "511d754632f7fe3e0094e20486228966ba43f7bb24f4777c87a51370f0447d8d",
+          "verdict": "wrong_object",
+          "note": "Pink detail on the stick blade.",
+          "accepted": false,
+          "verifier_score": 0.02931223064661026
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1058,
+          "pixel": [
+            604.62841796875,
+            1073.6531982421875
+          ],
+          "source_sha256": "914d4eff189f260e28716d9a57dcdbe9be1c91cdb133bb27d7cd293c9de69ece",
+          "verdict": "visible_ball",
+          "note": "Pink ball at the lower image edge, moving laterally across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.937210738658905
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1193,
+          "pixel": [
+            264.73980712890625,
+            257.8301696777344
+          ],
+          "source_sha256": "e7bb15b40bed13b237ec0ac1b4c590f7878bc4c580c08a526203336144672e27",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.10521054267883301
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1010.170166015625,
+            367.3885498046875
+          ],
+          "source_sha256": "a46f1fb424a4fae86318618a29272386f0e20b680562a7595939ec3badcaa77b",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": true,
+          "verifier_score": 0.9473810195922852
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 113,
+          "pixel": [
+            639.0995483398438,
+            557.640625
+          ],
+          "source_sha256": "2272e37960d102d30d345469c707157a13b25a66b6c6de2ebb87124602284761",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.013222821988165379
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 383,
+          "pixel": [
+            1041.408203125,
+            405.5820007324219
+          ],
+          "source_sha256": "8de3d75472c5d64cb5bc1c7fa3807143a361244c988bb67b7576275a45236ad4",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking below stick.",
+          "accepted": true,
+          "verifier_score": 0.7000752091407776
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 23,
+          "pixel": [
+            672.8892822265625,
+            974.729736328125
+          ],
+          "source_sha256": "318ee1b4f3d33a42a702f3335ae72b3d279399392314f6fd80acc930ffaa3589",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": true,
+          "verifier_score": 0.5219584703445435
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 113,
+          "pixel": [
+            1419.731689453125,
+            1058.35302734375
+          ],
+          "source_sha256": "3beffd6ce168f2bf1b333160083d74510f0be08aa774fcfd6836c4f8a3fe5925",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.2120688259601593
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 158,
+          "pixel": [
+            672.8353881835938,
+            974.8909301757812
+          ],
+          "source_sha256": "375def167d26cda0c2d230b3aa235dc32535ad373fb2482386b286adecd89d69",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.4139508903026581
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 248,
+          "pixel": [
+            672.68603515625,
+            974.890869140625
+          ],
+          "source_sha256": "689c12348dc49a7a886346a14d6b1f8906aafa83dade3fe133363e29e66cfc6c",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.06853749603033066
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 293,
+          "pixel": [
+            672.8898315429688,
+            974.8261108398438
+          ],
+          "source_sha256": "0c58fe746e5d981f2943d78c544afeb49328fa0b02515fd3afd86f13ae1102fc",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.2958398759365082
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 383,
+          "pixel": [
+            589.7047729492188,
+            906.0368041992188
+          ],
+          "source_sha256": "00ce8b2fda46bccbd40fd399d4d224d9f79f7cf31bbe3c8dcf4597994630bd9e",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0029810327105224133
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 428,
+          "pixel": [
+            672.9603271484375,
+            974.6702880859375
+          ],
+          "source_sha256": "23d09cb4b46b41dda8ffce81c5729ae6d1f9d77eaf443461661bdbaa780143f6",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.18594719469547272
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 518,
+          "pixel": [
+            381.2273254394531,
+            978.1671142578125
+          ],
+          "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.154057577252388
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 563,
+          "pixel": [
+            858.4658203125,
+            1035.6427001953125
+          ],
+          "source_sha256": "57fedc487aba057cd2e85296698fd28e54e34da502b8e88bd95ad3b89ced5978",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.013636835850775242
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 653,
+          "pixel": [
+            858.8467407226562,
+            1035.656982421875
+          ],
+          "source_sha256": "ae92e91b5a19fda5e14e2a06e5901a9c61fcd011b174634dfd90e4cd94a3c7e1",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0039454069919884205
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 698,
+          "pixel": [
+            859.1544189453125,
+            1035.6510009765625
+          ],
+          "source_sha256": "660c96b75138cc07b66022dca119ad017c66ea8ef48bcb9903c8633d2d9e307a",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.005220125429332256
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 788,
+          "pixel": [
+            1200.972412109375,
+            961.28759765625
+          ],
+          "source_sha256": "ac95ff123f7323439498046e0d97f77d59af9617e7c3dde4d929076f05088fa5",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.005554925184696913
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 833,
+          "pixel": [
+            858.9680786132812,
+            1035.82080078125
+          ],
+          "source_sha256": "0570d774a6e6b0b29d708f9cfc49ef29ee6d45267d261adad8a699ef4a6f2ac3",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.010328153148293495
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 923,
+          "pixel": [
+            859.1015014648438,
+            1036.15625
+          ],
+          "source_sha256": "886258c5e18cb02026c891826cc25217448e103521e6eb0d9bc327d219350d9c",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.004755199886858463
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 968,
+          "pixel": [
+            672.7750244140625,
+            974.814697265625
+          ],
+          "source_sha256": "e6360f14eff83f49aa9c88adbdb312c27dc02b541d067363653bd485b68b2627",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.49145591259002686
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1058,
+          "pixel": [
+            382.5164794921875,
+            1026.510498046875
+          ],
+          "source_sha256": "85ea83b7e46b90cc4b53c03b18f7e7f7649403a3be1d8adf2e8533768a6385cb",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.09670579433441162
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1103,
+          "pixel": [
+            219.78579711914062,
+            459.34283447265625
+          ],
+          "source_sha256": "36bf5b49f3c93855ae8473947b30761e84376e5bfb64b0d219158160c75ab2a0",
+          "verdict": "unresolved",
+          "note": "Object near spectator hand cannot be resolved.",
+          "accepted": true,
+          "verifier_score": 0.9362850189208984
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1193,
+          "pixel": [
+            672.8212890625,
+            974.8770751953125
+          ],
+          "source_sha256": "cae1f76624ec72634bdd0336a37f4a41bf918d218356ff0040f23d4d5db65e3e",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.10818895697593689
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1283,
+          "pixel": [
+            672.794921875,
+            974.805419921875
+          ],
+          "source_sha256": "65f2c417693cd8987739d9448de1ab81f8c24375044285ffb0cb10e23df5f294",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.15304215252399445
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 23,
+          "pixel": [
+            672.7215576171875,
+            974.7830810546875
+          ],
+          "source_sha256": "e5e4c723acfbe1155addb591e84d766afdb746b3a98003348e5231ce07210537",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.4007493853569031
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 68,
+          "pixel": [
+            672.7747192382812,
+            974.7794189453125
+          ],
+          "source_sha256": "2b48427be31a281477a079e86f4557a5874e61f597d447a66c75bc8ccf7ff194",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.28696784377098083
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 203,
+          "pixel": [
+            244.8951873779297,
+            786.9058227539062
+          ],
+          "source_sha256": "49cf4ba631cda8f6803a930d6dd6f06624a33c2054d790aec9493622529fc43e",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.22815649211406708
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 383,
+          "pixel": [
+            164.67234802246094,
+            792.1181640625
+          ],
+          "source_sha256": "15f1466a12a316ce573a682bed2e1f58f199a0a5263e6d802b72648ae3467688",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.33111974596977234
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 428,
+          "pixel": [
+            164.859619140625,
+            792.1287841796875
+          ],
+          "source_sha256": "f0eae8fcc86b2a70422ab01aeccb05b4bd898c16570e8dc603b425504e75b583",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.3593641221523285
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 518,
+          "pixel": [
+            164.1353759765625,
+            792.2396240234375
+          ],
+          "source_sha256": "a39fd1b74a080f64779c0a7dde39be9ad2deab8944585da66288cfabb9977ba0",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.314050555229187
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 653,
+          "pixel": [
+            1622.33740234375,
+            587.3472900390625
+          ],
+          "source_sha256": "0a97cb8e676036e643e84cf16e5b1a00c4d19dda712f2540300c0bc4ccddc6c6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.4947511553764343
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 788,
+          "pixel": [
+            1444.5009765625,
+            533.6595458984375
+          ],
+          "source_sha256": "328a83360b3415fa0fa9fab50cd299ce0f3e3735a30ed22629216932972d17a6",
+          "verdict": "wrong_object",
+          "note": "Red shoulder stripe.",
+          "accepted": true,
+          "verifier_score": 0.735641598701477
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 833,
+          "pixel": [
+            483.2991943359375,
+            881.0640869140625
+          ],
+          "source_sha256": "a8c958cfd10b89e7c2deb5742b82159d9cf5f0cb5b0de2a59dbc4775e7833217",
+          "verdict": "wrong_object",
+          "note": "Board fastener.",
+          "accepted": false,
+          "verifier_score": 0.01640303246676922
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 923,
+          "pixel": [
+            1779.1920166015625,
+            594.8143310546875
+          ],
+          "source_sha256": "78b3d21de05c7f3869f51e18bdc73dc16e9f1cf786ae25ab7b1a3f5002028658",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.014957086183130741
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 968,
+          "pixel": [
+            1779.651123046875,
+            592.2674560546875
+          ],
+          "source_sha256": "e7fecad8baa7c1ff93037bc63dd0d14a2d33a462a3ce2d258f5ebf13f8ab44b6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.037326887249946594
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1103,
+          "pixel": [
+            1816.146728515625,
+            591.156982421875
+          ],
+          "source_sha256": "a4d06e5050ad33663522539afd355677799333668a5af60d82263cd7b1021329",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.4942934811115265
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1148,
+          "pixel": [
+            1785.4052734375,
+            598.3409423828125
+          ],
+          "source_sha256": "75324121912181ca9a147afae7147dbce247dd95bb4dc02cb6ef435305438587",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.22953522205352783
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1602.9171142578125,
+            557.35205078125
+          ],
+          "source_sha256": "edffc8d1258d516cf920ff238a09054cfbbc527d82115e2027e1a611d96fd4b0",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.29828691482543945
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 23,
+          "pixel": [
+            1084.450927734375,
+            1018.4352416992188
+          ],
+          "source_sha256": "b9c90f6301e1947cfdc32f2d6226a4a8d1cbc689ae54907f58f71904cddd97f5",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.000626334105618298
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 203,
+          "pixel": [
+            672.759033203125,
+            974.9508666992188
+          ],
+          "source_sha256": "569ac326c2c6d2bf834b12c4d5e121b5d3351d83f1d34b94f434ba77b37cf1b0",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.3007456064224243
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 293,
+          "pixel": [
+            1542.5968017578125,
+            1056.3271484375
+          ],
+          "source_sha256": "ebcd7a1f9e782c1951bef7a2ad18510f1e6c9abfdb63af3b524878e37a260a4b",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0427221953868866
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 653,
+          "pixel": [
+            672.9384155273438,
+            974.8299560546875
+          ],
+          "source_sha256": "42da7ad75b03d470d2bb84ba5aaec72cbadf93911810f27d90b21aa49780d900",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.18713268637657166
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 743,
+          "pixel": [
+            827.1373291015625,
+            401.57830810546875
+          ],
+          "source_sha256": "980c0e8821286dfa65813e2c779f983cfd2b737b91b6f9a95cf7870c6a648f07",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.0005884087877348065
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 923,
+          "pixel": [
+            1789.639404296875,
+            527.4466552734375
+          ],
+          "source_sha256": "237230cdff4e51001df1c691164685b78dba2ef409a222c3417df57f2ad15794",
+          "verdict": "visible_ball",
+          "note": "Separate ball visible on the floor with motion across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.8577680587768555
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1013,
+          "pixel": [
+            1498.835693359375,
+            592.3553466796875
+          ],
+          "source_sha256": "662735370c9af4963c204eecf1630327b453a523ac20fc9861d2498d1f3c83c7",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.06853749603033066
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1193,
+          "pixel": [
+            772.1484375,
+            1026.7080078125
+          ],
+          "source_sha256": "37c02155d3c98f978453c1153e109adc0d836a5082f1f5fb43bf2e95292b17f4",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.1037486344575882
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1283,
+          "pixel": [
+            1508.734375,
+            978.229248046875
+          ],
+          "source_sha256": "046a799cb5696a411340bc446c07e24fb4616841860ea6338eacd8ac1b662e9f",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.45956122875213623
+        }
+      ]
+    },
+    "encoder-replay": {
+      "threshold": 0.8,
+      "source_result_sha256": "1317b29e7f2471ec5c6f671e3bb4002468771dc5c5743d41eb22c9e8be08691b",
+      "counts": {
+        "wrong_object_retained": 6,
+        "wrong_object_rejected": 46,
+        "visible_ball_rejected": 1,
+        "visible_ball_retained": 2,
+        "unresolved_retained": 1,
+        "unresolved_rejected": 4
+      },
+      "rows": [
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 338,
+          "pixel": [
+            193.40908813476562,
+            172.2649688720703
+          ],
+          "source_sha256": "75105df457e975755fa88f3c1f22c183bcf2b0f63d508224dbb73d66f7f62ad1",
+          "verdict": "wrong_object",
+          "note": "Painted pink floor marking.",
+          "accepted": true,
+          "verifier_score": 0.9664104580879211
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 383,
+          "pixel": [
+            1772.362548828125,
+            567.442138671875
+          ],
+          "source_sha256": "20f1e6aa6c60b2d741e22d4695eeddc755abf1fe3ad47f4ad935e55a65e90191",
+          "verdict": "wrong_object",
+          "note": "Orange shin pad.",
+          "accepted": false,
+          "verifier_score": 0.4730486273765564
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 563,
+          "pixel": [
+            1713.255126953125,
+            667.7374267578125
+          ],
+          "source_sha256": "3ae489e15739ada48a6fc82d9be6759d59501114412bc2a2ecc1da01dc15f480",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": true,
+          "verifier_score": 0.8333246111869812
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 653,
+          "pixel": [
+            1018.920166015625,
+            350.9635009765625
+          ],
+          "source_sha256": "1f666bffb55381dd07995332851a200205c20ea617cc8c2f9cae8e1a2759c6f3",
+          "verdict": "wrong_object",
+          "note": "Fixed mark on the rink board.",
+          "accepted": false,
+          "verifier_score": 0.07263670116662979
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 878,
+          "pixel": [
+            73.56709289550781,
+            441.50262451171875
+          ],
+          "source_sha256": "7dfe6661fe03ad3d9b7e71eb3b676e1e21c77ea30caa3e39651024d0548a1ee1",
+          "verdict": "wrong_object",
+          "note": "Player knee.",
+          "accepted": false,
+          "verifier_score": 0.007815888151526451
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 923,
+          "pixel": [
+            1028.1226806640625,
+            560.33251953125
+          ],
+          "source_sha256": "e57354fbef6b9af2e8b636113a8df1fe1cd00dd57bab57c77f656ec3f3d89cc7",
+          "verdict": "wrong_object",
+          "note": "Referee red sleeve.",
+          "accepted": false,
+          "verifier_score": 0.23370636999607086
+        },
+        {
+          "clip": "pittsburgh-finals-0600",
+          "frame": 1148,
+          "pixel": [
+            491.68975830078125,
+            596.0553588867188
+          ],
+          "source_sha256": "f41fe2c271ab4712d910b34c2bef2141d6042cc975b343b0b972cbfdfcfc0ac8",
+          "verdict": "wrong_object",
+          "note": "Player ear beside helmet.",
+          "accepted": false,
+          "verifier_score": 0.005730246659368277
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 113,
+          "pixel": [
+            615.3179931640625,
+            296.211669921875
+          ],
+          "source_sha256": "970d38d175c53775ceb20969d882ac41043d2e6222ab11aca38984081bd468ab",
+          "verdict": "wrong_object",
+          "note": "Red goal crossbar.",
+          "accepted": false,
+          "verifier_score": 0.0024726230185478926
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 248,
+          "pixel": [
+            1699.423828125,
+            112.77392578125
+          ],
+          "source_sha256": "e2ef23b599a5dc795f0e3cb6031071017ee12d586a3084dea1c992da50106554",
+          "verdict": "visible_ball",
+          "note": "Separate pink ball moving upward against the dark building.",
+          "accepted": false,
+          "verifier_score": 0.7704647779464722
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 293,
+          "pixel": [
+            372.567626953125,
+            442.0975341796875
+          ],
+          "source_sha256": "5b15d2857c33476320700a2789eef69ccdf426044b367290c744b88215d6ab86",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.00011591933434829116
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 473,
+          "pixel": [
+            320.23797607421875,
+            772.73876953125
+          ],
+          "source_sha256": "dd5e74c0bb41591503348d78bfbcbc212ddbc414eb0a2b2bebe80779da26d7c0",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking beside shorts.",
+          "accepted": true,
+          "verifier_score": 0.9933071732521057
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 518,
+          "pixel": [
+            10.471800804138184,
+            644.836669921875
+          ],
+          "source_sha256": "9f0d705304dd8f1d8156037e812c57595f1878bb0146a4e8623d4bd000b249f0",
+          "verdict": "wrong_object",
+          "note": "Red shin pad.",
+          "accepted": false,
+          "verifier_score": 0.07159119844436646
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 878,
+          "pixel": [
+            611.0835571289062,
+            726.6417846679688
+          ],
+          "source_sha256": "511d754632f7fe3e0094e20486228966ba43f7bb24f4777c87a51370f0447d8d",
+          "verdict": "wrong_object",
+          "note": "Pink detail on the stick blade.",
+          "accepted": false,
+          "verifier_score": 0.5183023810386658
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1058,
+          "pixel": [
+            604.62841796875,
+            1073.6531982421875
+          ],
+          "source_sha256": "914d4eff189f260e28716d9a57dcdbe9be1c91cdb133bb27d7cd293c9de69ece",
+          "verdict": "visible_ball",
+          "note": "Pink ball at the lower image edge, moving laterally across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.9953904151916504
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1193,
+          "pixel": [
+            264.73980712890625,
+            257.8301696777344
+          ],
+          "source_sha256": "e7bb15b40bed13b237ec0ac1b4c590f7878bc4c580c08a526203336144672e27",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 0.020964240655303
+        },
+        {
+          "clip": "pittsburgh-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1010.170166015625,
+            367.3885498046875
+          ],
+          "source_sha256": "a46f1fb424a4fae86318618a29272386f0e20b680562a7595939ec3badcaa77b",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": true,
+          "verifier_score": 0.9653811454772949
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 113,
+          "pixel": [
+            639.0995483398438,
+            557.640625
+          ],
+          "source_sha256": "2272e37960d102d30d345469c707157a13b25a66b6c6de2ebb87124602284761",
+          "verdict": "wrong_object",
+          "note": "Painted floor marking.",
+          "accepted": false,
+          "verifier_score": 0.024053551256656647
+        },
+        {
+          "clip": "pittsburgh-finals-1800",
+          "frame": 383,
+          "pixel": [
+            1041.408203125,
+            405.5820007324219
+          ],
+          "source_sha256": "8de3d75472c5d64cb5bc1c7fa3807143a361244c988bb67b7576275a45236ad4",
+          "verdict": "wrong_object",
+          "note": "Pink floor marking below stick.",
+          "accepted": true,
+          "verifier_score": 0.9621075391769409
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 23,
+          "pixel": [
+            672.8892822265625,
+            974.729736328125
+          ],
+          "source_sha256": "318ee1b4f3d33a42a702f3335ae72b3d279399392314f6fd80acc930ffaa3589",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.29098087549209595
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 113,
+          "pixel": [
+            1419.731689453125,
+            1058.35302734375
+          ],
+          "source_sha256": "3beffd6ce168f2bf1b333160083d74510f0be08aa774fcfd6836c4f8a3fe5925",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.2568320035934448
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 158,
+          "pixel": [
+            672.8353881835938,
+            974.8909301757812
+          ],
+          "source_sha256": "375def167d26cda0c2d230b3aa235dc32535ad373fb2482386b286adecd89d69",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.14706450700759888
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 248,
+          "pixel": [
+            672.68603515625,
+            974.890869140625
+          ],
+          "source_sha256": "689c12348dc49a7a886346a14d6b1f8906aafa83dade3fe133363e29e66cfc6c",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.021948253735899925
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 293,
+          "pixel": [
+            672.8898315429688,
+            974.8261108398438
+          ],
+          "source_sha256": "0c58fe746e5d981f2943d78c544afeb49328fa0b02515fd3afd86f13ae1102fc",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.23091977834701538
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 383,
+          "pixel": [
+            589.7047729492188,
+            906.0368041992188
+          ],
+          "source_sha256": "00ce8b2fda46bccbd40fd399d4d224d9f79f7cf31bbe3c8dcf4597994630bd9e",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0025509123224765062
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 428,
+          "pixel": [
+            672.9603271484375,
+            974.6702880859375
+          ],
+          "source_sha256": "23d09cb4b46b41dda8ffce81c5729ae6d1f9d77eaf443461661bdbaa780143f6",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.03258974477648735
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 518,
+          "pixel": [
+            381.2273254394531,
+            978.1671142578125
+          ],
+          "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.07477004081010818
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 563,
+          "pixel": [
+            858.4658203125,
+            1035.6427001953125
+          ],
+          "source_sha256": "57fedc487aba057cd2e85296698fd28e54e34da502b8e88bd95ad3b89ced5978",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.06853749603033066
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 653,
+          "pixel": [
+            858.8467407226562,
+            1035.656982421875
+          ],
+          "source_sha256": "ae92e91b5a19fda5e14e2a06e5901a9c61fcd011b174634dfd90e4cd94a3c7e1",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.017442485317587852
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 698,
+          "pixel": [
+            859.1544189453125,
+            1035.6510009765625
+          ],
+          "source_sha256": "660c96b75138cc07b66022dca119ad017c66ea8ef48bcb9903c8633d2d9e307a",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.03210070729255676
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 788,
+          "pixel": [
+            1200.972412109375,
+            961.28759765625
+          ],
+          "source_sha256": "ac95ff123f7323439498046e0d97f77d59af9617e7c3dde4d929076f05088fa5",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.005730246659368277
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 833,
+          "pixel": [
+            858.9680786132812,
+            1035.82080078125
+          ],
+          "source_sha256": "0570d774a6e6b0b29d708f9cfc49ef29ee6d45267d261adad8a699ef4a6f2ac3",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.06560483574867249
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 923,
+          "pixel": [
+            859.1015014648438,
+            1036.15625
+          ],
+          "source_sha256": "886258c5e18cb02026c891826cc25217448e103521e6eb0d9bc327d219350d9c",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.018833130598068237
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 968,
+          "pixel": [
+            672.7750244140625,
+            974.814697265625
+          ],
+          "source_sha256": "e6360f14eff83f49aa9c88adbdb312c27dc02b541d067363653bd485b68b2627",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.2523840367794037
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1058,
+          "pixel": [
+            382.5164794921875,
+            1026.510498046875
+          ],
+          "source_sha256": "85ea83b7e46b90cc4b53c03b18f7e7f7649403a3be1d8adf2e8533768a6385cb",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.14511536061763763
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1103,
+          "pixel": [
+            219.78579711914062,
+            459.34283447265625
+          ],
+          "source_sha256": "36bf5b49f3c93855ae8473947b30761e84376e5bfb64b0d219158160c75ab2a0",
+          "verdict": "unresolved",
+          "note": "Object near spectator hand cannot be resolved.",
+          "accepted": true,
+          "verifier_score": 0.9950946569442749
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1193,
+          "pixel": [
+            672.8212890625,
+            974.8770751953125
+          ],
+          "source_sha256": "cae1f76624ec72634bdd0336a37f4a41bf918d218356ff0040f23d4d5db65e3e",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.024798160418868065
+        },
+        {
+          "clip": "southjersey-finals-0600",
+          "frame": 1283,
+          "pixel": [
+            672.794921875,
+            974.805419921875
+          ],
+          "source_sha256": "65f2c417693cd8987739d9448de1ab81f8c24375044285ffb0cb10e23df5f294",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.02262919954955578
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 23,
+          "pixel": [
+            672.7215576171875,
+            974.7830810546875
+          ],
+          "source_sha256": "e5e4c723acfbe1155addb591e84d766afdb746b3a98003348e5231ce07210537",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.16559311747550964
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 68,
+          "pixel": [
+            672.7747192382812,
+            974.7794189453125
+          ],
+          "source_sha256": "2b48427be31a281477a079e86f4557a5874e61f597d447a66c75bc8ccf7ff194",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.06954174488782883
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 203,
+          "pixel": [
+            244.8951873779297,
+            786.9058227539062
+          ],
+          "source_sha256": "49cf4ba631cda8f6803a930d6dd6f06624a33c2054d790aec9493622529fc43e",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.2107662856578827
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 383,
+          "pixel": [
+            164.67234802246094,
+            792.1181640625
+          ],
+          "source_sha256": "15f1466a12a316ce573a682bed2e1f58f199a0a5263e6d802b72648ae3467688",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.3993430435657501
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 428,
+          "pixel": [
+            164.859619140625,
+            792.1287841796875
+          ],
+          "source_sha256": "f0eae8fcc86b2a70422ab01aeccb05b4bd898c16570e8dc603b425504e75b583",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.4409506320953369
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 518,
+          "pixel": [
+            164.1353759765625,
+            792.2396240234375
+          ],
+          "source_sha256": "a39fd1b74a080f64779c0a7dde39be9ad2deab8944585da66288cfabb9977ba0",
+          "verdict": "unresolved",
+          "note": "Tiny floor point cannot be identified.",
+          "accepted": false,
+          "verifier_score": 0.35309353470802307
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 653,
+          "pixel": [
+            1622.33740234375,
+            587.3472900390625
+          ],
+          "source_sha256": "0a97cb8e676036e643e84cf16e5b1a00c4d19dda712f2540300c0bc4ccddc6c6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.05665242671966553
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 788,
+          "pixel": [
+            1444.5009765625,
+            533.6595458984375
+          ],
+          "source_sha256": "328a83360b3415fa0fa9fab50cd299ce0f3e3735a30ed22629216932972d17a6",
+          "verdict": "wrong_object",
+          "note": "Red shoulder stripe.",
+          "accepted": false,
+          "verifier_score": 0.5732006430625916
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 833,
+          "pixel": [
+            483.2991943359375,
+            881.0640869140625
+          ],
+          "source_sha256": "a8c958cfd10b89e7c2deb5742b82159d9cf5f0cb5b0de2a59dbc4775e7833217",
+          "verdict": "wrong_object",
+          "note": "Board fastener.",
+          "accepted": false,
+          "verifier_score": 0.07585817575454712
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 923,
+          "pixel": [
+            1779.1920166015625,
+            594.8143310546875
+          ],
+          "source_sha256": "78b3d21de05c7f3869f51e18bdc73dc16e9f1cf786ae25ab7b1a3f5002028658",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.0028009270317852497
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 968,
+          "pixel": [
+            1779.651123046875,
+            592.2674560546875
+          ],
+          "source_sha256": "e7fecad8baa7c1ff93037bc63dd0d14a2d33a462a3ce2d258f5ebf13f8ab44b6",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.005384937860071659
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1103,
+          "pixel": [
+            1816.146728515625,
+            591.156982421875
+          ],
+          "source_sha256": "a4d06e5050ad33663522539afd355677799333668a5af60d82263cd7b1021329",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.09807931631803513
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1148,
+          "pixel": [
+            1785.4052734375,
+            598.3409423828125
+          ],
+          "source_sha256": "75324121912181ca9a147afae7147dbce247dd95bb4dc02cb6ef435305438587",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.027585282921791077
+        },
+        {
+          "clip": "southjersey-finals-1200",
+          "frame": 1328,
+          "pixel": [
+            1602.9171142578125,
+            557.35205078125
+          ],
+          "source_sha256": "edffc8d1258d516cf920ff238a09054cfbbc527d82115e2027e1a611d96fd4b0",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.02595735713839531
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 23,
+          "pixel": [
+            1084.450927734375,
+            1018.4352416992188
+          ],
+          "source_sha256": "b9c90f6301e1947cfdc32f2d6226a4a8d1cbc689ae54907f58f71904cddd97f5",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.0059110685251653194
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 203,
+          "pixel": [
+            672.759033203125,
+            974.9508666992188
+          ],
+          "source_sha256": "569ac326c2c6d2bf834b12c4d5e121b5d3351d83f1d34b94f434ba77b37cf1b0",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.05665242671966553
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 293,
+          "pixel": [
+            1542.5968017578125,
+            1056.3271484375
+          ],
+          "source_sha256": "ebcd7a1f9e782c1951bef7a2ad18510f1e6c9abfdb63af3b524878e37a260a4b",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.037326887249946594
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 653,
+          "pixel": [
+            672.9384155273438,
+            974.8299560546875
+          ],
+          "source_sha256": "42da7ad75b03d470d2bb84ba5aaec72cbadf93911810f27d90b21aa49780d900",
+          "verdict": "wrong_object",
+          "note": "Scoreboard graphic/text.",
+          "accepted": false,
+          "verifier_score": 0.02843603305518627
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 743,
+          "pixel": [
+            827.1373291015625,
+            401.57830810546875
+          ],
+          "source_sha256": "980c0e8821286dfa65813e2c779f983cfd2b737b91b6f9a95cf7870c6a648f07",
+          "verdict": "wrong_object",
+          "note": "Red helmet.",
+          "accepted": false,
+          "verifier_score": 2.586742994026281e-05
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 923,
+          "pixel": [
+            1789.639404296875,
+            527.4466552734375
+          ],
+          "source_sha256": "237230cdff4e51001df1c691164685b78dba2ef409a222c3417df57f2ad15794",
+          "verdict": "visible_ball",
+          "note": "Separate ball visible on the floor with motion across neighboring frames.",
+          "accepted": true,
+          "verifier_score": 0.9985895752906799
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1013,
+          "pixel": [
+            1498.835693359375,
+            592.3553466796875
+          ],
+          "source_sha256": "662735370c9af4963c204eecf1630327b453a523ac20fc9861d2498d1f3c83c7",
+          "verdict": "wrong_object",
+          "note": "Pink shoe.",
+          "accepted": false,
+          "verifier_score": 0.016914913430809975
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1193,
+          "pixel": [
+            772.1484375,
+            1026.7080078125
+          ],
+          "source_sha256": "37c02155d3c98f978453c1153e109adc0d836a5082f1f5fb43bf2e95292b17f4",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": false,
+          "verifier_score": 0.14706450700759888
+        },
+        {
+          "clip": "southjersey-finals-1800",
+          "frame": 1283,
+          "pixel": [
+            1508.734375,
+            978.229248046875
+          ],
+          "source_sha256": "046a799cb5696a411340bc446c07e24fb4616841860ea6338eacd8ac1b662e9f",
+          "verdict": "wrong_object",
+          "note": "Fixed bolt or blemish on the rink boards.",
+          "accepted": true,
+          "verifier_score": 0.8300437331199646
+        }
+      ]
+    }
+  }
+}

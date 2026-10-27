@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-10-27T06:56:16.769574+00:00",
+  "selected_primary_detector": "rgb-expanded",
+  "selection_sha256": "9bb2b458bd311f36f3f9fb7214a24d4d54a44857eb1e23a54cba33b641330060",
+  "selection_rule": "Maximum full-frame development F1, then fewer false positives, then simpler non-synthetic model in declared tie-break order.",
+  "tie_break_order": [
+    "rgb-expanded",
+    "rgb-hard",
+    "temporal3-center-hard",
+    "temporal3-center",
+    "temporal3-expanded",
+    "motion3-center",
+    "motion3-expanded",
+    "motion3-center-synthetic",
+    "motion3-synthetic"
+  ],
+  "fresh_scores_opened": false,
+  "limits": "Eleven correlated development frames; independent-game scores may reveal failure. All thresholds and this model choice are frozen before test scoring. Sequence fusion is evaluated separately on the reused development game."
+}

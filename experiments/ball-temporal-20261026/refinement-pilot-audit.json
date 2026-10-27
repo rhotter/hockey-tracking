@@ -1,0 +1,380 @@
+{
+  "reviewed_at": "2026-10-27T06:26:20.082226+00:00",
+  "method": "Assistant audit of every pilot visible proposal, enlarged raw crop centered at proposed coordinate. Post-prediction diagnostic, not independent ground truth. Unresolved is not scored as correct.",
+  "rows": [
+    {
+      "frame": 930,
+      "pixel": [
+        555.912,
+        479.024
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "db5ebbc84acfc853317034cabfdbff0e5725a7983097cd696a93680f8e9aafa0",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 933,
+      "pixel": [
+        573.904,
+        474.008
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "6c63a6a89a2f8571b28ec6bbc86dab581953fa6f22483d8a86d1c4072b914bfb",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 936,
+      "pixel": [
+        628.44,
+        474.488
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "e97097070b6b7aaf41829b20cfc053fd93e46cd5505ad95ebae6ec00fa0aea99",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 948,
+      "pixel": [
+        676.896,
+        564.552
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "a6bb80e50c1a2246232e3af209dac79c47c39d2ce2dd154b5353832ed1375210",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 951,
+      "pixel": [
+        604.52,
+        560.4639999999999
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "1a17ac7375b645f66cb047b8d10382678796e377ef4183223f1b112dbf82d3ef",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 954,
+      "pixel": [
+        525.408,
+        556.992
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "e558285c6846d8ffc200842104d5959977a0a55a6bbd8abb4c70e3a12bbc9a57",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 957,
+      "pixel": [
+        466.576,
+        551.4639999999999
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "b36dcb0388be62260bc77c17877fc3ae1f2a1653507edfc9b130198ad397b168",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 960,
+      "pixel": [
+        430.976,
+        554.008
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "d4f5eae34b00423b56b59071e5b14e04f4c4c352edd9e695c623beafa0300637",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 963,
+      "pixel": [
+        407.896,
+        555.968
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "213186a8b8df35e79fdbe8f440c2cc3af7ea5e997b3777f2328212486cf03cd9",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 966,
+      "pixel": [
+        411.128,
+        553.936
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "d25c9865296238f838387c752dfe29342f47e1d7b93f2f6a0d95166b66e40a4f",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 969,
+      "pixel": [
+        468.544,
+        552.016
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "9a160c34340acc789989dd8e5c3b0226bbff2f4fb91565eec673f3e0962f3620",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 972,
+      "pixel": [
+        468.04,
+        558.504
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "5e9ed1f90b765a04d24d549ed821ac6fc908eed2cf9c674bd414fdc358b4c74b",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 1815,
+      "pixel": [
+        552.848,
+        702.992
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "8377600386f0e55fb9e36d0cfe3068fed82bc683aa581a7833b00f2950bc3352",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1821,
+      "pixel": [
+        371.96000000000004,
+        722.928
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "0e18d1c334114243afeefe55df297c6a9b32fbc7453aa2bbe98ea5d818b5fe3e",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1824,
+      "pixel": [
+        292.024,
+        727.448
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "cb42b386798f47f879c66d445dfd137c57d90760a145fb68f67b94bfedfa720e",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1827,
+      "pixel": [
+        214.24,
+        743.952
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "92ae970fefb295b35c2cf45444fa8da0e3c63f1c53b4e55ff9f3c134f59bf839",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1833,
+      "pixel": [
+        301.12,
+        779.28
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "27c2ddcce7f06494b901a16d0e0770cfd03a7d1849420ea3cad4eb1c93af36c4",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1836,
+      "pixel": [
+        431.4,
+        793.208
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "61a83069fd6fa48c2304865ed7ef51f756df86ca09cf363840de8f09309d89ac",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1839,
+      "pixel": [
+        543.264,
+        814.568
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "bbc5a106cd886861f06a4de3052ada46ed6d4220ce2ec0b820926705b7b08e65",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1842,
+      "pixel": [
+        688.384,
+        820.008
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "1252b145cb326e835c15a8ede425fdbf8dfe7ebd24e88252af2645a0bd81ced6",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1845,
+      "pixel": [
+        765.232,
+        825.0
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "606fb65043eda2742ebd0d2bd01b77494bd58df5c058f0e261099b9515ae561a",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 1869,
+      "pixel": [
+        838.232,
+        620.216
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "82f78ba4ea8c7df0deb1aa07226e8f3c5fffb4d3f6eab698fdf979b2ee6a6c57",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2724,
+      "pixel": [
+        1718.0,
+        466.008
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "118f16b1254a50336677fa2f4a7e7ab14e785577c7fc50f2e1232aa839e75166",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2727,
+      "pixel": [
+        1649.488,
+        459.448
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "f3f0ca0a8e8031c4bb9511c14869e150eb2b4b25a90a042c7a821310aafb705d",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2730,
+      "pixel": [
+        1614.0,
+        466.448
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "577f2b58c5e80d668d84cc86d6cde028119c6d0b53cc52bf493494d5b01aadd6",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2733,
+      "pixel": [
+        1579.424,
+        467.528
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "187199c7826ff56bc10e89f43131884fa675bbcb4ef9b3923ba01c5b7dd1ce83",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2736,
+      "pixel": [
+        1499.968,
+        469.032
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "a02655a721c52c030865272931ec0c06fb99e30441ca0f0dbbea55b8c861588b",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2739,
+      "pixel": [
+        1409.392,
+        479.048
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "bb8d9701fe060ba9b1ad335fb6c81099e52357a8ca322a14118372366dec41af",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 2742,
+      "pixel": [
+        1291.272,
+        483.56
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "75400fbb8b433fdff12940e9df7fc5d6184b80ad0c9fc554f7cb5590ec8b11e2",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    },
+    {
+      "frame": 2760,
+      "pixel": [
+        665.976,
+        704.432
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "0d89b6dafb037b15c1439e96dac18096b3ae38818582396dee4552e401a7696c",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3924,
+      "pixel": [
+        1413.0720000000001,
+        483.48
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "dd83e6fc91fbd0f55acba4ee0550d6c1a06656e654dd3af804463e17c40f06de",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3927,
+      "pixel": [
+        1419.408,
+        487.52
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "b39785b7155b91996d79f4dc4a24c4dceef9e26560c440814a9b4d2fd984e879",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3930,
+      "pixel": [
+        1420.0,
+        492.0
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "11d184c66c024fcaeb10bbf840cc0c1645fc3be103a9af67da97339f911da8da",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3936,
+      "pixel": [
+        1405.56,
+        492.96
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "61e6b746b693c7079fac6a187194c5de4f7fbd20d95ba079307c1b9185add7bb",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3939,
+      "pixel": [
+        1377.952,
+        503.464
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "8291ab10cbf63e535289bc941b2d161ea2a9551ef546b9cdacdf027ab63c8d7f",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3942,
+      "pixel": [
+        1364.472,
+        504.448
+      ],
+      "verdict": "visible_ball",
+      "source_sha256": "3b0373958b07e8a2c4f60400463583b6e250174e1f14d2e9cf4bccfa42cf4c3e",
+      "note": "Ball-colored compact object or motion streak identifiable at proposed center."
+    },
+    {
+      "frame": 3951,
+      "pixel": [
+        1344.952,
+        507.464
+      ],
+      "verdict": "unresolved",
+      "source_sha256": "c1133003ed9d4fb73521c40592f37f4d3eea3f0b0a499da121ff20ed3f6f6d6f",
+      "note": "Inspected proposed center in a native-resolution crop; faint blur cannot be independently resolved here."
+    }
+  ],
+  "visible_ball": 29,
+  "unresolved": 8,
+  "obvious_false_target": 0,
+  "decision": "Continue sequence relocalization with same v2 protocol; acceptance in final replay additionally requires learned detector/appearance support or short temporal consensus."
+}

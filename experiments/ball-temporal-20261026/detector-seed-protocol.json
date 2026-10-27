@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-27T08:10:51.586859+00:00",
+  "selection": "Top peak per model by score times appearance. At least3 models within6px; every vote score>=.01 and appearance>=.8; at least one score>=.5. Skip existing visual anchors and nearby sequence sightings; minimum seed spacing3frames.",
+  "input_sha256": {
+    "build/ball-temporal-20261026/rgb-expanded/replay.json": "5896b558a248f153a5de6a66b5395b69c728299357730996b692b63b9f5f3255",
+    "build/ball-temporal-20261026/temporal3-expanded/replay.json": "7253490b19f8f6fc411e988ce407fe4129b85b5d1faf25191237fe1e44d79788",
+    "build/ball-temporal-20261026/motion3-expanded/replay.json": "7c3745efee1ef646bf8a837932b2f7ddcf84e773a339f950be16c5e4d565658f",
+    "build/ball-temporal-20261026/motion3-synthetic/replay.json": "2244c3683b31a79d27d350199e04e9a4d2be52adff2b50aaa8b47c4bb12b049c"
+  },
+  "source": "detector_consensus",
+  "reference_labels_used": false,
+  "limits": "Added after inspecting residual development failures. Models share training data and are correlated. No independent accuracy claim.",
+  "proposals": 206,
+  "seeds": 142
+}

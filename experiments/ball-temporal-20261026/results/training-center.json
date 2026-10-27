@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "motion3-center",
+    "epochs": 40,
+    "selected_epoch": 11,
+    "validation": {
+      "threshold": 0.3,
+      "tp": 34,
+      "fp": 2,
+      "fn": 10,
+      "f1": 0.85,
+      "median_hit_error_px": 2.23606797749979
+    },
+    "positive_training_frames": 226,
+    "pseudo_label_training_frames": 111,
+    "validation_positive_frames": 11,
+    "validation_positive_crops": 44,
+    "validation_negative_crops": 44,
+    "warmstart_sha256": "07b3713ce4ec2a4cd59bc5b1a0daf8803769fe9042a4b38ad76c99f5beb95ffd",
+    "weights_sha256": "264f4174c31703a373d64ca4f7f395ba7ec35a77557800cafac64201ce3412bb",
+    "training_labels_sha256": "7b8fd9687d3a76df73ca900d79d47882725eca0663123bd20049c25f01803515",
+    "protocol_sha256": "3187b45157aa446015d9ed0074c64f466d49b54c7f3a90fbf113d1607f9dcb14",
+    "seconds": 361.61436662799997,
+    "limits": "Correlated crop-level development selection; not whole-frame or independent accuracy. Expanded model-reviewed anchors are pseudo labels."
+  },
+  {
+    "variant": "temporal3-center",
+    "epochs": 40,
+    "selected_epoch": 17,
+    "validation": {
+      "threshold": 0.05,
+      "tp": 38,
+      "fp": 4,
+      "fn": 6,
+      "f1": 0.8837209302325582,
+      "median_hit_error_px": 2.23606797749979
+    },
+    "positive_training_frames": 226,
+    "pseudo_label_training_frames": 111,
+    "validation_positive_frames": 11,
+    "validation_positive_crops": 44,
+    "validation_negative_crops": 44,
+    "warmstart_sha256": "07b3713ce4ec2a4cd59bc5b1a0daf8803769fe9042a4b38ad76c99f5beb95ffd",
+    "weights_sha256": "310c1fb99fb0d8aeced38deca17354898e9201a1db3b6774646c068940a61da3",
+    "training_labels_sha256": "7b8fd9687d3a76df73ca900d79d47882725eca0663123bd20049c25f01803515",
+    "protocol_sha256": "3187b45157aa446015d9ed0074c64f466d49b54c7f3a90fbf113d1607f9dcb14",
+    "seconds": 367.88030038,
+    "limits": "Correlated crop-level development selection; not whole-frame or independent accuracy. Expanded model-reviewed anchors are pseudo labels."
+  },
+  {
+    "variant": "motion3-center-synthetic",
+    "epochs": 40,
+    "selected_epoch": 18,
+    "validation": {
+      "threshold": 0.3,
+      "tp": 38,
+      "fp": 3,
+      "fn": 6,
+      "f1": 0.8941176470588236,
+      "median_hit_error_px": 2.23606797749979
+    },
+    "positive_training_frames": 226,
+    "pseudo_label_training_frames": 111,
+    "validation_positive_frames": 11,
+    "validation_positive_crops": 44,
+    "validation_negative_crops": 44,
+    "warmstart_sha256": "07b3713ce4ec2a4cd59bc5b1a0daf8803769fe9042a4b38ad76c99f5beb95ffd",
+    "weights_sha256": "ba4875ff96c900d28d9430d5648b6fea1268a5049d6f5dbada4e954ceff02e66",
+    "training_labels_sha256": "7b8fd9687d3a76df73ca900d79d47882725eca0663123bd20049c25f01803515",
+    "protocol_sha256": "3187b45157aa446015d9ed0074c64f466d49b54c7f3a90fbf113d1607f9dcb14",
+    "seconds": 877.968362789,
+    "limits": "Correlated crop-level development selection; not whole-frame or independent accuracy. Expanded model-reviewed anchors are pseudo labels."
+  }
+]

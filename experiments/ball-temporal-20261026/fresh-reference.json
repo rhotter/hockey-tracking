@@ -1,0 +1,645 @@
+{
+  "rows": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 23,
+      "visibility": "visible",
+      "pixel": [
+        495,
+        430
+      ],
+      "note": "Pink ball left of goal on pale floor line; moves between neighboring frames.",
+      "source_sha256": "da4d764fa72f8579aa336b09be66f1175a8157c7911c408dc68bb79d57c082af",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 68,
+      "visibility": "visible",
+      "pixel": [
+        295,
+        435
+      ],
+      "note": "Pink motion-blurred ball between the boards and pursuers, distinct from stick and shoes.",
+      "source_sha256": "7f8bffd78c69abf03b85e473a5f91b562d2b8fca089134d7f2933c414358ce02",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 113,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Crease and players overlap; ball pixels unresolved.",
+      "source_sha256": "a06b70061de24b7e6d02b89af61b1a1583d299c37770bea46501ae6d9d129f2f",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 158,
+      "visibility": "visible",
+      "pixel": [
+        205,
+        495
+      ],
+      "note": "Bright pink ball beside the near left boards, above stick blade.",
+      "source_sha256": "0d5188458b47c2761f2b937aebea77bf2936f1843f0256712a96e2acec7e5918",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 203,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Close camera view of runner; no identifiable ball.",
+      "source_sha256": "eca3c9d29038ba929f24c65525d346fe71ff0dd76b10ec797d206c139842ff51",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 248,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Backlit corner and runner; inspected crop but ball pixels unresolved.",
+      "source_sha256": "a983028e621237447a8d1d48d7f7b8d25b0fee7ced2ac2226ca7e87288963b5c",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 293,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Shadowed far-corner retrieval; ball pixels unresolved.",
+      "source_sha256": "40ef4f4a1693b60d88b176fde243dac6421f85e574707f359d338d42e027701b",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 338,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Moving close view; no identifiable ball pixels.",
+      "source_sha256": "75105df457e975755fa88f3c1f22c183bcf2b0f63d508224dbb73d66f7f62ad1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 383,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players turn toward the right; no separate identifiable ball.",
+      "source_sha256": "20f1e6aa6c60b2d741e22d4695eeddc755abf1fe3ad47f4ad935e55a65e90191",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 428,
+      "visibility": "visible",
+      "pixel": [
+        985,
+        405
+      ],
+      "note": "Pink round ball ahead of green 18 near stick, above cream line.",
+      "source_sha256": "5597355db63d68678126b2e898c5a23f03ac57118df2f39f8869124812c0f522",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 473,
+      "visibility": "visible",
+      "pixel": [
+        750,
+        295
+      ],
+      "note": "Small pink ball beside far player stick blade; distinct from broad painted stripe.",
+      "source_sha256": "199861a9f0ec13b74e34ef51b23c84f68ff6e80caf7f1172486c3a5ba389fba3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 518,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Far boards contest; no separate ball pixels identified.",
+      "source_sha256": "3999ee2659c8fc5ae6da5d7407deeeef3c9c843d1d0dad8279ab9ab3f91a6ecc",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 563,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage; ball pixels unresolved.",
+      "source_sha256": "3ae489e15739ada48a6fc82d9be6759d59501114412bc2a2ecc1da01dc15f480",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 608,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players walking during stoppage; no identifiable ball.",
+      "source_sha256": "828d094637cfbce4ae71cbc1955b12b7dcebacaa97c26fa5dd5f8b8e3c06fde1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 653,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players walking during stoppage; no identifiable ball.",
+      "source_sha256": "1f666bffb55381dd07995332851a200205c20ea617cc8c2f9cae8e1a2759c6f3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 698,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players gathered during stoppage; no identifiable ball.",
+      "source_sha256": "633cfc1ce04a2787fcdb358dcb4ae2d4ac458b141dc29f2343f8f3a7b0fba971",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 743,
+      "visibility": "visible",
+      "pixel": [
+        550,
+        455
+      ],
+      "note": "Round red-pink ball partly visible in referee hand; inspected native crop.",
+      "source_sha256": "59b9297c106bdc642894ac24c975da3359c66ecec4584fc30547712fe088618f",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 788,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Camera cut to other goal and scoreboard; no identifiable ball.",
+      "source_sha256": "2ad90ce063649c267370edc4e7f3675ed1367f017fb52689d12c0aa7a2494f71",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 833,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players prepare restart; referee hand obscures ball.",
+      "source_sha256": "1282828f405cff5fbe19b48e9a6842fcd62230335028992d5f06df8a11eb1691",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 878,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Referee faces away before restart; ball not visible.",
+      "source_sha256": "7dfe6661fe03ad3d9b7e71eb3b676e1e21c77ea30caa3e39651024d0548a1ee1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 923,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Restart setup; ball not separately identifiable.",
+      "source_sha256": "e57354fbef6b9af2e8b636113a8df1fe1cd00dd57bab57c77f656ec3f3d89cc7",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 968,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Referee gestures before faceoff; ball pixels unresolved.",
+      "source_sha256": "7111c56d4e207abc181458ef36e3c9cff5f8e8af3426e8058916d41fec2e49d6",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1013,
+      "visibility": "visible",
+      "pixel": [
+        205,
+        975
+      ],
+      "note": "Clear red ball on near floor ahead of white 2, with separate shadow.",
+      "source_sha256": "0dcba2130be850b2031c5dc0ef4bfe38a9db423693fe1dfdb9cb740b042ff4e3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1058,
+      "visibility": "visible",
+      "pixel": [
+        520,
+        400
+      ],
+      "note": "Small red ball ahead of white 2 near green 13 stick; temporal movement visible.",
+      "source_sha256": "c52e690b652e6c9aac813742649f53d267554198f658171b878644fa4e9965a6",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1103,
+      "visibility": "visible",
+      "pixel": [
+        110,
+        395
+      ],
+      "note": "Partial red ball at left boards beside blade; native crop and neighboring frames support location.",
+      "source_sha256": "c71263a5d8652a922783f8df2182147206455ab5733f2e3ff1e4dd734f794873",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1148,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stick and pale tape visible; no separate ball pixels resolved.",
+      "source_sha256": "f41fe2c271ab4712d910b34c2bef2141d6042cc975b343b0b972cbfdfcfc0ac8",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1193,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Ball appears near boards in earlier neighbor but central view unresolved.",
+      "source_sha256": "13e14285d5417f289238f79586d7f34b51e9f38a8fb33df2c012e913e3c2e73e",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1238,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players overlap at far boards; ball unresolved.",
+      "source_sha256": "36151a4716308dc22639049fb8affe5264a0ad9868870854d89e9ccd2a3c6a6f",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1283,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Play behind goal with overlapping players; ball unresolved.",
+      "source_sha256": "73f3dfec7eff327a57d37d3eb6e6e8f252556a71b1fb91bfc7ce757208041223",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1328,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Goal and boards crowding; ball unresolved.",
+      "source_sha256": "a13b916a329de6244c918e0c333f0d0a07136effb934f4f62edd718626ada88a",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 23,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Near boards obscure active area; ball unresolved.",
+      "source_sha256": "318ee1b4f3d33a42a702f3335ae72b3d279399392314f6fd80acc930ffaa3589",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 68,
+      "visibility": "visible",
+      "pixel": [
+        990,
+        565
+      ],
+      "note": "Red ball in open blue floor ahead of orange player at center; motion visible in neighbors.",
+      "source_sha256": "ea9ee38d6c99a66aed1f5662add67f09da47563f2f0afc5150a4c792df842552",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 113,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Far-board contest; no identifiable ball pixels.",
+      "source_sha256": "3beffd6ce168f2bf1b333160083d74510f0be08aa774fcfd6836c4f8a3fe5925",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 158,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Distant play near far corner; ball unresolved.",
+      "source_sha256": "375def167d26cda0c2d230b3aa235dc32535ad373fb2482386b286adecd89d69",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 203,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Inspected far carrier crop; ball pixels unresolved.",
+      "source_sha256": "1d614bcdaba89e380b24714664434d42981f04a769709c79fda01527c53c3891",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 248,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Inspected crowded far-board crop; ball unresolved.",
+      "source_sha256": "689c12348dc49a7a886346a14d6b1f8906aafa83dade3fe133363e29e66cfc6c",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 293,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Distant play behind goal; ball unresolved.",
+      "source_sha256": "0c58fe746e5d981f2943d78c544afeb49328fa0b02515fd3afd86f13ae1102fc",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 338,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Near corner obscured by boards and spectators; no identifiable ball.",
+      "source_sha256": "706dabd9d2f44a73a6b0278bc90d2d17385da275f42d7246582bf707acdbb256",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 383,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Goal-area crowding; ball unresolved.",
+      "source_sha256": "00ce8b2fda46bccbd40fd399d4d224d9f79f7cf31bbe3c8dcf4597994630bd9e",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 428,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players move left from goal; small ball pixels unresolved.",
+      "source_sha256": "23d09cb4b46b41dda8ffce81c5729ae6d1f9d77eaf443461661bdbaa780143f6",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 473,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Distant play along far boards; no identifiable ball.",
+      "source_sha256": "c94a1e1292b47e7509467fe75c23aa5eca708e2f27f659d152e021d574be4de1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 518,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players look upward near goal; no separately identifiable airborne ball.",
+      "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 563,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage and players walking; no identifiable ball pixels.",
+      "source_sha256": "57fedc487aba057cd2e85296698fd28e54e34da502b8e88bd95ad3b89ced5978",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 608,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage and players walking; no identifiable ball pixels.",
+      "source_sha256": "786d03ea67b682da557d1cff18fd15bf802c73e1eec1da5a985a838089746223",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 653,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage and players walking; no identifiable ball pixels.",
+      "source_sha256": "ae92e91b5a19fda5e14e2a06e5901a9c61fcd011b174634dfd90e4cd94a3c7e1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 698,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage and players walking; no identifiable ball pixels.",
+      "source_sha256": "660c96b75138cc07b66022dca119ad017c66ea8ef48bcb9903c8633d2d9e307a",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 743,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage and players walking; no identifiable ball pixels.",
+      "source_sha256": "8d37b9151f024241b997f399e8ff1782a7f451733bf395fe3d340d5b66d6a8a6",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 788,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Stoppage and players walking; no identifiable ball pixels.",
+      "source_sha256": "ac95ff123f7323439498046e0d97f77d59af9617e7c3dde4d929076f05088fa5",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 833,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players gather for restart; ball unresolved.",
+      "source_sha256": "0570d774a6e6b0b29d708f9cfc49ef29ee6d45267d261adad8a699ef4a6f2ac3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 878,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Faceoff setup at distance; ball unresolved.",
+      "source_sha256": "ee255b584011d4260c7f3f666ba00db67ef9326b3ea7c0b80e38b555067a08fa",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 923,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Faceoff setup at distance; ball unresolved.",
+      "source_sha256": "886258c5e18cb02026c891826cc25217448e103521e6eb0d9bc327d219350d9c",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 968,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Restart begins but ball pixels unresolved.",
+      "source_sha256": "e6360f14eff83f49aa9c88adbdb312c27dc02b541d067363653bd485b68b2627",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1013,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Players turn toward near boards; ball unresolved.",
+      "source_sha256": "cf18267ddad2a3a6a94c65694c58c81478ed758b5c3d952633ae1a7163e5efab",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1058,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Near boards and spectators obscure active area; ball unresolved.",
+      "source_sha256": "85ea83b7e46b90cc4b53c03b18f7e7f7649403a3be1d8adf2e8533768a6385cb",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1103,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Fast pan through center; ball pixels unresolved.",
+      "source_sha256": "36bf5b49f3c93855ae8473947b30761e84376e5bfb64b0d219158160c75ab2a0",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1148,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Far-board pursuit; ball pixels unresolved.",
+      "source_sha256": "ca9b0333cf45e74c9d6e1f0cedf4bedd51947bd8c1fb0aa98076102815aa0db9",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1193,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Near boards obscure ball.",
+      "source_sha256": "cae1f76624ec72634bdd0336a37f4a41bf918d218356ff0040f23d4d5db65e3e",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1238,
+      "visibility": "visible",
+      "pixel": [
+        660,
+        530
+      ],
+      "note": "Small red ball visible just above near board edge, ahead of orange 44.",
+      "source_sha256": "01479a307e1f6e9c2c58f3154f6c0a2d958307a277fdf691027d00d597644067",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1283,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Near-right board contest mostly outside frame; ball unresolved.",
+      "source_sha256": "65f2c417693cd8987739d9448de1ab81f8c24375044285ffb0cb10e23df5f294",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "frame": 1328,
+      "visibility": "unknown",
+      "pixel": null,
+      "note": "Near-left boards obscure active area; ball unresolved.",
+      "source_sha256": "8e0e8652ac4a6dd018232c8d3eaad7e9d50dba928cac25489b77f99230089d25",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "schema_version": 1,
+  "sealed_at_utc": "2026-10-27T06:21:20.597657+00:00",
+  "protocol_sha256": "75cd2eaa9243a08ad344b8f06b635bacd7c555cc47610aa511ced411bc4f8236",
+  "raw_manifest_sha256": "8ae393a873f420dda1862381bdefed9b7220c7ddaa13f4d00cbc57640cf13472",
+  "review_method": "Assistant visual review of prediction-free central frame and two neighbors; approximate native-pixel centers rounded to 5 px. No fresh-game model predictions inspected before sealing. Unresolved samples are excluded, not negative examples.",
+  "independent_human_ground_truth": false,
+  "used_for_training": false,
+  "used_for_threshold_selection": false
+}

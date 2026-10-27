@@ -1,0 +1,2189 @@
+{
+  "scope": "Model-generated sequence verdicts, not human labels; chronological split with12frame purges.",
+  "rows": [
+    {
+      "frame": 39,
+      "pixel": [
+        1000,
+        438
+      ],
+      "source_sha256": "20c1d669beb05f9ce6d67021a26eee510c36ac9642f883b60bce854a42629746",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the white-shirted player's trailing shoe, not a separate pink/red ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 47,
+      "pixel": [
+        1746,
+        464
+      ],
+      "source_sha256": "5ca6f6136a2ae8171149a3db36f2bcbb85391fcda11ca085f004c9b4d66334fb",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate aligns with the referee's lowered hand; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 122,
+      "pixel": [
+        406,
+        532
+      ],
+      "source_sha256": "42c3314d534c31c980447f406d474de2557067a93bc8f41f69cd2199ab68db59",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the end of the red player's hockey stick, visibly connected to its shaft.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 125,
+      "pixel": [
+        776,
+        534
+      ],
+      "source_sha256": "67b0488f66f86e0e7898e6d85525807d5ac36d00c76495e3924338483512c28a",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the curved hockey-stick blade, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 131,
+      "pixel": [
+        486,
+        498
+      ],
+      "source_sha256": "c3ad9489e1fd2bf3e12d43e535da27b7ce069d8f123448f4e3eeb340cf71d10c",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered object is the red player's stick blade, connected to the shaft and moving with it.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 134,
+      "pixel": [
+        584,
+        492
+      ],
+      "source_sha256": "4eac44ec2e38241d19302b90f6b57b36f7bf6a8f34a106377c6599c417b1aab1",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center falls on the end of a player's stick; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 166,
+      "pixel": [
+        776,
+        670
+      ],
+      "source_sha256": "874e983f35625a6a18c58af3bffaf7c1925ef1a0560649091f8ab00f4a1e5450",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red-and-dark shape at the center is a player's shoe, attached to the moving leg.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 178,
+      "pixel": [
+        354,
+        886
+      ],
+      "source_sha256": "95e9b53a39f25671551eb68af571d0db24f05790ba61c89662cead6af921a5c2",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A small pink, motion-blurred ball is visible on the floor at the center, separate from the shoes and red stripe.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 188,
+      "pixel": [
+        1148,
+        696
+      ],
+      "source_sha256": "a3a0271c215b157b6d1273c4509dc85e49483a7bf2eeb4f8c8e1bfe3f64c4c5d",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A small pink ball is visible at the center just below the black stick blade.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 419,
+      "pixel": [
+        1228,
+        573
+      ],
+      "source_sha256": "656e373677da85b46733ed73fb15d0a7a78e5fb8eed3d963462616a4b82e1b1d",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Small pink/red ball at the crop center, just below and separate from the player's shoe.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 423,
+      "pixel": [
+        1344,
+        476
+      ],
+      "source_sha256": "6f53a5858350b72d8701199fd5637e6edb050daba7b33d55559758922c8b8154",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Compact ball at the crop center, isolated from the nearby player and stick; its elevated position matches the surrounding motion.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 431,
+      "pixel": [
+        1123,
+        604
+      ],
+      "source_sha256": "1bc0c3c78a2843ae1cda06a98e88c63dc3513fb6159ac8c9d7ad89d1ff2f4d50",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Distinct small reddish ball centered on the floor ahead of the player's feet, moving left across adjacent crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 434,
+      "pixel": [
+        1076,
+        610
+      ],
+      "source_sha256": "e2fdd846cb041f0507fb980b64fe0a06bb584850cf636dfbe6b1d06613fe125a",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Small reddish ball near the center at the edge of the player's shadow, separate from shoes and sticks.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 442,
+      "pixel": [
+        945,
+        628
+      ],
+      "source_sha256": "6a7e0fe33ff32a4735cffba7db7a36347e94232b78a85bd1d5af4b76da8c229f",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Pink/red ball at the center over the white floor marking, continuing leftward across the surrounding crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 655,
+      "pixel": [
+        321,
+        516
+      ],
+      "source_sha256": "5f348e4f6e1b6fcae77fda0fcb4368400e4ef0f6dacecedd4467689b4fcac979",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is a hockey-stick blade; no separate pink/red ball is identifiable nearby.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 683,
+      "pixel": [
+        88,
+        638
+      ],
+      "source_sha256": "a0435c84c65c547a9f56525308f07a46300e362740f70fe2f995957b4125d387",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate falls on the white-shirted player's elbow/glove area, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 743,
+      "pixel": [
+        916,
+        408
+      ],
+      "source_sha256": "a8c9cd62d98a0fdc0e08172eeca49c0f9b85b5f6762437fda339d017c49c8a18",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A small reddish ball is visible just below and right of the stick blade, within the allowed center distance.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 868,
+      "pixel": [
+        1284,
+        592
+      ],
+      "source_sha256": "2866284ebcf5a4fa463279c8554d0f50ccca2aec0b0c2fe352a57b88af4ab5dc",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A separate small pink ball is visible at the crop center on the court marking.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 889,
+      "pixel": [
+        84,
+        604
+      ],
+      "source_sha256": "718788d1387ec97513de3c68cb7ef6dda353a00be1d4cc938cb8b0e7f1f46172",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the dark stick blade; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 925,
+      "pixel": [
+        478,
+        478
+      ],
+      "source_sha256": "2594e7780b0c9a555667426aa4a384b98e387f33aeeff132deba6d9323327c8a",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the player's stick blade, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 946,
+      "pixel": [
+        1164,
+        644
+      ],
+      "source_sha256": "1c20d536d2d3b50179cfda3e01991416b0f011c825be3aa394dd70db4f96007c",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pink/red patch lies along the stick shaft and is not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 950,
+      "pixel": [
+        639,
+        560
+      ],
+      "source_sha256": "07091eb18bcaee5284dd6167d5a7ebb919eb2db917415159e76f243bc418cb5f",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A small separate pinkish ball is visible at the center on the floor, below-left of the stick blade.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 977,
+      "pixel": [
+        646,
+        608
+      ],
+      "source_sha256": "3b07233e02a896c6a4f363ffd173bed44624c3451b9ef2c8a8531057e5633007",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Small pink ball is visible at the crop center, separate from the nearby stick, and moves rightward afterward.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 991,
+      "pixel": [
+        646,
+        705
+      ],
+      "source_sha256": "76a3b416ecd2216ec3e07de78a44a64149402d3d56f5f0122e06918478226706",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A pink/red ball is visible immediately below the dark stick blade at the candidate.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1006,
+      "pixel": [
+        392,
+        668
+      ],
+      "source_sha256": "a2224982f723244bc80859fa8731ab6c0b6dba5706c554052522787fd7e73fae",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "An isolated small pink ball is visible at the center on the court, with motion blur.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1028,
+      "pixel": [
+        1110,
+        408
+      ],
+      "source_sha256": "0a353f6a52310c01eb74cc1086e998552de7a23aaff0878da213a9a13b27868d",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the raised blade of a stick, connected to its shaft.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1038,
+      "pixel": [
+        488,
+        501
+      ],
+      "source_sha256": "6c6eb35d25c194153db0bf0ca1f9274754d063d374cac520bdc1fa5ec16a5d25",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate falls on the curved dark stick blade; no separate pink/red ball is visible there in the target frame.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1067,
+      "pixel": [
+        224,
+        510
+      ],
+      "source_sha256": "60068a0848b97083181af0217cf568d5dc3724ba08e51ead4754cf1983717f4e",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the player's stick blade; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1111,
+      "pixel": [
+        1006,
+        484
+      ],
+      "source_sha256": "1988a224f031508eb10990e9c216639b262e35c31b66fa967c1d6bdedb4e27f8",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate falls on a player's cast shadow, not a distinct ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1165,
+      "pixel": [
+        722,
+        484
+      ],
+      "source_sha256": "5085690180302c729c502e7a38b759fbf31e84db2262142909661322222c2274",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A small separate pinkish ball is visible at the center on the floor between the players.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1214,
+      "pixel": [
+        700,
+        498
+      ],
+      "source_sha256": "7face2d10f72c5178086e610303b064d9b785cd3bd8fdbbcf6247e7752a261b0",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A distinct small pink ball is visible near the center, separate from the shoes and sticks.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1239,
+      "pixel": [
+        1636,
+        492
+      ],
+      "source_sha256": "535c4723e554067a4e5cf326422c2aaa2278cb6086e798f2db67a70366d78195",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered object is a curved stick blade in front of the goal, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1245,
+      "pixel": [
+        1592,
+        490
+      ],
+      "source_sha256": "bd6bece52b0c90e33c288eadc12fabb37139ef205b59a26261a5c23246ee33c6",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the curved dark stick blade on the floor; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1278,
+      "pixel": [
+        262,
+        518
+      ],
+      "source_sha256": "8ac9253e9f18c3530f1ba12fa9b406154260234967844d9b7c48ec28b59d182e",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pink object is the player's shoe, attached to the moving leg rather than a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1324,
+      "pixel": [
+        1840,
+        296
+      ],
+      "source_sha256": "462339ef9b7aa1a2bbe927f2d0a7978c456a675cacb3ee99b849a2e2664a43a3",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red spot is a glowing background light beyond the rink fence, not a ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1344,
+      "pixel": [
+        412,
+        280
+      ],
+      "source_sha256": "2313125dff4acb9d682a8b24c31416c47c8ac8303e133667353ca1c24d590d75",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red glow is a background light behind the raised stick, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1348,
+      "pixel": [
+        504,
+        280
+      ],
+      "source_sha256": "cfab963ba9e653af9a333aca06a4abb39e6b3e0c2c8a8614258433f686387e04",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the same background red light near the raised stick; it remains aligned with the fencing.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1369,
+      "pixel": [
+        548,
+        256
+      ],
+      "source_sha256": "ca4443eb95520728300d10c531552563a1693cd9249f54db05e5dcabffcfbcab",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red spot is a vehicle light behind the rink fence, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1379,
+      "pixel": [
+        934,
+        66
+      ],
+      "source_sha256": "84f0e9fb3039d218ec6f352256ac5b1e444fd90903d11818584a3484aae8c00c",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center lies on an illuminated scoreboard digit, not a ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1388,
+      "pixel": [
+        928,
+        68
+      ],
+      "source_sha256": "9d6800f22d0c1c8475c2d24d022fba9014d086e90226de843facee462491faa7",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red/white feature at the center is part of the scoreboard clock.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1391,
+      "pixel": [
+        520,
+        246
+      ],
+      "source_sha256": "96078a7feea18815bd12237b38b154c95f87b36d642e20f53e67026c4c8c4f99",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red spot is a background vehicle light behind the fence, consistent with the surrounding crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1398,
+      "pixel": [
+        884,
+        68
+      ],
+      "source_sha256": "f40ba60af9574fdd48bd50526b8e5e1bc537d0343c9dd63f97200dcf0cf367df",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is on the illuminated scoreboard clock digit; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1402,
+      "pixel": [
+        576,
+        244
+      ],
+      "source_sha256": "16974edde0beb5ace45b89e7a1311514e35c03df5c4b50e8b928df724659c343",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red glint is a background vehicle light behind the fencing, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1410,
+      "pixel": [
+        888,
+        68
+      ],
+      "source_sha256": "15ae46e77e7ce01be2640c69fda8a351dea69fe88721510ffe3e894513e60ac1",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center falls on an illuminated scoreboard digit, not a ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1416,
+      "pixel": [
+        894,
+        66
+      ],
+      "source_sha256": "effe2bfc1d2679f09a3946118517e063c834bc9f3e5c7031b8174714217bfa34",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red-and-white feature is part of the scoreboard clock display.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1423,
+      "pixel": [
+        888,
+        68
+      ],
+      "source_sha256": "6e9fd093a40dabdc6643b2104d51167101841564c7f76c252a1d9f090150af85",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is on the scoreboard's illuminated clock digit.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1428,
+      "pixel": [
+        892,
+        66
+      ],
+      "source_sha256": "a79d6632bc4ad2f866bd843629490647e8b28efb55cb3e8aba370f4a97de66ad",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center shows a scoreboard digit; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1435,
+      "pixel": [
+        918,
+        68
+      ],
+      "source_sha256": "b85de57536ce9d0438f8601b5bda4821bb3380d7444970b2f77740ff68effb14",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "Crop center is on an illuminated scoreboard digit, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1439,
+      "pixel": [
+        912,
+        68
+      ],
+      "source_sha256": "2db7e3a571cba35e375f1522244a4aee4fb52d49a6ed07b774a3b3058fd0c06e",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red feature at the center belongs to the scoreboard clock display.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1442,
+      "pixel": [
+        900,
+        68
+      ],
+      "source_sha256": "542246a3affa71ab5a63418e3053dd19b9793eb756a71f177434c70879c87ec4",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "Center overlaps the scoreboard's illuminated numeral; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1458,
+      "pixel": [
+        764,
+        396
+      ],
+      "source_sha256": "48d9d8690267e266be48b810f05929fdd18d9991bb95b7a140aa98d7f47a09c2",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red patch is the goalie's jersey, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1461,
+      "pixel": [
+        1108,
+        392
+      ],
+      "source_sha256": "7719af064687ef15d13eff753b6ced52528bbb8b90b3eb85dd83d743b90a7a28",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "Center falls on the goalie's blurred red jersey; no distinct ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1601,
+      "pixel": [
+        1012,
+        476
+      ],
+      "source_sha256": "9683bd7eed9c7cde433996467c820389e656fbf633c673a6ab5673902d0c9f6b",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center is on the referee\u2019s trailing shoe, not a separate pink/red ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1616,
+      "pixel": [
+        1000,
+        480
+      ],
+      "source_sha256": "b58f67d35e822fb95e8dfffa83e8ef60d1b5ab96818463238641f6d37302c2c8",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the referee\u2019s shoe, moving with his leg.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1687,
+      "pixel": [
+        608,
+        488
+      ],
+      "source_sha256": "4f35cc7355cfe2a9bffa7f84fde5170aa2a4ac23af1d760261ee7855e9463804",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red area at the center is part of the player\u2019s jersey sleeve; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1697,
+      "pixel": [
+        612,
+        492
+      ],
+      "source_sha256": "eb833a61cd93e3dfbb8eed6410877d77e293f5964f3713a531143b9b60839718",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The center falls on the player\u2019s red sleeve/upper arm, not a ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1808,
+      "pixel": [
+        716,
+        676
+      ],
+      "source_sha256": "bbfee71e78a94e6ab0933744700bb5a52f73c5eadf39d1aa4f48973ca0df571c",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A separate small pink ball is visible at the crop center on the floor beside the player\u2019s shoe and stick.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1813,
+      "pixel": [
+        624,
+        698
+      ],
+      "source_sha256": "92059fb4cf02d40d12c1346136857874b70a03308f00b2bf71c5a143dca62362",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Small pink ball visible at center on the floor beside the black stick blade.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1819,
+      "pixel": [
+        426,
+        715
+      ],
+      "source_sha256": "e55a0ac60aa1287c36e7a897364debffe6eada997d658d022aa322a27f3dd5eb",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Distinct pink ball on the pale floor marking, separated from the nearby stick blade.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1822,
+      "pixel": [
+        348,
+        724
+      ],
+      "source_sha256": "8eced40b347e6d71369cde58124fc56e7d17accacfbdf8ac1ff21fe3aea71c92",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Pink ball visible immediately below the stick blade at center, continuing its leftward motion.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1865,
+      "pixel": [
+        1094,
+        584
+      ],
+      "source_sha256": "b0933fc29372f86a72e7db43101c4a0ffd5a74f4919d44bd769141db4793f604",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark shape appears to be a stick tip connected to a shaft, not a pink/red ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1920,
+      "pixel": [
+        1864,
+        396
+      ],
+      "source_sha256": "435d798ceb1b4f9e547860371b6294cb5e5375bf843f9c11b4b41cd8cbbb22b5",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red/orange patch at the center is part of the referee's collar/shoulder, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 1995,
+      "pixel": [
+        886,
+        552
+      ],
+      "source_sha256": "a5096ae8fb75c2e55b30caffe6b519f837ebc5915cd6ef34f30cf856a906970d",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red object is the player's shoe, moving with the leg across the crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2039,
+      "pixel": [
+        810,
+        524
+      ],
+      "source_sha256": "e12a067b4ed96205a8e5fc83a4df95c52eca47d498a858d5c5ff30740b1e1a65",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red patch at the center is a shoe attached to the player's extended leg.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2050,
+      "pixel": [
+        852,
+        534
+      ],
+      "source_sha256": "e4d25a426e8bac4394b2afe9fbbf0d18ea5c4f83ac825ed7d50f056f0585efff",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered reddish object is a player's shoe beside the goalie, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2063,
+      "pixel": [
+        765,
+        562
+      ],
+      "source_sha256": "fafa600c2d5528111dc598b65a50396686c53d6d69e9c3badd2d286ef110ad43",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The dark object at the center is a stick blade connected to the shaft extending from the left.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2070,
+      "pixel": [
+        1336,
+        482
+      ],
+      "source_sha256": "4b5059914c573b2c49aee0dcb5b931f64d0aa425b2457fac24fb2a2c8b7eb89d",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the upturned blade of a hockey stick, continuous with its shaft.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2078,
+      "pixel": [
+        874,
+        404
+      ],
+      "source_sha256": "ca598cf185949c03948fd0f8729242e130c2df3ecb4f13aafd952239dfe21820",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate falls on the player's helmet/head; no separate pink or red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2267,
+      "pixel": [
+        1276,
+        762
+      ],
+      "source_sha256": "f2ff886681c6a46c7d208b6c08bf4e282271f0ab67ee4df1b49e9196f0176076",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pinkish object at the center is the referee's dangling hand and fingers, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2310,
+      "pixel": [
+        1750,
+        624
+      ],
+      "source_sha256": "783686f8704ea172968bcfbe819d8d2da0859cc40b7efc2544693b691671c2c2",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered object is the referee's extended hand, moving with the arm.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2462,
+      "pixel": [
+        1218,
+        544
+      ],
+      "source_sha256": "54d96ba58d357c735c9cd2d51fb0a779e1ff7153e1490b0d1c8565b0ca7d044d",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark mark is part of the hockey-stick shaft; no separate pink or red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2475,
+      "pixel": [
+        100,
+        540
+      ],
+      "source_sha256": "8318d89a4266c44b4b9544453e6c0b1ddea109942b65369391ef6c84a495198b",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red feature near the crop center is part of the referee's sleeve, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2479,
+      "pixel": [
+        634,
+        652
+      ],
+      "source_sha256": "44cb634f806714212083a827cb645bdc31e34b9b5988b12647abed201b6ce23c",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark feature is a hockey stick blade connected to its shaft; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2550,
+      "pixel": [
+        422,
+        504
+      ],
+      "source_sha256": "d1444d13b84f616352156d4bdcbb9dde774e0ae4789571f47a427960defd3676",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pink/red feature at the center is the running player's trailing shoe, attached to the leg.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2553,
+      "pixel": [
+        488,
+        502
+      ],
+      "source_sha256": "5759b3e9268fd689869a22e122926c94f48a0bd8971c5965209a6793a2b1d107",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered pink feature is the player's trailing shoe, moving with the leg across the crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2559,
+      "pixel": [
+        614,
+        508
+      ],
+      "source_sha256": "4ce2cd4d8a3171154db2c2fd2245ced12fd2c1a8753cfc44f6dde84453f548dd",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pink/red feature at the center is the player's trailing shoe beside the goal, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2570,
+      "pixel": [
+        1032,
+        534
+      ],
+      "source_sha256": "847155328565a0e4520e06a9ecfed0801157c6114232302efae1bdc898eda4c3",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Small isolated ball at the crop center, moving rightward across the floor in the surrounding frames.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2609,
+      "pixel": [
+        1192,
+        688
+      ],
+      "source_sha256": "46cdb665781cef7d1af2fc925bf960f0886e3ac8970c2bc266eff31d472cb989",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A distinct small pink ball is visible at the center against the open rink surface.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2657,
+      "pixel": [
+        868,
+        660
+      ],
+      "source_sha256": "5689b18be6af0203d604291ad3e081d1702e05305c872749731985aa609fa7a8",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The central red patch is part of the person's shoulder clothing, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2687,
+      "pixel": [
+        184,
+        698
+      ],
+      "source_sha256": "9263c1344fdf7f7c7245b242ad1d810bb63c2a9c28af77e56bf5a119a724efc2",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate falls on the white player's upper-back jersey.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2710,
+      "pixel": [
+        464,
+        550
+      ],
+      "source_sha256": "2f3289dc0adf2c3e177598bf0c3ba21125b444ea75f6b36fb82528707cb5d724",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered dark shape is the player's stick blade; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2743,
+      "pixel": [
+        1218,
+        436
+      ],
+      "source_sha256": "6021e952305d8ab1f9900de4f86ab2468da6b91341f2d9d1a02b527475c94827",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered object is a stick blade extending from the goal area, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2755,
+      "pixel": [
+        776,
+        554
+      ],
+      "source_sha256": "e9efe6bb0adb206aab2690f81c3b4beefa283bacf42f763358a71b27c641084b",
+      "label": 1,
+      "split": "development",
+      "teacher_reason": "A small, separate pink ball is visible at the crop center on the court, moving across the surrounding frames.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2759,
+      "pixel": [
+        680,
+        680
+      ],
+      "source_sha256": "3072cd0bcb461896d976a68cfa3df54ee1f668937047f1ab76e3afe37d1e6b3a",
+      "label": 1,
+      "split": "development",
+      "teacher_reason": "A distinct small pink/red ball is centered on the court near the boards, separate from the spectator's arm.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2792,
+      "pixel": [
+        1398,
+        500
+      ],
+      "source_sha256": "31d3e2d69470f2a3d7323e09383962ba6ea2da7dc76766f0e596b267b2ffb56f",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The red shape at the center is part of the white-shirted player's shoe; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2819,
+      "pixel": [
+        1576,
+        488
+      ],
+      "source_sha256": "b13a05b8366dd1a1505de879a9ad5c6ba17a61918d4a07982d412a57a812d6ac",
+      "label": 1,
+      "split": "development",
+      "teacher_reason": "Separate small pink ball at the crop center on open court, distinct from players and markings.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2842,
+      "pixel": [
+        849,
+        619
+      ],
+      "source_sha256": "59ca85c355fe582f8f86b251493ffbb48adda140d869811d6db015f27a89f065",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered feature is the white player's extended shoe; no separate pink/red ball is identifiable.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2848,
+      "pixel": [
+        810,
+        606
+      ],
+      "source_sha256": "95f70f3679ddc4d48f7bf5c959dee9172dbc3b37f2cef5039ebc2df3586a1064",
+      "label": 1,
+      "split": "development",
+      "teacher_reason": "Small separate reddish ball at center beside the running player's leg, moving across the surrounding crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 2899,
+      "pixel": [
+        296,
+        540
+      ],
+      "source_sha256": "ddbbed66f9cb526d362832c78a47e310f207b3e1ace5208a92cab05109cc5792",
+      "label": 1,
+      "split": "development",
+      "teacher_reason": "A small blurred pink ball is visible at center on open court, consistent with the preceding crop.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3044,
+      "pixel": [
+        1528,
+        550
+      ],
+      "source_sha256": "3405018883e408e0bbe607162aa34d5cd7a382709114460b3bbbf14ed146a9ba",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The crop center falls on the black hockey-stick blade, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3049,
+      "pixel": [
+        1528,
+        552
+      ],
+      "source_sha256": "74fcf5a6d31276d78586c92fcb68354fe1c8db70dadc455e3695ac8290f76890",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate is the dark stick blade, connected to the shaft; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3125,
+      "pixel": [
+        1280,
+        474
+      ],
+      "source_sha256": "53560b8c42be8baa85aab56bb24d731e127875f1230502cfa84f92745f6b2fc7",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate coincides with the player's dark glove, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3142,
+      "pixel": [
+        892,
+        596
+      ],
+      "source_sha256": "0a7261f67c26c6f6084cb95d36a2b10ab733ec5f684d07685f453b4384f0b97b",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered dark patch is part of the stick/player shadow on the floor, not a distinct pink/red ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3147,
+      "pixel": [
+        1196,
+        484
+      ],
+      "source_sha256": "fe0fddb5e5120c631f31b6d877003a2c1ad5acc170a8b375bd1a8d2ca9b6d34b",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate is the player's glove beside the hip; no separate ball is identifiable.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3207,
+      "pixel": [
+        1156,
+        70
+      ],
+      "source_sha256": "52bcd8f6d67f33d8bcc47f1377b69565fe2ca6038aa56fbc83766755ba71403e",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate lies on an illuminated scoreboard digit, not a ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3214,
+      "pixel": [
+        1188,
+        70
+      ],
+      "source_sha256": "2c92d127c59f482697e63e8ec58530e577d1209426bf3bd5587da78dcb34ac27",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate is part of the illuminated scoreboard digit, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3217,
+      "pixel": [
+        1192,
+        70
+      ],
+      "source_sha256": "d9486d587f93697d74761439114a43a5554d8476b3d36529645fd49b9785c90d",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate lies on the scoreboard's illuminated clock display.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3340,
+      "pixel": [
+        242,
+        534
+      ],
+      "source_sha256": "a082257ec32a9d8c563c331fb6b585fa55294332bd1afddff2d57ff4348b834c",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The dark mark is a player's stick tip, clarified by its connected shaft and motion in adjacent crops.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3345,
+      "pixel": [
+        204,
+        556
+      ],
+      "source_sha256": "a2cf4c820318abd820f6d6d41dde35043666c662fbeb1728bd875f8f4926cee9",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate is the dark end of a hockey stick, with its shaft extending toward the player.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3476,
+      "pixel": [
+        1148,
+        700
+      ],
+      "source_sha256": "94a9305e0d59581846836a8105e164536353865996288b3d0c18aeb76d15b7ab",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate is a stick blade connected to a long shaft extending right, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3479,
+      "pixel": [
+        1110,
+        702
+      ],
+      "source_sha256": "0ba1a206429a851deeddcdc68966008a434fc33357070490815c47d9313e0f4b",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The center is a dark hockey-stick blade connected to a shaft, not a separate pink/red ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3497,
+      "pixel": [
+        1202,
+        476
+      ],
+      "source_sha256": "e795a0a0bd3ba56c3afc45066967bc5aaeebb91f62423eebc3816008ff98d2c5",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered object is the referee's shoe, attached to the visible lower leg.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3543,
+      "pixel": [
+        508,
+        498
+      ],
+      "source_sha256": "aea46ff42cd700546ed4e760b5943fda14b4024d2fce22d2db0dc21117b0dc2c",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The center falls on the moving player's shoe; no separate pink/red ball is identifiable nearby.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3551,
+      "pixel": [
+        178,
+        582
+      ],
+      "source_sha256": "a88f6b32e6c9ad0ad9b76d845d79c4e798d1418371f9a1a2dd30634174100f8c",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The dark object at the center is the end of a hockey stick, continuous with its shaft.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3555,
+      "pixel": [
+        440,
+        518
+      ],
+      "source_sha256": "f6ba43961beb5e7d3ebf2a7e53e5f5a37c254893bb6ac5df950752a8b3ba76e0",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered dark shape is a hockey-stick blade; no distinct pink/red ball can be separated from it.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3658,
+      "pixel": [
+        1088,
+        396
+      ],
+      "source_sha256": "02517fe96ec97be72a9358dc67d94e19653d82f1cd1a9111605fb01a604852e3",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The crop center falls on the white player's helmet; no separate pink/red ball is visible nearby.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3767,
+      "pixel": [
+        492,
+        484
+      ],
+      "source_sha256": "d7c940f1507a07ad9ee934338d6c4b70f67c45397d317b7bd711dc37fcb5aa5f",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The dark object at the center is a stick blade, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3789,
+      "pixel": [
+        1172,
+        460
+      ],
+      "source_sha256": "f4d13e8d87bcad16134b306d0815e65929c1807a543f62c74ec888750b224067",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered dark shape is the end of the red player's stick, continuous with its shaft.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3841,
+      "pixel": [
+        844,
+        500
+      ],
+      "source_sha256": "a1c2d268c84b6b1f0704fd34532e7d98ec286ef257fb2e08704291aafaabab1e",
+      "label": 1,
+      "split": "test",
+      "teacher_reason": "A small isolated muted pink ball is visible at the center and moves left across the court in the following crop.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3866,
+      "pixel": [
+        266,
+        548
+      ],
+      "source_sha256": "a9d513202bdeeb02070eca48d318cc6567521aeab7c35e7732338bb47415eecf",
+      "label": 1,
+      "split": "test",
+      "teacher_reason": "A separate small pink ball is visible on the court at the crop center, away from the players' clothing.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3890,
+      "pixel": [
+        956,
+        452
+      ],
+      "source_sha256": "c7d95d5c3d514ea42165c6954f1c5f580c730a8d71657f89c21bfba83cc77e1b",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered dark object is a stick blade connected to a shaft, not a separate pink/red ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 3945,
+      "pixel": [
+        996,
+        544
+      ],
+      "source_sha256": "e66bb47f700b67028843528bea415ff8dbf0820a4b606baf34d8f002c6dcc724",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered mark is part of the player's stick shadow on the floor; no separate ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4030,
+      "pixel": [
+        858,
+        580
+      ],
+      "source_sha256": "733ca088d914cd8b82caeb12f23e4d98353be3d62c04b7dbcca1b004025e4ed7",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The curved dark mark at the center is a stick-blade shadow connected to the player's shadow.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4044,
+      "pixel": [
+        730,
+        612
+      ],
+      "source_sha256": "fe4d4f99e3ffbe85ca3c132a13cc1b7a46d4690fc8d277e0a2ea14b288371eb5",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The center falls on the tip of a stick shadow that moves with the walking player.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4067,
+      "pixel": [
+        1078,
+        506
+      ],
+      "source_sha256": "5161b336f7783c36777319cee64e4c1c5026884b4f77979977479d8da1da97a5",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered dark segment lies along the white player's stick shaft, leading to its blade; it is not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4074,
+      "pixel": [
+        1142,
+        508
+      ],
+      "source_sha256": "b079d42283261b7a0e7f801a1116cab2a58ce848135b4a87ed29a7b4e2277a8a",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The center falls on a diagonal hockey-stick shaft; no separate pink/red ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4096,
+      "pixel": [
+        1732,
+        562
+      ],
+      "source_sha256": "511d2b0d3e88932ab7894bd017e3fb6063a081ec0614b7b766b84b5449eaef1d",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The dark mark at the center is the stick's shadow on the floor, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4099,
+      "pixel": [
+        1692,
+        566
+      ],
+      "source_sha256": "f9b6f41aeb591548d89c72c0f81b74153dc95ab59c0981b4af4791d4d931e209",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered mark is the bent tip of the stick's floor shadow, consistent with the surrounding frames.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4132,
+      "pixel": [
+        1580,
+        504
+      ],
+      "source_sha256": "7c11dcc8c6a3b18ad4f13c54c99353ef5775d02444023fa39411f2eed8ef5b18",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The pinkish area at the center is the referee's lowered hand; no distinct ball is visible.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4142,
+      "pixel": [
+        1278,
+        476
+      ],
+      "source_sha256": "977959a0a60c4253130932dd69d4d234c3373908b461383a51e22ad94518c7e6",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The candidate coincides with the referee's hand, with no separately identifiable ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4304,
+      "pixel": [
+        582,
+        596
+      ],
+      "source_sha256": "a1406e9d873209f867af2bd98a4eec625840919a5d61e07a5572db63d0918cad",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered dark object is a stick blade; no separate pink/red ball is visible nearby.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4353,
+      "pixel": [
+        1480,
+        638
+      ],
+      "source_sha256": "174f7ef209d3f20182ed27f8f1755334dab41006e7dc6fa64e4c582739e7afa7",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The pink region is an elongated marking on the stick shaft, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4356,
+      "pixel": [
+        1480,
+        640
+      ],
+      "source_sha256": "5bc5a63a3e146962e1a0c620499c0ee7d5492a677d95c229a6091e39eeb92b8b",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The candidate lies on the pink-marked stick shaft, continuous with the stick across frames.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4359,
+      "pixel": [
+        1480,
+        640
+      ],
+      "source_sha256": "e2454c22849a1b27652655e8eaed0a7127be5dce42e32da90a819ebfecdd85c9",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The pink feature belongs to the stick shaft; no distinct ball is visible at the candidate.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4442,
+      "pixel": [
+        1012,
+        408
+      ],
+      "source_sha256": "fa67c722ff2a06f1387fdb390e5195c0d41cabbd59a83e409e246829345f1265",
+      "label": 1,
+      "split": "test",
+      "teacher_reason": "A separate pink motion-blurred ball is visible at the center, descending through the surrounding frames.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4445,
+      "pixel": [
+        998,
+        478
+      ],
+      "source_sha256": "45496392d11f621bfeab6f6ba8275a44284e3cd200086914c6a7deed5921e1ae",
+      "label": 1,
+      "split": "test",
+      "teacher_reason": "Separate pink/red ball at the crop center, moving downward through the surrounding frames.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 4466,
+      "pixel": [
+        1510,
+        600
+      ],
+      "source_sha256": "7e948952ff8f9dccf80b769a6b7521cb00c9bce82df3ff19929e3414c48665d4",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The pink/red feature at the center is part of the player's stick shaft, not a separate ball.",
+      "proposal_source": "detector"
+    },
+    {
+      "frame": 95,
+      "pixel": [
+        731.4609482959556,
+        345.62167259562807
+      ],
+      "source_sha256": "6c7c44f582666d8b9259efdb8b0e95b77a1ac60343f900829004284b42773bc1",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red region is a player's jersey behind the white-uniformed players, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 242,
+      "pixel": [
+        694.8821227385881,
+        517.933489503502
+      ],
+      "source_sha256": "582f54a4a7ed27722c144edecfb860bac10c414a9ea3590574646c61638ec838",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the stick blade, visibly connected to the shaft across the crops.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 424,
+      "pixel": [
+        1797.6256146415508,
+        524.204376740603
+      ],
+      "source_sha256": "705ac1834c13f808fdb6639783929d71db99d80860dea022988fa23330ac9d92",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pink/red patch lies along the hockey-stick shaft and moves with it; no separate ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1156,
+      "pixel": [
+        810.3680077314539,
+        127.19536542099678
+      ],
+      "source_sha256": "7790b090dd1ae592cb4f5d0fbe6ba3016df7cf6460b74e0ae1ddaa54e1990e69",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "A separate small pink ball is visible at the center against the dark sky, descending from its earlier position.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1227,
+      "pixel": [
+        183.0025166033717,
+        347.12160743070535
+      ],
+      "source_sha256": "f429d42d5540a6b105de7d76400586b0037b1f4aba209e956ed4d4a940a9890c",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The bright red spot is a background light near the shelter, not a ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1244,
+      "pixel": [
+        537.2912841406009,
+        334.3248377905909
+      ],
+      "source_sha256": "52ad29caca205d88f4572c6500aaaed7ac612e3fd529143a4ac379766be85119",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red glow is a background vehicle light behind the spectators, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1253,
+      "pixel": [
+        756.3527993191117,
+        326.85609362540134
+      ],
+      "source_sha256": "3c618eac78c96b35ec79fc0f5e57993c7b42abcb4cef3ee4ed7bd55db96f07e6",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is a bright red vehicle light beyond the boards, with a luminous halo rather than a ball surface.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1269,
+      "pixel": [
+        1201.5746258333695,
+        322.56310581136324
+      ],
+      "source_sha256": "31f98416c821e60873dba0d2aeeb84ed1a56215dd11afdcd1ac4f17317d31ef3",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red object is a background vehicle light beside the parked cars, not a ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1288,
+      "pixel": [
+        1525.3433614257863,
+        313.0768548093165
+      ],
+      "source_sha256": "2a829a97721e379b3ab0830fca62b7a76b4800d57a1b2f9945db06c4dae2b738",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red glow is a vehicle light behind the rink fence; surrounding frames track it through the background.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1297,
+      "pixel": [
+        1683.5497775101526,
+        311.21772675164686
+      ],
+      "source_sha256": "5f292947dbe95493c6180c9c0179b01d9197d550abf76a74bb04ac6b54b2a912",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the glowing red vehicle light beyond the fence, not a ball on or above the playing surface.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1303,
+      "pixel": [
+        1820.2937858861683,
+        311.1181869311675
+      ],
+      "source_sha256": "21ffda88b121ab9bcd39d9f189ca3d8466d0ed7ec26ed5a9ce940fc4af12eab3",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The bright red candidate is a background vehicle light behind the rink fence, not a ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1310,
+      "pixel": [
+        286.8854872175212,
+        533.7609682026388
+      ],
+      "source_sha256": "c07b963e7561d705240b0918ba95a5b5e985f87a70c65636e55150a36db1a2ac",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is the player's red shoe, attached to the moving leg; no separate ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1347,
+      "pixel": [
+        483.6675100829282,
+        278.42719735591606
+      ],
+      "source_sha256": "06acf568257e2f593c17060b68dc988ef3dc9544c5cc21518ac456bbeec7a651",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red spot is a background vehicle light behind the fence, briefly aligned with the goalie's raised stick.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1358,
+      "pixel": [
+        533.9653191959433,
+        263.8101823059508
+      ],
+      "source_sha256": "a40261b95a0628ba65480385471622b69008da3bbf5a696e3b1de6c36f1b18cc",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is a glowing red vehicle light beyond the fence, with another light alongside it.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1366,
+      "pixel": [
+        569.0630468767256,
+        264.34224082738524
+      ],
+      "source_sha256": "40acd10a100cb7bbbadbf75f5be8d9b80a246c0540a4edcdff014dddf83048d1",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is one of the paired red vehicle lights behind the fence, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1372,
+      "pixel": [
+        534.696355540249,
+        254.13052583758736
+      ],
+      "source_sha256": "d8797d95002a72f363439226b818338948a628bc65084eba40a8f7d77520c8b4",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red spot is a vehicle light behind the rink fence, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1385,
+      "pixel": [
+        534.2978701428763,
+        250.47387811299973
+      ],
+      "source_sha256": "5dd8656d63bfb03cf9995d90b1bc5f5d4352098bee4d40acba15855ddef50939",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red spot belongs to background vehicle lighting behind the fence.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1420,
+      "pixel": [
+        201.12315293001262,
+        403.5545117522935
+      ],
+      "source_sha256": "0f38358e52e096e25e1b43490ee9bd01f1dcb5611e8ef5981e5fcb5ef22ffa3d",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is centered on the goalie's red jersey; no separate ball is visible there.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1436,
+      "pixel": [
+        791.5328430292584,
+        224.4002262088327
+      ],
+      "source_sha256": "f2c7480f6c773a032133170bca745922129fea88be8cab6d28afc81eefed8a4c",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered spot is one of a pair of red vehicle lights moving behind the fence.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1444,
+      "pixel": [
+        776.0688767513661,
+        218.45247107187606
+      ],
+      "source_sha256": "7813b0047a99c6a5a6db04e8ef716972b7af9a35c7a360346b150b1a7d03f03f",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red spot is a background vehicle light, continuing the paired lights seen in surrounding frames.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1807,
+      "pixel": [
+        666.396035370894,
+        664.9303293458751
+      ],
+      "source_sha256": "153c25a4cc41665560f9272735ab7ceb593b1bb60893d6a27adb4b0d78c2fc5a",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Small pink ball is visible near the crop center on the floor between the player's legs, separate from the equipment.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1823,
+      "pixel": [
+        321.842466193218,
+        726.2995542869262
+      ],
+      "source_sha256": "b923353ad8756e245ba18dd11d26298a93c325cb4fe9078968458e86407994d1",
+      "label": 1,
+      "split": "train",
+      "teacher_reason": "Pink ball is visible at the center beside the black stick blade, moving along the floor across the crops.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1859,
+      "pixel": [
+        1385.171468464422,
+        511.3629463202342
+      ],
+      "source_sha256": "58457bb9ce40297f190cae2f7189f3def7abb1569dd0145db97ba66738968c4a",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red object is the white-shirted player's helmet, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1901,
+      "pixel": [
+        793.2580717126369,
+        402.6881002014377
+      ],
+      "source_sha256": "c3200e880e245190d419cbecbbe5256f242e46067f0909103ab39a79a3b66cd9",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate coincides with the white-shirted player's red helmet.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1912,
+      "pixel": [
+        1131.1341932712826,
+        468.41272140101347
+      ],
+      "source_sha256": "44dbd481c09e9398a24473dc01709ef46816b412b04d55fddeb4cc28eb0ba092",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered dark object is the player's lifted shoe, which follows the leg through the surrounding frames.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1939,
+      "pixel": [
+        795.7968263940686,
+        390.21037075289934
+      ],
+      "source_sha256": "215a9ba0b45d11e491cda863e46c4e2f4b2de7cb9ce002a03f5e2f571a170d59",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center is on the player's reddish helmet/head, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1949,
+      "pixel": [
+        787.8723043550091,
+        391.70062631615303
+      ],
+      "source_sha256": "eab6f131fc0cc392e2cedbf47d892e033dc39297463005b3cbe7c8d1a0d2b9de",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The reddish object at the center is the player's helmet, moving with their head.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1957,
+      "pixel": [
+        775.4239855761492,
+        392.8824020420516
+      ],
+      "source_sha256": "c4cb9bd57d2a0c27528aeda4a9469c96a52822db867022e3c54a0179d9817557",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red/pink feature is the player's helmet behind the goalie; no separate ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 1985,
+      "pixel": [
+        913.2609053978517,
+        557.7001319569936
+      ],
+      "source_sha256": "b83d8f06747d060dbdf503855e050e60e1f032a35be07594f21daaea9e951a2b",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered pink/red object is a player's shoe, attached to the leg throughout the sequence.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2009,
+      "pixel": [
+        834.3335121200826,
+        549.1703293321898
+      ],
+      "source_sha256": "7487ca397cc5cb4af46054c07e67e6523395c0b512817a89d0ee557aa4134d8f",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The crop center falls on the player's pink/red shoe, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2043,
+      "pixel": [
+        826.7622613063372,
+        524.9151349006327
+      ],
+      "source_sha256": "a8c6324298900fc692a8fdda23d43c6f39978bd410528ed0506b910351307c4a",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The reddish object at the crop center is a player's shoe attached to the lower leg, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2063,
+      "pixel": [
+        1042.3706259051496,
+        406.97638778842645
+      ],
+      "source_sha256": "fafa600c2d5528111dc598b65a50396686c53d6d69e9c3badd2d286ef110ad43",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate is on a player's red helmet; no separate pink/red ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2110,
+      "pixel": [
+        881.566756144716,
+        406.797129662937
+      ],
+      "source_sha256": "50778ebc2b3ca4a5ddf7c97a0803b1467e05a4609ce2f2e0a3f4e147561dd6c9",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red object is a player's helmet, consistent across the surrounding frames.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2247,
+      "pixel": [
+        887.2312911319686,
+        433.5871471415291
+      ],
+      "source_sha256": "343ba294b5f0726109b1ea8a4d9fd4e090c448f5e4e1703d73e9033a84d56756",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The candidate falls on the player's red jersey near the shoulder, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2360,
+      "pixel": [
+        496.64171761068656,
+        478.80355124796006
+      ],
+      "source_sha256": "b4cf3bf2618f0d89c3156f8570403bb39765ee0bc6cf220c3964917366cb9219",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red patch at the center is the white-shirted player's helmet, not a ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2375,
+      "pixel": [
+        484.7998681161379,
+        496.0701071918819
+      ],
+      "source_sha256": "9e1391a8133b5219f3e3af24166388db2c3eb56233f3c180f8265d5e655ee8ff",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered red object is the white-shirted player's helmet, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2535,
+      "pixel": [
+        419.9550567576079,
+        504.9684690896608
+      ],
+      "source_sha256": "892574bccbdcacc86c7c5c5b0033bc80d783003597f46e241377bde851512c2a",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered pink/red patch is a player's shoe and moves with the foot.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2541,
+      "pixel": [
+        664.0773146935583,
+        405.564074121075
+      ],
+      "source_sha256": "b134add33c94fa73be4522e245279f503be7aeea6f572c3eb9003b4578f32801",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The red area at the center is the jersey of the player behind the goalie.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2568,
+      "pixel": [
+        857.9482211626521,
+        522.727597977801
+      ],
+      "source_sha256": "9a4b0973150db8f705d3c48efca6fdae5116f445183c085903e3b64110446e4e",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered reddish object is attached to the player's lower leg and is a shoe, not a ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2662,
+      "pixel": [
+        563.0222182510043,
+        511.29974811435477
+      ],
+      "source_sha256": "4e481242086ccaea1cee7548c1bfd9b3ac663fb15778389ce8898778279dc6a0",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The centered pink/red blur is the running player's trailing shoe; no separate ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2689,
+      "pixel": [
+        1220.73267988622,
+        484.0187090624338
+      ],
+      "source_sha256": "9489f951c132d90faa5a80f9d2709d089cd7092f08884a121441cd46c25f4884",
+      "label": 0,
+      "split": "train",
+      "teacher_reason": "The pink/red object at the center is a player's shoe, attached to the moving leg.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2814,
+      "pixel": [
+        1252.7890625,
+        631.1937866210938
+      ],
+      "source_sha256": "74839328643f43f2e916502166c6709255156fa5f40c0f8d1088bde099afea80",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The center falls on the player's helmet/neck and red jersey; no separate ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2841,
+      "pixel": [
+        735.5554783254377,
+        457.96944925643845
+      ],
+      "source_sha256": "c7e4403e6d90954e34674ea32fda3b50231398a7285a1938a3f623e8ec2b84f1",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The red patch at the center belongs to the overlapping red-uniformed player, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2955,
+      "pixel": [
+        611.5451232493394,
+        393.64413590848665
+      ],
+      "source_sha256": "0beaf45d8a493ace7c2a4701a3082089448492ba2f3b6ed3773b168e436f06ce",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered red area is the standing player's jersey behind the goalie.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2967,
+      "pixel": [
+        570.6618527581387,
+        396.9971203027656
+      ],
+      "source_sha256": "df577f50389b87a5bed15b5e6cbafa1aad1db3223df45484814ac1f81b5bcb72",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The center is on the red player's upper jersey behind the goal, with no distinct ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 2995,
+      "pixel": [
+        1108.677061474627,
+        407.221066164676
+      ],
+      "source_sha256": "4ec1c000415fadfda7dcb12e7fd43e190ecdeda290448014e4bd6ed8b9b4280f",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The crop center is on the gray-shirted player's red helmet, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 3001,
+      "pixel": [
+        1186.4323183057536,
+        406.68411662092274
+      ],
+      "source_sha256": "726bc397f879409ce9f566a501aae90af9aecb40dfe5279cdac6b528523f14ce",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered red object is the gray-shirted player's helmet and moves with their head.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 3019,
+      "pixel": [
+        1302.1746879513944,
+        407.35271886397345
+      ],
+      "source_sha256": "6f5ee97d95f3ad06abc2470eeb58db127aae0257aa41b60ae8c9a89081bbc88a",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The candidate marks the player's red helmet; no separate ball is visible nearby.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 3025,
+      "pixel": [
+        1342.1802754838436,
+        413.0836849241407
+      ],
+      "source_sha256": "9461dd6935f8cf5a3c53a9184568159e9dd5fa5b5659ac54e4c79a7609fc7dcb",
+      "label": 0,
+      "split": "development",
+      "teacher_reason": "The centered reddish shape is the gray-shirted player's helmet, not a ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 3959,
+      "pixel": [
+        1320.620964460666,
+        500.5058236116838
+      ],
+      "source_sha256": "c812fbd6c2800cf69eb3c672c0222d90fc5f08f096ce84ff2cb29beb0efc365f",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "Candidate lies on the reddish hockey-stick blade; no separate ball is visible.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 3966,
+      "pixel": [
+        1304.8832109678374,
+        500.41922076700587
+      ],
+      "source_sha256": "b31bdb1dd89d581eb4ce9adb3748522fa1030a5518e3db40eb65fd3f55e248d0",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The reddish feature is part of the stick blade and moves with it, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 4187,
+      "pixel": [
+        43.2546017364421,
+        416.26400322269114
+      ],
+      "source_sha256": "747403b64ea23b01503cbe32a51db3a03ca96391c85ef0d7386441111ff40621",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The crop center is on the goalie's red jersey, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 4194,
+      "pixel": [
+        226.50046180178714,
+        404.4362303279942
+      ],
+      "source_sha256": "ebf4d5c172b5761168f42a5acf0e6a46dcf53c7c788fb1c22f3b6aa6ceb0c71d",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The centered red area is the goalie's jersey; no separate ball is visible nearby.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 4343,
+      "pixel": [
+        1488.2310127354253,
+        631.6188231150758
+      ],
+      "source_sha256": "80827dd4d31fcc2e478f2835c05675389a1174dddf010d809715e1be4ec9a586",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The pink area at the center is an elongated section of the stick shaft, not a separate ball.",
+      "proposal_source": "yolo"
+    },
+    {
+      "frame": 4427,
+      "pixel": [
+        1316.3854179595692,
+        456.2212952632792
+      ],
+      "source_sha256": "07019b09aff4fcc4f6744105ea023000d86249e6e1fe0122d29b14a3387c3afb",
+      "label": 0,
+      "split": "test",
+      "teacher_reason": "The center falls on the bent player's red shoulder/jersey, not a ball.",
+      "proposal_source": "yolo"
+    }
+  ]
+}

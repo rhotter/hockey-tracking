@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-27T07:56:26.917940+00:00",
+  "seed_source": "dense-gpu, the same29 reviewed pilot sightings",
+  "tracker": "SAM3 box6; GPU state",
+  "variants": {
+    "dense-wide-gpu": [
+      768,
+      576
+    ],
+    "dense-close-gpu": [
+      384,
+      288
+    ],
+    "dense-motion-gpu": [
+      512,
+      384
+    ]
+  },
+  "motion_guidance": "Forward frames use velocity from nearest earlier seed within12frames. Backward frames use nearest later seed. A target on the propagation side never supplies the guiding position. Camera displacement is removed using the existing homography. Speed above140nativepixels/frame rejects guidance.",
+  "evaluation": "The same70 directed cross-seed comparisons, radius12px. Development diagnostic; motion variant uses an extra neighboring sighting, unlike the single-seed baselines.",
+  "limitations": "Crop contents differ intentionally. Source frames, target labels, seed prompts and model weights remain matched."
+}

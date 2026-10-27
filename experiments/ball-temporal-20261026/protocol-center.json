@@ -1,0 +1,92 @@
+{
+  "id": "nbhl-ball-temporal-center-20261026-v2",
+  "started_at": "2026-10-27T05:50:45Z",
+  "work_until": "2026-10-27T09:50:45Z",
+  "frozen_at": "2026-10-27T06:27:03.342589+00:00",
+  "baseline_commit": "688d815f02c694d234407dfe8252a4a63841e66d",
+  "input_sha256": {
+    "experiments/ball-rebuild-20261026/training-labels.json": "2a809d5dcca5b4f94f62d37412198487783bd377549763cc90e70b47b45c460b",
+    "experiments/ball-rebuild-20261026/verifier-adaptation-labels.json": "b344720315b441234ba8f46b32b4011e2b02af2b2f8aacf5bfc6f8374f91c922",
+    "experiments/ball-rebuild-20261026/regression-labels.json": "df356d49dd79e45910aa6e5d1a901987e1425f6121e3d21b74a0f58491d3b968",
+    "web/data/ball-rebuild-20261026/replay.json": "ed7792a0bac0c6205cece6dd1c3595361054d7e64195bcccad859a6d33321906",
+    "web/data/ball-sam-20261026/positions.json": "e62e5ea6c57d79a2c2d3db66836d5c75bc1e8167f926533a2862a21ef2b9eee1",
+    "web/data/ball-sequence-20261026/context-replay.json": "0202a9354c92b32f59bfc22813b82bbb13ac9818d9087f9ab23f205f2b523211",
+    "experiments/ball-temporal-20261026/training-labels.json": "7b8fd9687d3a76df73ca900d79d47882725eca0663123bd20049c25f01803515",
+    "experiments/ball-temporal-20261026/reused-reference.json": "76e98f0c6b22651d9ff4f00c94969431489ac4f944c6d1d084fe0424926ca5e8"
+  },
+  "training_variants": [
+    "temporal3-center",
+    "motion3-center",
+    "motion3-center-synthetic"
+  ],
+  "seed": 41,
+  "train_frame_limit_current_game": 1500,
+  "crop_size": 320,
+  "neighbor_offsets": [
+    -2,
+    0,
+    2
+  ],
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 3e-05,
+  "weight_decay": 0.001,
+  "validation": "11 existing NJ2400 positive frames at recording40:00, disjoint from training time intervals; four fixed positive crops and four distant negative crops per frame. Checkpoint chosen by localization F1 at12nativepx with wrong locations counting as FP and FN. Reused assistant development evidence.",
+  "fresh_ball_test": {
+    "source_ids": [
+      "XLyHD1ZR5o4",
+      "nWo-KEsSLyo"
+    ],
+    "clips": [
+      "pittsburgh-finals-0600",
+      "southjersey-finals-0600"
+    ],
+    "sample_frames": [
+      23,
+      68,
+      113,
+      158,
+      203,
+      248,
+      293,
+      338,
+      383,
+      428,
+      473,
+      518,
+      563,
+      608,
+      653,
+      698,
+      743,
+      788,
+      833,
+      878,
+      923,
+      968,
+      1013,
+      1058,
+      1103,
+      1148,
+      1193,
+      1238,
+      1283,
+      1328
+    ],
+    "training_eligible": false,
+    "review": "Raw chronological context without tracker proposals, assistant-reviewed positions sealed before model scoring. Both recordings previously used only for player-tracking evaluation.",
+    "limits": "Samples with no visible ball remain unknown, not negative. Localization threshold12px and25px. Output precision reviewed separately."
+  },
+  "model_selection": "Choose development variant before opening fresh-ball reference scores. Failed variants retained. Do not claim estimates during invisibility are accurate.",
+  "api_budget_usd": 50,
+  "model_sources": [
+    "https://github.com/TrackNetV4/TrackNetV4",
+    "https://github.com/thaonan/TrackNetV5-SDK",
+    "https://github.com/AugustRushG/TOTNet"
+  ],
+  "approach": "Fine-tune own ImageNet-initialized stride-two ball heatmap with native temporal crops and explicit signed motion differences; compare single-frame and temporal ablations. No tennis/table-tennis/ice-hockey task-specific weights or footage.",
+  "amended_at": "2026-10-27T05:59:11.615903+00:00",
+  "initialization": "Copy pretrained RGB convolution to center-frame channels and zero all neighbor/motion channels. Preserve single-frame function before optimization.",
+  "reason": "First three-frame variants averaged pretrained RGB filters across neighbors, degrading crop development performance versus RGB. Test function-preserving initialization at lower learning rate before opening fresh-game scores.",
+  "parent_protocol_sha256": "75cd2eaa9243a08ad344b8f06b635bacd7c555cc47610aa511ced411bc4f8236"
+}

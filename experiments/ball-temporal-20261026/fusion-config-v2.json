@@ -1,0 +1,28 @@
+{
+  "frozen_at": "2026-10-27T07:51:10.321586+00:00",
+  "config": {
+    "seed_mask_error_px": 12.0,
+    "seed_detector_radius_px": 12.0,
+    "detector_score": 0.05,
+    "detector_appearance": 0.1,
+    "cycle_error_px": 10.0,
+    "cycle_gap_frames": 6,
+    "track_agreement_px": 10.0,
+    "single_track_seed_distance": 2,
+    "maximum_interpolation_gap": 12,
+    "maximum_camera_corrected_speed_px": 140.0,
+    "preserve_visual_detections": true,
+    "minimum_output_appearance": 0.02,
+    "held_as_context": true,
+    "prefer_appearance_center": true
+  },
+  "uses_review_labels": false,
+  "purpose": "Revised automatic fusion after the first output audit; no per-frame review labels enter inference.",
+  "limits": "Development-stage rules; detector and track agreement are not independent probabilities.",
+  "created_at": "2026-10-27T07:41:15.070789+00:00",
+  "revision": 2,
+  "reason": "First fixed output audit found two clear wrong objects, both with appearance below0.001. Require minimum0.02 at selected output; among agreeing masks choose highest appearance. Held ball paths remain contextual estimates. This is audit-informed development tuning, not an independent result.",
+  "previous_config_sha256": "8bb0d63136049126590ce9add1a665a509f1186046fd6fad579c509bdc5d708c",
+  "audit_sha256": "c64f16ab1b0f7e24fc93ebffe60035c4a4fd913502661d9fea878005485cd6b1",
+  "policy_selected_with_development_audit": true
+}

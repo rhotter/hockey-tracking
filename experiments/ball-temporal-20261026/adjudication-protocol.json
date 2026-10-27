@@ -1,0 +1,256 @@
+{
+  "created_at": "2026-10-27T08:05:46.109105+00:00",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "max_output_tokens": 8192,
+  "budget_usd": 9.0,
+  "selection": "All8 fixed evaluation frames where frozen YOLO and old RGB both answer but disagree by more than25px. Reference visibility and coordinates do not select requests.",
+  "rule": "Choose an identifiable visible ball candidate, or neither/uncertain; retain YOLO if uncertain. Neither with explicit visible alternative may replace the point; neither without alternative removes a detection.",
+  "scope": "Exploratory reuse of already opened new-game clips; not a new hidden test.",
+  "input_sha256": {
+    "fresh": "82d2caae0f212cabf6783f88374383867e24cecb153710bb99266602925ac1d6",
+    "extra": "6f2e4b314695133fb822feebfb1b08c49ff9930b53e8ad4b1424998725fbcd26"
+  },
+  "requests": [
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 383,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            1772.362548828125,
+            567.442138671875
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            654,
+            392
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            1190,
+            404
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "frame": 1148,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            491.68975830078125,
+            596.0553588867188
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            450,
+            828
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            428,
+            826
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1200",
+      "frame": 698,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            89.12197875976562,
+            611.92138671875
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            1218,
+            494
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            1220,
+            494
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1200",
+      "frame": 788,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            560.8763427734375,
+            445.48712158203125
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            1376,
+            388
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            1376,
+            388
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "pittsburgh-finals-1200",
+      "frame": 1148,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            650.3626708984375,
+            1016.1666870117188
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            878,
+            778
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            878,
+            778
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1200",
+      "frame": 653,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            1622.33740234375,
+            587.3472900390625
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            158,
+            570
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            1622,
+            588
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1200",
+      "frame": 1013,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            299.3287353515625,
+            920.9007568359375
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            436,
+            580
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            436,
+            580
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    },
+    {
+      "clip": "southjersey-finals-1200",
+      "frame": 1328,
+      "candidates": [
+        {
+          "id": 0,
+          "pixel": [
+            1602.9171142578125,
+            557.35205078125
+          ],
+          "model": "yolo-full1920"
+        },
+        {
+          "id": 1,
+          "pixel": [
+            440,
+            588
+          ],
+          "model": "rgb-original"
+        },
+        {
+          "id": 2,
+          "pixel": [
+            440,
+            590
+          ],
+          "model": "rgb-expanded"
+        }
+      ]
+    }
+  ]
+}

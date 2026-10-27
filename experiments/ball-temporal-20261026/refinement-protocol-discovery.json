@@ -1,0 +1,113 @@
+{
+  "id": "nbhl-sequence-crop-discovery-20261026-v3",
+  "frozen_at": "2026-10-27T07:07:10.395079+00:00",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "budget_usd": 10,
+  "input_usd_per_million": 10,
+  "output_usd_per_million": 50,
+  "pricing_basis": "Project pricing assumption plus25% input safety factor; estimate only, not invoice.",
+  "core_frames": 75,
+  "target_step": 3,
+  "crop_native_size": [
+    256,
+    144
+  ],
+  "crop_display_size": [
+    512,
+    288
+  ],
+  "full_context_sample_step": 15,
+  "context_margin_frames": 30,
+  "max_output_tokens": 16384,
+  "pilot_starts": [
+    150,
+    225
+  ],
+  "all_starts": [
+    150,
+    225,
+    375,
+    900,
+    975,
+    1800,
+    1950,
+    2550,
+    2700,
+    2775,
+    3375,
+    4350
+  ],
+  "regions_sha256": "303e1f84575383f1eddb74cc08a9eff7d36366cdb9be53961df7b6592e377c41",
+  "method": "Visible-only localization correction from chronological context and enlarged native crops. Existing region centers are priors, not labels. Unknown, other-object and out-of-crop answers remain unresolved. No reference labels supplied.",
+  "limits": "Same reused development game. Model outputs are proposals until evaluated; claims require separate visual audit. No inference of invisible location is counted as visual detection.",
+  "prior_v1_estimated_reserved_usd": 3.1181875,
+  "amendment": "An explicit complementary search pass: choose12five-second windows with the strongest global CNN alternatives outside earlier crops at unresolved targets. Full-resolution whole frames supply context. No reference labels or test footage enter this pass.",
+  "whole_context_size": [
+    1920,
+    1080
+  ],
+  "prior_v2_estimated_usd": 28.2617125,
+  "selection": [
+    {
+      "start": 150,
+      "novel_targets": 11,
+      "selection_score": 9.70823634473398
+    },
+    {
+      "start": 225,
+      "novel_targets": 13,
+      "selection_score": 5.217223279030583
+    },
+    {
+      "start": 375,
+      "novel_targets": 6,
+      "selection_score": 4.271071618821383
+    },
+    {
+      "start": 900,
+      "novel_targets": 10,
+      "selection_score": 7.0995974872357905
+    },
+    {
+      "start": 975,
+      "novel_targets": 9,
+      "selection_score": 6.9317404195385635
+    },
+    {
+      "start": 1800,
+      "novel_targets": 12,
+      "selection_score": 6.569618261933151
+    },
+    {
+      "start": 1950,
+      "novel_targets": 13,
+      "selection_score": 4.9092709632439
+    },
+    {
+      "start": 2550,
+      "novel_targets": 9,
+      "selection_score": 4.839671055425124
+    },
+    {
+      "start": 2700,
+      "novel_targets": 9,
+      "selection_score": 4.1089115950895385
+    },
+    {
+      "start": 2775,
+      "novel_targets": 4,
+      "selection_score": 3.8068067557711314
+    },
+    {
+      "start": 3375,
+      "novel_targets": 14,
+      "selection_score": 4.258318892671672
+    },
+    {
+      "start": 4350,
+      "novel_targets": 11,
+      "selection_score": 4.790581397237916
+    }
+  ]
+}

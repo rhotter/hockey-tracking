@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-27T09:07:33.023943+00:00",
+  "warmstart_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a",
+  "teacher_labels_sha256": "2930d5264b4bd235624fa087499e07649d3c9a1e9764314b9cebc9fa348ec2e5",
+  "transfer_inputs_sha256": "51edf36f9e30cdfcb880e7fa8768cce4ea2a729f7a9da2dfcc7d158f2bc698ca",
+  "variants": [
+    "head-replay",
+    "encoder-replay"
+  ],
+  "epochs": 20,
+  "steps_per_epoch": 16,
+  "seed": 67,
+  "batch_composition": {
+    "old_positive": 24,
+    "old_negative": 24,
+    "teacher_positive": 8,
+    "teacher_negative": 8
+  },
+  "head_learning_rate": 0.0001,
+  "encoder_learning_rate": 1e-05,
+  "weight_decay": 0.001,
+  "thresholds": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "batch_norm": "Frozen running statistics. Encoder trainable only in encoder-replay.",
+  "augmentation": "Horizontal flips, normalized-space gain0.9..1.1 and offset-0.1..0.1. No synthetic balls.",
+  "selection": "Mean of original-validation F1 and teacher-development F1, then fewer combined false positives; threshold ties prefer higher threshold, epoch ties prefer earlier epoch. Report both variants.",
+  "split_policy": "Use original training split only; exclude any same-recording original training sample atframe>=2694. Original validation images that overlap teacher test/development frames are excluded. Teacher split unchanged.",
+  "scope": "Post-test exploratory follow-up after frozen-head failure; previously opened later teacher and150transfer checks are not independent tests. No automatic replay change."
+}

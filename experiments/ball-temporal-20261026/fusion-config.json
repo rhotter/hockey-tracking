@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-10-27T07:15:19.266726+00:00",
+  "config": {
+    "seed_mask_error_px": 12.0,
+    "seed_detector_radius_px": 12.0,
+    "detector_score": 0.05,
+    "detector_appearance": 0.1,
+    "cycle_error_px": 10.0,
+    "cycle_gap_frames": 6,
+    "track_agreement_px": 10.0,
+    "single_track_seed_distance": 2,
+    "maximum_interpolation_gap": 12,
+    "maximum_camera_corrected_speed_px": 140.0,
+    "preserve_visual_detections": true
+  },
+  "uses_review_labels": false,
+  "purpose": "First automatic fusion, frozen before full-sequence output review. CPU-offloaded SAM output is rejected.",
+  "limits": "Development-stage rules; detector and track agreement are not independent probabilities."
+}

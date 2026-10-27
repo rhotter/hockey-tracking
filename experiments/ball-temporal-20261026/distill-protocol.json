@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-27T08:51:05.409105+00:00",
+  "warmstart_sha256": "88d18c801ca34dfbe1decdbc4b506acfccad3f43a02e507b49f232722f00700a",
+  "variants": [
+    "original",
+    "image-head",
+    "temporal-head"
+  ],
+  "encoder": "Frozen SpatialBallVerifier ResNet18 stride4;64px and192px crops resized128; center plus global pooled features.",
+  "temporal_input": "Camera-affine-aligned frames -3,0,+3; concatenate center features and signed neighbor differences; initialize added weights to zero.",
+  "training": "Only classifier heads updated. Balanced16positive+16negative batches,8steps per epoch; AdamW weight_decay.01; no labels from evaluation games.",
+  "epochs": 48,
+  "seed": 61,
+  "learning_rate": 0.0001,
+  "thresholds": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99
+  ],
+  "selection": "Development F1, then fewer false positives; threshold ties prefer higher threshold; epoch ties retain earlier epoch. Compare image and temporal heads using this development criterion, simplicity as final tie break.",
+  "teacher_labels_sha256": "2930d5264b4bd235624fa087499e07649d3c9a1e9764314b9cebc9fa348ec2e5",
+  "transfer_inputs_sha256": "51edf36f9e30cdfcb880e7fa8768cce4ea2a729f7a9da2dfcc7d158f2bc698ca",
+  "test_scope": "Later same-game proposals use teacher verdicts, not independent truth. Transfer uses previously opened fixed new-game points, exploratory only."
+}

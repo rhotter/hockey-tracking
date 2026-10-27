@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-27T07:59:48.404032+00:00",
+  "models": [
+    "yolo-full1920",
+    "rgb-original",
+    "rgb-expanded"
+  ],
+  "operating_points": "Reuse each model\u2019s sealed development operating point.",
+  "agreement_radius_px": 12,
+  "rules": {
+    "majority_else_yolo": "Select a cluster of at least two model outputs within12px, preferring more members then a cluster containing YOLO. Average its points. Otherwise retain YOLO.",
+    "majority_only": "Same selection, abstaining when no two models agree."
+  },
+  "scope": "Exploratory reuse of already opened new-game test; no fresh independent claim. RGB variants are correlated models. No new threshold search."
+}

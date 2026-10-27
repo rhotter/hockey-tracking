@@ -23,6 +23,20 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Ball tracking experiments — October 27, 2026
+
+[Watch the improved five-minute replay](https://hockey-tracking-phi.vercel.app/overhead.html?ball=temporal&t=124.86668) · [Methods, evaluations and failed experiments](experiments/ball-temporal-20261026/)
+
+The default replay combines chronological GPT-6 Astra sightings, corrected SAM3 GPU-state handling, small box prompts at two crop sizes, and detector corroboration. **Detected or video-tracked frames rise from 406 to 620 (+52.7%)** out of 4,500. Including context and interpolation, estimated coverage is 80.8% versus 79.7%. These are output counts, not accuracy. A fixed audit of 60 changed non-seed tracked outputs confirmed 41 visible balls and left 19 unresolved; it is assistant review on the development game, not independent ground truth. The original replay remains selectable, with one ball position and synchronized overhead projection in both modes.
+
+Nine detector fine-tunes, eleven tracker/prompt configurations, detector ensembles, sequence verification, four verifier fine-tunes, and multiview search were tested on Modal. **No new detector beat the existing YOLO on the separate-game check**: YOLO found 28 of 33 visible reference positions within 25 pixels, with four wrong locations and one miss. The 150 fixed samples also include one absent frame and 116 unresolved frames, excluded from accuracy. A tempting 792-frame tracking candidate was rejected after finding 12 wrong objects in its 60-frame audit. The final verifier rejects most additional heatmap and YOLO seeds. Reused development references also contain one disputed shoe label; their historical agreement is not presented as accuracy.
+
+A separate audit of 60 detector outputs on those unresolved frames found **52 wrong objects**, three identifiable balls and five still unclear. Scoreboard text, board bolts and clothing remain major failures. The new rejection verifier removes 46 of those 52 false outputs, but loses real balls too; it is not the default.
+
+A subsequent SAM3 playing-surface filter removes 32 of those 52 wrong locations and reaches 29/33 correct on the reused visible subset, versus 28/33 before. It also rejects a real airborne ball. This is a small exploratory improvement, not independent validation or a default replay change.
+
+The release includes the fusion inputs, automatic seed-verification verdicts, all detector evaluations, training protocols and failed alternatives. `python scripts/verify_ball_temporal_results.py` rebuilds the exact 4,500-frame replay and recounts the reports without a GPU. OpenAI cost is conservatively estimated at $46.95 for this campaign; Modal compute is separate. Possession, shots, goals and metric ball distance remain unvalidated.
+
 ## Ball on the overhead diagram — October 26, 2026
 
 [Open the synchronized diagram](https://hockey-tracking-phi.vercel.app/overhead.html?ball=sam&t=105). A labeled ball marker now also appears for held, airborne and height-unclear estimates where camera mapping supports a schematic position. The ≈ label means the diagram uses the identified carrier's mapped feet, or the camera ray's intersection with the floor. The latter can be displaced from the true location of an elevated ball. Invalid camera alignment and off-rink projections still have no marker, with a reason shown below the diagram.
@@ -35,7 +49,7 @@ The SAM replay now has 3,322 diagram positions instead of 1,847 out of 4,500 fra
 
 Three SAM3 prompt/crop variants were tested on Modal, followed by two larger 31-seed runs and two fusion policies. On 103 reused visible-ball references, filtered SAM3 point tracking finds 52 positions within 25 pixels with no larger errors, compared with TAPNext++'s 46 correct and one larger error. Combining them with the existing context gates gives 67 correct proposals and one larger error. These are conditional development checks, not full-game accuracy.
 
-The default replay now combines point-prompted SAM3 and TAPNext++: video-tracked frames rise from 91 to 122 while total estimated coverage stays 79.7%. A fixed 24-position audit found 20 close to a visible ball and four unverified, with no clear wrong location. The previous replay remains selectable, and every mode displays one ball position. SAM is sensitive to its starting frame, and two previously known stick-blade errors remain. No new weight fine-tuning was performed. Point-SAM was selected after seeing pilot validation results, so the larger run is explicitly exploratory.
+The previous replay combined point-prompted SAM3 and TAPNext++: video-tracked frames rise from 91 to 122 while total estimated coverage stays 79.7%. A fixed 24-position audit found 20 close to a visible ball and four unverified, with no clear wrong location. The previous replay remains selectable, and every mode displays one ball position. SAM is sensitive to its starting frame, and two previously known stick-blade errors remain. No new weight fine-tuning was performed. Point-SAM was selected after seeing pilot validation results, so the larger run is explicitly exploratory.
 
 ## Sequence-level ball reconstruction — October 26, 2026
 

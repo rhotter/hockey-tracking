@@ -1,0 +1,1258 @@
+{
+  "created_at": "2026-10-27T07:18:46.156233+00:00",
+  "runs": {
+    "dense-pilot": {
+      "input_sha256": "e92521a2c6ca553173868cccf35c9380befffb838df306da585376dcd809d3c8",
+      "source_sequence_sha256": [
+        "9aea22c732dbe335405a71ddb101bc028951c192ba1906e32811c6293f6b7d16",
+        "42cd3f9642047cae0591cc995e02b4148d9a3b998dd9f0d8e3d931ac545dc1dc",
+        "0120829cc68c3c40c9acda3775e23e3bb86ee330aa235145da81b18729883d0f",
+        "713ac05d099637518b2dc38bdc51be0e94b0abec530b9cbc7dd81b3256744b9f",
+        "999d867984fdafd684ddce4a3a091038f845a4385aea8a243d08563210cbf7e0",
+        "3aefc7added2d0325dd0e5039d0a3d273eb38980a4727994a6cfd3b91795391a",
+        "bfe7c879a26be1078c1503555b524ba4926ddb5265fe606aa9eea9cc0816429d",
+        "f01ef112e32ad5147c3f434ea22c079c391717743ffbde6b8946e2802039d0c4",
+        "637233642311eb28b7420cad0598e29566481a8877d618ec46cacb0542ed8909",
+        "096fee65dcb37290fa38f2522e42c2fd67f944466416d960288c6f27cdc5b091",
+        "46cac165481050862fca8ca86abb424d617953541134b946fe7104345ce55567",
+        "523e5b6f70e9b132e02b54cddd45fc28c66f287ca377685ae5036dd249942a00",
+        "20878bb4541dc69f2653f333eb944e79208290aa757eb4151d4e2e316a7e3e52",
+        "40653d911e24acdb3098b383fadbff788de9ec8d3c7eec5410e2f3d0d695ce08",
+        "b2255a3360132cee7a33eab79e575d2fb90c3291bcd8202379530cd0c2ab44cc",
+        "fb52bc612152c106f2a4e7bb0b053ee3a05c14c25d8ee71d3b8470338b956627",
+        "c766f514fb61a10e9063afbe23b5647862770c591e137f391f1f7d853737ddd2",
+        "21dc68d313bf8fc0909dfe00f527773dec1bb81105a43dacb4d6c940232d4a77",
+        "0a20c264678c7ee4dd1c4223dd0d8c606276d6107d0852d7ef425fd9bc52c266",
+        "5a8c3a0e9d50c46c004c16c5f12103d3f1fea3facb61e7c6125ddf5dea6c7858",
+        "22bc45a3224e9181457a98edc6265131d3cd6e78177c64fd5641b7b3d2a44119",
+        "6e325d0bb0d08c13d252ec14419fbf7fa610fe2918db3885fb54150befffe6c2",
+        "7131fdaed5ac477504f0f203e6a788003930ed96ecbf279390e8cca2a5b027a9",
+        "df95aa8ad445440a6d8efa48de0a9f9ac783e1d28d3a73491782524a0aa4826a",
+        "4f64fe628545188bc9f887fd1461880fc07d829de3a976e01a9abb88b9d258a5",
+        "76900ab821d7a5c348b6f689b9914e9f6b184f4524e93a0d75bb40842cff7ba4",
+        "1c6cdd0014080b14faccaf4edf0bdc69ac8eb3961cf1df8483b05efe4ab6e102",
+        "406db3d5881bb52c028e858fcefe0e0f0e57a09eb305b60329080c980bcc24f6",
+        "65b5acf1d8f791b8924df44156f2765509d627447ed52e416a76e3164a4d9bab"
+      ],
+      "valid_seed_masks": 15,
+      "seeds": 29,
+      "maximum_error_px": 232.60931610586258,
+      "offload_state_to_cpu": true,
+      "synchronized_cpu_transfers": false,
+      "training_mode_before_eval": null,
+      "rows": [
+        {
+          "frame": 948,
+          "error_px": 0.24011654385188846,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 951,
+          "error_px": 0.5623116644321627,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 954,
+          "error_px": 0.5841773125273364,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 960,
+          "error_px": 0.34286698136177685,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 963,
+          "error_px": 0.5410414011223005,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 966,
+          "error_px": 0.33520076157695544,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1815,
+          "error_px": 0.8316831683166583,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1821,
+          "error_px": 0.08838834764831845,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1824,
+          "error_px": 179.00510727114326,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1827,
+          "error_px": 172.2496944512636,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1833,
+          "error_px": 0.20225508165553044,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1836,
+          "error_px": 0.45754841428938164,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1839,
+          "error_px": 0.1709339275765545,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1842,
+          "error_px": 232.60931610586258,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1845,
+          "error_px": 231.23106452583795,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1869,
+          "error_px": 0.5402298850574425,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2724,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2727,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2730,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2733,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2736,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2739,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2760,
+          "error_px": 60.234107968386205,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 3924,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 3927,
+          "error_px": 0.17142857142812318,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3930,
+          "error_px": 14.208449949912609,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 3936,
+          "error_px": 11.807230010857872,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3939,
+          "error_px": 0.6013892043169675,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3942,
+          "error_px": 35.32805662782205,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        }
+      ]
+    },
+    "dense-eval": {
+      "input_sha256": "d7776021a6c48d2569cda86d4b96aba9bad4834c45da9dfc6ed043b257ed7012",
+      "source_sequence_sha256": [
+        "9aea22c732dbe335405a71ddb101bc028951c192ba1906e32811c6293f6b7d16",
+        "42cd3f9642047cae0591cc995e02b4148d9a3b998dd9f0d8e3d931ac545dc1dc",
+        "0120829cc68c3c40c9acda3775e23e3bb86ee330aa235145da81b18729883d0f",
+        "713ac05d099637518b2dc38bdc51be0e94b0abec530b9cbc7dd81b3256744b9f",
+        "999d867984fdafd684ddce4a3a091038f845a4385aea8a243d08563210cbf7e0",
+        "3aefc7added2d0325dd0e5039d0a3d273eb38980a4727994a6cfd3b91795391a",
+        "bfe7c879a26be1078c1503555b524ba4926ddb5265fe606aa9eea9cc0816429d",
+        "f01ef112e32ad5147c3f434ea22c079c391717743ffbde6b8946e2802039d0c4",
+        "637233642311eb28b7420cad0598e29566481a8877d618ec46cacb0542ed8909",
+        "096fee65dcb37290fa38f2522e42c2fd67f944466416d960288c6f27cdc5b091",
+        "46cac165481050862fca8ca86abb424d617953541134b946fe7104345ce55567",
+        "523e5b6f70e9b132e02b54cddd45fc28c66f287ca377685ae5036dd249942a00",
+        "20878bb4541dc69f2653f333eb944e79208290aa757eb4151d4e2e316a7e3e52",
+        "40653d911e24acdb3098b383fadbff788de9ec8d3c7eec5410e2f3d0d695ce08",
+        "b2255a3360132cee7a33eab79e575d2fb90c3291bcd8202379530cd0c2ab44cc",
+        "fb52bc612152c106f2a4e7bb0b053ee3a05c14c25d8ee71d3b8470338b956627",
+        "c766f514fb61a10e9063afbe23b5647862770c591e137f391f1f7d853737ddd2",
+        "21dc68d313bf8fc0909dfe00f527773dec1bb81105a43dacb4d6c940232d4a77",
+        "0a20c264678c7ee4dd1c4223dd0d8c606276d6107d0852d7ef425fd9bc52c266",
+        "5a8c3a0e9d50c46c004c16c5f12103d3f1fea3facb61e7c6125ddf5dea6c7858",
+        "22bc45a3224e9181457a98edc6265131d3cd6e78177c64fd5641b7b3d2a44119",
+        "6e325d0bb0d08c13d252ec14419fbf7fa610fe2918db3885fb54150befffe6c2",
+        "7131fdaed5ac477504f0f203e6a788003930ed96ecbf279390e8cca2a5b027a9",
+        "df95aa8ad445440a6d8efa48de0a9f9ac783e1d28d3a73491782524a0aa4826a",
+        "4f64fe628545188bc9f887fd1461880fc07d829de3a976e01a9abb88b9d258a5",
+        "76900ab821d7a5c348b6f689b9914e9f6b184f4524e93a0d75bb40842cff7ba4",
+        "1c6cdd0014080b14faccaf4edf0bdc69ac8eb3961cf1df8483b05efe4ab6e102",
+        "406db3d5881bb52c028e858fcefe0e0f0e57a09eb305b60329080c980bcc24f6",
+        "65b5acf1d8f791b8924df44156f2765509d627447ed52e416a76e3164a4d9bab"
+      ],
+      "valid_seed_masks": 6,
+      "seeds": 29,
+      "maximum_error_px": 234.81702720517453,
+      "offload_state_to_cpu": true,
+      "synchronized_cpu_transfers": false,
+      "training_mode_before_eval": {
+        "full": false,
+        "tracker": false,
+        "modules": 0
+      },
+      "rows": [
+        {
+          "frame": 948,
+          "error_px": 0.2401165438517341,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 951,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 954,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 960,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 963,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 966,
+          "error_px": 0.3352007615770126,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1815,
+          "error_px": 24.199929724661068,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1821,
+          "error_px": 135.4150457150356,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1824,
+          "error_px": 0.31274990008009684,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1827,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 1833,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 1836,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 1839,
+          "error_px": 188.40448508461787,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 1842,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 1845,
+          "error_px": 0.44632634065776666,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1869,
+          "error_px": 224.03387110573962,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 2724,
+          "error_px": 234.81702720517453,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 2727,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2730,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2733,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2736,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2739,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 2760,
+          "error_px": 60.234107968385565,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 3924,
+          "error_px": 0.5461937974740874,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3927,
+          "error_px": 0.0,
+          "visible": false,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 3930,
+          "error_px": 112.05028880808099,
+          "visible": true,
+          "shape_valid": false,
+          "valid": false
+        },
+        {
+          "frame": 3936,
+          "error_px": 116.96753530218149,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        },
+        {
+          "frame": 3939,
+          "error_px": 0.6013892043169675,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3942,
+          "error_px": 35.32805662782205,
+          "visible": true,
+          "shape_valid": true,
+          "valid": false
+        }
+      ]
+    },
+    "dense-gpu": {
+      "input_sha256": "79374cf032311de21ecdb733ec8fe4fab764795727a8374417672dcceb42fb8d",
+      "source_sequence_sha256": [
+        "9aea22c732dbe335405a71ddb101bc028951c192ba1906e32811c6293f6b7d16",
+        "42cd3f9642047cae0591cc995e02b4148d9a3b998dd9f0d8e3d931ac545dc1dc",
+        "0120829cc68c3c40c9acda3775e23e3bb86ee330aa235145da81b18729883d0f",
+        "713ac05d099637518b2dc38bdc51be0e94b0abec530b9cbc7dd81b3256744b9f",
+        "999d867984fdafd684ddce4a3a091038f845a4385aea8a243d08563210cbf7e0",
+        "3aefc7added2d0325dd0e5039d0a3d273eb38980a4727994a6cfd3b91795391a",
+        "bfe7c879a26be1078c1503555b524ba4926ddb5265fe606aa9eea9cc0816429d",
+        "f01ef112e32ad5147c3f434ea22c079c391717743ffbde6b8946e2802039d0c4",
+        "637233642311eb28b7420cad0598e29566481a8877d618ec46cacb0542ed8909",
+        "096fee65dcb37290fa38f2522e42c2fd67f944466416d960288c6f27cdc5b091",
+        "46cac165481050862fca8ca86abb424d617953541134b946fe7104345ce55567",
+        "523e5b6f70e9b132e02b54cddd45fc28c66f287ca377685ae5036dd249942a00",
+        "20878bb4541dc69f2653f333eb944e79208290aa757eb4151d4e2e316a7e3e52",
+        "40653d911e24acdb3098b383fadbff788de9ec8d3c7eec5410e2f3d0d695ce08",
+        "b2255a3360132cee7a33eab79e575d2fb90c3291bcd8202379530cd0c2ab44cc",
+        "fb52bc612152c106f2a4e7bb0b053ee3a05c14c25d8ee71d3b8470338b956627",
+        "c766f514fb61a10e9063afbe23b5647862770c591e137f391f1f7d853737ddd2",
+        "21dc68d313bf8fc0909dfe00f527773dec1bb81105a43dacb4d6c940232d4a77",
+        "0a20c264678c7ee4dd1c4223dd0d8c606276d6107d0852d7ef425fd9bc52c266",
+        "5a8c3a0e9d50c46c004c16c5f12103d3f1fea3facb61e7c6125ddf5dea6c7858",
+        "22bc45a3224e9181457a98edc6265131d3cd6e78177c64fd5641b7b3d2a44119",
+        "6e325d0bb0d08c13d252ec14419fbf7fa610fe2918db3885fb54150befffe6c2",
+        "7131fdaed5ac477504f0f203e6a788003930ed96ecbf279390e8cca2a5b027a9",
+        "df95aa8ad445440a6d8efa48de0a9f9ac783e1d28d3a73491782524a0aa4826a",
+        "4f64fe628545188bc9f887fd1461880fc07d829de3a976e01a9abb88b9d258a5",
+        "76900ab821d7a5c348b6f689b9914e9f6b184f4524e93a0d75bb40842cff7ba4",
+        "1c6cdd0014080b14faccaf4edf0bdc69ac8eb3961cf1df8483b05efe4ab6e102",
+        "406db3d5881bb52c028e858fcefe0e0f0e57a09eb305b60329080c980bcc24f6",
+        "65b5acf1d8f791b8924df44156f2765509d627447ed52e416a76e3164a4d9bab"
+      ],
+      "valid_seed_masks": 29,
+      "seeds": 29,
+      "maximum_error_px": 0.8316831683166583,
+      "offload_state_to_cpu": false,
+      "synchronized_cpu_transfers": false,
+      "training_mode_before_eval": {
+        "full": false,
+        "tracker": false,
+        "modules": 0
+      },
+      "rows": [
+        {
+          "frame": 948,
+          "error_px": 0.24011654385188846,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 951,
+          "error_px": 0.5623116644321627,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 954,
+          "error_px": 0.5841773125273364,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 960,
+          "error_px": 0.34286698136177685,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 963,
+          "error_px": 0.5410414011223005,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 966,
+          "error_px": 0.33520076157695544,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1815,
+          "error_px": 0.8316831683166583,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1821,
+          "error_px": 0.08838834764831845,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1824,
+          "error_px": 0.31274990008004006,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1827,
+          "error_px": 0.7655909414319207,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1833,
+          "error_px": 0.20225508165553044,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1836,
+          "error_px": 0.45754841428938164,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1839,
+          "error_px": 0.1709339275765545,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1842,
+          "error_px": 0.720031274938918,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1845,
+          "error_px": 0.44632634065776666,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1869,
+          "error_px": 0.5402298850574425,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2724,
+          "error_px": 0.3773604762251681,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2727,
+          "error_px": 0.3744802492302654,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2730,
+          "error_px": 0.5198752449101073,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2733,
+          "error_px": 0.13558839621875218,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2736,
+          "error_px": 0.13425606637367155,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2739,
+          "error_px": 0.12478354962168507,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2760,
+          "error_px": 0.4877952913542149,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3924,
+          "error_px": 0.546193797474023,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3927,
+          "error_px": 0.17142857142812318,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3930,
+          "error_px": 0.3834824944233277,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3936,
+          "error_px": 0.6009220136054769,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3939,
+          "error_px": 0.6013892043169675,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3942,
+          "error_px": 0.6307180135527007,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    "dense-repeat-gpu": {
+      "input_sha256": "a0fd9d47f0c417f10c15b70d27e8fbc17bb56def09ec458b65ebaf371acdf38b",
+      "source_sequence_sha256": [
+        "9aea22c732dbe335405a71ddb101bc028951c192ba1906e32811c6293f6b7d16",
+        "42cd3f9642047cae0591cc995e02b4148d9a3b998dd9f0d8e3d931ac545dc1dc",
+        "0120829cc68c3c40c9acda3775e23e3bb86ee330aa235145da81b18729883d0f",
+        "713ac05d099637518b2dc38bdc51be0e94b0abec530b9cbc7dd81b3256744b9f",
+        "999d867984fdafd684ddce4a3a091038f845a4385aea8a243d08563210cbf7e0",
+        "3aefc7added2d0325dd0e5039d0a3d273eb38980a4727994a6cfd3b91795391a",
+        "bfe7c879a26be1078c1503555b524ba4926ddb5265fe606aa9eea9cc0816429d",
+        "f01ef112e32ad5147c3f434ea22c079c391717743ffbde6b8946e2802039d0c4",
+        "637233642311eb28b7420cad0598e29566481a8877d618ec46cacb0542ed8909",
+        "096fee65dcb37290fa38f2522e42c2fd67f944466416d960288c6f27cdc5b091",
+        "46cac165481050862fca8ca86abb424d617953541134b946fe7104345ce55567",
+        "523e5b6f70e9b132e02b54cddd45fc28c66f287ca377685ae5036dd249942a00",
+        "20878bb4541dc69f2653f333eb944e79208290aa757eb4151d4e2e316a7e3e52",
+        "40653d911e24acdb3098b383fadbff788de9ec8d3c7eec5410e2f3d0d695ce08",
+        "b2255a3360132cee7a33eab79e575d2fb90c3291bcd8202379530cd0c2ab44cc",
+        "fb52bc612152c106f2a4e7bb0b053ee3a05c14c25d8ee71d3b8470338b956627",
+        "c766f514fb61a10e9063afbe23b5647862770c591e137f391f1f7d853737ddd2",
+        "21dc68d313bf8fc0909dfe00f527773dec1bb81105a43dacb4d6c940232d4a77",
+        "0a20c264678c7ee4dd1c4223dd0d8c606276d6107d0852d7ef425fd9bc52c266",
+        "5a8c3a0e9d50c46c004c16c5f12103d3f1fea3facb61e7c6125ddf5dea6c7858",
+        "22bc45a3224e9181457a98edc6265131d3cd6e78177c64fd5641b7b3d2a44119",
+        "6e325d0bb0d08c13d252ec14419fbf7fa610fe2918db3885fb54150befffe6c2",
+        "7131fdaed5ac477504f0f203e6a788003930ed96ecbf279390e8cca2a5b027a9",
+        "df95aa8ad445440a6d8efa48de0a9f9ac783e1d28d3a73491782524a0aa4826a",
+        "4f64fe628545188bc9f887fd1461880fc07d829de3a976e01a9abb88b9d258a5",
+        "76900ab821d7a5c348b6f689b9914e9f6b184f4524e93a0d75bb40842cff7ba4",
+        "1c6cdd0014080b14faccaf4edf0bdc69ac8eb3961cf1df8483b05efe4ab6e102",
+        "406db3d5881bb52c028e858fcefe0e0f0e57a09eb305b60329080c980bcc24f6",
+        "65b5acf1d8f791b8924df44156f2765509d627447ed52e416a76e3164a4d9bab"
+      ],
+      "valid_seed_masks": 29,
+      "seeds": 29,
+      "maximum_error_px": 0.8316831683166583,
+      "offload_state_to_cpu": false,
+      "synchronized_cpu_transfers": false,
+      "training_mode_before_eval": {
+        "full": false,
+        "tracker": false,
+        "modules": 0
+      },
+      "rows": [
+        {
+          "frame": 948,
+          "error_px": 0.24011654385188846,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 951,
+          "error_px": 0.5623116644321627,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 954,
+          "error_px": 0.5841773125273364,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 960,
+          "error_px": 0.34286698136177685,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 963,
+          "error_px": 0.5410414011223005,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 966,
+          "error_px": 0.33520076157695544,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1815,
+          "error_px": 0.8316831683166583,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1821,
+          "error_px": 0.08838834764831845,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1824,
+          "error_px": 0.31274990008004006,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1827,
+          "error_px": 0.7655909414319207,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1833,
+          "error_px": 0.20225508165553044,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1836,
+          "error_px": 0.45754841428938164,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1839,
+          "error_px": 0.1709339275765545,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1842,
+          "error_px": 0.720031274938918,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1845,
+          "error_px": 0.44632634065776666,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1869,
+          "error_px": 0.5402298850574425,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2724,
+          "error_px": 0.3773604762251681,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2727,
+          "error_px": 0.3744802492302654,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2730,
+          "error_px": 0.5198752449101073,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2733,
+          "error_px": 0.13558839621875218,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2736,
+          "error_px": 0.13425606637367155,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2739,
+          "error_px": 0.12478354962168507,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2760,
+          "error_px": 0.4877952913542149,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3924,
+          "error_px": 0.546193797474023,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3927,
+          "error_px": 0.17142857142812318,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3930,
+          "error_px": 0.3834824944233277,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3936,
+          "error_px": 0.6009220136054769,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3939,
+          "error_px": 0.6013892043169675,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3942,
+          "error_px": 0.6307180135527007,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        }
+      ]
+    },
+    "dense-sync": {
+      "input_sha256": "6453443bdd09e552229fd3b9aa9a236669b477b669eebe2d460daccbff7c4c53",
+      "source_sequence_sha256": [
+        "9aea22c732dbe335405a71ddb101bc028951c192ba1906e32811c6293f6b7d16",
+        "42cd3f9642047cae0591cc995e02b4148d9a3b998dd9f0d8e3d931ac545dc1dc",
+        "0120829cc68c3c40c9acda3775e23e3bb86ee330aa235145da81b18729883d0f",
+        "713ac05d099637518b2dc38bdc51be0e94b0abec530b9cbc7dd81b3256744b9f",
+        "999d867984fdafd684ddce4a3a091038f845a4385aea8a243d08563210cbf7e0",
+        "3aefc7added2d0325dd0e5039d0a3d273eb38980a4727994a6cfd3b91795391a",
+        "bfe7c879a26be1078c1503555b524ba4926ddb5265fe606aa9eea9cc0816429d",
+        "f01ef112e32ad5147c3f434ea22c079c391717743ffbde6b8946e2802039d0c4",
+        "637233642311eb28b7420cad0598e29566481a8877d618ec46cacb0542ed8909",
+        "096fee65dcb37290fa38f2522e42c2fd67f944466416d960288c6f27cdc5b091",
+        "46cac165481050862fca8ca86abb424d617953541134b946fe7104345ce55567",
+        "523e5b6f70e9b132e02b54cddd45fc28c66f287ca377685ae5036dd249942a00",
+        "20878bb4541dc69f2653f333eb944e79208290aa757eb4151d4e2e316a7e3e52",
+        "40653d911e24acdb3098b383fadbff788de9ec8d3c7eec5410e2f3d0d695ce08",
+        "b2255a3360132cee7a33eab79e575d2fb90c3291bcd8202379530cd0c2ab44cc",
+        "fb52bc612152c106f2a4e7bb0b053ee3a05c14c25d8ee71d3b8470338b956627",
+        "c766f514fb61a10e9063afbe23b5647862770c591e137f391f1f7d853737ddd2",
+        "21dc68d313bf8fc0909dfe00f527773dec1bb81105a43dacb4d6c940232d4a77",
+        "0a20c264678c7ee4dd1c4223dd0d8c606276d6107d0852d7ef425fd9bc52c266",
+        "5a8c3a0e9d50c46c004c16c5f12103d3f1fea3facb61e7c6125ddf5dea6c7858",
+        "22bc45a3224e9181457a98edc6265131d3cd6e78177c64fd5641b7b3d2a44119",
+        "6e325d0bb0d08c13d252ec14419fbf7fa610fe2918db3885fb54150befffe6c2",
+        "7131fdaed5ac477504f0f203e6a788003930ed96ecbf279390e8cca2a5b027a9",
+        "df95aa8ad445440a6d8efa48de0a9f9ac783e1d28d3a73491782524a0aa4826a",
+        "4f64fe628545188bc9f887fd1461880fc07d829de3a976e01a9abb88b9d258a5",
+        "76900ab821d7a5c348b6f689b9914e9f6b184f4524e93a0d75bb40842cff7ba4",
+        "1c6cdd0014080b14faccaf4edf0bdc69ac8eb3961cf1df8483b05efe4ab6e102",
+        "406db3d5881bb52c028e858fcefe0e0f0e57a09eb305b60329080c980bcc24f6",
+        "65b5acf1d8f791b8924df44156f2765509d627447ed52e416a76e3164a4d9bab"
+      ],
+      "valid_seed_masks": 29,
+      "seeds": 29,
+      "maximum_error_px": 0.8316831683166583,
+      "offload_state_to_cpu": true,
+      "synchronized_cpu_transfers": true,
+      "training_mode_before_eval": {
+        "full": false,
+        "tracker": false,
+        "modules": 0
+      },
+      "rows": [
+        {
+          "frame": 948,
+          "error_px": 0.24011654385188846,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 951,
+          "error_px": 0.5623116644321627,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 954,
+          "error_px": 0.5841773125273364,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 960,
+          "error_px": 0.34286698136177685,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 963,
+          "error_px": 0.5410414011223005,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 966,
+          "error_px": 0.33520076157695544,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1815,
+          "error_px": 0.8316831683166583,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1821,
+          "error_px": 0.08838834764831845,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1824,
+          "error_px": 0.31274990008004006,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1827,
+          "error_px": 0.7655909414319207,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1833,
+          "error_px": 0.20225508165553044,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1836,
+          "error_px": 0.45754841428938164,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1839,
+          "error_px": 0.1709339275765545,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1842,
+          "error_px": 0.720031274938918,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1845,
+          "error_px": 0.44632634065776666,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 1869,
+          "error_px": 0.5402298850574425,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2724,
+          "error_px": 0.3773604762251681,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2727,
+          "error_px": 0.3744802492302654,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2730,
+          "error_px": 0.5198752449101073,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2733,
+          "error_px": 0.13558839621875218,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2736,
+          "error_px": 0.13425606637367155,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2739,
+          "error_px": 0.12478354962168507,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 2760,
+          "error_px": 0.4877952913542149,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3924,
+          "error_px": 0.546193797474023,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3927,
+          "error_px": 0.17142857142812318,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3930,
+          "error_px": 0.3834824944233277,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3936,
+          "error_px": 0.6009220136054769,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3939,
+          "error_px": 0.6013892043169675,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        },
+        {
+          "frame": 3942,
+          "error_px": 0.6307180135527007,
+          "visible": true,
+          "shape_valid": true,
+          "valid": true
+        }
+      ]
+    }
+  },
+  "gpu_repeat": {
+    "rows": 377,
+    "maximum_position_difference_px": 0.0,
+    "visibility_disagreements": 0
+  },
+  "gpu_vs_synchronized_cpu": {
+    "rows": 377,
+    "maximum_position_difference_px": 0.0,
+    "visibility_disagreements": 0
+  },
+  "conclusion": "Unsynchronized CPU state offloading corrupts SAM conditioning masks on these identical inputs. Keeping state on GPU or synchronizing the asynchronous transfers fixes the seed-frame failure. Explicit eval() alone did not help; the model was already in evaluation mode.",
+  "limits": "Seed-mask reproducibility check on29reviewed development-game sightings, not accuracy on unprompted frames or unseen games."
+}

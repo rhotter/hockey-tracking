@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-27T09:21:43.270011+00:00",
+  "prompt": "playing surface",
+  "mask_confidence": 0.3,
+  "minimum_fraction": 0.05,
+  "maximum_fraction": 0.95,
+  "mask_size": [
+    320,
+    180
+  ],
+  "margins_height_fraction": [
+    0,
+    0.025
+  ],
+  "policy": "Union pretrained SAM3 surface masks at confidence>=0.3; nearest-neighbor resize, convex hull. Reject candidate outside hull plus specified margin. If surface area<5% or>95%, leave candidates unchanged. Use frozen full1920 YOLO candidates and three verifiers, with the original threshold and score product.",
+  "scope": "Post-audit exploratory follow-up on already opened150frames. Filter can reject real airborne or held balls. No manual rink polygon or new model training; no default replay change."
+}

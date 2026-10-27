@@ -1,0 +1,12 @@
+{
+  "amendments": [
+    {
+      "at": "2026-10-27T05:59:11.615903+00:00",
+      "reason": "Five old NJ0900 validation frames overlap the source time range now used for expanded training. Remove them from checkpoint selection before any training or new model scores. NJ2400 remains temporally disjoint.",
+      "previous_protocol_sha256": "812943cc2081201e9f7c8207fd077766b2acda3d48c9be4510fa76b375098109",
+      "previous_training_labels_sha256": "eb4172ce569afc682ccd1df661c84c49105775117c968299035c89b3579c8bf4",
+      "new_protocol_sha256": "75cd2eaa9243a08ad344b8f06b635bacd7c555cc47610aa511ced411bc4f8236",
+      "model_training_started": false
+    }
+  ]
+}

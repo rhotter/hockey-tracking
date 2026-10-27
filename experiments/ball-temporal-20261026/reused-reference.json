@@ -1,0 +1,757 @@
+{
+  "rows": [
+    {
+      "frame": 1822,
+      "pixel": [
+        347.60971069335903,
+        724.966369628906
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1824,
+      "pixel": [
+        294.19143676757807,
+        728.4417114257811
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1826,
+      "pixel": [
+        241.22697809058002,
+        734.0986051398223
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 1827,
+      "pixel": [
+        219.73994122060165,
+        743.9630942008021
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1829,
+      "pixel": [
+        197.93464660644528,
+        762.6929321289062
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1831,
+      "pixel": [
+        223.159340998752,
+        774.6136113080314
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1833,
+      "pixel": [
+        302.76088249247005,
+        777.5700815617579
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 1834,
+      "pixel": [
+        353.86276245117256,
+        777.068420410156
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1836,
+      "pixel": [
+        433.4371032714851,
+        791.6161193847656
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1837,
+      "pixel": [
+        474,
+        804
+      ],
+      "source_review": "review-labels"
+    },
+    {
+      "frame": 1839,
+      "pixel": [
+        546.9190625937584,
+        830.0263463143016
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 1841,
+      "pixel": [
+        637.524691751202,
+        818.08030109984
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 1876,
+      "pixel": [
+        612.4361200019514,
+        499.5854958672055
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 1912,
+      "pixel": [
+        1131.1341932712826,
+        468.41272140101347
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2572,
+      "pixel": [
+        1077.5589766236976,
+        532.7555250444677
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2579,
+      "pixel": [
+        1209.4034388025384,
+        539.1673511018622
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2583,
+      "pixel": [
+        1274.08361457343,
+        542.8128831725489
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2584,
+      "pixel": [
+        1288.3898950409298,
+        543.5985086275734
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2606,
+      "pixel": [
+        1383.827362087945,
+        632.5535049154018
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2610,
+      "pixel": [
+        1145.1940138642722,
+        715.4716779457135
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2614,
+      "pixel": [
+        1143.7046429160257,
+        820.9671411461675
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2616,
+      "pixel": [
+        1191.8721766860706,
+        875.7360126574252
+      ],
+      "source_review": "primary-height-audit"
+    },
+    {
+      "frame": 2665,
+      "pixel": [
+        599.9168090820333,
+        773.5202636718751
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2667,
+      "pixel": [
+        614.0505676269512,
+        773.6145629882816
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2675,
+      "pixel": [
+        239.78635503972018,
+        651.3421280188627
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2677,
+      "pixel": [
+        146.4074154767561,
+        618.0483146434343
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2730,
+      "pixel": [
+        1613.9995847416444,
+        464.208928271246
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2734,
+      "pixel": [
+        1565.146145470767,
+        465.9081743512037
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2760,
+      "pixel": [
+        666.6359567975924,
+        703.7310052063235
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2807,
+      "pixel": [
+        363.91365576573816,
+        876.7347640528208
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2809,
+      "pixel": [
+        360.4599304199185,
+        866.0057373046878
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2810,
+      "pixel": [
+        360,
+        861
+      ],
+      "source_review": "targeted-labels"
+    },
+    {
+      "frame": 2812,
+      "pixel": [
+        346,
+        849
+      ],
+      "source_review": "review-labels"
+    },
+    {
+      "frame": 2819,
+      "pixel": [
+        1575.7492310401185,
+        486.01989706856966
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2829,
+      "pixel": [
+        628.4516736718317,
+        591.4104202401581
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 2830,
+      "pixel": [
+        600,
+        597
+      ],
+      "source_review": "targeted-labels"
+    },
+    {
+      "frame": 2831,
+      "pixel": [
+        585.451266981217,
+        606.0067728052773
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2832,
+      "pixel": [
+        579.8877143766183,
+        608.5765816289208
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2833,
+      "pixel": [
+        573.6557817302598,
+        609.2832835888895
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 2838,
+      "pixel": [
+        508.32632772018894,
+        614.3096039396403
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2843,
+      "pixel": [
+        857.807647705079,
+        629.7345581054688
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2846,
+      "pixel": [
+        844.5375906300683,
+        614.2745115451007
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2848,
+      "pixel": [
+        811.0338060210353,
+        605.3549924240183
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2849,
+      "pixel": [
+        794.7733496864165,
+        601.846415395934
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2850,
+      "pixel": [
+        778,
+        597
+      ],
+      "source_review": "targeted-labels"
+    },
+    {
+      "frame": 2851,
+      "pixel": [
+        763.4042358398447,
+        588.6851806640622
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2853,
+      "pixel": [
+        737.452056884766,
+        579.5730590820312
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2855,
+      "pixel": [
+        722.0849818775483,
+        576.8600972811222
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2856,
+      "pixel": [
+        711.2030161224993,
+        577.2011093221165
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2858,
+      "pixel": [
+        682.0421752929705,
+        572.3852233886718
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2860,
+      "pixel": [
+        648,
+        568
+      ],
+      "source_review": "targeted-labels"
+    },
+    {
+      "frame": 2863,
+      "pixel": [
+        611.1458129882798,
+        552.2656860351564
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2864,
+      "pixel": [
+        600.9480710678044,
+        549.887013547205
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2865,
+      "pixel": [
+        591.1489562988285,
+        547.8791198730468
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2868,
+      "pixel": [
+        553.9174804687495,
+        545.3189392089844
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2870,
+      "pixel": [
+        530,
+        544
+      ],
+      "source_review": "targeted-labels"
+    },
+    {
+      "frame": 2871,
+      "pixel": [
+        518.0836323587345,
+        539.8649052654914
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2872,
+      "pixel": [
+        508.646789550781,
+        535.8988647460938
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2875,
+      "pixel": [
+        481.5491638183578,
+        525.1522827148439
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2877,
+      "pixel": [
+        464.15908813476517,
+        521.2895507812499
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2879,
+      "pixel": [
+        445.996585733203,
+        520.2093277104741
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2880,
+      "pixel": [
+        436,
+        522
+      ],
+      "source_review": "targeted-labels"
+    },
+    {
+      "frame": 2882,
+      "pixel": [
+        415.4085083007833,
+        517.6896972656248
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2884,
+      "pixel": [
+        395.3036095686548,
+        511.7830540629772
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2886,
+      "pixel": [
+        392.1652764070339,
+        504.40746450017195
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 2887,
+      "pixel": [
+        393,
+        504
+      ],
+      "source_review": "review-labels"
+    },
+    {
+      "frame": 2889,
+      "pixel": [
+        403.86759831328357,
+        497.4727735838401
+      ],
+      "source_review": "output-audit-baseline"
+    },
+    {
+      "frame": 2896,
+      "pixel": [
+        324.6227387292928,
+        522.5209341746811
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 3368,
+      "pixel": [
+        537.6058342927095,
+        547.1309126632507
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 3609,
+      "pixel": [
+        976.2605926636179,
+        490.28756392998014
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3839,
+      "pixel": [
+        900.6686731881653,
+        500.4408045847871
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3840,
+      "pixel": [
+        873.259283017356,
+        500.002801089433
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3847,
+      "pixel": [
+        751.7944331593819,
+        489.25381805965355
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 3924,
+      "pixel": [
+        1412.6364212933258,
+        482.3839282614898
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 3925,
+      "pixel": [
+        1416.813073934351,
+        483.53909303937473
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3926,
+      "pixel": [
+        1417.8151705013802,
+        486.525753387448
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3927,
+      "pixel": [
+        1419.54150390625,
+        486.84962463378906
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3928,
+      "pixel": [
+        1425.6046142578125,
+        488.323486328125
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3929,
+      "pixel": [
+        1426.209869680754,
+        490.6177993076244
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3930,
+      "pixel": [
+        1420.0211529547964,
+        491.53886624304755
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3934,
+      "pixel": [
+        1416.2644700773544,
+        494.712899774609
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 3935,
+      "pixel": [
+        1411.551065412987,
+        492.27464028777683
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 3951,
+      "pixel": [
+        1346.43996374979,
+        506.759029761388
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 3984,
+      "pixel": [
+        1289.2147393253636,
+        493.5243514026632
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 3985,
+      "pixel": [
+        1286.50924914355,
+        498.92168501696324
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 3989,
+      "pixel": [
+        1289.8294427337228,
+        498.50972136949775
+      ],
+      "source_review": "output-audit-v1"
+    },
+    {
+      "frame": 3993,
+      "pixel": [
+        1288.215365234052,
+        497.80653149366356
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 4002,
+      "pixel": [
+        1251.6190772862922,
+        498.5069530834271
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 4003,
+      "pixel": [
+        1251.3533088129423,
+        498.7768869619636
+      ],
+      "source_review": "output-audit-v4"
+    },
+    {
+      "frame": 4005,
+      "pixel": [
+        1266.3782348632812,
+        497.642333984375
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 4006,
+      "pixel": [
+        1264.6385566721506,
+        499.9385485214089
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 4010,
+      "pixel": [
+        1257.153851620266,
+        500.5877503616051
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 4011,
+      "pixel": [
+        1257.2448872595307,
+        501.766362950843
+      ],
+      "source_review": "output-audit-final"
+    },
+    {
+      "frame": 4446,
+      "pixel": [
+        997.6697800951521,
+        516.7346226448714
+      ],
+      "source_review": "output-audit-v4"
+    }
+  ],
+  "limits": "Reused assistant development evidence; no independent ground-truth claim."
+}

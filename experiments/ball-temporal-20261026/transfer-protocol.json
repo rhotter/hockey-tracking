@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-27T07:32:19.231340+00:00",
+  "scope": "Exploratory tracker transfer to two previously scored NBHL recordings, four 90-second clips. These labels are reused, not a fresh hidden test. All 120 originally fixed target frames are included.",
+  "targets": [
+    23,
+    68,
+    113,
+    158,
+    203,
+    248,
+    293,
+    338,
+    383,
+    428,
+    473,
+    518,
+    563,
+    608,
+    653,
+    698,
+    743,
+    788,
+    833,
+    878,
+    923,
+    968,
+    1013,
+    1058,
+    1103,
+    1148,
+    1193,
+    1238,
+    1283,
+    1328
+  ],
+  "seed_offsets": [
+    -3,
+    3
+  ],
+  "seed_selection": "Top YOLO score times appearance, minimum .01; development operating point already frozen. No target-frame predictions or reference coordinates seed SAM.",
+  "tracker": "sam3 box10, GPU state, 512x384 native crop, +/-6 frames. No camera calibration available on these clips.",
+  "variants": {
+    "sam_consensus": "Both seed masks valid; both target masks visible/shape-valid/inside image/crop; target centers within12px. Return midpoint.",
+    "sam_appearance": "Among valid seed/target masks with target appearance>=.2 choose highest target appearance.",
+    "hybrid_consensus": "Use sam_consensus when available, otherwise retain frozen target-frame YOLO output."
+  },
+  "agreement_radius_px": 12,
+  "localization_radii_px": [
+    12,
+    25
+  ],
+  "unknown": "Excluded from accuracy; output count reported separately.",
+  "threshold_tuning_on_these_scores": false
+}

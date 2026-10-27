@@ -1,10 +1,10 @@
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
-  let data, baseline, report, sam, samReport, csvURL, rinkData;
+  let data, baseline, report, sam, samReport, temporal, temporalReport, csvURL, rinkData;
   const mapCache=new WeakMap();
   const colors={detected:'#17633e',tracked:'#17633e',inferred:'#a65500',context:'#156a9c'};
-  const active = () => $('ball-mode').value === 'baseline' ? baseline : $('ball-mode').value === 'sam' ? sam : data;
+  const active = () => ({baseline,sam,temporal,context:data})[$('ball-mode').value] || data;
   const mapped = current => {
     if(!mapCache.has(current))mapCache.set(current,current.frames.map(r=>window.SportScansBallMap.position(r,rinkData.frames[r.frame],rinkData.relative_bounds)));
     return mapCache.get(current);
@@ -23,18 +23,21 @@
     }
     const total=current.frames.length,known=total-counts.unknown;
     $('ball-summary').textContent=`${(100*known/total).toFixed(1)}% estimated coverage · ${counts.detected} visual + ${counts.tracked} video-tracked + ${counts.context+counts.inferred} inferred frames. ${counts.unknown} unknown. Coverage is not accuracy.`;
+    $('ball-latest-result').hidden=$('ball-mode').value!=='temporal';
     if(csvURL)URL.revokeObjectURL(csvURL);
     csvURL=URL.createObjectURL(new Blob([csv.join('\n')+'\n'],{type:'text/csv'}));$('ball-csv').href=csvURL;
   }
   async function load() {
     async function get(url){const response=await fetch(url);if(!response.ok)throw Error(`Could not load ${url}`);return response.json();}
-    [data,baseline,report,sam,samReport]=await Promise.all([get('data/ball-sequence-20261026/positions.json'),get('data/ball-rebuild-20261026/replay.json'),get('data/ball-sequence-20261026/report.json'),get('data/ball-sam-20261026/positions.json'),get('data/ball-sam-20261026/report.json')]);
+    [data,baseline,report,sam,samReport,temporal,temporalReport]=await Promise.all([get('data/ball-sequence-20261026/positions.json'),get('data/ball-rebuild-20261026/replay.json'),get('data/ball-sequence-20261026/report.json'),get('data/ball-sam-20261026/positions.json'),get('data/ball-sam-20261026/report.json'),get('data/ball-temporal-20261026/positions.json'),get('data/ball-temporal-20261026/report.json')]);
     const requestedMode=new URLSearchParams(location.search).get('ball');
-    if(['context','sam','baseline','off'].includes(requestedMode))$('ball-mode').value=requestedMode;
+    if(['temporal','context','sam','baseline','off'].includes(requestedMode))$('ball-mode').value=requestedMode;
+    else if(temporalReport.decision.promoted)$('ball-mode').value='temporal';
     else if(samReport.decision.promoted)$('ball-mode').value='sam';
+    $('ball-latest-result').textContent=temporalReport.decision.summary;
     $('ball-mode').addEventListener('change',()=>{if(rinkData)overview();});
-    const audit=report.output_audit;
-    $('ball-quality').textContent=audit?`Earlier region audit: ${audit.counts.visible_inside||0} visibly inside, ${audit.counts.visible_outside||0} visibly outside, ${audit.counts.context_consistent_unverified||0} plausible but unverified, ${audit.counts.unclear||0} unclear. This assessed the earlier regions, not the accuracy of the single point now displayed. Assistant review on this development game.`:'Estimated ball positions have no independent accuracy score.';
+    const audit=temporalReport.output_audit;
+    $('ball-quality').textContent=`Latest replay: ${audit.counts.visible_ball||0} of ${audit.rows.length} reviewed changes show an identifiable ball; ${audit.counts.unresolved||0} remain unresolved. On separate games, an additional audit found ${temporalReport.transfer_output_audit.counts.wrong_object} wrong objects among 60 originally unresolved detector outputs. These are assistant reviews, not independent accuracy. The tables below describe earlier baseline experiments.`;
     $('ball-timeline').onclick=e=>{const r=e.currentTarget.getBoundingClientRect();seek(Math.max(0,Math.min(data.frames.length-1,Math.floor((e.clientX-r.left)/r.width*data.frames.length))));};
     for(const button of document.querySelectorAll('[data-ball-seek]'))button.onclick=()=>seek(Number(button.dataset.ballSeek));
     const table=document.createElement('table'),head=table.createTHead().insertRow();
@@ -91,7 +94,7 @@
     const names={detected:'Ball detected · visual evidence',tracked:'Ball tracked · video model + appearance check',inferred:'Ball inferred · short gap',context:'Context estimate'};
     const carrier=estimate.carrier_track_id;
     $('ball-status').textContent=names[estimate.state]+(contextual?` · ${(estimate.play_state||'unknown').replaceAll('_',' ')}${carrier?' · '+carrier:''}`:'')+(estimate.review_support&&estimate.review_support!=='floor'?` · ${estimate.review_support==='unclear'?'height unclear':estimate.review_support}`:'')+(!map.xy?' · rink position unavailable':map.method!=='floor'?' · approximate rink position':'');
-    if(mode==='context'||mode==='sam'){
+    if(mode==='context'||mode==='sam'||mode==='temporal'){
       const sequence=report.sequences.find(s=>s.core[0]<=row.frame&&row.frame<s.core[1]);
       $('ball-evidence').textContent=estimate.evidence||(sequence?sequence.summary:'');
     }

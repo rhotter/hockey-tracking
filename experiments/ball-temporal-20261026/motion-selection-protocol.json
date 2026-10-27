@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-27T09:02:04.370365+00:00",
+  "clips": [
+    "pittsburgh-finals-0600",
+    "southjersey-finals-0600",
+    "pittsburgh-finals-1200",
+    "southjersey-finals-1200"
+  ],
+  "sample_frames": [
+    23,
+    68,
+    113,
+    158,
+    203,
+    248,
+    293,
+    338,
+    383,
+    428,
+    473,
+    518,
+    563,
+    608,
+    653,
+    698,
+    743,
+    788,
+    833,
+    878,
+    923,
+    968,
+    1013,
+    1058,
+    1103,
+    1148,
+    1193,
+    1238,
+    1283,
+    1328
+  ],
+  "offsets": [
+    -6,
+    -3,
+    0,
+    3,
+    6
+  ],
+  "maximum_candidates": 8,
+  "operating_point_source": "results/development-selection.json:yolo-full1920",
+  "camera_registration": "RANSAC background affine from each neighbor directly to target; quality>=0.35. Withhold temporal reranking if either immediate neighbor fails registration.",
+  "variants": [
+    {
+      "name": "motion-tight",
+      "sigma_px": 12,
+      "neighbor_weight": 0.5
+    },
+    {
+      "name": "motion-medium",
+      "sigma_px": 24,
+      "neighbor_weight": 0.5
+    },
+    {
+      "name": "motion-loose",
+      "sigma_px": 48,
+      "neighbor_weight": 0.5
+    },
+    {
+      "name": "motion-strong",
+      "sigma_px": 24,
+      "neighbor_weight": 1.0
+    }
+  ],
+  "policy": "For every target detector candidate, evaluate all pairs of preceding/following candidates at +/-3. Reward a high-scoring short path whose linearly interpolated center agrees with the target candidate; use +/-6 to reward constant-velocity continuation. Reject implied speed above140native px/frame. Target output always remains an unchanged detector candidate passing the frozen operating point. No labels enter ranking.",
+  "selection": "Report every variant; no parameter choice from these test scores and no default replay change.",
+  "scope": "Exploratory temporal reranking on120 previously opened samples. Unknown reference frames are excluded. Does not establish full-video accuracy."
+}

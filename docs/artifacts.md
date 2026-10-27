@@ -10,6 +10,8 @@
 - Sequence-level ball-state outputs, CoTracker3/TAPNext++ numeric point tracks, appearance scores, API failure/cost ledgers and deterministic reconstruction. `scripts/verify_ball_sequence.py` reproduces the previous contextual overlay used by the SAM hybrid without model access.
 - SAM3 and SAM 3.1 sparse pair outcomes and compact replay boxes, plus SAM 3D Body numeric predictions and visibility references. `scripts/verify_sam3_results.py` checks these without model access.
 
+The October 27 ball experiment adds compact SAM masks-as-points, seed-verification verdicts, fusion inputs and all per-sample detector outcomes. `scripts/verify_ball_temporal_results.py` exactly reconstructs all 4,500 published ball positions from those compact inputs, recounts the exported localization results, and checks frozen weights/reference hashes. This runs without a GPU, Modal or an OpenAI key. It verifies arithmetic and provenance, not the correctness of the visual annotations. New trained weights and raw review crops remain external on Modal.
+
 ## Reference source
 
 `experiments/reference/` preserves selected original experiment files byte-for-byte. Historical absolute `/data/...` paths describe the cloud experiment layout, not data included in this checkout. Research orchestration imports and local mounts may refer to the original laboratory repository. **Do not treat these archived Modal entrypoints as self-contained executable jobs.** They are included to audit how the reported features, candidate lists, policies and scores were produced.

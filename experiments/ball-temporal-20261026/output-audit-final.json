@@ -1,0 +1,1041 @@
+{
+  "created_at": "2026-10-27T08:57:03.436093+00:00",
+  "scope": "Post-prediction assistant review of60 fixed changed non-seed tracked outputs, selected evenly from117 outputs displaced at least8native pixels. Compared old/new crops and full frame, then target and +/-3 chronological crops. Visible_ball requires an identifiable ball within approximately12native pixels. Unresolved is not correct. Development diagnostic, not independent ground truth. No verdict enters fusion.",
+  "source_manifest_sha256": "bf04ff0578b0f441b6c26113c7f07cb4c4b8a003702a808aa92ed2de9ad204a3",
+  "context_manifest_sha256": "f078b0e9b96b34376c1f9aadd1a74060b4f140c8a040ab5cac16a4a10bd5cf60",
+  "candidate_positions_sha256": "9dd530e065f7f1d140cba2239b614c0d00b429d7c3439037a78d69d258625ef0",
+  "counts": {
+    "visible_ball": 41,
+    "unresolved": 19
+  },
+  "rows": [
+    {
+      "frame": 164,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        745.322048490827,
+        669.1648945205202
+      ],
+      "before_pixel": [
+        736.2354020189841,
+        666.5371324576674
+      ],
+      "change_px": 9.458978674424772,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "9fe8065286567ebdc273c613c316f52307be6dbdf7eeee5b430a7319311f66b9",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 206,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1395.1934020547437,
+        653.7441547101639
+      ],
+      "before_pixel": [
+        1476.4029435812508,
+        636.0726698961645
+      ],
+      "change_px": 83.1099934452945,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "ab33c5baf9ea898c33a0587b6a4618030aa33596318dc098e799e42ce303ddb1",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 223,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        930.4901292524387,
+        522.7496209900887
+      ],
+      "before_pixel": [
+        958.9595307778714,
+        522.3964718580188
+      ],
+      "change_px": 28.471591763120465,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "94fb6945723e70901f2e5252412c8673473aa4710c0709e886c3b44314aa5dd2",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 226,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        981.5910766152913,
+        519.7134864450221
+      ],
+      "before_pixel": [
+        1010.7203124666693,
+        519.6583536115421
+      ],
+      "change_px": 29.129288026220827,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "2b0fea46750597f96b20ccc001b0eaaf9f2dadc0b7d05f5091d5fcb77de64673",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 269,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1456.6093114039236,
+        616.9050993233445
+      ],
+      "before_pixel": [
+        1307.2525514218737,
+        622.4907556008477
+      ],
+      "change_px": 149.46116990170412,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "a8da98da3e8d421a592a262e36d0857a36d1d64f245a48145bc7c3acdf3613da",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 273,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1492.3319797266288,
+        622.7780342256707
+      ],
+      "before_pixel": [
+        1328.9047403917377,
+        621.6831756504238
+      ],
+      "change_px": 163.4309067218424,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "4a87fbecf7fbc8fc19117fe366dacb8b45d06680be1a24c54853d4041d6ec73a",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 280,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1501.2064330824176,
+        612.5626017812524
+      ],
+      "before_pixel": [
+        1512.6475365800827,
+        618.3585256644143
+      ],
+      "change_px": 12.825427201605887,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "aa2c205429038b7412fb455b405b0f24fff327b6f78e60cb00d7bc32e2ad59b5",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 287,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1613.4464099002744,
+        627.2696202878715
+      ],
+      "before_pixel": [
+        1619.6338693959392,
+        616.6545865814486
+      ],
+      "change_px": 12.286724364084458,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "833999ca0469092f35432a526fa947cba1afc391aea6fb77a939d37c1678e839",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 313,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1296.648743769755,
+        524.5032662236335
+      ],
+      "before_pixel": [
+        1266.865371428571,
+        511.2750857142858
+      ],
+      "change_px": 32.58886355185591,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "f078d0f070e4ac3eff279d4e74c22a36eac866cea19efc191af19ea95bbc6476",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 364,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        243.3695881600941,
+        514.4788523539789
+      ],
+      "before_pixel": [
+        327.2446022022469,
+        512.0899132823313
+      ],
+      "change_px": 83.90902818206972,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "8c69522ceeff1076b2bea7e4ceb2376ad515ca88987ce9d7ec3f4303e37ceb1e",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 380,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        371.42215395054984,
+        541.0105464305209
+      ],
+      "before_pixel": [
+        401.99314285714286,
+        528.5905714285715
+      ],
+      "change_px": 32.99759296942857,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "bb92b0f3d4096e61e63ebb1e3550d9eb96e1993a315169c5171ee5db8c074445",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 412,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1132.066313784233,
+        564.2932996519658
+      ],
+      "before_pixel": [
+        1109.7599999999998,
+        562.68
+      ],
+      "change_px": 22.36457847596744,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "65d0c0ce003712a4df00b88b33e8346371a62ee7935a036e08979eccc24b4e35",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 458,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        637.2675233137269,
+        685.4878024154717
+      ],
+      "before_pixel": [
+        631.68,
+        694.44
+      ],
+      "change_px": 10.552831770376944,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "aa923bf9372ca0cbeb46b1f2ed5b4ebe941f35da187daa8ea3a4194e4de4bbd2",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 617,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1261.4206811852314,
+        475.4761615401646
+      ],
+      "before_pixel": [
+        1183.9817142857141,
+        459.56777142857146
+      ],
+      "change_px": 79.0561222828894,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c66235cdff2c9fce84c6235a48efe2523b464fc53337cecdd23ad33f56d023f7",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 620,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1222.2631423414543,
+        476.8084782313916
+      ],
+      "before_pixel": [
+        1175.7270857142857,
+        467.2342285714286
+      ],
+      "change_px": 47.51074428966928,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "6bd3c85b016057f1af0b78b4b06f0e5016be2c22f3df7808f070c179dd85d8cf",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 622,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1209.652135753006,
+        476.58325325533156
+      ],
+      "before_pixel": [
+        1176.96,
+        474.12
+      ],
+      "change_px": 32.78480374644431,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "7db3ca558517bd3c2dada74300f9b067f51e0b981c138cd0678cea82fea8b383",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 625,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1186.5301594094192,
+        475.42450758574694
+      ],
+      "before_pixel": [
+        1160.77045534321,
+        473.53869095097156
+      ],
+      "change_px": 25.828640265385083,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "8e388a8608c8299b981d3cd128e5ce74dc3f8961963e1ff09ea8bc95e647b16f",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 709,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1080.5096467017079,
+        441.9449589369163
+      ],
+      "before_pixel": [
+        1030.7053714285712,
+        453.8113714285714
+      ],
+      "change_px": 51.19841385145132,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "dfca6ee67196b7c10d408f33289151a0165ed4ece2c1c93e172302790473316e",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 713,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1054.181376170541,
+        441.6712102125455
+      ],
+      "before_pixel": [
+        1061.3339999999998,
+        428.48325
+      ],
+      "change_px": 15.002743822828732,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "e848522e8a5712ffb53f6dbebe015aa1e70d690a6334f184b706f9773148d4e0",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 719,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        974.0364294720647,
+        429.5531314471275
+      ],
+      "before_pixel": [
+        971.8308,
+        419.42475
+      ],
+      "change_px": 10.365756706895873,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "68ada066f48e02337c0fe2da355dd49ef4af6d8fc74acfa919d5f245b129482d",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 724,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        931.8296628928983,
+        434.6452485807321
+      ],
+      "before_pixel": [
+        916.4256,
+        448.875
+      ],
+      "change_px": 20.970717180452468,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "3932f2408bb1f9d89d652900887b14f34c34924a093120a4f7dc82cbbab9413e",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 731,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        961.3567185126532,
+        428.1629116181739
+      ],
+      "before_pixel": [
+        992.0339386951185,
+        419.8998859766417
+      ],
+      "change_px": 31.770574922026174,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "e21bd6ff33184e83b47e2291155989fa1b1db9923032f978445074a9475cb4f1",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 746,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        931.1397295541198,
+        424.07603792653936
+      ],
+      "before_pixel": [
+        921.1248,
+        440.0946
+      ],
+      "change_px": 18.89161572961118,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "b58fe0d58c2a52591c9fc8046296ccc553dcf34a227232233cdead804c757cb9",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 850,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        460.2328820709609,
+        504.1975606286561
+      ],
+      "before_pixel": [
+        469.43862857142864,
+        491.7440571428571
+      ],
+      "change_px": 15.486623831606476,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "db237d416b3b6faebd94b6009dabdb5677c2fe625278941997df8f2dbb40af3c",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 883,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        838.0005259771222,
+        569.5297790686338
+      ],
+      "before_pixel": [
+        838.5951085714286,
+        541.96344
+      ],
+      "change_px": 27.5727506445828,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "f58bc421d389f3de42b63676076ec565edbcb18c79c43b08f396b3bda856cf7c",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 887,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        788.0882781595399,
+        553.6182993212539
+      ],
+      "before_pixel": [
+        829.6696410961516,
+        547.348645002554
+      ],
+      "change_px": 42.05137701600533,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "17876b73d5dd01aa50074b44eace351b1544707a58dc1306c962c087553b71d2",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 893,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        813.3766302142527,
+        530.4058623954974
+      ],
+      "before_pixel": [
+        839.5795405819123,
+        523.8512331905996
+      ],
+      "change_px": 27.010288331472882,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "31482b7e9d68215176c579fd36ea492386d20e2c09464a207e54c4974faba845",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 952,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        578.3330016976975,
+        557.843544409133
+      ],
+      "before_pixel": [
+        491.52,
+        492.48
+      ],
+      "change_px": 108.66871767665761,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "885d438ba24325246ae5ec21c93dc8fcb2ad1a65c76a411e19689d27dba6e198",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 955,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        502.62753854383004,
+        554.9735036868608
+      ],
+      "before_pixel": [
+        442.75271999999995,
+        505.233585
+      ],
+      "change_px": 77.83992167668274,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "29f27a50fca069b75e9f25101fcf907c18e1a1a2608474b0a46f703b2d7de9d1",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 974,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        542.899059714597,
+        577.3526835518142
+      ],
+      "before_pixel": [
+        561.1761835664795,
+        578.767118359115
+      ],
+      "change_px": 18.331772476254336,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "12926a01ae1e881d93d2655ad28bc7d983a4c0d9729ee91c31a810ca07027c06",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 1138,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1008.2978999422902,
+        123.15667351941616
+      ],
+      "before_pixel": [
+        1008.936656647624,
+        138.1247775382677
+      ],
+      "change_px": 14.981727138343173,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d8ed672a2ac4eb26bb31f6438600bb52a08c0fee57dc9059ac441d43cba92182",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 1141,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        971.3640508082651,
+        46.03031532643706
+      ],
+      "before_pixel": [
+        971.5167546782097,
+        62.06611324591452
+      ],
+      "change_px": 16.036524978504964,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "7340c87eb3011e5bb3728c6c11444fb985ce68509c1c1dd1c26c125f1055d57e",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 1153,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        835.9185690923772,
+        49.63782581757883
+      ],
+      "before_pixel": [
+        842.0988924239233,
+        71.52427571559551
+      ],
+      "change_px": 22.742319266531446,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "c4fda32ae080f64291ea6401bcbf99cb045b64d90b0661a3fbcafdfd9f07752c",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 1178,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        633.5792718040752,
+        498.21108982962767
+      ],
+      "before_pixel": [
+        652.8,
+        494.64000000000004
+      ],
+      "change_px": 19.54965664539624,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "f96d8240d07095d923aaf3d5f05aab122fe2229648780bd616910c4562d84ab3",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 1195,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        649.5530350214879,
+        501.5002413237974
+      ],
+      "before_pixel": [
+        732.9181810380868,
+        469.4907513523454
+      ],
+      "change_px": 89.29924422189333,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "941f0f8bb677022188a0d96d19daf6e358a5a8940604850c8241d3cae85bf09f",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 1520,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1105.4378246354222,
+        534.5492394279148
+      ],
+      "before_pixel": [
+        1145.8683908426976,
+        555.9015352688226
+      ],
+      "change_px": 45.722546096193405,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "0c2d36af4fd12e7386d3852965bf98626af8228734d31595c70452188f60ed3e",
+      "verdict": "visible_ball",
+      "note": "Chronological frames show the pink ball rising from the referee hand across the striped shirt and returning to hand height."
+    },
+    {
+      "frame": 1820,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        397.48909835838714,
+        718.2859247248745
+      ],
+      "before_pixel": [
+        380.7436203736297,
+        703.5846487153724
+      ],
+      "change_px": 22.28314495859049,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "9d0ebdf43847ea8efa018eda826e30e6a316f2c4916b7e809ef89e3b2ff112ff",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 1838,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        495.48801229815757,
+        813.8622289009936
+      ],
+      "before_pixel": [
+        483.84000000000003,
+        811.08
+      ],
+      "change_px": 11.975683202037084,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "fd0195161d560114459e0938f359ac2629a8c8d5919666e71874433836b27491",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 1969,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        703.9115602462525,
+        494.68929964313077
+      ],
+      "before_pixel": [
+        716.6633142857144,
+        485.91360000000003
+      ],
+      "change_px": 15.47966844959466,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d01a02110e679857965133ca1c756391d76f764e16df607d1897cee87c23a314",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 1978,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        787.6275223502532,
+        494.3515165967362
+      ],
+      "before_pixel": [
+        798.5447999999999,
+        467.1999
+      ],
+      "change_px": 29.264265497323137,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "fbea1ed48c0e9135d8fa04cf4f5a2078faa4ffaaefac8207e78940bfbfe1ef06",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 2020,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1037.0604839227658,
+        501.55387832518437
+      ],
+      "before_pixel": [
+        1018.5154490668206,
+        498.64090766058234
+      ],
+      "change_px": 18.772419021028046,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "31821f6a5b7cc266f26893d98d2eb37633bdddd5f795b645ebe12c1a1c3c8670",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 2602,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1577.50725,
+        569.4945
+      ],
+      "before_pixel": [
+        1718.3999999999999,
+        702.0
+      ],
+      "change_px": 193.41270520007836,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "a97d6f5eaf74a36a8286da431c6bcaf80c21cf9dedf2289a347983dae999b3cb",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 2604,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        1494.3555555555556,
+        601.0
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "f6035fa3a964e115c31cf32bf5aeb1150f8dd3a56079aa4cdc58b2b4a44cd064",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 2608,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        1247.125,
+        670.41425
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "09324061e95e06b596e7aea904f049d749231931c664aa08a64a1fbe47271e84",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 2735,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1540.2071534970676,
+        467.8075467914721
+      ],
+      "before_pixel": [
+        1544.0998885192887,
+        478.9441554967467
+      ],
+      "change_px": 11.7973488296153,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "d04527893bcb2ea9ab149d591dfc68883d60c6031b403d1513eab4c4cfd7837f",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 2836,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        534.2884492626549,
+        610.2375375760098
+      ],
+      "before_pixel": [
+        593.8214040882639,
+        621.7048356585035
+      ],
+      "change_px": 60.62731756873926,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "1619af69fc14d1216740098e1fbde1314352f926cd2f0d41dfc7b4f981afa44a",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 2898,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        306.77777777777777,
+        542.537037037037
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "22f8cd58fba98b2062b1820954cea931dc09f7d5d411ee222f1ca866ab617b05",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 3334,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        399.9757841041438,
+        495.09432989054415
+      ],
+      "before_pixel": [
+        419.2197364771374,
+        531.2132116293508
+      ],
+      "change_px": 40.92558272029789,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "2f12a14ef5c378c745a9fdfd516bcef4a0e903bf0c53abd6d343e1d7a147fc01",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 3359,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        530.1824215573395,
+        524.9829035483093
+      ],
+      "before_pixel": [
+        532.0041393713418,
+        542.518388690096
+      ],
+      "change_px": 17.62985805251067,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "1ed65ac916726e71f2008f67da8abb7435672338021a0506c31559f5a5ca245c",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 3551,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        451.6405823986099,
+        511.64345788929984
+      ],
+      "before_pixel": [
+        415.95291428571426,
+        511.6407428571429
+      ],
+      "change_px": 35.68766821617223,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "a88f6b32e6c9ad0ad9b76d845d79c4e798d1418371f9a1a2dd30634174100f8c",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 3608,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        976.8130000000001,
+        457.54549999999995
+      ],
+      "before_pixel": [
+        1470.72,
+        531.36
+      ],
+      "change_px": 499.3923358034742,
+      "reason": "short_sam_track_with_detector",
+      "source_sha256": "03a90ec2e7e7efdfd6cbbcfaf305111e7733efbf3d61a37614dd47d32fa315a5",
+      "verdict": "unresolved",
+      "note": "Target and adjacent frames do not resolve a separate ball at the prediction; not counted as correct."
+    },
+    {
+      "frame": 3938,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1381.21194099212,
+        501.50072848002196
+      ],
+      "before_pixel": [
+        1392.3638006266474,
+        493.86751325584953
+      ],
+      "change_px": 13.51406482028041,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "54081829e44d0d95196511016f586ff8bd576fcf4d0b6eec37c9f0cee9e20c7d",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 3941,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1373.7933868489715,
+        502.76834255001125
+      ],
+      "before_pixel": [
+        1380.33052769443,
+        495.9209233105905
+      ],
+      "change_px": 9.466855902238633,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "64fbe1571c326c0fa075b856ea0f176fb7ab9c87b4ac5b0c8343c586bf0d7a8c",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4012,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1258.977935267818,
+        500.6254479192913
+      ],
+      "before_pixel": [
+        1270.2949567781445,
+        497.9988565613482
+      ],
+      "change_px": 11.617829316477843,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "84c5c1fe7d398d00908bee87cedbbf67bfd76bcac5b898565574ef2ad378eac3",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4014,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1258.8164682059491,
+        499.2989984187206
+      ],
+      "before_pixel": [
+        1278.2172259982103,
+        498.1599571836915
+      ],
+      "change_px": 19.434166250422972,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "ccd10c09397b34291c7ad5ccc77a7e4f2ad1c20fc68b50e43b19d6caaa3ef766",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4016,
+      "before_state": "context",
+      "state": "tracked",
+      "pixel": [
+        1244.2937226910358,
+        501.0815640931317
+      ],
+      "before_pixel": [
+        1274.27216748077,
+        498.003833624957
+      ],
+      "change_px": 30.13601793279708,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "53e28f1ea7817df579130e0fe12ce42a53a3f4df6a1cc5551ecd0e8167dcbf5f",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4019,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1231.5548182865184,
+        500.62923416831933
+      ],
+      "before_pixel": [
+        1277.0887854168643,
+        494.92194575737574
+      ],
+      "change_px": 45.89025281727169,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "f2428ecbf93d9805a1c284710aee452d12679b7c2a57ce3e470ab30193548b83",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4022,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1231.8539432072916,
+        502.2167396209959
+      ],
+      "before_pixel": [
+        1289.2982215454995,
+        495.29758995593
+      ],
+      "change_px": 57.85948276544713,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "4cd418dad1a3c6ffcfbd4b33320202ce7d305dd2ae9b1bdb8a56e1d5c5578917",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4025,
+      "before_state": "tracked",
+      "state": "tracked",
+      "pixel": [
+        1234.6321691564015,
+        503.0038643202855
+      ],
+      "before_pixel": [
+        1296.1735837432097,
+        495.9859442599794
+      ],
+      "change_px": 61.94026889930545,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "50fc395c8c784ba784ff9d4434d58792bb89080e52966540d499b63737ab2d2c",
+      "verdict": "visible_ball"
+    },
+    {
+      "frame": 4444,
+      "before_state": "unknown",
+      "state": "tracked",
+      "pixel": [
+        1001.8608402441266,
+        445.064414979058
+      ],
+      "before_pixel": null,
+      "change_px": null,
+      "reason": "sam_tracks_agree_between_sightings",
+      "source_sha256": "7097460378f1768e9413324ff6b0b6c614aaac20642b00b07cbbebe3fee895ea",
+      "verdict": "visible_ball"
+    }
+  ]
+}
