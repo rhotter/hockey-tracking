@@ -1,0 +1,2897 @@
+[
+  {
+    "clip": "nj-0900",
+    "frame": 8,
+    "source_sha256": "e30bbd137032cfebb30ef53754a4694b937270b8239e3634f2aeb490a4de3ec3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 11,
+    "source_sha256": "5a61ae782d42528097652971397e4fe505b05165f0fa35b69a3eb7d1ba66be23"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 14,
+    "source_sha256": "ccb05f1bc30ffaeb104c25189ae2f32226839bf9d419655cb9366479024ea4b1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 17,
+    "source_sha256": "0465dfc8e533f885c41ed1a5d372e80164d78e8114429ba4bde7640d3d664007"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 20,
+    "source_sha256": "258f561e57e9c43ddff27196683958398c13a709cc1daa17c06ed2ddea75e5c9"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 23,
+    "source_sha256": "0e55ce95e0535ea0256f11536267b1a5c088e274da2c97dbdd87198159c523d9"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 26,
+    "source_sha256": "dfccc79346d893e1cf1355cbdc003915de3ca015f9adb64dd8b53900085cb0b9"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 29,
+    "source_sha256": "0a00615c53770fa90e4a5935ae3fe150966546ebc14f3b5c95931b4bca8edf13"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 32,
+    "source_sha256": "83566ff95163d248c504898941fd60904c1947c2f6441d62ade3c40f150774f3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 35,
+    "source_sha256": "d89b4250e2a2f1542c30e75d84b3a13df48312e2598f3fc3824d9e1584cfb46e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 38,
+    "source_sha256": "8849c4e4d17ed823a8756a84e47f9040c0dcac37ea752361100cc36ff11203a6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 41,
+    "source_sha256": "0b6072685cc3171c7314106553a5bfa1c85a61a8bc5a2dd4efbb4425de83e44f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 44,
+    "source_sha256": "db2ac8c704a596fc0b9493a9d246770c099762018e7713a1f55dc799607a00c4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 47,
+    "source_sha256": "5ca6f6136a2ae8171149a3db36f2bcbb85391fcda11ca085f004c9b4d66334fb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 50,
+    "source_sha256": "c5290c7af689d8cf3641981706af65bfd77e5081be2e4d24d21f5631ebd82d60"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 53,
+    "source_sha256": "a223cf302aad88fede178cb3d031426b114254437fed35068716da68b475291d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 56,
+    "source_sha256": "347091444c9ff7bf81d61793906743fa3afd4766cb4131ff6eed5b59117a3970"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 59,
+    "source_sha256": "68e005a17016b728951c56c6c65062508ff2e4eada90c8046f018f9be84b1712"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 62,
+    "source_sha256": "3859fed12b9fd551e195b0fb506393876eff51d49113c9e14fbba703707a7a7a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 65,
+    "source_sha256": "185ffd56dc9981bf625b89156367c908fab5e4edc584f7d39c32cba3f311de37"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 68,
+    "source_sha256": "0e104a8f4ea5bb86e697d0313725e7ff28124f2e23913c902a7887101bd38e48"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 71,
+    "source_sha256": "83babe3bd0699b5550c623f6b832444f9d175e98636136c06624bfc52e2591ae"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 74,
+    "source_sha256": "3e191aa140bd6f2d06ea39f914e6d0079cb7533d5fcf89e8cc44ef39384dcf29"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 77,
+    "source_sha256": "c18945d2ef1385f07d3d0b833d3ec69323e6435ce0cc2b6ae283a07e16d88131"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 302,
+    "source_sha256": "184dacf392ce3f3340f05304d3d9cfc46d75af50f4c7ee1d817b0b19c8690ea6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 305,
+    "source_sha256": "00ba3873704ea6ef3067c9de383f67ad2928c89398175e736d6c19397f44048e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 308,
+    "source_sha256": "f7449b698f567227665dbd1abac031c11c95ecb96951153e2e00f9372065e802"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 311,
+    "source_sha256": "2f5d3c1984ee248c5f435cad179c1bd5a1044d5f9a14f35e4c8b5f5559068937"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 314,
+    "source_sha256": "48f167e4cba4f742f78121477cc4dabfead90306baaeea218c628fb4264d71b8"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 317,
+    "source_sha256": "391d927e328811930c515e45df7758f64568973758c1fd8921d90c847e5217eb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 320,
+    "source_sha256": "341c2fd2f47b98ded2e133688642ec0903e2fca7ce04ae84a7b26dd8ea4489eb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 323,
+    "source_sha256": "634db29c4de4951d97c1c9cb1823d05a9b550563d0178610880c1863fb0fdc7a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 326,
+    "source_sha256": "2f52a35031bf81b528132bd41d3d055a2e326cea7c6afb9571f2254e9717f432"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 329,
+    "source_sha256": "a774379f938918de74c4c747b383a1f098a73150c4f5aea2303231ac3ced8554"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 332,
+    "source_sha256": "02df5f5bfaff21d177b14cdc7d60963afc6d3b194b6929458bc7a5f45fd9a8da"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 335,
+    "source_sha256": "aeab2b814cd54b856b0ef87097025bd7058e745b07fb10a39d605bf0fea2a72c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 338,
+    "source_sha256": "aef7a4ab3d8fd4105732f90c154571813da2e124637ec2a967f61c2023105cfc"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 341,
+    "source_sha256": "2eb8230ea7bed19d3c9b56f796c4858f0289a7e221fc08ffdbaf0dbc222ec8ba"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 344,
+    "source_sha256": "26162a086cbbd2503057499404c4b2fdfaa65c6c6fc96907373252ece74f2122"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 347,
+    "source_sha256": "dd4183f81c12bc594b798650fd7c4a81fbe6bb030ee7090f63280211d3dcac11"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 350,
+    "source_sha256": "8f5eb9f7af39ad29b9caae9ec90d17c751792f1236abbdcce0dabaa8bc47db59"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 353,
+    "source_sha256": "2986ce25dc9cbde18363aa37e342ee280b751283d56ec06878476ca35f301cf6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 356,
+    "source_sha256": "64b0dcf58eb27d46c5dc10dd29fa3685f5369868d1c53d127af32e3af98ecc02"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 359,
+    "source_sha256": "2696cab7f43ab3f0f4560da461c0089438e9d94f2904dcf1615292bab32d4f1f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 362,
+    "source_sha256": "21e3c00750a38501617d018e6ca5297c82e22e9b779ef3516d5e95901155bf2d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 365,
+    "source_sha256": "2fc9fa1e837e5b7fbacca13630c54ecba69462b1c130e48772891f7c785aa146"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 368,
+    "source_sha256": "ca5bc5308f8ed53076b2804184b68804caa46ffa90b5198aa9843d654f40bff7"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 371,
+    "source_sha256": "31b0094125920200c20a153ea33b3d7fad299ac33fd24cd64fcbfc4b7b13b7e2"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 374,
+    "source_sha256": "dae8a87ac3a624e83e764919a3a86ba0d27ff6a43a3b317e4a1cc958d5f5f7b4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 377,
+    "source_sha256": "479c53ccf98921c5be4221ef8b8e4d38a05fcf4884001a3b6adceef738b3a76f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 382,
+    "source_sha256": "0f597276a611df5bb07fcea3b7765b86d85ac225e6a26db1fb13b9924aba7b57"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 385,
+    "source_sha256": "1b16fd3c002fb7854027dbe3eb65387aac8f0360f57edc63a1b9f4e8cfc5ad9c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 388,
+    "source_sha256": "d64aae8ef171dba6f833315b25fdbbec96b19c0b9e943aca8ffb000d30f6eb9c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 391,
+    "source_sha256": "84895479e0a467ae8388d5ce873ca511831f9b7073030ef484fd7f1a0cc61455"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 394,
+    "source_sha256": "05d55b9f814290b481a67770dee7a93d69562b23c7029e88d8c1a604f1d252d5"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 397,
+    "source_sha256": "18e6cbfbf790e3e9e17cf70258604f20bd3965b3ce660497d7262a8629fc248e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 400,
+    "source_sha256": "f0e74a29aade84ec35d0275926c532d057e2779c00f2bf11b04fb45e3a96c4b0"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 403,
+    "source_sha256": "2559ba8ac1364630c792eaea68d4c33add9d1f356726c09126b496e815b610f4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 406,
+    "source_sha256": "f6c6e59f62947c4f7b00c7b8f856eb877cdf6962cc7e2fd6917c4e8f04d60343"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 409,
+    "source_sha256": "c7ba38333c8c556a9b8a99ecf97c07aabbf3f5fbb64bf566131bf7614bc04386"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 412,
+    "source_sha256": "65d0c0ce003712a4df00b88b33e8346371a62ee7935a036e08979eccc24b4e35"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 415,
+    "source_sha256": "15d20dbc3e6c631481a8e45ace9c7f57c5178d1e6d59c5cdc8201217a30492e1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 418,
+    "source_sha256": "17cbbb453e60b28943c57d6f844863d91e5d43f9a82c05b0026bd900a84cad08"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 421,
+    "source_sha256": "50e67a09b4be3296db2c30427b7e6e32f6c09b77bc8b2bdf1e1a866689b27799"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 424,
+    "source_sha256": "705ac1834c13f808fdb6639783929d71db99d80860dea022988fa23330ac9d92"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 427,
+    "source_sha256": "b526ddadedf08b35451ce28794f94e75462f2ef4f2654b8cd90b95033d3aa781"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 430,
+    "source_sha256": "c464c866485abcb8cedfec11d6c37a93c1dad327aba5a39b3cc72ae08850560c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 433,
+    "source_sha256": "e5c3be754709a0175aa4c14a9cf084ed878e2cb127efd9a1dac03f6ca760468e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 436,
+    "source_sha256": "a2de53f902fb8b2f0f4882a2f7b685a4ae47188b0e97a57f8e4b0544ce8d969b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 439,
+    "source_sha256": "6ae49e19716be2e862481fe1cbcdd810ed5cc3750c32cee62bd046ed28fd2710"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 442,
+    "source_sha256": "6a7e0fe33ff32a4735cffba7db7a36347e94232b78a85bd1d5af4b76da8c229f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 445,
+    "source_sha256": "7f4bb2d98650d923dcd4cd6ddcb3993229de4fa5b342c8c6c4aadbf189379059"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 448,
+    "source_sha256": "9c7583fa16a2f20bb0b3ee86262dd73621cf139b539ced4db0e13151c438f59e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 451,
+    "source_sha256": "894842969b8b1d52d8faa1ec53654e3c187da1395a54056942b15e18e8ee2b18"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1014,
+    "source_sha256": "e8c2b22188d42bda4b2beb02ffb4bf6ca7496be9a9505c3148e5ac67cab3b70f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1017,
+    "source_sha256": "9b49d2782f895a33e390a4156489d03438b7ef6058a597e0b0f58017e3d59b6a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1020,
+    "source_sha256": "194cc50581d5cb1b2a9122f1063a0ddc8b7908a8570677b0919e0a479f9e9bc6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1023,
+    "source_sha256": "a529b1158f5f8c3ce1114615af43edbdfc72860298f5212e3396be1b6d0ac302"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1026,
+    "source_sha256": "3576e24116bd47150e0f1bf5705d3236947b8b684f128fbeca8eef915a4aaab6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1029,
+    "source_sha256": "70793eb071d1ebd9266497637ceb8208eaab8ae3f62b47ac3195106c41b13ddf"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1032,
+    "source_sha256": "2e74e2e2157bc5f76ce0bdba62fc7b58daa08f7c80ced530a8ae80a6d5390228"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1035,
+    "source_sha256": "4aa64b0ca65268b8d75bef0590682752c4947413b93e63a05bea25e827563401"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1038,
+    "source_sha256": "6c6eb35d25c194153db0bf0ca1f9274754d063d374cac520bdc1fa5ec16a5d25"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1041,
+    "source_sha256": "cd5224793e417543295dc3c615a8311cb5e03a852caab52f25e9304a8a8a08e5"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1044,
+    "source_sha256": "627bdf6cb6959a3ec44c43f7b59d26e90e12172deeb9b9859e9c28d336855a13"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1047,
+    "source_sha256": "f86e689ff6d57032a0bc867d90a95058ca73901b18984cb5c9f2d35fd7dacb46"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1050,
+    "source_sha256": "c021da0fd26bc44df955e2a01e55e8890e1cdb1a8079f5bba3d3c7ed1a1207a7"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1053,
+    "source_sha256": "a67404b4020b10eaecb182656fab185c6b146494056263c9a06d3af033c7704b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1056,
+    "source_sha256": "89c9d20c64f821967620e09f3b23e2aec6f7bb6bd371a68f3f4a5318be3f8889"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1059,
+    "source_sha256": "40a4817d8025c5950f9cea6190b3f5e6bdc49b33ef8a5db83e87bea12498c7d1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1062,
+    "source_sha256": "8ab22778a205deec9ed93c9d6bc8b6ce2b4f3e6ce93a98b3f4f427add7ff9dcd"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1065,
+    "source_sha256": "7536ece2b89476e77998718f85956ec49fba13ccf3dfcd590e3d4abcc8caaafa"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1068,
+    "source_sha256": "50fade5f9a6e2211e6d2644b7b1931c8dd735957769d5f9f60c336f49b1742e3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1071,
+    "source_sha256": "86a823dd6901073745d1699aacefa1de7af32e8d63d534964a3655a7a395cd87"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1074,
+    "source_sha256": "e11affb374ed3a1c2ba873b1eabd68b281ae2400134802c30426c1f7df3eb58c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1077,
+    "source_sha256": "b47220f079e7369b2f2e5442bbd4c88914ee1a98ec03173d3404c4159f9ed53b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1080,
+    "source_sha256": "9983a6bd69f1c9ec9e80f183b636337a178bd7651894b49e5548bcadd4b7af35"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1083,
+    "source_sha256": "9e314f88479e18c7a18d2be465d0aa672038ae3ab1ce2111d5832e06ed6027f0"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1086,
+    "source_sha256": "fb372ab70ab9637d4c91b940dc8efa5c578ef2472b4044fae8a6b1defc71c9ce"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1089,
+    "source_sha256": "6fd427f876a331ed2704b3bf2aca03f135dd3fd8df4c34c9b0f6b53cd8df97ba"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1092,
+    "source_sha256": "c53b16b1da33bcfc9c6594de5692f06d7699ef3017b7dc1fe60de6837ab65048"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1095,
+    "source_sha256": "1baa501056a065430f5167db54e32c6d1b1e8a5f482bcdc785ce80a55b8dcadd"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1098,
+    "source_sha256": "c15291e02d5f88404f04329a57d147982d61ef8530a33584db3fefc2df75ea4a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1101,
+    "source_sha256": "7913c7218da56834713991c59dbb51d35acad73278fbe365a077b04dfe1c70d2"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1104,
+    "source_sha256": "bc0e83e47df1452e2fd53ebfe173fab8c72538c2efc479eeefd69ab59065a4d4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1107,
+    "source_sha256": "c2782a2611bd50053909e5d810e08035e6adc02118d379608330a2ef5240d2a1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1110,
+    "source_sha256": "9d0f845b7a52cf3866657a15db90670753e637efcba512575fd56fd5e4fed8ed"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1113,
+    "source_sha256": "18b6e3fb2496241c45324aed535980e47c651169de43452bb6a88e971c982f2e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1116,
+    "source_sha256": "38fe6e57e6fd6c541a15c97bfa4d933c8ddeb94efdcc29ec608d9dae44cda263"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1119,
+    "source_sha256": "64a17e3ad67fe3395767ac673e426f03e4f15b0af8dc02f5bf54a3f4eed8169c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1122,
+    "source_sha256": "7a610e70914e81b91ddc7b60febed9c1d260b31d44a8c311d143f998d0087dc7"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1842,
+    "source_sha256": "1252b145cb326e835c15a8ede425fdbf8dfe7ebd24e88252af2645a0bd81ced6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1845,
+    "source_sha256": "606fb65043eda2742ebd0d2bd01b77494bd58df5c058f0e261099b9515ae561a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1848,
+    "source_sha256": "0df02dd6e7eb7f1eb9375386c80199032e0c3bd7b702533690aa1ed465c29bcb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1851,
+    "source_sha256": "716b63ce10e7f62804cc1b817fb0f8475d363fefa526caa9485db02c97b9a5eb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1854,
+    "source_sha256": "178d708080b4829cd2a3017409f66adc873c3dc036297228a669ded73f5b0bef"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1857,
+    "source_sha256": "94df1636641128fc562fe8166c4fb124b41cb1846898e1116a69bd298d9d1e69"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1860,
+    "source_sha256": "9aa666eb8abfb0f35de4dc796647b0ce2e99f7e8f8c480784047ecc639ea05b3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1863,
+    "source_sha256": "b92ccde3d4b285986907b983552ccf958704dbeb279458fc6fd16ab0e1d196e1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1866,
+    "source_sha256": "357e0c950cf4f665f45d53d11e6fb2d8311bba19e65777f32f31aa22b212d84b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1869,
+    "source_sha256": "82f78ba4ea8c7df0deb1aa07226e8f3c5fffb4d3f6eab698fdf979b2ee6a6c57"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1872,
+    "source_sha256": "ef6a37d6c2435b7214e64108f312e08e5e3c97e48f888d20eae617b1af207e90"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1875,
+    "source_sha256": "86254770f1f1f10776958333f4626a530e3d6a2ceb0f8b32163d26cea49619fa"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1878,
+    "source_sha256": "419cc1bd17423a91e64220ef172c6269ecfa8dc3185f670ec03cd9677c335565"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1881,
+    "source_sha256": "5a02d492b152d36621c4f029661b5d4d6943c0d8f07e10fb25eff0701aed7a1e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1884,
+    "source_sha256": "ebec625b0b4ef1517054b03140a90a996efaa528afdeceefda4087dbfb218b8b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1887,
+    "source_sha256": "7d02c5273c199eb10b52a5b2f92b5f19e59bab2f0b7c682680ec9c49d1f2bd38"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1890,
+    "source_sha256": "5028fb089a73698254bc60c19669acca73f0b9a121c0f8ace5757101c0a635cf"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1893,
+    "source_sha256": "9d013c00568e593bc5b010f7c7a1d17ea6e2cc25176a2d48a4a3371987b2aa26"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1896,
+    "source_sha256": "e01257b68fccd172e8425dccd7a9e05c68410aa0f15bb7bd18d485ddae8a0f10"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1899,
+    "source_sha256": "a22fbb44c8d4e455dde7e6bf28d53a57e79b0feeae3875f02e66606c8ee1a1e6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1902,
+    "source_sha256": "d8b161848ed1d845283f1799a5eb0f81219eaad46f7c546326a85f1a954b015c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1905,
+    "source_sha256": "7b62578562cf17834cde0d54215f5e259edda698e02c997de5bc46caacf6c629"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1908,
+    "source_sha256": "77d48480a1753c2125d8fdd44e93d7c9bb5b63c8c7a2da57518821ae5fed4124"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 1911,
+    "source_sha256": "e3f829a544c61d59581fcb349891e80dbc11a52b25bd292e4d0c179604414b85"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2018,
+    "source_sha256": "317fa6c46eb19bdedafd3ad8ae580d3b3ca496bd0e62057218aca06ec2e22e0c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2021,
+    "source_sha256": "cf844aeea9052b74db2b87e40c4abbc3264f90306176cba6a6d192c7573e60ff"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2024,
+    "source_sha256": "19ead4ff924e04f865c1947274ddcf6039b0a4f81ffe29d5f5050d09cfd7311a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2027,
+    "source_sha256": "69a737b069066353d94542c9b821574fbdf91cfcb7ca67fd023353f140152487"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2030,
+    "source_sha256": "886cef85bd573ae4dab23267fcd8e4a5a9c3004ba6e414e5c9458e61e1d8790a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2033,
+    "source_sha256": "4fa67f32799b09425ea72b8daff94d85cd7a3b5429efa3e1b1da8fe1e6df5dbf"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2036,
+    "source_sha256": "5d3e8c0cd8c40847933a6093fc53a8c6b9365ff4ad9f1201819afe89da4023f1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2039,
+    "source_sha256": "e12a067b4ed96205a8e5fc83a4df95c52eca47d498a858d5c5ff30740b1e1a65"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2042,
+    "source_sha256": "3072e5988d8de63520fac9294bb948c647165a410916921f4f9e97acfb2a3a2b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2045,
+    "source_sha256": "c43136b341a8a30e2caf635823c954524c72519c3e6f0c3ba45559ca01e7b021"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2048,
+    "source_sha256": "bdaa3a63a21cbecec377627cabbdb6856f9ce06f4d585e96454285c3f166d548"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2051,
+    "source_sha256": "0b6f7a8b57efd1f92397f3d6a5e1774d249ce927e879905e10b332671a6f3a87"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2054,
+    "source_sha256": "8bb711a17c11dd82145325d33f8363a171bb0e9058b0fafffee739e5cce3512d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2057,
+    "source_sha256": "1adaac8cc47971534b592be37ceb09be528c8c2292a0d9d5d5658afcbc380f1e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2060,
+    "source_sha256": "8cc56e4aac8943fb369a104ff36cd245038198bc5f4cd65eaab653e839715215"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2063,
+    "source_sha256": "fafa600c2d5528111dc598b65a50396686c53d6d69e9c3badd2d286ef110ad43"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2066,
+    "source_sha256": "00a6e9fd66dd43317081ecebd158a075e433173dc7f96c0bf0c667b89a37d686"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2069,
+    "source_sha256": "8f1aa6ab849200fe1d0f992f9b98b8703bb3ab295e951c7a8bee007cd392ef0c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2072,
+    "source_sha256": "e58a92ba16a5fc919e0becb51574573f3b4728b77a1ce189f079f8c0c28ba170"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2075,
+    "source_sha256": "6844dd66fcb70edf708c056bdedeeee2b8b18ad88678dbf6a6ea77f863fccb2c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2078,
+    "source_sha256": "ca598cf185949c03948fd0f8729242e130c2df3ecb4f13aafd952239dfe21820"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2081,
+    "source_sha256": "7e159211fd7437a6a6d9fe95ff10c3f73b333be017a9fbc37d3f52adcb15db92"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2434,
+    "source_sha256": "328b75bf9141a7820e3feeb388b023d6e9e4651165a2c364f1e84b364cc8ae30"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2437,
+    "source_sha256": "e59a94f27c9991baa7121f917352f27e2889c447096adb8e3ba96ddff56b6ea0"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2440,
+    "source_sha256": "ea9241a08d1dc68455379286b9f61634b7d5ac670e7afcba610bc3c3e8a27162"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2443,
+    "source_sha256": "91c296cb5a04d0fc708cd1c2058e656a09c2f76233c508b3cbafe1682c722441"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2446,
+    "source_sha256": "2acd927730a6c5d9d7ada636e189b4fa70e4fafac5253b81b535272d6fba3c2b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2449,
+    "source_sha256": "770aadb589a447e1e0847ded9cb6742929bf3ebdddc4fdcd32d28cbff14d17b0"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2452,
+    "source_sha256": "34db717927570ce43915e4e926a70b1394e5e85ce40082c1267fc66496ae6da3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2455,
+    "source_sha256": "bf206048d31d6134c1395ee9a500ee1835122636c968d949d07df0503d13076c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2458,
+    "source_sha256": "8e7719e6026087f36868c2d088bd24b8950626a99fb096fc122f78350fdd5722"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2461,
+    "source_sha256": "46993e4f6f90628fe35ea9be59addebf0cad4da802e82695a75e359ce3840110"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2464,
+    "source_sha256": "16d431cf96dcb72dbac29853225509e63ac4e642bc2a5cfa8486b844e573da83"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2467,
+    "source_sha256": "902434627aee75d95e3b946cce5d77406d9a6dae91bff1236390725e54adc76d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2470,
+    "source_sha256": "8b39573b97963649476a4abf30dee10ddb821323d9bdf54b6f8871e7dcf1b495"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2473,
+    "source_sha256": "8381e77602b1c65e90850da7d96048bce1ea7f7eeba60c25c6d3ffc65aaff1b6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2476,
+    "source_sha256": "e71ac546ad8ff751980a0d93acac09fd56dedac7bc1c0adb3b8ba0792462cfb6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2479,
+    "source_sha256": "44cb634f806714212083a827cb645bdc31e34b9b5988b12647abed201b6ce23c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2482,
+    "source_sha256": "ae2eb0ce6d935ea2eaeff304e8a3c6ce20fef25b4a9038971b9c935792f6d3d4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2485,
+    "source_sha256": "427fdab206dba97d154068edeb65e394b306e9285bc891cda8ff492ddfc42cf6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2488,
+    "source_sha256": "f6047b32e2ff38dc42f80840cafadedee5dac4fc82371399b3a79c066213da8a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2491,
+    "source_sha256": "06737e83a31c2877d97b846c5d0a440ee82df5bb5de48b8bf5d2c8e0af87a5e8"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2494,
+    "source_sha256": "448b21a7171d362157bb991afa6d086a321176afb0803ccd9cdcd5b2b514fffe"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2497,
+    "source_sha256": "fb5bcef949aa25db884c58abfc3c6ab8111144a4810262829f3c13429333d3f4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2500,
+    "source_sha256": "e406baad72b123a29e17504c3f092d0f13a9adb7f24f4fec9ffb2fa41946ab6e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2503,
+    "source_sha256": "6713c37739023ee8f4c88983b6ec3db86c4ed0cf4265bcd38eb154dc15f6df5b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2506,
+    "source_sha256": "b30be7c2aa31aa3ef7c5679b72b2534e4c5bc1831190cedc13604757debbd005"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2509,
+    "source_sha256": "8f1c8b7544a9eb2a218a23166b54ad475f7e9128dcaacbffa79fdc9635e8ce6e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2538,
+    "source_sha256": "0b26d6c87ba2884cab093b7e958a866feff41b44ce4774d3b28811368acc4692"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2541,
+    "source_sha256": "b134add33c94fa73be4522e245279f503be7aeea6f572c3eb9003b4578f32801"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2544,
+    "source_sha256": "b5a42cf7d0c9a032b354882148859b18f19760ca2379be752f6ed2c4da9d663c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2547,
+    "source_sha256": "84417d88eaf84280d73962c9e85db3eb3f75ef98aa1837c56fd904f80b024183"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2550,
+    "source_sha256": "d1444d13b84f616352156d4bdcbb9dde774e0ae4789571f47a427960defd3676"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2553,
+    "source_sha256": "5759b3e9268fd689869a22e122926c94f48a0bd8971c5965209a6793a2b1d107"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2556,
+    "source_sha256": "6a02712f44f999d5e852d2270dbd3aefb3812f466f0165eda6b1ed6f0b9773de"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2559,
+    "source_sha256": "4ce2cd4d8a3171154db2c2fd2245ced12fd2c1a8753cfc44f6dde84453f548dd"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2562,
+    "source_sha256": "2d3bbb972c629c80fd3785b7921e481959f33fe956c61fd7e9d9956643ddfb62"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2565,
+    "source_sha256": "b8415f319077c0001f43eb2b7ac82e9c597640b10d1f2e5318baca801ac83e61"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2568,
+    "source_sha256": "9a4b0973150db8f705d3c48efca6fdae5116f445183c085903e3b64110446e4e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2571,
+    "source_sha256": "2e11dc8b4c65bbca05ad481eabc3a3cf541c8ae72263a41cc3ad1385972a39ef"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2574,
+    "source_sha256": "9fc5eb0d2d8b578ac44394a8bd883316c3f8e4399d539ba0864003e7ccb02ead"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2577,
+    "source_sha256": "3ddd1b36a2d18e1c307493d9768ca6ae967092fc1b164fc8620965c5a311634e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2580,
+    "source_sha256": "6b427eef006ec28c78490129fdc5695fbf98f8a3b4909c249e9f77ae5b3a42cb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2583,
+    "source_sha256": "70ee383b389bdc76a372575993729542a76e7b9111748ddbccefc28651d0f5d2"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2586,
+    "source_sha256": "da3be0c8ca71e34c31027932d3c17641d17658f13e59647c2ed3d8d84eb1bb72"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2589,
+    "source_sha256": "897d16ec1c87c6f1da6fa9e2982379894336d2350b6031475428f4167aa2e23b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2592,
+    "source_sha256": "2ca48b6ba49dab1d79cf6924cacbdc0a2b1b12e8aafa551f4c72bffb9817fd11"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2595,
+    "source_sha256": "246abe006cb35776295d1acc6f43c93f00220f1b3e94b669c2c1b36198df61e1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2598,
+    "source_sha256": "554efd4735a7a1a09f15c651ecbeb8eedf5a2216dea9fb609b5f83296e5039c7"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2601,
+    "source_sha256": "e2341df223f9b6e57574136ede9987d9c3567d630163c741ff50b32c9e0be287"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2604,
+    "source_sha256": "f6035fa3a964e115c31cf32bf5aeb1150f8dd3a56079aa4cdc58b2b4a44cd064"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2607,
+    "source_sha256": "44adb27aa43f4e075eb91d479c89bbea306bc949af0ba65ab78318544bd3bc35"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2694,
+    "source_sha256": "aed00103b7efce3ea0f5b5934730d9c8f7abed89e1a488eac4747c8e14e4ddab"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2697,
+    "source_sha256": "b455acdbb8b2a826b38dc165c1141ab05fac985e8cf479accbf3ff187c7209a4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2700,
+    "source_sha256": "131f418fe899e31cfaff9e1f5ce2435c2c6eaea9d7db9a0d852b8845658295e9"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2703,
+    "source_sha256": "9a65d2e7d584f4af5a03249f03d0540a0d00e9b8d3c5c438ef1f132bc6613fb9"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2706,
+    "source_sha256": "56988e4d635912fa10c44a047cefe8710c8cc2e7255fdb74a914b9c3f52bc7b9"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2709,
+    "source_sha256": "86bba880d96f646fe7e42e9d27ead38dc2b28be7e2280213f01f29e781363f3f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2712,
+    "source_sha256": "87a94f09c9cd1d0b25b77cee87e41afb84d0af597d0bb563e2d515d30f69e941"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2715,
+    "source_sha256": "80a87d1c8b01f23d575089a8cb48736d557c64761b603f578c493ac0a1e16ac3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2718,
+    "source_sha256": "c72fda8674c60a44fe36e17006b2f2bfcfbe259da24243cc0729785eb2ebc978"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2721,
+    "source_sha256": "1ceb7e4a7eceb0e482b65a41ad3bbb3b4843ae534a85f944ae02468a3f6f7c22"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2724,
+    "source_sha256": "118f16b1254a50336677fa2f4a7e7ab14e785577c7fc50f2e1232aa839e75166"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2727,
+    "source_sha256": "f3f0ca0a8e8031c4bb9511c14869e150eb2b4b25a90a042c7a821310aafb705d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2730,
+    "source_sha256": "577f2b58c5e80d668d84cc86d6cde028119c6d0b53cc52bf493494d5b01aadd6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2733,
+    "source_sha256": "187199c7826ff56bc10e89f43131884fa675bbcb4ef9b3923ba01c5b7dd1ce83"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2736,
+    "source_sha256": "a02655a721c52c030865272931ec0c06fb99e30441ca0f0dbbea55b8c861588b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2739,
+    "source_sha256": "bb8d9701fe060ba9b1ad335fb6c81099e52357a8ca322a14118372366dec41af"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2742,
+    "source_sha256": "75400fbb8b433fdff12940e9df7fc5d6184b80ad0c9fc554f7cb5590ec8b11e2"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2745,
+    "source_sha256": "a06a3b545b132395b1061b06530b52f45f3a28a46838a6cf1620ce3d0a2dbcb3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2748,
+    "source_sha256": "c17bb3d0c7eeb6999751f0a3230c169825877073ae6744b3f280e09934671adb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2751,
+    "source_sha256": "cdf988ff76b938d4d8795244fe7c924bb99bb6edb06996296842bc3ce198356e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2754,
+    "source_sha256": "e461c75f89a6d2aaef7555abb7cc6da3715f257c4a5dc52d0d5a5b1c21106560"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2757,
+    "source_sha256": "9c4522ceebfbd84fe2d1defcba29f9aa92a95412f0a8943fcf52443c7fdcb332"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2760,
+    "source_sha256": "0d89b6dafb037b15c1439e96dac18096b3ae38818582396dee4552e401a7696c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2763,
+    "source_sha256": "65af87b41bd981ba11ead1dcf69e8b35c28470e779192e80c3214bf416c241ca"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2790,
+    "source_sha256": "a35717ad77e9489606a88942401ba202fb13fc182c9f5c16ab6abb8d0536d45f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2793,
+    "source_sha256": "a2fca1cd69c817f77f2a47348f38c68b2317bc345348ae7e22f979b8ac68029f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2796,
+    "source_sha256": "7ec68cc27240addd2ac8eb26fe8b26258ca950d5a8eb90243f7b81fbda2a2ae8"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2799,
+    "source_sha256": "35b7f164b908978def9dfdd611784aa2958e7a90046319440d3d47bf8955f021"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2802,
+    "source_sha256": "d07d3fb6350c6fb9f190d1c6cc466fd65da4112a770536bb7e94e73e4ca39bd7"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2805,
+    "source_sha256": "c8852b8aaed925884dab04f099ad310f3fae0492e688f8d8151b93e9d0c5831b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2808,
+    "source_sha256": "f384f22929e1882ee9c3999563f827878f7bc67ec6de0de6a952c733c28e60c0"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2811,
+    "source_sha256": "13f7e85ed9fe8b8ff622d592e23a78ca6fd2a3db1bdc62464f3da83cf402c7a7"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2814,
+    "source_sha256": "74839328643f43f2e916502166c6709255156fa5f40c0f8d1088bde099afea80"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2817,
+    "source_sha256": "1d4d8852b55b76809bbdb5d6531059de4b02a92a66c6c0081674c8f38deb91d1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2820,
+    "source_sha256": "dead2249bff7d99294733ad1a3a0e3791d8c56a1cc37fe9d044acc6596e73fa6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2823,
+    "source_sha256": "b1ae6a3912889b1cf599d95fb8e1bb65b13cd5b4bed1e74dd658de816189b23a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2826,
+    "source_sha256": "9387dddc3474f0d718d7c42697bc89416be42070551f6e7a95a8cb2c3da0a12c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2829,
+    "source_sha256": "12c48b0b788043f23cfef238cda848a22c2a763b736152771201c05d8e9a9805"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2832,
+    "source_sha256": "bc04393f061b8e1de4bf96d363547de3fd0098bc829f2075a62b8c5eb676b632"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2835,
+    "source_sha256": "770540dbfeb7b7bc0ea37687e0584502c1cf6538052f9d16b12022da38e04ee5"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2838,
+    "source_sha256": "39f2907f90a9a2b7d206bea1e1a379c32db4368997e9dc61c6d6239d6f593a70"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2841,
+    "source_sha256": "c7e4403e6d90954e34674ea32fda3b50231398a7285a1938a3f623e8ec2b84f1"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2844,
+    "source_sha256": "815cc09fc7d811fba88b8361225a7976bf8adbb602b5905c4c7f6c81b53e118d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2847,
+    "source_sha256": "549d9a84fe53f4780c5e1b9628fc88c32355719fa30180f5b6a668d55b079bfa"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2850,
+    "source_sha256": "d34074a8d89afe278abe9e6ac7be8173be2fa088742e00816c273135799ca7a8"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2853,
+    "source_sha256": "8ae8dc8824937a5c51f8c22e3c2a4966a3286d0c1df6f8a02666443116f58f75"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2856,
+    "source_sha256": "fd5f059082cb93bd65af569626e576175a2cb15a16143c3ef054530b53aff6ac"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2859,
+    "source_sha256": "480fd26fe67f12d77ab76358ffeebf17a165e3fc9bb5376660593669259ab868"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2910,
+    "source_sha256": "8b002b445ae1defccd75e15ec220239f0d92808dd955c80793ef17ed19e16693"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2913,
+    "source_sha256": "103cb26c003d385a36eecb923b1a958671af10162192aafbbf42d1908f4d8a5d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2916,
+    "source_sha256": "746b58079d58143dffb64f668a7e2977ab3010bc0d41644fedb529c7f4ff1261"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2919,
+    "source_sha256": "462b48911e888b928dba26a33d6d877c620518137abd3602cf13eb795ebe407f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2922,
+    "source_sha256": "abc3594530a675f7282161cea95222c1c00966820b07469de441a518b3653f73"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2925,
+    "source_sha256": "e8aad197dd00ba564c92f0348b9f440c8f6acacaed288956a3eaa9de18ba51ea"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2928,
+    "source_sha256": "e93bd54519c3efcfbde0a77ccbd5eefd104aab19a9adf0752e2a9c222d336062"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2931,
+    "source_sha256": "7470fa5b08fca22ec8836433846e33163377cd9480ff44021e7b2397647e3570"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2934,
+    "source_sha256": "dccf227e2003b9957893833c31a76ceb44ee6130d5126eb82d401a4b76303617"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2937,
+    "source_sha256": "6008acaaa606d22403dcce93c6642e512bd99b28ce0b3eaaa9e3fd272a8790d4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2940,
+    "source_sha256": "d34ae4e2237cd5e6a384af2ae262e1ac09a4fe3542c774ada9263f4d6472e6e2"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2943,
+    "source_sha256": "1a9858109b81dd99a0b275a15f961efded187106811a323f89ab96004ffff70e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2946,
+    "source_sha256": "78696bf93b9eaeec3057727461e247056f88c6d509ed65c33a9dc8ec26fd020c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2949,
+    "source_sha256": "4b9df70af7a1395d58ca16fb02d7d69480f760a0c093a87b2475962fb4d1220a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2952,
+    "source_sha256": "8483a526120fc0584d29b40c9faa4fa6a73bd8859490bc38a17a820807167b73"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2955,
+    "source_sha256": "0beaf45d8a493ace7c2a4701a3082089448492ba2f3b6ed3773b168e436f06ce"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2958,
+    "source_sha256": "8da80a674c6bb6d60ce76cd159107461b9a35d692e66f77f2b97e1af3fa851f5"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2961,
+    "source_sha256": "5f04149f256934548d7561fac999525e6366b088cedc53046e945daa6a75c720"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2964,
+    "source_sha256": "1bc6a22dfa3b0592dcb95d21df6b976a5c19638bcbd0f1fa5d1da0240bcff8fa"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2967,
+    "source_sha256": "df577f50389b87a5bed15b5e6cbafa1aad1db3223df45484814ac1f81b5bcb72"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2970,
+    "source_sha256": "1f139d8fff43454846a03cfeed09329aca28b77270248e04154ad32f21461e8c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2973,
+    "source_sha256": "132754b9b26c260ff96e95ff828f3010fc1dd88093f8adb8b93afe5e79f974aa"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2976,
+    "source_sha256": "d748f8638f7630f0bf69d867a50897235804fd97127de03b4cc581d4314b5f9d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 2979,
+    "source_sha256": "59437b66b4431f73af3615f6667afe1773d80306d7f8040e59126bc0c53ea3f6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3574,
+    "source_sha256": "13c4898c9b61a18876e667e29897db154f3efb99d0478582b92c08f8f69f6d81"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3577,
+    "source_sha256": "df53d182c7e9aae4cbcea65b4251b7355e5be8b7faae9148aed3f80329a7dd5b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3580,
+    "source_sha256": "1fab4f36bdcb2c8c97f6abebaff749722c81aed07ac8c75ea34167139bd1c52f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3583,
+    "source_sha256": "b6a470ee8a42a2f431bb779325f2882c072bcd7f11e374d77dc18258fcb1ca8c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3586,
+    "source_sha256": "ac43a622dcb825b8d63aa9204e99bf0414bd52848f25084a3f173b0dfa6a2c4c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3589,
+    "source_sha256": "ecaaf07b734bbeb10648d91794a961cfdc7e411e2d19d91f73b6d4676eace683"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3592,
+    "source_sha256": "a4aeb8674c4e7c49898e4547b6a5a398668be491827253de2bebb5142b73de58"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3595,
+    "source_sha256": "2c16e632c508542f669a5be1c665e6ee85d9232d46069ca695d6a9ff8d3d0c0f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3598,
+    "source_sha256": "65916ac7e43106d6436df401dd4c10504cab17b9e4d2dbcdc7967b7f4e0ee181"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3601,
+    "source_sha256": "0eaa7b72740a0b8503c9a8726f17b0fb25f0639cf84a98c824aa102ce90b3fcd"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3604,
+    "source_sha256": "88056151dc870dbe62d05f0f570cf0f3868b9ba72128a26ca5b4e451b62c7502"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3607,
+    "source_sha256": "8839fd03c791d4df6dc12c7d63abad1dab20c2dd069186fb6176a0738465e3cf"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3610,
+    "source_sha256": "30be7197b3682bf19dbda67ff30b608c5399b32b4ffb2e84ad8a7a6f81c65a64"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3613,
+    "source_sha256": "549a4b89e2280f991b9e16b3bc6837b2a4ddfc032bdd7af8c9ed579401cefc94"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3616,
+    "source_sha256": "f74b16c0e9936c817a1df0ab54412f269b860cd1df8b552cd3433d2ea8662619"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3619,
+    "source_sha256": "06f19bc9275e875927fb365ba52c3b7de8503a6758541003a6a15befc6b7649d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3622,
+    "source_sha256": "e0892480f4a50d79f3578e089f66e81027addf4034806790cc4070aa0aff7f08"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3625,
+    "source_sha256": "1bd2c2be23bdab99211c74548714253ccfc614da32be7c2fe662d0140c7e04a8"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3628,
+    "source_sha256": "543640398b8bae16daff991cd0ec22e416aaf10f5a236627b7051e9b2ac12bb6"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3631,
+    "source_sha256": "f9003b3785cd9c35d6d0a23aa033f60cfd8740ca07a5da7e387ad1d79d076a00"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3634,
+    "source_sha256": "e9da490148de640d22614703c137c427606f435a2e78dacfd7d167b6c4a1662f"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3637,
+    "source_sha256": "a199349dcff58f0014f2dc6b6055ae2b826588bc8ba456a4d45c89bdfc42a8e0"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3640,
+    "source_sha256": "cdac77ec55429a1e53f03c930ef5d698efe21df1beecc10cee1d6060b689739a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3643,
+    "source_sha256": "f6656d46be9bac6809d3a4ffa4037238c1d03a95e097ae197f21e25d7fbde035"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3646,
+    "source_sha256": "43b439f733a25d64a8c01b2311ce42a09a8a3be715d9cbeab4d5712c0ecc2b02"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3649,
+    "source_sha256": "6db5fd694a53846471c42e28a0f754ac64c5005ca2fbdfdea4b5485b24424688"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3826,
+    "source_sha256": "e4c5d927623a7a3070634be83c71b7b43efbfc9c954d88c648de1f53c6c5714d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3829,
+    "source_sha256": "dbab3b68be02aae3f96da495468a75bdf88a1814c083a6c9d17e6cee8bc2ab31"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3832,
+    "source_sha256": "b5ad52cf0ef4fa34079125afe660df996a42114f8dc0437cdee400df6e4c0821"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3835,
+    "source_sha256": "388e65991e72b50ee3df3acda10f7ef001a59e7f3cfe66d9b9a30b60bd8180dd"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3838,
+    "source_sha256": "64c12329ef876745c7d64b3ab1784f458ad2e68822ae80bd4d6ab628ad0e6281"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3841,
+    "source_sha256": "a1c2d268c84b6b1f0704fd34532e7d98ec286ef257fb2e08704291aafaabab1e"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3844,
+    "source_sha256": "3dab0d62111a8b23ffee3c6f1dbb37aa85f73be5962f59bc23804a1f94184094"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3847,
+    "source_sha256": "347c5154b062000b2088e5def6e82459efa2f7ba29635e12d3f393945c0b5bcb"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3850,
+    "source_sha256": "cbe68e31a240b971eaf0fe011446c203a97b3a69bb8bc12d580f6b5d71425560"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3853,
+    "source_sha256": "53555401fedc750b52ed3c3c166dde4e015747bbe809f4c6953e9190d3abf775"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3856,
+    "source_sha256": "f2a046b7c098fb908d7f81a3473f6de391db34f8c996b830dd04b76867d8daf3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3859,
+    "source_sha256": "836736f21504a8389476f6ae39d0028153bc18d5c52ad0a508dc9621fe5c659a"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3862,
+    "source_sha256": "607320f5fe1c26358cd703f1455fd38c6efa804b21e2cbb56a9b1cad7a1dd43d"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3865,
+    "source_sha256": "0b98ede4cfa86721a37cb5596e996f2d2a86ef400a844efaca727c5b38741780"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3868,
+    "source_sha256": "37a46cc59c7acf028f17165824137deab47cbd973ed397f87315c0a61ecf73b4"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3871,
+    "source_sha256": "a4c5728f09dc0790f0f642c29af1f27593c6ae6e80891f2d5da53b2c5d7330f3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3874,
+    "source_sha256": "d737c665fadd0f33c862d7357992239a236fe14c042845ae098e28e3391bf4cf"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3877,
+    "source_sha256": "4d7c5d341f5817248ac11c74d52b7fa37fcc41a24712a84682385dfceef0c6bc"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3880,
+    "source_sha256": "89db452f46f17aec9159014efba11dffd2430dc36e4f815e46841b9aa0817db3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3883,
+    "source_sha256": "c3f77ca44120a006b2694e01a135cfa0d7c791eeca009239ae4d891450f4de2b"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3886,
+    "source_sha256": "5e756ad9621cd97fdb64ea5f1a358ae5fe94893cedec5207994e46a34d9cc192"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3889,
+    "source_sha256": "6b9bd620d6a59fe233de37bff965dfecd41965a1ce5548ed445617553193e74c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3892,
+    "source_sha256": "a472324368c16c71b7abe6b7573dc3f4957fa14cbf8f192350c417e92deccac3"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3895,
+    "source_sha256": "9d994110a1dcf08c9f0c85a86be0757fc287a24a286ef97e4c9457cef9fcef78"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3898,
+    "source_sha256": "38ff5e14c35f18cae6d275fccfcbc34ca6d5c389d54e63a6e6e690895908e95c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3901,
+    "source_sha256": "04bff1de17ea2371f7697ad1c3c00e9818ab7e92293e08eafb9ad39e0f860ac8"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3904,
+    "source_sha256": "c9311b471da2fd250b9db831099b89bb8a4b00559a4286efc990415393e4b219"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3907,
+    "source_sha256": "91f2bcd8a8d28dc21669b22387cad9a2be1c41d675024b307ec9d8d77aa51f6c"
+  },
+  {
+    "clip": "nj-0900",
+    "frame": 3910,
+    "source_sha256": "84cc4c367ac24fa97c5ff225cde15026ace7ab91a44487986a24811c7c0e904f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 0,
+    "source_sha256": "625b79a72499e43838930f2eba786130f4c64237c3c12ce4ee739614c868f6d0"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 3,
+    "source_sha256": "b139f7f81d8e70a202413f05436e664f70f34d412bc26ff19c4550b7cc3dbae1"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 6,
+    "source_sha256": "c416882b95994029cb269959d0eabfcc375b1e814112727265ef70473b189672"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 9,
+    "source_sha256": "a0423ade4b4336b0b923a386dde902f7a678df8e7b30d6fcddaf27a2b7ad435f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 12,
+    "source_sha256": "1247e9ac850e3d5fa5dfd92e0286506d42ecb18bc94262f1e797d9cee33bf871"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 15,
+    "source_sha256": "19c98ee666f532b96751e7bccc59cfdd06908eb3429dbf4cb489466796079884"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 18,
+    "source_sha256": "d8a3ce57b5209c470da0c45b24f5ee08f0a1d516e2c7214fb339ecf0a9e5b5d8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 21,
+    "source_sha256": "bb9c41d271ec632a50e4d1c53bd77d0dd2f17cd6c8267ae7977903d79e8be334"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 24,
+    "source_sha256": "55dde9eee30fb08abb52a19e4c009d40eb474c84a1266184a1f54943ee19add7"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 27,
+    "source_sha256": "9afaaefc5ab518bbf82aeb47427cc2a76d0634b0e20f8eb9a2d256195dcf80ab"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 30,
+    "source_sha256": "0bf6235762b904597765e5ef3c0a0576b9ac3036c1f25f115e3fba91c980c73e"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 33,
+    "source_sha256": "a94d6e3bff738298dcf49cc284a90a84612912e3b7e56f06920d70b159a1d1cf"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 36,
+    "source_sha256": "496fac226e2591bbbe4809a41b1bfcf09e55445a9b749931324bddf2e61a900c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 39,
+    "source_sha256": "9967be122b6072bf03e6c8d8743d5063f0fa4bd1662fb9d5ba93a0c305861746"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 42,
+    "source_sha256": "10899b378d84eb22a4fa110e464aac4118861b9ba7e3aac385b775d4c4060c05"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 45,
+    "source_sha256": "585dee3556751f1964b18b6b9ab83a4037a68207058bd7279f78474e5f896059"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 48,
+    "source_sha256": "509cc2ef6b7ed1dd4caa7bda2e03976dd51009b112003a8daa531c7e67bbf971"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 51,
+    "source_sha256": "32b55daf4f9930a53f8b902fec6fcaba44bcc9393790937244f0b39151e313f8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 96,
+    "source_sha256": "e82b09e9ad2a5fb1247f30264e2c18135ac0038ca3966d93951acfcc897d2eb9"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 99,
+    "source_sha256": "8a43c002fc7cbf6cb20ecfaa57e1562198b9c1a5a442b3f2fe37c5872c00699b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 102,
+    "source_sha256": "c21919819c6e6a8f02c2360446ad62ab369964c2dd92e2c21c9b4978b81f21db"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 105,
+    "source_sha256": "5002f8370a993b582d3c1311d09c8a2dc3d469e2dd08cf3b2baf53946ea7835c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 108,
+    "source_sha256": "1f2bf23f2392dc10901453ca3c809db9d57c8c22a81d03367932ef220728ae59"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 111,
+    "source_sha256": "fb0c31e8200948a80a1e4fd1d199ac8e4167bf9218c689fd21597bbd1aaed1f8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 114,
+    "source_sha256": "190c008dcc73ab1e0b6b389b20dc3c45ee3187f6be8e6f14d2233292301fe134"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 117,
+    "source_sha256": "07e1b5b18c611deb87377bc31d9a1300a4b8cd303f1d4007955904e61f74f00d"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 120,
+    "source_sha256": "ef3d95db523df4a17806a45758d5746db36f7f0845a3a41009f28a60d67abaae"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 123,
+    "source_sha256": "61e16d94b84b4002d21036ca8852724a7ee09b867dfea53be3928cee560c5d26"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 126,
+    "source_sha256": "e6782cc842d8e34c0d729428d8db5dc1956031ba92945585d4d1fcf601322b5d"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 129,
+    "source_sha256": "2daa03e08c6c24783b39d53ece298ea86a1fa192109457053891b2708dc261cc"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 132,
+    "source_sha256": "27bfa0b074ecb177890f5073eba705ee07e3a27d42c9fb9450b3f4c4b127963b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 135,
+    "source_sha256": "c19ed352cb95a61ee3fabeb14aeaa721eadef95459a8eb241ce3dbf101ae88c8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 138,
+    "source_sha256": "2a5e170701cf040e2c41071985bd9bfc22e734fc1ac456593ce475c3d3ad4d77"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 141,
+    "source_sha256": "45ae1082b0d37a8109d5bd3aa581c82b64d030b7daaeda0c18bfb2dc0b168aa6"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 144,
+    "source_sha256": "63453fd1d2cd9a24e2e6a51067e40f1381427bee000541b5b3a9f4a5ab6bc7b8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 147,
+    "source_sha256": "2276ebaa32d82d261b3c5a4600e0145b3cda620cb739da12252972f01e1605aa"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 150,
+    "source_sha256": "349b829cb597ac1b8b15e49e0263c558a26db425365e97b3b3cc7bb8373d3e57"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 153,
+    "source_sha256": "696573fcac18df6a8c7a2131708cef5341c37579d87692194341d9baa64fa6f3"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 156,
+    "source_sha256": "66520ae3ae2401b27624baab1dec162b831d6bf1754a9fb25e1b09ac8f898a2d"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 159,
+    "source_sha256": "cd41b9169f0087333c14c4fc67d27218c2c6f026c0b9c3ff790ff0b9b8433f5f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 310,
+    "source_sha256": "19944cc5c037dd744115c93577065acaf5f4138fe892b6422827a49f9ee43dc5"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 313,
+    "source_sha256": "455b5806a975c525092f2204a660b688a7d67b3829c8d2989a8b1d00c3f6052c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 316,
+    "source_sha256": "811b39b0b4e27496cae6b6ecb597ee5d7f9d61398f6a5d888d935dc3e085d1b8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 319,
+    "source_sha256": "b65dbaee33bcaaff7083f23ed29bba1aa74fe0cd27d411dd93b1e29fa2cab4b9"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 322,
+    "source_sha256": "2b03e9dad8248d593288340b5ac2c0a53514b147aa754bc9a46ff7b1957cb5b2"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 325,
+    "source_sha256": "e0ac1dc91cc59e33fcaaf0e62e6c5c9d1dcdfd08683b7eb52dcbf565e83314bd"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 328,
+    "source_sha256": "844934ca97d37a20f80ab799bcad2b941f826a57c876145f6de46ddb32fdc832"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 331,
+    "source_sha256": "252f02225206b577b106212ca897931a419e008c8881de903f0355f9d84f403b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 334,
+    "source_sha256": "64c14aad4d90a4ca08a5986c8029ab9b405e08c2d1b098c6f9e21910e1cc0459"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 337,
+    "source_sha256": "34a38f2d767d53a9f8b4dd9dd83140a377e16aa9955a7db55c632c60204b14f2"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 340,
+    "source_sha256": "aab22bd5a71c390c6c86dbe49003eb6e9edef4793765d4d33071b290224c4b93"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 343,
+    "source_sha256": "3bb0c15a7c72f7958ca7a67949e934ca9b22c6d749ab45f5f77e59b2c7629eca"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 346,
+    "source_sha256": "7812e6ceaf758ab7092e18dccbdec226b90327020a16268ff0a64ad3b51bfb78"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 349,
+    "source_sha256": "d607f4c2b58c66ffdb9d14f8dfc9a0d88d20a01c56b10e73d46fa9178edde182"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 352,
+    "source_sha256": "5b915aaf82c1ca1b49c5e1424b4cfd1570e0e96d47739380da63a293926fb14f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 355,
+    "source_sha256": "0e776d288a1b1727fc68c778aa918d4133b010bc106bb185ba2eb552035a9d95"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 358,
+    "source_sha256": "c0ba5266fdbdcf38215406deebbeae660417c97343e9d1d0d01da20a03cee176"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 361,
+    "source_sha256": "6c5f567ee3caaf67fd2621ff67c7c5e0f52cfbc2ce6d2f214ff50e4a5d00486b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 364,
+    "source_sha256": "2a5a7544764b0db5e9b36a44d2e07a4b8183cd65afd18d1c6cdd3be4dfd695f1"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 367,
+    "source_sha256": "44dd6d3a673a3073778807edcc2d494907a0cdecb14b5a92be74a2cacb7a60e3"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 370,
+    "source_sha256": "4597f0db11ea9957588009f157414c76fef52431377de72ad19063269424eda1"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 373,
+    "source_sha256": "91c374947f8660202d1b48d9fab919da6d321004c24eeee7dcdc35444b9fde5f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 376,
+    "source_sha256": "1bdabdcc9b5d8ccc03df5e84d9658f6273ced7d0e3af5c4aee0aefc1fafd299c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 379,
+    "source_sha256": "9bdf151adc95e4850cf25ab7b25688f39606a37de9d7a4ac5ed36940810e9e30"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 382,
+    "source_sha256": "1a1d67be19c72dc96e2cad6eec879fc4e9cc67d999fc0849da1cb2dfdc373d43"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 385,
+    "source_sha256": "570ea58eac15410b08b41da00615b26ce8981528aafb900cf00173193992e23f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 454,
+    "source_sha256": "afbd3108794eb19c981147994fba7e752f2e23e3e41cc733ab238fd564c789fa"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 457,
+    "source_sha256": "6a764c9375f97bac86527dabff27facba05039e19f9d959cfea24c8b168e55b6"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 460,
+    "source_sha256": "493559caea3384ac92f469f99745b87a0b3c3a56b5928b1f9f4f31e27b117415"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 463,
+    "source_sha256": "832e109c465a00b87ed048151217b5af73d738628fa7dcda75b4434685fa1b07"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 466,
+    "source_sha256": "a8c4a17568f1669a1f7b24da3760fff1de98a7ff67b62525ed99c1f8e8b5fe1b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 469,
+    "source_sha256": "d61e7e0ebdbbcdd99aa04ae78eecd00a63276f802b14f289338150f952f6d8d3"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 472,
+    "source_sha256": "7100032a88b537e86f9c2c188b56d2a238156e2a07bfc5553651c98910f639a6"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 475,
+    "source_sha256": "602d61e901cd9f8f7c126322fc4602089288d768221c0d88421c966b4c7c5f9f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 478,
+    "source_sha256": "973932023e0d054ec088a573bdddd7966797d5309c0d85fa6e0de8c8fcf94366"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 481,
+    "source_sha256": "1f15f63f2fc0a2f1d49034fef65ab04941172f3ccb0568f8e8bd41af587be99e"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 484,
+    "source_sha256": "f1f4c3a715753b093b64e55e981bf613be587a574cb3575f106b7c76d252ee4e"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 487,
+    "source_sha256": "a100252cbcd849d9f6e6cd01dbc31a71a990bbb887f04e54a65c18c401477bb4"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 490,
+    "source_sha256": "26e8be3aa26df89bf7fdd137ff9cfadf8679ec8bbcc53c7e119c47890d12bea2"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 493,
+    "source_sha256": "b13ef7ea82ee8f34ee463832ebb64630087f814c4ee3a28bfc3ebf35524df80d"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 496,
+    "source_sha256": "3cb0758e134dfae776dec28edf5136412f439f2997c7336167f7b64c704038b1"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 499,
+    "source_sha256": "df933114fc3876ea83cbd79d35408f86719fb366f87e18366dc94be109a9f452"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 502,
+    "source_sha256": "24f69e6067707d893cfcf9c8087808a8cc27c3ddfb5182ae690edb8b0dc07778"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 505,
+    "source_sha256": "c6c751c323ccfda4639a723070b78e094ec0a5a18194a2bbe4863cee25aa5944"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 508,
+    "source_sha256": "676f95f3a74e56acc662d70989782ac1d4982d1231bfd5f089c925c0508570a6"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 511,
+    "source_sha256": "8795b6f2952bf2a15fd7694c64316280b66a5080d15e0190344099b023fb866f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 514,
+    "source_sha256": "24816e8040ef1c3c496bd9a01bde3c6cce291422b803ca7d33b3a653ae309605"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 517,
+    "source_sha256": "4a7efbd7f4723aa9d327e02f70fdac66de4462096a07a8abe69aa6fbef825810"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 520,
+    "source_sha256": "13343f8ce8040f8066e4b648661e5030f267900cb566885ca16af4f2348d0dfc"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 523,
+    "source_sha256": "133ec5debe4660868501c1665c5546efa8032e64cd993b29501ffb260bb5a8c7"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 526,
+    "source_sha256": "5e3bcd49e2bdda569410e1d2aa11643191f94d8e09b2d351f59b8a8182c3a7d5"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 529,
+    "source_sha256": "84f72535d1de5971284d555ff71e2f79fd3764d0e7950a11d01d67be3f435cbd"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 532,
+    "source_sha256": "412346523d0d94582e61351501a610110a8daa7ef337fdfc403066b83b04efdd"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 535,
+    "source_sha256": "5f88c4ec3f9f6856bfac66c445ccfaff37aa31aa3daf1dab81156b830510a969"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 538,
+    "source_sha256": "994a1a77cb731dde409cb571caa0e64e4b055a66861e953da852b753ff14b3de"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 541,
+    "source_sha256": "5170d4b1e250752d668e42d10096f7f9d03f8e206fc8a2a639058231324876bb"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 544,
+    "source_sha256": "f650b00d0adaca336dc2853bc3e9bacafc515ce72df6dffff5844ef56f5765ad"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 547,
+    "source_sha256": "15521dd0a0862a0bbbc7bb5fe7a882f19781206ace41f9af0014727b366e7577"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 550,
+    "source_sha256": "abfa5a6b92d87da13113cbb475f5767c4cee8c51b5f94d96a8f28ff1c2a59e53"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 553,
+    "source_sha256": "9c41690af796c59c0a210a7c2ec7d80cd95a668e79f6fcfbf94c39b28c1e7bac"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 556,
+    "source_sha256": "c503ca677558c9b3b223e5b6a057f514931106258aadeb721d8026d65ec7040c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 559,
+    "source_sha256": "29e18a8fe15a6fd782f17e1a3101883caa878ff52188762f3ed4abb69bf9918b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 562,
+    "source_sha256": "9b4c53c5f66c97f9b5a51f61e77562c4df37574059246692f0602c68d6aa4bdf"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 565,
+    "source_sha256": "80b14364b7d8d4798cb3388e8b68a85b4de786d55b7396f3f0553e62418d0f97"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 568,
+    "source_sha256": "f700e3317d5681e82e0c52977310512341e189e3a2604bd8fa3c416825f3773a"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 571,
+    "source_sha256": "38f22851ab5c7be21ad2a1d996265826cd9e323fea848a7245821fb677f8dc5c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 574,
+    "source_sha256": "c6727744d05018fe791d20ee5a567a49959d6c39e63412d89fdc35adc1bb8fe1"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 577,
+    "source_sha256": "b52f6e2e874da89e491d71acf53bf2298c8bcfc0e9e2683e5bd2b7a697356f07"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1134,
+    "source_sha256": "65b0befb0728db981b763c24effdbf330d5b313f2c1a0b3dd5787494dd514824"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1137,
+    "source_sha256": "dc47055bd10439fdf91738137b52b25e0a0d0d2db8c4f6d6b413ed295106df9e"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1140,
+    "source_sha256": "b1ae4224af2034f05ef979fe987abe67913707339e0da4fb0e55b4d088cdaadb"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1143,
+    "source_sha256": "6a325099ad0e021b5a550b3d9b6fceb603077636483707639582c7fe367fb54f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1146,
+    "source_sha256": "395a7d216408e776b55bf8bb3106371230823f89cb0ad7b386f2a5939830337f"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1149,
+    "source_sha256": "1aef055265780448c34a445bd4eac5fee2aa2d4c0cf92fd07be28cae489b325a"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1152,
+    "source_sha256": "ddcbcab92b6f2e44e287aadc373bfb5130e1dc81487a152915803cdd3d2a4339"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1155,
+    "source_sha256": "c8cb3bca26eba0005e3f6811bd7ea6056673dd412680210b06d4fbbc476bab70"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1158,
+    "source_sha256": "d352c060130a2d6f3dc397ff8b963e3f79c8acab92af67f8daa10869378cd1a4"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1161,
+    "source_sha256": "a4bc9cce9b6d13897214109e235f80fcd11612b1ade2ef6d90bba9b61a346ddd"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1164,
+    "source_sha256": "b5a82a3b31dec789261ad86b82987fbb6dc6066c9be1f0b0b1c50c2a200d5dc8"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1167,
+    "source_sha256": "5dbad5585001c7d4ca86bc308bffd1e2484c8798f660b476debdf42e60490a52"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1170,
+    "source_sha256": "6fb35e80a41e26f8869ee17508edeb4715160acac043668c87eb3ef9e5d2c6b0"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1173,
+    "source_sha256": "e95d2fbc4b0cc447d603da200c80c41f63848545aa27a61ddd9d0869df4143f6"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1176,
+    "source_sha256": "391a448b831ce072cdf813ba6e877e0bf8e0faee36002bbb643f42c1aafc7ad4"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1179,
+    "source_sha256": "6b5baa62212586dd6ef1ed8500a9d1da9fc60bba822d0b1cd474bba05c234afd"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1182,
+    "source_sha256": "f581e5458e11eeb3c6f68e1d6821b721efec0ad402ea05db63d34a6d2274b089"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1185,
+    "source_sha256": "ff493ef3f1f6503ef5e7148cc9bc4ce7598d1e3797a575c74975db08980283bb"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1188,
+    "source_sha256": "45542b517de012cde82ef9c0426c38a090a4eb35040af33f86eae15146eaf613"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1191,
+    "source_sha256": "fd308049fe861275c8c7b1119453130e850237815c60f79697151b37967f8023"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1194,
+    "source_sha256": "c255d050be44b3e49ebf1b995d211e453ae748f211de8de18dfac0ad34600743"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1197,
+    "source_sha256": "1220cff1794a9a32bce94f52ef769908368aa67178ae85afe0c0c12ae043eced"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1200,
+    "source_sha256": "54d402abc10488223af338e6eebc05561c165c3b5bdbb4c5ec7171a113ff2994"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1203,
+    "source_sha256": "8642c046f0fd89eb76f9d854d0f21099064ab135ca7821a4ac7ddc23bd558679"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1306,
+    "source_sha256": "fe8d304c6970d1d3ba021faefe714e483e3d421213a14b78eba79183da0e004e"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1309,
+    "source_sha256": "1c633959e3d7a5c56e552c22de8f456ee19c2376feb9974793c1abdec4f44179"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1312,
+    "source_sha256": "9ca7fdef378bf0aec19ffd5d080f4953282f783c5315f697d930c79ac0ac693d"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1315,
+    "source_sha256": "aa6c18a8f8dd17c78c052dc6d301c2a935b10a8cf8862cd3686e6ea946858b73"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1318,
+    "source_sha256": "c3a52a28dbd59e982f5828765d3900911303c0108111d86e9d5b22a830314ed6"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1321,
+    "source_sha256": "81bf3ea3b87a220108754d3cb2625f863c9b912d75bddb111bf50cbe0e9a355d"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1324,
+    "source_sha256": "49466067b63a58f8db6ff670022da21469ffc30821b6868fa3c4c745e11d0f23"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1327,
+    "source_sha256": "21c18beecd5578c3528fba1f41a19643b305912b65099453b2fdc91c62758f8b"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1330,
+    "source_sha256": "31d48bbcf9a9ad9317bf8cde763fc528d8f1e2a3b85fca59776b1e7586608e0e"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1333,
+    "source_sha256": "3adb9ea5ad990f16581bb0b7893c728c6456938bb72fe8859a63bfd00d30559c"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1336,
+    "source_sha256": "887f268298341e7af82bd4c88d244eb0edb228e0e06c128724fa338f286c6ee2"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1339,
+    "source_sha256": "d750a16c5bd15d10e061f5939c5bf1cc28b9a94e3eb089d435c68d6cba461cb9"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1342,
+    "source_sha256": "05b65c135cd83b82caae0fbcf43d5314baf00543f7e1adac6ed3583fdb136cb4"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1345,
+    "source_sha256": "dbe5560d3dbde42158a40a5c67c778f6cf2d94e0c53e165a3e84b750e4d1a690"
+  },
+  {
+    "clip": "pittsburgh-finals-0600",
+    "frame": 1348,
+    "source_sha256": "9d7b75c3a87fba3383f25898742d4166960ccdddc35c768a2af32c5e99a6f371"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 256,
+    "source_sha256": "bbdff0e0d381b39c3f0d42ea84f44134b59aa5ef4a873e8791e4e1d14fe3fa82"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 259,
+    "source_sha256": "b99085e6cd673f6e6673647a09825feb3255af10e464a226fd5436c857e19fd1"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 262,
+    "source_sha256": "04a3ca132fc5f17eac920be0d4ea98321102b25d78ae9d7a9083158ce02dccc5"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 265,
+    "source_sha256": "64e5541ba29cbc076340919886379e3dcf67a0108167a9533eab25e9b466f858"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 268,
+    "source_sha256": "0cb26c1bf92ec18f6c78a745042f90bd5890800a77e321ffab0d3229eaa32f41"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 271,
+    "source_sha256": "34477ca00d47eea90b9596209d42fca6df2430a3d21ba094350889103f407741"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 274,
+    "source_sha256": "b75ef7899637cf1cbefdb6de70b7ee4859704fa6640abd6c776feb452ec66837"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 277,
+    "source_sha256": "cb2857cc156b5d8643c48f3b6794602bd1f7252236ae0608861b728773551ab4"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 280,
+    "source_sha256": "e9aa491b67627c3f53dace98d5fb0a5ce486c07b91820af43adc15e363fc3b64"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 283,
+    "source_sha256": "0bd0b0d6f3fbedfe1b165afdb2bf9e4ea88cf4e546dd95b51cc1f8462f3f6c1d"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 286,
+    "source_sha256": "0fe5ce243c02b8ff86ad0a8b1ea1dfe885ca511ecf1d100851a9c2b64d137a76"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 289,
+    "source_sha256": "692d082d07dfbfb569218897865d19363dc7f2f94a8d2e491356c8b5af55c256"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 292,
+    "source_sha256": "d23f57e71b20977698c550293036d7061eaa01bbf2383bc1eb951453840458b2"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 295,
+    "source_sha256": "c2a5fd83339dd9685ac5af2684430dad028e39b5ebc45b4c56ceb0a00c2244a5"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 298,
+    "source_sha256": "bafc9670bbfe36579c971f4bbc0eff0ca68bf172aae3f370ebb00f63d16ae4a2"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 301,
+    "source_sha256": "3b301684468c773da9f681d2cec4caf91f9688b47c794723e90f1e96082965d6"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 304,
+    "source_sha256": "6e1d71707150624bde584aa9e2dd0e93e9a3b06790a2abe2565b66ca672debdf"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 307,
+    "source_sha256": "823072ec864f691119406119081bd7292141dd93c0704a4f45a3f002ebde260d"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 310,
+    "source_sha256": "6d07267b278f59a250b8ddcce0cc2abc99d5571f4e70f99c9c4063a0ad3617ab"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 313,
+    "source_sha256": "67ed3aa90c5dc52c828a7e88665f0337156e04057e5115b476f36f29c13ea74b"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 316,
+    "source_sha256": "878ade321026af41dac3694c0a8e1fc0280128e1c1af0e883e45ae42b7950411"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 319,
+    "source_sha256": "31c041f948e8292480a009460ca5df980f7cc7c5debcca92c2afcae41127aa40"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 322,
+    "source_sha256": "cce9bfed08cc1af977d70d4e0959c3fcb59550e01518cd6399b874fee3c05431"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 325,
+    "source_sha256": "eabff0a36a40cc4d1af358e0bb9663ce04701f7fea697cc5138671588d935ceb"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 358,
+    "source_sha256": "d36af1cedda33bb15356ff5d7d56158720c0c57435efb9dd42a8938165eb589a"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 361,
+    "source_sha256": "bfe97e17e6eca93d668084a5691fd7adb800b2f35a77e2894adaa7b5558be756"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 364,
+    "source_sha256": "46b064b485e7634db1b35f0f1a1fdd7f24a1cd0e7036c50e71612fda2d40c442"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 367,
+    "source_sha256": "b5471c711df6ebc019209d540c790bf243a7608b65516d5932137f0ce7bdc94c"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 370,
+    "source_sha256": "4b796af4c08a87cc5fb06f27324caf11b8bde7e241118326fdb3672ff49737c8"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 373,
+    "source_sha256": "03847443b900002fcbab188c1599e4e6fcf12d7b5c6fb9ebfa789eed56cc3ab0"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 376,
+    "source_sha256": "b96037417458450ff2ad2c34f43b37a3acd27ead26067112a8a9bed898ec1d0a"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 379,
+    "source_sha256": "d4a9a908dc15b8ba0cfd15733dc94d1b1c29012413a5b373651b121d44bea2ee"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 382,
+    "source_sha256": "f048efb3aaa52e9bbe9bc2b797db31226106b0db560fdb4b29eed162e84978f1"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 385,
+    "source_sha256": "eba7f3175bf97ea6dca846d0e2b91ea0e435ab2b27c888dfc5215ca127c248ce"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 388,
+    "source_sha256": "e05748a80a2c8cac26d0480586967d6d8805f8f848805b26c7d4cdd093c43de0"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 391,
+    "source_sha256": "90a113edaa9e82f86b0f066cab7ba9c6fb3343bbd0870dd51584fb8dbcf47aa1"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 394,
+    "source_sha256": "973db019bb686cae3052622bbba4d9a25a135f4b00424e21b08c3ec7f57ae74b"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 397,
+    "source_sha256": "2fc222f366458fad0af95060ad5fa53e2dd8399ba609d800a7d3d2886bc3e7fd"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 400,
+    "source_sha256": "821d61806cf408546d7ae4907ce5fed4585515a4bb31f2e2138ccfdd4a5dcbaf"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 403,
+    "source_sha256": "649277c361e374639bd2d532b479a1afbdae3be6ea3b2b97b43b8b4f5678cc75"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 406,
+    "source_sha256": "8dbf8dd2f61904255faf2f11ca1f58814d9935507d58eb6f77ff368d84767d5a"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 409,
+    "source_sha256": "7b501718a35f0f003ed870eeca3782d8faffd02e9a95926be2cd50ff3a4517a6"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 412,
+    "source_sha256": "dbfb8e660b798014014b9066ac8a00a7796d328699237b2fa3266bf326762cab"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 415,
+    "source_sha256": "c78cf328f02ddb4c1d87121fa0972b7fe2723338bd0eefb0b4dd62a6d21915ed"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 418,
+    "source_sha256": "662530fcef2fd929028393d43cfef27615aba7c32fe13a439852ec9c58ffc447"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 421,
+    "source_sha256": "489864a3a42a9ebec9c9731988fa0de8aa91a6902cfc3179f6bc812ddd3af36b"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 424,
+    "source_sha256": "849e1af8c4ba0bf6535e274a85fceb59e4b8b342d638eafdcca3a392787456ec"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 427,
+    "source_sha256": "b4e453ca7c4edde348b85fd10f4fa09482a30e26fa8055291c729f79ce8a7854"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 430,
+    "source_sha256": "b94c8bd0fded202c7149ea979b5ca265cba2b5072cb5e9b11e0b25be6278edb5"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 433,
+    "source_sha256": "bfc37fd6397757d0ec95ae55cf77068cf770988af56058d2a30c3c753b0e34e4"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 470,
+    "source_sha256": "2e3a291adc72a9bb99cc74c4cce4681aff8f1f79bbe48fa2b233a9469c51731f"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 473,
+    "source_sha256": "c94a1e1292b47e7509467fe75c23aa5eca708e2f27f659d152e021d574be4de1"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 476,
+    "source_sha256": "8ae26d957d9948f58d5101e7c464412742aaf9618fc129af0f50fc2d1d7e505a"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 479,
+    "source_sha256": "7e43e85f629b333322fadff7f3486279a8d7a8c02c4eeeab5ad4ebff76016f4e"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 482,
+    "source_sha256": "b4ce88690b783157971b0e72940b2c2a0a4b7ee27d8af348f5624721117808e7"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 485,
+    "source_sha256": "7c6a75a9a027386a4b938d8abebab8d6253c7b3fa27c9a3d1bcd7eef956a5d8f"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 488,
+    "source_sha256": "e7b1e97e7c6a90e1b53f4f3663a6c3696f684898a11baffab2320e780a7b60cf"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 491,
+    "source_sha256": "0de5c82d52f87fc3b4fc27b14cd68ceb77b8c63799649d6adb8e0b853d2b1f11"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 494,
+    "source_sha256": "2ef8dfc5a1e7eb8882ced17a6dd33f8ba13a5e595b5f1256238c80891258c2df"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 497,
+    "source_sha256": "706f51f7d3c6b59c734b5eb54d1a91326c0c720e17be7d798ea1bcc42bf025fd"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 500,
+    "source_sha256": "355a02f9b9ecef623348fe2916e6d1a1c791f5a88be8f82dc1dace6e139d85bc"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 503,
+    "source_sha256": "d2671d6b22f2b51999ace41e40c9d2181a0624447e77eb56ddd81d53a87b62ad"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 506,
+    "source_sha256": "d4749e84b3fe792eb0110e93c5a00aa4fb84bd42e001d4111e250da305f45e37"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 509,
+    "source_sha256": "afc704cf8425eb47567c46b0a4c14aa236d5a98dea9e8a494a6e6ec9495d31c0"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 512,
+    "source_sha256": "abde41bf5c6d75981e3c581c053b019289eeaa1ae42671a3a6fb8bf0d5c17d3f"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 515,
+    "source_sha256": "171d98bf01ad23f087a1104804aafc66784fa6cfd46b6e2b0740424edc4c8fda"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 518,
+    "source_sha256": "1f29bdd9ca62ac418ac0667d594926cdd09afad699b9215ec56a78419d0664cd"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 521,
+    "source_sha256": "485c82b89a77e51b04ca6d7df10125dae9d8cd292fa202099f94076c7e7d91b7"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 524,
+    "source_sha256": "224a8df6f22c5312f05f394d22581cdc21a53059cd8cc08d810a5df671c59a19"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 527,
+    "source_sha256": "27df906bf0427fcdcb962d52f81e33e2f346d2623e23e88283a389d794c99512"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 530,
+    "source_sha256": "28e807110b73e436453aaa410d5389a7c4580e6c62a5e070eba36973be8dacf7"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 533,
+    "source_sha256": "732b3499f6fae3741ccad592c8084d3f2b3738b174eb18ecca00b913f77da586"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 536,
+    "source_sha256": "cad76b71653cba8415157f830d8555a03d8e5108731e7b0abcaf4c76fbeb083c"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 539,
+    "source_sha256": "89ea31808a26ce44694638212a7926279d74c37a3176fae76101fa2bc9b45553"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 966,
+    "source_sha256": "e5cb2816cec4020e33aa6b079defee0c869db2178b877d082810eb46e8b7df10"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 969,
+    "source_sha256": "8197d1c5430cef3d6a63db8a3682ab6218404c57c25f344588486623392b37f9"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 972,
+    "source_sha256": "6e0f3b6cdae5c2aab674154b84f0e6701c26416ee870a82c2f9ba5889092547b"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 975,
+    "source_sha256": "c20e435aeb5f70eef2e2dc969b33b948255a3976483a5cff28fcdcf5d1323686"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 978,
+    "source_sha256": "edd93cd00205e80f812189cff10a6e5a705237a61e70b6d902faad1776761e83"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 981,
+    "source_sha256": "c8d8cd1fb1fcec919b61d4b1505e6c0be213b83d652149e0e1e44f040297ad4a"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 984,
+    "source_sha256": "6212d0d3023d706e93e6bd7385570e3894f8bd2ad84e05a27d49d10a942d3d4e"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 987,
+    "source_sha256": "d8ba047f6b16c0118b3859e01026b6889da9e428ee8216b68b91de30f3bb04b4"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 990,
+    "source_sha256": "7997c108fdc201d052ed23cc42e9ba35121fcfd8dc6a014cebf69c6469799a87"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 993,
+    "source_sha256": "beac5ef3b53408e7e11d75dbb1a212c875271587041c04896b775068b466fc52"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 996,
+    "source_sha256": "61bd80aafbe0c1fa0b06631c3f409b1f632af1b2babb2ce0c6f4fcef5cda8add"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 999,
+    "source_sha256": "66c530793a0a17b66b70d20d1ea2296dff3efd93ff90ac4c54010e79a7d84419"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1002,
+    "source_sha256": "b68db8e9f48460893f05b2ec45db44661897c4623907e175a597dda41104c54c"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1005,
+    "source_sha256": "495d9037fe004a55cdd1befef60df04b5cadfc622b9c4013b7dee73197e7ff62"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1008,
+    "source_sha256": "4725ab51873d56dfeef8da3ce37cd932931e3fc71efd23c4f19dcec41172b547"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1011,
+    "source_sha256": "ca527e44c3c7e4218e78266b4da2cdfecaa618bf08f3576e3c8df7f0e3a6ad3a"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1014,
+    "source_sha256": "6e1f24aeb3eb078285adc1e26f2f75375d8c809a53abd36ed7d37061d4125cf6"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1017,
+    "source_sha256": "f876e80d521070b4903b8102d271a855a2ae8d3ff8971339f3671abab5a58c68"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1020,
+    "source_sha256": "d0163c04be8a1d108757cf8278188074b4361877703fdf87d77e16abc0c683ef"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1023,
+    "source_sha256": "b50ce9105cbb1ee2050804816bb9f54859dd414157d9ec5592ed5ee5ce750f72"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1026,
+    "source_sha256": "5fe1db509e2f6e422a83a09f16bbb48ccc586d62506595e39270897ad2f11106"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1029,
+    "source_sha256": "75c94e408949e73375f9e80925e9000693efeae5aa265cb74d8fea29810defbf"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1032,
+    "source_sha256": "19d290cb98de15084aca7d24aa637051cf007e52a567039ec858d28b27091dee"
+  },
+  {
+    "clip": "southjersey-finals-0600",
+    "frame": 1035,
+    "source_sha256": "3aa09495d731c62f84d1a4d06b4b06375c3fa634d5c5c6022a3187c1e90630bf"
+  }
+]

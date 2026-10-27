@@ -1,0 +1,119 @@
+{
+  "reviewer": "Codex assistant; not independent human ground truth",
+  "method": "Native goal-mouth contact sheets at5fps plus the earlier chronological whole-segment review. First New Jersey context answers were already known; this is a diagnostic review, not blinded evaluation. No count overrides were applied.",
+  "source_manifest_sha256": "2dec95cb9e0cf6eef3d05ebabe1fe32abbe643d23d7a89ee84b9703bb8241d00",
+  "observations": [
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        20,
+        25
+      ],
+      "note": "Two distinct white attacking stick actions and two goalkeeper responses are consistent with a shot and rebound attempt. Ball-pad contacts remain difficult to resolve; retain the contextual label."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        68,
+        75
+      ],
+      "note": "White attacks through the crease and celebrates. The later scoreboard change and center restart support a goal; exact finishing touch is occluded."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        123,
+        126
+      ],
+      "note": "Red shooting stroke from the near side and subsequent keeper pad action. A small ball is visible on the initial path, but the final interception is not independently resolved."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        134,
+        139
+      ],
+      "note": "The first red action could be a centering feed. A separate net-front sweep and keeper cover follow. Distinguishing an on-target shot from a pass collected by the goalie remains difficult."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        162,
+        166
+      ],
+      "note": "Crowded faceoff and crease sequence. No clean ball-to-goal path established in the reviewed crops."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        180,
+        183
+      ],
+      "note": "White long-range release followed by a camera pan and goalie response. The pan hides the trajectory; save versus miss is unresolved from these sheets."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        194,
+        198
+      ],
+      "note": "Red rush followed by a shooting action and celebration. Later score change supports the goal. Camera crop clips part of the approach, so full-frame context matters."
+    },
+    {
+      "clip": "nj-0900",
+      "seconds": [
+        255,
+        259
+      ],
+      "note": "White net drive produces a pad response and continued crease action, followed by celebration and later score change. Exact rebound count requires care; a later stick action alone is not proof of a second shot."
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "seconds": [
+        33,
+        39
+      ],
+      "note": "Green net-front play, referee pointing and celebration, with a later center restart in the raw sequence, support a goal. The crossing is obscured."
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "seconds": [
+        75,
+        79
+      ],
+      "note": "Light-gray attacking play reaches a crowded crease. Ball later appears toward the left side; the sampled sequence does not decisively distinguish a save from a wide path."
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "seconds": [
+        24,
+        27
+      ],
+      "note": "Orange net-front shooting action enters traffic. Contact is obscured; do not treat goalkeeper movement alone as a confirmed save."
+    },
+    {
+      "clip": "southjersey-finals-0600",
+      "seconds": [
+        31,
+        35
+      ],
+      "note": "Orange release from the wing and a later keeper response are visible. The small ball and final contact remain difficult to establish."
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "seconds": [
+        0,
+        3
+      ],
+      "note": "Light-gray net-front play is heavily screened. A loose ball emerges to the left, but an attacking release and the precise interception are not resolved."
+    },
+    {
+      "clip": "pittsburgh-finals-0600",
+      "seconds": [
+        21,
+        25
+      ],
+      "note": "Camera points down during much of the approach and release; the subsequent keeper response and ball near the crease do not independently establish an on-target save."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "model": "gpt-6-astra",
+  "reasoning": "medium",
+  "max_output_tokens": 12288,
+  "campaign_budget_usd": 60,
+  "input_usd_per_million_conservative": 12.5,
+  "output_usd_per_million": 50,
+  "max_concurrency": 3,
+  "full_frame_width": 1280,
+  "full_frame_stride": 6,
+  "goal_crop_width": 960,
+  "goal_crop_stride": 2,
+  "after_context_seconds": 30,
+  "after_context_stride": 30,
+  "reason_for_additional_pass": "A known completed API response returned incomplete at its8192-token limit on a complex goal sequence. Recover only known-incomplete responses with reported usage, using medium reasoning and a larger output allowance. No ambiguous failures are retried. The unchanged60USD cap includes all previous reservations.",
+  "failure_policy": "Persist reserved costs; do not retry ambiguous failures. Never spend through the cap.",
+  "created_at": "2026-10-27T15:53:39.385541+00:00"
+}

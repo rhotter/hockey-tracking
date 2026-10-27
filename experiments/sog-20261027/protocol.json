@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-27T15:19:32.654998+00:00",
+  "scope": "NBHL ball hockey only; sequence event detection, not ball-near-net counting.",
+  "model": "gpt-6-astra",
+  "scan_reasoning": "medium",
+  "verify_reasoning": "high",
+  "scan_output_tokens": 8192,
+  "verify_output_tokens": 12288,
+  "input_usd_per_million_conservative": 12.5,
+  "output_usd_per_million": 50,
+  "budget_usd": 40,
+  "scan_budget_usd": 22,
+  "fps": 15,
+  "scan_core_frames": 300,
+  "scan_context_frames": 30,
+  "scan_stride_frames": 8,
+  "scan_width": 960,
+  "verify_context_frames": 60,
+  "verify_stride_frames": 2,
+  "verify_width": 1280,
+  "max_concurrency": 3,
+  "definition": "SOG = a legal attacking shot, tip, or deflection that scores or would enter the goal if not stopped by the goalkeeper. Exclude wide/high attempts, post/crossbar-only attempts, skater blocks, harmless passes, goalie collection of wide balls, and disallowed goals. Count a distinct rebound shot separately. Unknown outcome or on-target path is not confirmed SOG.",
+  "clips": [
+    {
+      "id": "nj-0900",
+      "source_id": "OLpK8enSjJs",
+      "start_s": 900,
+      "duration_s": 300,
+      "frames": 4500,
+      "frame_folder": "overhead-20261025-v1/frames",
+      "team_colors": [
+        "red",
+        "white"
+      ],
+      "purpose": "development demonstration; previously examined ball/player replay"
+    },
+    {
+      "id": "pittsburgh-finals-0600",
+      "source_id": "XLyHD1ZR5o4",
+      "start_s": 600,
+      "duration_s": 90,
+      "frames": 1350,
+      "frame_folder": "new-games-20261025-v1/frames/pittsburgh-finals-0600",
+      "team_colors": [
+        "green",
+        "black"
+      ],
+      "purpose": "additional recording; previously used for ball localization, never SOG labels"
+    },
+    {
+      "id": "southjersey-finals-0600",
+      "source_id": "nWo-KEsSLyo",
+      "start_s": 600,
+      "duration_s": 90,
+      "frames": 1350,
+      "frame_folder": "new-games-20261025-v1/frames/southjersey-finals-0600",
+      "team_colors": [
+        "orange",
+        "white"
+      ],
+      "purpose": "additional recording; previously used for ball localization, never SOG labels"
+    }
+  ],
+  "no_reference_labels_in_inference": true,
+  "api_requests_on_ambiguous_failure": "Keep reservation; do not silently retry."
+}

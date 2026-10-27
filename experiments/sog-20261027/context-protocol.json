@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "model": "gpt-6-astra",
+  "reasoning": "high",
+  "max_output_tokens": 8192,
+  "campaign_budget_usd": 60,
+  "input_usd_per_million_conservative": 12.5,
+  "output_usd_per_million": 50,
+  "max_concurrency": 3,
+  "full_frame_width": 1280,
+  "full_frame_stride": 6,
+  "goal_crop_width": 960,
+  "goal_crop_stride": 2,
+  "after_context_seconds": 30,
+  "after_context_stride": 30,
+  "reason_for_additional_pass": "The initial pixel-confirmation-only pass abstains even on goals with delayed scoreboard confirmation. Test contextual event inference with native-resolution goal-mouth crops and extended aftermath. The60USD campaign cap includes all scan, verification and context calls; the first two phases retain their original40USD cap. No manual labels are supplied to the model.",
+  "failure_policy": "Persist reserved costs; do not retry ambiguous failures. Never spend through the cap."
+}

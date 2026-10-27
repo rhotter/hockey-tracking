@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Shots on goal · Sport Scans</title><link rel="stylesheet" href="stats.css"><link rel="stylesheet" href="shots.css"></head>
+<body><header><a class="brand" href="./">Sport Scans</a><span>NBHL ball hockey</span></header>
+<main>
+<h1>Shots on goal</h1>
+<p>Detected attempts, with the play before and after each shot.</p>
+<p id="shots-error" role="alert" hidden></p>
+<div class="toolbar"><label>Recording <select id="shots-clip" disabled><option>Loading…</option></select></label><label>Show <select id="shots-filter"><option value="sog">Estimated SOG</option><option value="needs_review">Needs review</option><option value="all">All attempts</option></select></label></div>
+<p id="shots-scope" class="note"></p>
+<div id="shots-totals" class="shots-totals" aria-live="polite"></div>
+<div class="nbhl-layout">
+<section class="video-column" aria-label="Shot replay">
+<video id="shots-video" controls playsinline preload="metadata" aria-label="NBHL shot replay"></video>
+<div class="shots-controls"><button id="shots-back" disabled>← Frame</button><button id="shots-forward" disabled>Frame →</button><label>Speed <select id="shots-speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option></select></label><button id="shots-replay" disabled>Replay attempt</button><label><input id="shots-loop" type="checkbox"> Loop</label></div>
+<p id="shots-clock" class="note"></p>
+<article id="shots-detail" aria-live="polite"></article>
+</section>
+<section aria-label="Detected shot events"><h2>Attempts</h2><p id="shots-list-summary" class="note"></p><div id="shots-events" class="nbhl-events"></div></section>
+</div>
+<details><summary>How these counts work</summary>
+<p>A counted SOG is an attacking shot that scores, or is on target and stopped by the goalkeeper. Misses, skater blocks and post-only attempts do not count. A distinct rebound shot can count separately.</p>
+<p>These are experimental automatic counts for the displayed segments. Unclear attempts stay in “Needs review.” The detector scans chronological video frames, then re-examines proposed plays at a denser sampling rate. It uses the surrounding play and visible ball evidence. Goalkeeper movement alone is insufficient.</p>
+<p id="shots-method"></p><p id="shots-review-note"></p>
+<p>Times refer to the clip and original recording, not the game clock. Player numbers are model readings when available, not verified player identities. No independently annotated full-game accuracy score is available.</p>
+<div class="downloads"><a href="data/sog-20261027/events.json" download>Event JSON</a><a href="data/sog-20261027/events.csv" download>Event CSV</a><a href="data/sog-20261027/report.json">Experiment report</a><a href="https://github.com/rhotter/hockey-tracking/tree/main/experiments/sog-20261027">Code and evidence</a></div>
+</details>
+</main><footer>Sport Scans · <a href="overhead.html">Player and ball replay</a> · <a href="new-games.html">Tracking tests</a></footer><script src="media.js"></script><script src="shots.js"></script></body></html>

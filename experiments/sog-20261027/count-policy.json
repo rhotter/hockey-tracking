@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "frozen_at": "2026-10-27T16:09:05.832995+00:00",
+  "sha256": "3e9a7209bb16ea0be88d6078e851721b349bc2b51befbe4e4977202a2f5a1457",
+  "previous": {
+    "version": 2,
+    "frozen_at": "2026-10-27T15:48:47.386717+00:00",
+    "sha256": "c690a36938841028336bd60f884d6d3eb54c665b78627101281035ccf858d472",
+    "previous": {
+      "frozen_at": "2026-10-27T15:47:30.726321+00:00",
+      "sha256": "9b733a32dee0a863bd04a137a6a171e8b3160393f46f4f21700c21779eff3fba",
+      "note": "Counting rules frozen before reading contextual model answers. These are development rules, not a measured accuracy guarantee."
+    },
+    "reason": "Development revision after inspecting the first context result (two white attempts around22s): require shooting motion, keeper interception and either goalward path fragments OR a keeper-origin rebound. A defensive-zone restart alone is insufficient. The earlier arbitrary two-corroborator rule suppressed saves when play continued without a stoppage. High confidence, clear attempt, on-target yes, contextual basis and no alternative explanation are still required. This revision is not a fresh independent evaluation."
+  },
+  "reason": "Development correction after examining the complete context pass: allow defensive-zone restart as corroboration of a held save, alongside a clear shooting action and keeper interception, high confidence, on-target yes and no alternative explanation. The previous rebound/path-only rule systematically withheld covered/gloved saves. This does not allow goalkeeper pose or a faceoff alone to count. Two known high-confidence held-save candidates motivated this change; it is not an independent accuracy evaluation."
+}

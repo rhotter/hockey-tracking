@@ -13,6 +13,7 @@
   <div class="game-picker"><label for="nbhl-select">Game</label><select id="nbhl-select"><option value="518555">Bay Area / SoCal · May 4, 2024</option><option value="619593">Cleghorn / Southcoast · May 4, 2025</option><option value="752704">Nights Watch / Bellmawr · August 30, 2026</option></select></div>
   <div id="app-error" role="alert" hidden></div>
   <p><a href="overhead.html">Five-minute overhead player trajectory →</a></p>
+  <p><a href="shots.html">Shots on goal · automatic detections and replays →</a></p>
   <section aria-labelledby="nbhl-title" id="games">
     <div class="game-heading"><div><h1 id="nbhl-title">Loading game…</h1><p id="nbhl-date"></p></div><div id="score-line" class="score-line"></div></div>
     <div class="source-note"><span>Goals and assists: official NBHL records. Video clips: reviewed estimates.</span><a id="nbhl-official" target="_blank" rel="noopener">Official record</a></div>
@@ -22,7 +23,7 @@
     <div class="toolbar"><label>Team<select id="player-team"><option value="">Both teams</option></select></label><label>Player<input id="player-search" type="search" placeholder="Name or number" autocomplete="off"></label></div>
     <div class="table-wrap"><table><thead><tr><th>Player</th><th>Goals</th><th>Assists</th><th>Points</th></tr></thead><tbody id="nbhl-player-rows"></tbody></table></div>
     <p class="note">Select a player to see their scoring events. A roster listing does not prove an appearance. Assist times refer to the goal, not the exact pass.</p>
-    <p class="unavailable"><b>Not yet measured:</b> time on floor, distance, shots, shots on goal and possession.</p>
+    <p class="unavailable"><b>Not yet measured for full games:</b> time on floor, distance, shots, shots on goal and possession. <a href="shots.html">Experimental SOG detection on three video segments</a>.</p>
   </section>
   <details id="tracking"><summary>Player tracking</summary>
     <p class="note">Experimental tracking output. Numbers on boxes are temporary track IDs, not jersey numbers. Identities can break during crossings or occlusion.</p>

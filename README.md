@@ -23,6 +23,16 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Shots on goal — October 27, 2026
+
+[Open shot detections and replays](https://hockey-tracking-phi.vercel.app/shots.html) · [Experiment and evidence](experiments/sog-20261027/)
+
+A sequence-based GPT-6-astra detector scans eight minutes across three NBHL recordings, re-examines proposed attempts, and uses goal-mouth crops plus delayed scoreboard/restart context. The viewer provides estimated team SOG, individual attempt timestamps, slow motion, model-cited frames and CSV/JSON exports. Inferred calls are labeled; ambiguous attempts remain in review. This is a development feature without independent human precision/recall or verified player attribution. It does not establish full-game SOG totals.
+
+The initial run produced **12 estimated SOG, including four goals**, with 13 other attempts left unresolved. All counted calls are contextual. The three New Jersey goals match the existing scoring/video intervals; save accuracy and event recall remain unmeasured.
+
+Reproduce the published event decisions with `python scripts/detect_shots.py` and `python scripts/verify_sog_results.py`. No API calls are needed to recount the saved results.
+
 ## Ball tracking experiments — October 27, 2026
 
 [Watch the improved five-minute replay](https://hockey-tracking-phi.vercel.app/overhead.html?ball=temporal&t=124.86668) · [Methods, evaluations and failed experiments](experiments/ball-temporal-20261026/)

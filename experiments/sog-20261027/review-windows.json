@@ -1,0 +1,281 @@
+{
+  "method": "Scan-proposed goal-mouth positions; assistant review only, no labels fed to inference.",
+  "windows": [
+    {
+      "id": "nj-0900-crop-0014",
+      "clip": "nj-0900",
+      "start": 8,
+      "end": 78,
+      "stride": 3,
+      "crop": [
+        1240.32,
+        442.8,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-0308",
+      "clip": "nj-0900",
+      "start": 302,
+      "end": 380,
+      "stride": 3,
+      "crop": [
+        587.52,
+        488.70000000000005,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-0388",
+      "clip": "nj-0900",
+      "start": 382,
+      "end": 452,
+      "stride": 3,
+      "crop": [
+        718.0799999999999,
+        486.00000000000006,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-1020",
+      "clip": "nj-0900",
+      "start": 1014,
+      "end": 1124,
+      "stride": 3,
+      "crop": [
+        1005.12,
+        443.34000000000003,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-1848",
+      "clip": "nj-0900",
+      "start": 1842,
+      "end": 1912,
+      "stride": 3,
+      "crop": [
+        522.24,
+        493.56000000000006,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-2024",
+      "clip": "nj-0900",
+      "start": 2018,
+      "end": 2084,
+      "stride": 3,
+      "crop": [
+        850.56,
+        491.40000000000003,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-2440",
+      "clip": "nj-0900",
+      "start": 2434,
+      "end": 2512,
+      "stride": 3,
+      "crop": [
+        637.4399999999999,
+        495.72,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-2544",
+      "clip": "nj-0900",
+      "start": 2538,
+      "end": 2608,
+      "stride": 3,
+      "crop": [
+        672.0,
+        494.64000000000004,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-2700",
+      "clip": "nj-0900",
+      "start": 2694,
+      "end": 2764,
+      "stride": 3,
+      "crop": [
+        1368.96,
+        449.28000000000003,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-2796",
+      "clip": "nj-0900",
+      "start": 2790,
+      "end": 2860,
+      "stride": 3,
+      "crop": [
+        1155.84,
+        449.28000000000003,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-2916",
+      "clip": "nj-0900",
+      "start": 2910,
+      "end": 2980,
+      "stride": 3,
+      "crop": [
+        387.84,
+        494.64000000000004,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-3580",
+      "clip": "nj-0900",
+      "start": 3574,
+      "end": 3652,
+      "stride": 3,
+      "crop": [
+        616.3199999999999,
+        447.12,
+        960
+      ]
+    },
+    {
+      "id": "nj-0900-crop-3832",
+      "clip": "nj-0900",
+      "start": 3826,
+      "end": 3912,
+      "stride": 3,
+      "crop": [
+        878.4,
+        442.8,
+        960
+      ]
+    },
+    {
+      "id": "pittsburgh-finals-0600-crop-0000",
+      "clip": "pittsburgh-finals-0600",
+      "start": 0,
+      "end": 54,
+      "stride": 3,
+      "crop": [
+        910.0799999999999,
+        380.16,
+        960
+      ]
+    },
+    {
+      "id": "pittsburgh-finals-0600-crop-0102",
+      "clip": "pittsburgh-finals-0600",
+      "start": 96,
+      "end": 162,
+      "stride": 3,
+      "crop": [
+        1175.04,
+        353.16,
+        960
+      ]
+    },
+    {
+      "id": "pittsburgh-finals-0600-crop-0316",
+      "clip": "pittsburgh-finals-0600",
+      "start": 310,
+      "end": 388,
+      "stride": 3,
+      "crop": [
+        531.84,
+        284.04,
+        960
+      ]
+    },
+    {
+      "id": "pittsburgh-finals-0600-crop-0460",
+      "clip": "pittsburgh-finals-0600",
+      "start": 454,
+      "end": 580,
+      "stride": 3,
+      "crop": [
+        1180.8,
+        400.14000000000004,
+        960
+      ]
+    },
+    {
+      "id": "pittsburgh-finals-0600-crop-1140",
+      "clip": "pittsburgh-finals-0600",
+      "start": 1134,
+      "end": 1204,
+      "stride": 3,
+      "crop": [
+        925.4399999999999,
+        302.40000000000003,
+        960
+      ]
+    },
+    {
+      "id": "pittsburgh-finals-0600-crop-1312",
+      "clip": "pittsburgh-finals-0600",
+      "start": 1306,
+      "end": 1350,
+      "stride": 3,
+      "crop": [
+        913.92,
+        345.6,
+        960
+      ]
+    },
+    {
+      "id": "southjersey-finals-0600-crop-0262",
+      "clip": "southjersey-finals-0600",
+      "start": 256,
+      "end": 326,
+      "stride": 3,
+      "crop": [
+        1171.2,
+        540.0,
+        960
+      ]
+    },
+    {
+      "id": "southjersey-finals-0600-crop-0364",
+      "clip": "southjersey-finals-0600",
+      "start": 358,
+      "end": 436,
+      "stride": 3,
+      "crop": [
+        618.24,
+        554.0400000000001,
+        960
+      ]
+    },
+    {
+      "id": "southjersey-finals-0600-crop-0476",
+      "clip": "southjersey-finals-0600",
+      "start": 470,
+      "end": 540,
+      "stride": 3,
+      "crop": [
+        1128.96,
+        544.32,
+        960
+      ]
+    },
+    {
+      "id": "southjersey-finals-0600-crop-0972",
+      "clip": "southjersey-finals-0600",
+      "start": 966,
+      "end": 1036,
+      "stride": 3,
+      "crop": [
+        1171.2,
+        543.24,
+        960
+      ]
+    }
+  ]
+}

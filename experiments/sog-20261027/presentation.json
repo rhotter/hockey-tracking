@@ -1,0 +1,26 @@
+{
+  "nj-0900": {
+    "title": "Nights Watch / Hawks \u00b7 five minutes",
+    "video": "media/overhead-20261025/nj-0900-5min.mp4",
+    "team_labels": {
+      "red": "Hawks (red)",
+      "white": "Nights Watch (white)"
+    }
+  },
+  "pittsburgh-finals-0600": {
+    "title": "Pittsburgh finals \u00b7 90 seconds",
+    "video": "media/new-games-20261025/pittsburgh-finals-0600.mp4",
+    "team_labels": {
+      "green": "Green",
+      "black": "Light gray"
+    }
+  },
+  "southjersey-finals-0600": {
+    "title": "South Jersey finals \u00b7 90 seconds",
+    "video": "media/new-games-20261025/southjersey-finals-0600.mp4",
+    "team_labels": {
+      "orange": "Orange",
+      "white": "White"
+    }
+  }
+}

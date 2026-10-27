@@ -1,0 +1,149 @@
+{
+  "reviewer": "Codex assistant visual review, not independent human ground truth",
+  "method": "Chronological raw contact sheets at 15/8 fps. Discovery proposal interval times were known; model event classifications and verifier answers were not read. These are candidate notes, not final labels. Tiny-ball contact and rapid rebounds require denser review.",
+  "clips": {
+    "nj-0900": {
+      "reviewed_seconds": [
+        0,
+        300
+      ],
+      "candidate_seconds": [
+        [
+          1,
+          4
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          26,
+          28
+        ],
+        [
+          68,
+          74
+        ],
+        [
+          124,
+          126
+        ],
+        [
+          134,
+          137
+        ],
+        [
+          163,
+          165
+        ],
+        [
+          170,
+          172
+        ],
+        [
+          181,
+          184
+        ],
+        [
+          187,
+          190
+        ],
+        [
+          195,
+          198
+        ],
+        [
+          239,
+          242
+        ],
+        [
+          256,
+          259
+        ]
+      ],
+      "notes": [
+        "Period edit around31-34sec; teams reverse ends.",
+        "White scores in the68-74sec attack. Scoreboard0-1 before becomes1-1 at89sec, followed by center faceoff. Need separate initial shot, rebound and final release.",
+        "Red rush shot around124.8sec with keeper pad action; cannot establish contact from small contact-sheet tiles alone.",
+        "Red crease attack around135-137sec ends in stoppage and defensive-zone faceoff, not center restart.",
+        "Red breakaway scores around195-198sec. Scoreboard1-1 becomes1-2 by213sec and center restart follows.",
+        "White net drive around256-257sec followed by possible rebound shot and goal around258sec. Scoreboard1-2 becomes2-2 by278sec; distinct release counting requires denser review."
+      ]
+    },
+    "pittsburgh-finals-0600": {
+      "reviewed_seconds": [
+        0,
+        90
+      ],
+      "candidate_seconds": [
+        [
+          0,
+          2
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          22,
+          24
+        ],
+        [
+          31,
+          33
+        ],
+        [
+          36,
+          38
+        ],
+        [
+          76,
+          78
+        ],
+        [
+          83,
+          84
+        ],
+        [
+          87,
+          90
+        ]
+      ],
+      "notes": [
+        "Green versus light gray jerseys; initial protocol incorrectly calls the light team black. Normalize display labels explicitly, preserve original model color outputs.",
+        "Possible green goal around36-38sec, with celebration and later center restart; dense evidence still needed.",
+        "Opening net-front play and final88sec scrum are occluded. Do not infer shot count just from stick movement.",
+        "Most of38-66sec is stoppage; no additional shots evident."
+      ]
+    },
+    "southjersey-finals-0600": {
+      "reviewed_seconds": [
+        0,
+        90
+      ],
+      "candidate_seconds": [
+        [
+          18,
+          20
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          32,
+          35
+        ],
+        [
+          65,
+          68
+        ]
+      ],
+      "notes": [
+        "Orange attacking right in all four main candidate stretches. At contact-sheet resolution the ball is too small to independently establish goalkeeper contact.",
+        "Score overlay remains0-3 for the full90sec. No goal apparent.",
+        "Long stoppage from36sec to65sec; do not count the faceoff itself as a shot."
+      ]
+    }
+  }
+}

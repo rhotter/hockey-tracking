@@ -1,0 +1,328 @@
+{
+  "source_scan_sha256": "fe4c5870cd90fa2521a64a169271173ebd91e50a691a32c4da420a8ebbd88e78",
+  "method": "Merge scan-proposed release/outcome intervals with temporal context; verifier receives raw frames, never scan answers. No manual labels used.",
+  "requests": [
+    {
+      "id": "nj-0900-verify-0014",
+      "clip": "nj-0900",
+      "core": [
+        14,
+        66
+      ],
+      "range": [
+        0,
+        111
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-0308",
+      "clip": "nj-0900",
+      "core": [
+        308,
+        368
+      ],
+      "range": [
+        278,
+        413
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-0388",
+      "clip": "nj-0900",
+      "core": [
+        388,
+        440
+      ],
+      "range": [
+        358,
+        485
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-1020",
+      "clip": "nj-0900",
+      "core": [
+        1020,
+        1112
+      ],
+      "range": [
+        990,
+        1157
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-1848",
+      "clip": "nj-0900",
+      "core": [
+        1848,
+        1900
+      ],
+      "range": [
+        1818,
+        1945
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-2024",
+      "clip": "nj-0900",
+      "core": [
+        2024,
+        2072
+      ],
+      "range": [
+        1994,
+        2117
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-2440",
+      "clip": "nj-0900",
+      "core": [
+        2440,
+        2500
+      ],
+      "range": [
+        2410,
+        2545
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-2544",
+      "clip": "nj-0900",
+      "core": [
+        2544,
+        2596
+      ],
+      "range": [
+        2514,
+        2641
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-2700",
+      "clip": "nj-0900",
+      "core": [
+        2700,
+        2752
+      ],
+      "range": [
+        2670,
+        2797
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-2796",
+      "clip": "nj-0900",
+      "core": [
+        2796,
+        2848
+      ],
+      "range": [
+        2766,
+        2893
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-2916",
+      "clip": "nj-0900",
+      "core": [
+        2916,
+        2968
+      ],
+      "range": [
+        2886,
+        3013
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-3580",
+      "clip": "nj-0900",
+      "core": [
+        3580,
+        3640
+      ],
+      "range": [
+        3550,
+        3685
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "nj-0900-verify-3832",
+      "clip": "nj-0900",
+      "core": [
+        3832,
+        3900
+      ],
+      "range": [
+        3802,
+        3945
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "pittsburgh-finals-0600-verify-0000",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        0,
+        42
+      ],
+      "range": [
+        0,
+        87
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "pittsburgh-finals-0600-verify-0102",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        102,
+        150
+      ],
+      "range": [
+        72,
+        195
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "pittsburgh-finals-0600-verify-0316",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        316,
+        376
+      ],
+      "range": [
+        286,
+        421
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "pittsburgh-finals-0600-verify-0460",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        460,
+        568
+      ],
+      "range": [
+        430,
+        613
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "pittsburgh-finals-0600-verify-1140",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        1140,
+        1192
+      ],
+      "range": [
+        1110,
+        1237
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "pittsburgh-finals-0600-verify-1312",
+      "clip": "pittsburgh-finals-0600",
+      "core": [
+        1312,
+        1350
+      ],
+      "range": [
+        1282,
+        1350
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "southjersey-finals-0600-verify-0262",
+      "clip": "southjersey-finals-0600",
+      "core": [
+        262,
+        314
+      ],
+      "range": [
+        232,
+        359
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "southjersey-finals-0600-verify-0364",
+      "clip": "southjersey-finals-0600",
+      "core": [
+        364,
+        424
+      ],
+      "range": [
+        334,
+        469
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "southjersey-finals-0600-verify-0476",
+      "clip": "southjersey-finals-0600",
+      "core": [
+        476,
+        528
+      ],
+      "range": [
+        446,
+        573
+      ],
+      "stride": 3,
+      "width": 1280
+    },
+    {
+      "id": "southjersey-finals-0600-verify-0972",
+      "clip": "southjersey-finals-0600",
+      "core": [
+        972,
+        1024
+      ],
+      "range": [
+        942,
+        1069
+      ],
+      "stride": 3,
+      "width": 1280
+    }
+  ]
+}
