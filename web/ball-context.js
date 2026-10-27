@@ -1,18 +1,24 @@
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
-  let data, baseline, report, sam, samReport, csvURL;
+  let data, baseline, report, sam, samReport, csvURL, rinkData;
+  const mapCache=new WeakMap();
   const colors={detected:'#17633e',tracked:'#17633e',inferred:'#a65500',context:'#156a9c'};
   const active = () => $('ball-mode').value === 'baseline' ? baseline : $('ball-mode').value === 'sam' ? sam : data;
+  const mapped = current => {
+    if(!mapCache.has(current))mapCache.set(current,current.frames.map(r=>window.SportScansBallMap.position(r,rinkData.frames[r.frame],rinkData.relative_bounds)));
+    return mapCache.get(current);
+  };
   const csvCell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
   function seek(frame) { $('overhead-video').pause();$('overhead-video').currentTime=frame/data.fps+.00001; }
   function overview() {
     const current=active(), counts={detected:0,tracked:0,inferred:0,context:0,unknown:0};
-    const csv=['frame,clip_seconds,recording_seconds,state,x_relative,y_relative,x_pixel,y_pixel,reason,support,carrier,play_state,evidence'];
+    const csv=['frame,clip_seconds,recording_seconds,state,x_relative,y_relative,x_pixel,y_pixel,reason,support,carrier,play_state,evidence,diagram_x_relative,diagram_y_relative,diagram_method'];
     const c=$('ball-timeline'),ctx=c.getContext('2d');ctx.fillStyle='#ececec';ctx.fillRect(0,0,c.width,c.height);
     for(const r of current.frames) {
       counts[r.state]++;
-      csv.push([r.frame,r.frame/current.fps,current.start_s+r.frame/current.fps,r.state,...(r.xy||['','']),r.pixel?r.pixel[0]*1920:'',r.pixel?r.pixel[1]*1080:'',r.reason,r.review_support,r.carrier_track_id,r.play_state,r.evidence].map(csvCell).join(','));
+      const map=mapped(current)[r.frame];
+      csv.push([r.frame,r.frame/current.fps,current.start_s+r.frame/current.fps,r.state,...(r.xy||['','']),r.pixel?r.pixel[0]*1920:'',r.pixel?r.pixel[1]*1080:'',r.reason,r.review_support,r.carrier_track_id,r.play_state,r.evidence,...(map.xy||['','']),map.method].map(csvCell).join(','));
       if(r.state!=='unknown'){ctx.fillStyle=colors[r.state];ctx.fillRect(r.frame/current.frames.length*c.width,0,Math.max(1,c.width/current.frames.length),c.height);}
     }
     const total=current.frames.length,known=total-counts.unknown;
@@ -26,7 +32,7 @@
     const requestedMode=new URLSearchParams(location.search).get('ball');
     if(['context','sam','baseline','off'].includes(requestedMode))$('ball-mode').value=requestedMode;
     else if(samReport.decision.promoted)$('ball-mode').value='sam';
-    overview();$('ball-mode').addEventListener('change',overview);
+    $('ball-mode').addEventListener('change',()=>{if(rinkData)overview();});
     const audit=report.output_audit;
     $('ball-quality').textContent=audit?`Earlier region audit: ${audit.counts.visible_inside||0} visibly inside, ${audit.counts.visible_outside||0} visibly outside, ${audit.counts.context_consistent_unverified||0} plausible but unverified, ${audit.counts.unclear||0} unclear. This assessed the earlier regions, not the accuracy of the single point now displayed. Assistant review on this development game.`:'Estimated ball positions have no independent accuracy score.';
     $('ball-timeline').onclick=e=>{const r=e.currentTarget.getBoundingClientRect();seek(Math.max(0,Math.min(data.frames.length-1,Math.floor((e.clientX-r.left)/r.width*data.frames.length))));};
@@ -63,25 +69,33 @@
     ctx.beginPath();ctx.arc(240,135,14,0,2*Math.PI);ctx.stroke();
   }
   function draw(row,oc,mc,point) {
-    if(!data)return;
+    if(!data||!rinkData)return;
     const mode=$('ball-mode').value, estimate=active().frames[row.frame];
     document.body.dataset.ballState=mode==='off'?'off':estimate.state;
     $('ball-evidence').textContent='';
+    const map=mode==='off'?{xy:null,method:'off'}:mapped(active())[row.frame];
+    document.body.dataset.ballMapMethod=map.method;
+    const mapText={floor:'Ball shown on rink',carrier:'Ball shown · approximate position at carrier’s feet',floor_approximation:'Ball shown · approximate floor projection',camera_unavailable:'Ball not mapped · camera alignment unavailable',outside_rink:'Ball not mapped · projection falls outside the rink',unresolved:'Ball position unresolved',off:'Ball overlay hidden'};
+    $('ball-map-status').textContent=mapText[map.method];
     if(mode==='off'){zoom({},colors.detected);$('ball-status').textContent='Ball overlay hidden';return;}
     const contextual=estimate.state==='context',inferred=contextual||estimate.state==='inferred',color=colors[estimate.state];zoom(estimate,color);
     if(estimate.state==='unknown'){$('ball-status').textContent='Ball unresolved or outside the view';return;}
     const pixel=estimate.pixel.map((v,i)=>v*(i?1080:1920)),views=[[oc,pixel,7]];
-    if(estimate.xy)views.push([mc,point(estimate.xy),5]);
-    for(const [ctx,p,radius]of views){ctx.save();if(ctx===mc){ctx.beginPath();ctx.roundRect(45,40,910,455,35);ctx.clip();}ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();ctx.arc(...p,radius,0,Math.PI*2);ctx.stroke();ctx.restore();}
-    if(estimate.xy){mc.save();mc.beginPath();mc.roundRect(45,40,910,455,35);mc.clip();mc.strokeStyle=color;mc.lineWidth=2;mc.globalAlpha=.5;mc.setLineDash(inferred?[5,4]:[]);mc.beginPath();let started=false;
-      for(let f=Math.max(0,row.frame-9);f<=row.frame;f++){const r=active().frames[f];if(!r.xy){started=false;continue;}const p=point(r.xy);if(started)mc.lineTo(...p);else mc.moveTo(...p);started=true;}mc.stroke();mc.restore();}
+    if(map.xy){mc.save();mc.beginPath();mc.roundRect(45,40,910,455,35);mc.clip();mc.strokeStyle=color;mc.lineWidth=2;mc.globalAlpha=.5;mc.setLineDash(inferred||map.method!=='floor'?[5,4]:[]);mc.beginPath();let started=false;
+      for(let f=Math.max(0,row.frame-9);f<=row.frame;f++){const r=mapped(active())[f];if(!r.xy||r.method!==map.method){started=false;continue;}const p=point(r.xy);if(started)mc.lineTo(...p);else mc.moveTo(...p);started=true;}mc.stroke();mc.restore();}
+    for(const [ctx,p,radius]of views){ctx.save();ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();ctx.arc(...p,radius,0,Math.PI*2);ctx.stroke();ctx.restore();}
+    if(map.xy){const p=point(map.xy);mc.save();mc.beginPath();mc.roundRect(45,40,910,455,35);mc.clip();mc.fillStyle=color;mc.strokeStyle='#fff';mc.lineWidth=2;mc.beginPath();mc.arc(...p,7,0,Math.PI*2);mc.fill();mc.stroke();
+      mc.font='bold 16px system-ui';mc.textAlign=p[0]>850?'right':'left';mc.textBaseline='middle';mc.lineWidth=4;mc.lineJoin='round';
+      const label=map.method==='floor'?'Ball':'Ball ≈',x=p[0]+(p[0]>850?-12:12),y=Math.max(54,Math.min(481,p[1]-12));
+      mc.strokeText(label,x,y);mc.fillStyle='#111';mc.fillText(label,x,y);mc.restore();}
     const names={detected:'Ball detected · visual evidence',tracked:'Ball tracked · video model + appearance check',inferred:'Ball inferred · short gap',context:'Context estimate'};
     const carrier=estimate.carrier_track_id;
-    $('ball-status').textContent=names[estimate.state]+(contextual?` · ${(estimate.play_state||'unknown').replaceAll('_',' ')}${carrier?' · '+carrier:''}`:'')+(estimate.review_support&&estimate.review_support!=='floor'?` · ${estimate.review_support==='unclear'?'height unclear':estimate.review_support}`:'')+(!estimate.xy?' · rink position unavailable':'');
+    $('ball-status').textContent=names[estimate.state]+(contextual?` · ${(estimate.play_state||'unknown').replaceAll('_',' ')}${carrier?' · '+carrier:''}`:'')+(estimate.review_support&&estimate.review_support!=='floor'?` · ${estimate.review_support==='unclear'?'height unclear':estimate.review_support}`:'')+(!map.xy?' · rink position unavailable':map.method!=='floor'?' · approximate rink position':'');
     if(mode==='context'||mode==='sam'){
       const sequence=report.sequences.find(s=>s.core[0]<=row.frame&&row.frame<s.core[1]);
       $('ball-evidence').textContent=estimate.evidence||(sequence?sequence.summary:'');
     }
   }
-  window.SportScansBall={load,draw};
+  function setRink(replay){rinkData=replay;overview();}
+  window.SportScansBall={load,draw,setRink};
 })();

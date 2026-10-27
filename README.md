@@ -23,6 +23,12 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## Ball on the overhead diagram — October 26, 2026
+
+[Open the synchronized diagram](https://hockey-tracking-phi.vercel.app/overhead.html?ball=sam&t=105). A labeled ball marker now also appears for held, airborne and height-unclear estimates where camera mapping supports a schematic position. The ≈ label means the diagram uses the identified carrier's mapped feet, or the camera ray's intersection with the floor. The latter can be displaced from the true location of an elevated ball. Invalid camera alignment and off-rink projections still have no marker, with a reason shown below the diagram.
+
+The SAM replay now has 3,322 diagram positions instead of 1,847 out of 4,500 frames; the 1,475 additions are approximate display projections, **not new detections or an accuracy improvement**. Original tracking JSON and floor-coordinate CSV fields are unchanged. Three appended CSV columns (`diagram_x_relative`, `diagram_y_relative`, `diagram_method`) reproduce the displayed positions. Check the projection rules with `node --test scripts/test_ball_map.cjs`; browser checks exercise held/airborne markers, carrier placement, camera gaps, mode switches and all exported rows.
+
 ## SAM3 ball tracking — October 26, 2026
 
 [Review the SAM3 + TAP replay](https://hockey-tracking-phi.vercel.app/overhead.html?ball=sam&t=124.6667) · [Methods, results and failures](experiments/ball-sam-20261026/)

@@ -38,4 +38,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm ci
+      - run: node --test scripts/test_ball_map.cjs
       - run: npm run build

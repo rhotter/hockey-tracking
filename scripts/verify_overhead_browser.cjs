@@ -1,6 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {chromium}=require(process.env.SPORT_SCANS_PLAYWRIGHT_PATH||'playwright');
+const ballMap=require('../web/ball-map.js');
 const root=path.resolve(__dirname,'..'),base=process.env.SPORT_SCANS_SITE_URL||'http://127.0.0.1:8885';
 const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead-20261025/browser.json');
 (async()=>{
@@ -49,7 +50,7 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   assert.equal(await page.locator('body').getAttribute('data-ball-state'),previousBall.frames[910].state);
   const oldCSV=parseCSV(await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text()));
   assert.equal(oldCSV.length,4501);assert.equal(oldCSV.filter(r=>r[3]==='detected').length,284);assert.equal(oldCSV.filter(r=>r[3]==='inferred').length,20);
-  await page.locator('#ball-mode').selectOption('off');assert.equal(await page.locator('body').getAttribute('data-ball-state'),'off');
+  await page.locator('#ball-mode').selectOption('off');assert.equal(await page.locator('body').getAttribute('data-ball-state'),'off');assert.equal(await page.locator('body').getAttribute('data-ball-map-method'),'off');
   await page.locator('#ball-mode').selectOption('context');
   await page.locator('[data-ball-seek="910"]').click();await decoded(910);
   assert.equal(await page.locator('body').getAttribute('data-ball-state'),'context');
@@ -68,24 +69,40 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   await page.screenshot({path:output.replace(/\.json$/,'-single-ball.png'),fullPage:true});
   const tracked=ballData.frames.find(r=>r.state==='tracked');assert(tracked);await seek(tracked.frame);
   assert.equal(await page.locator('body').getAttribute('data-ball-state'),'tracked');assert((await page.locator('#ball-status').innerText()).includes('video model'));
-  for(const [f,support] of [[2614,'airborne'],[3368,'held']]){
-   await seek(f);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'detected');
+  async function checkMap(f,source){
+   await seek(f);const estimate=source.frames[f],mapped=ballMap.position(estimate,replay.frames[f],replay.relative_bounds);
+   assert.equal(await page.locator('body').getAttribute('data-ball-map-method'),mapped.method);
+   if(mapped.xy){
+    assert(await page.locator('#overhead-map').evaluate((c,{xy,state})=>{
+     const color=state==='context'?[21,106,156]:state==='inferred'?[166,85,0]:[23,99,62];
+     const ctx=c.getContext('2d'),px=Math.round(45+910*xy[0]),py=Math.round(40+455*xy[1]);
+     const a=ctx.getImageData(px-4,py-4,9,9).data;let count=0;
+     for(let i=0;i<a.length;i+=4)if(color.every((v,j)=>a[i+j]===v))count++;
+     return count>15;
+    },{xy:mapped.xy,state:estimate.state}),'Ball marker must actually appear at the projected map location');
+   }
+   return mapped;
+  }
+  for(const [f,support] of [[3368,'held'],[4446,'airborne']]){
+   const mapped=await checkMap(f,ballData);assert.equal(mapped.method,'floor_approximation');
    assert.equal(ballData.frames[f].xy,null);
    assert((await page.locator('#ball-status').innerText()).includes(support));
-   assert((await page.locator('#ball-status').innerText()).includes('rink position unavailable'));
+   assert((await page.locator('#ball-map-status').innerText()).includes('approximate'));
    assert(await page.locator('#ball-zoom').evaluate(c=>new Set(c.getContext('2d').getImageData(0,0,c.width,c.height).data).size>50));
   }
-  await seek(480);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
+  await checkMap(2614,ballData);assert((await page.locator('#ball-map-status').innerText()).includes('camera alignment unavailable'));
+  await checkMap(1132,ballData);assert((await page.locator('#ball-map-status').innerText()).includes('outside the rink'));
+  await checkMap(480,ballData);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
   const ballCSV=parseCSV(await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text()));
   assert.equal(ballCSV.length,4501);
   assert(!ballCSV[0].some(h=>/alternatives|radius|covariance|weight/.test(h)));
-  for(let f=0;f<4500;f++){const row=ballCSV[f+1],point=ballData.frames[f];assert.equal(row.length,13);assert.equal(row[0],String(f));assert.equal(row[3],point.state);assert.equal(row[6],point.pixel?String(point.pixel[0]*1920):'');assert.equal(row[7],point.pixel?String(point.pixel[1]*1080):'');assert(!['hypotheses','model_radius_px','covariance','pixel_covariance','known_weight'].some(k=>k in point));}
+  for(let f=0;f<4500;f++){const row=ballCSV[f+1],point=ballData.frames[f];assert.equal(row.length,16);assert.equal(row[0],String(f));assert.equal(row[3],point.state);assert.equal(row[6],point.pixel?String(point.pixel[0]*1920):'');assert.equal(row[7],point.pixel?String(point.pixel[1]*1080):'');assert(!['hypotheses','model_radius_px','covariance','pixel_covariance','known_weight'].some(k=>k in point));}
   assert((await page.locator('#ball-summary').innerText()).includes((ballReport.estimated_coverage*100).toFixed(1)+'%'));
   await page.getByText('Video-model checks and sequence summaries',{exact:true}).click();
   assert.equal(await page.locator('#ball-comparisons tbody tr').count(),ballReport.point_comparisons.length);
   assert.equal(await page.locator('#ball-review-points button').count(),ballReport.sequences.length);
   await page.locator('#ball-review-points button').last().click();await decoded(ballReport.sequences.at(-1).core[0]);
-  result.checks.push('Sequence/previous/off modes, actual decoded-frame synchronization, one selected ball marker without alternate locations or uncertainty rings, visible video tracks, chronological explanations, held/airborne image-only detections, complete single-position CSV and JSON, coverage summary, comparison and sequence navigation');
+  result.checks.push('Sequence/previous/off modes, actual decoded-frame synchronization, one selected ball marker without alternate locations or uncertainty rings, visible video tracks, chronological explanations, held/airborne approximate diagram markers, missing-camera and off-rink explanations, complete single-position CSV and JSON, coverage summary, comparison and sequence navigation');
   const samFolder=path.join(root,'web/data/ball-sam-20261026'),samData=JSON.parse(fs.readFileSync(path.join(samFolder,'positions.json'))),samReport=JSON.parse(fs.readFileSync(path.join(samFolder,'report.json')));
   for(const [name,expected]of [['positions.json',samData],['report.json',samReport]]){const response=await page.request.get(base+'/data/ball-sam-20261026/'+name);assert(response.ok());assert.deepEqual(await response.json(),expected);}
   assert.equal(await page.locator('#ball-sam-comparisons tbody tr').count(),4);
@@ -95,7 +112,10 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   await seek(samFrame);assert.equal(await page.locator('body').getAttribute('data-ball-state'),samData.frames[samFrame].state);
   assert((await page.locator('#ball-summary').innerText()).includes((samReport.estimated_coverage*100).toFixed(1)+'%'));
   const samCSV=parseCSV(await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text()));assert.equal(samCSV.length,4501);
-  for(let f=0;f<4500;f++){const r=samCSV[f+1],p=samData.frames[f];assert.equal(r.length,13);assert.equal(r[3],p.state);assert.equal(r[6],p.pixel?String(p.pixel[0]*1920):'');assert.equal(r[7],p.pixel?String(p.pixel[1]*1080):'');assert(!['hypotheses','model_radius_px','covariance','pixel_covariance'].some(k=>k in p));}
+  for(let f=0;f<4500;f++){const r=samCSV[f+1],p=samData.frames[f];assert.equal(r.length,16);assert.equal(r[3],p.state);assert.equal(r[6],p.pixel?String(p.pixel[0]*1920):'');assert.equal(r[7],p.pixel?String(p.pixel[1]*1080):'');assert(!['hypotheses','model_radius_px','covariance','pixel_covariance'].some(k=>k in p));}
+  for(let f=0;f<4500;f++){const p=ballMap.position(samData.frames[f],replay.frames[f],replay.relative_bounds);assert.equal(samCSV[f+1][13],p.xy?String(p.xy[0]):'');assert.equal(samCSV[f+1][14],p.xy?String(p.xy[1]):'');assert.equal(samCSV[f+1][15],p.method);}
+  for(const f of [31,150,1478,1575,3368,4446])await checkMap(f,samData);
+  await checkMap(1575,samData);
   await page.screenshot({path:output.replace(/\.json$/,'-sam-ball.png'),fullPage:true});
   await seek(480);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
   await page.locator('#ball-mode').selectOption('context');
