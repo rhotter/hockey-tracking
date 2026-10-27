@@ -4,7 +4,7 @@ import sys,json,collections,hashlib
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1];EXP=ROOT/'experiments/ball-sequence-20261026'
 sys.path.insert(0,str(ROOT));sys.path.insert(0,str(EXP))
-from publish import derive,merge_ledgers,read
+from publish import derive,merge_ledgers,read,single_positions
 from select_audit import select
 
 def equal(a,b):
@@ -21,6 +21,7 @@ def equal(a,b):
 def main():
     dest=ROOT/'web/data/ball-sequence-20261026';context,published,report=derive()
     equal(context,read(dest/'context-replay.json'));equal(published,read(dest/'replay.json'));equal(report,read(dest/'report.json'))
+    equal(single_positions(published),read(dest/'positions.json'))
     ledger=read(EXP/'results/context-ledger.json');equal(ledger,merge_ledgers(EXP/'results'))
     assert len(ledger['requests'])==30
     assert {r['core'][0]for r in ledger['requests'].values()}==set(range(0,4500,150))

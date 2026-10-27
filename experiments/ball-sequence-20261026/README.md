@@ -6,6 +6,8 @@ The previous published tracker emitted 284 visual detections and 20 short interp
 
 ## Published result
 
+The website and CSV now show one selected ball location per frame, without alternative locations or uncertainty circles. `positions.json` is the corresponding simple output. It uses the highest-weight contextual hypothesis already selected by reconstruction, or the retained visual/video-track position. Frames without an estimate remain empty. The original multi-hypothesis results and region audits below are retained as experiment records; region containment is not point accuracy.
+
 | Output | Frames / 4,500 |
 | --- | ---: |
 | Retained visual detections | 284 |

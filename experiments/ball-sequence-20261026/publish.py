@@ -12,6 +12,20 @@ def save(path,obj):path.parent.mkdir(parents=True,exist_ok=True);path.write_text
 def read(path):return json.loads(path.read_text())
 
 
+def single_positions(replay):
+    """Export one selected location per frame, without alternative or error fields."""
+    fields=['frame','state','pixel','xy','reason','review_support','play_state','evidence']
+    frames=[]
+    for row in replay['frames']:
+        point={key:row[key]for key in fields if key in row}
+        if row.get('hypotheses'):
+            # Reconstruction already selects the highest-weight hypothesis as the row location.
+            point['carrier_track_id']=row['hypotheses'][0].get('carrier_track_id')
+        frames.append(point)
+    return {**{key:replay[key]for key in ['schema_version','source_id','start_s','duration_s','fps']},
+            'method':'One best ball position per frame','frames':frames}
+
+
 def merge_ledgers(results):
     names=['context-long-ledger','context-rest-ledger','context-repair-ledger'];requests={};sources=[]
     for name in names:
@@ -100,6 +114,7 @@ def main(folder=None):
         save(results/'context-ledger.json',ledger)
     context,combined,report=derive();dest=ROOT/'web/data/ball-sequence-20261026'
     save(dest/'context-replay.json',context);save(dest/'replay.json',combined);save(dest/'report.json',report)
+    save(dest/'positions.json',single_positions(combined))
     print(json.dumps({'states':report['states'],'coverage':report['estimated_coverage'],'context_radius_px':report['context_radius_px']}))
 
 if __name__=='__main__':main(Path(sys.argv[1])if len(sys.argv)>1 else None)
