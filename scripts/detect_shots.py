@@ -117,7 +117,7 @@ def main():
     write(args.output/'events.json',dataset);write(args.output/'report.json',report)
     fields=['id','clip','source_id','clip_seconds','recording_seconds','team_color','team_label','shooter_jersey','attempt','outcome','on_target','automatic_status','basis','confidence','count_reason','explanation']
     with (args.output/'events.csv').open('w',newline='')as f:
-        writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(dataset['events'])
+        writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');writer.writeheader();writer.writerows(dataset['events'])
     print(json.dumps({'totals':report['totals'],'estimated_usd':report['estimated_usd_including_unresolved_reservations']}))
 
 if __name__=='__main__':main()
