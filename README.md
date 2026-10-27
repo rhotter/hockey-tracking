@@ -23,6 +23,14 @@ Python 3.10+ and Node.js 22+ are required. The App Router renders the research p
 
 Replay assets are stored separately in the versioned GitHub release, pinned by archive and individual-file SHA-256 hashes in `site-assets.json`. The build downloads and verifies them, then prepares generated `public/` assets. To update media, upload a new versioned bundle and update the manifest; keep media out of Git history. Never edit generated `public/` or `.next/` files.
 
+## SAM3 ball tracking — October 26, 2026
+
+[Review the SAM3 + TAP replay](https://hockey-tracking-phi.vercel.app/overhead.html?ball=sam&t=124.6667) · [Methods, results and failures](experiments/ball-sam-20261026/)
+
+Three SAM3 prompt/crop variants were tested on Modal, followed by two larger 31-seed runs and two fusion policies. On 103 reused visible-ball references, filtered SAM3 point tracking finds 52 positions within 25 pixels with no larger errors, compared with TAPNext++'s 46 correct and one larger error. Combining them with the existing context gates gives 67 correct proposals and one larger error. These are conditional development checks, not full-game accuracy.
+
+The default replay now combines point-prompted SAM3 and TAPNext++: video-tracked frames rise from 91 to 122 while total estimated coverage stays 79.7%. A fixed 24-position audit found 20 close to a visible ball and four unverified, with no clear wrong location. The previous replay remains selectable, and every mode displays one ball position. SAM is sensitive to its starting frame, and two previously known stick-blade errors remain. No new weight fine-tuning was performed. Point-SAM was selected after seeing pilot validation results, so the larger run is explicitly exploratory.
+
 ## Sequence-level ball reconstruction — October 26, 2026
 
 [Review the full five-minute result](https://hockey-tracking-phi.vercel.app/overhead.html?t=60.6667) · [Method, failures and evidence](experiments/ball-sequence-20261026/)

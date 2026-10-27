@@ -86,10 +86,28 @@ const output=process.env.SPORT_SCANS_SITE_REPORT||path.join(root,'build/overhead
   assert.equal(await page.locator('#ball-review-points button').count(),ballReport.sequences.length);
   await page.locator('#ball-review-points button').last().click();await decoded(ballReport.sequences.at(-1).core[0]);
   result.checks.push('Sequence/previous/off modes, actual decoded-frame synchronization, one selected ball marker without alternate locations or uncertainty rings, visible video tracks, chronological explanations, held/airborne image-only detections, complete single-position CSV and JSON, coverage summary, comparison and sequence navigation');
+  const samFolder=path.join(root,'web/data/ball-sam-20261026'),samData=JSON.parse(fs.readFileSync(path.join(samFolder,'positions.json'))),samReport=JSON.parse(fs.readFileSync(path.join(samFolder,'report.json')));
+  for(const [name,expected]of [['positions.json',samData],['report.json',samReport]]){const response=await page.request.get(base+'/data/ball-sam-20261026/'+name);assert(response.ok());assert.deepEqual(await response.json(),expected);}
+  assert.equal(await page.locator('#ball-sam-comparisons tbody tr').count(),4);
+  assert.equal(await page.locator('#ball-sam-result').innerText(),samReport.decision.summary);
+  await page.locator('#ball-mode').selectOption('sam');
+  const samFrame=samReport.full.audit_selection[0]?.frame??samData.frames.find(r=>r.state==='tracked').frame;
+  await seek(samFrame);assert.equal(await page.locator('body').getAttribute('data-ball-state'),samData.frames[samFrame].state);
+  assert((await page.locator('#ball-summary').innerText()).includes((samReport.estimated_coverage*100).toFixed(1)+'%'));
+  const samCSV=parseCSV(await page.locator('#ball-csv').evaluate(async a=>(await fetch(a.href)).text()));assert.equal(samCSV.length,4501);
+  for(let f=0;f<4500;f++){const r=samCSV[f+1],p=samData.frames[f];assert.equal(r.length,13);assert.equal(r[3],p.state);assert.equal(r[6],p.pixel?String(p.pixel[0]*1920):'');assert.equal(r[7],p.pixel?String(p.pixel[1]*1080):'');assert(!['hypotheses','model_radius_px','covariance','pixel_covariance'].some(k=>k in p));}
+  await page.screenshot({path:output.replace(/\.json$/,'-sam-ball.png'),fullPage:true});
+  await seek(480);assert.equal(await page.locator('body').getAttribute('data-ball-state'),'unknown');
+  await page.locator('#ball-mode').selectOption('context');
+  result.checks.push('SAM3 numeric report matches deployed source, comparison table, selectable hybrid replay, decoded-frame state, single-position CSV, cut reset and coverage');
   if(replay.players.length>1){await page.locator('#trajectory-player').selectOption(replay.players[1].id);assert((await page.locator('#identity-note').innerText()).includes('Automatic track fragment'));await page.locator('#trajectory-player').selectOption(replay.default_player);}
   await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Mobile overflow');
   await video.evaluate(async v=>{v.muted=true;await v.play();});const before=Number(await page.locator('body').getAttribute('data-overhead-frame'));await page.waitForFunction(f=>Number(document.body.dataset.overheadFrame)>f+10,before);await video.evaluate(v=>v.pause());
   await page.screenshot({path:output.replace(/\.json$/,'-mobile.png'),fullPage:true});result.checks.push('390px mobile layout, fragment selection, actual playback');
+  await page.goto(base+'/overhead.html?ball=sam&t='+(samFrame/15+.00001),{waitUntil:'networkidle',timeout:120000});
+  await page.waitForFunction(()=>document.body.dataset.overheadReady==='true');await decoded(samFrame);
+  assert.equal(await page.locator('#ball-mode').inputValue(),'sam');assert.equal(await page.locator('body').getAttribute('data-ball-state'),samData.frames[samFrame].state);
+  result.checks.push('Direct SAM replay link restores method and decoded timestamp');
   assert(await page.locator('#overhead-error').isHidden());assert.deepEqual(result.errors,[]);
  }finally{fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,JSON.stringify(result,null,2)+'\n');await browser.close();}
  console.log(JSON.stringify(result));

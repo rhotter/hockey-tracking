@@ -6,7 +6,8 @@
 - Frozen prompts, selection records, model revisions and source hashes.
 - A portable global reconnection component and synthetic example.
 - Equivalence tests against the original global solver.
-- Sequence-level ball-state outputs, CoTracker3/TAPNext++ numeric point tracks, appearance scores, API failure/cost ledgers and deterministic reconstruction. `scripts/verify_ball_sequence.py` reproduces the current contextual overlay without model access.
+- SAM3 ball point/box prompt outputs, frozen pilot selection and exploratory amendments, mask/appearance scores, and deterministic single-position hybrid replays. `scripts/verify_ball_sam.py` reproduces the numeric comparison and audit selection without model access.
+- Sequence-level ball-state outputs, CoTracker3/TAPNext++ numeric point tracks, appearance scores, API failure/cost ledgers and deterministic reconstruction. `scripts/verify_ball_sequence.py` reproduces the previous contextual overlay used by the SAM hybrid without model access.
 - SAM3 and SAM 3.1 sparse pair outcomes and compact replay boxes, plus SAM 3D Body numeric predictions and visibility references. `scripts/verify_sam3_results.py` checks these without model access.
 
 ## Reference source

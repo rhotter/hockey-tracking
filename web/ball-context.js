@@ -1,9 +1,9 @@
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
-  let data, baseline, report, csvURL;
+  let data, baseline, report, sam, samReport, csvURL;
   const colors={detected:'#17633e',tracked:'#17633e',inferred:'#a65500',context:'#156a9c'};
-  const active = () => $('ball-mode').value === 'baseline' ? baseline : data;
+  const active = () => $('ball-mode').value === 'baseline' ? baseline : $('ball-mode').value === 'sam' ? sam : data;
   const csvCell=value=>'"'+String(value??'').replaceAll('"','""')+'"';
   function seek(frame) { $('overhead-video').pause();$('overhead-video').currentTime=frame/data.fps+.00001; }
   function overview() {
@@ -22,7 +22,10 @@
   }
   async function load() {
     async function get(url){const response=await fetch(url);if(!response.ok)throw Error(`Could not load ${url}`);return response.json();}
-    [data,baseline,report]=await Promise.all([get('data/ball-sequence-20261026/positions.json'),get('data/ball-rebuild-20261026/replay.json'),get('data/ball-sequence-20261026/report.json')]);
+    [data,baseline,report,sam,samReport]=await Promise.all([get('data/ball-sequence-20261026/positions.json'),get('data/ball-rebuild-20261026/replay.json'),get('data/ball-sequence-20261026/report.json'),get('data/ball-sam-20261026/positions.json'),get('data/ball-sam-20261026/report.json')]);
+    const requestedMode=new URLSearchParams(location.search).get('ball');
+    if(['context','sam','baseline','off'].includes(requestedMode))$('ball-mode').value=requestedMode;
+    else if(samReport.decision.promoted)$('ball-mode').value='sam';
     overview();$('ball-mode').addEventListener('change',overview);
     const audit=report.output_audit;
     $('ball-quality').textContent=audit?`Earlier region audit: ${audit.counts.visible_inside||0} visibly inside, ${audit.counts.visible_outside||0} visibly outside, ${audit.counts.context_consistent_unverified||0} plausible but unverified, ${audit.counts.unclear||0} unclear. This assessed the earlier regions, not the accuracy of the single point now displayed. Assistant review on this development game.`:'Estimated ball positions have no independent accuracy score.';
@@ -35,6 +38,16 @@
       const row=body.insertRow();for(const value of [result.name,`${result.within_25px} / ${result.answered}`,`${result.median_error_px.toFixed(1)}px`])row.insertCell().textContent=value;
     }
     $('ball-comparisons').replaceChildren(table);
+    $('ball-sam-result').textContent=samReport.decision.summary;
+    const samTable=document.createElement('table'),samHead=samTable.createTHead().insertRow();
+    for(const name of ['Same six seeds','Within 25px','Outside 25px','No output']){const th=document.createElement('th');th.textContent=name;samHead.append(th);}
+    const samBody=samTable.createTBody();
+    for(const name of ['tapnextpp512',...samReport.pilot.protocol.models]){
+      const result=samReport.pilot.pilots[name].scores.filtered.all,row=samBody.insertRow();
+      const label=name==='tapnextpp512'?'TAPNext++ + appearance':name.replace('sam3-','SAM3 ').replace('-',' / ')+' + filters';
+      for(const value of [label,result.within_25px,result.outside_25px,result.reviewed_positions-result.answered])row.insertCell().textContent=value;
+    }
+    $('ball-sam-comparisons').replaceChildren(samTable);
     for(const row of report.sequences){
       const button=document.createElement('button');const t=Math.floor(row.core[0]/data.fps);button.textContent=`${Math.floor(t/60)}:${String(t%60).padStart(2,'0')}`;button.title=row.summary;button.onclick=()=>seek(row.core[0]);$('ball-review-points').append(button);
     }
@@ -65,7 +78,7 @@
     const names={detected:'Ball detected · visual evidence',tracked:'Ball tracked · video model + appearance check',inferred:'Ball inferred · short gap',context:'Context estimate'};
     const carrier=estimate.carrier_track_id;
     $('ball-status').textContent=names[estimate.state]+(contextual?` · ${(estimate.play_state||'unknown').replaceAll('_',' ')}${carrier?' · '+carrier:''}`:'')+(estimate.review_support&&estimate.review_support!=='floor'?` · ${estimate.review_support==='unclear'?'height unclear':estimate.review_support}`:'')+(!estimate.xy?' · rink position unavailable':'');
-    if(mode==='context'){
+    if(mode==='context'||mode==='sam'){
       const sequence=report.sequences.find(s=>s.core[0]<=row.frame&&row.frame<s.core[1]);
       $('ball-evidence').textContent=estimate.evidence||(sequence?sequence.summary:'');
     }

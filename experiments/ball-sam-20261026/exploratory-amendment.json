@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "stage": "After six-seed pilot; before either 31-seed run",
+  "pilot_evaluation_sha256": "22714dd73ab895fe6c92d5cf137251bb2e42282e73dbfb3d9003f9d2869de3c5",
+  "primary_selected_variant": "sam3-box-768",
+  "exploratory_variant": "sam3-point-768",
+  "reason": "Frozen development selection chose box-768 (2 correct vs point-768 1). In validation windows it gave only 4 correct vs TAP 20. Point-768 gave 26 correct in validation, so expand it as an explicitly post-hoc exploratory candidate. Do not relabel it as independently selected or validated.",
+  "all_seeds": "Use the same existing 31 visual seeds, half-window, mask and appearance thresholds, fusion rules and 24-position audit selection. No retuning after the 31-seed results.",
+  "deployment": "Report both full runs. Inspect 24 evenly spaced changed or added point-SAM candidate outputs before making a deployment decision; unchanged visual anchors and one output position remain required."
+}

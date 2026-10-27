@@ -1,0 +1,16 @@
+{
+  "replay_variant": "sam3-point-768",
+  "replay_policy": "conservative",
+  "promoted": true,
+  "scope": "Default for this existing five-minute NBHL development replay only.",
+  "summary": "SAM3 point prompts + TAPNext++ increase correctly localized reviewed proposals from 46 to 67 (within 25 pixels), and final video-tracked frames from 91 to 122. Visual audit: 20 of 24 changes close to a visible ball, 4 unverified, no clear wrong location. Same-game development evidence; two previously known drift errors remain.",
+  "rejected": [
+    "Box prompting is weaker in the pilot and larger comparison.",
+    "The exploratory multi-seed consensus override produced identical output and is not used."
+  ],
+  "limitations": [
+    "The point variant was chosen after inspecting pilot validation results; its larger run is exploratory.",
+    "Overall estimated coverage remains 79.7%. This does not establish full-game accuracy or reliable occluded-ball positions.",
+    "SAM tracking is sensitive to seed frame and prompt choice. The two known stick-blade errors at frames 4021 and 4026 remain."
+  ]
+}

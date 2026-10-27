@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "stage": "During 31-seed inference, before reading or evaluating its numeric outputs",
+  "baseline_policy": "Preserve and report the protocol conservative 0.2 appearance-margin fusion.",
+  "exploratory_policy": "sam_consensus",
+  "motivation": "The previously reviewed frame 4021 has an incorrect TAP proposal scoring 0.869. A SAM score capped at 1 cannot beat it by 0.2, so the conservative rule cannot correct it even if multiple SAM seeds independently converge on the visible ball. This is targeted development from an existing failure, not an independent test.",
+  "rule": "After the existing shape, appearance and context gates, allow SAM to override a conflicting TAP point when at least two distinct SAM seeds agree within 12 native pixels, both have appearance >=0.9, and the best SAM score is no more than 0.05 below TAP. Otherwise use the frozen conservative rule. Emit only the highest-scoring SAM center, never a second point.",
+  "review": "Report conservative and consensus variants separately. Audit up to 24 evenly spaced changed or added consensus replay points using original and neighboring video frames. Do not claim new-game accuracy."
+}

@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "sam_result_sha256": "027c182c382831ef734fa03730bb2cccd81e6d1b08e108e62b781d93453022b6",
+  "sampling": "24 positions evenly spaced by time among added or changed SAM centers, frozen before image review.",
+  "review": "Assistant review of native crops plus preceding/following and full video frames. Approximate visible centers are rounded to five native pixels; no subpixel accuracy claim. This is conditional output inspection, not independent human ground truth.",
+  "counts": {
+    "visible_within_25px": 20,
+    "unverified": 4
+  },
+  "rows": [
+    {
+      "frame": 409,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        1059.3629836285181,
+        569.6215816763859
+      ],
+      "before_pixel": [
+        0.5441131173916446,
+        0.5255898053179183
+      ],
+      "change_px": 14.799467661242625,
+      "tracker": "sam3-point-768",
+      "source_sha256": "c7ba38333c8c556a9b8a99ecf97c07aabbf3f5fbb64bf566131bf7614bc04386",
+      "verdict": "visible_within_25px",
+      "note": "The small dark ball is visible on the floor beside the running player.",
+      "reviewed_ball_pixel": [
+        1060,
+        570
+      ]
+    },
+    {
+      "frame": 424,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        1242.705148406619,
+        587.1468720453561
+      ],
+      "before_pixel": [
+        0.6162919921958834,
+        0.5413573592579937
+      ],
+      "change_px": 59.47628909335558,
+      "tracker": "sam3-point-768",
+      "source_sha256": "705ac1834c13f808fdb6639783929d71db99d80860dea022988fa23330ac9d92",
+      "verdict": "unverified",
+      "note": "The target merges with the stick blade and motion blur; neighboring frames support possession but do not resolve a separate ball center here."
+    },
+    {
+      "frame": 432,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        1100.551448502633,
+        603.3101484863098
+      ],
+      "before_pixel": [
+        0.577524993391967,
+        0.5610914605343506
+      ],
+      "change_px": 8.715167031196263,
+      "tracker": "sam3-point-768",
+      "source_sha256": "697dc40cf783635d1f48ba5ff4a79878cf4f665b3b6d9e8a8f9287a847cae1a7",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is clearly visible below the player and sticks.",
+      "reviewed_ball_pixel": [
+        1100,
+        605
+      ]
+    },
+    {
+      "frame": 957,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        467.08081332074266,
+        551.9244413786936
+      ],
+      "before_pixel": [
+        0.23008562500000002,
+        0.49020912499999986
+      ],
+      "change_px": 33.8689706437355,
+      "tracker": "sam3-point-768",
+      "source_sha256": "b36dcb0388be62260bc77c17877fc3ae1f2a1653507edfc9b130198ad397b168",
+      "verdict": "visible_within_25px",
+      "note": "A faint pink moving ball blur is visible near the center; neighboring frames show the same pass.",
+      "reviewed_ball_pixel": [
+        465,
+        550
+      ]
+    },
+    {
+      "frame": 959,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        444.3995905646262,
+        553.2949183392794
+      ],
+      "before_pixel": [
+        0.22803187499999994,
+        0.5013563750000001
+      ],
+      "change_px": 13.536059664068556,
+      "tracker": "sam3-point-768",
+      "source_sha256": "0b8db63b02a671302fb1d4173fe0f4912e86ee1d0ac7423205f28b2e078710f9",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible near the moving player on the shaded floor.",
+      "reviewed_ball_pixel": [
+        445,
+        555
+      ]
+    },
+    {
+      "frame": 977,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        644.2776985552894,
+        607.465071547308
+      ],
+      "before_pixel": [
+        0.3362793484088098,
+        0.5702827240476139
+      ],
+      "change_px": 8.552124983242832,
+      "tracker": "sam3-point-768",
+      "source_sha256": "3b07233e02a896c6a4f363ffd173bed44624c3451b9ef2c8a8531057e5633007",
+      "verdict": "visible_within_25px",
+      "note": "A small pink ball is visible on the open floor below the stick.",
+      "reviewed_ball_pixel": [
+        645,
+        610
+      ]
+    },
+    {
+      "frame": 1028,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        486.31550428201473,
+        514.6857507925239
+      ],
+      "before_pixel": [
+        0.24399999999999994,
+        0.47600000000000015
+      ],
+      "change_px": 17.84578793487174,
+      "tracker": "sam3-point-768",
+      "source_sha256": "0a353f6a52310c01eb74cc1086e998552de7a23aaff0878da213a9a13b27868d",
+      "verdict": "unverified",
+      "note": "The candidate is at the blade tip; the ball cannot be separated confidently from blade blur in this frame."
+    },
+    {
+      "frame": 1870,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        806.3114922118036,
+        595.4300102018758
+      ],
+      "before_pixel": [
+        0.4537978171878085,
+        0.5601283499631017
+      ],
+      "change_px": 65.67233200878468,
+      "tracker": "sam3-point-768",
+      "source_sha256": "048e85cadc8cf6a539ea4de05afb99e7741bc2a163b53f6cd099adea57db9a53",
+      "verdict": "visible_within_25px",
+      "note": "An isolated moving ball blur is visible ahead of the player and separate from the stick shadow.",
+      "reviewed_ball_pixel": [
+        810,
+        595
+      ]
+    },
+    {
+      "frame": 1872,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        741.2490384515647,
+        554.3882101534457
+      ],
+      "before_pixel": [
+        0.3116392872963214,
+        0.4905315963291596
+      ],
+      "change_px": 145.00593944258608,
+      "tracker": "sam3-point-768",
+      "source_sha256": "ef6a37d6c2435b7214e64108f312e08e5e3c97e48f888d20eae617b1af207e90",
+      "verdict": "visible_within_25px",
+      "note": "A small isolated ball is visible on the open floor.",
+      "reviewed_ball_pixel": [
+        740,
+        555
+      ]
+    },
+    {
+      "frame": 2570,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        1030.2799177995018,
+        532.808648722543
+      ],
+      "before_pixel": [
+        0.5493269221206106,
+        0.4848218092764223
+      ],
+      "change_px": 26.103184125130426,
+      "tracker": "sam3-point-768",
+      "source_sha256": "847155328565a0e4520e06a9ecfed0801157c6114232302efae1bdc898eda4c3",
+      "verdict": "visible_within_25px",
+      "note": "The ball is visible as a small dot below the sticks, separate from the player foot.",
+      "reviewed_ball_pixel": [
+        1030,
+        535
+      ]
+    },
+    {
+      "frame": 2585,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        1302.3060003069204,
+        544.915906972847
+      ],
+      "before_pixel": [
+        0.686661875,
+        0.5090575
+      ],
+      "change_px": 16.804779550592272,
+      "tracker": "sam3-point-768",
+      "source_sha256": "d034a5e6268da8c0f3b63bde200b68e8f73bc169d0d5ebbd974edda9a04800cb",
+      "verdict": "visible_within_25px",
+      "note": "The ball is visible immediately beside the blade tip.",
+      "reviewed_ball_pixel": [
+        1305,
+        545
+      ]
+    },
+    {
+      "frame": 2755,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        774.4318571826777,
+        555.072665468777
+      ],
+      "before_pixel": [
+        0.3978673180588988,
+        0.5872223665682829
+      ],
+      "change_px": 79.82461516074635,
+      "tracker": "sam3-point-768",
+      "source_sha256": "e9efe6bb0adb206aab2690f81c3b4beefa283bacf42f763358a71b27c641084b",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible in open space above the foreground spectators.",
+      "reviewed_ball_pixel": [
+        775,
+        555
+      ]
+    },
+    {
+      "frame": 3353,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        514.7246830385295,
+        545.9975930355199
+      ],
+      "before_pixel": [
+        0.26380812069256115,
+        0.515878234783844
+      ],
+      "change_px": 13.849095692493666,
+      "tracker": "sam3-point-768",
+      "source_sha256": "4245da211101a41c821365663256a2189eac8c793cae6c91dc5748b13f2d3beb",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible by the official hands during a short toss.",
+      "reviewed_ball_pixel": [
+        515,
+        545
+      ]
+    },
+    {
+      "frame": 3356,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        520.5134688325169,
+        518.4213948995027
+      ],
+      "before_pixel": [
+        0.27134038276874833,
+        0.5093107263856337
+      ],
+      "change_px": 31.63753486381246,
+      "tracker": "sam3-point-768",
+      "source_sha256": "556212eb209caa9397f1d9871405f4b56b506df9f07240f3b9e533f2f862efcc",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is clearly airborne above the official hand.",
+      "reviewed_ball_pixel": [
+        520,
+        520
+      ]
+    },
+    {
+      "frame": 3360,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        531.4460930467523,
+        536.1133355994293
+      ],
+      "before_pixel": [
+        0.27726865604009576,
+        0.501091419804777
+      ],
+      "change_px": 5.14644121353738,
+      "tracker": "sam3-point-768",
+      "source_sha256": "18f510789ecd3bb677361466c9f4210c5ea499ed67793b24e346eebea109b50e",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible in front of the official torso near the hand.",
+      "reviewed_ball_pixel": [
+        530,
+        535
+      ]
+    },
+    {
+      "frame": 3362,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        532.1371550854223,
+        539.3941069352184
+      ],
+      "before_pixel": [
+        0.27868657985591566,
+        0.5054616661619282
+      ],
+      "change_px": 7.1385127400619,
+      "tracker": "sam3-point-768",
+      "source_sha256": "e38b0313ae536d620fe289e28453cf8e951b3728b4eec1c46f591dceb05c5eb1",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible beside the official hand and torso.",
+      "reviewed_ball_pixel": [
+        530,
+        540
+      ]
+    },
+    {
+      "frame": 3370,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        533.5058833161347,
+        531.5725091603144
+      ],
+      "before_pixel": [
+        0.27795700101278936,
+        0.49113342376246105
+      ],
+      "change_px": 1.1611551701206144,
+      "tracker": "sam3-point-768",
+      "source_sha256": "039f2442bc33380533059fbc14e7f9924b4145cc125e3981a55ae90419e0a5fe",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible on the official open hand.",
+      "reviewed_ball_pixel": [
+        535,
+        530
+      ]
+    },
+    {
+      "frame": 3372,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        552.5591421121234,
+        531.8432797304843
+      ],
+      "before_pixel": [
+        0.28954232539196234,
+        0.4924327898698981
+      ],
+      "change_px": 3.3621600795674658,
+      "tracker": "sam3-point-768",
+      "source_sha256": "a123ff37f111520d8ede0a83116b78d42a4d57db30fd6be58d739fa98337ab6d",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible above the official open hand.",
+      "reviewed_ball_pixel": [
+        550,
+        530
+      ]
+    },
+    {
+      "frame": 3374,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        577.4355538168967,
+        544.6931133102087
+      ],
+      "before_pixel": [
+        0.30338218578947906,
+        0.5024412291251544
+      ],
+      "change_px": 5.460344916162606,
+      "tracker": "sam3-point-768",
+      "source_sha256": "c05d020283ac3ce9b148939ad99e10e59cab0ecb74591b35a86f42c5c3fd402c",
+      "verdict": "visible_within_25px",
+      "note": "The dark pink ball is visible at the official hands.",
+      "reviewed_ball_pixel": [
+        575,
+        545
+      ]
+    },
+    {
+      "frame": 3388,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        630.8556628281179,
+        556.2954175058883
+      ],
+      "before_pixel": [
+        0.32960638752619825,
+        0.5140834991998703
+      ],
+      "change_px": 2.265452965887462,
+      "tracker": "sam3-point-768",
+      "source_sha256": "ef5f83b527b03afb52a5bfd6043ed46dc8f9e5fe30bb7505b5ecbdfa1c6e2c02",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is visible in the official hands beside the foreground player.",
+      "reviewed_ball_pixel": [
+        630,
+        555
+      ]
+    },
+    {
+      "frame": 3391,
+      "before_state": "context",
+      "after_state": "tracked",
+      "pixel": [
+        634.6803580526341,
+        559.8663548372131
+      ],
+      "before_pixel": [
+        0.3300363434584193,
+        0.5147842960300801
+      ],
+      "change_px": 4.028141950564941,
+      "tracker": "sam3-point-768",
+      "source_sha256": "f06d58cca1c5386bba1467936d578728f48029102d88b0ccb76a29557e44c47e",
+      "verdict": "unverified",
+      "note": "The ball and official hand are partly occluded by the white-shirted player; context is consistent but a separate ball center is not resolved."
+    },
+    {
+      "frame": 3851,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        782.6582047286734,
+        495.73126385381613
+      ],
+      "before_pixel": [
+        0.41084821230202806,
+        0.4549991860686482
+      ],
+      "change_px": 7.539286459113012,
+      "tracker": "sam3-point-768",
+      "source_sha256": "0d8dea53daaa2c210c280e6930ff71e60b4f786e4f4c6af3f3b020e56a86549e",
+      "verdict": "visible_within_25px",
+      "note": "A small ball is visible just below the moving stick blade.",
+      "reviewed_ball_pixel": [
+        785,
+        495
+      ]
+    },
+    {
+      "frame": 4429,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        1040.3404635047843,
+        525.9541113382256
+      ],
+      "before_pixel": [
+        0.5416389794799591,
+        0.4857372554520749
+      ],
+      "change_px": 1.4137767601868285,
+      "tracker": "sam3-point-768",
+      "source_sha256": "7cf776ab627d4d56d517a16631ceae1ff874953c10ba9a450600705ac64bc317",
+      "verdict": "unverified",
+      "note": "The target lies on the official hand; ball and hand cannot be separated in this frame."
+    },
+    {
+      "frame": 4438,
+      "before_state": "tracked",
+      "after_state": "tracked",
+      "pixel": [
+        1021.4530630782913,
+        393.19156747496373
+      ],
+      "before_pixel": [
+        0.5321486913828793,
+        0.3645987804330255
+      ],
+      "change_px": 0.6363746978156668,
+      "tracker": "sam3-point-768",
+      "source_sha256": "d18fcefd23b399e1027086c4d468b1e97029cf788342844f857aafc0b5490fca",
+      "verdict": "visible_within_25px",
+      "note": "The pink ball is clearly airborne between the officials.",
+      "reviewed_ball_pixel": [
+        1020,
+        395
+      ]
+    }
+  ]
+}

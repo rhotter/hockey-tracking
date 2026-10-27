@@ -1,0 +1,100 @@
+{
+  "models": [
+    "sam3-point-768",
+    "sam3-box-768",
+    "sam3-box-384"
+  ],
+  "crop_native_size": [
+    768,
+    576
+  ],
+  "half_window_frames": 90,
+  "seed_selection": "Nearest already published visual anchor to six preselected pilot times; no annotation coordinates used.",
+  "pilot_seeds": [
+    {
+      "frame": 150,
+      "pixel": [
+        0.3646351776591741,
+        0.6284096064573542
+      ],
+      "evidence_score": 0.999
+    },
+    {
+      "frame": 425,
+      "pixel": [
+        0.6393650360866905,
+        0.5470215669540928
+      ],
+      "evidence_score": 0.34442830681800846
+    },
+    {
+      "frame": 1012,
+      "pixel": [
+        0.11105603695543086,
+        0.5381900693320708
+      ],
+      "evidence_score": 0.999
+    },
+    {
+      "frame": 1837,
+      "pixel": [
+        0.24409268265900932,
+        0.7439182400849778
+      ],
+      "evidence_score": 0.9073457717895508
+    },
+    {
+      "frame": 2812,
+      "pixel": [
+        0.18068230444088354,
+        0.7861635434866608
+      ],
+      "evidence_score": 0.999
+    },
+    {
+      "frame": 3989,
+      "pixel": [
+        0.6717861680904806,
+        0.46158307534212756
+      ],
+      "evidence_score": 0.6256305694580079
+    }
+  ],
+  "baseline_sha256": "ed7792a0bac0c6205cece6dd1c3595361054d7e64195bcccad859a6d33321906",
+  "camera_compensation": "Moving crop centered on seed point transformed by floor homographies; approximate for non-floor objects. Reject explicit edit range.",
+  "purpose": "Compare learned spatiotemporal point propagation against the sparse detector baseline; output proposals, not automatically accepted tracking.",
+  "schema_version": 1,
+  "source_id": "OLpK8enSjJs",
+  "recording_start_s": 900,
+  "fps": 15,
+  "sam3_code": "7f473cfd983d5eb43040ff608f66bff0d7bdcb53",
+  "sam3_weights_revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "development_seeds": [
+    150,
+    1012,
+    2812
+  ],
+  "validation_seeds": [
+    425,
+    1837,
+    3989
+  ],
+  "box_native_half_size": 8,
+  "mask_threshold": 0,
+  "maximum_mask_area": 600,
+  "maximum_mask_extent": 48,
+  "minimum_mask_area": 2,
+  "appearance_threshold": 0.3,
+  "selection": "On development seed intervals only, maximize within_25px - 3*outside_25px, then within_12px, then fewer outside_25px. Compare frozen filtered variants; report validation separately. All references are reused development observations.",
+  "evaluation": "Same six seeds and camera-compensated windows as prior TAPNext++ pilot. Exclude every seed and its +-3 frames. Compare raw mask centers and shape/appearance-filtered centers. No labels used as inference prompts.",
+  "fusion": "Retain original visual anchors. Compare appearance-filtered TAPNext++ and SAM. If agreeing within 25 native pixels choose the higher appearance score; otherwise prefer the higher score only if its margin is at least 0.2, and retain TAP on smaller conflicts. Keep the final output one position.",
+  "audit": "Inspect 24 added or changed candidate positions selected evenly by time after freezing outputs. Review before/after native crops; include visible errors and unclear cases. Do not treat unknown ball locations as correct.",
+  "scope": "NBHL ball hockey, same previously examined five-minute recording; no independent or new-game accuracy claim. No model weight fine-tuning in this experiment.",
+  "input_sha256": {
+    "web/data/overhead-20261025/replay.json": "c8adb035b269ba3562dc64dd504483c811107d753598ff344862b9650a5c8b93",
+    "web/data/ball-rebuild-20261026/replay.json": "ed7792a0bac0c6205cece6dd1c3595361054d7e64195bcccad859a6d33321906",
+    "experiments/ball-sequence-20261026/results/tapnextpp512-pilot.json": "f4085743557124283aa7abff749b53a4471ddd47be8cb61a9d379a2bc0c9d29a",
+    "experiments/ball-sequence-20261026/results/tapnextpp512-all.json": "d282760214e13286a2e7d8a28ab1d5d0a9cbd9d418bd3952069d324a451b9d4b",
+    "experiments/ball-sequence-20261026/results/tapnextpp512-verified.json": "f41353c5724f40b02eaa94a12c9d2954d462e612fe4565fe0d835855b437b4cb"
+  }
+}
